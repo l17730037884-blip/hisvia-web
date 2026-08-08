@@ -1,29 +1,29 @@
-import Link from "next/link";
-import type { Metadata } from "next";
-import { SectionHead } from "@/components/ui";
+import { SectionHead, PlaceholderPhoto } from "@/components/ui";
+import { routes } from "@/lib/routes";
 import { applications } from "@/lib/applications";
+import { pageT } from "@/lib/page-translations";
 import type { Locale } from "@/lib/locales";
 
-export const metadata: Metadata = {
-  title: "Industrial Supply Chain Solutions By Application — HISVIA",
-  description: "Targeted sourcing solutions for compressor service, industrial distributors, mining maintenance, rental equipment, and factory maintenance.",
-};
-
-export default function ApplicationsPage({ params }: { params: { locale: Locale } }) {
+export default function ApplicationsIndex({ params }: { params: { locale: Locale } }) {
   const base = `/${params.locale}`;
+  const t = pageT[params.locale].applications;
   return (
-    <main className="mx-auto max-w-wrap px-6 py-16">
-      <SectionHead kicker="Applications" title="Industrial Sourcing Solutions" description="Targeted approaches for different industrial roles — each with specific pain points addressed and measurable outcomes." />
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {applications.map((a) => (
-          <Link key={a.slug} href={`${base}/applications/${a.slug}`} className="group rounded border border-line bg-white p-6 transition-shadow hover:shadow-md">
-            <p className="mb-2 font-mono text-[11px] uppercase tracking-widest text-amber">{a.audience}</p>
-            <h2 className="text-[17px] font-bold text-navy group-hover:text-amber">{a.name}</h2>
-            <p className="mt-2 text-[12.5px] text-graphite line-clamp-3">{a.solution}</p>
-            <span className="mt-3 inline-block text-[12px] font-medium text-amber">View solution →</span>
-          </Link>
-        ))}
-      </div>
+    <main className="animate-fade-in-up">
+      <section className="border-b border-line hero-gradient py-20">
+        <div className="mx-auto max-w-wrap px-8"><SectionHead kicker={t.kicker} title={t.title} description={t.desc} /></div>
+      </section>
+      <section className="py-16 section-white">
+        <div className="mx-auto max-w-wrap px-8">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 stagger-children">
+            {applications.map((a) => (
+              <a key={a.slug} href={`${base}${routes.application(a.slug)}`} className="group rounded-sm border border-line bg-white card-hover overflow-hidden">
+                <PlaceholderPhoto caption={a.name} prompt={`industrial ${a.name.toLowerCase()} application, realistic photograph`} alt={a.name} imageSize="landscape_4_3" className="aspect-[4/3] border-0" interactive />
+                <div className="p-6"><h3 className="text-[16px] font-bold text-navy transition-colors duration-300 group-hover:text-amber">{a.name}</h3><p className="mt-2 text-[13px] text-graphite">{a.audience?.substring(0, 120)}</p><span className="mt-4 inline-flex items-center gap-1.5 font-mono text-[12px] text-amber transition-all duration-300 group-hover:gap-2">Learn more →</span></div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

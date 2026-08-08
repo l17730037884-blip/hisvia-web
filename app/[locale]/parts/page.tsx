@@ -1,40 +1,29 @@
-import Link from "next/link";
-import type { Metadata } from "next";
-import { SectionHead, PrimaryButton } from "@/components/ui";
-import { partCategories } from "@/lib/parts";
+import { SectionHead, PlaceholderPhoto } from "@/components/ui";
 import { routes } from "@/lib/routes";
+import { partCategories } from "@/lib/parts";
+import { pageT } from "@/lib/page-translations";
 import type { Locale } from "@/lib/locales";
 
-export const metadata: Metadata = {
-  title: "Industrial Replacement Parts Database — HISVIA",
-  description: "Find compatible replacement components for compressors, hydraulics, mechanical systems, and industrial consumables from verified Chinese manufacturers.",
-};
-
-export function generateStaticParams() {
-  return [];
-}
-
-export default function PartsPage({ params }: { params: { locale: Locale } }) {
+export default function PartsIndex({ params }: { params: { locale: Locale } }) {
   const base = `/${params.locale}`;
+  const t = pageT[params.locale].parts;
   return (
-    <main className="mx-auto max-w-wrap px-6 py-16">
-      <SectionHead
-        kicker="Parts Database"
-        title="Industrial Replacement Components"
-        description="Browse by component category. Every part sourced from verified Chinese manufacturers with technical matching and quality verification."
-      />
-      <div className="grid gap-6 sm:grid-cols-2">
-        {partCategories.map((c) => (
-          <Link key={c.slug} href={`${base}/parts/${c.slug}`} className="group rounded border border-line bg-white p-6 transition-shadow hover:shadow-md">
-            <h2 className="text-[18px] font-bold text-navy group-hover:text-amber">{c.name}</h2>
-            <p className="mt-2 text-[13px] text-graphite">{c.tagline}</p>
-            <span className="mt-3 inline-block text-[12px] font-medium text-amber">Browse components →</span>
-          </Link>
-        ))}
-      </div>
-      <div className="mt-12 text-center">
-        <PrimaryButton href={`${base}${routes.request}`}>Submit Technical Requirement →</PrimaryButton>
-      </div>
+    <main className="animate-fade-in-up">
+      <section className="border-b border-line hero-gradient py-20">
+        <div className="mx-auto max-w-wrap px-8"><SectionHead kicker={t.kicker} title={t.title} description={t.desc} /></div>
+      </section>
+      <section className="py-16 section-white">
+        <div className="mx-auto max-w-wrap px-8">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 stagger-children">
+            {partCategories.map((p) => (
+              <a key={p.slug} href={`${base}${routes.part(p.slug)}`} className="group rounded-sm border border-line bg-white card-hover overflow-hidden">
+                <PlaceholderPhoto caption={p.name} prompt={`industrial ${p.name.toLowerCase()} parts and components, realistic photograph`} alt={p.name} imageSize="landscape_4_3" className="aspect-[4/3] border-0" interactive />
+                <div className="p-6"><h3 className="text-[16px] font-bold text-navy transition-colors duration-300 group-hover:text-amber">{p.name}</h3><p className="mt-2 text-[13px] text-graphite">{p.tagline?.substring(0, 120)}</p><span className="mt-4 inline-flex items-center gap-1.5 font-mono text-[12px] text-amber transition-all duration-300 group-hover:gap-2">View details →</span></div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

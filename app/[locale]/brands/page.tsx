@@ -1,42 +1,30 @@
-import { SectionHead } from "@/components/ui";
+import { SectionHead, PlaceholderPhoto } from "@/components/ui";
 import { routes } from "@/lib/routes";
 import { brands } from "@/lib/brands";
+import { pageT } from "@/lib/page-translations";
 import type { Locale } from "@/lib/locales";
-
-export const metadata = {
-  title: "Compatible Replacement Parts by Brand — HISVIA",
-  description: "Compatible replacement parts sourced from China for Atlas Copco, Kaeser, Ingersoll Rand, Sullair, Gardner Denver, and Hitachi equipment.",
-};
 
 export default function BrandsIndex({ params }: { params: { locale: Locale } }) {
   const base = `/${params.locale}`;
+  const t = pageT[params.locale];
+  const b = t.brands;
   return (
-    <>
-      <section className="border-b border-line bg-fog py-16">
-        <div className="mx-auto max-w-wrap px-8">
-          <SectionHead
-            kicker="Compatible Replacement Solutions"
-            title="Find replacement parts by equipment brand."
-            description="HISVIA is not authorized by, sponsored by, or affiliated with the manufacturers listed below. Brand names are referenced solely to describe equipment compatibility for maintenance and replacement purposes."
-          />
-        </div>
+    <main className="animate-fade-in-up">
+      <section className="border-b border-line hero-gradient py-20">
+        <div className="mx-auto max-w-wrap px-8"><SectionHead kicker={b.kicker} title={b.title} description={b.desc} /></div>
       </section>
-      <section className="py-16">
+      <section className="py-16 section-white">
         <div className="mx-auto max-w-wrap px-8">
-          <div className="grid grid-cols-1 gap-px border border-line bg-line md:grid-cols-3">
-            {brands.map((b) => (
-              <a
-                key={b.slug}
-                href={`${base}${routes.brand(b.slug)}`}
-                className="flex min-h-[130px] flex-col justify-between bg-white p-7 hover:bg-fog"
-              >
-                <div className="font-display text-xl font-bold text-navy">{b.name}</div>
-                <span className="font-mono text-[11.5px] text-steel">View compatible parts →</span>
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 stagger-children">
+            {brands.map((br) => (
+              <a key={br.slug} href={`${base}${routes.brand(br.slug)}`} className="group rounded-sm border border-line bg-white card-hover overflow-hidden">
+                <PlaceholderPhoto caption={br.name} prompt={`${br.name} industrial compressor equipment factory, realistic photograph`} alt={br.name} imageSize="landscape_4_3" className="aspect-[4/3] border-0" interactive />
+                <div className="p-6"><h3 className="text-[16px] font-bold text-navy transition-colors duration-300 group-hover:text-amber">{br.name}</h3><p className="mt-2 text-[13px] text-graphite">{br.tagline}</p><span className="mt-4 inline-flex items-center gap-1.5 font-mono text-[12px] text-amber transition-all duration-300 group-hover:gap-2">View parts →</span></div>
               </a>
             ))}
           </div>
         </div>
       </section>
-    </>
+    </main>
   );
 }
