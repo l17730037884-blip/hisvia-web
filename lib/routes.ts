@@ -1,0 +1,28 @@
+export const routes = {
+  home: "",
+  about: "/about",
+  partnershipModel: "/partnership-model",
+  howWeWork: "/how-we-work",
+  solutions: {
+    compressors: "/solutions/compressors",
+    compressorParts: "/solutions/compressor-parts",
+    pumps: "/solutions/pumps",
+    hydraulics: "/solutions/hydraulics",
+    valves: "/solutions/valves",
+    automation: "/solutions/automation",
+    mechanical: "/solutions/mechanical",
+    consumables: "/solutions/consumables",
+  },
+  compatibleSolutions: "/compatible-solutions",
+  manufacturingCapability: "/manufacturing-capability",
+  partners: {
+    serviceCenters: "/partners/service-centers",
+    distributors: "/partners/distributors",
+    regionalPartners: "/partners/regional-partners",
+  },
+  qualityControl: "/quality-control",
+  supplyChainNetwork: "/supply-chain-network",
+  faq: "/faq",
+  contact: "/contact",
+  submitRequirement: "/submit-requirement",
+} as const;

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #4a5a66;
+}
+
+/* Inspection-tag signature component, reused across pages */
+.inspection-tag {
+  position: relative;
+  background: #fff;
+  border: 1px solid #cbe0f2;
+  padding: 16px 18px 16px 22px;
+  box-shadow: 0 12px 28px rgba(18, 49, 86, 0.14);
+}
+.inspection-tag::before {
+  content: "";
+  position: absolute;
+  left: -1px;
+  top: 20px;
+  bottom: 20px;
+  width: 4px;
+  background: #d98a3d;
+}
