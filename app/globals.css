@@ -642,19 +642,11 @@ a:focus-visible, button:focus-visible {
   outline-offset: 2px;
   border-radius: 2px;
 }
-
 /* ==========================================
-   IMAGE FALLBACK — smooth loading
+   IMAGE — smooth loading
 ========================================== */
 img {
   transition: opacity 0.4s ease;
-}
-img[loading="lazy"] {
-  opacity: 0;
-}
-img[loading="lazy"].loaded,
-img:not([loading="lazy"]) {
-  opacity: 1;
 }
 
 /* ==========================================
