@@ -23,12 +23,12 @@ export default function ApplicationPage({ params }: Props) {
   const base = `/${params.locale}`;
 
   return (
-    <main className="mx-auto max-w-wrap px-6 py-16">
+    <main className="mx-auto max-w-wrap px-6 py-16 animate-fade-in-up">
       <SectionHead kicker={`For ${app.audience}`} title={app.name} description={app.solution} />
 
       <div className="grid gap-10 lg:grid-cols-2">
         {/* Pain Points */}
-        <div className="rounded border border-line bg-white p-6">
+        <div className="rounded border border-line bg-white p-6 card-hover">
           <h2 className="mb-4 text-[18px] font-bold text-navy">Challenges You Face</h2>
           <ul className="space-y-3">
             {app.painPoints.map((p) => (
@@ -40,7 +40,7 @@ export default function ApplicationPage({ params }: Props) {
         </div>
 
         {/* Benefits */}
-        <div className="rounded border border-line bg-white p-6">
+        <div className="rounded border border-line bg-white p-6 card-hover">
           <h2 className="mb-4 text-[18px] font-bold text-navy">How HISVIA Helps</h2>
           <ul className="space-y-3">
             {app.benefits.map((b) => (

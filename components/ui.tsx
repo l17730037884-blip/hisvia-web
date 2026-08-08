@@ -43,7 +43,7 @@ export function PrimaryButton({
   variant?: "default" | "inverted";
 }) {
   const base =
-    "inline-flex items-center gap-2 px-5 py-[11px] text-[13px] font-semibold transition-all duration-200 ease-out shadow-sm hover:shadow-md";
+    "inline-flex items-center gap-2 px-5 py-[11px] text-[13px] font-semibold transition-all duration-200 ease-out shadow-sm hover:shadow-md btn-press";
   const style =
     variant === "inverted"
       ? "border border-white/80 bg-white text-navy hover:bg-amber hover:border-amber hover:text-white"
@@ -65,7 +65,7 @@ export function GhostButton({
   variant?: "default" | "inverted";
 }) {
   const base =
-    "inline-flex items-center gap-2 px-[19px] py-2.5 text-[13px] font-semibold transition-all duration-200 ease-out shadow-sm hover:shadow-md";
+    "inline-flex items-center gap-2 px-[19px] py-2.5 text-[13px] font-semibold transition-all duration-200 ease-out shadow-sm hover:shadow-md btn-press";
   const style =
     variant === "inverted"
       ? "border border-white/30 bg-white/5 text-white backdrop-blur hover:border-white/80 hover:bg-white/10"

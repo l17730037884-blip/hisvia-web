@@ -77,7 +77,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
           </div>
           <div className="grid gap-6 md:grid-cols-3">
             {/* Card 1: By Brand */}
-            <a href={`/${params.locale}/brands`} className="group rounded border border-line bg-white p-6 transition-shadow hover:shadow-lg">
+            <a href={`/${params.locale}/brands`} className="group rounded border border-line bg-white p-6 card-hover">
               <div className="mb-4 flex h-12 w-12 items-center justify-center bg-amber/10 font-mono text-lg text-amber">01</div>
               <h3 className="text-[18px] font-bold text-navy group-hover:text-amber">Find by Equipment Brand</h3>
               <div className="mt-2 flex flex-wrap gap-1.5">
@@ -88,7 +88,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
               <span className="mt-4 inline-block text-[13px] font-medium text-amber">Explore Brands →</span>
             </a>
             {/* Card 2: By Component */}
-            <a href={`/${params.locale}/parts`} className="group rounded border border-line bg-white p-6 transition-shadow hover:shadow-lg">
+            <a href={`/${params.locale}/parts`} className="group rounded border border-line bg-white p-6 card-hover">
               <div className="mb-4 flex h-12 w-12 items-center justify-center bg-amber/10 font-mono text-lg text-amber">02</div>
               <h3 className="text-[18px] font-bold text-navy group-hover:text-amber">Find by Component</h3>
               <div className="mt-2 flex flex-wrap gap-1.5">
@@ -99,7 +99,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
               <span className="mt-4 inline-block text-[13px] font-medium text-amber">Explore Parts →</span>
             </a>
             {/* Card 3: Submit Requirement */}
-            <a href={`/${params.locale}/request`} className="group rounded border border-line bg-white p-6 transition-shadow hover:shadow-lg">
+            <a href={`/${params.locale}/request`} className="group rounded border border-line bg-white p-6 card-hover">
               <div className="mb-4 flex h-12 w-12 items-center justify-center bg-amber/10 font-mono text-lg text-amber">03</div>
               <h3 className="text-[18px] font-bold text-navy group-hover:text-amber">Submit Technical Requirement</h3>
               <p className="mt-2 text-[13px] text-graphite">Upload equipment photos, nameplate, drawings, or part numbers. Technical response within 2 business days.</p>

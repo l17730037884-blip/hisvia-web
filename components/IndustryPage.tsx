@@ -38,7 +38,7 @@ export default function IndustryPage({ industry, locale }: { industry: Industry;
           <p className="mb-8 font-mono text-xs uppercase tracking-wide text-steel">Partnership Process</p>
           <div className="flex flex-col border-y border-line md:flex-row">
             {flowSteps.map((s) => (
-              <div key={s.n} className="flex-1 border-b border-line bg-white p-6 last:border-b-0 md:border-b-0 md:border-r md:last:border-r-0">
+              <div key={s.n} className="flex-1 border-b border-line bg-white p-6 last:border-b-0 md:border-b-0 md:border-r md:last:border-r-0 card-hover">
                 <div className="mb-2.5 font-mono text-[11px] text-amber">{s.n}</div>
                 <h3 className="mb-2 text-[14px] font-semibold leading-snug text-navy">{s.title}</h3>
                 <p className="text-[12px] text-graphite">{s.body}</p>

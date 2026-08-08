@@ -5,7 +5,7 @@ import { routes } from "@/lib/routes";
 export default function BrandPage({ brand, locale }: { brand: Brand; locale: string }) {
   const base = `/${locale}`;
   return (
-    <section className="mx-auto max-w-wrap px-6 py-16">
+    <section className="mx-auto max-w-wrap px-6 py-16 animate-fade-in-up">
       {/* Hero */}
       <div className="mb-14">
         <p className="mb-3 font-mono text-xs uppercase tracking-widest text-amber">Compatible Replacement Solutions</p>
@@ -20,13 +20,13 @@ export default function BrandPage({ brand, locale }: { brand: Brand; locale: str
           {/* Supported Equipment */}
           <div>
             <h2 className="mb-6 text-[20px] font-bold text-navy">Supported Equipment</h2>
-            <div className="grid gap-4 sm:grid-cols-2">
+            <div className="grid gap-4 sm:grid-cols-2 stagger-children">
               {brand.series.map((s) => (
-                <div key={s.name} className="rounded border border-line bg-white p-4">
+                <div key={s.name} className="rounded border border-line bg-white p-4 card-hover">
                   <p className="mb-2 text-sm font-semibold text-navy">{s.name}</p>
                   <div className="flex flex-wrap gap-1.5">
                     {s.models.map((m) => (
-                      <span key={m} className="rounded bg-[#F4F6F8] px-2 py-0.5 font-mono text-[11px] text-graphite">{m}</span>
+                      <span key={m} className="rounded bg-[#F4F6F8] px-2 py-0.5 font-mono text-[11px] text-graphite tag-chip">{m}</span>
                     ))}
                   </div>
                 </div>
@@ -37,9 +37,9 @@ export default function BrandPage({ brand, locale }: { brand: Brand; locale: str
           {/* Common Replacement Components */}
           <div>
             <h2 className="mb-6 text-[20px] font-bold text-navy">Common Replacement Components</h2>
-            <div className="grid gap-4 sm:grid-cols-2">
+            <div className="grid gap-4 sm:grid-cols-2 stagger-children">
               {brand.categories.map((c) => (
-                <div key={c.name} className="rounded border border-line bg-white p-4">
+                <div key={c.name} className="rounded border border-line bg-white p-4 card-hover">
                   <p className="mb-1.5 text-sm font-semibold text-navy">{c.name}</p>
                   <p className="text-[12.5px] text-steel">{c.items.join(" / ")}</p>
                 </div>
@@ -52,7 +52,7 @@ export default function BrandPage({ brand, locale }: { brand: Brand; locale: str
             <h2 className="mb-6 text-[20px] font-bold text-navy">Replacement Sourcing Workflow</h2>
             <div className="space-y-3">
               {brand.workflow.map((w) => (
-                <div key={w.step} className="flex items-start gap-4 rounded border border-line bg-white p-4">
+                <div key={w.step} className="flex items-start gap-4 rounded border border-line bg-white p-4 card-hover">
                   <span className="mt-0.5 shrink-0 font-mono text-[13px] font-bold text-amber">{w.step}</span>
                   <div>
                     <p className="text-[13.5px] font-medium text-navy">{w.step.slice(3)}</p>

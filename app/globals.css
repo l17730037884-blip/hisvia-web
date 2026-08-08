@@ -10,7 +10,137 @@ body {
   color: #4a5a66;
 }
 
-/* Inspection-tag signature component, reused across pages */
+/* ----------------------------------------
+   Base animation utilities
+---------------------------------------- */
+
+/* Fade in from bottom */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Fade in */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Slide in from left */
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-12px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+/* Scale in */
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.96); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* Subtle float */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-4px); }
+}
+
+/* ----------------------------------------
+   Utility classes
+---------------------------------------- */
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease-out both;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out both;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.35s ease-out both;
+}
+
+/* Staggered children */
+.stagger-children > * {
+  opacity: 0;
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+.stagger-children > *:nth-child(1)  { animation-delay: 0.05s; }
+.stagger-children > *:nth-child(2)  { animation-delay: 0.1s; }
+.stagger-children > *:nth-child(3)  { animation-delay: 0.15s; }
+.stagger-children > *:nth-child(4)  { animation-delay: 0.2s; }
+.stagger-children > *:nth-child(5)  { animation-delay: 0.25s; }
+.stagger-children > *:nth-child(6)  { animation-delay: 0.3s; }
+.stagger-children > *:nth-child(7)  { animation-delay: 0.35s; }
+.stagger-children > *:nth-child(8)  { animation-delay: 0.4s; }
+.stagger-children > *:nth-child(9)  { animation-delay: 0.45s; }
+.stagger-children > *:nth-child(10) { animation-delay: 0.5s; }
+
+/* ----------------------------------------
+   Card hover effects
+---------------------------------------- */
+
+.card-hover {
+  transition: transform 0.25s cubic-bezier(0.2, 0, 0, 1),
+              box-shadow 0.25s cubic-bezier(0.2, 0, 0, 1);
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(14, 42, 74, 0.1);
+}
+
+/* Tag/chip hover */
+.tag-chip {
+  transition: background 0.2s ease, transform 0.2s ease, color 0.2s ease;
+  cursor: default;
+}
+.tag-chip:hover {
+  transform: translateY(-1px);
+  background: #E8ECF0;
+}
+
+/* Button micro-interaction */
+.btn-press {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.btn-press:active {
+  transform: scale(0.97);
+}
+
+/* Link underline animation */
+.link-underline {
+  position: relative;
+}
+.link-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 1.5px;
+  background: currentColor;
+  transition: width 0.25s ease;
+}
+.link-underline:hover::after {
+  width: 100%;
+}
+
+/* ----------------------------------------
+   Detail/summary accordion
+---------------------------------------- */
+details summary {
+  transition: color 0.2s ease;
+}
+details[open] summary {
+  color: #D98A3D;
+}
+details .content-enter {
+  animation: fadeInUp 0.25s ease-out both;
+}
+
+/* ----------------------------------------
+   Inspection tag (kept from original)
+---------------------------------------- */
 .inspection-tag {
   position: relative;
   background: #fff;
@@ -26,4 +156,31 @@ body {
   bottom: 20px;
   width: 4px;
   background: #d98a3d;
+}
+
+/* ----------------------------------------
+   Smooth section entrance (scroll-triggered via IntersectionObserver)
+   Applied via JS in a client component
+---------------------------------------- */
+.reveal-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s cubic-bezier(0.2, 0, 0, 1);
+}
+.reveal-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ----------------------------------------
+   Skeleton loading shimmer
+---------------------------------------- */
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.skeleton {
+  background: linear-gradient(90deg, #F4F6F8 25%, #E8ECF0 50%, #F4F6F8 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
 }

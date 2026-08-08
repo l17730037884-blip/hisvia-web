@@ -20,28 +20,28 @@ export default function Header({ locale }: { locale: Locale }) {
         </Link>
 
         <div className="hidden items-center gap-8 md:flex">
-          <Link href={`${base}${routes.about}`} className="text-sm font-medium text-graphite hover:text-navy">
+          <Link href={`${base}${routes.about}`} className="text-sm font-medium text-graphite hover:text-navy transition-colors duration-200">
             {t.about}
           </Link>
-          <Link href={`${base}${routes.partnershipModel}`} className="text-sm font-medium text-graphite hover:text-navy">
+          <Link href={`${base}${routes.partnershipModel}`} className="text-sm font-medium text-graphite hover:text-navy transition-colors duration-200">
             {t.partnershipModel}
           </Link>
-          <Link href={`${base}${routes.manufacturingCapability}`} className="text-sm font-medium text-graphite hover:text-navy">
+          <Link href={`${base}${routes.manufacturingCapability}`} className="text-sm font-medium text-graphite hover:text-navy transition-colors duration-200">
             Capabilities
           </Link>
-          <Link href={`${base}${routes.brands}`} className="text-sm font-medium text-graphite hover:text-navy">
+          <Link href={`${base}${routes.brands}`} className="text-sm font-medium text-graphite hover:text-navy transition-colors duration-200">
             Brands
           </Link>
-          <Link href={`${base}${routes.industries}`} className="text-sm font-medium text-graphite hover:text-navy">
+          <Link href={`${base}${routes.industries}`} className="text-sm font-medium text-graphite hover:text-navy transition-colors duration-200">
             Industries
           </Link>
-          <Link href={`${base}${routes.parts}`} className="text-sm font-medium text-graphite hover:text-navy">
+          <Link href={`${base}${routes.parts}`} className="text-sm font-medium text-graphite hover:text-navy transition-colors duration-200">
             Parts
           </Link>
-          <Link href={`${base}${routes.manufacturingNetwork}`} className="text-sm font-medium text-graphite hover:text-navy">
+          <Link href={`${base}${routes.manufacturingNetwork}`} className="text-sm font-medium text-graphite hover:text-navy transition-colors duration-200">
             Network
           </Link>
-          <Link href={`${base}${routes.qualityControl}`} className="text-sm font-medium text-graphite hover:text-navy">
+          <Link href={`${base}${routes.qualityControl}`} className="text-sm font-medium text-graphite hover:text-navy transition-colors duration-200">
             {t.qualityControl}
           </Link>
 

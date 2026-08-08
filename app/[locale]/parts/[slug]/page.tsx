@@ -28,7 +28,7 @@ export default function PartCategoryPage({ params }: Props) {
   const base = `/${params.locale}`;
 
   return (
-    <main className="mx-auto max-w-wrap px-6 py-16">
+    <main className="mx-auto max-w-wrap px-6 py-16 animate-fade-in-up">
       <SectionHead kicker="Parts Database" title={cat.name} description={cat.description} />
 
       <div className="grid gap-10 lg:grid-cols-[1fr_300px]">
@@ -36,9 +36,9 @@ export default function PartCategoryPage({ params }: Props) {
           {/* Items */}
           <div>
             <h2 className="mb-4 text-[18px] font-bold text-navy">Component Categories</h2>
-            <div className="grid gap-3 sm:grid-cols-2">
+            <div className="grid gap-3 sm:grid-cols-2 stagger-children">
               {cat.items.map((item) => (
-                <div key={item.name} className="rounded border border-line bg-white p-4">
+                <div key={item.name} className="rounded border border-line bg-white p-4 card-hover">
                   <p className="text-sm font-semibold text-navy">{item.name}</p>
                   <p className="mt-1 text-[12px] text-graphite">{item.specs}</p>
                 </div>

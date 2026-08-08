@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function ManufacturingNetworkPage({ params }: { params: { locale: Locale } }) {
   const base = `/${params.locale}`;
   return (
-    <main className="mx-auto max-w-wrap px-6 py-16">
+    <main className="mx-auto max-w-wrap px-6 py-16 animate-fade-in-up">
       <SectionHead
         kicker="Verified Network"
         title="Chinese Manufacturing Network"
@@ -22,7 +22,7 @@ export default function ManufacturingNetworkPage({ params }: { params: { locale:
       {/* Regions */}
       <div className="mb-14 grid gap-6 sm:grid-cols-2">
         {manufacturingRegions.map((r) => (
-          <div key={r.name} className="rounded border border-line bg-white p-6">
+          <div key={r.name} className="rounded border border-line bg-white p-6 card-hover">
             <p className="mb-1 font-mono text-[11px] uppercase tracking-widest text-amber">{r.specialization}</p>
             <h2 className="text-[20px] font-bold text-navy">{r.name}</h2>
             <ul className="mt-3 space-y-1.5">
