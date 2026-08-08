@@ -13,7 +13,7 @@ export default function Page({ params }: { params: { locale: Locale } }) {
       kicker="Industrial Consumables"
       title="Recurring consumable supply."
       description="Industrial consumables coordinated on a predictable, recurring schedule."
-      purpose="同四段式模板，强调“可预测的周期性供应”，区别于一次性贸易订单。"
+      purpose="Predictable periodic supply, distinct from one-off trade orders."
     />
   );
 }

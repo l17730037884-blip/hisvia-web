@@ -1,36 +1,34 @@
 import Link from "next/link";
 import { Locale, locales, localeLabel } from "@/lib/locales";
 import { routes } from "@/lib/routes";
-import { messages } from "@/lib/messages";
 
 export default function Header({ locale }: { locale: Locale }) {
   const base = `/${locale}`;
-  const t = messages[locale].nav;
   return (
-    <header className="sticky top-0 z-50 border-b-2 border-line bg-white/95 shadow-[0_2px_20px_-5px_rgba(14,42,74,0.12)] backdrop-blur">
-      <nav className="mx-auto flex h-[84px] max-w-wrap items-center justify-between px-8">
+    <header className="sticky top-0 z-50 border-b border-line bg-white/90 backdrop-blur">
+      <nav className="mx-auto flex h-[76px] max-w-wrap items-center justify-between px-8">
         <Link href={base} className="flex items-center gap-2.5">
           <span className="h-2.5 w-2.5 bg-amber" />
           <div className="font-display text-xl font-extrabold tracking-tight text-navy">
             HISVIA
             <small className="mt-0.5 block font-mono text-[10px] font-normal tracking-wide text-graphite">
-              {t.logoSubtitle}
+              CHINA INDUSTRIAL SUPPLY CHAIN PARTNER
             </small>
           </div>
         </Link>
 
         <div className="hidden items-center gap-8 md:flex">
-          <Link href={`${base}${routes.about}`} className="text-sm font-medium text-graphite hover:text-navy">
-            {t.about}
+          <Link href={`${base}${routes.brands}`} className="text-sm font-medium text-graphite hover:text-navy">
+            Brands
           </Link>
-          <Link href={`${base}${routes.partnershipModel}`} className="text-sm font-medium text-graphite hover:text-navy">
-            {t.partnershipModel}
+          <Link href={`${base}${routes.industries}`} className="text-sm font-medium text-graphite hover:text-navy">
+            Industries
           </Link>
-          <Link href={`${base}${routes.manufacturingCapability}`} className="text-sm font-medium text-graphite hover:text-navy">
-            {t.manufacturing}
+          <Link href={`${base}${routes.manufacturingNetwork}`} className="text-sm font-medium text-graphite hover:text-navy">
+            Manufacturing
           </Link>
           <Link href={`${base}${routes.qualityControl}`} className="text-sm font-medium text-graphite hover:text-navy">
-            {t.qualityControl}
+            Quality Control
           </Link>
 
           <div className="flex border border-line font-mono text-xs">
@@ -49,7 +47,7 @@ export default function Header({ locale }: { locale: Locale }) {
             href={`${base}${routes.submitRequirement}`}
             className="inline-flex items-center gap-2 border border-steel bg-steel px-5 py-2.5 text-[13px] font-semibold text-white hover:bg-navy hover:border-navy"
           >
-            {t.submitRequirement} →
+            Submit Requirement →
           </Link>
         </div>
       </nav>

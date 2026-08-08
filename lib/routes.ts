@@ -13,6 +13,11 @@ export const routes = {
     mechanical: "/solutions/mechanical",
     consumables: "/solutions/consumables",
   },
+  brands: "/brands",
+  brand: (slug: string) => `/brands/${slug}`,
+  industries: "/industries",
+  industry: (slug: string) => `/industries/${slug}`,
+  manufacturingNetwork: "/manufacturing",
   compatibleSolutions: "/compatible-solutions",
   manufacturingCapability: "/manufacturing-capability",
   partners: {
@@ -22,7 +27,11 @@ export const routes = {
   },
   qualityControl: "/quality-control",
   supplyChainNetwork: "/supply-chain-network",
+  cases: "/cases",
+  case: (slug: string) => `/cases/${slug}`,
   faq: "/faq",
   contact: "/contact",
   submitRequirement: "/submit-requirement",
+  request: "/request",
 } as const;
+

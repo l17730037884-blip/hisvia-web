@@ -2,8 +2,10 @@ import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/config";
 import { locales } from "@/lib/locales";
 import { routes } from "@/lib/routes";
+import { brands } from "@/lib/brands";
+import { industries } from "@/lib/industries";
+import { cases } from "@/lib/cases";
 
-// 所有子页面路由（不含首页，首页单独处理）
 const subRoutes: string[] = [
   routes.about,
   routes.partnershipModel,
@@ -26,13 +28,27 @@ const subRoutes: string[] = [
   routes.partners.serviceCenters,
   routes.partners.distributors,
   routes.partners.regionalPartners,
+  // Phase 2 new routes
+  routes.brands,
+  routes.industries,
+  routes.manufacturingNetwork,
+  routes.cases,
+  routes.request,
 ];
+
+// Dynamic brand pages
+const brandRoutes = brands.map((b) => `/brands/${b.slug}`);
+// Dynamic industry pages
+const industryRoutes = industries.map((i) => `/industries/${i.slug}`);
+// Dynamic case pages
+const caseRoutes = cases.map((c) => `/cases/${c.slug}`);
+
+const allRoutes = [...subRoutes, ...brandRoutes, ...industryRoutes, ...caseRoutes];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
   const entries: MetadataRoute.Sitemap = [];
 
-  // 各语言首页（最高优先级）
   locales.forEach((locale) => {
     entries.push({
       url: `${SITE_URL}/${locale}`,
@@ -42,8 +58,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   });
 
-  // 各语言子页面
-  subRoutes.forEach((route) => {
+  allRoutes.forEach((route) => {
     locales.forEach((locale) => {
       entries.push({
         url: `${SITE_URL}/${locale}${route}`,
