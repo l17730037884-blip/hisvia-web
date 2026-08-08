@@ -5,7 +5,7 @@ import type { Locale } from "@/lib/locales";
 
 export const metadata = {
   title: "Representative Examples — HISVIA",
-  description: "Representative sourcing examples showing how HISVIA matches Russian industrial partners with Chinese manufacturing resources.",
+  description: "Representative sourcing examples showing how HISVIA matches industrial partners in Russia, CIS & Central Asia with Chinese manufacturing resources.",
 };
 
 export default function CasesIndex({ params }: { params: { locale: Locale } }) {

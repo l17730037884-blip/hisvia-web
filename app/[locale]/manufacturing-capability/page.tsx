@@ -4,7 +4,7 @@ import type { Locale } from "@/lib/locales";
 
 export const metadata = {
   title: "Manufacturing Capability — HISVIA",
-  description: "Real manufacturing resources HISVIA connects Russian industrial partners to, not a reseller's contact list.",
+  description: "Real manufacturing resources HISVIA connects industrial partners in Russia, CIS & Central Asia to, not a reseller's contact list.",
 };
 
 const capabilities = [

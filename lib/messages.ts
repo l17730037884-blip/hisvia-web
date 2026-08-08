@@ -84,7 +84,7 @@ export type Messages = {
 export const messages: Record<Locale, Messages> = {
   ru: {
     meta: {
-      title: "HISVIA — Китайский партнер по промышленным цепочкам поставок для российских компаний",
+      title: "HISVIA — Китайский партнер по промышленным цепочкам поставок для компаний России, СНГ и Центральной Азии",
       description:
         "Объединяем российские сервисные компании с надежными китайскими производственными ресурсами — технический подбор, подтверждение качества и координация экспорта.",
     },
@@ -98,8 +98,8 @@ export const messages: Record<Locale, Messages> = {
     },
     hero: {
       kicker: "Партнерство в промышленных цепочках поставок",
-      h1: "Китайский партнер по промышленным цепочкам поставок для российских промышленных компаний",
-      p: "Для российских сервисных центров, дистрибьюторов и промышленных трейдеров — снизьте сложность закупок, получите доступ к проверенным китайским производственным ресурсам и найдите совместимые решения по замене, не создавая команды закупок в Китае.",
+      h1: "Китайский партнер по промышленным цепочкам поставок для промышленных компаний России, СНГ и Центральной Азии",
+      p: "Для сервисных центров, дистрибьюторов и промышленных компаний, дистрибьюторов и промышленных трейдеров — снизьте сложность закупок, получите доступ к проверенным китайским производственным ресурсам и найдите совместимые решения по замене, не создавая команды закупок в Китае.",
       primaryBtn: "Подать промышленную заявку →",
       ghostBtn: "Как мы работаем",
       statLabel: "Проверенная сеть",
@@ -233,7 +233,7 @@ export const messages: Record<Locale, Messages> = {
       email: "partner@hisvia.com",
     },
     footer: {
-      tagline: "Китайский партнер по промышленным цепочкам поставок для российских компаний и компаний СНГ.",
+      tagline: "Китайский партнер по промышленным цепочкам поставок для компаний России, СНГ и Центральной Азии и компаний СНГ.",
       company: "Компания",
       solutions: "Решения",
       partners: "Партнеры",
@@ -257,9 +257,9 @@ export const messages: Record<Locale, Messages> = {
 
   en: {
     meta: {
-      title: "HISVIA — China Industrial Supply Chain Partner for Russian Industrial Companies",
+      title: "HISVIA — Industrial Supply Chain Partner — Direct from Chinese Factories",
       description:
-        "Connecting Russian service companies with reliable Chinese manufacturing resources — technical matching, quality confirmation, and export coordination.",
+        "Get industrial components directly from verified Chinese factories. Engineer-led sourcing, quality control, and export handling — without the middleman markup.",
     },
     nav: {
       logoSubtitle: "CHINA INDUSTRIAL SUPPLY CHAIN PARTNER",
@@ -271,8 +271,8 @@ export const messages: Record<Locale, Messages> = {
     },
     hero: {
       kicker: "Industrial Supply Chain Partnership",
-      h1: "China Industrial Supply Chain Partner for Russian Industrial Companies",
-      p: "For Russian service centers, distributors, and industrial traders — reduce sourcing complexity, access verified Chinese manufacturing resources, and find compatible replacement solutions, without building a procurement team in China.",
+      h1: "Industrial Supply Chain Partner — Direct from Chinese Factories",
+      p: "Stop chasing quotes from dozens of factories. Get compatible industrial parts from verified Chinese manufacturers — with an engineer handling the technical matching, not a sales rep.",
       primaryBtn: "Submit Industrial Requirement →",
       ghostBtn: "See How We Work",
       statLabel: "Verified Network",
@@ -291,7 +291,7 @@ export const messages: Record<Locale, Messages> = {
       nots: ["We are not a Chinese seller", "We are not a wholesale trading company", "We are not an Alibaba-style supplier"],
       statement: {
         lead: "We are a supply chain partner connecting ",
-        h1: "Russian industrial service companies",
+        h1: "Industrial service companies",
         mid: " with ",
         h2: "reliable Chinese manufacturing resources",
         tail: " — built for long-term technical collaboration, not one-off orders.",
@@ -406,7 +406,7 @@ export const messages: Record<Locale, Messages> = {
       email: "partner@hisvia.com",
     },
     footer: {
-      tagline: "China Industrial Supply Chain Partner for Russian & CIS industrial companies.",
+      tagline: "China Industrial Supply Chain Partner for companies in Russia, CIS & Central Asia.",
       company: "Company",
       solutions: "Solutions",
       partners: "Partners",
@@ -569,7 +569,7 @@ export const messages: Record<Locale, Messages> = {
       email: "partner@hisvia.com",
     },
     footer: {
-      tagline: "面向俄罗斯及独联体工业企业的中国工业供应链合作伙伴。",
+      tagline: "面向俄罗斯、独联体及中亚工业企业的中国工业供应链合作伙伴。",
       company: "公司",
       solutions: "解决方案",
       partners: "合作伙伴",
