@@ -1,18 +1,29 @@
-import { SectionHead, PrimaryButton } from "@/components/ui";
+import { SectionHead, PrimaryButton, PlaceholderPhoto } from "@/components/ui";
 import { Brand } from "@/lib/brands";
 import { routes } from "@/lib/routes";
 
 export default function BrandPage({ brand, locale }: { brand: Brand; locale: string }) {
   const base = `/${locale}`;
   return (
-    <section className="mx-auto max-w-wrap px-6 py-16 animate-fade-in-up">
+    <section className="mx-auto max-w-wrap px-8 py-16 animate-fade-in-up">
       {/* Hero */}
-      <div className="mb-14">
-        <p className="mb-3 font-mono text-xs uppercase tracking-widest text-amber">Compatible Replacement Solutions</p>
-        <h1 className="text-[36px] font-bold leading-tight text-navy">
-          {brand.name} Compatible Replacement Parts
-        </h1>
-        <p className="mt-4 max-w-[640px] text-[15px] text-graphite">{brand.tagline}</p>
+      <div className="mb-14 grid gap-10 md:grid-cols-[1fr_1fr]">
+        <div className="flex flex-col justify-center">
+          <p className="mb-3 flex items-center gap-2.5 font-mono text-xs uppercase tracking-wide text-amber">
+            <span className="h-px w-6 bg-amber" /> Compatible Replacement Solutions
+          </p>
+          <h1 className="text-[36px] font-bold leading-tight text-navy">
+            {brand.name} Compatible Replacement Parts
+          </h1>
+          <p className="mt-4 max-w-[640px] text-[15px] text-graphite">{brand.tagline}</p>
+        </div>
+        <PlaceholderPhoto
+          caption={brand.name}
+          prompt={`${brand.name} industrial compressor equipment in factory setting, realistic photograph, professional industrial photography`}
+          alt={brand.name}
+          imageSize="landscape_4_3"
+          className="aspect-[4/3] min-h-[280px] rounded-sm card-elevated"
+        />
       </div>
 
       <div className="grid gap-14 lg:grid-cols-[1fr_320px]">
@@ -82,7 +93,7 @@ export default function BrandPage({ brand, locale }: { brand: Brand; locale: str
 
         {/* Sidebar CTA */}
         <aside className="hidden lg:block">
-          <div className="sticky top-28 space-y-5 rounded border border-line bg-[#F4F6F8] p-6">
+          <div className="sticky top-28 space-y-5 rounded border border-line bg-white p-6 card-elevated">
             <p className="text-[15px] font-semibold text-navy">Need a replacement part?</p>
             <p className="text-[13px] text-graphite">Submit your equipment model and part number — our technical team will match it within 2 business days.</p>
             <PrimaryButton href={`${base}${routes.request}?brand=${brand.slug}`}>

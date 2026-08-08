@@ -2,14 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ==========================================
+   BASE — smooth scroll, antialiasing, color
+========================================== */
 html { scroll-behavior: smooth; }
-body { color: #4a5a66; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body {
+  color: #46586B;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #FAFBFC;
+}
 
 /* ==========================================
-   Keyframes — rich animation library
+   KEYFRAME LIBRARY — rich animation set
 ========================================== */
 @keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(20px); }
+  from { opacity: 0; transform: translateY(24px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 @keyframes fadeInDown {
@@ -21,15 +29,15 @@ body { color: #4a5a66; -webkit-font-smoothing: antialiased; -moz-osx-font-smooth
   to   { opacity: 1; }
 }
 @keyframes scaleIn {
-  from { opacity: 0; transform: scale(0.94); }
+  from { opacity: 0; transform: scale(0.92); }
   to   { opacity: 1; transform: scale(1); }
 }
 @keyframes slideInLeft {
-  from { opacity: 0; transform: translateX(-16px); }
+  from { opacity: 0; transform: translateX(-20px); }
   to   { opacity: 1; transform: translateX(0); }
 }
 @keyframes slideInRight {
-  from { opacity: 0; transform: translateX(16px); }
+  from { opacity: 0; transform: translateX(20px); }
   to   { opacity: 1; transform: translateX(0); }
 }
 @keyframes shimmer {
@@ -37,16 +45,20 @@ body { color: #4a5a66; -webkit-font-smoothing: antialiased; -moz-osx-font-smooth
   100% { background-position: 200% 0; }
 }
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(217,138,61,0.25); }
-  50%      { box-shadow: 0 0 0 8px rgba(217,138,61,0); }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(217,138,61,0.3); }
+  50%      { box-shadow: 0 0 0 12px rgba(217,138,61,0); }
 }
 @keyframes float {
   0%, 100% { transform: translateY(0); }
-  50%      { transform: translateY(-8px); }
+  50%      { transform: translateY(-10px); }
+}
+@keyframes float-subtle {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-4px); }
 }
 @keyframes border-pulse {
-  0%, 100% { border-color: #D98A3D40; }
-  50%      { border-color: #D98A3D; }
+  0%, 100% { border-color: rgba(217,138,61,0.25); }
+  50%      { border-color: rgba(217,138,61,0.9); }
 }
 @keyframes gradient-shift {
   0%   { background-position: 0% 50%; }
@@ -54,63 +66,127 @@ body { color: #4a5a66; -webkit-font-smoothing: antialiased; -moz-osx-font-smooth
   100% { background-position: 0% 50%; }
 }
 @keyframes count-up {
-  from { opacity: 0; transform: translateY(8px); }
+  from { opacity: 0; transform: translateY(10px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 @keyframes draw-line {
   to { stroke-dashoffset: 0; }
 }
+@keyframes spring-in {
+  0%   { opacity: 0; transform: scale(0.88); }
+  60%  { opacity: 1; transform: scale(1.03); }
+  100% { transform: scale(1); }
+}
+@keyframes breathe {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(217,138,61,0.18); }
+  50%      { box-shadow: 0 0 0 10px rgba(217,138,61,0); }
+}
+@keyframes dot-pulse {
+  0%, 100% { opacity: 0.3; transform: scale(0.7); }
+  50%      { opacity: 1; transform: scale(1); }
+}
+@keyframes reveal-clip {
+  from { clip-path: inset(0 0 100% 0); }
+  to   { clip-path: inset(0 0 0% 0); }
+}
 
 /* ==========================================
-   Utility animation classes
+   UTILITY ANIMATION CLASSES
 ========================================== */
-.animate-fade-in-up   { animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both; }
-.animate-fade-in-down { animation: fadeInDown 0.5s cubic-bezier(0.16, 1, 0.3, 1) both; }
-.animate-fade-in      { animation: fadeIn 0.5s ease-out both; }
-.animate-scale-in     { animation: scaleIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) both; }
-.animate-slide-left   { animation: slideInLeft 0.5s cubic-bezier(0.16, 1, 0.3, 1) both; }
-.animate-slide-right  { animation: slideInRight 0.5s cubic-bezier(0.16, 1, 0.3, 1) both; }
-.animate-float        { animation: float 4s ease-in-out infinite; }
+.animate-fade-in-up    { animation: fadeInUp 0.65s cubic-bezier(0.16,1,0.3,1) both; }
+.animate-fade-in-down  { animation: fadeInDown 0.5s cubic-bezier(0.16,1,0.3,1) both; }
+.animate-fade-in       { animation: fadeIn 0.55s ease-out both; }
+.animate-scale-in      { animation: scaleIn 0.5s cubic-bezier(0.16,1,0.3,1) both; }
+.animate-spring-in     { animation: spring-in 0.7s cubic-bezier(0.16,1,0.3,1) both; }
+.animate-slide-left    { animation: slideInLeft 0.55s cubic-bezier(0.16,1,0.3,1) both; }
+.animate-slide-right   { animation: slideInRight 0.55s cubic-bezier(0.16,1,0.3,1) both; }
+.animate-float         { animation: float 5s ease-in-out infinite; }
+.animate-float-subtle  { animation: float-subtle 3.5s ease-in-out infinite; }
+.animate-breathe       { animation: breathe 3s ease-in-out infinite; }
 
-/* Staggered children — enter one by one */
+/* Staggered children */
 .stagger-children > * {
   opacity: 0;
-  animation: fadeInUp 0.55s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation: fadeInUp 0.55s cubic-bezier(0.16,1,0.3,1) forwards;
 }
 .stagger-children > *:nth-child(1)  { animation-delay: 0.04s; }
-.stagger-children > *:nth-child(2)  { animation-delay: 0.08s; }
-.stagger-children > *:nth-child(3)  { animation-delay: 0.12s; }
-.stagger-children > *:nth-child(4)  { animation-delay: 0.16s; }
-.stagger-children > *:nth-child(5)  { animation-delay: 0.20s; }
-.stagger-children > *:nth-child(6)  { animation-delay: 0.24s; }
-.stagger-children > *:nth-child(7)  { animation-delay: 0.28s; }
-.stagger-children > *:nth-child(8)  { animation-delay: 0.32s; }
-.stagger-children > *:nth-child(9)  { animation-delay: 0.36s; }
-.stagger-children > *:nth-child(10) { animation-delay: 0.40s; }
-.stagger-children > *:nth-child(11) { animation-delay: 0.44s; }
-.stagger-children > *:nth-child(12) { animation-delay: 0.48s; }
+.stagger-children > *:nth-child(2)  { animation-delay: 0.10s; }
+.stagger-children > *:nth-child(3)  { animation-delay: 0.16s; }
+.stagger-children > *:nth-child(4)  { animation-delay: 0.22s; }
+.stagger-children > *:nth-child(5)  { animation-delay: 0.28s; }
+.stagger-children > *:nth-child(6)  { animation-delay: 0.34s; }
+.stagger-children > *:nth-child(7)  { animation-delay: 0.40s; }
+.stagger-children > *:nth-child(8)  { animation-delay: 0.46s; }
+.stagger-children > *:nth-child(9)  { animation-delay: 0.52s; }
+.stagger-children > *:nth-child(10) { animation-delay: 0.58s; }
+.stagger-children > *:nth-child(11) { animation-delay: 0.64s; }
+.stagger-children > *:nth-child(12) { animation-delay: 0.70s; }
 
 /* ==========================================
-   Card hover — premium lift + glow
+   CARD HOVER — 3-layer depth shadow
 ========================================== */
 .card-hover {
-  transition: transform 0.35s cubic-bezier(0.2, 0, 0, 1),
-              box-shadow 0.35s cubic-bezier(0.2, 0, 0, 1),
-              border-color 0.3s ease;
+  transition: transform 0.38s cubic-bezier(0.2,0,0,1),
+              box-shadow 0.38s cubic-bezier(0.2,0,0,1),
+              border-color 0.32s ease;
   border: 1px solid #E5E8EB;
+  box-shadow:
+    0 1px 3px rgba(14,42,74,0.04),
+    0 2px 8px rgba(14,42,74,0.04);
 }
 .card-hover:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 16px 40px rgba(14,42,74,0.1), 0 2px 8px rgba(14,42,74,0.06);
-  border-color: #D98A3D50;
+  transform: translateY(-6px);
+  box-shadow:
+    0 2px 6px rgba(14,42,74,0.06),
+    0 8px 24px rgba(14,42,74,0.09),
+    0 20px 48px rgba(14,42,74,0.08);
+  border-color: rgba(217,138,61,0.35);
 }
 .card-hover:active {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(14,42,74,0.08);
+  transform: translateY(-2px);
+  box-shadow:
+    0 1px 2px rgba(14,42,74,0.05),
+    0 4px 12px rgba(14,42,74,0.07);
+}
+
+/* Card depth variant — stronger shadow from start */
+.card-depth {
+  border: 1px solid #E5E8EB;
+  box-shadow:
+    0 2px 8px rgba(14,42,74,0.05),
+    0 8px 24px rgba(14,42,74,0.06);
+  transition: transform 0.38s cubic-bezier(0.2,0,0,1),
+              box-shadow 0.38s cubic-bezier(0.2,0,0,1),
+              border-color 0.32s ease;
+}
+.card-depth:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    0 4px 12px rgba(14,42,74,0.08),
+    0 14px 36px rgba(14,42,74,0.10),
+    0 28px 64px rgba(14,42,74,0.06);
+  border-color: rgba(217,138,61,0.40);
+}
+
+/* Card elevated — always floating */
+.card-elevated {
+  border: 1px solid #E5E8EB;
+  box-shadow:
+    0 4px 16px rgba(14,42,74,0.06),
+    0 12px 36px rgba(14,42,74,0.07);
+  transition: transform 0.38s cubic-bezier(0.2,0,0,1),
+              box-shadow 0.38s cubic-bezier(0.2,0,0,1);
+}
+.card-elevated:hover {
+  transform: translateY(-8px);
+  box-shadow:
+    0 8px 24px rgba(14,42,74,0.09),
+    0 20px 52px rgba(14,42,74,0.08),
+    0 36px 80px rgba(14,42,74,0.04);
 }
 
 /* ==========================================
-   Tag chip — smooth elevated interaction
+   TAG — smooth spring-like interaction
 ========================================== */
 .tag-chip {
   cursor: default;
@@ -118,24 +194,25 @@ body { color: #4a5a66; -webkit-font-smoothing: antialiased; -moz-osx-font-smooth
   align-items: center;
   gap: 4px;
   position: relative;
-  transition: all 0.28s cubic-bezier(0.2, 0, 0, 1);
+  transition: all 0.32s cubic-bezier(0.34,1.56,0.64,1);
   background: linear-gradient(135deg, #F4F6F8 0%, #E8ECF0 100%);
   border: 1px solid transparent;
   user-select: none;
 }
 .tag-chip:hover {
-  transform: translateY(-2px);
-  background: linear-gradient(135deg, #FEF3E4 0%, #FCE4C8 100%);
-  border-color: #D98A3D40;
-  color: #B8702D;
-  box-shadow: 0 4px 14px rgba(217,138,61,0.18);
+  transform: translateY(-3px);
+  background: linear-gradient(135deg, #FEF6ED 0%, #FCE8D0 100%);
+  border-color: rgba(217,138,61,0.45);
+  color: #A86528;
+  box-shadow:
+    0 4px 16px rgba(217,138,61,0.22),
+    0 2px 6px rgba(217,138,61,0.10);
 }
 .tag-chip:active {
-  transform: translateY(0) scale(0.95);
-  transition: all 0.1s ease;
+  transform: translateY(0) scale(0.94);
+  transition: all 0.08s ease;
 }
 
-/* Tag chip variant: filled/pill */
 .tag-pill {
   cursor: pointer;
   display: inline-flex;
@@ -144,85 +221,75 @@ body { color: #4a5a66; -webkit-font-smoothing: antialiased; -moz-osx-font-smooth
   border-radius: 999px;
   font-size: 12.5px;
   font-weight: 500;
-  transition: all 0.28s cubic-bezier(0.2, 0, 0, 1);
-  background: #F4F6F8;
+  transition: all 0.32s cubic-bezier(0.34,1.56,0.64,1);
+  background: linear-gradient(135deg, #F4F6F8 0%, #E8ECF0 100%);
+  border: 1px solid #E5E8EB;
   color: #46586B;
-  border: 1px solid transparent;
 }
 .tag-pill:hover {
-  background: #FEF3E4;
-  color: #D98A3D;
-  border-color: #D98A3D30;
-  transform: translateY(-1px);
-  box-shadow: 0 2px 10px rgba(217,138,61,0.15);
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #FEF6ED 0%, #FCE8D0 100%);
+  border-color: rgba(217,138,61,0.5);
+  color: #A86528;
+  box-shadow:
+    0 4px 12px rgba(217,138,61,0.18),
+    0 2px 4px rgba(217,138,61,0.08);
 }
 .tag-pill:active {
-  transform: scale(0.95);
+  transform: translateY(0) scale(0.93);
+  transition: all 0.08s ease;
 }
 
-/* Tag chip: active/selected state */
 .tag-pill.active {
-  background: linear-gradient(135deg, #FEF3E4 0%, #FDE0BF 100%);
-  color: #B8702D;
-  border-color: #D98A3D60;
-  box-shadow: 0 2px 8px rgba(217,138,61,0.12);
+  background: linear-gradient(135deg, #D98A3D 0%, #C07028 100%);
+  color: white;
+  border-color: #D98A3D;
+  box-shadow: 0 2px 10px rgba(217,138,61,0.25);
 }
 
 /* ==========================================
-   Button press micro-interaction
+   BUTTON PRESS — tactile feedback
 ========================================== */
 .btn-press {
-  transition: transform 0.18s cubic-bezier(0.2, 0, 0, 1),
-              box-shadow 0.18s cubic-bezier(0.2, 0, 0, 1);
+  transition: transform 0.18s cubic-bezier(0.34,1.56,0.64,1),
+              box-shadow 0.2s ease;
 }
 .btn-press:active {
-  transform: scale(0.95);
-}
-.btn-press:hover {
-  box-shadow: 0 8px 24px rgba(14,42,74,0.16);
+  transform: scale(0.94);
 }
 
 /* ==========================================
-   Link underline — smooth reveal
-========================================== */
-.link-underline {
-  position: relative;
-  text-decoration: none;
-}
-.link-underline::after {
-  content: '';
-  position: absolute; left: 0; bottom: -2px;
-  width: 0; height: 1.5px;
-  background: currentColor;
-  transition: width 0.35s cubic-bezier(0.2, 0, 0, 1);
-}
-.link-underline:hover::after { width: 100%; }
-
-/* ==========================================
-   Nav link — amber underline on hover
+   NAV LINK — underline reveal animation
 ========================================== */
 .nav-link {
   position: relative;
-  transition: color 0.25s ease;
+  transition: color 0.22s ease;
 }
 .nav-link::after {
-  content: '';
-  position: absolute; left: 50%; bottom: -6px;
-  width: 0; height: 2px;
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  width: 0;
+  height: 2px;
   background: #D98A3D;
-  transition: width 0.3s cubic-bezier(0.2, 0, 0, 1),
-              left 0.3s cubic-bezier(0.2, 0, 0, 1);
+  border-radius: 1px;
+  transition: width 0.28s cubic-bezier(0.16,1,0.3,1),
+              left 0.28s cubic-bezier(0.16,1,0.3,1);
 }
-.nav-link:hover::after { width: 100%; left: 0; }
+.nav-link:hover::after {
+  width: calc(100% - 24px);
+  left: 12px;
+}
 
 /* ==========================================
-   Section entrance (scroll reveal via JS)
+   REVEAL SECTION — scroll-triggered fade
 ========================================== */
 .reveal-section {
   opacity: 0;
-  transform: translateY(28px);
-  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
-              transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: translateY(32px);
+  transition: opacity 0.85s cubic-bezier(0.16,1,0.3,1),
+              transform 0.85s cubic-bezier(0.16,1,0.3,1);
 }
 .reveal-section.is-visible {
   opacity: 1;
@@ -230,73 +297,146 @@ body { color: #4a5a66; -webkit-font-smoothing: antialiased; -moz-osx-font-smooth
 }
 
 /* ==========================================
-   Hero gradient backgrounds
+   SECTION BACKGROUND VARIANTS
+========================================== */
+.section-white {
+  background: #FFFFFF;
+}
+.section-warm {
+  background: linear-gradient(180deg, #FFFDFA 0%, #FEF8F2 50%, #FFFDFA 100%);
+}
+.section-cool {
+  background: linear-gradient(180deg, #F8FAFC 0%, #EEF4FA 50%, #F8FAFC 100%);
+}
+.section-dark {
+  background: linear-gradient(180deg, #0E2A4A 0%, #14365C 40%, #0E2A4A 100%);
+}
+.section-stripe {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F7F9FB 40%, #FFFFFF 100%);
+}
+
+/* ==========================================
+   HERO GRADIENTS
 ========================================== */
 .hero-gradient {
-  background: linear-gradient(180deg, #F8FAFC 0%, #EDF2F7 35%, #FFF 100%);
+  background: linear-gradient(180deg, #F5F9FD 0%, #EAF2FA 30%, #FFFFFF 100%);
 }
 .hero-gradient-dark {
-  background: linear-gradient(180deg, #0E2A4A 0%, #14365C 50%, #0E2A4A 100%);
+  background: linear-gradient(180deg, #0A1F38 0%, #0E2A4A 50%, #0A1F38 100%);
 }
 
 /* ==========================================
-   Section stripe — alternating rhythm
-========================================== */
-.section-stripe {
-  background: linear-gradient(180deg, #FFF 0%, #F7F9FB 45%, #FFF 100%);
-}
-
-/* ==========================================
-   Glass card — frosted glass effect
+   GLASS CARD — frosted glass depth
 ========================================== */
 .glass-card {
-  background: rgba(255,255,255,0.7);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255,255,255,0.5);
-  box-shadow: 0 4px 20px rgba(14,42,74,0.06);
+  background: rgba(255,255,255,0.68);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255,255,255,0.55);
+  box-shadow:
+    0 1px 4px rgba(14,42,74,0.04),
+    0 8px 24px rgba(14,42,74,0.06);
+  transition: transform 0.35s cubic-bezier(0.2,0,0,1),
+              box-shadow 0.35s ease;
+}
+.glass-card:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 4px 12px rgba(14,42,74,0.06),
+    0 12px 32px rgba(14,42,74,0.08);
 }
 
 /* ==========================================
-   Inspection tag — signature component
+   INSPECTION TAG — signature floating badge
 ========================================== */
 .inspection-tag {
   position: relative;
   background: #fff;
   border: 1px solid #cbe0f2;
   padding: 16px 18px 16px 22px;
-  box-shadow: 0 12px 28px rgba(18,49,86,0.14);
-  transition: transform 0.3s cubic-bezier(0.2, 0, 0, 1),
-              box-shadow 0.3s ease;
+  box-shadow:
+    0 4px 16px rgba(18,49,86,0.10),
+    0 12px 32px rgba(18,49,86,0.08);
+  transition: transform 0.35s cubic-bezier(0.2,0,0,1),
+              box-shadow 0.35s ease;
 }
 .inspection-tag:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 16px 36px rgba(18,49,86,0.18);
+  transform: translateY(-4px);
+  box-shadow:
+    0 6px 24px rgba(18,49,86,0.14),
+    0 18px 44px rgba(18,49,86,0.10);
 }
 .inspection-tag::before {
   content: "";
-  position: absolute; left: -1px; top: 20px; bottom: 20px;
+  position: absolute;
+  left: -1px;
+  top: 20px;
+  bottom: 20px;
   width: 4px;
-  background: #d98a3d;
-  transition: width 0.25s ease;
+  background: #D98A3D;
+  border-radius: 0 2px 2px 0;
+  transition: width 0.28s ease;
 }
 .inspection-tag:hover::before {
-  width: 6px;
+  width: 7px;
 }
 
 /* ==========================================
-   Detail/Summary accordion
+   IMAGE ZOOM — smooth scale on hover
+========================================== */
+.img-zoom {
+  overflow: hidden;
+}
+.img-zoom img {
+  transition: transform 0.7s cubic-bezier(0.22,1,0.36,1);
+}
+.img-zoom:hover img {
+  transform: scale(1.07);
+}
+
+/* ==========================================
+   DIVIDER — gradient with amber center
+========================================== */
+.divider-gradient {
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(217,138,61,0.25) 15%,
+    rgba(217,138,61,0.65) 50%,
+    rgba(217,138,61,0.25) 85%,
+    transparent 100%
+  );
+}
+
+/* ==========================================
+   BORDER GLOW — focus ring style
+========================================== */
+.border-glow {
+  transition: border-color 0.35s ease, box-shadow 0.35s ease;
+}
+.border-glow:focus-within,
+.border-glow:hover {
+  border-color: rgba(217,138,61,0.5);
+  box-shadow: 0 0 0 4px rgba(217,138,61,0.06);
+}
+
+/* ==========================================
+   DETAILS / ACCORDION
 ========================================== */
 details summary {
   cursor: pointer;
-  transition: color 0.3s ease;
+  transition: color 0.28s ease, letter-spacing 0.2s ease;
   list-style: none;
 }
 details summary::-webkit-details-marker { display: none; }
-details[open] summary { color: #D98A3D; }
+details[open] summary {
+  color: #D98A3D;
+  letter-spacing: 0.02em;
+}
 
 /* ==========================================
-   Skeleton loading shimmer
+   SKELETON LOADER
 ========================================== */
 .skeleton {
   background: linear-gradient(90deg, #F4F6F8 25%, #E8ECF0 50%, #F4F6F8 75%);
@@ -305,94 +445,168 @@ details[open] summary { color: #D98A3D; }
 }
 
 /* ==========================================
-   Number counter — stat animation
+   STAT NUMBER — counter reveal
 ========================================== */
 .stat-number {
   display: inline-block;
-  animation: count-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation: count-up 0.7s cubic-bezier(0.16,1,0.3,1) both;
 }
 
 /* ==========================================
-   Image container — smooth zoom on hover
-========================================== */
-.img-zoom {
-  overflow: hidden;
-}
-.img-zoom img {
-  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-}
-.img-zoom:hover img {
-  transform: scale(1.06);
-}
-
-/* ==========================================
-   Divider with gradient
-========================================== */
-.divider-gradient {
-  height: 1px;
-  background: linear-gradient(90deg, transparent 0%, #D98A3D40 20%, #D98A3D80 50%, #D98A3D40 80%, transparent 100%);
-}
-
-/* ==========================================
-   Border glow on focus/hover
-========================================== */
-.border-glow {
-  transition: border-color 0.35s ease, box-shadow 0.35s ease;
-}
-.border-glow:focus-within,
-.border-glow:hover {
-  border-color: #D98A3D60;
-  box-shadow: 0 0 0 3px rgba(217,138,61,0.08);
-}
-
-/* ==========================================
-   Scrollbar — subtle custom
-========================================== */
-::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
-  border-radius: 3px;
-}
-::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
-
-/* ==========================================
-   Selection style
-========================================== */
-::selection {
-  background: rgba(217,138,61,0.2);
-  color: #0E2A4A;
-}
-
-/* ==========================================
-   Tab bar — smooth sliding indicator
+   TAB BAR — sliding indicator
 ========================================== */
 .tab-container {
   position: relative;
 }
 .tab-indicator {
-  position: absolute; bottom: 0; left: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   height: 2.5px;
-  background: #D98A3D;
+  background: linear-gradient(90deg, #D98A3D, #E8A85C);
   border-radius: 2px;
-  transition: left 0.35s cubic-bezier(0.16, 1, 0.3, 1),
-              width 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: left 0.4s cubic-bezier(0.16,1,0.3,1),
+              width 0.4s cubic-bezier(0.16,1,0.3,1);
 }
 
 /* ==========================================
-   Page transition wrapper
+   PAGE ENTER — route transition
 ========================================== */
 .page-enter {
-  animation: fadeInUp 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation: fadeInUp 0.5s cubic-bezier(0.16,1,0.3,1) both;
 }
 
 /* ==========================================
-   Industry stat bar
+   STAT BAR — animated progress
 ========================================== */
 .stat-bar {
   height: 4px;
   border-radius: 2px;
   background: linear-gradient(90deg, #D98A3D 0%, #E8A85C 100%);
-  transition: width 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: width 1.4s cubic-bezier(0.16,1,0.3,1);
 }
 
+/* ==========================================
+   SECTION DECORATION — subtle corner accents
+========================================== */
+.section-accent-tr {
+  position: relative;
+}
+.section-accent-tr::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 120px;
+  height: 120px;
+  background: radial-gradient(circle at top right, rgba(217,138,61,0.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* ==========================================
+   DOT PATTERN BACKGROUND (subtle)
+========================================== */
+.bg-dots {
+  background-image: radial-gradient(rgba(217,138,61,0.12) 0.8px, transparent 0.8px);
+  background-size: 24px 24px;
+}
+
+/* ==========================================
+   GRADIENT TEXT — for emphasis
+========================================== */
+.text-gradient-amber {
+  background: linear-gradient(135deg, #D98A3D 0%, #E8A85C 60%, #C07028 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ==========================================
+   SCROLLBAR — custom subtle
+========================================== */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+/* ==========================================
+   SELECTION — amber highlight
+========================================== */
+::selection {
+  background: rgba(217,138,61,0.18);
+  color: #0E2A4A;
+}
+
+/* ==========================================
+   LINK UNDERLINE — for inline text links
+========================================== */
+.link-underline {
+  position: relative;
+  text-decoration: none;
+}
+.link-underline::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s cubic-bezier(0.16,1,0.3,1);
+}
+.link-underline:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* ==========================================
+   GRADIENT BORDER (subtle top border)
+========================================== */
+.border-t-gradient {
+  border-top: 1px solid;
+  border-image: linear-gradient(90deg, transparent 0%, #B9D8F0 30%, #D98A3D40 50%, #B9D8F0 70%, transparent 100%) 1;
+}
+
+/* ==========================================
+   NUMBER BADGE — for ordered sections
+========================================== */
+.num-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  font-family: monospace;
+  font-size: 11px;
+  font-weight: 600;
+  background: linear-gradient(135deg, #D98A3D 0%, #C07028 100%);
+  color: white;
+  box-shadow: 0 2px 8px rgba(217,138,61,0.25);
+}
+
+/* ==========================================
+   BRAND STRIP — logo row effect
+========================================== */
+.brand-strip-item {
+  transition: opacity 0.35s ease, filter 0.35s ease;
+  filter: grayscale(1) opacity(0.5);
+}
+.brand-strip-item:hover {
+  filter: grayscale(0) opacity(1);
+}
+
+/* ==========================================
+   HOVER LIFT — generic lift on hover
+========================================== */
+.hover-lift {
+  transition: transform 0.35s cubic-bezier(0.2,0,0,1);
+}
+.hover-lift:hover {
+  transform: translateY(-4px);
+}

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { PrimaryButton } from "@/components/ui";
+import { PrimaryButton, PlaceholderPhoto } from "@/components/ui";
 import { routes } from "@/lib/routes";
 import type { Locale } from "@/lib/locales";
 
@@ -20,11 +20,24 @@ export default function QCPage({ params }: { params: { locale: Locale } }) {
   const base = `/${params.locale}`;
   return (
     <main className="animate-fade-in-up">
-      <section className="border-b border-line bg-fog py-20">
+      <section className="border-b border-line hero-gradient py-20">
         <div className="mx-auto max-w-wrap px-8">
-          <p className="mb-3 font-mono text-xs uppercase tracking-widest text-amber">Quality Control</p>
-          <h1 className="max-w-2xl text-[40px] font-bold leading-[1.15] text-navy">Every Manufacturer Verified Before You Order</h1>
-          <p className="mt-5 max-w-xl text-[17px] text-graphite">Five evaluation steps before any manufacturer enters our network. We don&apos;t just forward inquiries — we qualify production capability.</p>
+          <div className="grid gap-10 md:grid-cols-[1fr_1fr]">
+            <div className="flex flex-col justify-center">
+              <p className="mb-3 flex items-center gap-2.5 font-mono text-xs uppercase tracking-wide text-amber">
+                <span className="h-px w-6 bg-amber" /> Quality Control
+              </p>
+              <h1 className="max-w-2xl text-[40px] font-bold leading-[1.15] text-navy">Every Manufacturer Verified Before You Order</h1>
+              <p className="mt-5 max-w-xl text-[17px] text-graphite">Five evaluation steps before any manufacturer enters our network. We don&apos;t just forward inquiries — we qualify production capability.</p>
+            </div>
+            <PlaceholderPhoto
+              caption="Quality inspection"
+              prompt="quality control inspector in white coat using precision measuring tools on metal industrial parts in clean laboratory, realistic photograph, bright lighting"
+              alt="Quality inspection"
+              imageSize="landscape_4_3"
+              className="aspect-[4/3] min-h-[280px] rounded-sm card-elevated"
+            />
+          </div>
         </div>
       </section>
       <section className="py-16">
