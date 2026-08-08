@@ -6,51 +6,53 @@ import { messages } from "@/lib/messages";
 export default function Header({ locale }: { locale: Locale }) {
   const base = `/${locale}`;
   const t = messages[locale].nav;
+  const navLinks = [
+    { href: routes.about, label: t.about },
+    { href: routes.partnershipModel, label: t.partnershipModel },
+    { href: routes.manufacturingCapability, label: "Capabilities" },
+    { href: routes.brands, label: "Brands" },
+    { href: routes.industries, label: "Industries" },
+    { href: routes.parts, label: "Parts" },
+    { href: routes.manufacturingNetwork, label: "Network" },
+    { href: routes.qualityControl, label: t.qualityControl },
+  ];
+
   return (
-    <header className="sticky top-0 z-50 border-b-2 border-line bg-white/95 shadow-[0_2px_20px_-5px_rgba(14,42,74,0.12)] backdrop-blur">
-      <nav className="mx-auto flex h-[84px] max-w-wrap items-center justify-between px-8">
-        <Link href={base} className="flex items-center gap-2.5">
-          <span className="h-2.5 w-2.5 bg-amber" />
-          <div className="font-display text-xl font-extrabold tracking-tight text-navy">
-            HISVIA
-            <small className="mt-0.5 block font-mono text-[10px] font-normal tracking-wide text-graphite">
+    <header className="sticky top-0 z-50 border-b border-line/60 bg-white/90 shadow-[0_1px_20px_-8px_rgba(14,42,74,0.08)] backdrop-blur-xl transition-shadow duration-300">
+      <nav className="mx-auto flex h-[72px] max-w-wrap items-center justify-between px-8">
+        <Link href={base} className="flex items-center gap-2.5 group">
+          <span className="h-3 w-3 bg-amber rounded-sm transition-transform duration-300 group-hover:scale-110 group-hover:rotate-45" />
+          <div>
+            <span className="font-display text-xl font-extrabold tracking-tight text-navy">
+              HISVIA
+            </span>
+            <small className="mt-0.5 block font-mono text-[9.5px] font-normal tracking-widest text-steel/70">
               {t.logoSubtitle}
             </small>
           </div>
         </Link>
 
-        <div className="hidden items-center gap-8 md:flex">
-          <Link href={`${base}${routes.about}`} className="text-sm font-medium text-graphite hover:text-navy transition-colors duration-200">
-            {t.about}
-          </Link>
-          <Link href={`${base}${routes.partnershipModel}`} className="text-sm font-medium text-graphite hover:text-navy transition-colors duration-200">
-            {t.partnershipModel}
-          </Link>
-          <Link href={`${base}${routes.manufacturingCapability}`} className="text-sm font-medium text-graphite hover:text-navy transition-colors duration-200">
-            Capabilities
-          </Link>
-          <Link href={`${base}${routes.brands}`} className="text-sm font-medium text-graphite hover:text-navy transition-colors duration-200">
-            Brands
-          </Link>
-          <Link href={`${base}${routes.industries}`} className="text-sm font-medium text-graphite hover:text-navy transition-colors duration-200">
-            Industries
-          </Link>
-          <Link href={`${base}${routes.parts}`} className="text-sm font-medium text-graphite hover:text-navy transition-colors duration-200">
-            Parts
-          </Link>
-          <Link href={`${base}${routes.manufacturingNetwork}`} className="text-sm font-medium text-graphite hover:text-navy transition-colors duration-200">
-            Network
-          </Link>
-          <Link href={`${base}${routes.qualityControl}`} className="text-sm font-medium text-graphite hover:text-navy transition-colors duration-200">
-            {t.qualityControl}
-          </Link>
+        <div className="hidden items-center gap-1 lg:flex">
+          {navLinks.map((l) => (
+            <Link
+              key={l.href}
+              href={`${base}${l.href}`}
+              className="nav-link px-3 py-2 text-[13.5px] font-medium text-graphite transition-colors duration-200 hover:text-navy"
+            >
+              {l.label}
+            </Link>
+          ))}
 
-          <div className="flex border border-line font-mono text-xs">
+          <div className="ml-3 flex border border-line/70 rounded-sm font-mono text-[11px] overflow-hidden">
             {locales.map((l) => (
               <Link
                 key={l}
                 href={`/${l}`}
-                className={`px-2.5 py-1.5 ${l === locale ? "bg-navy text-white" : "text-graphite"}`}
+                className={`px-2.5 py-1.5 transition-all duration-200 ${
+                  l === locale
+                    ? "bg-navy text-white"
+                    : "text-graphite hover:bg-fog/50"
+                }`}
               >
                 {localeLabel[l]}
               </Link>
@@ -59,9 +61,9 @@ export default function Header({ locale }: { locale: Locale }) {
 
           <Link
             href={`${base}${routes.submitRequirement}`}
-            className="inline-flex items-center gap-2 border border-steel bg-steel px-5 py-2.5 text-[13px] font-semibold text-white hover:bg-navy hover:border-navy"
+            className="ml-3 inline-flex items-center gap-2 rounded-sm border border-steel bg-steel px-5 py-2.5 text-[13px] font-semibold text-white transition-all duration-300 hover:bg-navy hover:border-navy hover:shadow-md btn-press"
           >
-            {t.submitRequirement} →
+            {t.submitRequirement} <span className="transition-transform duration-300 group-hover:translate-x-0.5">→</span>
           </Link>
         </div>
       </nav>

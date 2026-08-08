@@ -2,185 +2,397 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
+body { color: #4a5a66; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
-body {
-  color: #4a5a66;
-}
-
-/* ----------------------------------------
-   Base animation utilities
----------------------------------------- */
-
-/* Fade in from bottom */
+/* ==========================================
+   Keyframes — rich animation library
+========================================== */
 @keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(16px); }
+  from { opacity: 0; transform: translateY(20px); }
   to   { opacity: 1; transform: translateY(0); }
 }
-
-/* Fade in */
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
 @keyframes fadeIn {
   from { opacity: 0; }
   to   { opacity: 1; }
 }
-
-/* Slide in from left */
-@keyframes slideInLeft {
-  from { opacity: 0; transform: translateX(-12px); }
-  to   { opacity: 1; transform: translateX(0); }
-}
-
-/* Scale in */
 @keyframes scaleIn {
-  from { opacity: 0; transform: scale(0.96); }
+  from { opacity: 0; transform: scale(0.94); }
   to   { opacity: 1; transform: scale(1); }
 }
-
-/* Subtle float */
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-16px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(16px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(217,138,61,0.25); }
+  50%      { box-shadow: 0 0 0 8px rgba(217,138,61,0); }
+}
 @keyframes float {
   0%, 100% { transform: translateY(0); }
-  50%      { transform: translateY(-4px); }
+  50%      { transform: translateY(-8px); }
+}
+@keyframes border-pulse {
+  0%, 100% { border-color: #D98A3D40; }
+  50%      { border-color: #D98A3D; }
+}
+@keyframes gradient-shift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+@keyframes count-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes draw-line {
+  to { stroke-dashoffset: 0; }
 }
 
-/* ----------------------------------------
-   Utility classes
----------------------------------------- */
+/* ==========================================
+   Utility animation classes
+========================================== */
+.animate-fade-in-up   { animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.animate-fade-in-down { animation: fadeInDown 0.5s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.animate-fade-in      { animation: fadeIn 0.5s ease-out both; }
+.animate-scale-in     { animation: scaleIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.animate-slide-left   { animation: slideInLeft 0.5s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.animate-slide-right  { animation: slideInRight 0.5s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.animate-float        { animation: float 4s ease-in-out infinite; }
 
-.animate-fade-in-up {
-  animation: fadeInUp 0.5s ease-out both;
-}
-
-.animate-fade-in {
-  animation: fadeIn 0.4s ease-out both;
-}
-
-.animate-scale-in {
-  animation: scaleIn 0.35s ease-out both;
-}
-
-/* Staggered children */
+/* Staggered children — enter one by one */
 .stagger-children > * {
   opacity: 0;
-  animation: fadeInUp 0.5s ease-out forwards;
+  animation: fadeInUp 0.55s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
-.stagger-children > *:nth-child(1)  { animation-delay: 0.05s; }
-.stagger-children > *:nth-child(2)  { animation-delay: 0.1s; }
-.stagger-children > *:nth-child(3)  { animation-delay: 0.15s; }
-.stagger-children > *:nth-child(4)  { animation-delay: 0.2s; }
-.stagger-children > *:nth-child(5)  { animation-delay: 0.25s; }
-.stagger-children > *:nth-child(6)  { animation-delay: 0.3s; }
-.stagger-children > *:nth-child(7)  { animation-delay: 0.35s; }
-.stagger-children > *:nth-child(8)  { animation-delay: 0.4s; }
-.stagger-children > *:nth-child(9)  { animation-delay: 0.45s; }
-.stagger-children > *:nth-child(10) { animation-delay: 0.5s; }
+.stagger-children > *:nth-child(1)  { animation-delay: 0.04s; }
+.stagger-children > *:nth-child(2)  { animation-delay: 0.08s; }
+.stagger-children > *:nth-child(3)  { animation-delay: 0.12s; }
+.stagger-children > *:nth-child(4)  { animation-delay: 0.16s; }
+.stagger-children > *:nth-child(5)  { animation-delay: 0.20s; }
+.stagger-children > *:nth-child(6)  { animation-delay: 0.24s; }
+.stagger-children > *:nth-child(7)  { animation-delay: 0.28s; }
+.stagger-children > *:nth-child(8)  { animation-delay: 0.32s; }
+.stagger-children > *:nth-child(9)  { animation-delay: 0.36s; }
+.stagger-children > *:nth-child(10) { animation-delay: 0.40s; }
+.stagger-children > *:nth-child(11) { animation-delay: 0.44s; }
+.stagger-children > *:nth-child(12) { animation-delay: 0.48s; }
 
-/* ----------------------------------------
-   Card hover effects
----------------------------------------- */
-
+/* ==========================================
+   Card hover — premium lift + glow
+========================================== */
 .card-hover {
-  transition: transform 0.25s cubic-bezier(0.2, 0, 0, 1),
-              box-shadow 0.25s cubic-bezier(0.2, 0, 0, 1);
+  transition: transform 0.35s cubic-bezier(0.2, 0, 0, 1),
+              box-shadow 0.35s cubic-bezier(0.2, 0, 0, 1),
+              border-color 0.3s ease;
+  border: 1px solid #E5E8EB;
 }
 .card-hover:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(14, 42, 74, 0.1);
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(14,42,74,0.1), 0 2px 8px rgba(14,42,74,0.06);
+  border-color: #D98A3D50;
+}
+.card-hover:active {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(14,42,74,0.08);
 }
 
-/* Tag/chip hover */
+/* ==========================================
+   Tag chip — smooth elevated interaction
+========================================== */
 .tag-chip {
-  transition: background 0.2s ease, transform 0.2s ease, color 0.2s ease;
   cursor: default;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+  transition: all 0.28s cubic-bezier(0.2, 0, 0, 1);
+  background: linear-gradient(135deg, #F4F6F8 0%, #E8ECF0 100%);
+  border: 1px solid transparent;
+  user-select: none;
 }
 .tag-chip:hover {
-  transform: translateY(-1px);
-  background: #E8ECF0;
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #FEF3E4 0%, #FCE4C8 100%);
+  border-color: #D98A3D40;
+  color: #B8702D;
+  box-shadow: 0 4px 14px rgba(217,138,61,0.18);
+}
+.tag-chip:active {
+  transform: translateY(0) scale(0.95);
+  transition: all 0.1s ease;
 }
 
-/* Button micro-interaction */
+/* Tag chip variant: filled/pill */
+.tag-pill {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12.5px;
+  font-weight: 500;
+  transition: all 0.28s cubic-bezier(0.2, 0, 0, 1);
+  background: #F4F6F8;
+  color: #46586B;
+  border: 1px solid transparent;
+}
+.tag-pill:hover {
+  background: #FEF3E4;
+  color: #D98A3D;
+  border-color: #D98A3D30;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 10px rgba(217,138,61,0.15);
+}
+.tag-pill:active {
+  transform: scale(0.95);
+}
+
+/* Tag chip: active/selected state */
+.tag-pill.active {
+  background: linear-gradient(135deg, #FEF3E4 0%, #FDE0BF 100%);
+  color: #B8702D;
+  border-color: #D98A3D60;
+  box-shadow: 0 2px 8px rgba(217,138,61,0.12);
+}
+
+/* ==========================================
+   Button press micro-interaction
+========================================== */
 .btn-press {
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition: transform 0.18s cubic-bezier(0.2, 0, 0, 1),
+              box-shadow 0.18s cubic-bezier(0.2, 0, 0, 1);
 }
 .btn-press:active {
-  transform: scale(0.97);
+  transform: scale(0.95);
+}
+.btn-press:hover {
+  box-shadow: 0 8px 24px rgba(14,42,74,0.16);
 }
 
-/* Link underline animation */
+/* ==========================================
+   Link underline — smooth reveal
+========================================== */
 .link-underline {
   position: relative;
+  text-decoration: none;
 }
 .link-underline::after {
   content: '';
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 0;
-  height: 1.5px;
+  position: absolute; left: 0; bottom: -2px;
+  width: 0; height: 1.5px;
   background: currentColor;
-  transition: width 0.25s ease;
+  transition: width 0.35s cubic-bezier(0.2, 0, 0, 1);
 }
-.link-underline:hover::after {
-  width: 100%;
-}
+.link-underline:hover::after { width: 100%; }
 
-/* ----------------------------------------
-   Detail/summary accordion
----------------------------------------- */
-details summary {
-  transition: color 0.2s ease;
-}
-details[open] summary {
-  color: #D98A3D;
-}
-details .content-enter {
-  animation: fadeInUp 0.25s ease-out both;
-}
-
-/* ----------------------------------------
-   Inspection tag (kept from original)
----------------------------------------- */
-.inspection-tag {
+/* ==========================================
+   Nav link — amber underline on hover
+========================================== */
+.nav-link {
   position: relative;
-  background: #fff;
-  border: 1px solid #cbe0f2;
-  padding: 16px 18px 16px 22px;
-  box-shadow: 0 12px 28px rgba(18, 49, 86, 0.14);
+  transition: color 0.25s ease;
 }
-.inspection-tag::before {
-  content: "";
-  position: absolute;
-  left: -1px;
-  top: 20px;
-  bottom: 20px;
-  width: 4px;
-  background: #d98a3d;
+.nav-link::after {
+  content: '';
+  position: absolute; left: 50%; bottom: -6px;
+  width: 0; height: 2px;
+  background: #D98A3D;
+  transition: width 0.3s cubic-bezier(0.2, 0, 0, 1),
+              left 0.3s cubic-bezier(0.2, 0, 0, 1);
 }
+.nav-link:hover::after { width: 100%; left: 0; }
 
-/* ----------------------------------------
-   Smooth section entrance (scroll-triggered via IntersectionObserver)
-   Applied via JS in a client component
----------------------------------------- */
+/* ==========================================
+   Section entrance (scroll reveal via JS)
+========================================== */
 .reveal-section {
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease-out, transform 0.6s cubic-bezier(0.2, 0, 0, 1);
+  transform: translateY(28px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .reveal-section.is-visible {
   opacity: 1;
   transform: translateY(0);
 }
 
-/* ----------------------------------------
-   Skeleton loading shimmer
----------------------------------------- */
-@keyframes shimmer {
-  0%   { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
+/* ==========================================
+   Hero gradient backgrounds
+========================================== */
+.hero-gradient {
+  background: linear-gradient(180deg, #F8FAFC 0%, #EDF2F7 35%, #FFF 100%);
 }
+.hero-gradient-dark {
+  background: linear-gradient(180deg, #0E2A4A 0%, #14365C 50%, #0E2A4A 100%);
+}
+
+/* ==========================================
+   Section stripe — alternating rhythm
+========================================== */
+.section-stripe {
+  background: linear-gradient(180deg, #FFF 0%, #F7F9FB 45%, #FFF 100%);
+}
+
+/* ==========================================
+   Glass card — frosted glass effect
+========================================== */
+.glass-card {
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.5);
+  box-shadow: 0 4px 20px rgba(14,42,74,0.06);
+}
+
+/* ==========================================
+   Inspection tag — signature component
+========================================== */
+.inspection-tag {
+  position: relative;
+  background: #fff;
+  border: 1px solid #cbe0f2;
+  padding: 16px 18px 16px 22px;
+  box-shadow: 0 12px 28px rgba(18,49,86,0.14);
+  transition: transform 0.3s cubic-bezier(0.2, 0, 0, 1),
+              box-shadow 0.3s ease;
+}
+.inspection-tag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 36px rgba(18,49,86,0.18);
+}
+.inspection-tag::before {
+  content: "";
+  position: absolute; left: -1px; top: 20px; bottom: 20px;
+  width: 4px;
+  background: #d98a3d;
+  transition: width 0.25s ease;
+}
+.inspection-tag:hover::before {
+  width: 6px;
+}
+
+/* ==========================================
+   Detail/Summary accordion
+========================================== */
+details summary {
+  cursor: pointer;
+  transition: color 0.3s ease;
+  list-style: none;
+}
+details summary::-webkit-details-marker { display: none; }
+details[open] summary { color: #D98A3D; }
+
+/* ==========================================
+   Skeleton loading shimmer
+========================================== */
 .skeleton {
   background: linear-gradient(90deg, #F4F6F8 25%, #E8ECF0 50%, #F4F6F8 75%);
   background-size: 200% 100%;
-  animation: shimmer 1.5s ease-in-out infinite;
+  animation: shimmer 1.6s ease-in-out infinite;
 }
+
+/* ==========================================
+   Number counter — stat animation
+========================================== */
+.stat-number {
+  display: inline-block;
+  animation: count-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* ==========================================
+   Image container — smooth zoom on hover
+========================================== */
+.img-zoom {
+  overflow: hidden;
+}
+.img-zoom img {
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.img-zoom:hover img {
+  transform: scale(1.06);
+}
+
+/* ==========================================
+   Divider with gradient
+========================================== */
+.divider-gradient {
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, #D98A3D40 20%, #D98A3D80 50%, #D98A3D40 80%, transparent 100%);
+}
+
+/* ==========================================
+   Border glow on focus/hover
+========================================== */
+.border-glow {
+  transition: border-color 0.35s ease, box-shadow 0.35s ease;
+}
+.border-glow:focus-within,
+.border-glow:hover {
+  border-color: #D98A3D60;
+  box-shadow: 0 0 0 3px rgba(217,138,61,0.08);
+}
+
+/* ==========================================
+   Scrollbar — subtle custom
+========================================== */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+/* ==========================================
+   Selection style
+========================================== */
+::selection {
+  background: rgba(217,138,61,0.2);
+  color: #0E2A4A;
+}
+
+/* ==========================================
+   Tab bar — smooth sliding indicator
+========================================== */
+.tab-container {
+  position: relative;
+}
+.tab-indicator {
+  position: absolute; bottom: 0; left: 0;
+  height: 2.5px;
+  background: #D98A3D;
+  border-radius: 2px;
+  transition: left 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              width 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ==========================================
+   Page transition wrapper
+========================================== */
+.page-enter {
+  animation: fadeInUp 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* ==========================================
+   Industry stat bar
+========================================== */
+.stat-bar {
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #D98A3D 0%, #E8A85C 100%);
+  transition: width 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
