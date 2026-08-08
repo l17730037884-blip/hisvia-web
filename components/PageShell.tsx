@@ -6,13 +6,12 @@ export default function PageShell({
   kicker,
   title,
   description,
-  purpose,
 }: {
   locale: string;
   kicker: string;
   title: string;
   description: string;
-  purpose: string;
+  purpose?: string;
 }) {
   const base = `/${locale}`;
   return (
@@ -23,14 +22,11 @@ export default function PageShell({
         </div>
       </section>
 
-      <section className="py-16">
+      <section className="py-12">
         <div className="mx-auto max-w-wrap px-8">
-          <div className="max-w-2xl border-l-2 border-amber bg-fog px-6 py-5 text-[13.5px] text-graphite">
-            <strong className="text-navy">页面用途（内容待补充）：</strong> {purpose}
-          </div>
-          <div className="mt-10">
-            <PrimaryButton href={`${base}${routes.submitRequirement}`}>Submit Industrial Requirement →</PrimaryButton>
-          </div>
+          <PrimaryButton href={`${base}${routes.request}`}>
+            Submit Industrial Requirement →
+          </PrimaryButton>
         </div>
       </section>
     </>
