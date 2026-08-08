@@ -68,6 +68,47 @@ export default function Home({ params }: { params: { locale: Locale } }) {
         </div>
       </section>
 
+      {/* PHASE 3: Three Entry Cards */}
+      <section className="bg-white py-20">
+        <div className="mx-auto max-w-wrap px-8">
+          <div className="mb-10">
+            <p className="mb-2 font-mono text-xs uppercase tracking-widest text-amber">Find Solutions Faster</p>
+            <h2 className="text-[30px] font-bold text-navy">Three ways to source industrial components</h2>
+          </div>
+          <div className="grid gap-6 md:grid-cols-3">
+            {/* Card 1: By Brand */}
+            <a href={`/${params.locale}/brands`} className="group rounded border border-line bg-white p-6 transition-shadow hover:shadow-lg">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center bg-amber/10 font-mono text-lg text-amber">01</div>
+              <h3 className="text-[18px] font-bold text-navy group-hover:text-amber">Find by Equipment Brand</h3>
+              <div className="mt-2 flex flex-wrap gap-1.5">
+                {["Atlas Copco","Kaeser","Ingersoll Rand","Sullair","Gardner Denver","Hitachi"].map(b => (
+                  <span key={b} className="rounded bg-[#F4F6F8] px-2 py-0.5 font-mono text-[11px] text-graphite">{b}</span>
+                ))}
+              </div>
+              <span className="mt-4 inline-block text-[13px] font-medium text-amber">Explore Brands →</span>
+            </a>
+            {/* Card 2: By Component */}
+            <a href={`/${params.locale}/parts`} className="group rounded border border-line bg-white p-6 transition-shadow hover:shadow-lg">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center bg-amber/10 font-mono text-lg text-amber">02</div>
+              <h3 className="text-[18px] font-bold text-navy group-hover:text-amber">Find by Component</h3>
+              <div className="mt-2 flex flex-wrap gap-1.5">
+                {["Filters","Separators","Valves","Seals","Hydraulics","Mechanical"].map(b => (
+                  <span key={b} className="rounded bg-[#F4F6F8] px-2 py-0.5 font-mono text-[11px] text-graphite">{b}</span>
+                ))}
+              </div>
+              <span className="mt-4 inline-block text-[13px] font-medium text-amber">Explore Parts →</span>
+            </a>
+            {/* Card 3: Submit Requirement */}
+            <a href={`/${params.locale}/request`} className="group rounded border border-line bg-white p-6 transition-shadow hover:shadow-lg">
+              <div className="mb-4 flex h-12 w-12 items-center justify-center bg-amber/10 font-mono text-lg text-amber">03</div>
+              <h3 className="text-[18px] font-bold text-navy group-hover:text-amber">Submit Technical Requirement</h3>
+              <p className="mt-2 text-[13px] text-graphite">Upload equipment photos, nameplate, drawings, or part numbers. Technical response within 2 business days.</p>
+              <span className="mt-4 inline-block text-[13px] font-medium text-amber">Submit Request →</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* POSITIONING */}
       <section className="bg-navy/[0.1] py-24">
         <div className="mx-auto max-w-wrap px-8">

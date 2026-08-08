@@ -35,6 +35,12 @@ export default function Header({ locale }: { locale: Locale }) {
           <Link href={`${base}${routes.industries}`} className="text-sm font-medium text-graphite hover:text-navy">
             Industries
           </Link>
+          <Link href={`${base}${routes.parts}`} className="text-sm font-medium text-graphite hover:text-navy">
+            Parts
+          </Link>
+          <Link href={`${base}${routes.manufacturingNetwork}`} className="text-sm font-medium text-graphite hover:text-navy">
+            Manufacturing
+          </Link>
           <Link href={`${base}${routes.qualityControl}`} className="text-sm font-medium text-graphite hover:text-navy">
             {t.qualityControl}
           </Link>

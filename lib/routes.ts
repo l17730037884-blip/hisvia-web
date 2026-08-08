@@ -15,11 +15,15 @@ export const routes = {
   },
   brands: "/brands",
   brand: (slug: string) => `/brands/${slug}`,
+  parts: "/parts",
+  part: (slug: string) => `/parts/${slug}`,
   industries: "/industries",
   industry: (slug: string) => `/industries/${slug}`,
-  manufacturingNetwork: "/manufacturing",
-  compatibleSolutions: "/compatible-solutions",
+  applications: "/applications",
+  application: (slug: string) => `/applications/${slug}`,
+  manufacturingNetwork: "/manufacturing-network",
   manufacturingCapability: "/manufacturing-capability",
+  compatibleSolutions: "/compatible-solutions",
   partners: {
     serviceCenters: "/partners/service-centers",
     distributors: "/partners/distributors",
@@ -34,4 +38,3 @@ export const routes = {
   submitRequirement: "/submit-requirement",
   request: "/request",
 } as const;
-

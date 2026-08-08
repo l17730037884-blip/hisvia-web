@@ -5,45 +5,31 @@ import { routes } from "@/lib/routes";
 import { brands } from "@/lib/brands";
 import { industries } from "@/lib/industries";
 import { cases } from "@/lib/cases";
+import { partCategories } from "@/lib/parts";
+import { applications } from "@/lib/applications";
 
 const subRoutes: string[] = [
-  routes.about,
-  routes.partnershipModel,
-  routes.howWeWork,
-  routes.qualityControl,
-  routes.manufacturingCapability,
-  routes.compatibleSolutions,
-  routes.supplyChainNetwork,
-  routes.faq,
-  routes.contact,
-  routes.submitRequirement,
-  routes.solutions.compressors,
-  routes.solutions.compressorParts,
-  routes.solutions.pumps,
-  routes.solutions.hydraulics,
-  routes.solutions.valves,
-  routes.solutions.automation,
-  routes.solutions.mechanical,
-  routes.solutions.consumables,
-  routes.partners.serviceCenters,
-  routes.partners.distributors,
+  routes.about, routes.partnershipModel, routes.howWeWork,
+  routes.qualityControl, routes.manufacturingCapability, routes.manufacturingNetwork,
+  routes.compatibleSolutions, routes.supplyChainNetwork,
+  routes.faq, routes.contact, routes.submitRequirement,
+  routes.solutions.compressors, routes.solutions.compressorParts,
+  routes.solutions.pumps, routes.solutions.hydraulics,
+  routes.solutions.valves, routes.solutions.automation,
+  routes.solutions.mechanical, routes.solutions.consumables,
+  routes.partners.serviceCenters, routes.partners.distributors,
   routes.partners.regionalPartners,
-  // Phase 2 new routes
-  routes.brands,
-  routes.industries,
-  routes.manufacturingNetwork,
-  routes.cases,
-  routes.request,
+  routes.brands, routes.parts, routes.industries, routes.applications,
+  routes.cases, routes.request,
 ];
 
-// Dynamic brand pages
 const brandRoutes = brands.map((b) => `/brands/${b.slug}`);
-// Dynamic industry pages
+const partRoutes = partCategories.map((c) => `/parts/${c.slug}`);
 const industryRoutes = industries.map((i) => `/industries/${i.slug}`);
-// Dynamic case pages
+const appRoutes = applications.map((a) => `/applications/${a.slug}`);
 const caseRoutes = cases.map((c) => `/cases/${c.slug}`);
 
-const allRoutes = [...subRoutes, ...brandRoutes, ...industryRoutes, ...caseRoutes];
+const allRoutes = [...subRoutes, ...brandRoutes, ...partRoutes, ...industryRoutes, ...appRoutes, ...caseRoutes];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
