@@ -27,7 +27,7 @@ export default function Header({ locale }: { locale: Locale }) {
             {t.partnershipModel}
           </Link>
           <Link href={`${base}${routes.manufacturingCapability}`} className="text-sm font-medium text-graphite hover:text-navy">
-            {t.manufacturing}
+            Capabilities
           </Link>
           <Link href={`${base}${routes.brands}`} className="text-sm font-medium text-graphite hover:text-navy">
             Brands
@@ -39,7 +39,7 @@ export default function Header({ locale }: { locale: Locale }) {
             Parts
           </Link>
           <Link href={`${base}${routes.manufacturingNetwork}`} className="text-sm font-medium text-graphite hover:text-navy">
-            Manufacturing
+            Network
           </Link>
           <Link href={`${base}${routes.qualityControl}`} className="text-sm font-medium text-graphite hover:text-navy">
             {t.qualityControl}

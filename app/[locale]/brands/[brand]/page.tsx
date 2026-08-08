@@ -7,12 +7,13 @@ export function generateStaticParams() {
   return brands.map((b) => ({ brand: b.slug }));
 }
 
-export function generateMetadata({ params }: { params: { brand: string } }) {
+export async function generateMetadata({ params }: { params: { brand: string; locale: string } }) {
   const brand = getBrand(params.brand);
   if (!brand) return {};
+  const seriesNames = brand.series.map((s) => s.name).join(", ");
   return {
-    title: `${brand.name} Replacement Parts China — HISVIA`,
-    description: `Compatible replacement parts for ${brand.name} equipment, sourced from verified Chinese manufacturers. Supported series: ${brand.series.join(", ")}.`,
+    title: `${brand.name} Compatible Replacement Parts — HISVIA`,
+    description: `Source compatible replacement parts for ${brand.name} equipment from verified Chinese manufacturers. Supported: ${seriesNames}.`,
   };
 }
 
