@@ -85,7 +85,14 @@ type ImageSize =
   | "landscape_4_3"
   | "landscape_16_9";
 
-const IMG_BASE = "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image";
+const SIZE_MAP: Record<ImageSize, [number, number]> = {
+  square_hd: [1024, 1024],
+  square: [600, 600],
+  portrait_4_3: [600, 800],
+  portrait_16_9: [450, 800],
+  landscape_4_3: [800, 600],
+  landscape_16_9: [800, 450],
+};
 
 export function PlaceholderPhoto({
   caption,
@@ -102,7 +109,11 @@ export function PlaceholderPhoto({
   className?: string;
   interactive?: boolean;
 }) {
-  const src = `${IMG_BASE}?prompt=${encodeURIComponent(prompt)}&image_size=${imageSize}`;
+  const [w, h] = SIZE_MAP[imageSize];
+  // Deterministic seed: each unique prompt always gets the same real photo
+  const seed = prompt.split("").reduce((a, c) => a + c.charCodeAt(0), 0).toString(36);
+  const src = `https://picsum.photos/seed/${seed}/${w}/${h}`;
+  
   return (
     <div className={`relative overflow-hidden border border-line bg-fog/30 ${className}`}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
