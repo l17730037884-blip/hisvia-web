@@ -90,7 +90,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
       </section>
 
       {/* ===== THREE ENTRY CARDS ===== */}
-      <section className="bg-white py-20 reveal-section">
+      <section className="bg-white py-20">
         <div className="mx-auto max-w-wrap px-8">
           <div className="mb-10">
             <p className="mb-2 font-mono text-xs uppercase tracking-widest text-amber">
@@ -159,7 +159,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
       </section>
 
       {/* ===== POSITIONING ===== */}
-      <section className="section-stripe py-24 reveal-section">
+      <section className="section-stripe py-24">
         <div className="mx-auto max-w-wrap px-8">
           <SectionHead kicker={t.positioning.kicker} title={t.positioning.title} />
           <div className="mb-10 grid grid-cols-1 gap-px border border-line bg-line md:grid-cols-3 stagger-children">
@@ -184,7 +184,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
       </section>
 
       {/* ===== PARTNER BENEFITS ===== */}
-      <section className="py-24 reveal-section">
+      <section className="py-24">
         <div className="mx-auto max-w-wrap px-8">
           <SectionHead
             kicker={t.partnerBenefits.kicker}
@@ -228,7 +228,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
       </section>
 
       {/* ===== HOW WE WORK ===== */}
-      <section className="border-t border-line section-stripe py-24 reveal-section">
+      <section className="border-t border-line section-stripe py-24">
         <div className="mx-auto max-w-wrap px-8">
           <SectionHead
             kicker={t.howWeWork.kicker}
@@ -258,7 +258,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
       </section>
 
       {/* ===== MANUFACTURING CAPABILITY ===== */}
-      <section className="py-24 reveal-section">
+      <section className="py-24">
         <div className="mx-auto max-w-wrap px-8">
           <SectionHead
             kicker={t.manufacturing.kicker}
@@ -290,7 +290,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
       </section>
 
       {/* ===== INDUSTRIAL DOMAINS ===== */}
-      <section className="border-y border-line hero-gradient py-24 reveal-section">
+      <section className="border-y border-line hero-gradient py-24">
         <div className="mx-auto max-w-wrap px-8">
           <SectionHead kicker={t.domains.kicker} title={t.domains.title} />
           <div className="flex flex-col gap-4">
@@ -337,7 +337,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
       </section>
 
       {/* ===== TRUST ===== */}
-      <section className="grid grid-cols-1 border-t border-line md:grid-cols-2 reveal-section">
+      <section className="grid grid-cols-1 border-t border-line md:grid-cols-2">
         <div className="border-b border-line p-12 md:border-b-0 md:border-r">
           <SectionHead
             kicker={t.trust.qc.kicker}
@@ -375,7 +375,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
       </section>
 
       {/* ===== COMPATIBLE SOLUTIONS ===== */}
-      <section className="border-t border-line py-14 reveal-section">
+      <section className="border-t border-line py-14">
         <div className="mx-auto flex max-w-wrap flex-wrap items-center justify-between gap-6 px-8">
           <div>
             <p className="mb-2 font-mono text-xs uppercase tracking-wide text-steel">
@@ -392,7 +392,7 @@ export default function Home({ params }: { params: { locale: Locale } }) {
       </section>
 
       {/* ===== CTA ===== */}
-      <section className="border-t border-line hero-gradient py-22 reveal-section">
+      <section className="border-t border-line hero-gradient py-22">
         <div className="mx-auto flex max-w-wrap flex-wrap items-end justify-between gap-10 px-8">
           <h2 className="max-w-lg text-[30px] font-bold leading-snug text-navy">
             {t.cta.heading}
