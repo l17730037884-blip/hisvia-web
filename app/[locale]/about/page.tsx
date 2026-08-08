@@ -13,7 +13,7 @@ export default function Page({ params }: { params: { locale: Locale } }) {
       kicker="About HISVIA"
       title="Why HISVIA exists."
       description="HISVIA was founded to help overseas industrial companies connect with Chinese manufacturing resources."
-      purpose="Company mission page: help overseas industrial enterprises connect with Chinese manufacturing resources and establish long-term partnerships."
+      purpose="回答“我是谁”——不要写成贸易公司介绍，重点讲使命：帮助海外工业企业连接中国制造资源，建立长期合作。"
     />
   );
 }

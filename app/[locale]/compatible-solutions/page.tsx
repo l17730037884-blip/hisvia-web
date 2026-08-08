@@ -1,12 +1,13 @@
 import { SectionHead, PrimaryButton } from "@/components/ui";
 import { routes } from "@/lib/routes";
-import { brands } from "@/lib/brands";
 import type { Locale } from "@/lib/locales";
 
 export const metadata = {
   title: "Compatible Replacement Solutions — HISVIA",
   description: "Compatible replacement components sourced for Atlas Copco, Kaeser, Ingersoll Rand, Sullair, Gardner Denver, and Hitachi equipment.",
 };
+
+const brands = ["Atlas Copco", "Kaeser", "Ingersoll Rand", "Sullair", "Gardner Denver", "Hitachi"];
 
 export default function CompatibleSolutions({ params }: { params: { locale: Locale } }) {
   const base = `/${params.locale}`;
@@ -31,10 +32,10 @@ export default function CompatibleSolutions({ params }: { params: { locale: Loca
 
           <div className="grid grid-cols-1 gap-px border border-line bg-line md:grid-cols-3">
             {brands.map((b) => (
-              <a key={b.slug} href={`${base}${routes.brand(b.slug)}`} className="flex min-h-[110px] flex-col justify-between bg-white p-7 hover:bg-fog">
-                <div className="font-display text-xl font-bold text-navy">{b.name}</div>
-                <span className="mt-4 inline-block font-mono text-[11.5px] text-steel">Compatible parts →</span>
-              </a>
+              <div key={b} className="flex min-h-[110px] flex-col justify-between bg-white p-7">
+                <div className="font-display text-xl font-bold text-navy">{b}</div>
+                <a href="#" className="mt-4 inline-block font-mono text-[11.5px] text-steel">Compatible parts →</a>
+              </div>
             ))}
           </div>
         </div>
