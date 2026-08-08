@@ -1,17 +1,19 @@
 import PageShell from "@/components/PageShell";
 import type { Locale } from "@/lib/locales";
+
 export const metadata = {
-  title: "Compressor spare parts and consumables. — HISVIA",
-  description: "Precision-machined compressor replacement parts compatible with major brands.",
+  title: "OEM-spec and compatible replacement parts. — HISVIA",
+  description: "Spare parts sourcing matched to your existing compressor fleet, including compatible replacement options.",
 };
+
 export default function Page({ params }: { params: { locale: Locale } }) {
   return (
     <PageShell
       locale={params.locale}
-      kicker="Compressor Parts & Consumables"
-      title="Compressor spare parts and consumables."
-      description="Precision-machined compressor replacement parts compatible with major brands."
-      imagePrompt="precision machined metal compressor spare parts arranged on workshop bench, realistic photograph, top down view"
+      kicker="Compressor Spare Parts"
+      title="OEM-spec and compatible replacement parts."
+      description="Spare parts sourcing matched to your existing compressor fleet, including compatible replacement options."
+      purpose="同上四段式模板，重点关联 Compatible Replacement Solutions 页面。"
     />
   );
 }

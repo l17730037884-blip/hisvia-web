@@ -1,4 +1,4 @@
-import { SectionHead, PrimaryButton, PlaceholderPhoto } from "@/components/ui";
+import { SectionHead, PrimaryButton } from "@/components/ui";
 import { routes } from "@/lib/routes";
 import type { Industry } from "@/lib/industries";
 import { cases } from "@/lib/cases";
@@ -18,20 +18,9 @@ export default function IndustryPage({ industry, locale }: { industry: Industry;
 
   return (
     <>
-      <section className="border-b border-line hero-gradient py-20">
+      <section className="border-b border-line bg-fog py-16">
         <div className="mx-auto max-w-wrap px-8">
-          <div className="grid gap-10 md:grid-cols-[1fr_1fr]">
-            <div className="flex flex-col justify-center">
-              <SectionHead kicker="Industrial Applications" title={industry.name} description={industry.problem} />
-            </div>
-            <PlaceholderPhoto
-              caption={industry.name}
-              prompt={`industrial ${industry.name.toLowerCase()} working environment, realistic photograph, professional industrial photography, wide shot`}
-              alt={industry.name}
-              imageSize="landscape_4_3"
-              className="aspect-[4/3] min-h-[280px] rounded-sm card-elevated"
-            />
-          </div>
+          <SectionHead kicker="Industrial Applications" title={industry.name} description={industry.problem} />
         </div>
       </section>
 

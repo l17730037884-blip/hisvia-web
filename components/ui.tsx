@@ -25,10 +25,10 @@ export function SectionHead({
   dark?: boolean;
 }) {
   return (
-    <div className="mb-10 max-w-2xl">
+    <div className="mb-14 max-w-2xl">
       <Kicker dark={dark}>{kicker}</Kicker>
-      <h2 className={`text-[28px] font-bold leading-tight ${dark ? "text-white" : "text-navy"}`}>{title}</h2>
-      {description && <p className={`mt-4 text-[15px] ${dark ? "text-[#C9D2DA]" : "text-graphite"}`}>{description}</p>}
+      <h2 className={`text-[32px] font-bold leading-tight ${dark ? "text-white" : "text-navy"}`}>{title}</h2>
+      {description && <p className={`mt-4 text-[15.5px] ${dark ? "text-[#C9D2DA]" : "text-graphite"}`}>{description}</p>}
     </div>
   );
 }
@@ -85,14 +85,7 @@ type ImageSize =
   | "landscape_4_3"
   | "landscape_16_9";
 
-const SIZE_MAP: Record<ImageSize, [number, number]> = {
-  square_hd: [1024, 1024],
-  square: [600, 600],
-  portrait_4_3: [600, 800],
-  portrait_16_9: [450, 800],
-  landscape_4_3: [800, 600],
-  landscape_16_9: [800, 450],
-};
+const IMG_BASE = "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image";
 
 export function PlaceholderPhoto({
   caption,
@@ -109,11 +102,7 @@ export function PlaceholderPhoto({
   className?: string;
   interactive?: boolean;
 }) {
-  const [w, h] = SIZE_MAP[imageSize];
-  // Deterministic seed: each unique prompt always gets the same real photo
-  const seed = prompt.split("").reduce((a, c) => a + c.charCodeAt(0), 0).toString(36);
-  const src = `https://picsum.photos/seed/${seed}/${w}/${h}`;
-  
+  const src = `${IMG_BASE}?prompt=${encodeURIComponent(prompt)}&image_size=${imageSize}`;
   return (
     <div className={`relative overflow-hidden border border-line bg-fog/30 ${className}`}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -122,7 +111,7 @@ export function PlaceholderPhoto({
         alt={alt ?? caption}
         className={`absolute inset-0 h-full w-full object-cover ${
           interactive
-            ? "transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.08]"
+            ? "transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.08]"
             : ""
         }`}
         loading="lazy"
@@ -130,3 +119,16 @@ export function PlaceholderPhoto({
     </div>
   );
 }
+
+const ICONS = {
+  gear: "⚙️",
+  compressor: "🌀",
+  pump: "💧",
+  valve: "🔧",
+  automation: "🤖",
+  mechanical: "⚡",
+  consumables: "📦",
+  hydraulic: "🔩",
+} as const;
+
+export type PhotoIcon = keyof typeof ICONS;

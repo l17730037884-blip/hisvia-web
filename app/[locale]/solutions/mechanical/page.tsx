@@ -1,17 +1,19 @@
 import PageShell from "@/components/PageShell";
 import type { Locale } from "@/lib/locales";
+
 export const metadata = {
-  title: "Mechanical component and precision part sourcing. — HISVIA",
-  description: "Bearings, seals, gears, shafts, and custom-machined mechanical components.",
+  title: "Bearings, seals, and mechanical parts. — HISVIA",
+  description: "Mechanical component sourcing for industrial maintenance needs.",
 };
+
 export default function Page({ params }: { params: { locale: Locale } }) {
   return (
     <PageShell
       locale={params.locale}
-      kicker="Mechanical Solutions"
-      title="Mechanical component and precision part sourcing."
-      description="Bearings, seals, gears, shafts, and custom-machined mechanical components."
-      imagePrompt="industrial ball bearings and mechanical seals arranged on workbench, realistic photograph, macro detail, precision engineering"
+      kicker="Mechanical Components"
+      title="Bearings, seals, and mechanical parts."
+      description="Mechanical component sourcing for industrial maintenance needs."
+      purpose="同四段式模板。"
     />
   );
 }

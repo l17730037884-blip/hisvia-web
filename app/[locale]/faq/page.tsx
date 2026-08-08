@@ -14,7 +14,6 @@ export default function Page({ params }: { params: { locale: Locale } }) {
       title="Frequently asked questions."
       description="How to partner, inventory requirements, MOQ, shipping, and product confirmation."
       purpose="解答：如何合作 / 是否需要库存 / MOQ / 运输 / 产品确认。"
-      imagePrompt="industrial manufacturing and engineering partnership, realistic photograph"
     />
   );
 }
