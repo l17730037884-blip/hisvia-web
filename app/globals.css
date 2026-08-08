@@ -610,3 +610,59 @@ details[open] summary {
 .hover-lift:hover {
   transform: translateY(-4px);
 }
+
+/* ==========================================
+   GLOBAL TYPOGRAPHY POLISH
+========================================== */
+/* Improve default line-height for readability */
+p { line-height: 1.65; }
+h1, h2, h3, h4 { letter-spacing: -0.01em; }
+
+/* ==========================================
+   INTERACTION SAFETY — ensure all hover elements transition
+========================================== */
+a, button, [role="button"], .card-hover, .card-depth, .card-elevated {
+  transition-timing-function: cubic-bezier(0.2, 0, 0, 1);
+  transition-duration: 0.3s;
+}
+
+/* ==========================================
+   ACTIVE STATE — tactile feedback for all clickables
+========================================== */
+a:active, button:active {
+  transform: scale(0.97);
+  transition: transform 0.1s ease;
+}
+
+/* ==========================================
+   FOCUS VISIBLE — accessibility ring
+========================================== */
+a:focus-visible, button:focus-visible {
+  outline: 2px solid #D98A3D;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ==========================================
+   IMAGE FALLBACK — smooth loading
+========================================== */
+img {
+  transition: opacity 0.4s ease;
+}
+img[loading="lazy"] {
+  opacity: 0;
+}
+img[loading="lazy"].loaded,
+img:not([loading="lazy"]) {
+  opacity: 1;
+}
+
+/* ==========================================
+   CONSISTENT SECTION PADDING
+========================================== */
+section {
+  --section-py: 5rem;
+}
+@media (min-width: 768px) {
+  section { --section-py: 6rem; }
+}
