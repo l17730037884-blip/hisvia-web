@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HISVIA 图片归档 — 剩余99张</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"PingFang SC",sans-serif;background:#f0f2f5;color:#1a1a1a;padding:20px;line-height:1.5}
+h1{font-size:20px;margin-bottom:4px}
+.sub{font-size:12px;color:#666;margin-bottom:12px}
+.summary{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}
+.stat{background:#fff;border:1px solid #ddd;border-radius:4px;padding:8px 14px;font-size:13px}
+.stat b{font-size:18px}
+.stat.ok b{color:#1a7a3a}
+.stat.bad b{color:#c0392b}
+.stat.total b{color:#1a6fb2}
+.section-title{font-size:16px;font-weight:700;margin:20px 0 10px;padding-bottom:6px;border-bottom:2px solid #1a6fb2}
+.group{background:#fff;border:1px solid #ddd;border-radius:6px;padding:14px;margin-bottom:12px}
+.gh{display:flex;align-items:baseline;gap:8px;padding-bottom:8px;border-bottom:1px solid #eee;flex-wrap:wrap}
+.gh .cn{font-size:15px;font-weight:700}
+.gh .cnt{font-size:12px;color:#666;margin-left:auto}
+.gh .badge{font-size:11px;font-weight:700;color:#fff;padding:2px 6px;border-radius:2px}
+.gh .badge.ok{background:#1a7a3a}
+.gh .badge.bad{background:#c0392b}
+.gh .badge.mix{background:#e67e22}
+.row{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;margin-top:10px}
+.c{border:2px solid;border-radius:4px;overflow:hidden;background:#fff}
+.c.ok{border-color:#1a7a3a33}
+.c.bad{border-color:#c0392b33;opacity:0.7}
+.c.unknown{border-color:#99933}
+.c img{width:100%;height:180px;object-fit:contain;background:#fff;display:block;cursor:zoom-in;border-bottom:1px solid #eee}
+.c img.zoom{position:fixed;top:5%;left:5%;width:90%;height:auto;max-height:90vh;z-index:99}
+.lb{padding:6px 8px;font-size:11px}
+.lb .tag{font-size:10px;font-weight:700;padding:1px 5px;border-radius:2px;display:inline-block;margin-bottom:3px;color:#fff}
+.c.ok .tag{background:#1a7a3a}
+.c.bad .tag{background:#c0392b}
+.c.unknown .tag{background:#999}
+.lb .desc{color:#444;font-size:11px;margin-top:2px}
+.lb .wm{color:#c0392b;font-size:10px;margin-top:2px}
+.lb .reason{color:#999;font-size:10px;margin-top:1px}
+</style></head><body>
+<h1>HISVIA 图片归档 — 剩余99张</h1>
+<p class="sub">已删除用户指定不要的35张 · 剩余按品牌整机/通用配件分类 · 标注qwen-vl-plus识图结果</p>
+
+<div class="summary">
+<div class="stat total"><b>99</b> 总数</div>
+<div class="stat ok"><b>43</b> 识图推荐</div>
+<div class="stat bad"><b>56</b> 识图不推荐</div>
+</div>
+<div class="section-title">品牌整机（带品牌搜索）— 25张</div>
+<div class="group">
+<div class="gh"><span class="cn">Atlas Copco 阿特拉斯</span><span class="badge mix">推荐2 不推荐2</span><span class="cnt">4张</span></div>
+<div class="row">
+<div class="c bad"><img src="/photos/raw/_final/brand-machine-atlas-copco-2.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#2</span><div class="desc">箱式固定螺杆式压缩机</div><div class="wm">⚠ 水印: 强烈推荐=是整机+无供应商水印 / 不推荐=有供应商水印或非</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/brand-machine-atlas-copco-3.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#3</span><div class="desc">Atlas Copco GA75VSD+螺杆式固定式压缩机</div><div class="wm">⚠ 水印: 强烈推荐=是整机+无供应商水印</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/brand-machine-atlas-copco-4.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#4</span><div class="desc">箱式固定螺杆式压缩机</div><div class="wm">⚠ 水印: 强烈推荐=是整机+无供应商水印</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/brand-machine-atlas-copco-5.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#5</span><div class="desc">内容描述:移动式压缩机配件套装</div><div class="wm">⚠ 水印: 供应商水印:无</div><div class="reason">原因: 不推荐</div></div></div>
+</div>
+</div>
+<div class="group">
+<div class="gh"><span class="cn">Ingersoll Rand 英格索兰</span><span class="badge ok">全部推荐</span><span class="cnt">6张</span></div>
+<div class="row">
+<div class="c ok"><img src="/photos/raw/_final/brand-machine-ingersoll-rand-0.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#0</span><div class="desc">移动式压缩机</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/brand-machine-ingersoll-rand-1.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#1</span><div class="desc">移动式螺杆式压缩机</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/brand-machine-ingersoll-rand-2.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#2</span><div class="desc"></div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/brand-machine-ingersoll-rand-3.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#3</span><div class="desc">移动式螺杆式压缩机</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/brand-machine-ingersoll-rand-4.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#4</span><div class="desc">移动式螺杆式压缩机</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/brand-machine-ingersoll-rand-5.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#5</span><div class="desc">移动式螺杆式压缩机</div></div></div>
+</div>
+</div>
+<div class="group">
+<div class="gh"><span class="cn">Kaeser 凯撒</span><span class="badge mix">推荐2 不推荐4</span><span class="cnt">6张</span></div>
+<div class="row">
+<div class="c ok"><img src="/photos/raw/_final/brand-machine-kaeser-0.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#0</span><div class="desc">移动式螺杆式压缩机</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/brand-machine-kaeser-1.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#1</span><div class="desc">箱式固定螺杆式压缩机</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/brand-machine-kaeser-2.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#2</span><div class="desc">箱式固定螺杆式压缩机</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/brand-machine-kaeser-3.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#3</span><div class="desc">箱式固定螺杆压缩机</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/brand-machine-kaeser-4.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#4</span><div class="desc">箱式螺杆式压缩机</div><div class="wm">⚠ 水印: 最终推荐(强烈推荐=是整机+无供应商水印 / 不推荐=有供应</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/brand-machine-kaeser-5.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#5</span><div class="desc">箱式压缩机</div></div></div>
+</div>
+</div>
+<div class="group">
+<div class="gh"><span class="cn">Gardner Denver</span><span class="badge mix">推荐2 不推荐4</span><span class="cnt">6张</span></div>
+<div class="row">
+<div class="c bad"><img src="/photos/raw/_final/brand-machine-gardner-denver-0.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#0</span><div class="desc">控制面板，非压缩机整机</div><div class="wm">⚠ 水印: 最终推荐(强烈推荐=是整机+无供应商水印 / 不推荐=有供应</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/brand-machine-gardner-denver-1.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#1</span><div class="desc">螺杆式压缩机油</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/brand-machine-gardner-denver-2.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#2</span><div class="desc">内容描述:箱式压缩机滤芯</div><div class="wm">⚠ 水印: 供应商水印:无</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/brand-machine-gardner-denver-3.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#3</span><div class="desc">螺杆式压缩机部件</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/brand-machine-gardner-denver-4.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#4</span><div class="desc">螺杆式压缩机整机</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/brand-machine-gardner-denver-5.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#5</span><div class="desc">螺杆式压缩机整机</div></div></div>
+</div>
+</div>
+<div class="group">
+<div class="gh"><span class="cn">Hitachi 日立</span><span class="badge ok">全部推荐</span><span class="cnt">3张</span></div>
+<div class="row">
+<div class="c ok"><img src="/photos/raw/_final/brand-machine-hitachi-2.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#2</span><div class="desc">箱式螺杆式压缩机</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/brand-machine-hitachi-3.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#3</span><div class="desc">箱式螺杆式空气压缩机</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/brand-machine-hitachi-4.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#4</span><div class="desc">箱式螺杆式压缩机</div></div></div>
+</div>
+</div>
+<div class="section-title">通用配件（不带品牌搜索）— 74张</div>
+<div class="group">
+<div class="gh"><span class="cn">空压机滤芯 (Air/Oil Filter)</span><span class="badge ok">全部推荐</span><span class="cnt">2张</span></div>
+<div class="row">
+<div class="c ok"><img src="/photos/raw/_final/part-filter-1.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#1</span><div class="desc">空气滤芯</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/part-filter-4.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#4</span><div class="desc">空气滤芯</div></div></div>
+</div>
+</div>
+<div class="group">
+<div class="gh"><span class="cn">油气分离器 (Oil Separator)</span><span class="badge mix">推荐6 不推荐2</span><span class="cnt">8张</span></div>
+<div class="row">
+<div class="c ok"><img src="/photos/raw/_final/part-oilsep-0.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#0</span><div class="desc">滤芯</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/part-oilsep-1.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#1</span><div class="desc">滤芯/分离器</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/part-oilsep-2.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#2</span><div class="desc">滤芯</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/part-oilsep-3.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#3</span><div class="desc">滤芯</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/part-oilsep-4.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#4</span><div class="desc">配件类型:滤芯</div><div class="wm">⚠ 水印: 供应商水印:无</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/part-oilsep-5.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#5</span><div class="desc">滤芯</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-oilsep-6.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#6</span><div class="desc">液压缸/气缸</div><div class="wm">⚠ 水印: ChuangZh</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-oilsep-7.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#7</span><div class="desc">配件类型:滤芯</div><div class="wm">⚠ 水印: 供应商水印:ChuangZhi</div><div class="reason">原因: 不推荐</div></div></div>
+</div>
+</div>
+<div class="group">
+<div class="gh"><span class="cn">转子/机头 (Rotor/Air End)</span><span class="badge mix">推荐2 不推荐4</span><span class="cnt">6张</span></div>
+<div class="row">
+<div class="c bad"><img src="/photos/raw/_final/part-rotor-0.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#0</span><div class="desc">压缩机整机</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-rotor-1.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#1</span><div class="desc">压缩机转子</div><div class="wm">⚠ 水印: 赛科斯</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/part-rotor-2.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#2</span><div class="desc">滤芯/分离器/阀件/轴承/密封件等配件</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-rotor-3.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#3</span><div class="desc">压缩机转子</div><div class="wm">⚠ 水印: 赛科斯</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/part-rotor-4.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#4</span><div class="desc">压缩机转子</div><div class="wm">⚠ 水印: 赛科斯</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-rotor-5.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#5</span><div class="desc">压缩机转子</div><div class="wm">⚠ 水印: 赛科斯</div><div class="reason">原因: 不推荐</div></div></div>
+</div>
+</div>
+<div class="group">
+<div class="gh"><span class="cn">压缩机阀件 (Compressor Valve)</span><span class="badge mix">推荐2 不推荐3</span><span class="cnt">5张</span></div>
+<div class="row">
+<div class="c bad"><img src="/photos/raw/_final/part-valve-0.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#0</span><div class="desc">冷却服务包</div><div class="wm">⚠ 水印: AtlasCopco</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-valve-2.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#2</span><div class="desc">压缩机滤芯</div><div class="wm">⚠ 水印: AtlasCopco</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/part-valve-3.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#3</span><div class="desc">压缩机滤芯、密封件等配件</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-valve-4.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#4</span><div class="desc">电磁阀</div><div class="wm">⚠ 水印: Danfoss</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/part-valve-5.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#5</span><div class="desc">电磁阀件</div></div></div>
+</div>
+</div>
+<div class="group">
+<div class="gh"><span class="cn">机械密封 (Mechanical Seal)</span><span class="badge mix">推荐1 不推荐4</span><span class="cnt">5张</span></div>
+<div class="row">
+<div class="c ok"><img src="/photos/raw/_final/part-seal-5.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#5</span><div class="desc">密封件</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-seal-6.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#6</span><div class="desc">密封/轴封</div><div class="wm">⚠ 水印: SEALCON</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-seal-7.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#7</span><div class="desc">密封/机械密封</div><div class="wm">⚠ 水印: SEALCON FLUID MACHINERY</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-seal-8.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#8</span><div class="desc">密封/机械密封</div><div class="wm">⚠ 水印: SEALCON FLUID MACHINERY</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-seal-9.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#9</span><div class="desc">密封/机械密封</div><div class="wm">⚠ 水印: SEALCON FLUID MACHINERY</div><div class="reason">原因: 不推荐</div></div></div>
+</div>
+</div>
+<div class="group">
+<div class="gh"><span class="cn">液压元件 (Hydraulic)</span><span class="badge bad">全部不推荐</span><span class="cnt">6张</span></div>
+<div class="row">
+<div class="c bad"><img src="/photos/raw/_final/part-hydraulic-3.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#3</span><div class="desc">液压阀</div><div class="wm">⚠ 水印: ANIA</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-hydraulic-4.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#4</span><div class="desc">液压阀</div><div class="wm">⚠ 水印: INIA</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-hydraulic-6.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#6</span><div class="desc">配件类型:阀</div><div class="wm">⚠ 水印: 供应商水印:BHS-HYDRAULIC Boxin</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-hydraulic-7.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#7</span><div class="desc">液压阀</div><div class="wm">⚠ 水印: HS-HYDRAULIC BOXIN</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-hydraulic-8.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#8</span><div class="desc">液压阀</div><div class="wm">⚠ 水印: HS-HYDRAULIC Boxin</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-hydraulic-9.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#9</span><div class="desc">配件类型:阀</div><div class="wm">⚠ 水印: 供应商水印:BHS HYDRAULIC BOXIN</div><div class="reason">原因: 不推荐</div></div></div>
+</div>
+</div>
+<div class="group">
+<div class="gh"><span class="cn">工业轴承 (Bearing)</span><span class="badge mix">推荐2 不推荐6</span><span class="cnt">8张</span></div>
+<div class="row">
+<div class="c bad"><img src="/photos/raw/_final/part-bearing-0.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#0</span><div class="desc">轴承</div><div class="wm">⚠ 水印: koro</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-bearing-1.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#1</span><div class="desc">轴承</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-bearing-2.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#2</span><div class="desc">轴承</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-bearing-3.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#3</span><div class="desc">轴承</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-bearing-4.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#4</span><div class="desc">轴承</div><div class="wm">⚠ 水印: Koro</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-bearing-5.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#5</span><div class="desc">轴承</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/part-bearing-6.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#6</span><div class="desc">轴承</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/part-bearing-7.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#7</span><div class="desc">轴承</div></div></div>
+</div>
+</div>
+<div class="group">
+<div class="gh"><span class="cn">联轴器 (Coupling)</span><span class="badge bad">全部不推荐</span><span class="cnt">7张</span></div>
+<div class="row">
+<div class="c bad"><img src="/photos/raw/_final/part-coupling-0.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#0</span><div class="desc">联轴器</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-coupling-1.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#1</span><div class="desc">联轴器</div><div class="wm">⚠ 水印: 斌昊传动</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-coupling-2.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#2</span><div class="desc">联轴器</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-coupling-3.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#3</span><div class="desc">联轴器</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-coupling-5.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#5</span><div class="desc">联轴器</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-coupling-6.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#6</span><div class="desc">联轴器</div><div class="wm">⚠ 水印: 斌昊传动</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-coupling-7.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#7</span><div class="desc">齿轮/转子</div><div class="wm">⚠ 水印: JLBH</div><div class="reason">原因: 不推荐</div></div></div>
+</div>
+</div>
+<div class="group">
+<div class="gh"><span class="cn">气动元件 (Pneumatic)</span><span class="badge mix">推荐2 不推荐2</span><span class="cnt">4张</span></div>
+<div class="row">
+<div class="c ok"><img src="/photos/raw/_final/part-pneumatic-0.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#0</span><div class="desc"></div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/part-pneumatic-1.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#1</span><div class="desc">气缸</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-pneumatic-6.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#6</span><div class="desc"></div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-pneumatic-7.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#7</span><div class="desc"></div><div class="reason">原因: 不推荐</div></div></div>
+</div>
+</div>
+<div class="group">
+<div class="gh"><span class="cn">工业泵 (Pump)</span><span class="badge mix">推荐3 不推荐3</span><span class="cnt">6张</span></div>
+<div class="row">
+<div class="c ok"><img src="/photos/raw/_final/part-pump-0.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#0</span><div class="desc">泵</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-pump-1.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#1</span><div class="desc">泵</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/part-pump-3.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#3</span><div class="desc">泵</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-pump-4.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#4</span><div class="desc">泵</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/part-pump-6.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#6</span><div class="desc">泵</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-pump-7.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#7</span><div class="desc">泵</div><div class="wm">⚠ 水印: Dehuike Pump</div><div class="reason">原因: 不推荐</div></div></div>
+</div>
+</div>
+<div class="group">
+<div class="gh"><span class="cn">工业阀门 (Ball Valve)</span><span class="badge mix">推荐3 不推荐2</span><span class="cnt">5张</span></div>
+<div class="row">
+<div class="c ok"><img src="/photos/raw/_final/part-ballvalve-0.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#0</span><div class="desc">阀门</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/part-ballvalve-1.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#1</span><div class="desc">工业阀门配件</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-ballvalve-2.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#2</span><div class="desc">电动执行器</div><div class="wm">⚠ 水印: FRY·弗瑞亚</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/part-ballvalve-4.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#4</span><div class="desc">阀门</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-ballvalve-5.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#5</span><div class="desc">太阳能泵/阀组件</div><div class="reason">原因: 不推荐</div></div></div>
+</div>
+</div>
+<div class="group">
+<div class="gh"><span class="cn">PLC控制器 (PLC)</span><span class="badge mix">推荐3 不推荐5</span><span class="cnt">8张</span></div>
+<div class="row">
+<div class="c bad"><img src="/photos/raw/_final/part-automation-0.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#0</span><div class="desc">PLC可编程逻辑控制器</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/part-automation-1.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#1</span><div class="desc">PLC控制器</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-automation-2.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#2</span><div class="desc">PLC控制器</div><div class="wm">⚠ 水印: SIEMENS</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-automation-3.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#3</span><div class="desc">PLC模块</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/part-automation-4.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#4</span><div class="desc">PLC可编程逻辑控制器</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-automation-5.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#5</span><div class="desc">PLC</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/part-automation-6.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#6</span><div class="desc">PLC控制器</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-automation-7.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#7</span><div class="desc">PLC控制器模块</div><div class="reason">原因: 不推荐</div></div></div>
+</div>
+</div>
+<div class="group">
+<div class="gh"><span class="cn">传感器 (Sensor)</span><span class="badge mix">推荐2 不推荐2</span><span class="cnt">4张</span></div>
+<div class="row">
+<div class="c ok"><img src="/photos/raw/_final/part-sensor-0.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#0</span><div class="desc">传感器</div></div></div>
+<div class="c ok"><img src="/photos/raw/_final/part-sensor-1.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#1</span><div class="desc">传感器</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-sensor-6.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#6</span><div class="desc">传感器</div><div class="wm">⚠ 水印: CISBO</div><div class="reason">原因: 不推荐</div></div></div>
+<div class="c bad"><img src="/photos/raw/_final/part-sensor-7.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#7</span><div class="desc">传感器</div><div class="reason">原因: 不推荐</div></div></div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,1581 @@
+[
+  {
+    "file": "public/photos/raw/_final/brand-machine-ingersoll-rand-0.jpg",
+    "filename": "brand-machine-ingersoll-rand-0",
+    "size": [
+      800,
+      800
+    ],
+    "diagnosis": {
+      "avg_edge": 254.5,
+      "std_edge": 5.1,
+      "pct_white_edge": 98.6,
+      "avg_center": 206.9,
+      "min_center": 0.0,
+      "contrast": 47.7,
+      "pct_light": 43.7,
+      "shadow_delta": 0.0,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "edge_dilate",
+      "risk": "medium",
+      "reason": "边缘加固漫水(对比度48,亮部44%)"
+    },
+    "strategy": "edge_dilate",
+    "qc": {
+      "score": 90,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 0.9,
+      "edge_density": 0.6,
+      "center_holes": 24.7,
+      "scatter_islands": 0,
+      "issues": [
+        "内部空洞25%"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/brand-machine-ingersoll-rand-0_nobg.png",
+    "elapsed_s": 1.3,
+    "display_filename": "brand-machine-ingersoll-rand-0.jpg"
+  },
+  {
+    "file": "public/photos/raw/_final/brand-machine-kaeser-0.jpg",
+    "filename": "brand-machine-kaeser-0",
+    "size": [
+      865,
+      852
+    ],
+    "diagnosis": {
+      "avg_edge": 250.0,
+      "std_edge": 5.7,
+      "pct_white_edge": 99.0,
+      "avg_center": 117.5,
+      "min_center": 0.0,
+      "contrast": 132.4,
+      "pct_light": 10.1,
+      "shadow_delta": 16.3,
+      "is_white_bg": true,
+      "is_light_product": false,
+      "strategy": "edge_dilate",
+      "risk": "medium",
+      "reason": "边缘加固漫水(对比度132,亮部10%)"
+    },
+    "strategy": "edge_dilate",
+    "qc": {
+      "score": 100,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 1.7,
+      "edge_density": 1.0,
+      "center_holes": 2.2,
+      "scatter_islands": 0,
+      "issues": [
+        "优秀 ✓"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/brand-machine-kaeser-0_nobg.png",
+    "elapsed_s": 1.1,
+    "display_filename": "brand-machine-kaeser-0.jpg"
+  },
+  {
+    "file": "public/photos/raw/_docx5/image12.jpeg",
+    "filename": "image12",
+    "size": [
+      1200,
+      1200
+    ],
+    "diagnosis": {
+      "avg_edge": 254.9,
+      "std_edge": 5.3,
+      "pct_white_edge": 99.9,
+      "avg_center": 131.7,
+      "min_center": 0.0,
+      "contrast": 123.2,
+      "pct_light": 0.2,
+      "shadow_delta": 22.6,
+      "is_white_bg": true,
+      "is_light_product": false,
+      "strategy": "edge_dilate",
+      "risk": "medium",
+      "reason": "边缘加固漫水(对比度123,亮部0%)"
+    },
+    "strategy": "edge_dilate",
+    "qc": {
+      "score": 100,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 1.8,
+      "edge_density": 0.4,
+      "center_holes": 0.0,
+      "scatter_islands": 0,
+      "issues": [
+        "优秀 ✓"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image12_nobg.png",
+    "elapsed_s": 2.3,
+    "display_filename": "_docx5_image12.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx5/image13.jpeg",
+    "filename": "image13",
+    "size": [
+      1200,
+      628
+    ],
+    "diagnosis": {
+      "avg_edge": 254.9,
+      "std_edge": 0.3,
+      "pct_white_edge": 100.0,
+      "avg_center": 181.7,
+      "min_center": 0.0,
+      "contrast": 73.3,
+      "pct_light": 19.2,
+      "shadow_delta": 0.4,
+      "is_white_bg": true,
+      "is_light_product": false,
+      "strategy": "floodfill",
+      "risk": "low",
+      "reason": "漫水安全(对比度73)"
+    },
+    "strategy": "floodfill",
+    "qc": {
+      "score": 80,
+      "verdict": "REVIEW",
+      "pct_lost": 0.0,
+      "pct_bg": 7.3,
+      "edge_density": 0.9,
+      "center_holes": 1.5,
+      "scatter_islands": 23,
+      "issues": [
+        "少量残留7.3%",
+        "碎片23个"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image13_nobg.png",
+    "elapsed_s": 3.8,
+    "display_filename": "_docx5_image13.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_final/brand-machine-hitachi-4.jpg",
+    "filename": "brand-machine-hitachi-4",
+    "size": [
+      800,
+      800
+    ],
+    "diagnosis": {
+      "avg_edge": 255.0,
+      "std_edge": 0.0,
+      "pct_white_edge": 100.0,
+      "avg_center": 106.7,
+      "min_center": 5.6,
+      "contrast": 148.3,
+      "pct_light": 0.4,
+      "shadow_delta": 0.0,
+      "is_white_bg": true,
+      "is_light_product": false,
+      "strategy": "floodfill",
+      "risk": "low",
+      "reason": "漫水安全(对比度148)"
+    },
+    "strategy": "floodfill",
+    "qc": {
+      "score": 100,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 0.1,
+      "edge_density": 0.4,
+      "center_holes": 0.0,
+      "scatter_islands": 0,
+      "issues": [
+        "优秀 ✓"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/brand-machine-hitachi-4_nobg.png",
+    "elapsed_s": 1.9,
+    "display_filename": "brand-machine-hitachi-4.jpg"
+  },
+  {
+    "file": "public/photos/raw/_docx5/image24.jpeg",
+    "filename": "image24",
+    "size": [
+      2000,
+      1328
+    ],
+    "diagnosis": {
+      "avg_edge": 255.0,
+      "std_edge": 0.1,
+      "pct_white_edge": 100.0,
+      "avg_center": 229.3,
+      "min_center": 0.5,
+      "contrast": 25.7,
+      "pct_light": 49.3,
+      "shadow_delta": 40.3,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "edge_dilate",
+      "risk": "medium",
+      "reason": "边缘加固漫水(对比度26,亮部49%)"
+    },
+    "strategy": "edge_dilate",
+    "qc": {
+      "score": 85,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 18.4,
+      "edge_density": 0.5,
+      "center_holes": 0.0,
+      "scatter_islands": 0,
+      "issues": [
+        "背景残留18.4%"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image24_nobg.png",
+    "elapsed_s": 2.2,
+    "display_filename": "_docx5_image24.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx5/image29.jpeg",
+    "filename": "image29",
+    "size": [
+      1130,
+      861
+    ],
+    "diagnosis": {
+      "avg_edge": 254.9,
+      "std_edge": 2.2,
+      "pct_white_edge": 99.7,
+      "avg_center": 218.8,
+      "min_center": 0.0,
+      "contrast": 36.0,
+      "pct_light": 11.5,
+      "shadow_delta": 15.2,
+      "is_white_bg": true,
+      "is_light_product": false,
+      "strategy": "edge_dilate",
+      "risk": "medium",
+      "reason": "边缘加固漫水(对比度36,亮部12%)"
+    },
+    "strategy": "edge_dilate",
+    "qc": {
+      "score": 95,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 4.6,
+      "edge_density": 0.5,
+      "center_holes": 0.0,
+      "scatter_islands": 0,
+      "issues": [
+        "少量残留4.6%"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image29_nobg.png",
+    "elapsed_s": 1.0,
+    "display_filename": "_docx5_image29.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx5/image11.jpeg",
+    "filename": "image11",
+    "size": [
+      800,
+      533
+    ],
+    "diagnosis": {
+      "avg_edge": 255.0,
+      "std_edge": 0.1,
+      "pct_white_edge": 100.0,
+      "avg_center": 186.5,
+      "min_center": 0.0,
+      "contrast": 68.5,
+      "pct_light": 10.3,
+      "shadow_delta": 0.0,
+      "is_white_bg": true,
+      "is_light_product": false,
+      "strategy": "floodfill",
+      "risk": "low",
+      "reason": "漫水安全(对比度69)"
+    },
+    "strategy": "floodfill",
+    "qc": {
+      "score": 85,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 0.2,
+      "edge_density": 0.7,
+      "center_holes": 0.5,
+      "scatter_islands": 40,
+      "issues": [
+        "碎片40个"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image11_nobg.png",
+    "elapsed_s": 1.1,
+    "display_filename": "_docx5_image11.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_final/part-bearing-7.jpg",
+    "filename": "part-bearing-7",
+    "size": [
+      491,
+      468
+    ],
+    "diagnosis": {
+      "avg_edge": 255.0,
+      "std_edge": 0.0,
+      "pct_white_edge": 100.0,
+      "avg_center": 161.8,
+      "min_center": 36.5,
+      "contrast": 93.2,
+      "pct_light": 20.2,
+      "shadow_delta": 0.0,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "floodfill",
+      "risk": "low",
+      "reason": "漫水安全(对比度93)"
+    },
+    "strategy": "floodfill",
+    "qc": {
+      "score": 95,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 4.5,
+      "edge_density": 0.3,
+      "center_holes": 0.9,
+      "scatter_islands": 0,
+      "issues": [
+        "少量残留4.5%"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/part-bearing-7_nobg.png",
+    "elapsed_s": 0.8,
+    "display_filename": "part-bearing-7.jpg"
+  },
+  {
+    "file": "public/photos/raw/_docx/image7.jpeg",
+    "filename": "image7",
+    "size": [
+      1000,
+      1000
+    ],
+    "diagnosis": {
+      "avg_edge": 255.0,
+      "std_edge": 0.7,
+      "pct_white_edge": 100.0,
+      "avg_center": 144.8,
+      "min_center": 0.0,
+      "contrast": 110.2,
+      "pct_light": 17.4,
+      "shadow_delta": 33.6,
+      "is_white_bg": true,
+      "is_light_product": false,
+      "strategy": "edge_dilate",
+      "risk": "medium",
+      "reason": "边缘加固漫水(对比度110,亮部17%)"
+    },
+    "strategy": "edge_dilate",
+    "qc": {
+      "score": 100,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 3.0,
+      "edge_density": 0.6,
+      "center_holes": 7.8,
+      "scatter_islands": 0,
+      "issues": [
+        "优秀 ✓"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image7_nobg.png",
+    "elapsed_s": 1.4,
+    "display_filename": "_docx_image7.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx/image9.jpeg",
+    "filename": "image9",
+    "size": [
+      1000,
+      1000
+    ],
+    "diagnosis": {
+      "avg_edge": 255.0,
+      "std_edge": 0.0,
+      "pct_white_edge": 100.0,
+      "avg_center": 145.2,
+      "min_center": 0.0,
+      "contrast": 109.8,
+      "pct_light": 12.1,
+      "shadow_delta": 23.3,
+      "is_white_bg": true,
+      "is_light_product": false,
+      "strategy": "edge_dilate",
+      "risk": "medium",
+      "reason": "边缘加固漫水(对比度110,亮部12%)"
+    },
+    "strategy": "edge_dilate",
+    "qc": {
+      "score": 85,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 10.2,
+      "edge_density": 0.5,
+      "center_holes": 0.6,
+      "scatter_islands": 0,
+      "issues": [
+        "背景残留10.2%"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image9_nobg.png",
+    "elapsed_s": 1.4,
+    "display_filename": "_docx_image9.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx/image20.jpeg",
+    "filename": "image20",
+    "size": [
+      1000,
+      1000
+    ],
+    "diagnosis": {
+      "avg_edge": 255.0,
+      "std_edge": 0.0,
+      "pct_white_edge": 100.0,
+      "avg_center": 148.4,
+      "min_center": 0.2,
+      "contrast": 106.6,
+      "pct_light": 34.9,
+      "shadow_delta": 0.0,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "floodfill",
+      "risk": "low",
+      "reason": "漫水安全(对比度107)"
+    },
+    "strategy": "floodfill",
+    "qc": {
+      "score": 75,
+      "verdict": "REVIEW",
+      "pct_lost": 0.0,
+      "pct_bg": 2.4,
+      "edge_density": 0.8,
+      "center_holes": 18.9,
+      "scatter_islands": 29,
+      "issues": [
+        "内部空洞19%",
+        "碎片29个"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image20_nobg.png",
+    "elapsed_s": 2.5,
+    "display_filename": "_docx_image20.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_final/part-pump-0.jpg",
+    "filename": "part-pump-0",
+    "size": [
+      750,
+      750
+    ],
+    "diagnosis": {
+      "avg_edge": 255.0,
+      "std_edge": 0.2,
+      "pct_white_edge": 100.0,
+      "avg_center": 135.2,
+      "min_center": 0.0,
+      "contrast": 119.8,
+      "pct_light": 21.8,
+      "shadow_delta": 3.7,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "floodfill",
+      "risk": "low",
+      "reason": "漫水安全(对比度120)"
+    },
+    "strategy": "floodfill",
+    "qc": {
+      "score": 75,
+      "verdict": "REVIEW",
+      "pct_lost": 0.0,
+      "pct_bg": 1.0,
+      "edge_density": 1.1,
+      "center_holes": 9.7,
+      "scatter_islands": 92,
+      "issues": [
+        "碎片散布92个—花了"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/part-pump-0_nobg.png",
+    "elapsed_s": 1.4,
+    "display_filename": "part-pump-0.jpg"
+  },
+  {
+    "file": "public/photos/raw/_final/part-ballvalve-1.jpg",
+    "filename": "part-ballvalve-1",
+    "size": [
+      500,
+      460
+    ],
+    "diagnosis": {
+      "avg_edge": 254.3,
+      "std_edge": 5.7,
+      "pct_white_edge": 99.7,
+      "avg_center": 197.8,
+      "min_center": 0.0,
+      "contrast": 56.6,
+      "pct_light": 52.9,
+      "shadow_delta": 12.7,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "edge_dilate",
+      "risk": "medium",
+      "reason": "边缘加固漫水(对比度57,亮部53%)"
+    },
+    "strategy": "edge_dilate",
+    "qc": {
+      "score": 70,
+      "verdict": "REVIEW",
+      "pct_lost": 0.0,
+      "pct_bg": 4.6,
+      "edge_density": 1.6,
+      "center_holes": 49.9,
+      "scatter_islands": 0,
+      "issues": [
+        "少量残留4.6%",
+        "产品空洞50%"
+      ]
+    },
+    "escalated": true,
+    "original_strategy": "edge_dilate",
+    "original_qc": {
+      "score": 70,
+      "verdict": "REVIEW",
+      "pct_lost": 0.0,
+      "pct_bg": 4.6,
+      "edge_density": 1.6,
+      "center_holes": 49.9,
+      "scatter_islands": 0,
+      "issues": [
+        "少量残留4.6%",
+        "产品空洞50%"
+      ]
+    },
+    "escalation_result": "birefnet_not_better",
+    "status": "done",
+    "output": "public/assets/cutout_results/part-ballvalve-1_nobg.png",
+    "elapsed_s": 37.0,
+    "display_filename": "part-ballvalve-1.jpg"
+  },
+  {
+    "file": "public/photos/raw/_docx/image34.jpeg",
+    "filename": "image34",
+    "size": [
+      600,
+      600
+    ],
+    "diagnosis": {
+      "avg_edge": 255.0,
+      "std_edge": 0.2,
+      "pct_white_edge": 100.0,
+      "avg_center": 243.0,
+      "min_center": 148.8,
+      "contrast": 11.9,
+      "pct_light": 87.6,
+      "shadow_delta": 6.6,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "skip",
+      "risk": "physical_limit",
+      "reason": "产品近白色(对比度12),与白底无法区分"
+    },
+    "strategy": "skip",
+    "status": "skipped",
+    "reason": "产品近白色(对比度12),与白底无法区分",
+    "display_filename": "_docx_image34.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx/image36.jpeg",
+    "filename": "image36",
+    "size": [
+      1200,
+      1200
+    ],
+    "diagnosis": {
+      "avg_edge": 255.0,
+      "std_edge": 0.0,
+      "pct_white_edge": 100.0,
+      "avg_center": 164.0,
+      "min_center": 0.2,
+      "contrast": 91.0,
+      "pct_light": 23.2,
+      "shadow_delta": 0.0,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "floodfill",
+      "risk": "low",
+      "reason": "漫水安全(对比度91)"
+    },
+    "strategy": "floodfill",
+    "qc": {
+      "score": 100,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 0.0,
+      "edge_density": 0.3,
+      "center_holes": 9.0,
+      "scatter_islands": 0,
+      "issues": [
+        "优秀 ✓"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image36_nobg.png",
+    "elapsed_s": 3.5,
+    "display_filename": "_docx_image36.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx/image63.jpeg",
+    "filename": "image63",
+    "size": [
+      1200,
+      800
+    ],
+    "diagnosis": {
+      "avg_edge": 255.0,
+      "std_edge": 0.9,
+      "pct_white_edge": 100.0,
+      "avg_center": 132.3,
+      "min_center": 0.0,
+      "contrast": 122.7,
+      "pct_light": 24.9,
+      "shadow_delta": 10.4,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "edge_dilate",
+      "risk": "medium",
+      "reason": "边缘加固漫水(对比度123,亮部25%)"
+    },
+    "strategy": "edge_dilate",
+    "qc": {
+      "score": 85,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 3.8,
+      "edge_density": 0.8,
+      "center_holes": 17.0,
+      "scatter_islands": 0,
+      "issues": [
+        "少量残留3.8%",
+        "内部空洞17%"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image63_nobg.png",
+    "elapsed_s": 1.4,
+    "display_filename": "_docx_image63.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx/image64.jpeg",
+    "filename": "image64",
+    "size": [
+      1264,
+      1364
+    ],
+    "diagnosis": {
+      "avg_edge": 254.7,
+      "std_edge": 4.9,
+      "pct_white_edge": 99.4,
+      "avg_center": 153.7,
+      "min_center": 17.4,
+      "contrast": 100.9,
+      "pct_light": 30.4,
+      "shadow_delta": 7.8,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "floodfill",
+      "risk": "low",
+      "reason": "漫水安全(对比度101)"
+    },
+    "strategy": "floodfill",
+    "qc": {
+      "score": 75,
+      "verdict": "REVIEW",
+      "pct_lost": 0.0,
+      "pct_bg": 2.1,
+      "edge_density": 0.7,
+      "center_holes": 26.9,
+      "scatter_islands": 21,
+      "issues": [
+        "内部空洞27%",
+        "碎片21个"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image64_nobg.png",
+    "elapsed_s": 3.5,
+    "display_filename": "_docx_image64.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx/image66.jpeg",
+    "filename": "image66",
+    "size": [
+      640,
+      640
+    ],
+    "diagnosis": {
+      "avg_edge": 255.0,
+      "std_edge": 0.0,
+      "pct_white_edge": 100.0,
+      "avg_center": 163.3,
+      "min_center": 0.0,
+      "contrast": 91.7,
+      "pct_light": 18.6,
+      "shadow_delta": 0.0,
+      "is_white_bg": true,
+      "is_light_product": false,
+      "strategy": "floodfill",
+      "risk": "low",
+      "reason": "漫水安全(对比度92)"
+    },
+    "strategy": "floodfill",
+    "qc": {
+      "score": 85,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 2.9,
+      "edge_density": 0.6,
+      "center_holes": 2.3,
+      "scatter_islands": 24,
+      "issues": [
+        "碎片24个"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image66_nobg.png",
+    "elapsed_s": 1.1,
+    "display_filename": "_docx_image66.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx/image70.jpeg",
+    "filename": "image70",
+    "size": [
+      550,
+      550
+    ],
+    "diagnosis": {
+      "avg_edge": 252.5,
+      "std_edge": 14.5,
+      "pct_white_edge": 96.5,
+      "avg_center": 190.1,
+      "min_center": 2.4,
+      "contrast": 62.4,
+      "pct_light": 29.1,
+      "shadow_delta": -1.4,
+      "is_white_bg": false,
+      "is_light_product": true,
+      "strategy": "birefnet",
+      "risk": "medium",
+      "reason": "纯色/渐变背景用AI抠"
+    },
+    "strategy": "birefnet",
+    "qc": {
+      "score": 80,
+      "verdict": "REVIEW",
+      "pct_lost": 1.3,
+      "pct_bg": 0.1,
+      "edge_density": 0.6,
+      "center_holes": 13.8,
+      "scatter_islands": 11,
+      "issues": [
+        "产品丢失1.3%",
+        "少量碎片11个"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image70_nobg.png",
+    "elapsed_s": 28.3,
+    "display_filename": "_docx_image70.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx/image73.jpeg",
+    "filename": "image73",
+    "size": [
+      1000,
+      1000
+    ],
+    "diagnosis": {
+      "avg_edge": 254.3,
+      "std_edge": 7.7,
+      "pct_white_edge": 99.1,
+      "avg_center": 201.3,
+      "min_center": 0.0,
+      "contrast": 53.1,
+      "pct_light": 48.7,
+      "shadow_delta": 32.3,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "edge_dilate",
+      "risk": "medium",
+      "reason": "边缘加固漫水(对比度53,亮部49%)"
+    },
+    "strategy": "edge_dilate",
+    "qc": {
+      "score": 70,
+      "verdict": "REVIEW",
+      "pct_lost": 0.0,
+      "pct_bg": 8.8,
+      "edge_density": 0.5,
+      "center_holes": 35.7,
+      "scatter_islands": 0,
+      "issues": [
+        "少量残留8.8%",
+        "产品空洞36%"
+      ]
+    },
+    "escalated": true,
+    "original_strategy": "edge_dilate",
+    "original_qc": {
+      "score": 70,
+      "verdict": "REVIEW",
+      "pct_lost": 0.0,
+      "pct_bg": 8.8,
+      "edge_density": 0.5,
+      "center_holes": 35.7,
+      "scatter_islands": 0,
+      "issues": [
+        "少量残留8.8%",
+        "产品空洞36%"
+      ]
+    },
+    "escalation_result": "birefnet_not_better",
+    "status": "done",
+    "output": "public/assets/cutout_results/image73_nobg.png",
+    "elapsed_s": 29.6,
+    "display_filename": "_docx_image73.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx/image75.jpeg",
+    "filename": "image75",
+    "size": [
+      600,
+      446
+    ],
+    "diagnosis": {
+      "avg_edge": 243.0,
+      "std_edge": 0.0,
+      "pct_white_edge": 100.0,
+      "avg_center": 106.8,
+      "min_center": 0.0,
+      "contrast": 136.2,
+      "pct_light": 0.3,
+      "shadow_delta": 0.1,
+      "is_white_bg": true,
+      "is_light_product": false,
+      "strategy": "floodfill",
+      "risk": "low",
+      "reason": "漫水安全(对比度136)"
+    },
+    "strategy": "floodfill",
+    "qc": {
+      "score": 85,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 100.0,
+      "edge_density": 0.0,
+      "center_holes": 0.0,
+      "scatter_islands": 0,
+      "issues": [
+        "背景残留100.0%"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image75_nobg.png",
+    "elapsed_s": 0.4,
+    "display_filename": "_docx_image75.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx/image79.jpeg",
+    "filename": "image79",
+    "size": [
+      900,
+      900
+    ],
+    "diagnosis": {
+      "avg_edge": 255.0,
+      "std_edge": 0.0,
+      "pct_white_edge": 100.0,
+      "avg_center": 155.8,
+      "min_center": 3.0,
+      "contrast": 99.2,
+      "pct_light": 40.8,
+      "shadow_delta": 0.0,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "floodfill",
+      "risk": "low",
+      "reason": "漫水安全(对比度99)"
+    },
+    "strategy": "floodfill",
+    "qc": {
+      "score": 90,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 0.6,
+      "edge_density": 0.3,
+      "center_holes": 19.8,
+      "scatter_islands": 1,
+      "issues": [
+        "内部空洞20%"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image79_nobg.png",
+    "elapsed_s": 2.2,
+    "display_filename": "_docx_image79.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx/image83.jpeg",
+    "filename": "image83",
+    "size": [
+      1200,
+      1200
+    ],
+    "diagnosis": {
+      "avg_edge": 254.6,
+      "std_edge": 1.4,
+      "pct_white_edge": 99.9,
+      "avg_center": 63.1,
+      "min_center": 0.0,
+      "contrast": 191.6,
+      "pct_light": 8.5,
+      "shadow_delta": 2.5,
+      "is_white_bg": true,
+      "is_light_product": false,
+      "strategy": "floodfill",
+      "risk": "low",
+      "reason": "漫水安全(对比度192)"
+    },
+    "strategy": "floodfill",
+    "qc": {
+      "score": 100,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 1.7,
+      "edge_density": 0.7,
+      "center_holes": 3.4,
+      "scatter_islands": 2,
+      "issues": [
+        "优秀 ✓"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image83_nobg.png",
+    "elapsed_s": 2.6,
+    "display_filename": "_docx_image83.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx/image92.jpeg",
+    "filename": "image92",
+    "size": [
+      707,
+      368
+    ],
+    "diagnosis": {
+      "avg_edge": 252.8,
+      "std_edge": 0.0,
+      "pct_white_edge": 100.0,
+      "avg_center": 190.3,
+      "min_center": 0.0,
+      "contrast": 62.5,
+      "pct_light": 27.0,
+      "shadow_delta": 0.0,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "floodfill",
+      "risk": "low",
+      "reason": "漫水安全(对比度63)"
+    },
+    "strategy": "floodfill",
+    "qc": {
+      "score": 95,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 3.0,
+      "edge_density": 0.7,
+      "center_holes": 4.1,
+      "scatter_islands": 7,
+      "issues": [
+        "少量碎片7个"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image92_nobg.png",
+    "elapsed_s": 0.9,
+    "display_filename": "_docx_image92.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx/image93.jpeg",
+    "filename": "image93",
+    "size": [
+      500,
+      500
+    ],
+    "diagnosis": {
+      "avg_edge": 255.0,
+      "std_edge": 0.0,
+      "pct_white_edge": 100.0,
+      "avg_center": 172.3,
+      "min_center": 0.0,
+      "contrast": 82.7,
+      "pct_light": 30.2,
+      "shadow_delta": 0.0,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "floodfill",
+      "risk": "low",
+      "reason": "漫水安全(对比度83)"
+    },
+    "strategy": "floodfill",
+    "qc": {
+      "score": 100,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 0.2,
+      "edge_density": 0.3,
+      "center_holes": 8.2,
+      "scatter_islands": 1,
+      "issues": [
+        "优秀 ✓"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image93_nobg.png",
+    "elapsed_s": 0.9,
+    "display_filename": "_docx_image93.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx/image109.jpeg",
+    "filename": "image109",
+    "size": [
+      800,
+      800
+    ],
+    "diagnosis": {
+      "avg_edge": 255.0,
+      "std_edge": 0.0,
+      "pct_white_edge": 100.0,
+      "avg_center": 205.1,
+      "min_center": 0.0,
+      "contrast": 49.9,
+      "pct_light": 59.3,
+      "shadow_delta": 0.0,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "skip",
+      "risk": "physical_limit",
+      "reason": "产品大部分浅色(亮部59%,对比度50)"
+    },
+    "strategy": "skip",
+    "status": "skipped",
+    "reason": "产品大部分浅色(亮部59%,对比度50)",
+    "display_filename": "_docx_image109.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx/image148.jpeg",
+    "filename": "image148",
+    "size": [
+      400,
+      400
+    ],
+    "diagnosis": {
+      "avg_edge": 254.9,
+      "std_edge": 0.4,
+      "pct_white_edge": 100.0,
+      "avg_center": 171.1,
+      "min_center": 0.0,
+      "contrast": 83.8,
+      "pct_light": 6.2,
+      "shadow_delta": 1.7,
+      "is_white_bg": true,
+      "is_light_product": false,
+      "strategy": "floodfill",
+      "risk": "low",
+      "reason": "漫水安全(对比度84)"
+    },
+    "strategy": "floodfill",
+    "qc": {
+      "score": 85,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 0.4,
+      "edge_density": 0.8,
+      "center_holes": 1.2,
+      "scatter_islands": 32,
+      "issues": [
+        "碎片32个"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image148_nobg.png",
+    "elapsed_s": 0.6,
+    "display_filename": "_docx_image148.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx/image169.jpeg",
+    "filename": "image169",
+    "size": [
+      800,
+      800
+    ],
+    "diagnosis": {
+      "avg_edge": 252.8,
+      "std_edge": 13.8,
+      "pct_white_edge": 97.1,
+      "avg_center": 197.1,
+      "min_center": 2.4,
+      "contrast": 55.8,
+      "pct_light": 36.2,
+      "shadow_delta": 11.4,
+      "is_white_bg": false,
+      "is_light_product": true,
+      "strategy": "birefnet",
+      "risk": "medium",
+      "reason": "纯色/渐变背景用AI抠"
+    },
+    "strategy": "birefnet",
+    "qc": {
+      "score": 90,
+      "verdict": "PASS",
+      "pct_lost": 0.3,
+      "pct_bg": 0.0,
+      "edge_density": 0.3,
+      "center_holes": 18.3,
+      "scatter_islands": 0,
+      "issues": [
+        "内部空洞18%"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image169_nobg.png",
+    "elapsed_s": 30.6,
+    "display_filename": "_docx_image169.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx/image173.jpeg",
+    "filename": "image173",
+    "size": [
+      1000,
+      1216
+    ],
+    "diagnosis": {
+      "avg_edge": 254.0,
+      "std_edge": 3.5,
+      "pct_white_edge": 98.3,
+      "avg_center": 171.6,
+      "min_center": 3.0,
+      "contrast": 82.3,
+      "pct_light": 35.7,
+      "shadow_delta": 7.5,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "floodfill",
+      "risk": "low",
+      "reason": "漫水安全(对比度82)"
+    },
+    "strategy": "floodfill",
+    "qc": {
+      "score": 90,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 6.8,
+      "edge_density": 0.6,
+      "center_holes": 13.9,
+      "scatter_islands": 15,
+      "issues": [
+        "少量残留6.8%",
+        "少量碎片15个"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image173_nobg.png",
+    "elapsed_s": 3.2,
+    "display_filename": "_docx_image173.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx2/image12.jpeg",
+    "filename": "image12",
+    "size": [
+      700,
+      700
+    ],
+    "diagnosis": {
+      "avg_edge": 255.0,
+      "std_edge": 0.1,
+      "pct_white_edge": 100.0,
+      "avg_center": 121.8,
+      "min_center": 3.9,
+      "contrast": 133.1,
+      "pct_light": 0.8,
+      "shadow_delta": 12.2,
+      "is_white_bg": true,
+      "is_light_product": false,
+      "strategy": "edge_dilate",
+      "risk": "medium",
+      "reason": "边缘加固漫水(对比度133,亮部1%)"
+    },
+    "strategy": "edge_dilate",
+    "qc": {
+      "score": 100,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 2.1,
+      "edge_density": 0.5,
+      "center_holes": 0.0,
+      "scatter_islands": 0,
+      "issues": [
+        "优秀 ✓"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image12_nobg.png",
+    "elapsed_s": 0.9,
+    "display_filename": "_docx2_image12.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx2/image22.jpeg",
+    "filename": "image22",
+    "size": [
+      1080,
+      1080
+    ],
+    "diagnosis": {
+      "avg_edge": 254.6,
+      "std_edge": 3.3,
+      "pct_white_edge": 99.0,
+      "avg_center": 176.3,
+      "min_center": 6.5,
+      "contrast": 78.3,
+      "pct_light": 38.5,
+      "shadow_delta": 0.3,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "floodfill",
+      "risk": "low",
+      "reason": "漫水安全(对比度78)"
+    },
+    "strategy": "birefnet(escalated)",
+    "qc": {
+      "score": 95,
+      "verdict": "PASS",
+      "pct_lost": 0.5,
+      "pct_bg": 7.9,
+      "edge_density": 0.6,
+      "center_holes": 0.0,
+      "scatter_islands": 2,
+      "issues": [
+        "少量残留7.9%"
+      ]
+    },
+    "escalated": true,
+    "original_strategy": "floodfill",
+    "original_qc": {
+      "score": 70,
+      "verdict": "REVIEW",
+      "pct_lost": 0.0,
+      "pct_bg": 5.1,
+      "edge_density": 1.3,
+      "center_holes": 0.8,
+      "scatter_islands": 56,
+      "issues": [
+        "少量残留5.1%",
+        "碎片散布56个—花了"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image22_nobg.png",
+    "elapsed_s": 32.8,
+    "display_filename": "_docx2_image22.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx2/image46.jpeg",
+    "filename": "image46",
+    "size": [
+      1140,
+      806
+    ],
+    "diagnosis": {
+      "avg_edge": 253.9,
+      "std_edge": 10.2,
+      "pct_white_edge": 98.5,
+      "avg_center": 216.0,
+      "min_center": 0.3,
+      "contrast": 37.9,
+      "pct_light": 66.0,
+      "shadow_delta": 18.1,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "skip",
+      "risk": "physical_limit",
+      "reason": "产品大部分浅色(亮部66%,对比度38)"
+    },
+    "strategy": "skip",
+    "status": "skipped",
+    "reason": "产品大部分浅色(亮部66%,对比度38)",
+    "display_filename": "_docx2_image46.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx3/image29.jpeg",
+    "filename": "image29",
+    "size": [
+      1000,
+      1000
+    ],
+    "diagnosis": {
+      "avg_edge": 255.0,
+      "std_edge": 0.0,
+      "pct_white_edge": 100.0,
+      "avg_center": 199.1,
+      "min_center": 0.0,
+      "contrast": 55.9,
+      "pct_light": 33.2,
+      "shadow_delta": 0.0,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "edge_dilate",
+      "risk": "medium",
+      "reason": "边缘加固漫水(对比度56,亮部33%)"
+    },
+    "strategy": "edge_dilate",
+    "qc": {
+      "score": 100,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 0.7,
+      "edge_density": 0.3,
+      "center_holes": 7.1,
+      "scatter_islands": 0,
+      "issues": [
+        "优秀 ✓"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image29_nobg.png",
+    "elapsed_s": 2.0,
+    "display_filename": "_docx3_image29.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx3/image31.jpeg",
+    "filename": "image31",
+    "size": [
+      500,
+      500
+    ],
+    "diagnosis": {
+      "avg_edge": 255.0,
+      "std_edge": 0.0,
+      "pct_white_edge": 100.0,
+      "avg_center": 194.9,
+      "min_center": 9.7,
+      "contrast": 60.1,
+      "pct_light": 33.9,
+      "shadow_delta": 0.0,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "floodfill",
+      "risk": "low",
+      "reason": "漫水安全(对比度60)"
+    },
+    "strategy": "floodfill",
+    "qc": {
+      "score": 95,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 1.4,
+      "edge_density": 0.6,
+      "center_holes": 15.0,
+      "scatter_islands": 9,
+      "issues": [
+        "少量碎片9个"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image31_nobg.png",
+    "elapsed_s": 1.0,
+    "display_filename": "_docx3_image31.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_brand/gardner-denver-25.jpg",
+    "filename": "gardner-denver-25",
+    "size": [
+      750,
+      750
+    ],
+    "diagnosis": {
+      "avg_edge": 255.0,
+      "std_edge": 0.0,
+      "pct_white_edge": 100.0,
+      "avg_center": 236.2,
+      "min_center": 9.8,
+      "contrast": 18.8,
+      "pct_light": 79.6,
+      "shadow_delta": 0.0,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "skip",
+      "risk": "physical_limit",
+      "reason": "产品近白色(对比度19),与白底无法区分"
+    },
+    "strategy": "skip",
+    "status": "skipped",
+    "reason": "产品近白色(对比度19),与白底无法区分",
+    "display_filename": "gardner-denver-25.jpg"
+  },
+  {
+    "file": "public/photos/raw/_brand/ingersoll-rand-3.jpg",
+    "filename": "ingersoll-rand-3",
+    "size": [
+      3000,
+      3000
+    ],
+    "diagnosis": {
+      "avg_edge": 255.0,
+      "std_edge": 0.0,
+      "pct_white_edge": 100.0,
+      "avg_center": 194.8,
+      "min_center": 0.3,
+      "contrast": 60.2,
+      "pct_light": 44.2,
+      "shadow_delta": 0.0,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "floodfill",
+      "risk": "low",
+      "reason": "漫水安全(对比度60)"
+    },
+    "strategy": "birefnet(escalated)",
+    "qc": {
+      "score": 90,
+      "verdict": "PASS",
+      "pct_lost": 0.3,
+      "pct_bg": 2.3,
+      "edge_density": 0.3,
+      "center_holes": 18.0,
+      "scatter_islands": 0,
+      "issues": [
+        "内部空洞18%"
+      ]
+    },
+    "escalated": true,
+    "original_strategy": "floodfill",
+    "original_qc": {
+      "score": 65,
+      "verdict": "REVIEW",
+      "pct_lost": 0.0,
+      "pct_bg": 0.4,
+      "edge_density": 1.1,
+      "center_holes": 22.9,
+      "scatter_islands": 150,
+      "issues": [
+        "内部空洞23%",
+        "碎片散布150个—花了"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/ingersoll-rand-3_nobg.png",
+    "elapsed_s": 56.5,
+    "display_filename": "ingersoll-rand-3.jpg"
+  },
+  {
+    "file": "public/photos/raw/_docx6/image62.jpeg",
+    "filename": "image62",
+    "size": [
+      1600,
+      1790
+    ],
+    "diagnosis": {
+      "avg_edge": 254.5,
+      "std_edge": 10.4,
+      "pct_white_edge": 99.7,
+      "avg_center": 202.1,
+      "min_center": 0.0,
+      "contrast": 52.4,
+      "pct_light": 30.2,
+      "shadow_delta": 6.9,
+      "is_white_bg": true,
+      "is_light_product": true,
+      "strategy": "edge_dilate",
+      "risk": "medium",
+      "reason": "边缘加固漫水(对比度52,亮部30%)"
+    },
+    "strategy": "edge_dilate",
+    "qc": {
+      "score": 85,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 3.6,
+      "edge_density": 0.5,
+      "center_holes": 17.5,
+      "scatter_islands": 0,
+      "issues": [
+        "少量残留3.6%",
+        "内部空洞17%"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image62_nobg.png",
+    "elapsed_s": 3.3,
+    "display_filename": "_docx6_image62.jpeg"
+  },
+  {
+    "file": "public/photos/raw/_docx6/image65.jpeg",
+    "filename": "image65",
+    "size": [
+      1680,
+      1680
+    ],
+    "diagnosis": {
+      "avg_edge": 254.3,
+      "std_edge": 10.2,
+      "pct_white_edge": 99.5,
+      "avg_center": 163.2,
+      "min_center": 0.0,
+      "contrast": 91.2,
+      "pct_light": 18.9,
+      "shadow_delta": 4.3,
+      "is_white_bg": true,
+      "is_light_product": false,
+      "strategy": "floodfill",
+      "risk": "low",
+      "reason": "漫水安全(对比度91)"
+    },
+    "strategy": "floodfill",
+    "qc": {
+      "score": 85,
+      "verdict": "PASS",
+      "pct_lost": 0.0,
+      "pct_bg": 1.3,
+      "edge_density": 0.9,
+      "center_holes": 5.8,
+      "scatter_islands": 47,
+      "issues": [
+        "碎片47个"
+      ]
+    },
+    "status": "done",
+    "output": "public/assets/cutout_results/image65_nobg.png",
+    "elapsed_s": 6.3,
+    "display_filename": "_docx6_image65.jpeg"
+  }
+]

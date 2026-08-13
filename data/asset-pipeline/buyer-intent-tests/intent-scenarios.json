@@ -1,0 +1,142 @@
+[
+  {
+    "id": "INT-001", "country": "Russia", "industry": "Mining",
+    "system_type": "Air Compressor Systems", "product_category": "Filter Elements",
+    "brand": "Atlas Copco", "part_number": null,
+    "application": "Mining compressor maintenance", "quantity": "50 units/month", "urgency": "high",
+    "description": "Need Atlas Copco compressor filters for mining. Current supplier too expensive and delivery takes 3 months. Looking for alternative supplier with faster delivery and better price."
+  },
+  {
+    "id": "INT-002", "country": "Kazakhstan", "industry": "Oil & Gas",
+    "system_type": "Hydraulic Systems", "product_category": "Hydraulic Valves",
+    "brand": "Bosch Rexroth", "part_number": "NG10",
+    "application": "Pipeline valve actuation", "quantity": "20 units", "urgency": "medium",
+    "description": "Rexroth hydraulic valves discontinued for our old equipment. Can't find original parts anywhere. Need compatible replacement urgently before next maintenance shutdown."
+  },
+  {
+    "id": "INT-003", "country": "UAE", "industry": "Manufacturing",
+    "system_type": "Pumps & Fluid Handling", "product_category": "Centrifugal Pumps",
+    "brand": null, "part_number": null,
+    "application": "Factory expansion water system", "quantity": "5 units", "urgency": "medium",
+    "description": "New factory expansion project. Need 5 industrial water pumps, stainless steel, 50-100 m³/h. First time buying from China, need CE certification and competitive pricing."
+  },
+  {
+    "id": "INT-004", "country": "Vietnam", "industry": "Manufacturing",
+    "system_type": "Pneumatic Automation", "product_category": "Pneumatic Components",
+    "brand": "FESTO", "part_number": null,
+    "application": "Automation line", "quantity": "200 units", "urgency": "high",
+    "description": "Production line stopped — need 200 pneumatic cylinders urgently. Currently only one supplier and they're out of stock. Need backup supplier immediately."
+  },
+  {
+    "id": "INT-005", "country": "India", "industry": "Cement",
+    "system_type": "Industrial Filtration", "product_category": "Dust Filtration",
+    "brand": "Donaldson", "part_number": null,
+    "application": "Cement plant dust collection", "quantity": "500 cartridges", "urgency": "high",
+    "description": "Donaldson filter cartridges keep failing after 2 months instead of 6. Poor quality from current supplier. Need reliable replacement with proper material certification."
+  },
+  {
+    "id": "INT-006", "country": "Brazil", "industry": "Mining",
+    "system_type": "Mechanical Transmission", "product_category": "Bearings",
+    "brand": "SKF", "part_number": "22320",
+    "application": "Conveyor system", "quantity": "100 units/month", "urgency": "medium",
+    "description": "SKF bearings too expensive for regular conveyor maintenance. Need equivalent quality at 30-40% lower cost. Monthly consumption 100 units. Open to Chinese brands with proven quality."
+  },
+  {
+    "id": "INT-007", "country": "Nigeria", "industry": "Power Generation",
+    "system_type": "Valves & Flow Control", "product_category": "Control Valves",
+    "brand": null, "part_number": null,
+    "application": "Steam control", "quantity": "12 units", "urgency": "high",
+    "description": "Power plant steam valves failed. Emergency replacement needed. Need certified valves with ASME stamp. Can pay premium for fast delivery — production is stopped."
+  },
+  {
+    "id": "INT-008", "country": "Turkey", "industry": "Textile",
+    "system_type": "Air Compressor Systems", "product_category": "Compressors",
+    "brand": "KAESER", "part_number": null,
+    "application": "Textile factory air supply", "quantity": "2 units", "urgency": "medium",
+    "description": "Planning new textile production line. Need oil-free screw compressors. Currently using KAESER but open to alternatives if quality is proven and price is better."
+  },
+  {
+    "id": "INT-009", "country": "Mexico", "industry": "Automotive",
+    "system_type": "Industrial Automation & Control", "product_category": "PLCs & Controllers",
+    "brand": "SIEMENS", "part_number": "S7-1200",
+    "application": "Production line control", "quantity": "5 units", "urgency": "medium",
+    "description": "Retrofitting old production line. Need 5 PLC controllers compatible with SIEMENS S7-1200. Need technical support for programming and commissioning."
+  },
+  {
+    "id": "INT-010", "country": "Indonesia", "industry": "Marine",
+    "system_type": "Hydraulic Systems", "product_category": "Hydraulic Components",
+    "brand": "Parker", "part_number": null,
+    "application": "Ship hydraulic system", "quantity": "15 units", "urgency": "high",
+    "description": "Ship docked for repair — need Parker-compatible hydraulic pumps immediately. Saltwater environment requires special materials. Current supplier has 8-week lead time — unacceptable."
+  },
+  {
+    "id": "INT-011", "country": "Germany", "industry": "Manufacturing",
+    "system_type": "Mechanical Transmission", "product_category": "Seals & Gaskets",
+    "brand": null, "part_number": null,
+    "application": "Pump mechanical seals", "quantity": "500 units/year", "urgency": "medium",
+    "description": "Looking for long-term mechanical seal supplier for pump manufacturing. Need consistent quality, ISO 9001 certified. Annual volume 500+ units. Want to establish strategic partnership."
+  },
+  {
+    "id": "INT-012", "country": "Egypt", "industry": "Construction",
+    "system_type": "Air Compressor Systems", "product_category": "Compressor Components",
+    "brand": "Ingersoll Rand", "part_number": null,
+    "application": "Construction site compressors", "quantity": "30 units", "urgency": "medium",
+    "description": "Ingersoll Rand compressor oil separators and filters. OEM parts too expensive — construction margins are tight. Need compatible quality at 50% of OEM price."
+  },
+  {
+    "id": "INT-013", "country": "South Africa", "industry": "Mining",
+    "system_type": "Industrial Filtration", "product_category": "Dust Filtration",
+    "brand": null, "part_number": null,
+    "application": "Underground mining ventilation", "quantity": "1000 cartridges", "urgency": "medium",
+    "description": "Underground mine dust collection system expansion. Need 1000 high-temperature filter cartridges. Must meet mine safety standards. Looking for reliable long-term supply partner."
+  },
+  {
+    "id": "INT-014", "country": "UK", "industry": "Food & Beverage",
+    "system_type": "Pumps & Fluid Handling", "product_category": "Centrifugal Pumps",
+    "brand": null, "part_number": null,
+    "application": "Food processing", "quantity": "3 units", "urgency": "low",
+    "description": "Food-grade stainless steel pumps for dairy processing line. Must have FDA-compliant materials and full traceability. Planning phase — need quotes and technical documentation first."
+  },
+  {
+    "id": "INT-015", "country": "USA", "industry": "Oil & Gas",
+    "system_type": "Valves & Flow Control", "product_category": "Ball Valves",
+    "brand": null, "part_number": null,
+    "application": "Pipeline isolation", "quantity": "50 units", "urgency": "medium",
+    "description": "Need API 6D certified ball valves for pipeline project. Currently buying from Italian supplier — too expensive. Exploring Chinese manufacturers with API certification for cost reduction."
+  },
+  {
+    "id": "INT-016", "country": "Russia", "industry": "Mining",
+    "system_type": "Hydraulic Systems", "product_category": "Hydraulic Components",
+    "brand": null, "part_number": null,
+    "application": "Excavator hydraulics", "quantity": "10 units", "urgency": "high",
+    "description": "Excavator hydraulic pumps failed at remote mine site. Need replacement ASAP. Can't wait for OEM — need compatible alternative shipped by air within 5 days."
+  },
+  {
+    "id": "INT-017", "country": "Vietnam", "industry": "Electronics",
+    "system_type": "Industrial Automation & Control", "product_category": "Sensors",
+    "brand": "Omron", "part_number": null,
+    "application": "PCB assembly line", "quantity": "200 units", "urgency": "medium",
+    "description": "Need Omron-compatible photoelectric sensors for PCB assembly line. Current supplier quality inconsistent — 5% failure rate. Need reliable alternative with guaranteed <1% defect rate."
+  },
+  {
+    "id": "INT-018", "country": "Kazakhstan", "industry": "Oil & Gas",
+    "system_type": "Pneumatic Automation", "product_category": "Pneumatic Valves",
+    "brand": null, "part_number": null,
+    "application": "Wellhead control", "quantity": "25 units", "urgency": "high",
+    "description": "Wellhead pneumatic control valves for oil field. Harsh environment — need ATEX certified for hazardous area. Current delivery 12 weeks — need faster source. Budget flexible for certified parts."
+  },
+  {
+    "id": "INT-019", "country": "India", "industry": "Pharmaceutical",
+    "system_type": "Industrial Filtration", "product_category": "Precision Filtration",
+    "brand": null, "part_number": null,
+    "application": "Cleanroom HVAC", "quantity": "200 units", "urgency": "medium",
+    "description": "HEPA H13 filters for pharmaceutical cleanroom. Must have full validation documentation and batch traceability. Current European supplier lead time 16 weeks — unacceptable for expansion timeline."
+  },
+  {
+    "id": "INT-020", "country": "UAE", "industry": "Manufacturing",
+    "system_type": "Air Compressor Systems", "product_category": "Air Treatment",
+    "brand": null, "part_number": null,
+    "application": "Paint shop air quality", "quantity": "1 complete system", "urgency": "medium",
+    "description": "New automotive paint shop needs complete compressed air treatment: refrigerated dryer + desiccant dryer + coalescing filters + receiver tank. Need one supplier for whole package. ISO 8573-1 Class 2 air quality required."
+  }
+]

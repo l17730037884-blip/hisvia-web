@@ -1,0 +1,35 @@
+{
+  "output": {
+    "choices": [
+      {
+        "message": {
+          "content": [
+            {
+              "text": "```json\n{\n  \"visible_object\": [\n    \"building\",\n    \"cars\",\n    \"streetlight\",\n    \"trees\",\n    \"parking lot\"\n  ],\n  \"object_type\": \"factory_scene\",\n  \"visible_brand\": [],\n  \"visible_text\": [\n    \"叶鲁数控\",\n    \"高新技术企业\",\n    \"东莞市虎门镇新湾工业区\"\n  ],\n  \"visible_features\": [\n    \"multi-story building\",\n    \"blue and white color scheme\",\n    \"glass windows\",\n    \"parked vehicles\",\n    \"street signage\",\n    \"clear sky\"\n  ],\n  \"image_condition\": \"factory_photo\",\n  \"industrial_clues\": [\n    \"building signage indicating a technical or manufacturing entity\",\n    \"parked cars suggesting operational activity\"\n  ],\n  \"visual_confidence\": 95\n}\n```"
+            }
+          ],
+          "reasoning_content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens_details": {
+      "image_tokens": 288,
+      "text_tokens": 190
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 653,
+    "output_tokens": 175,
+    "input_tokens": 478,
+    "output_tokens_details": {
+      "text_tokens": 175
+    },
+    "image_tokens": 288
+  },
+  "request_id": "e54eaa48-37bb-9389-8037-cc7fd62bc13c"
+}

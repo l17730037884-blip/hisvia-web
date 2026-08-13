@@ -1,0 +1,136 @@
+{
+  "version": "v2",
+  "generated": "2026-08-11",
+  "description": "Partner program pages — for distributors, service centers, and regional partners",
+  "partner_types": [
+    {
+      "id": "distributor",
+      "route": "/partners/distributor",
+      "title": "Become an Industrial Parts Distributor",
+      "target_audience": "Companies already distributing industrial equipment, spare parts, or MRO supplies in their local market. Looking to add Chinese-manufactured industrial components to their product portfolio.",
+      "value_proposition": [
+        "Direct factory pricing without intermediary markups",
+        "Access to 8 industrial system categories from verified manufacturers",
+        "Technical documentation and quality certificates provided",
+        "Consolidated shipping and logistics support",
+        "Territory protection for committed distributors"
+      ],
+      "requirements": [
+        "Registered business entity in target market",
+        "Existing customer base in industrial sectors",
+        "Warehouse or logistics capability",
+        "Technical knowledge of industrial equipment",
+        "Minimum annual purchase commitment"
+      ],
+      "onboarding_process": [
+        "Submit distributor application with company profile",
+        "Market and territory assessment by HISVIA",
+        "Product category and supplier matching",
+        "Sample order and quality verification",
+        "Distributor agreement and territory definition",
+        "First container order and market launch"
+      ],
+      "business_model": {
+        "model_type": "distribution_partnership",
+        "revenue_sources": [
+          "Wholesale pricing from factory with distributor margin",
+          "Volume-based tier pricing for larger commitments",
+          "Exclusive territory premium for committed partners"
+        ],
+        "investment_required": "Minimum annual purchase commitment (amount negotiated per territory)",
+        "support_provided": [
+          "Product training and technical documentation",
+          "Marketing materials and product catalogs",
+          "Consolidated shipping and logistics coordination",
+          "Quality guarantee and after-sales support"
+        ],
+        "note": "Specific margins and commitments are negotiated individually. HISVIA does not publish fixed rates as they vary by product category and territory."
+      }
+    },
+    {
+      "id": "service_center",
+      "route": "/partners/service-center",
+      "title": "Authorized Service & Repair Center",
+      "target_audience": "Industrial equipment repair workshops, maintenance service providers, and technical service companies that repair and maintain industrial machinery for end users.",
+      "value_proposition": [
+        "Direct source for replacement parts and repair kits",
+        "Technical service bulletins and repair manuals",
+        "Priority parts supply for urgent repairs",
+        "Brand-neutral service capability for multi-brand fleets",
+        "Referral of local buyers from HISVIA platform"
+      ],
+      "requirements": [
+        "Qualified mechanical/electrical technicians",
+        "Workshop with repair and testing capability",
+        "Experience with industrial rotating equipment",
+        "Measurement and diagnostic tools",
+        "Quality management and documentation process"
+      ],
+      "onboarding_process": [
+        "Submit service center application with capability description",
+        "Technical capability assessment",
+        "Parts catalog and pricing access setup",
+        "Initial parts stock recommendation",
+        "Service center certification",
+        "Listing on HISVIA partner network"
+      ],
+      "business_model": {
+        "model_type": "authorized_service_partnership",
+        "revenue_sources": [
+          "Service revenue from equipment repair and maintenance",
+          "Parts markup on replacement components supplied",
+          "Referral commission from HISVIA for buyer introductions"
+        ],
+        "investment_required": "Initial parts stock order (amount based on service scope)",
+        "support_provided": [
+          "Technical service manuals and bulletins",
+          "Priority parts supply for urgent repairs",
+          "Diagnostic tool access and training",
+          "Listing on HISVIA partner network for local buyer referrals"
+        ]
+      }
+    },
+    {
+      "id": "regional_agent",
+      "route": "/partners/regional-agent",
+      "title": "Regional Market Representative",
+      "target_audience": "Individuals or companies with strong local networks in industrial sectors. Act as HISVIA's local representative to connect buyers with Chinese supply chain capabilities.",
+      "value_proposition": [
+        "Commission on successful buyer-supplier connections",
+        "No inventory investment required",
+        "Full technical and commercial support from HISVIA",
+        "Market exclusivity options for committed agents",
+        "Access to supplier factory visits and training"
+      ],
+      "requirements": [
+        "Local market knowledge and industrial network",
+        "Ability to communicate technical requirements",
+        "Professional representation capability",
+        "Understanding of international trade basics"
+      ],
+      "onboarding_process": [
+        "Submit agent application with market experience",
+        "Interview and market assessment",
+        "Product and supplier training",
+        "Agent agreement and commission structure",
+        "Marketing materials and buyer introduction process",
+        "First buyer engagement support"
+      ],
+      "business_model": {
+        "model_type": "commission_agency",
+        "revenue_sources": [
+          "Commission on successful buyer-supplier connections",
+          "Project-based fees for large procurement programs",
+          "Market development incentives for new territory growth"
+        ],
+        "investment_required": "No inventory investment. Time investment in market development.",
+        "support_provided": [
+          "Full supplier matching and technical support",
+          "Buyer qualification and requirement analysis",
+          "Factory visit coordination and translation",
+          "Marketing and business development materials"
+        ]
+      }
+    }
+  ]
+}

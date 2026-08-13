@@ -1,0 +1,71 @@
+{
+  "version": "v1",
+  "description": "HISVIA Supplier Recruitment Tracking Schema. Real factories only. No fabricated data.",
+  "schema": {
+    "identity": {
+      "supplier_id": { "type": "string", "format": "SUP-{timestamp}-{random}", "required": true },
+      "company_name": { "type": "string", "required": true },
+      "company_name_en": { "type": "string", "required": false },
+      "location": { "type": "string", "required": true, "description": "City, Province, China" },
+      "region": { "type": "string", "required": true, "enum": ["Zhejiang", "Jiangsu", "Shanghai", "Guangdong", "Shandong", "Hebei", "Fujian", "Other"] },
+      "established_year": { "type": "integer", "required": false },
+      "employee_count": { "type": "integer", "required": false }
+    },
+    "capabilities": {
+      "system_categories": { "type": "array", "required": true, "description": "HISVIA system types factory can supply", "items": { "type": "string" } },
+      "product_categories": { "type": "array", "required": false, "description": "Specific product types manufactured" },
+      "manufacturing_processes": { "type": "array", "required": false },
+      "compatible_brands": { "type": "array", "required": false, "description": "OEM brands factory has experience with" }
+    },
+    "contact": {
+      "contact_name": { "type": "string", "required": true },
+      "contact_role": { "type": "string", "required": false },
+      "contact_phone": { "type": "string", "required": true },
+      "contact_email": { "type": "string", "required": false },
+      "contact_wechat": { "type": "string", "required": false }
+    },
+    "acquisition": {
+      "contact_source": { "type": "string", "required": true, "enum": ["b2b_platform", "exhibition", "referral", "direct_outreach", "inbound_inquiry", "industry_association", "other"] },
+      "first_contact_date": { "type": "string", "required": true, "format": "date" },
+      "recruited_by": { "type": "string", "required": false }
+    },
+    "verification": {
+      "factory_status": { "type": "string", "required": true, "enum": ["found", "contacted", "interested", "documents_submitted", "verified", "active", "rejected", "inactive"] },
+      "document_verified": { "type": "boolean", "default": false },
+      "factory_audited": { "type": "boolean", "default": false },
+      "certifications_verified": { "type": "array", "required": false, "items": { "name": "string", "verified": "boolean" } },
+      "verification_date": { "type": "string", "required": false, "format": "date" }
+    },
+    "export": {
+      "export_experience": { "type": "string", "required": false, "enum": ["none", "limited", "moderate", "extensive"] },
+      "export_countries": { "type": "array", "required": false },
+      "has_english_capability": { "type": "boolean", "default": false },
+      "has_russian_capability": { "type": "boolean", "default": false }
+    },
+    "status": {
+      "response_status": { "type": "string", "required": true, "enum": ["pending_outreach", "contacted_no_response", "responded_interested", "responded_not_interested", "in_discussion", "onboarded", "rejected", "inactive"] },
+      "status_history": { "type": "array", "items": { "status": "string", "timestamp": "string", "note": "string" } },
+      "next_action": { "type": "string", "required": false },
+      "next_contact_date": { "type": "string", "required": false, "format": "date" }
+    }
+  },
+  "status_flow": {
+    "found": { "description": "Factory identified, not yet contacted", "next": ["contacted"] },
+    "contacted": { "description": "Initial outreach sent", "next": ["interested", "rejected"] },
+    "interested": { "description": "Factory expressed interest in HISVIA partnership", "next": ["documents_submitted", "rejected"] },
+    "documents_submitted": { "description": "Business license, certificates received", "next": ["verified", "rejected"] },
+    "verified": { "description": "Documents verified, ready for audit", "next": ["active", "rejected"] },
+    "active": { "description": "Factory onboarded and active on HISVIA", "next": ["inactive"] },
+    "rejected": { "description": "Factory does not meet requirements", "next": [] },
+    "inactive": { "description": "Temporarily suspended or paused", "next": ["active"] }
+  },
+  "rules": [
+    "Every supplier must be a real Chinese factory — no fabricated profiles",
+    "Verification status must be based on actual documents received",
+    "Never auto-generate supplier profiles for metrics",
+    "Certifications must be validated against issuing body before marking verified",
+    "Supplier count displayed honestly — 0 until real factories are contacted and verified"
+  ],
+  "current_active_supplier_count": 0,
+  "current_pipeline_count": 0
+}

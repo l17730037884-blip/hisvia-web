@@ -1,0 +1,394 @@
+[
+  {
+    "asset_id": "asset-001ac56b",
+    "system_type": null,
+    "brand": null,
+    "confidence": "LOW",
+    "placement_role": "factory_trust",
+    "target_page": "/en/about/manufacturing-network"
+  },
+  {
+    "asset_id": "asset-21c46019",
+    "system_type": "Air Compressor Systems",
+    "brand": "compair",
+    "confidence": "HIGH",
+    "placement_role": "hero",
+    "target_page": "/en/solutions/compressed-air-systems"
+  },
+  {
+    "asset_id": "asset-325714de",
+    "system_type": "Pumps & Fluid Handling",
+    "brand": null,
+    "confidence": "HIGH",
+    "placement_role": "hero",
+    "target_page": "/en/solutions/pumps-fluid-handling"
+  },
+  {
+    "asset_id": "asset-344e002d",
+    "system_type": "Pumps & Fluid Handling",
+    "brand": null,
+    "confidence": "HIGH",
+    "placement_role": "system_section",
+    "target_page": "/en/solutions/pumps-fluid-handling"
+  },
+  {
+    "asset_id": "asset-3986d47f",
+    "system_type": "Industrial Filtration",
+    "brand": null,
+    "confidence": "HIGH",
+    "placement_role": "hero",
+    "target_page": "/en/solutions/industrial-filtration"
+  },
+  {
+    "asset_id": "asset-40a7670c",
+    "system_type": "Industrial Filtration",
+    "brand": null,
+    "confidence": "HIGH",
+    "placement_role": "system_section",
+    "target_page": "/en/solutions/industrial-filtration"
+  },
+  {
+    "asset_id": "asset-40e9d9a1",
+    "system_type": null,
+    "brand": "siemens",
+    "confidence": "LOW",
+    "placement_role": "factory_trust",
+    "target_page": "/en/about/manufacturing-network"
+  },
+  {
+    "asset_id": "asset-475bb362",
+    "system_type": "Pumps & Fluid Handling",
+    "brand": null,
+    "confidence": "HIGH",
+    "placement_role": "system_section",
+    "target_page": "/en/solutions/pumps-fluid-handling"
+  },
+  {
+    "asset_id": "asset-48b63b1e",
+    "system_type": "Pumps & Fluid Handling",
+    "brand": "sulzer",
+    "confidence": "HIGH",
+    "placement_role": "product_support",
+    "target_page": "/en/solutions/pumps-fluid-handling"
+  },
+  {
+    "asset_id": "asset-4ab74032",
+    "system_type": "Mechanical Transmission",
+    "brand": null,
+    "confidence": "HIGH",
+    "placement_role": "hero",
+    "target_page": "/en/solutions/mechanical-transmission"
+  },
+  {
+    "asset_id": "asset-58e52f7c",
+    "system_type": null,
+    "brand": null,
+    "confidence": "LOW",
+    "placement_role": "factory_trust",
+    "target_page": "/en/about/manufacturing-network"
+  },
+  {
+    "asset_id": "asset-5b33ea4b",
+    "system_type": null,
+    "brand": "kuka",
+    "confidence": "LOW",
+    "placement_role": "factory_trust",
+    "target_page": "/en/about/manufacturing-network"
+  },
+  {
+    "asset_id": "asset-5d428a16",
+    "system_type": "Pneumatic Automation",
+    "brand": null,
+    "confidence": "HIGH",
+    "placement_role": "hero",
+    "target_page": "/en/solutions/pneumatic-automation"
+  },
+  {
+    "asset_id": "asset-6b0073d0",
+    "system_type": "Mechanical Transmission",
+    "brand": null,
+    "confidence": "HIGH",
+    "placement_role": "system_section",
+    "target_page": "/en/solutions/mechanical-transmission"
+  },
+  {
+    "asset_id": "asset-6b7b1713",
+    "system_type": "Air Compressor Systems",
+    "brand": "kaeser",
+    "confidence": "HIGH",
+    "placement_role": "system_section",
+    "target_page": "/en/solutions/compressed-air-systems"
+  },
+  {
+    "asset_id": "asset-7aaf9aca",
+    "system_type": "Mechanical Transmission",
+    "brand": "loctite",
+    "confidence": "HIGH",
+    "placement_role": "system_section",
+    "target_page": "/en/solutions/mechanical-transmission"
+  },
+  {
+    "asset_id": "asset-7b19d020",
+    "system_type": "Valves & Flow Control",
+    "brand": null,
+    "confidence": "HIGH",
+    "placement_role": "hero",
+    "target_page": "/en/solutions/valves-flow-control"
+  },
+  {
+    "asset_id": "asset-7da7f124",
+    "system_type": "Industrial Filtration",
+    "brand": "donaldson",
+    "confidence": "HIGH",
+    "placement_role": "system_section",
+    "target_page": "/en/solutions/industrial-filtration"
+  },
+  {
+    "asset_id": "asset-81187c75",
+    "system_type": null,
+    "brand": "precise",
+    "confidence": "LOW",
+    "placement_role": "factory_trust",
+    "target_page": "/en/about/manufacturing-network"
+  },
+  {
+    "asset_id": "asset-8342923a",
+    "system_type": "Pneumatic Automation",
+    "brand": null,
+    "confidence": "HIGH",
+    "placement_role": "system_section",
+    "target_page": "/en/solutions/pneumatic-automation"
+  },
+  {
+    "asset_id": "asset-8490ea6c",
+    "system_type": "Industrial Filtration",
+    "brand": "donaldson torit",
+    "confidence": "HIGH",
+    "placement_role": "product_support",
+    "target_page": "/en/solutions/industrial-filtration"
+  },
+  {
+    "asset_id": "asset-84bb2bba",
+    "system_type": null,
+    "brand": null,
+    "confidence": "LOW",
+    "placement_role": "needs_review",
+    "target_page": null
+  },
+  {
+    "asset_id": "asset-87e2254b",
+    "system_type": null,
+    "brand": "china erzhong",
+    "confidence": "LOW",
+    "placement_role": "factory_trust",
+    "target_page": "/en/about/manufacturing-network"
+  },
+  {
+    "asset_id": "asset-918a3003",
+    "system_type": "Air Compressor Systems",
+    "brand": "atlas copco",
+    "confidence": "HIGH",
+    "placement_role": "system_section",
+    "target_page": "/en/solutions/compressed-air-systems"
+  },
+  {
+    "asset_id": "asset-91e283b8",
+    "system_type": "Industrial Automation & Control",
+    "brand": "omron",
+    "confidence": "HIGH",
+    "placement_role": "hero",
+    "target_page": "/en/solutions/automation-control"
+  },
+  {
+    "asset_id": "asset-9f330fb8",
+    "system_type": "Air Compressor Systems",
+    "brand": "alpha lubricants",
+    "confidence": "HIGH",
+    "placement_role": "product_support",
+    "target_page": "/en/solutions/compressed-air-systems"
+  },
+  {
+    "asset_id": "asset-a1ae0abb",
+    "system_type": null,
+    "brand": null,
+    "confidence": "LOW",
+    "placement_role": "needs_review",
+    "target_page": null
+  },
+  {
+    "asset_id": "asset-a88224cd",
+    "system_type": "Pumps & Fluid Handling",
+    "brand": null,
+    "confidence": "HIGH",
+    "placement_role": "product_support",
+    "target_page": "/en/solutions/pumps-fluid-handling"
+  },
+  {
+    "asset_id": "asset-a8ee483b",
+    "system_type": "Mechanical Transmission",
+    "brand": null,
+    "confidence": "HIGH",
+    "placement_role": "product_support",
+    "target_page": "/en/solutions/mechanical-transmission"
+  },
+  {
+    "asset_id": "asset-a978f441",
+    "system_type": "Air Compressor Systems",
+    "brand": "atlas copco",
+    "confidence": "HIGH",
+    "placement_role": "product_support",
+    "target_page": "/en/solutions/compressed-air-systems"
+  },
+  {
+    "asset_id": "asset-ad1a284d",
+    "system_type": "Pneumatic Automation",
+    "brand": "festo",
+    "confidence": "HIGH",
+    "placement_role": "system_section",
+    "target_page": "/en/solutions/pneumatic-automation"
+  },
+  {
+    "asset_id": "asset-b69c6430",
+    "system_type": null,
+    "brand": "kuka",
+    "confidence": "LOW",
+    "placement_role": "factory_trust",
+    "target_page": "/en/about/manufacturing-network"
+  },
+  {
+    "asset_id": "asset-b7d57b28",
+    "system_type": "Mechanical Transmission",
+    "brand": null,
+    "confidence": "HIGH",
+    "placement_role": "product_support",
+    "target_page": "/en/solutions/mechanical-transmission"
+  },
+  {
+    "asset_id": "asset-cd532cc1",
+    "system_type": "Hydraulic Systems",
+    "brand": null,
+    "confidence": "HIGH",
+    "placement_role": "hero",
+    "target_page": "/en/solutions/hydraulic-systems"
+  },
+  {
+    "asset_id": "asset-ce8be518",
+    "system_type": "Hydraulic Systems",
+    "brand": null,
+    "confidence": "HIGH",
+    "placement_role": "system_section",
+    "target_page": "/en/solutions/hydraulic-systems"
+  },
+  {
+    "asset_id": "asset-ceb53592",
+    "system_type": null,
+    "brand": "cnc",
+    "confidence": "LOW",
+    "placement_role": "factory_trust",
+    "target_page": "/en/about/manufacturing-network"
+  },
+  {
+    "asset_id": "asset-cfd129d3",
+    "system_type": "Pneumatic Automation",
+    "brand": "atlas copco",
+    "confidence": "HIGH",
+    "placement_role": "product_support",
+    "target_page": "/en/solutions/pneumatic-automation"
+  },
+  {
+    "asset_id": "asset-d29f9c00",
+    "system_type": "Valves & Flow Control",
+    "brand": "evf",
+    "confidence": "HIGH",
+    "placement_role": "system_section",
+    "target_page": "/en/solutions/valves-flow-control"
+  },
+  {
+    "asset_id": "asset-d7c25888",
+    "system_type": null,
+    "brand": null,
+    "confidence": "LOW",
+    "placement_role": "factory_trust",
+    "target_page": "/en/about/manufacturing-network"
+  },
+  {
+    "asset_id": "asset-da50866c",
+    "system_type": "Mechanical Transmission",
+    "brand": null,
+    "confidence": "HIGH",
+    "placement_role": "product_support",
+    "target_page": "/en/solutions/mechanical-transmission"
+  },
+  {
+    "asset_id": "asset-dfd5500a",
+    "system_type": "Hydraulic Systems",
+    "brand": "reishauer",
+    "confidence": "HIGH",
+    "placement_role": "system_section",
+    "target_page": "/en/solutions/hydraulic-systems"
+  },
+  {
+    "asset_id": "asset-e4c126b0",
+    "system_type": "Industrial Automation & Control",
+    "brand": "gardner denver",
+    "confidence": "MEDIUM",
+    "placement_role": "seo_thumbnail",
+    "target_page": "/en/solutions/automation-control"
+  },
+  {
+    "asset_id": "asset-e6830784",
+    "system_type": "Hydraulic Systems",
+    "brand": "vickers",
+    "confidence": "HIGH",
+    "placement_role": "product_support",
+    "target_page": "/en/solutions/hydraulic-systems"
+  },
+  {
+    "asset_id": "asset-e82582ef",
+    "system_type": "Valves & Flow Control",
+    "brand": null,
+    "confidence": "HIGH",
+    "placement_role": "system_section",
+    "target_page": "/en/solutions/valves-flow-control"
+  },
+  {
+    "asset_id": "asset-eb8b77cc",
+    "system_type": "Industrial Filtration",
+    "brand": "donaldson",
+    "confidence": "HIGH",
+    "placement_role": "product_support",
+    "target_page": "/en/solutions/industrial-filtration"
+  },
+  {
+    "asset_id": "asset-f0993304",
+    "system_type": "Industrial Filtration",
+    "brand": "donaldson torit",
+    "confidence": "HIGH",
+    "placement_role": "product_support",
+    "target_page": "/en/solutions/industrial-filtration"
+  },
+  {
+    "asset_id": "asset-f0e95dba",
+    "system_type": "Valves & Flow Control",
+    "brand": null,
+    "confidence": "HIGH",
+    "placement_role": "product_support",
+    "target_page": "/en/solutions/valves-flow-control"
+  },
+  {
+    "asset_id": "asset-f33f7c96",
+    "system_type": "Industrial Automation & Control",
+    "brand": "abb",
+    "confidence": "HIGH",
+    "placement_role": "system_section",
+    "target_page": "/en/solutions/automation-control"
+  },
+  {
+    "asset_id": "asset-f611401c",
+    "system_type": null,
+    "brand": null,
+    "confidence": "LOW",
+    "placement_role": "factory_trust",
+    "target_page": "/en/about/manufacturing-network"
+  }
+]

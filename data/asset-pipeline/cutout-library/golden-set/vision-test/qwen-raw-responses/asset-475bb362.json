@@ -1,0 +1,35 @@
+{
+  "output": {
+    "choices": [
+      {
+        "message": {
+          "content": [
+            {
+              "text": "```json\n{\n  \"visible_object\": [\n    \"pump\",\n    \"motor\"\n  ],\n  \"object_type\": \"equipment\",\n  \"visible_brand\": [],\n  \"visible_text\": [\n    \"technical specifications label\"\n  ],\n  \"visible_features\": [\n    \"blue painted metal\",\n    \"flanged connections\",\n    \"motor housing with cooling fins\",\n    \"central shaft coupling\",\n    \"support base\",\n    \"technical label\"\n  ],\n  \"image_condition\": \"white_background_product\",\n  \"industrial_clues\": [\n    \"fluid handling equipment\",\n    \"industrial motor-pump assembly\"\n  ],\n  \"visual_confidence\": 1\n}\n```"
+            }
+          ],
+          "reasoning_content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens_details": {
+      "image_tokens": 1256,
+      "text_tokens": 190
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1586,
+    "output_tokens": 140,
+    "input_tokens": 1446,
+    "output_tokens_details": {
+      "text_tokens": 140
+    },
+    "image_tokens": 1256
+  },
+  "request_id": "603692d6-aecc-9650-bb67-89dbdea07415"
+}

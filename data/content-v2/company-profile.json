@@ -1,0 +1,99 @@
+{
+  "version": "v2",
+  "generated": "2026-08-11",
+  "company": {
+    "name": "HISVIA",
+    "tagline": "Industrial Supply Chain Partner",
+    "positioning": "China Industrial Supply Chain Connection Platform",
+    "description": "HISVIA connects overseas industrial enterprises with verified Chinese manufacturing capabilities. We are not an e-commerce platform — we are an industrial supply chain partner that helps clients find manufacturing resources, alternative supply solutions, OEM production capacity, and maintenance spare parts supply chains in China.",
+    "founding_principle": "Bridge the gap between global industrial demand and China's manufacturing ecosystem.",
+    "tagline_zh": "工业供应链合作伙伴",
+    "tagline_ru": "Партнер по промышленной цепочке поставок",
+    "description_zh": "HISVIA连接海外工业企业与中国已验证的制造能力。我们不是电商平台——我们是工业供应链合作伙伴，帮助客户在中国寻找制造资源、替代供应方案、OEM生产能力、维修备件供应链。覆盖8大工业系统，服务俄罗斯、中亚、中东和东南亚市场。",
+    "description_ru": "HISVIA соединяет зарубежные промышленные предприятия с проверенными производственными возможностями Китая. Мы не платформа электронной коммерции — мы партнер по цепочке поставок, помогающий клиентам находить производственные ресурсы, альтернативные решения по поставкам, OEM-производство и цепочки поставок запчастей в Китае."
+  },
+  "value_proposition": {
+    "for_buyers": {
+      "title": "For Industrial Buyers",
+      "points": [
+        "Access verified Chinese manufacturing capabilities across 8 industrial systems",
+        "Find alternative suppliers for existing equipment spare parts",
+        "Source OEM/ODM manufacturing partners with export experience",
+        "Reduce procurement costs without compromising quality standards",
+        "Navigate China's complex industrial supply chain with expert guidance"
+      ]
+    },
+    "for_suppliers": {
+      "title": "For Chinese Manufacturers",
+      "points": [
+        "Connect with qualified overseas industrial buyers",
+        "Showcase manufacturing capabilities, not just products",
+        "Build long-term supply partnerships beyond one-time transactions",
+        "Access markets in Russia, Central Asia, Middle East, and Southeast Asia"
+      ]
+    },
+    "for_partners": {
+      "title": "For Regional Partners",
+      "points": [
+        "Distributors: Become the local supply chain gateway for Chinese industrial parts",
+        "Service Centers: Access Chinese spare parts supply for equipment maintenance",
+        "Engineering Firms: Find manufacturing partners for custom industrial solutions"
+      ]
+    }
+  },
+  "what_we_are_not": [
+    "We are NOT an e-commerce marketplace selling products online",
+    "We are NOT a SKU-based product catalog",
+    "We do NOT hold inventory or ship products directly",
+    "We do NOT make unverified claims about factory capabilities"
+  ],
+  "industrial_systems_covered": [
+    "Air Compressor Systems",
+    "Hydraulic Systems",
+    "Pumps & Fluid Handling",
+    "Valves & Flow Control",
+    "Industrial Filtration",
+    "Pneumatic Automation",
+    "Mechanical Transmission",
+    "Industrial Automation & Control"
+  ],
+  "key_brands_experience": [
+    "Atlas Copco",
+    "Ingersoll Rand",
+    "Kaeser",
+    "Sullair",
+    "CompAir",
+    "Gardner Denver",
+    "Hitachi",
+    "Eaton",
+    "Yuken",
+    "Kawasaki",
+    "Emerson",
+    "Yaskawa",
+    "Sulzer",
+    "Wilo",
+    "Metso",
+    "KUKA"
+  ],
+  "target_markets": [
+    {
+      "region": "Russia & CIS",
+      "demand": "Mining equipment spares, compressor parts, hydraulic components"
+    },
+    {
+      "region": "Central Asia",
+      "demand": "Oil & gas equipment, pump replacements, valve supply"
+    },
+    {
+      "region": "Middle East",
+      "demand": "Industrial filtration, compressor systems, automation parts"
+    },
+    {
+      "region": "Southeast Asia",
+      "demand": "Manufacturing equipment, automation components, mechanical parts"
+    }
+  ],
+  "asset_origin": "data/asset-pipeline/cutout-library/assets-v2.json",
+  "asset_count": 755,
+  "classified_count": 49
+}

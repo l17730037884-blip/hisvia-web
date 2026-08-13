@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>品牌配件图终审 — 产品实拍(无包装盒/无供应商水印)</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"PingFang SC",sans-serif;background:#f0f2f5;color:#1a1a1a;padding:24px;line-height:1.5}
+h1{font-size:22px;margin-bottom:4px}
+.sub{font-size:13px;color:#666;margin-bottom:6px}
+.rule{background:#e8f4fd;border:1px solid #c6dff0;color:#1a6fb2;padding:10px 14px;border-radius:4px;font-size:13px;margin:10px 0 20px}
+.summary{background:#fff;border:1px solid #ddd;border-radius:6px;padding:14px 16px;margin:12px 0 20px;font-size:13px}
+.group{background:#fff;border:1px solid #ddd;border-radius:6px;padding:16px;margin-bottom:18px}
+.gh{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;padding-bottom:10px;border-bottom:1px solid #eee}
+.gh .num{font-size:12px;font-weight:700;color:#fff;background:#1a7a3a;padding:2px 8px;border-radius:3px}
+.gh .cn{font-size:16px;font-weight:700}
+.gh .cnt{font-size:12px;color:#666;margin-left:auto}
+.row{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin-top:12px}
+.c{border:2px solid #1a7a3a44;border-radius:5px;overflow:hidden;background:#e8f8ec}
+.c img{width:100%;height:200px;object-fit:contain;background:#fff;display:block;cursor:zoom-in;border-bottom:1px solid #eee}
+.c img.zoom{position:fixed;top:5%;left:5%;width:90%;height:auto;max-height:90vh;z-index:99}
+.lb{padding:8px 10px;font-size:11px}
+.lb .tag{font-size:11px;font-weight:700;padding:2px 6px;border-radius:2px;display:inline-block;margin-bottom:4px;background:#1a7a3a;color:#fff}
+.lb .field{margin-top:3px;color:#444}
+.lb .field b{color:#1a1a1a;font-weight:600}
+</style></head><body>
+<h1>品牌配件图终审 — 产品实拍</h1>
+<p class="sub">35张新增图 · 精准关键词:品牌+配件类型(filter/separator/rotor/air end) · qwen-vl-plus识图</p>
+<div class="rule">
+<b>筛选标准(严格):</b><br>
+✓ 合格:产品本身实拍清晰(滤芯/分离器/转子/阀件),产品标签文字(品牌名/型号/认证)OK<br>
+✗ 不合格:包装盒/纸箱/包裹 / 供应商URL(xxx.en.alibaba.com) / 供应商公司名 / 整机
+</div>
+<div class="summary">
+<b>筛选结果:</b> 35张 → <b style="color:#1a7a3a">25张合格(产品实拍)</b> / 10张不合格(包装盒3+供应商水印6+整机1)<br>
+<b>品牌覆盖:</b> Atlas Copco 5张 / Sullair 7张 / Hitachi 6张 / Kaeser 3张 / Gardner Denver 3张 / Sullair 1张(Komatsu品牌不匹配)
+</div>
+
+<div class="group">
+<div class="gh"><span class="num">AC</span><span class="cn">Atlas Copco 阿特拉斯·科普柯</span><span class="cnt">5张 · 螺杆转子/阀件/散热器</span></div>
+<div class="row">
+<div class="c"><img src="/photos/raw/_brand/atlas-copco-20.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#20 转子</span><div class="field">灰色金属转子+铭牌,置于木托盘</div></div></div>
+<div class="c"><img src="/photos/raw/_brand/atlas-copco-21.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#21 配件</span><div class="field">金属+塑料配件,带软管连接</div></div></div>
+<div class="c"><img src="/photos/raw/_brand/atlas-copco-22.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#22 阀件</span><div class="field">黑色金属阀件,带标签和编号</div></div></div>
+<div class="c"><img src="/photos/raw/_brand/atlas-copco-24.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#24 阀件</span><div class="field">黑色工业阀件,黄色胶带固定</div></div></div>
+<div class="c"><img src="/photos/raw/_brand/atlas-copco-27.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#27 散热器</span><div class="field">白色散热器,密集平行散热片</div></div></div>
+</div>
+</div>
+
+<div class="group">
+<div class="gh"><span class="num">SUL</span><span class="cn">Sullair 寿力</span><span class="cnt">7张 · 滤芯(重搜成功)</span></div>
+<div class="row">
+<div class="c"><img src="/photos/raw/_brand/sullair-20.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#20 滤芯</span><div class="field">蓝色圆柱滤芯+金属底座</div></div></div>
+<div class="c"><img src="/photos/raw/_brand/sullair-21.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#21 滤芯</span><div class="field">银色圆柱滤芯,两端黑白红接口</div></div></div>
+<div class="c"><img src="/photos/raw/_brand/sullair-22.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#22 滤芯</span><div class="field">蓝色圆柱滤芯+金属环+密封圈</div></div></div>
+<div class="c"><img src="/photos/raw/_brand/sullair-24.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#24 滤芯</span><div class="field">空气滤芯,圆形金属外壳+蓝色滤材</div></div></div>
+<div class="c"><img src="/photos/raw/_brand/sullair-26.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#26 滤芯</span><div class="field">金属圆柱滤芯+密集小孔+法兰盘</div></div></div>
+<div class="c"><img src="/photos/raw/_brand/sullair-27.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#27 滤芯</span><div class="field">黄色褶皱滤芯,粉色塑料底座</div></div></div>
+<div class="c"><img src="/photos/raw/_brand/sullair-28.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#28 滤芯</span><div class="field">黑色空气滤芯+金属环+黄色网状</div></div></div>
+</div>
+</div>
+
+<div class="group">
+<div class="gh"><span class="num">HIT</span><span class="cn">Hitachi 日立</span><span class="cnt">6张 · 滤芯</span></div>
+<div class="row">
+<div class="c"><img src="/photos/raw/_brand/hitachi-20.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#20 滤芯</span><div class="field">日立全流式滤芯,银色圆柱+均匀孔洞</div></div></div>
+<div class="c"><img src="/photos/raw/_brand/hitachi-21.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#21 滤芯</span><div class="field">银色圆柱滤芯,透明包装</div></div></div>
+<div class="c"><img src="/photos/raw/_brand/hitachi-22.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#22 滤芯</span><div class="field">蓝色圆柱滤芯+密封圈</div></div></div>
+<div class="c"><img src="/photos/raw/_brand/hitachi-25.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#25 滤芯</span><div class="field">白色纤维缠绕滤芯+黑色多孔结构</div></div></div>
+<div class="c"><img src="/photos/raw/_brand/hitachi-26.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#26 滤芯</span><div class="field">四根金属滤芯+褶皱纹理+银色盖</div></div></div>
+<div class="c"><img src="/photos/raw/_brand/hitachi-27.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#27 滤芯</span><div class="field">多规格液压滤芯,金属材质</div></div></div>
+</div>
+</div>
+
+<div class="group">
+<div class="gh"><span class="num">KAE</span><span class="cn">Kaeser 凯撒</span><span class="cnt">3张 · 滤芯</span></div>
+<div class="row">
+<div class="c"><img src="/photos/raw/_brand/kaeser-21.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#21 滤芯</span><div class="field">黄色滤芯+黑色塑料盖+卡扣</div></div></div>
+<div class="c"><img src="/photos/raw/_brand/kaeser-22.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#22 滤芯</span><div class="field">灰色圆柱滤芯+黑色网状结构</div></div></div>
+<div class="c"><img src="/photos/raw/_brand/kaeser-23.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#23 滤芯</span><div class="field">圆柱金属滤芯+均匀孔洞</div></div></div>
+</div>
+</div>
+
+<div class="group">
+<div class="gh"><span class="num">GD</span><span class="cn">Gardner Denver 加德纳丹佛</span><span class="cnt">3张 · 转子/泵配件</span></div>
+<div class="row">
+<div class="c"><img src="/photos/raw/_brand/gardner-denver-22.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#22 转子</span><div class="field">液压泵配件,黄色中心盖+银色外壳+红密封圈</div></div></div>
+<div class="c"><img src="/photos/raw/_brand/gardner-denver-23.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#23 转子</span><div class="field">灰色金属转子+螺栓孔+中心轴</div></div></div>
+<div class="c"><img src="/photos/raw/_brand/gardner-denver-25.jpg" onclick="this.classList.toggle('zoom')"><div class="lb"><span class="tag">#25 转子</span><div class="field">金属转子,圆柱螺纹+细长轴杆</div></div></div>
+</div>
+</div>
+
+<div class="summary" style="margin-top:20px">
+<b>Ingersoll Rand 英格索兰:</b> 上一轮已有6张达标(0/4/5强烈推荐 + 1/2/3/6/8推荐),本轮未重搜,共8张可用<br><br>
+<b>已剔除的10张:</b><br>
+• 包装盒:atlas-copco-23, kaeser-20<br>
+• 供应商URL:atlas-copco-25/26(jsaotai.en.alibaba.com), hitachi-24(hokuanli.en.alibaba.com), sullair-23(komaifilter.en.alibaba.com)<br>
+• 供应商公司名:hitachi-23(Gu'an Haosheng)<br>
+• 整机:gardner-denver-24<br>
+• 品牌不匹配:sullair-25(Komatsu小松,非Sullair)
+</div>
+</body></html>

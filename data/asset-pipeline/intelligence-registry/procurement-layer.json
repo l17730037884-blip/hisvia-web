@@ -1,0 +1,1161 @@
+[
+  {
+    "asset_id": "asset-001ac56b",
+    "system_type": null,
+    "buyer_need": "Factory/manufacturing facility visual asset — for About Us / Capabilities page, not product procurement",
+    "purchase_keywords": [
+      "manufacturing factory China",
+      "industrial facility tour"
+    ],
+    "replacement_scenarios": [],
+    "compatible_equipment": [],
+    "buyer_questions": []
+  },
+  {
+    "asset_id": "asset-21c46019",
+    "system_type": "Air Compressor Systems",
+    "buyer_need": "Industrial compressed air system — rotary screw/piston compressor unit for continuous 24/7 operation",
+    "purchase_keywords": [
+      "industrial air compressor supplier China",
+      "rotary screw compressor factory price",
+      "compressed air system for manufacturing plant",
+      "oil-injected compressor replacement",
+      "energy-efficient air compressor wholesale"
+    ],
+    "replacement_scenarios": [
+      "Aging compressor efficiency drop → upgrade to VSD model",
+      "Plant expansion requiring higher CFM capacity",
+      "Compressor end-of-life → full unit replacement"
+    ],
+    "compatible_equipment": [
+      "Air receiver tank",
+      "Refrigerated air dryer",
+      "Desiccant dryer",
+      "Coalescing filter",
+      "Compressed air piping system"
+    ],
+    "buyer_questions": [
+      "What CFM at what PSI?",
+      "Fixed speed or VSD?",
+      "Oil-injected or oil-free?",
+      "What's the motor power (kW/HP)?",
+      "Indoor or outdoor installation?"
+    ]
+  },
+  {
+    "asset_id": "asset-325714de",
+    "system_type": "Pumps & Fluid Handling",
+    "buyer_need": "Centrifugal pump for water, chemical, or industrial fluid transfer application",
+    "purchase_keywords": [
+      "centrifugal pump manufacturer China",
+      "industrial water pump supplier",
+      "chemical process pump factory",
+      "stainless steel centrifugal pump"
+    ],
+    "replacement_scenarios": [
+      "Pump cavitation damage → impeller replacement",
+      "Process expansion → higher flow pump",
+      "Corrosion failure → upgrade to SS316 construction"
+    ],
+    "compatible_equipment": [
+      "Electric motor",
+      "Mechanical seal",
+      "Coupling",
+      "Control valve",
+      "Check valve"
+    ],
+    "buyer_questions": [
+      "Flow rate (m³/h) and head (m)?",
+      "Fluid type and temperature?",
+      "Material (cast iron/SS304/SS316)?",
+      "Seal type (mechanical/packing)?"
+    ]
+  },
+  {
+    "asset_id": "asset-344e002d",
+    "system_type": "Pumps & Fluid Handling",
+    "buyer_need": "Screw pump for high-viscosity fluids, multiphase, or low-shear applications",
+    "purchase_keywords": [
+      "screw pump supplier China",
+      "twin screw pump manufacturer",
+      "progressive cavity pump for oil"
+    ],
+    "replacement_scenarios": [
+      "Screw/rotor wear → rebuild or replace pump",
+      "Process change → different viscosity pump"
+    ],
+    "compatible_equipment": [
+      "Electric motor",
+      "Mechanical seal",
+      "Pressure relief valve"
+    ],
+    "buyer_questions": [
+      "Fluid viscosity and temperature?",
+      "Differential pressure?",
+      "Single/twin/triple screw?"
+    ]
+  },
+  {
+    "asset_id": "asset-3986d47f",
+    "system_type": "Industrial Filtration",
+    "buyer_need": "Industrial dust collection system — protect workers and equipment from airborne particulates",
+    "purchase_keywords": [
+      "industrial dust collector manufacturer China",
+      "baghouse dust collector supplier",
+      "cartridge dust collector for factory",
+      "cyclone separator dust collection"
+    ],
+    "replacement_scenarios": [
+      "Factory expansion → larger dust collection system",
+      "Filter media exhausted → replace cartridges",
+      "Environmental compliance → upgrade to HEPA filtration"
+    ],
+    "compatible_equipment": [
+      "Ductwork system",
+      "Fan/blower",
+      "Spark arrestor",
+      "Rotary airlock valve"
+    ],
+    "buyer_questions": [
+      "Airflow (m³/h or CFM)?",
+      "Dust type and particle size?",
+      "Explosive dust (ATEX requirements)?",
+      "Indoor or outdoor installation?"
+    ]
+  },
+  {
+    "asset_id": "asset-40a7670c",
+    "system_type": "Industrial Filtration",
+    "buyer_need": "Industrial dust collection system — protect workers and equipment from airborne particulates",
+    "purchase_keywords": [
+      "industrial dust collector manufacturer China",
+      "baghouse dust collector supplier",
+      "cartridge dust collector for factory",
+      "cyclone separator dust collection"
+    ],
+    "replacement_scenarios": [
+      "Factory expansion → larger dust collection system",
+      "Filter media exhausted → replace cartridges",
+      "Environmental compliance → upgrade to HEPA filtration"
+    ],
+    "compatible_equipment": [
+      "Ductwork system",
+      "Fan/blower",
+      "Spark arrestor",
+      "Rotary airlock valve"
+    ],
+    "buyer_questions": [
+      "Airflow (m³/h or CFM)?",
+      "Dust type and particle size?",
+      "Explosive dust (ATEX requirements)?",
+      "Indoor or outdoor installation?"
+    ]
+  },
+  {
+    "asset_id": "asset-40e9d9a1",
+    "system_type": null,
+    "buyer_need": "Factory/manufacturing facility visual asset — for About Us / Capabilities page, not product procurement",
+    "purchase_keywords": [
+      "manufacturing factory China",
+      "industrial facility tour"
+    ],
+    "replacement_scenarios": [],
+    "compatible_equipment": [],
+    "buyer_questions": []
+  },
+  {
+    "asset_id": "asset-475bb362",
+    "system_type": "Pumps & Fluid Handling",
+    "buyer_need": "Centrifugal pump for water, chemical, or industrial fluid transfer application",
+    "purchase_keywords": [
+      "centrifugal pump manufacturer China",
+      "industrial water pump supplier",
+      "chemical process pump factory",
+      "stainless steel centrifugal pump"
+    ],
+    "replacement_scenarios": [
+      "Pump cavitation damage → impeller replacement",
+      "Process expansion → higher flow pump",
+      "Corrosion failure → upgrade to SS316 construction"
+    ],
+    "compatible_equipment": [
+      "Electric motor",
+      "Mechanical seal",
+      "Coupling",
+      "Control valve",
+      "Check valve"
+    ],
+    "buyer_questions": [
+      "Flow rate (m³/h) and head (m)?",
+      "Fluid type and temperature?",
+      "Material (cast iron/SS304/SS316)?",
+      "Seal type (mechanical/packing)?"
+    ]
+  },
+  {
+    "asset_id": "asset-48b63b1e",
+    "system_type": "Pumps & Fluid Handling",
+    "buyer_need": "Centrifugal pump for water, chemical, or industrial fluid transfer application",
+    "purchase_keywords": [
+      "centrifugal pump manufacturer China",
+      "industrial water pump supplier",
+      "chemical process pump factory",
+      "stainless steel centrifugal pump"
+    ],
+    "replacement_scenarios": [
+      "Pump cavitation damage → impeller replacement",
+      "Process expansion → higher flow pump",
+      "Corrosion failure → upgrade to SS316 construction"
+    ],
+    "compatible_equipment": [
+      "Electric motor",
+      "Mechanical seal",
+      "Coupling",
+      "Control valve",
+      "Check valve"
+    ],
+    "buyer_questions": [
+      "Flow rate (m³/h) and head (m)?",
+      "Fluid type and temperature?",
+      "Material (cast iron/SS304/SS316)?",
+      "Seal type (mechanical/packing)?"
+    ]
+  },
+  {
+    "asset_id": "asset-4ab74032",
+    "system_type": "Mechanical Transmission",
+    "buyer_need": "Industrial rolling element bearing — replacement for rotating equipment",
+    "purchase_keywords": [
+      "industrial bearing supplier China",
+      "ball bearing wholesale",
+      "roller bearing manufacturer",
+      "bearing for electric motor"
+    ],
+    "replacement_scenarios": [
+      "Bearing noise/vibration → wear → replace",
+      "Preventive maintenance schedule → bearing change",
+      "Equipment upgrade → higher precision bearing"
+    ],
+    "compatible_equipment": [
+      "Electric motor",
+      "Pump shaft",
+      "Gearbox",
+      "Conveyor roller"
+    ],
+    "buyer_questions": [
+      "Bearing number/designation?",
+      "Sealed or open?",
+      "Clearance (C3/C4)?",
+      "Brand preference?"
+    ]
+  },
+  {
+    "asset_id": "asset-58e52f7c",
+    "system_type": null,
+    "buyer_need": "Factory/manufacturing facility visual asset — for About Us / Capabilities page, not product procurement",
+    "purchase_keywords": [
+      "manufacturing factory China",
+      "industrial facility tour"
+    ],
+    "replacement_scenarios": [],
+    "compatible_equipment": [],
+    "buyer_questions": []
+  },
+  {
+    "asset_id": "asset-5b33ea4b",
+    "system_type": null,
+    "buyer_need": "Factory/manufacturing facility visual asset — for About Us / Capabilities page, not product procurement",
+    "purchase_keywords": [
+      "manufacturing factory China",
+      "industrial facility tour"
+    ],
+    "replacement_scenarios": [],
+    "compatible_equipment": [],
+    "buyer_questions": []
+  },
+  {
+    "asset_id": "asset-5d428a16",
+    "system_type": "Pneumatic Automation",
+    "buyer_need": "Pneumatic cylinders, valves, and fittings — factory automation actuation",
+    "purchase_keywords": [
+      "pneumatic cylinder supplier China",
+      "solenoid valve for automation",
+      "pneumatic fitting wholesale",
+      "air cylinder manufacturer"
+    ],
+    "replacement_scenarios": [
+      "Cylinder seal wear → replace",
+      "New automation station → specify pneumatic circuit",
+      "Valve coil burnout → replace solenoid valve"
+    ],
+    "compatible_equipment": [
+      "FRL unit",
+      "Compressed air supply",
+      "PLC controller"
+    ],
+    "buyer_questions": [
+      "Bore size and stroke length?",
+      "Single or double acting?",
+      "Port size?"
+    ]
+  },
+  {
+    "asset_id": "asset-6b0073d0",
+    "system_type": "Mechanical Transmission",
+    "buyer_need": "Industrial rolling element bearing — replacement for rotating equipment",
+    "purchase_keywords": [
+      "industrial bearing supplier China",
+      "ball bearing wholesale",
+      "roller bearing manufacturer",
+      "bearing for electric motor"
+    ],
+    "replacement_scenarios": [
+      "Bearing noise/vibration → wear → replace",
+      "Preventive maintenance schedule → bearing change",
+      "Equipment upgrade → higher precision bearing"
+    ],
+    "compatible_equipment": [
+      "Electric motor",
+      "Pump shaft",
+      "Gearbox",
+      "Conveyor roller"
+    ],
+    "buyer_questions": [
+      "Bearing number/designation?",
+      "Sealed or open?",
+      "Clearance (C3/C4)?",
+      "Brand preference?"
+    ]
+  },
+  {
+    "asset_id": "asset-6b7b1713",
+    "system_type": "Air Compressor Systems",
+    "buyer_need": "Industrial compressed air system — rotary screw/piston compressor unit for continuous 24/7 operation",
+    "purchase_keywords": [
+      "industrial air compressor supplier China",
+      "rotary screw compressor factory price",
+      "compressed air system for manufacturing plant",
+      "oil-injected compressor replacement",
+      "energy-efficient air compressor wholesale"
+    ],
+    "replacement_scenarios": [
+      "Aging compressor efficiency drop → upgrade to VSD model",
+      "Plant expansion requiring higher CFM capacity",
+      "Compressor end-of-life → full unit replacement"
+    ],
+    "compatible_equipment": [
+      "Air receiver tank",
+      "Refrigerated air dryer",
+      "Desiccant dryer",
+      "Coalescing filter",
+      "Compressed air piping system"
+    ],
+    "buyer_questions": [
+      "What CFM at what PSI?",
+      "Fixed speed or VSD?",
+      "Oil-injected or oil-free?",
+      "What's the motor power (kW/HP)?",
+      "Indoor or outdoor installation?"
+    ]
+  },
+  {
+    "asset_id": "asset-7aaf9aca",
+    "system_type": "Mechanical Transmission",
+    "buyer_need": "Industrial rolling element bearing — replacement for rotating equipment",
+    "purchase_keywords": [
+      "industrial bearing supplier China",
+      "ball bearing wholesale",
+      "roller bearing manufacturer",
+      "bearing for electric motor"
+    ],
+    "replacement_scenarios": [
+      "Bearing noise/vibration → wear → replace",
+      "Preventive maintenance schedule → bearing change",
+      "Equipment upgrade → higher precision bearing"
+    ],
+    "compatible_equipment": [
+      "Electric motor",
+      "Pump shaft",
+      "Gearbox",
+      "Conveyor roller"
+    ],
+    "buyer_questions": [
+      "Bearing number/designation?",
+      "Sealed or open?",
+      "Clearance (C3/C4)?",
+      "Brand preference?"
+    ]
+  },
+  {
+    "asset_id": "asset-7b19d020",
+    "system_type": "Valves & Flow Control",
+    "buyer_need": "Process control valve with positioner — precise flow/pressure/temperature regulation",
+    "purchase_keywords": [
+      "control valve manufacturer China",
+      "pneumatic control valve with positioner",
+      "electric control valve for process"
+    ],
+    "replacement_scenarios": [
+      "Trim wear → control instability → replace trim",
+      "Process optimization → upgrade to digital positioner"
+    ],
+    "compatible_equipment": [
+      "I/P positioner",
+      "Actuator",
+      "Flow sensor"
+    ],
+    "buyer_questions": [
+      "Cv/Kv requirement?",
+      "Body and trim material?",
+      "4-20mA or fieldbus control?"
+    ]
+  },
+  {
+    "asset_id": "asset-7da7f124",
+    "system_type": "Industrial Filtration",
+    "buyer_need": "Industrial dust collection system — protect workers and equipment from airborne particulates",
+    "purchase_keywords": [
+      "industrial dust collector manufacturer China",
+      "baghouse dust collector supplier",
+      "cartridge dust collector for factory",
+      "cyclone separator dust collection"
+    ],
+    "replacement_scenarios": [
+      "Factory expansion → larger dust collection system",
+      "Filter media exhausted → replace cartridges",
+      "Environmental compliance → upgrade to HEPA filtration"
+    ],
+    "compatible_equipment": [
+      "Ductwork system",
+      "Fan/blower",
+      "Spark arrestor",
+      "Rotary airlock valve"
+    ],
+    "buyer_questions": [
+      "Airflow (m³/h or CFM)?",
+      "Dust type and particle size?",
+      "Explosive dust (ATEX requirements)?",
+      "Indoor or outdoor installation?"
+    ]
+  },
+  {
+    "asset_id": "asset-81187c75",
+    "system_type": null,
+    "buyer_need": "Factory/manufacturing facility visual asset — for About Us / Capabilities page, not product procurement",
+    "purchase_keywords": [
+      "manufacturing factory China",
+      "industrial facility tour"
+    ],
+    "replacement_scenarios": [],
+    "compatible_equipment": [],
+    "buyer_questions": []
+  },
+  {
+    "asset_id": "asset-8342923a",
+    "system_type": "Pneumatic Automation",
+    "buyer_need": "Pneumatic cylinders, valves, and fittings — factory automation actuation",
+    "purchase_keywords": [
+      "pneumatic cylinder supplier China",
+      "solenoid valve for automation",
+      "pneumatic fitting wholesale",
+      "air cylinder manufacturer"
+    ],
+    "replacement_scenarios": [
+      "Cylinder seal wear → replace",
+      "New automation station → specify pneumatic circuit",
+      "Valve coil burnout → replace solenoid valve"
+    ],
+    "compatible_equipment": [
+      "FRL unit",
+      "Compressed air supply",
+      "PLC controller"
+    ],
+    "buyer_questions": [
+      "Bore size and stroke length?",
+      "Single or double acting?",
+      "Port size?"
+    ]
+  },
+  {
+    "asset_id": "asset-8490ea6c",
+    "system_type": "Industrial Filtration",
+    "buyer_need": "Industrial dust collection system — protect workers and equipment from airborne particulates",
+    "purchase_keywords": [
+      "industrial dust collector manufacturer China",
+      "baghouse dust collector supplier",
+      "cartridge dust collector for factory",
+      "cyclone separator dust collection"
+    ],
+    "replacement_scenarios": [
+      "Factory expansion → larger dust collection system",
+      "Filter media exhausted → replace cartridges",
+      "Environmental compliance → upgrade to HEPA filtration"
+    ],
+    "compatible_equipment": [
+      "Ductwork system",
+      "Fan/blower",
+      "Spark arrestor",
+      "Rotary airlock valve"
+    ],
+    "buyer_questions": [
+      "Airflow (m³/h or CFM)?",
+      "Dust type and particle size?",
+      "Explosive dust (ATEX requirements)?",
+      "Indoor or outdoor installation?"
+    ]
+  },
+  {
+    "asset_id": "asset-84bb2bba",
+    "system_type": null,
+    "buyer_need": "Asset requires manual review before procurement language generation",
+    "purchase_keywords": [],
+    "replacement_scenarios": [],
+    "compatible_equipment": [],
+    "buyer_questions": []
+  },
+  {
+    "asset_id": "asset-87e2254b",
+    "system_type": null,
+    "buyer_need": "Factory/manufacturing facility visual asset — for About Us / Capabilities page, not product procurement",
+    "purchase_keywords": [
+      "manufacturing factory China",
+      "industrial facility tour"
+    ],
+    "replacement_scenarios": [],
+    "compatible_equipment": [],
+    "buyer_questions": []
+  },
+  {
+    "asset_id": "asset-918a3003",
+    "system_type": "Air Compressor Systems",
+    "buyer_need": "Industrial compressed air system — rotary screw/piston compressor unit for continuous 24/7 operation",
+    "purchase_keywords": [
+      "industrial air compressor supplier China",
+      "rotary screw compressor factory price",
+      "compressed air system for manufacturing plant",
+      "oil-injected compressor replacement",
+      "energy-efficient air compressor wholesale"
+    ],
+    "replacement_scenarios": [
+      "Aging compressor efficiency drop → upgrade to VSD model",
+      "Plant expansion requiring higher CFM capacity",
+      "Compressor end-of-life → full unit replacement"
+    ],
+    "compatible_equipment": [
+      "Air receiver tank",
+      "Refrigerated air dryer",
+      "Desiccant dryer",
+      "Coalescing filter",
+      "Compressed air piping system"
+    ],
+    "buyer_questions": [
+      "What CFM at what PSI?",
+      "Fixed speed or VSD?",
+      "Oil-injected or oil-free?",
+      "What's the motor power (kW/HP)?",
+      "Indoor or outdoor installation?"
+    ]
+  },
+  {
+    "asset_id": "asset-91e283b8",
+    "system_type": "Industrial Automation & Control",
+    "buyer_need": "PLC/programmable controller for industrial machine or process automation",
+    "purchase_keywords": [
+      "PLC controller supplier China",
+      "industrial automation PLC",
+      "Siemens/ABB compatible PLC",
+      "compact PLC for small machine"
+    ],
+    "replacement_scenarios": [
+      "Controller obsolescence → upgrade to current model",
+      "Machine retrofit → add PLC control",
+      "IO expansion needed → add modules"
+    ],
+    "compatible_equipment": [
+      "HMI touch panel",
+      "IO modules",
+      "VFD drive",
+      "Sensor",
+      "Power supply"
+    ],
+    "buyer_questions": [
+      "IO point count?",
+      "Communication protocol?",
+      "Programming software preference?"
+    ]
+  },
+  {
+    "asset_id": "asset-9f330fb8",
+    "system_type": "Air Compressor Systems",
+    "buyer_need": "Industrial compressed air system — rotary screw/piston compressor unit for continuous 24/7 operation",
+    "purchase_keywords": [
+      "industrial air compressor supplier China",
+      "rotary screw compressor factory price",
+      "compressed air system for manufacturing plant",
+      "oil-injected compressor replacement",
+      "energy-efficient air compressor wholesale"
+    ],
+    "replacement_scenarios": [
+      "Aging compressor efficiency drop → upgrade to VSD model",
+      "Plant expansion requiring higher CFM capacity",
+      "Compressor end-of-life → full unit replacement"
+    ],
+    "compatible_equipment": [
+      "Air receiver tank",
+      "Refrigerated air dryer",
+      "Desiccant dryer",
+      "Coalescing filter",
+      "Compressed air piping system"
+    ],
+    "buyer_questions": [
+      "What CFM at what PSI?",
+      "Fixed speed or VSD?",
+      "Oil-injected or oil-free?",
+      "What's the motor power (kW/HP)?",
+      "Indoor or outdoor installation?"
+    ]
+  },
+  {
+    "asset_id": "asset-a1ae0abb",
+    "system_type": null,
+    "buyer_need": "Asset requires manual review before procurement language generation",
+    "purchase_keywords": [],
+    "replacement_scenarios": [],
+    "compatible_equipment": [],
+    "buyer_questions": []
+  },
+  {
+    "asset_id": "asset-a88224cd",
+    "system_type": "Pumps & Fluid Handling",
+    "buyer_need": "Centrifugal pump for water, chemical, or industrial fluid transfer application",
+    "purchase_keywords": [
+      "centrifugal pump manufacturer China",
+      "industrial water pump supplier",
+      "chemical process pump factory",
+      "stainless steel centrifugal pump"
+    ],
+    "replacement_scenarios": [
+      "Pump cavitation damage → impeller replacement",
+      "Process expansion → higher flow pump",
+      "Corrosion failure → upgrade to SS316 construction"
+    ],
+    "compatible_equipment": [
+      "Electric motor",
+      "Mechanical seal",
+      "Coupling",
+      "Control valve",
+      "Check valve"
+    ],
+    "buyer_questions": [
+      "Flow rate (m³/h) and head (m)?",
+      "Fluid type and temperature?",
+      "Material (cast iron/SS304/SS316)?",
+      "Seal type (mechanical/packing)?"
+    ]
+  },
+  {
+    "asset_id": "asset-a8ee483b",
+    "system_type": "Mechanical Transmission",
+    "buyer_need": "Industrial rolling element bearing — replacement for rotating equipment",
+    "purchase_keywords": [
+      "industrial bearing supplier China",
+      "ball bearing wholesale",
+      "roller bearing manufacturer",
+      "bearing for electric motor"
+    ],
+    "replacement_scenarios": [
+      "Bearing noise/vibration → wear → replace",
+      "Preventive maintenance schedule → bearing change",
+      "Equipment upgrade → higher precision bearing"
+    ],
+    "compatible_equipment": [
+      "Electric motor",
+      "Pump shaft",
+      "Gearbox",
+      "Conveyor roller"
+    ],
+    "buyer_questions": [
+      "Bearing number/designation?",
+      "Sealed or open?",
+      "Clearance (C3/C4)?",
+      "Brand preference?"
+    ]
+  },
+  {
+    "asset_id": "asset-a978f441",
+    "system_type": "Air Compressor Systems",
+    "buyer_need": "Industrial compressed air system — rotary screw/piston compressor unit for continuous 24/7 operation",
+    "purchase_keywords": [
+      "industrial air compressor supplier China",
+      "rotary screw compressor factory price",
+      "compressed air system for manufacturing plant",
+      "oil-injected compressor replacement",
+      "energy-efficient air compressor wholesale"
+    ],
+    "replacement_scenarios": [
+      "Aging compressor efficiency drop → upgrade to VSD model",
+      "Plant expansion requiring higher CFM capacity",
+      "Compressor end-of-life → full unit replacement"
+    ],
+    "compatible_equipment": [
+      "Air receiver tank",
+      "Refrigerated air dryer",
+      "Desiccant dryer",
+      "Coalescing filter",
+      "Compressed air piping system"
+    ],
+    "buyer_questions": [
+      "What CFM at what PSI?",
+      "Fixed speed or VSD?",
+      "Oil-injected or oil-free?",
+      "What's the motor power (kW/HP)?",
+      "Indoor or outdoor installation?"
+    ]
+  },
+  {
+    "asset_id": "asset-ad1a284d",
+    "system_type": "Pneumatic Automation",
+    "buyer_need": "Pneumatic cylinders, valves, and fittings — factory automation actuation",
+    "purchase_keywords": [
+      "pneumatic cylinder supplier China",
+      "solenoid valve for automation",
+      "pneumatic fitting wholesale",
+      "air cylinder manufacturer"
+    ],
+    "replacement_scenarios": [
+      "Cylinder seal wear → replace",
+      "New automation station → specify pneumatic circuit",
+      "Valve coil burnout → replace solenoid valve"
+    ],
+    "compatible_equipment": [
+      "FRL unit",
+      "Compressed air supply",
+      "PLC controller"
+    ],
+    "buyer_questions": [
+      "Bore size and stroke length?",
+      "Single or double acting?",
+      "Port size?"
+    ]
+  },
+  {
+    "asset_id": "asset-b69c6430",
+    "system_type": null,
+    "buyer_need": "Factory/manufacturing facility visual asset — for About Us / Capabilities page, not product procurement",
+    "purchase_keywords": [
+      "manufacturing factory China",
+      "industrial facility tour"
+    ],
+    "replacement_scenarios": [],
+    "compatible_equipment": [],
+    "buyer_questions": []
+  },
+  {
+    "asset_id": "asset-b7d57b28",
+    "system_type": "Mechanical Transmission",
+    "buyer_need": "Industrial rolling element bearing — replacement for rotating equipment",
+    "purchase_keywords": [
+      "industrial bearing supplier China",
+      "ball bearing wholesale",
+      "roller bearing manufacturer",
+      "bearing for electric motor"
+    ],
+    "replacement_scenarios": [
+      "Bearing noise/vibration → wear → replace",
+      "Preventive maintenance schedule → bearing change",
+      "Equipment upgrade → higher precision bearing"
+    ],
+    "compatible_equipment": [
+      "Electric motor",
+      "Pump shaft",
+      "Gearbox",
+      "Conveyor roller"
+    ],
+    "buyer_questions": [
+      "Bearing number/designation?",
+      "Sealed or open?",
+      "Clearance (C3/C4)?",
+      "Brand preference?"
+    ]
+  },
+  {
+    "asset_id": "asset-cd532cc1",
+    "system_type": "Hydraulic Systems",
+    "buyer_need": "Hydraulic pump/motor/cylinder — replacement or new application component",
+    "purchase_keywords": [
+      "hydraulic pump supplier China",
+      "hydraulic cylinder manufacturer",
+      "hydraulic motor replacement",
+      "piston pump spare parts"
+    ],
+    "replacement_scenarios": [
+      "Hydraulic pump wear → pressure drop → replace",
+      "Cylinder seal failure → rebuild or replace",
+      "Machine retrofit → upgrade hydraulic components"
+    ],
+    "compatible_equipment": [
+      "HPU",
+      "Hydraulic manifold",
+      "Pressure filter"
+    ],
+    "buyer_questions": [
+      "Displacement (cc/rev) and pressure rating?",
+      "Mounting type (SAE/ISO/flange)?",
+      "Shaft type and rotation?"
+    ]
+  },
+  {
+    "asset_id": "asset-ce8be518",
+    "system_type": "Hydraulic Systems",
+    "buyer_need": "Complete hydraulic power unit — custom or standard HPU for industrial machinery",
+    "purchase_keywords": [
+      "hydraulic power unit manufacturer China",
+      "custom HPU for industrial press",
+      "hydraulic station for machine tool",
+      "compact hydraulic power pack supplier"
+    ],
+    "replacement_scenarios": [
+      "Machine tool hydraulic system upgrade",
+      "Industrial press HPU end-of-life replacement",
+      "New production line → design + build HPU"
+    ],
+    "compatible_equipment": [
+      "Hydraulic cylinder",
+      "Directional control valve",
+      "Pressure relief valve",
+      "Hydraulic manifold"
+    ],
+    "buyer_questions": [
+      "Required flow rate (L/min) and pressure (bar)?",
+      "Tank capacity?",
+      "Fixed or variable displacement pump?",
+      "Cooling required?"
+    ]
+  },
+  {
+    "asset_id": "asset-ceb53592",
+    "system_type": null,
+    "buyer_need": "Factory/manufacturing facility visual asset — for About Us / Capabilities page, not product procurement",
+    "purchase_keywords": [
+      "manufacturing factory China",
+      "industrial facility tour"
+    ],
+    "replacement_scenarios": [],
+    "compatible_equipment": [],
+    "buyer_questions": []
+  },
+  {
+    "asset_id": "asset-cfd129d3",
+    "system_type": "Pneumatic Automation",
+    "buyer_need": "Pneumatic cylinders, valves, and fittings — factory automation actuation",
+    "purchase_keywords": [
+      "pneumatic cylinder supplier China",
+      "solenoid valve for automation",
+      "pneumatic fitting wholesale",
+      "air cylinder manufacturer"
+    ],
+    "replacement_scenarios": [
+      "Cylinder seal wear → replace",
+      "New automation station → specify pneumatic circuit",
+      "Valve coil burnout → replace solenoid valve"
+    ],
+    "compatible_equipment": [
+      "FRL unit",
+      "Compressed air supply",
+      "PLC controller"
+    ],
+    "buyer_questions": [
+      "Bore size and stroke length?",
+      "Single or double acting?",
+      "Port size?"
+    ]
+  },
+  {
+    "asset_id": "asset-d29f9c00",
+    "system_type": "Valves & Flow Control",
+    "buyer_need": "Process control valve with positioner — precise flow/pressure/temperature regulation",
+    "purchase_keywords": [
+      "control valve manufacturer China",
+      "pneumatic control valve with positioner",
+      "electric control valve for process"
+    ],
+    "replacement_scenarios": [
+      "Trim wear → control instability → replace trim",
+      "Process optimization → upgrade to digital positioner"
+    ],
+    "compatible_equipment": [
+      "I/P positioner",
+      "Actuator",
+      "Flow sensor"
+    ],
+    "buyer_questions": [
+      "Cv/Kv requirement?",
+      "Body and trim material?",
+      "4-20mA or fieldbus control?"
+    ]
+  },
+  {
+    "asset_id": "asset-d7c25888",
+    "system_type": null,
+    "buyer_need": "Factory/manufacturing facility visual asset — for About Us / Capabilities page, not product procurement",
+    "purchase_keywords": [
+      "manufacturing factory China",
+      "industrial facility tour"
+    ],
+    "replacement_scenarios": [],
+    "compatible_equipment": [],
+    "buyer_questions": []
+  },
+  {
+    "asset_id": "asset-da50866c",
+    "system_type": "Mechanical Transmission",
+    "buyer_need": "Industrial rolling element bearing — replacement for rotating equipment",
+    "purchase_keywords": [
+      "industrial bearing supplier China",
+      "ball bearing wholesale",
+      "roller bearing manufacturer",
+      "bearing for electric motor"
+    ],
+    "replacement_scenarios": [
+      "Bearing noise/vibration → wear → replace",
+      "Preventive maintenance schedule → bearing change",
+      "Equipment upgrade → higher precision bearing"
+    ],
+    "compatible_equipment": [
+      "Electric motor",
+      "Pump shaft",
+      "Gearbox",
+      "Conveyor roller"
+    ],
+    "buyer_questions": [
+      "Bearing number/designation?",
+      "Sealed or open?",
+      "Clearance (C3/C4)?",
+      "Brand preference?"
+    ]
+  },
+  {
+    "asset_id": "asset-dfd5500a",
+    "system_type": "Hydraulic Systems",
+    "buyer_need": "Hydraulic pump/motor/cylinder — replacement or new application component",
+    "purchase_keywords": [
+      "hydraulic pump supplier China",
+      "hydraulic cylinder manufacturer",
+      "hydraulic motor replacement",
+      "piston pump spare parts"
+    ],
+    "replacement_scenarios": [
+      "Hydraulic pump wear → pressure drop → replace",
+      "Cylinder seal failure → rebuild or replace",
+      "Machine retrofit → upgrade hydraulic components"
+    ],
+    "compatible_equipment": [
+      "HPU",
+      "Hydraulic manifold",
+      "Pressure filter"
+    ],
+    "buyer_questions": [
+      "Displacement (cc/rev) and pressure rating?",
+      "Mounting type (SAE/ISO/flange)?",
+      "Shaft type and rotation?"
+    ]
+  },
+  {
+    "asset_id": "asset-e4c126b0",
+    "system_type": "Industrial Automation & Control",
+    "buyer_need": "PLC/programmable controller for industrial machine or process automation",
+    "purchase_keywords": [
+      "PLC controller supplier China",
+      "industrial automation PLC",
+      "Siemens/ABB compatible PLC",
+      "compact PLC for small machine"
+    ],
+    "replacement_scenarios": [
+      "Controller obsolescence → upgrade to current model",
+      "Machine retrofit → add PLC control",
+      "IO expansion needed → add modules"
+    ],
+    "compatible_equipment": [
+      "HMI touch panel",
+      "IO modules",
+      "VFD drive",
+      "Sensor",
+      "Power supply"
+    ],
+    "buyer_questions": [
+      "IO point count?",
+      "Communication protocol?",
+      "Programming software preference?"
+    ]
+  },
+  {
+    "asset_id": "asset-e6830784",
+    "system_type": "Hydraulic Systems",
+    "buyer_need": "Hydraulic pump/motor/cylinder — replacement or new application component",
+    "purchase_keywords": [
+      "hydraulic pump supplier China",
+      "hydraulic cylinder manufacturer",
+      "hydraulic motor replacement",
+      "piston pump spare parts"
+    ],
+    "replacement_scenarios": [
+      "Hydraulic pump wear → pressure drop → replace",
+      "Cylinder seal failure → rebuild or replace",
+      "Machine retrofit → upgrade hydraulic components"
+    ],
+    "compatible_equipment": [
+      "HPU",
+      "Hydraulic manifold",
+      "Pressure filter"
+    ],
+    "buyer_questions": [
+      "Displacement (cc/rev) and pressure rating?",
+      "Mounting type (SAE/ISO/flange)?",
+      "Shaft type and rotation?"
+    ]
+  },
+  {
+    "asset_id": "asset-e82582ef",
+    "system_type": "Valves & Flow Control",
+    "buyer_need": "Process control valve with positioner — precise flow/pressure/temperature regulation",
+    "purchase_keywords": [
+      "control valve manufacturer China",
+      "pneumatic control valve with positioner",
+      "electric control valve for process"
+    ],
+    "replacement_scenarios": [
+      "Trim wear → control instability → replace trim",
+      "Process optimization → upgrade to digital positioner"
+    ],
+    "compatible_equipment": [
+      "I/P positioner",
+      "Actuator",
+      "Flow sensor"
+    ],
+    "buyer_questions": [
+      "Cv/Kv requirement?",
+      "Body and trim material?",
+      "4-20mA or fieldbus control?"
+    ]
+  },
+  {
+    "asset_id": "asset-eb8b77cc",
+    "system_type": "Industrial Filtration",
+    "buyer_need": "Industrial dust collection system — protect workers and equipment from airborne particulates",
+    "purchase_keywords": [
+      "industrial dust collector manufacturer China",
+      "baghouse dust collector supplier",
+      "cartridge dust collector for factory",
+      "cyclone separator dust collection"
+    ],
+    "replacement_scenarios": [
+      "Factory expansion → larger dust collection system",
+      "Filter media exhausted → replace cartridges",
+      "Environmental compliance → upgrade to HEPA filtration"
+    ],
+    "compatible_equipment": [
+      "Ductwork system",
+      "Fan/blower",
+      "Spark arrestor",
+      "Rotary airlock valve"
+    ],
+    "buyer_questions": [
+      "Airflow (m³/h or CFM)?",
+      "Dust type and particle size?",
+      "Explosive dust (ATEX requirements)?",
+      "Indoor or outdoor installation?"
+    ]
+  },
+  {
+    "asset_id": "asset-f0993304",
+    "system_type": "Industrial Filtration",
+    "buyer_need": "Industrial dust collection system — protect workers and equipment from airborne particulates",
+    "purchase_keywords": [
+      "industrial dust collector manufacturer China",
+      "baghouse dust collector supplier",
+      "cartridge dust collector for factory",
+      "cyclone separator dust collection"
+    ],
+    "replacement_scenarios": [
+      "Factory expansion → larger dust collection system",
+      "Filter media exhausted → replace cartridges",
+      "Environmental compliance → upgrade to HEPA filtration"
+    ],
+    "compatible_equipment": [
+      "Ductwork system",
+      "Fan/blower",
+      "Spark arrestor",
+      "Rotary airlock valve"
+    ],
+    "buyer_questions": [
+      "Airflow (m³/h or CFM)?",
+      "Dust type and particle size?",
+      "Explosive dust (ATEX requirements)?",
+      "Indoor or outdoor installation?"
+    ]
+  },
+  {
+    "asset_id": "asset-f0e95dba",
+    "system_type": "Valves & Flow Control",
+    "buyer_need": "Process control valve with positioner — precise flow/pressure/temperature regulation",
+    "purchase_keywords": [
+      "control valve manufacturer China",
+      "pneumatic control valve with positioner",
+      "electric control valve for process"
+    ],
+    "replacement_scenarios": [
+      "Trim wear → control instability → replace trim",
+      "Process optimization → upgrade to digital positioner"
+    ],
+    "compatible_equipment": [
+      "I/P positioner",
+      "Actuator",
+      "Flow sensor"
+    ],
+    "buyer_questions": [
+      "Cv/Kv requirement?",
+      "Body and trim material?",
+      "4-20mA or fieldbus control?"
+    ]
+  },
+  {
+    "asset_id": "asset-f33f7c96",
+    "system_type": "Industrial Automation & Control",
+    "buyer_need": "PLC/programmable controller for industrial machine or process automation",
+    "purchase_keywords": [
+      "PLC controller supplier China",
+      "industrial automation PLC",
+      "Siemens/ABB compatible PLC",
+      "compact PLC for small machine"
+    ],
+    "replacement_scenarios": [
+      "Controller obsolescence → upgrade to current model",
+      "Machine retrofit → add PLC control",
+      "IO expansion needed → add modules"
+    ],
+    "compatible_equipment": [
+      "HMI touch panel",
+      "IO modules",
+      "VFD drive",
+      "Sensor",
+      "Power supply"
+    ],
+    "buyer_questions": [
+      "IO point count?",
+      "Communication protocol?",
+      "Programming software preference?"
+    ]
+  },
+  {
+    "asset_id": "asset-f611401c",
+    "system_type": null,
+    "buyer_need": "Factory/manufacturing facility visual asset — for About Us / Capabilities page, not product procurement",
+    "purchase_keywords": [
+      "manufacturing factory China",
+      "industrial facility tour"
+    ],
+    "replacement_scenarios": [],
+    "compatible_equipment": [],
+    "buyer_questions": []
+  }
+]

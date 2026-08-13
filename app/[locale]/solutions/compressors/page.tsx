@@ -1,5 +1,6 @@
-import PageShell from "@/components/PageShell";
+import SystemSolutionPage from "@/components/SystemSolutionPage";
 import type { Locale } from "@/lib/locales";
+
 export default function Page({ params }: { params: { locale: Locale } }) {
-  return <PageShell locale={params.locale} pageKey="solutions.compressors" imagePrompt="large industrial screw air compressor in modern factory, realistic photograph" />;
+  return <SystemSolutionPage locale={params.locale} systemType="Air Compressor Systems" />;
 }

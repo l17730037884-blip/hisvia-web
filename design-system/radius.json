@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "brand": "Sharp industrial — rounded-sm (2px) for most elements",
+  "scale": {
+    "none": { "value": "0px", "class": "rounded-none", "usage": "Banners, full-bleed sections" },
+    "sm": { "value": "2px", "class": "rounded-sm", "usage": "Cards, buttons, inputs, tags — DEFAULT" },
+    "md": { "value": "6px", "class": "rounded-md", "usage": "Large cards, feature panels" },
+    "lg": { "value": "8px", "class": "rounded-lg", "usage": "Image containers" },
+    "xl": { "value": "12px", "class": "rounded-xl", "usage": "Product showcase cards" },
+    "full": { "value": "9999px", "class": "rounded-full", "usage": "Avatars, tag chips, status dots" }
+  },
+  "rules": [
+    "Default border-radius is 2px (rounded-sm) — industrial sharp feel",
+    "Never use rounded-lg or larger for primary UI elements",
+    "Tag chips use rounded-full",
+    "Images use rounded-sm in cards"
+  ]
+}

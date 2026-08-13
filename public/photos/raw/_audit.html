@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HISVIA — 已用图片审核 (25张)</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f0f2f5;color:#1a1a1a;padding:24px;line-height:1.5}
+h1{font-size:22px;margin-bottom:6px}
+.sub{font-size:13px;color:#666;margin-bottom:20px}
+.legend{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px;font-size:12px}
+.legend span{display:inline-flex;align-items:center;gap:5px}
+.dot{width:10px;height:10px;border-radius:2px;display:inline-block}
+.group{margin-bottom:28px}
+.group>h2{font-size:15px;margin-bottom:12px;padding-bottom:6px;border-bottom:2px solid #ddd;display:flex;align-items:center;gap:8px}
+.group>h2 .cnt{font-size:12px;font-weight:400;color:#888}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:16px}
+.card{background:#fff;border:1px solid #ddd;border-radius:6px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.card .imgwrap{background:#fff;border-bottom:1px solid #eee;position:relative}
+.card img{width:100%;height:240px;object-fit:cover;display:block;cursor:zoom-in}
+.card img.zoom{object-fit:contain;height:420px}
+.card .body{padding:12px 14px}
+.fname{font-size:13px;font-weight:600;word-break:break-all;color:#1a1a1a}
+.dim{font-size:11px;color:#888;margin-top:3px}
+.use{font-size:11.5px;color:#444;margin-top:8px;line-height:1.6}
+.use b{color:#1a1a1a}
+.badge{display:inline-block;font-size:10.5px;padding:2px 7px;border-radius:3px;margin-top:6px;font-weight:600}
+.b6{background:#fde8e8;color:#c0392b;border:1px solid #f5c6c6}
+.b4{background:#fff4e0;color:#a55a00;border:1px solid #f5d8a6}
+.b3{background:#fff8dc;color:#7a6200;border:1px solid #f0e0a0}
+.b2{background:#e8f4fd;color:#1a6fb2;border:1px solid #c6dff0}
+.b1{background:#eafaf1;color:#1a7a3a;border:1px solid #b8e8c8}
+.tag-new{background:#1a7a3a;color:#fff;padding:1px 5px;border-radius:2px;font-size:10px;margin-left:6px}
+</style>
+</head>
+<body>
+<h1>HISVIA 已用图片审核清单</h1>
+<p class="sub">共 25 张图片在代码中被引用 · 按重复使用次数分组 · 点击图片切换 填满/完整 显示 · <span class="tag-new">官方</span>=Atlas Copco 官方图库下载（无水印正品）</p>
+<div class="legend">
+  <span><i class="dot" style="background:#c0392b"></i>6处重复</span>
+  <span><i class="dot" style="background:#a55a00"></i>4处重复</span>
+  <span><i class="dot" style="background:#7a6200"></i>3处重复</span>
+  <span><i class="dot" style="background:#1a6fb2"></i>2处重复</span>
+  <span><i class="dot" style="background:#1a7a3a"></i>1处（唯一）</span>
+</div>
+
+<div class="group" id="g6">
+<h2>6 处重复 <span class="cnt">（建议后续分散）</span></h2>
+<div class="grid"></div>
+</div>
+<div class="group" id="g4">
+<h2>4 处重复</h2>
+<div class="grid"></div>
+</div>
+<div class="group" id="g3">
+<h2>3 处重复</h2>
+<div class="grid"></div>
+</div>
+<div class="group" id="g2">
+<h2>2 处重复</h2>
+<div class="grid"></div>
+</div>
+<div class="group" id="g1">
+<h2>1 处使用（唯一） <span class="cnt">（无重复风险）</span></h2>
+<div class="grid"></div>
+</div>
+
+<script>
+const data = [
+  // [文件名, 尺寸描述, 使用位置, 重复次数, 是否官方图]
+  ["pixabay-compressor-new.jpg","1280×1052","<b>首页</b>领域#1 压缩机 · <b>industries</b> rental-equipment · <b>applications</b> rental-equipment · <b>brands</b> gardner-denver · <b>BrandPage</b> gardner-denver · <b>solutions</b>/compressors",6,false],
+  ["pixabay-industrial-pump.jpg","1280×960","<b>首页</b>领域#3 泵 · <b>industries</b> mining-maintenance · <b>applications</b> mining · <b>parts</b> hydraulic-components · <b>cases</b> hydraulic-cylinder · <b>solutions</b>/pumps",6,false],
+  ["hitachi-air-filter.jpg","1000×1000","<b>brands</b> hitachi · <b>BrandPage</b> hitachi · <b>industries</b> factory-maintenance · <b>applications</b> factory · <b>IndustryPage</b> factory · <b>IndustryPage</b> Solution区块(硬编码)",6,false],
+  ["pixabay-screw-compressor.jpg","1280×853","<b>industries</b> compressor-service · <b>IndustryPage</b> compressor-service · <b>brands</b> sullair · <b>BrandPage</b> sullair",4,false],
+  ["ingersoll-rand-compressor.jpg","800×800","<b>applications</b> compressor-service(列表+详情) · <b>brands</b> ingersoll-rand · <b>BrandPage</b> ingersoll-rand",4,false],
+  ["pixabay-compressor-mechanics.jpg","1280×960","<b>首页</b>领域#2 零件 · <b>parts</b> compressor-parts · <b>cases</b> compressor-separator(列表+详情)",4,false],
+  ["atlas-copco-spare-parts.jpg","1500×1500","<b>brands</b> kaeser · <b>BrandPage</b> kaeser · <b>solutions</b>/compressor-parts · <b>首页</b>供应链网络区",4,false],
+  ["pixabay-hydraulic-system.jpg","1280×853","<b>首页</b>领域#4 液压 · <b>parts</b> hydraulic · <b>cases</b> hydraulic(列表) · <b>solutions</b>/hydraulics",4,false],
+  ["pixabay-warehouse-new.jpg","1280×960","<b>industries</b> industrial-distributors · <b>applications</b> distributors · <b>cases</b> distributor · <b>IndustryPage</b> distributors",4,false],
+  ["pixabay-industrial-filter.jpg","1280×854","<b>首页</b>领域#8 耗材 · <b>parts</b> industrial-consumables · <b>solutions</b>/consumables",3,false],
+  ["atlas-copco-air-end.jpg","1600×1199","<b>brands</b> atlas-copco · <b>BrandPage</b> atlas-copco <span class='tag-new'>官方</span>",2,true],
+  ["pixabay-industrial-valve.jpg","853×640","<b>首页</b>领域#5 阀门 · <b>solutions</b>/valves",2,false],
+  ["automation-plc-1.jpg","800×800","<b>首页</b>领域#6 自动化 · <b>solutions</b>/automation",2,false],
+  ["pixabay-bearing.jpg","1280×720","<b>首页</b>领域#7 机械 · <b>solutions</b>/mechanical",2,false],
+  ["pixabay-factory-tools.jpg","1280×850","<b>how-we-work</b> 流程图 · <b>首页</b>工作流程区",2,false],
+  ["pixabay-supply-chain.jpg","2400×1350","<b>首页 Hero 大图</b> <span class='tag-new'>官方</span>",1,true],
+  ["ingersoll-rand-gear.jpg","1500×1125","<b>首页</b> 制造能力#1 CNC",1,false],
+  ["pixabay-pneumatics.jpg","1280×960","<b>首页</b> 制造能力#2 金属加工",1,false],
+  ["metal-casting-1.jpg","1000×1000","<b>首页</b> 制造能力#3 铸造",1,false],
+  ["injection-molding-1.jpg","1024×1024","<b>首页</b> 制造能力#4 注塑",1,false],
+  ["air-compressor-air-filter.jpg","1000×1000","<b>首页</b> 制造能力#5 装配",1,false],
+  ["bearing-2.jpg","600×600","<b>首页</b> 制造能力#6 质检",1,false],
+  ["pixabay-bearing-new.jpg","1280×960","<b>parts</b> mechanical-components",1,false],
+  ["pixabay-compressor-machine.jpg","1280×853","<b>quality-control</b> 质量控制页",1,false],
+  ["pixabay-engineer-meeting.jpg","1280×853","<b>about</b> 关于我们页",1,false]
+];
+
+function build() {
+  data.forEach((it, i) => {
+    const [file, dim, use, cnt, official] = it;
+    const g = document.getElementById('g' + cnt).querySelector('.grid');
+    const c = document.createElement('div');
+    c.className = 'card';
+    const badgeCls = 'b' + (cnt>=6?6:cnt>=4?4:cnt>=3?3:cnt>=2?2:1);
+    const badgeText = cnt + ' 处使用';
+    c.innerHTML =
+      '<div class="imgwrap"><img src="' + file + '" loading="lazy" onclick="this.classList.toggle(\'zoom\')" onerror="this.alt=\'加载失败\';this.style.background=\'#fde8e8\'"></div>' +
+      '<div class="body">' +
+      '<div class="fname">' + (i+1) + '. ' + file + (official?'<span class="tag-new">官方</span>':'') + '</div>' +
+      '<div class="dim">' + dim + ' · object-fit: cover</div>' +
+      '<div class="use">' + use + '</div>' +
+      '<span class="badge ' + badgeCls + '">' + badgeText + '</span>' +
+      '</div>';
+    g.appendChild(c);
+  });
+}
+build();
+</script>
+</body>
+</html>

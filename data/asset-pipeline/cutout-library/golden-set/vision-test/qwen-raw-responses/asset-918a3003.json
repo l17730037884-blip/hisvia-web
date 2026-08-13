@@ -1,0 +1,35 @@
+{
+  "output": {
+    "choices": [
+      {
+        "message": {
+          "content": [
+            {
+              "text": "```json\n{\n  \"visible_object\": [\n    \"equipment\"\n  ],\n  \"object_type\": \"equipment\",\n  \"visible_brand\": [\n    \"Atlas Copco\"\n  ],\n  \"visible_text\": [\n    \"Atlas Copco\",\n    \"G\",\n    \"GA15 FF\"\n  ],\n  \"visible_features\": [\n    \"two-tone panel\",\n    \"control interface\",\n    \"emergency stop button\",\n    \"warning label\",\n    \"pallet base\"\n  ],\n  \"image_condition\": \"industrial_scene\",\n  \"industrial_clues\": [\n    \"compressed air system\",\n    \"industrial machinery\"\n  ],\n  \"visual_confidence\": 95\n}\n```"
+            }
+          ],
+          "reasoning_content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens_details": {
+      "image_tokens": 627,
+      "text_tokens": 190
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 961,
+    "output_tokens": 144,
+    "input_tokens": 817,
+    "output_tokens_details": {
+      "text_tokens": 144
+    },
+    "image_tokens": 627
+  },
+  "request_id": "7d86cbd5-f4c7-9072-b438-25c11713f80f"
+}

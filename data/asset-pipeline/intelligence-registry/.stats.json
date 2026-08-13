@@ -1,0 +1,26 @@
+{
+  "total": 49,
+  "complete": 37,
+  "factory": 10,
+  "needs_review": 12,
+  "procurement_ready": 37,
+  "seo_ready": 37,
+  "confidence_distribution": {
+    "LOW": 12,
+    "HIGH": 36,
+    "MEDIUM": 1
+  },
+  "system_distribution": {
+    "null": 12,
+    "Air Compressor Systems": 5,
+    "Pumps & Fluid Handling": 5,
+    "Industrial Filtration": 6,
+    "Mechanical Transmission": 6,
+    "Pneumatic Automation": 4,
+    "Valves & Flow Control": 4,
+    "Industrial Automation & Control": 3,
+    "Hydraulic Systems": 4
+  },
+  "high_value_count": 36,
+  "low_value_count": 12
+}

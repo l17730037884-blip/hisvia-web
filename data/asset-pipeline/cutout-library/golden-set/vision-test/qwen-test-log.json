@@ -1,0 +1,447 @@
+[
+  {
+    "timestamp": "2026-08-10T22:36:09.221992",
+    "asset_id": "asset-918a3003",
+    "image_path": "/photos/raw/_final/brand-machine-atlas-copco-2.jpg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 1.86,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:36:12.169180",
+    "asset_id": "asset-6b7b1713",
+    "image_path": "/photos/raw/_docx5/image12.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.44,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:36:15.016894",
+    "asset_id": "asset-21c46019",
+    "image_path": "/photos/raw/_docx2/image8.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.34,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:36:18.709877",
+    "asset_id": "asset-cfd129d3",
+    "image_path": "/photos/raw/_final/part-valve-3.jpg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 3.19,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:36:22.010839",
+    "asset_id": "asset-e82582ef",
+    "image_path": "/photos/raw/_final/part-valve-5.jpg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.79,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:36:23.906561",
+    "asset_id": "asset-b7d57b28",
+    "image_path": "/photos/raw/_final/part-bearing-6.jpg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 1.39,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:36:26.087805",
+    "asset_id": "asset-da50866c",
+    "image_path": "/photos/raw/_final/part-bearing-7.jpg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 1.68,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:36:28.755174",
+    "asset_id": "asset-8342923a",
+    "image_path": "/photos/raw/_final/part-pneumatic-0.jpg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.16,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:36:31.387043",
+    "asset_id": "asset-5d428a16",
+    "image_path": "/photos/raw/_final/part-pneumatic-1.jpg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.13,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:36:33.825089",
+    "asset_id": "asset-a978f441",
+    "image_path": "/photos/raw/_docx/image1.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 1.93,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:36:36.874437",
+    "asset_id": "asset-dfd5500a",
+    "image_path": "/photos/raw/_docx/image6.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.54,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:36:39.357429",
+    "asset_id": "asset-58e52f7c",
+    "image_path": "/photos/raw/_docx/image11.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 1.98,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:36:42.595253",
+    "asset_id": "asset-40e9d9a1",
+    "image_path": "/photos/raw/_docx/image12.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.73,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:36:46.080015",
+    "asset_id": "asset-f611401c",
+    "image_path": "/photos/raw/_docx/image13.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.98,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:36:49.205826",
+    "asset_id": "asset-475bb362",
+    "image_path": "/photos/raw/_docx/image17.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.62,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:36:51.620060",
+    "asset_id": "asset-344e002d",
+    "image_path": "/photos/raw/_final/part-pump-0.jpg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 1.91,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:36:54.422762",
+    "asset_id": "asset-7da7f124",
+    "image_path": "/photos/raw/_docx/image22.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.3,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:36:57.880267",
+    "asset_id": "asset-8490ea6c",
+    "image_path": "/photos/raw/_docx/image23.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.95,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:37:00.544856",
+    "asset_id": "asset-eb8b77cc",
+    "image_path": "/photos/raw/_docx/image24.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.16,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:37:03.952857",
+    "asset_id": "asset-f0993304",
+    "image_path": "/photos/raw/_docx/image25.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.91,
+    "error": null
+  },
+  {
+    "asset_id": "asset-c4bbc162",
+    "error": "file missing"
+  },
+  {
+    "timestamp": "2026-08-10T22:37:06.413726",
+    "asset_id": "asset-ce8be518",
+    "image_path": "/photos/raw/_docx2/image17.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 1.96,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:37:09.025187",
+    "asset_id": "asset-b69c6430",
+    "image_path": "/photos/raw/_docx2/image28.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.11,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:37:11.391079",
+    "asset_id": "asset-5b33ea4b",
+    "image_path": "/photos/raw/_docx2/image29.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 1.86,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:37:13.799865",
+    "asset_id": "asset-48b63b1e",
+    "image_path": "/photos/raw/_docx2/image40.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 1.9,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:37:22.447501",
+    "asset_id": "asset-9f330fb8",
+    "image_path": "/photos/raw/_docx3/image1.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 8.14,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:37:24.938896",
+    "asset_id": "asset-84bb2bba",
+    "image_path": "/photos/raw/_docx3/image5.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 1.99,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:37:27.692308",
+    "asset_id": "asset-3986d47f",
+    "image_path": "/photos/raw/_docx3/image13.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.25,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:37:30.372650",
+    "asset_id": "asset-ad1a284d",
+    "image_path": "/photos/raw/_docx3/image14.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.18,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:37:32.886693",
+    "asset_id": "asset-40a7670c",
+    "image_path": "/photos/raw/_docx3/image17.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.01,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:37:35.199332",
+    "asset_id": "asset-325714de",
+    "image_path": "/photos/raw/_docx3/image23.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 1.81,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:37:37.366914",
+    "asset_id": "asset-4ab74032",
+    "image_path": "/photos/raw/_docx3/image33.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 1.66,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:37:41.395987",
+    "asset_id": "asset-7aaf9aca",
+    "image_path": "/photos/raw/_docx3/image37.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 3.52,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:37:43.975049",
+    "asset_id": "asset-a1ae0abb",
+    "image_path": "/photos/raw/_brand/atlas-copco-20.jpg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.07,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:37:48.248612",
+    "asset_id": "asset-e4c126b0",
+    "image_path": "/photos/raw/_docx6/image1.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 3.77,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:37:51.094654",
+    "asset_id": "asset-e6830784",
+    "image_path": "/photos/raw/_docx6/image24.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.34,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:37:53.438081",
+    "asset_id": "asset-cd532cc1",
+    "image_path": "/photos/raw/_docx6/image73.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 1.84,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:37:55.705903",
+    "asset_id": "asset-a88224cd",
+    "image_path": "/photos/raw/_docx6/image103.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 1.76,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:37:58.202877",
+    "asset_id": "asset-f0e95dba",
+    "image_path": "/photos/raw/_docx6/image138.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 1.99,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:38:01.047979",
+    "asset_id": "asset-d29f9c00",
+    "image_path": "/photos/raw/_docx6/image139.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.34,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:38:02.885763",
+    "asset_id": "asset-7b19d020",
+    "image_path": "/photos/raw/_docx6/image140.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 1.33,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:38:05.656711",
+    "asset_id": "asset-f33f7c96",
+    "image_path": "/photos/raw/_docx6/image173.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.27,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:38:42.704260",
+    "asset_id": "asset-91e283b8",
+    "image_path": "/photos/raw/_docx6/image174.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 36.54,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:38:45.608529",
+    "asset_id": "asset-6b0073d0",
+    "image_path": "/photos/raw/_docx6/image231.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.4,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:38:48.629992",
+    "asset_id": "asset-a8ee483b",
+    "image_path": "/photos/raw/_docx6/image271.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.52,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:38:51.813562",
+    "asset_id": "asset-87e2254b",
+    "image_path": "/photos/raw/_factory/factory-factory-exterior-001.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.68,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:39:21.890348",
+    "asset_id": "asset-81187c75",
+    "image_path": "/photos/raw/_factory/factory-factory-exterior-002.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 29.57,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:39:24.678505",
+    "asset_id": "asset-d7c25888",
+    "image_path": "/photos/raw/_factory/factory-factory-exterior-003.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.28,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:39:27.632832",
+    "asset_id": "asset-ceb53592",
+    "image_path": "/photos/raw/_factory/factory-factory-exterior-004.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 2.45,
+    "error": null
+  },
+  {
+    "timestamp": "2026-08-10T22:39:34.013237",
+    "asset_id": "asset-001ac56b",
+    "image_path": "/photos/raw/_factory/factory-factory-exterior-005.jpeg",
+    "image_type": "original",
+    "api_status": "success",
+    "response_time_s": 5.88,
+    "error": null
+  }
+]

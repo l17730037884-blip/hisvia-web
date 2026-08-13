@@ -1,0 +1,87 @@
+{
+  "version": "1.0",
+  "description": "HISVIA Industrial Brand Color System — derived from original brand DNA",
+  "palette": {
+    "primary": {
+      "navy": {
+        "hex": "#0E2A4A",
+        "tailwind": "navy",
+        "role": "Brand identity, headings, footer backgrounds",
+        "usage": ["logo", "h1", "h2", "footer-bg"]
+      },
+      "steel": {
+        "hex": "#2E72B8",
+        "tailwind": "steel",
+        "role": "Interactive elements, CTAs, links, section accents",
+        "usage": ["cta-btn", "link", "icon-accent", "active-nav"]
+      }
+    },
+    "accent": {
+      "amber": {
+        "hex": "#D98A3D",
+        "tailwind": "amber",
+        "role": "Warm accent, trust markers, hover states, tag backgrounds",
+        "usage": ["logo-dot", "tag-chip", "hover-underline", "stat-highlight"]
+      }
+    },
+    "text": {
+      "graphite": {
+        "hex": "#46586B",
+        "tailwind": "graphite",
+        "role": "Body text, descriptions, secondary information",
+        "usage": ["body", "description", "meta", "caption"]
+      },
+      "navy": {
+        "hex": "#0E2A4A",
+        "tailwind": "navy",
+        "role": "Headings, emphasized text",
+        "usage": ["h1", "h2", "h3", "strong"]
+      }
+    },
+    "background": {
+      "page": {
+        "hex": "#FAFBFC",
+        "tailwind": "[#FAFBFC]",
+        "role": "Default page background",
+        "usage": ["body-bg"]
+      },
+      "fog": {
+        "hex": "#DCEBFA",
+        "tailwind": "fog",
+        "role": "Alternating section background, hover states",
+        "usage": ["section-alt", "card-hover", "dropdown-bg"]
+      },
+      "surface": {
+        "hex": "#F5F6F8",
+        "tailwind": "surface",
+        "role": "Card backgrounds, elevated surfaces",
+        "usage": ["card-bg", "panel-bg"]
+      },
+      "white": {
+        "hex": "#FFFFFF",
+        "tailwind": "white",
+        "role": "Header, hero cards, modal backgrounds",
+        "usage": ["header-bg", "hero-card", "modal"]
+      }
+    },
+    "border": {
+      "line": {
+        "hex": "#B9D8F0",
+        "tailwind": "line",
+        "role": "Section dividers, card borders, input borders",
+        "usage": ["border", "divider", "input-border"]
+      }
+    },
+    "semantic": {
+      "success": { "hex": "#16A34A", "role": "Verification badges, certifications" },
+      "warning": { "hex": "#D98A3D", "role": "Attention states" },
+      "error": { "hex": "#DC2626", "role": "Error states" }
+    }
+  },
+  "rules": [
+    "Never introduce new colors outside this palette",
+    "Never use pure black (#000) for text — use navy or graphite",
+    "Never use pure blue (#00F) — use steel instead",
+    "Amber is accent only — never use for large backgrounds or body text"
+  ]
+}

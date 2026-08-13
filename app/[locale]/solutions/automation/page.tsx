@@ -1,5 +1,6 @@
-import PageShell from "@/components/PageShell";
+import SystemSolutionPage from "@/components/SystemSolutionPage";
 import type { Locale } from "@/lib/locales";
+
 export default function Page({ params }: { params: { locale: Locale } }) {
-  return <PageShell locale={params.locale} pageKey="solutions.automation" imagePrompt="industrial automation control panel with PLC modules and wiring, realistic photograph" />;
+  return <SystemSolutionPage locale={params.locale} systemType="Industrial Automation & Control" />;
 }

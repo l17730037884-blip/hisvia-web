@@ -1,0 +1,247 @@
+{
+  "version": "v4-retry-fail",
+  "results": [
+    {
+      "file": "public/photos/raw/_docx/image109.jpeg",
+      "filename": "image109.jpeg",
+      "size": [
+        800,
+        800
+      ],
+      "status": "done",
+      "diagnosis": {
+        "strategy": "birefnet",
+        "risk": "high",
+        "reason": "产品亮部59%|对比度50"
+      },
+      "strategy": "birefnet",
+      "qc": {
+        "score": 100,
+        "verdict": "PASS",
+        "transparent_pct": 83.7,
+        "opaque_pct": 16.3,
+        "issues": []
+      },
+      "output": "public/assets/cutout_results/image109_nobg.png",
+      "elapsed_s": 76.7
+    },
+    {
+      "file": "public/photos/raw/_brand/ingersoll-rand-3.jpg",
+      "filename": "ingersoll-rand-3.jpg",
+      "size": [
+        3000,
+        3000
+      ],
+      "status": "done",
+      "diagnosis": {
+        "strategy": "birefnet",
+        "risk": "high",
+        "reason": "产品亮部44%|对比度60"
+      },
+      "strategy": "birefnet",
+      "qc": {
+        "score": 100,
+        "verdict": "PASS",
+        "transparent_pct": 74.4,
+        "opaque_pct": 25.6,
+        "issues": []
+      },
+      "output": "public/assets/cutout_results/ingersoll-rand-3_nobg.png",
+      "elapsed_s": 53.3
+    },
+    {
+      "file": "public/photos/raw/_docx2/image46.jpeg",
+      "filename": "image46.jpeg",
+      "size": [
+        1140,
+        806
+      ],
+      "status": "done",
+      "diagnosis": {
+        "strategy": "birefnet",
+        "risk": "high",
+        "reason": "产品亮部66%|对比度38"
+      },
+      "strategy": "birefnet",
+      "qc": {
+        "score": 100,
+        "verdict": "PASS",
+        "transparent_pct": 78.8,
+        "opaque_pct": 21.2,
+        "issues": []
+      },
+      "output": "public/assets/cutout_results/image46_nobg.png",
+      "elapsed_s": 40.8
+    },
+    {
+      "file": "public/photos/raw/_docx6/image65.jpeg",
+      "filename": "image65.jpeg",
+      "size": [
+        1680,
+        1680
+      ],
+      "status": "done",
+      "diagnosis": {
+        "strategy": "edge_dilate",
+        "risk": "medium",
+        "reason": "对比度91|亮部19%|阴影Δ4"
+      },
+      "strategy": "edge_dilate",
+      "qc": {
+        "score": 100,
+        "verdict": "PASS",
+        "transparent_pct": 58.7,
+        "opaque_pct": 41.3,
+        "issues": []
+      },
+      "output": "public/assets/cutout_results/image65_nobg.png",
+      "elapsed_s": 6.5
+    },
+    {
+      "file": "public/photos/raw/_docx/image34.jpeg",
+      "filename": "image34.jpeg",
+      "size": [
+        600,
+        600
+      ],
+      "status": "done",
+      "diagnosis": {
+        "strategy": "birefnet",
+        "risk": "high",
+        "reason": "产品亮部88%|对比度12"
+      },
+      "strategy": "birefnet",
+      "qc": {
+        "score": 100,
+        "verdict": "PASS",
+        "transparent_pct": 60.1,
+        "opaque_pct": 39.9,
+        "issues": []
+      },
+      "output": "public/assets/cutout_results/image34_nobg.png",
+      "elapsed_s": 22.1
+    },
+    {
+      "file": "public/photos/raw/_docx2/image22.jpeg",
+      "filename": "image22.jpeg",
+      "size": [
+        1080,
+        1080
+      ],
+      "status": "done",
+      "diagnosis": {
+        "strategy": "birefnet",
+        "risk": "high",
+        "reason": "产品亮部39%|对比度78"
+      },
+      "strategy": "birefnet",
+      "qc": {
+        "score": 100,
+        "verdict": "PASS",
+        "transparent_pct": 48.1,
+        "opaque_pct": 51.9,
+        "issues": []
+      },
+      "output": "public/assets/cutout_results/image22_nobg.png",
+      "elapsed_s": 25.1
+    },
+    {
+      "file": "public/photos/raw/_docx3/image31.jpeg",
+      "filename": "image31.jpeg",
+      "size": [
+        500,
+        500
+      ],
+      "status": "done",
+      "diagnosis": {
+        "strategy": "birefnet",
+        "risk": "high",
+        "reason": "产品亮部34%|对比度60"
+      },
+      "strategy": "birefnet",
+      "qc": {
+        "score": 100,
+        "verdict": "PASS",
+        "transparent_pct": 67.9,
+        "opaque_pct": 32.1,
+        "issues": []
+      },
+      "output": "public/assets/cutout_results/image31_nobg.png",
+      "elapsed_s": 45.4
+    },
+    {
+      "file": "public/photos/raw/_docx6/image62.jpeg",
+      "filename": "image62.jpeg",
+      "size": [
+        1600,
+        1790
+      ],
+      "status": "done",
+      "diagnosis": {
+        "strategy": "birefnet",
+        "risk": "high",
+        "reason": "产品亮部30%|对比度52"
+      },
+      "strategy": "birefnet",
+      "qc": {
+        "score": 100,
+        "verdict": "PASS",
+        "transparent_pct": 48.6,
+        "opaque_pct": 51.4,
+        "issues": []
+      },
+      "output": "public/assets/cutout_results/image62_nobg.png",
+      "elapsed_s": 44.8
+    },
+    {
+      "file": "public/photos/raw/_final/part-ballvalve-1.jpg",
+      "filename": "part-ballvalve-1.jpg",
+      "size": [
+        500,
+        460
+      ],
+      "status": "done",
+      "diagnosis": {
+        "strategy": "birefnet",
+        "risk": "high",
+        "reason": "产品亮部53%|对比度57"
+      },
+      "strategy": "birefnet",
+      "qc": {
+        "score": 100,
+        "verdict": "PASS",
+        "transparent_pct": 73.5,
+        "opaque_pct": 26.5,
+        "issues": []
+      },
+      "output": "public/assets/cutout_results/part-ballvalve-1_nobg.png",
+      "elapsed_s": 22.3
+    },
+    {
+      "file": "public/photos/raw/_brand/gardner-denver-25.jpg",
+      "filename": "gardner-denver-25.jpg",
+      "size": [
+        750,
+        750
+      ],
+      "status": "done",
+      "diagnosis": {
+        "strategy": "birefnet",
+        "risk": "high",
+        "reason": "产品亮部80%|对比度19"
+      },
+      "strategy": "birefnet",
+      "qc": {
+        "score": 80,
+        "verdict": "REVIEW",
+        "transparent_pct": 92.4,
+        "opaque_pct": 7.6,
+        "issues": [
+          "透明度过高(92.4%)"
+        ]
+      },
+      "output": "public/assets/cutout_results/gardner-denver-25_nobg.png",
+      "elapsed_s": 24.3
+    }
+  ]
+}

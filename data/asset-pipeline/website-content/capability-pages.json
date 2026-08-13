@@ -1,0 +1,102 @@
+[
+  {
+    "capability_type": "manufacturing_network",
+    "title": "HISVIA Manufacturing Network",
+    "description": "8 industrial system capabilities across partner factories in China",
+    "systems": [
+      {
+        "system_type": "Air Compressor Systems",
+        "supplier_type": "Air Compressor & Compressed Air System Manufacturer",
+        "asset_count": 5,
+        "export_potential": "High — global demand for energy-efficient compressed air solutions"
+      },
+      {
+        "system_type": "Hydraulic Systems",
+        "supplier_type": "Hydraulic System & Component Manufacturer",
+        "asset_count": 4,
+        "export_potential": "High — hydraulic components are standardized global commodities"
+      },
+      {
+        "system_type": "Industrial Automation & Control",
+        "supplier_type": "Industrial Automation & Control System Integrator",
+        "asset_count": 3,
+        "export_potential": "High — industrial automation is a global megatrend"
+      },
+      {
+        "system_type": "Industrial Filtration",
+        "supplier_type": "Industrial Filtration System Manufacturer",
+        "asset_count": 6,
+        "export_potential": "High — filtration is mandatory in all industrial sectors globally"
+      },
+      {
+        "system_type": "Mechanical Transmission",
+        "supplier_type": "Mechanical Power Transmission Component Manufacturer",
+        "asset_count": 6,
+        "export_potential": "Very High — bearings and gears are global commodity components"
+      },
+      {
+        "system_type": "Pneumatic Automation",
+        "supplier_type": "Pneumatic Automation Component Manufacturer",
+        "asset_count": 4,
+        "export_potential": "High — pneumatic components are ISO-standardized global products"
+      },
+      {
+        "system_type": "Pumps & Fluid Handling",
+        "supplier_type": "Industrial Pump & Fluid Handling Equipment Manufacturer",
+        "asset_count": 5,
+        "export_potential": "Very High — pumps are the #1 rotating equipment globally"
+      },
+      {
+        "system_type": "Valves & Flow Control",
+        "supplier_type": "Industrial Valve & Flow Control Manufacturer",
+        "asset_count": 4,
+        "export_potential": "Very High — valves are essential in every pipeline system worldwide"
+      }
+    ],
+    "trust_role": "Demonstrates multi-category industrial supply capability"
+  },
+  {
+    "capability_type": "factory_network",
+    "title": "Partner Manufacturing Facilities",
+    "description": "On-site factory photos demonstrating real production capability",
+    "factory_count": 10,
+    "factory_brands": [
+      null,
+      "siemens",
+      "kuka",
+      "precise",
+      "china erzhong",
+      "cnc"
+    ],
+    "assets": [
+      "asset-001ac56b",
+      "asset-40e9d9a1",
+      "asset-58e52f7c",
+      "asset-5b33ea4b",
+      "asset-81187c75",
+      "asset-87e2254b",
+      "asset-b69c6430",
+      "asset-ceb53592",
+      "asset-d7c25888",
+      "asset-f611401c"
+    ],
+    "trust_role": "Authentic factory photos build buyer trust — verifiable production capability",
+    "usage": "About Us page, Capabilities page, OEM/ODM landing page"
+  },
+  {
+    "capability_type": "quality_control",
+    "title": "Quality Control & Testing",
+    "description": "Industrial product QC — pressure testing, performance curves, material certification",
+    "systems_covered": [
+      "Air Compressor Systems",
+      "Pumps & Fluid Handling",
+      "Industrial Filtration",
+      "Mechanical Transmission",
+      "Pneumatic Automation",
+      "Valves & Flow Control",
+      "Industrial Automation & Control",
+      "Hydraulic Systems"
+    ],
+    "trust_role": "Quality assurance documentation and testing capability demonstration"
+  }
+]

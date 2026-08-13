@@ -1,0 +1,35 @@
+{
+  "output": {
+    "choices": [
+      {
+        "message": {
+          "content": [
+            {
+              "text": "```json\n{\n  \"visible_object\": [\n    \"equipment\"\n  ],\n  \"object_type\": \"equipment\",\n  \"visible_brand\": [\n    \"Atlas Copco\"\n  ],\n  \"visible_text\": [\n    \"Atlas Copco\",\n    \"G\"\n  ],\n  \"visible_features\": [\n    \"rectangular metal casing\",\n    \"control panel with display and buttons\",\n    \"ventilation grille\",\n    \"yellow warning label\",\n    \"brand logo on side\"\n  ],\n  \"image_condition\": \"white_background_product\",\n  \"industrial_clues\": [\n    \"compressor\",\n    \"industrial machinery\"\n  ],\n  \"visual_confidence\": 1\n}\n```"
+            }
+          ],
+          "reasoning_content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens_details": {
+      "image_tokens": 134,
+      "text_tokens": 190
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 466,
+    "output_tokens": 142,
+    "input_tokens": 324,
+    "output_tokens_details": {
+      "text_tokens": 142
+    },
+    "image_tokens": 134
+  },
+  "request_id": "e63cd9ee-98f2-9d21-a73f-c7be49c36270"
+}

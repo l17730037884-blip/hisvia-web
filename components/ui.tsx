@@ -20,15 +20,18 @@ export function GhostButton({ href, children, variant = "default" }: { href: str
 type ImageSize = "square_hd"|"square"|"portrait_4_3"|"portrait_16_9"|"landscape_4_3"|"landscape_16_9";
 const IMG_BASE = "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image";
 
-export function PlaceholderPhoto({ caption, prompt, alt, imageSize = "landscape_4_3", className = "", interactive = false }: {
+export function PlaceholderPhoto({ caption, prompt, alt, imageSize = "landscape_4_3", className = "", interactive = false, src, fit = "cover" }: {
   caption: string; prompt: string; alt?: string; imageSize?: ImageSize; className?: string; interactive?: boolean;
+  /** Pass a real photo URL (local /photos/... or remote). If omitted, falls back to AI text_to_image. */
+  src?: string;
+  /** object-fit: "cover" (default, fills container) or "contain" (shows full image, may letterbox). */
+  fit?: "contain" | "cover";
 }) {
-  const src = `${IMG_BASE}?prompt=${encodeURIComponent(prompt)}&image_size=${imageSize}`;
+  const imgSrc = src ?? `${IMG_BASE}?prompt=${encodeURIComponent(prompt)}&image_size=${imageSize}`;
   return (
-    <div className={`relative overflow-hidden border border-line bg-fog/30 ${className}`}>
-      <img src={src} alt={alt ?? caption}
-        className={`absolute inset-0 h-full w-full object-cover ${interactive?"transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.08]":""}`}
-        loading="lazy" />
+    <div className={`relative overflow-hidden border border-line bg-white ${className}`}>
+      <img src={imgSrc} alt={alt ?? caption}
+        className={`absolute inset-0 h-full w-full ${fit === "cover" ? "object-cover" : "object-contain"} ${interactive?"transition-transform duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.08]":""}`} />
     </div>
   );
 }

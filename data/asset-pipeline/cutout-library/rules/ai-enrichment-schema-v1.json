@@ -1,0 +1,48 @@
+{
+  "version": "1.0",
+  "stages": {
+    "stage_a_vision": {
+      "name": "Vision AI — Describe Only",
+      "model_hint": "Qwen-VL / GPT-4V",
+      "input": "image (base64/URL)",
+      "output": {
+        "visible_object": "string — main visible object, describe objectively",
+        "visible_brand": "string|null — brand name/logo visible, null if none",
+        "visible_features": "array[string] — materials, shapes, colors, connectors",
+        "visible_text": "string|null — readable text/labels on product",
+        "visual_confidence": "number 0-1 — confidence in this description"
+      },
+      "rules": [
+        "Only describe what is visible. Do NOT classify.",
+        "Do NOT output system_type, category, or subcategory.",
+        "If unsure about brand, set visible_brand=null.",
+        "If image unclear, set visual_confidence < 0.5."
+      ]
+    },
+    "stage_b_industrial": {
+      "name": "Industrial AI — Classify from Vision + Context",
+      "model_hint": "DeepSeek / GPT-4",
+      "input": "Stage A result + existing metadata + taxonomy rules",
+      "output": {
+        "system_type": "string|null — one of 8 fixed values or null",
+        "category": "string|null — from taxonomy",
+        "subcategory": "string|null — from taxonomy",
+        "brand": "string|null",
+        "asset_type": "equipment|component|factory|brand_asset|application_scene|technical_document|unknown",
+        "application": "array[string] — industrial applications, empty if unknown",
+        "reason": "string — why this classification",
+        "confidence": "number 0-1",
+        "needs_human_review": "boolean — true if confidence < 0.7"
+      },
+      "rules": [
+        "Must respect taxonomy-v1.json frozen system_types.",
+        "Brand is horizontal attribute, not classification level.",
+        "Factory → asset_type=factory, system_type=null.",
+        "Seal → asset_type=component, system_type may be null.",
+        "Filter → determine specific type before assigning system.",
+        "Unknown/ambiguous is acceptable. Do not force classify.",
+        "Confidence < 0.7 → needs_human_review=true."
+      ]
+    }
+  }
+}

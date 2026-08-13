@@ -11,6 +11,7 @@ const config: Config = {
         fog: "#DCEBFA",
         line: "#B9D8F0",
         amber: "#D98A3D",
+        surface: "#F5F6F8",
       },
       fontFamily: {
         display: ["var(--font-archivo)", "sans-serif"],

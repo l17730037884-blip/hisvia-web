@@ -1,0 +1,3775 @@
+{
+  "pixabay-bearing.jpg": {
+    "path": "public/photos/raw/pixabay-bearing.jpg",
+    "width": 1280,
+    "height": 720,
+    "megapixels": 0.92,
+    "aspect_ratio": 1.778
+  },
+  "atlas-copco-compressor-head.jpg": {
+    "path": "public/photos/raw/atlas-copco-compressor-head.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "pixabay-factory-tools.jpg": {
+    "path": "public/photos/raw/pixabay-factory-tools.jpg",
+    "width": 1280,
+    "height": 850,
+    "megapixels": 1.09,
+    "aspect_ratio": 1.506
+  },
+  "air-compressor-air-filter.jpg": {
+    "path": "public/photos/raw/air-compressor-air-filter.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "bearing-1.jpg": {
+    "path": "public/photos/raw/bearing-1.jpg",
+    "width": 600,
+    "height": 600,
+    "megapixels": 0.36,
+    "aspect_ratio": 1.0
+  },
+  "pixabay-warehouse-new.jpg": {
+    "path": "public/photos/raw/pixabay-warehouse-new.jpg",
+    "width": 1280,
+    "height": 853,
+    "megapixels": 1.09,
+    "aspect_ratio": 1.501
+  },
+  "ingersoll-rand-gear.jpg": {
+    "path": "public/photos/raw/ingersoll-rand-gear.jpg",
+    "width": 1500,
+    "height": 1125,
+    "megapixels": 1.69,
+    "aspect_ratio": 1.333
+  },
+  "bearing-2.jpg": {
+    "path": "public/photos/raw/bearing-2.jpg",
+    "width": 600,
+    "height": 600,
+    "megapixels": 0.36,
+    "aspect_ratio": 1.0
+  },
+  "pixabay-bearing-new.jpg": {
+    "path": "public/photos/raw/pixabay-bearing-new.jpg",
+    "width": 1280,
+    "height": 865,
+    "megapixels": 1.11,
+    "aspect_ratio": 1.48
+  },
+  "pixabay-production-floor.jpg": {
+    "path": "public/photos/raw/pixabay-production-floor.jpg",
+    "width": 1280,
+    "height": 960,
+    "megapixels": 1.23,
+    "aspect_ratio": 1.333
+  },
+  "ingersoll-rand-compressor.jpg": {
+    "path": "public/photos/raw/ingersoll-rand-compressor.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "pixabay-supply-chain.jpg": {
+    "path": "public/photos/raw/pixabay-supply-chain.jpg",
+    "width": 2400,
+    "height": 1350,
+    "megapixels": 3.24,
+    "aspect_ratio": 1.778
+  },
+  "pixabay-industrial-valve.jpg": {
+    "path": "public/photos/raw/pixabay-industrial-valve.jpg",
+    "width": 853,
+    "height": 640,
+    "megapixels": 0.55,
+    "aspect_ratio": 1.333
+  },
+  "atlas-copco-air-end.jpg": {
+    "path": "public/photos/raw/atlas-copco-air-end.jpg",
+    "width": 1600,
+    "height": 1199,
+    "megapixels": 1.92,
+    "aspect_ratio": 1.334
+  },
+  "hitachi-air-filter.jpg": {
+    "path": "public/photos/raw/hitachi-air-filter.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "pixabay-industrial-filter.jpg": {
+    "path": "public/photos/raw/pixabay-industrial-filter.jpg",
+    "width": 1280,
+    "height": 854,
+    "megapixels": 1.09,
+    "aspect_ratio": 1.499
+  },
+  "pixabay-screw-compressor.jpg": {
+    "path": "public/photos/raw/pixabay-screw-compressor.jpg",
+    "width": 1280,
+    "height": 853,
+    "megapixels": 1.09,
+    "aspect_ratio": 1.501
+  },
+  "automation-plc-1.jpg": {
+    "path": "public/photos/raw/automation-plc-1.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "pixabay-compressor-new.jpg": {
+    "path": "public/photos/raw/pixabay-compressor-new.jpg",
+    "width": 1280,
+    "height": 1052,
+    "megapixels": 1.35,
+    "aspect_ratio": 1.217
+  },
+  "metal-casting-1.jpg": {
+    "path": "public/photos/raw/metal-casting-1.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "pixabay-compressor-machine.jpg": {
+    "path": "public/photos/raw/pixabay-compressor-machine.jpg",
+    "width": 1280,
+    "height": 853,
+    "megapixels": 1.09,
+    "aspect_ratio": 1.501
+  },
+  "pixabay-industrial-pump.jpg": {
+    "path": "public/photos/raw/pixabay-industrial-pump.jpg",
+    "width": 1280,
+    "height": 960,
+    "megapixels": 1.23,
+    "aspect_ratio": 1.333
+  },
+  "pixabay-generator.jpg": {
+    "path": "public/photos/raw/pixabay-generator.jpg",
+    "width": 1280,
+    "height": 853,
+    "megapixels": 1.09,
+    "aspect_ratio": 1.501
+  },
+  "injection-molding-1.jpg": {
+    "path": "public/photos/raw/injection-molding-1.jpg",
+    "width": 1024,
+    "height": 1024,
+    "megapixels": 1.05,
+    "aspect_ratio": 1.0
+  },
+  "industrial-filter-1.jpg": {
+    "path": "public/photos/raw/industrial-filter-1.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "pixabay-compressor-mechanics.jpg": {
+    "path": "public/photos/raw/pixabay-compressor-mechanics.jpg",
+    "width": 1280,
+    "height": 960,
+    "megapixels": 1.23,
+    "aspect_ratio": 1.333
+  },
+  "industrial-filter-2.jpg": {
+    "path": "public/photos/raw/industrial-filter-2.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "pixabay-pneumatics.jpg": {
+    "path": "public/photos/raw/pixabay-pneumatics.jpg",
+    "width": 1280,
+    "height": 960,
+    "megapixels": 1.23,
+    "aspect_ratio": 1.333
+  },
+  "pixabay-hydraulic-system.jpg": {
+    "path": "public/photos/raw/pixabay-hydraulic-system.jpg",
+    "width": 1280,
+    "height": 853,
+    "megapixels": 1.09,
+    "aspect_ratio": 1.501
+  },
+  "oil-separator-filter.jpg": {
+    "path": "public/photos/raw/oil-separator-filter.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "pixabay-engineer-meeting.jpg": {
+    "path": "public/photos/raw/pixabay-engineer-meeting.jpg",
+    "width": 854,
+    "height": 1280,
+    "megapixels": 1.09,
+    "aspect_ratio": 0.667
+  },
+  "atlas-copco-spare-parts.jpg": {
+    "path": "public/photos/raw/atlas-copco-spare-parts.jpg",
+    "width": 1500,
+    "height": 1500,
+    "megapixels": 2.25,
+    "aspect_ratio": 1.0
+  },
+  "industrial-pump-1.jpg": {
+    "path": "public/photos/raw/industrial-pump-1.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "metal-fab-0.jpg": {
+    "path": "public/photos/raw/_candidates/metal-fab-0.jpg",
+    "width": 2151,
+    "height": 2151,
+    "megapixels": 4.63,
+    "aspect_ratio": 1.0
+  },
+  "metal-fab-1.jpg": {
+    "path": "public/photos/raw/_candidates/metal-fab-1.jpg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "metal-fab-3.jpg": {
+    "path": "public/photos/raw/_candidates/metal-fab-3.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "metal-fab-2.jpg": {
+    "path": "public/photos/raw/_candidates/metal-fab-2.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "casting-1.jpg": {
+    "path": "public/photos/raw/_candidates/casting-1.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "casting-0.jpg": {
+    "path": "public/photos/raw/_candidates/casting-0.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "casting-2.jpg": {
+    "path": "public/photos/raw/_candidates/casting-2.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "casting-3.jpg": {
+    "path": "public/photos/raw/_candidates/casting-3.jpg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "inspection-3.jpg": {
+    "path": "public/photos/raw/_candidates/inspection-3.jpg",
+    "width": 3000,
+    "height": 3000,
+    "megapixels": 9.0,
+    "aspect_ratio": 1.0
+  },
+  "inspection-2.jpg": {
+    "path": "public/photos/raw/_candidates/inspection-2.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "inspection-0.jpg": {
+    "path": "public/photos/raw/_candidates/inspection-0.jpg",
+    "width": 3000,
+    "height": 3000,
+    "megapixels": 9.0,
+    "aspect_ratio": 1.0
+  },
+  "inspection-1.jpg": {
+    "path": "public/photos/raw/_candidates/inspection-1.jpg",
+    "width": 583,
+    "height": 476,
+    "megapixels": 0.28,
+    "aspect_ratio": 1.225
+  },
+  "cnc-0.jpg": {
+    "path": "public/photos/raw/_candidates/cnc-0.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "assembly-1.jpg": {
+    "path": "public/photos/raw/_candidates/assembly-1.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "assembly-0.jpg": {
+    "path": "public/photos/raw/_candidates/assembly-0.jpg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "cnc-1.jpg": {
+    "path": "public/photos/raw/_candidates/cnc-1.jpg",
+    "width": 1024,
+    "height": 1024,
+    "megapixels": 1.05,
+    "aspect_ratio": 1.0
+  },
+  "cnc-3.jpg": {
+    "path": "public/photos/raw/_candidates/cnc-3.jpg",
+    "width": 1024,
+    "height": 1024,
+    "megapixels": 1.05,
+    "aspect_ratio": 1.0
+  },
+  "assembly-2.jpg": {
+    "path": "public/photos/raw/_candidates/assembly-2.jpg",
+    "width": 350,
+    "height": 350,
+    "megapixels": 0.12,
+    "aspect_ratio": 1.0
+  },
+  "assembly-3.jpg": {
+    "path": "public/photos/raw/_candidates/assembly-3.jpg",
+    "width": 1182,
+    "height": 1182,
+    "megapixels": 1.4,
+    "aspect_ratio": 1.0
+  },
+  "cnc-2.jpg": {
+    "path": "public/photos/raw/_candidates/cnc-2.jpg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "injection-1.jpg": {
+    "path": "public/photos/raw/_candidates/injection-1.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "injection-0.jpg": {
+    "path": "public/photos/raw/_candidates/injection-0.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "injection-2.jpg": {
+    "path": "public/photos/raw/_candidates/injection-2.jpg",
+    "width": 2250,
+    "height": 3000,
+    "megapixels": 6.75,
+    "aspect_ratio": 0.75
+  },
+  "injection-3.jpg": {
+    "path": "public/photos/raw/_candidates/injection-3.jpg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "sullair-5.jpg": {
+    "path": "public/photos/raw/_brand/sullair-5.jpg",
+    "width": 1279,
+    "height": 1279,
+    "megapixels": 1.64,
+    "aspect_ratio": 1.0
+  },
+  "atlas-copco-0.jpg": {
+    "path": "public/photos/raw/_brand/atlas-copco-0.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "kaeser-20.jpg": {
+    "path": "public/photos/raw/_brand/kaeser-20.jpg",
+    "width": 1333,
+    "height": 1333,
+    "megapixels": 1.78,
+    "aspect_ratio": 1.0
+  },
+  "atlas-copco-24.jpg": {
+    "path": "public/photos/raw/_brand/atlas-copco-24.jpg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "atlas-copco-25.jpg": {
+    "path": "public/photos/raw/_brand/atlas-copco-25.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "atlas-copco-1.jpg": {
+    "path": "public/photos/raw/_brand/atlas-copco-1.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "kaeser-8.jpg": {
+    "path": "public/photos/raw/_brand/kaeser-8.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "sullair-4.jpg": {
+    "path": "public/photos/raw/_brand/sullair-4.jpg",
+    "width": 2736,
+    "height": 2736,
+    "megapixels": 7.49,
+    "aspect_ratio": 1.0
+  },
+  "sullair-25.jpg": {
+    "path": "public/photos/raw/_brand/sullair-25.jpg",
+    "width": 1200,
+    "height": 1200,
+    "megapixels": 1.44,
+    "aspect_ratio": 1.0
+  },
+  "sullair-6.jpg": {
+    "path": "public/photos/raw/_brand/sullair-6.jpg",
+    "width": 1024,
+    "height": 1024,
+    "megapixels": 1.05,
+    "aspect_ratio": 1.0
+  },
+  "atlas-copco-3.jpg": {
+    "path": "public/photos/raw/_brand/atlas-copco-3.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "atlas-copco-27.jpg": {
+    "path": "public/photos/raw/_brand/atlas-copco-27.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "atlas-copco-26.jpg": {
+    "path": "public/photos/raw/_brand/atlas-copco-26.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "atlas-copco-2.jpg": {
+    "path": "public/photos/raw/_brand/atlas-copco-2.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "sullair-7.jpg": {
+    "path": "public/photos/raw/_brand/sullair-7.jpg",
+    "width": 1080,
+    "height": 1080,
+    "megapixels": 1.17,
+    "aspect_ratio": 1.0
+  },
+  "sullair-3.jpg": {
+    "path": "public/photos/raw/_brand/sullair-3.jpg",
+    "width": 2736,
+    "height": 2736,
+    "megapixels": 7.49,
+    "aspect_ratio": 1.0
+  },
+  "atlas-copco-6.jpg": {
+    "path": "public/photos/raw/_brand/atlas-copco-6.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "atlas-copco-22.jpg": {
+    "path": "public/photos/raw/_brand/atlas-copco-22.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "atlas-copco-23.jpg": {
+    "path": "public/photos/raw/_brand/atlas-copco-23.jpg",
+    "width": 1200,
+    "height": 1200,
+    "megapixels": 1.44,
+    "aspect_ratio": 1.0
+  },
+  "atlas-copco-7.jpg": {
+    "path": "public/photos/raw/_brand/atlas-copco-7.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "sullair-2.jpg": {
+    "path": "public/photos/raw/_brand/sullair-2.jpg",
+    "width": 1280,
+    "height": 1280,
+    "megapixels": 1.64,
+    "aspect_ratio": 1.0
+  },
+  "sullair-23.jpg": {
+    "path": "public/photos/raw/_brand/sullair-23.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "sullair-0.jpg": {
+    "path": "public/photos/raw/_brand/sullair-0.jpg",
+    "width": 2736,
+    "height": 2736,
+    "megapixels": 7.49,
+    "aspect_ratio": 1.0
+  },
+  "atlas-copco-5.jpg": {
+    "path": "public/photos/raw/_brand/atlas-copco-5.jpg",
+    "width": 1289,
+    "height": 1600,
+    "megapixels": 2.06,
+    "aspect_ratio": 0.806
+  },
+  "atlas-copco-21.jpg": {
+    "path": "public/photos/raw/_brand/atlas-copco-21.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "atlas-copco-20.jpg": {
+    "path": "public/photos/raw/_brand/atlas-copco-20.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "atlas-copco-4.jpg": {
+    "path": "public/photos/raw/_brand/atlas-copco-4.jpg",
+    "width": 1000,
+    "height": 1001,
+    "megapixels": 1.0,
+    "aspect_ratio": 0.999
+  },
+  "sullair-1.jpg": {
+    "path": "public/photos/raw/_brand/sullair-1.jpg",
+    "width": 2736,
+    "height": 2736,
+    "megapixels": 7.49,
+    "aspect_ratio": 1.0
+  },
+  "hitachi-6.jpg": {
+    "path": "public/photos/raw/_brand/hitachi-6.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "hitachi-27.jpg": {
+    "path": "public/photos/raw/_brand/hitachi-27.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "hitachi-26.jpg": {
+    "path": "public/photos/raw/_brand/hitachi-26.jpg",
+    "width": 3000,
+    "height": 3000,
+    "megapixels": 9.0,
+    "aspect_ratio": 1.0
+  },
+  "hitachi-7.jpg": {
+    "path": "public/photos/raw/_brand/hitachi-7.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "hitachi-5.jpg": {
+    "path": "public/photos/raw/_brand/hitachi-5.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "hitachi-24.jpg": {
+    "path": "public/photos/raw/_brand/hitachi-24.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "hitachi-25.jpg": {
+    "path": "public/photos/raw/_brand/hitachi-25.jpg",
+    "width": 3000,
+    "height": 3000,
+    "megapixels": 9.0,
+    "aspect_ratio": 1.0
+  },
+  "hitachi-4.jpg": {
+    "path": "public/photos/raw/_brand/hitachi-4.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "gardner-denver-9.jpg": {
+    "path": "public/photos/raw/_brand/gardner-denver-9.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "hitachi-0.jpg": {
+    "path": "public/photos/raw/_brand/hitachi-0.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "hitachi-21.jpg": {
+    "path": "public/photos/raw/_brand/hitachi-21.jpg",
+    "width": 1280,
+    "height": 1280,
+    "megapixels": 1.64,
+    "aspect_ratio": 1.0
+  },
+  "hitachi-20.jpg": {
+    "path": "public/photos/raw/_brand/hitachi-20.jpg",
+    "width": 3000,
+    "height": 3000,
+    "megapixels": 9.0,
+    "aspect_ratio": 1.0
+  },
+  "gardner-denver-8.jpg": {
+    "path": "public/photos/raw/_brand/gardner-denver-8.jpg",
+    "width": 767,
+    "height": 767,
+    "megapixels": 0.59,
+    "aspect_ratio": 1.0
+  },
+  "hitachi-1.jpg": {
+    "path": "public/photos/raw/_brand/hitachi-1.jpg",
+    "width": 1280,
+    "height": 1280,
+    "megapixels": 1.64,
+    "aspect_ratio": 1.0
+  },
+  "hitachi-3.jpg": {
+    "path": "public/photos/raw/_brand/hitachi-3.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "hitachi-22.jpg": {
+    "path": "public/photos/raw/_brand/hitachi-22.jpg",
+    "width": 3000,
+    "height": 3000,
+    "megapixels": 9.0,
+    "aspect_ratio": 1.0
+  },
+  "hitachi-23.jpg": {
+    "path": "public/photos/raw/_brand/hitachi-23.jpg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "hitachi-2.jpg": {
+    "path": "public/photos/raw/_brand/hitachi-2.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "gardner-denver-6.jpg": {
+    "path": "public/photos/raw/_brand/gardner-denver-6.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "ingersoll-rand-5.jpg": {
+    "path": "public/photos/raw/_brand/ingersoll-rand-5.jpg",
+    "width": 3000,
+    "height": 3000,
+    "megapixels": 9.0,
+    "aspect_ratio": 1.0
+  },
+  "gardner-denver-7.jpg": {
+    "path": "public/photos/raw/_brand/gardner-denver-7.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "gardner-denver-5.jpg": {
+    "path": "public/photos/raw/_brand/gardner-denver-5.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "gardner-denver-25.jpg": {
+    "path": "public/photos/raw/_brand/gardner-denver-25.jpg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "ingersoll-rand-7.jpg": {
+    "path": "public/photos/raw/_brand/ingersoll-rand-7.jpg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "gardner-denver-4.jpg": {
+    "path": "public/photos/raw/_brand/gardner-denver-4.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "gardner-denver-24.jpg": {
+    "path": "public/photos/raw/_brand/gardner-denver-24.jpg",
+    "width": 3000,
+    "height": 3000,
+    "megapixels": 9.0,
+    "aspect_ratio": 1.0
+  },
+  "gardner-denver-20.jpg": {
+    "path": "public/photos/raw/_brand/gardner-denver-20.jpg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "gardner-denver-0.jpg": {
+    "path": "public/photos/raw/_brand/gardner-denver-0.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "ingersoll-rand-2.jpg": {
+    "path": "public/photos/raw/_brand/ingersoll-rand-2.jpg",
+    "width": 2448,
+    "height": 2448,
+    "megapixels": 5.99,
+    "aspect_ratio": 1.0
+  },
+  "ingersoll-rand-3.jpg": {
+    "path": "public/photos/raw/_brand/ingersoll-rand-3.jpg",
+    "width": 3000,
+    "height": 3000,
+    "megapixels": 9.0,
+    "aspect_ratio": 1.0
+  },
+  "gardner-denver-21.jpg": {
+    "path": "public/photos/raw/_brand/gardner-denver-21.jpg",
+    "width": 747,
+    "height": 747,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "gardner-denver-1.jpg": {
+    "path": "public/photos/raw/_brand/gardner-denver-1.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "gardner-denver-3.jpg": {
+    "path": "public/photos/raw/_brand/gardner-denver-3.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "ingersoll-rand-1.jpg": {
+    "path": "public/photos/raw/_brand/ingersoll-rand-1.jpg",
+    "width": 3000,
+    "height": 3000,
+    "megapixels": 9.0,
+    "aspect_ratio": 1.0
+  },
+  "ingersoll-rand-0.jpg": {
+    "path": "public/photos/raw/_brand/ingersoll-rand-0.jpg",
+    "width": 1280,
+    "height": 1280,
+    "megapixels": 1.64,
+    "aspect_ratio": 1.0
+  },
+  "gardner-denver-2.jpg": {
+    "path": "public/photos/raw/_brand/gardner-denver-2.jpg",
+    "width": 1080,
+    "height": 1080,
+    "megapixels": 1.17,
+    "aspect_ratio": 1.0
+  },
+  "kaeser-0.jpg": {
+    "path": "public/photos/raw/_brand/kaeser-0.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "atlas-copco-9.jpg": {
+    "path": "public/photos/raw/_brand/atlas-copco-9.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "atlas-copco-10.jpg": {
+    "path": "public/photos/raw/_brand/atlas-copco-10.jpg",
+    "width": 1500,
+    "height": 1500,
+    "megapixels": 2.25,
+    "aspect_ratio": 1.0
+  },
+  "kaeser-1.jpg": {
+    "path": "public/photos/raw/_brand/kaeser-1.jpg",
+    "width": 1200,
+    "height": 1200,
+    "megapixels": 1.44,
+    "aspect_ratio": 1.0
+  },
+  "atlas-copco-8.jpg": {
+    "path": "public/photos/raw/_brand/atlas-copco-8.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "kaeser-3.jpg": {
+    "path": "public/photos/raw/_brand/kaeser-3.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "kaeser-2.jpg": {
+    "path": "public/photos/raw/_brand/kaeser-2.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "kaeser-6.jpg": {
+    "path": "public/photos/raw/_brand/kaeser-6.jpg",
+    "width": 1200,
+    "height": 1200,
+    "megapixels": 1.44,
+    "aspect_ratio": 1.0
+  },
+  "kaeser-7.jpg": {
+    "path": "public/photos/raw/_brand/kaeser-7.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "sullair-28.jpg": {
+    "path": "public/photos/raw/_brand/sullair-28.jpg",
+    "width": 684,
+    "height": 684,
+    "megapixels": 0.47,
+    "aspect_ratio": 1.0
+  },
+  "sullair-9.jpg": {
+    "path": "public/photos/raw/_brand/sullair-9.jpg",
+    "width": 2736,
+    "height": 2736,
+    "megapixels": 7.49,
+    "aspect_ratio": 1.0
+  },
+  "kaeser-5.jpg": {
+    "path": "public/photos/raw/_brand/kaeser-5.jpg",
+    "width": 1200,
+    "height": 1200,
+    "megapixels": 1.44,
+    "aspect_ratio": 1.0
+  },
+  "kaeser-4.jpg": {
+    "path": "public/photos/raw/_brand/kaeser-4.jpg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "sullair-8.jpg": {
+    "path": "public/photos/raw/_brand/sullair-8.jpg",
+    "width": 2736,
+    "height": 2736,
+    "megapixels": 7.49,
+    "aspect_ratio": 1.0
+  },
+  "part-valve-5.jpg": {
+    "path": "public/photos/raw/_final/part-valve-5.jpg",
+    "width": 1500,
+    "height": 1500,
+    "megapixels": 2.25,
+    "aspect_ratio": 1.0
+  },
+  "part-valve-3.jpg": {
+    "path": "public/photos/raw/_final/part-valve-3.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "part-oilsep-1.jpg": {
+    "path": "public/photos/raw/_final/part-oilsep-1.jpg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "part-filter-1.jpg": {
+    "path": "public/photos/raw/_final/part-filter-1.jpg",
+    "width": 531,
+    "height": 531,
+    "megapixels": 0.28,
+    "aspect_ratio": 1.0
+  },
+  "part-oilsep-0.jpg": {
+    "path": "public/photos/raw/_final/part-oilsep-0.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "part-automation-6.jpg": {
+    "path": "public/photos/raw/_final/part-automation-6.jpg",
+    "width": 900,
+    "height": 900,
+    "megapixels": 0.81,
+    "aspect_ratio": 1.0
+  },
+  "part-automation-4.jpg": {
+    "path": "public/photos/raw/_final/part-automation-4.jpg",
+    "width": 900,
+    "height": 900,
+    "megapixels": 0.81,
+    "aspect_ratio": 1.0
+  },
+  "part-oilsep-2.jpg": {
+    "path": "public/photos/raw/_final/part-oilsep-2.jpg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "part-pneumatic-1.jpg": {
+    "path": "public/photos/raw/_final/part-pneumatic-1.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "part-bearing-6.jpg": {
+    "path": "public/photos/raw/_final/part-bearing-6.jpg",
+    "width": 492,
+    "height": 476,
+    "megapixels": 0.23,
+    "aspect_ratio": 1.034
+  },
+  "part-bearing-7.jpg": {
+    "path": "public/photos/raw/_final/part-bearing-7.jpg",
+    "width": 491,
+    "height": 468,
+    "megapixels": 0.23,
+    "aspect_ratio": 1.049
+  },
+  "part-pneumatic-0.jpg": {
+    "path": "public/photos/raw/_final/part-pneumatic-0.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "part-oilsep-3.jpg": {
+    "path": "public/photos/raw/_final/part-oilsep-3.jpg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "part-ballvalve-4.jpg": {
+    "path": "public/photos/raw/_final/part-ballvalve-4.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "part-ballvalve-0.jpg": {
+    "path": "public/photos/raw/_final/part-ballvalve-0.jpg",
+    "width": 493,
+    "height": 447,
+    "megapixels": 0.22,
+    "aspect_ratio": 1.103
+  },
+  "part-automation-1.jpg": {
+    "path": "public/photos/raw/_final/part-automation-1.jpg",
+    "width": 900,
+    "height": 900,
+    "megapixels": 0.81,
+    "aspect_ratio": 1.0
+  },
+  "part-ballvalve-1.jpg": {
+    "path": "public/photos/raw/_final/part-ballvalve-1.jpg",
+    "width": 500,
+    "height": 460,
+    "megapixels": 0.23,
+    "aspect_ratio": 1.087
+  },
+  "part-oilsep-4.jpg": {
+    "path": "public/photos/raw/_final/part-oilsep-4.jpg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "part-filter-4.jpg": {
+    "path": "public/photos/raw/_final/part-filter-4.jpg",
+    "width": 2048,
+    "height": 2048,
+    "megapixels": 4.19,
+    "aspect_ratio": 1.0
+  },
+  "part-oilsep-5.jpg": {
+    "path": "public/photos/raw/_final/part-oilsep-5.jpg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "brand-machine-gardner-denver-4.jpg": {
+    "path": "public/photos/raw/_final/brand-machine-gardner-denver-4.jpg",
+    "width": 3000,
+    "height": 2250,
+    "megapixels": 6.75,
+    "aspect_ratio": 1.333
+  },
+  "part-pump-3.jpg": {
+    "path": "public/photos/raw/_final/part-pump-3.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "brand-machine-gardner-denver-5.jpg": {
+    "path": "public/photos/raw/_final/brand-machine-gardner-denver-5.jpg",
+    "width": 640,
+    "height": 640,
+    "megapixels": 0.41,
+    "aspect_ratio": 1.0
+  },
+  "brand-machine-ingersoll-rand-5.jpg": {
+    "path": "public/photos/raw/_final/brand-machine-ingersoll-rand-5.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "brand-machine-ingersoll-rand-4.jpg": {
+    "path": "public/photos/raw/_final/brand-machine-ingersoll-rand-4.jpg",
+    "width": 2070,
+    "height": 2070,
+    "megapixels": 4.28,
+    "aspect_ratio": 1.0
+  },
+  "part-pump-0.jpg": {
+    "path": "public/photos/raw/_final/part-pump-0.jpg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "part-sensor-1.jpg": {
+    "path": "public/photos/raw/_final/part-sensor-1.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "brand-machine-hitachi-4.jpg": {
+    "path": "public/photos/raw/_final/brand-machine-hitachi-4.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "brand-machine-ingersoll-rand-0.jpg": {
+    "path": "public/photos/raw/_final/brand-machine-ingersoll-rand-0.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "brand-machine-ingersoll-rand-1.jpg": {
+    "path": "public/photos/raw/_final/brand-machine-ingersoll-rand-1.jpg",
+    "width": 2736,
+    "height": 2736,
+    "megapixels": 7.49,
+    "aspect_ratio": 1.0
+  },
+  "part-sensor-0.jpg": {
+    "path": "public/photos/raw/_final/part-sensor-0.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "brand-machine-ingersoll-rand-3.jpg": {
+    "path": "public/photos/raw/_final/brand-machine-ingersoll-rand-3.jpg",
+    "width": 2604,
+    "height": 2604,
+    "megapixels": 6.78,
+    "aspect_ratio": 1.0
+  },
+  "brand-machine-ingersoll-rand-2.jpg": {
+    "path": "public/photos/raw/_final/brand-machine-ingersoll-rand-2.jpg",
+    "width": 2736,
+    "height": 2736,
+    "megapixels": 7.49,
+    "aspect_ratio": 1.0
+  },
+  "part-pump-6.jpg": {
+    "path": "public/photos/raw/_final/part-pump-6.jpg",
+    "width": 1024,
+    "height": 1024,
+    "megapixels": 1.05,
+    "aspect_ratio": 1.0
+  },
+  "brand-machine-atlas-copco-2.jpg": {
+    "path": "public/photos/raw/_final/brand-machine-atlas-copco-2.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "brand-machine-kaeser-0.jpg": {
+    "path": "public/photos/raw/_final/brand-machine-kaeser-0.jpg",
+    "width": 865,
+    "height": 852,
+    "megapixels": 0.74,
+    "aspect_ratio": 1.015
+  },
+  "brand-machine-atlas-copco-3.jpg": {
+    "path": "public/photos/raw/_final/brand-machine-atlas-copco-3.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "brand-machine-kaeser-5.jpg": {
+    "path": "public/photos/raw/_final/brand-machine-kaeser-5.jpg",
+    "width": 3000,
+    "height": 3000,
+    "megapixels": 9.0,
+    "aspect_ratio": 1.0
+  },
+  "brand-machine-atlas-copco-4.jpg": {
+    "path": "public/photos/raw/_final/brand-machine-atlas-copco-4.jpg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "factory-factory-exterior-004.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-004.jpeg",
+    "width": 875,
+    "height": 577,
+    "megapixels": 0.5,
+    "aspect_ratio": 1.516
+  },
+  "factory-factory-interior-029.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-029.jpeg",
+    "width": 1920,
+    "height": 1280,
+    "megapixels": 2.46,
+    "aspect_ratio": 1.5
+  },
+  "factory-factory-exterior-012.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-012.jpeg",
+    "width": 1200,
+    "height": 630,
+    "megapixels": 0.76,
+    "aspect_ratio": 1.905
+  },
+  "factory-factory-interior-013.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-013.jpeg",
+    "width": 672,
+    "height": 376,
+    "megapixels": 0.25,
+    "aspect_ratio": 1.787
+  },
+  "factory-factory-interior-044.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-044.jpeg",
+    "width": 690,
+    "height": 460,
+    "megapixels": 0.32,
+    "aspect_ratio": 1.5
+  },
+  "factory-factory-exterior-028.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-028.jpeg",
+    "width": 1200,
+    "height": 899,
+    "megapixels": 1.08,
+    "aspect_ratio": 1.335
+  },
+  "factory-factory-interior-005.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-005.jpeg",
+    "width": 625,
+    "height": 680,
+    "megapixels": 0.42,
+    "aspect_ratio": 0.919
+  },
+  "factory-factory-exterior-008.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-008.jpeg",
+    "width": 1920,
+    "height": 863,
+    "megapixels": 1.66,
+    "aspect_ratio": 2.225
+  },
+  "factory-factory-interior-025.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-025.jpeg",
+    "width": 1000,
+    "height": 555,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.802
+  },
+  "factory-factory-interior-033.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-033.jpeg",
+    "width": 900,
+    "height": 600,
+    "megapixels": 0.54,
+    "aspect_ratio": 1.5
+  },
+  "factory-factory-exterior-024.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-024.jpeg",
+    "width": 1400,
+    "height": 1019,
+    "megapixels": 1.43,
+    "aspect_ratio": 1.374
+  },
+  "factory-factory-interior-009.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-009.jpeg",
+    "width": 1280,
+    "height": 853,
+    "megapixels": 1.09,
+    "aspect_ratio": 1.501
+  },
+  "factory-factory-interior-008.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-008.jpeg",
+    "width": 1229,
+    "height": 890,
+    "megapixels": 1.09,
+    "aspect_ratio": 1.381
+  },
+  "factory-factory-exterior-025.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-025.jpeg",
+    "width": 720,
+    "height": 407,
+    "megapixels": 0.29,
+    "aspect_ratio": 1.769
+  },
+  "factory-factory-interior-032.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-032.jpeg",
+    "width": 800,
+    "height": 511,
+    "megapixels": 0.41,
+    "aspect_ratio": 1.566
+  },
+  "factory-factory-interior-024.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-024.jpeg",
+    "width": 640,
+    "height": 427,
+    "megapixels": 0.27,
+    "aspect_ratio": 1.499
+  },
+  "factory-factory-exterior-009.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-009.jpeg",
+    "width": 1888,
+    "height": 981,
+    "megapixels": 1.85,
+    "aspect_ratio": 1.925
+  },
+  "factory-factory-interior-004.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-004.jpeg",
+    "width": 720,
+    "height": 540,
+    "megapixels": 0.39,
+    "aspect_ratio": 1.333
+  },
+  "factory-factory-exterior-029.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-029.jpeg",
+    "width": 880,
+    "height": 576,
+    "megapixels": 0.51,
+    "aspect_ratio": 1.528
+  },
+  "factory-factory-interior-045.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-045.jpeg",
+    "width": 1920,
+    "height": 1080,
+    "megapixels": 2.07,
+    "aspect_ratio": 1.778
+  },
+  "factory-factory-interior-012.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-012.jpeg",
+    "width": 1600,
+    "height": 1062,
+    "megapixels": 1.7,
+    "aspect_ratio": 1.507
+  },
+  "factory-factory-exterior-013.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-013.jpeg",
+    "width": 5160,
+    "height": 3440,
+    "megapixels": 17.75,
+    "aspect_ratio": 1.5
+  },
+  "factory-factory-interior-028.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-028.jpeg",
+    "width": 1903,
+    "height": 871,
+    "megapixels": 1.66,
+    "aspect_ratio": 2.185
+  },
+  "factory-factory-exterior-005.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-005.jpeg",
+    "width": 690,
+    "height": 414,
+    "megapixels": 0.29,
+    "aspect_ratio": 1.667
+  },
+  "factory-factory-interior-023.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-023.jpeg",
+    "width": 2048,
+    "height": 1365,
+    "megapixels": 2.8,
+    "aspect_ratio": 1.5
+  },
+  "factory-factory-interior-035.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-035.jpeg",
+    "width": 4032,
+    "height": 3024,
+    "megapixels": 12.19,
+    "aspect_ratio": 1.333
+  },
+  "factory-factory-exterior-018.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-018.jpeg",
+    "width": 1702,
+    "height": 1276,
+    "megapixels": 2.17,
+    "aspect_ratio": 1.334
+  },
+  "factory-factory-interior-019.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-019.jpeg",
+    "width": 700,
+    "height": 467,
+    "megapixels": 0.33,
+    "aspect_ratio": 1.499
+  },
+  "factory-factory-exterior-022.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-022.jpeg",
+    "width": 480,
+    "height": 361,
+    "megapixels": 0.17,
+    "aspect_ratio": 1.33
+  },
+  "factory-factory-exterior-002.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-002.jpeg",
+    "width": 800,
+    "height": 600,
+    "megapixels": 0.48,
+    "aspect_ratio": 1.333
+  },
+  "factory-factory-interior-039.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-039.jpeg",
+    "width": 800,
+    "height": 449,
+    "megapixels": 0.36,
+    "aspect_ratio": 1.782
+  },
+  "factory-factory-exterior-014.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-014.jpeg",
+    "width": 900,
+    "height": 600,
+    "megapixels": 0.54,
+    "aspect_ratio": 1.5
+  },
+  "factory-factory-interior-015.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-015.jpeg",
+    "width": 900,
+    "height": 600,
+    "megapixels": 0.54,
+    "aspect_ratio": 1.5
+  },
+  "factory-factory-interior-042.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-042.jpeg",
+    "width": 1200,
+    "height": 800,
+    "megapixels": 0.96,
+    "aspect_ratio": 1.5
+  },
+  "factory-factory-interior-003.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-003.jpeg",
+    "width": 1024,
+    "height": 683,
+    "megapixels": 0.7,
+    "aspect_ratio": 1.499
+  },
+  "factory-factory-interior-002.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-002.jpeg",
+    "width": 740,
+    "height": 550,
+    "megapixels": 0.41,
+    "aspect_ratio": 1.345
+  },
+  "factory-factory-interior-043.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-043.jpeg",
+    "width": 1000,
+    "height": 667,
+    "megapixels": 0.67,
+    "aspect_ratio": 1.499
+  },
+  "factory-factory-interior-014.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-014.jpeg",
+    "width": 801,
+    "height": 500,
+    "megapixels": 0.4,
+    "aspect_ratio": 1.602
+  },
+  "factory-factory-exterior-015.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-015.jpeg",
+    "width": 611,
+    "height": 458,
+    "megapixels": 0.28,
+    "aspect_ratio": 1.334
+  },
+  "factory-factory-interior-038.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-038.jpeg",
+    "width": 1024,
+    "height": 756,
+    "megapixels": 0.77,
+    "aspect_ratio": 1.354
+  },
+  "factory-factory-exterior-003.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-003.jpeg",
+    "width": 1000,
+    "height": 898,
+    "megapixels": 0.9,
+    "aspect_ratio": 1.114
+  },
+  "factory-factory-exterior-023.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-023.jpeg",
+    "width": 1272,
+    "height": 848,
+    "megapixels": 1.08,
+    "aspect_ratio": 1.5
+  },
+  "factory-factory-interior-018.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-018.jpeg",
+    "width": 3000,
+    "height": 2001,
+    "megapixels": 6.0,
+    "aspect_ratio": 1.499
+  },
+  "factory-factory-exterior-019.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-019.jpeg",
+    "width": 1000,
+    "height": 750,
+    "megapixels": 0.75,
+    "aspect_ratio": 1.333
+  },
+  "factory-factory-interior-034.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-034.jpeg",
+    "width": 1080,
+    "height": 704,
+    "megapixels": 0.76,
+    "aspect_ratio": 1.534
+  },
+  "factory-factory-interior-022.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-022.jpeg",
+    "width": 1024,
+    "height": 685,
+    "megapixels": 0.7,
+    "aspect_ratio": 1.495
+  },
+  "factory-factory-exterior-020.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-020.jpeg",
+    "width": 1000,
+    "height": 599,
+    "megapixels": 0.6,
+    "aspect_ratio": 1.669
+  },
+  "factory-factory-interior-037.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-037.jpeg",
+    "width": 1440,
+    "height": 1080,
+    "megapixels": 1.56,
+    "aspect_ratio": 1.333
+  },
+  "factory-factory-interior-021.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-021.jpeg",
+    "width": 1080,
+    "height": 719,
+    "megapixels": 0.78,
+    "aspect_ratio": 1.502
+  },
+  "factory-factory-interior-001.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-001.jpeg",
+    "width": 852,
+    "height": 627,
+    "megapixels": 0.53,
+    "aspect_ratio": 1.359
+  },
+  "factory-factory-interior-040.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-040.jpeg",
+    "width": 1024,
+    "height": 575,
+    "megapixels": 0.59,
+    "aspect_ratio": 1.781
+  },
+  "factory-factory-interior-017.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-017.jpeg",
+    "width": 800,
+    "height": 600,
+    "megapixels": 0.48,
+    "aspect_ratio": 1.333
+  },
+  "factory-factory-exterior-016.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-016.jpeg",
+    "width": 1200,
+    "height": 444,
+    "megapixels": 0.53,
+    "aspect_ratio": 2.703
+  },
+  "factory-factory-exterior-001.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-001.jpeg",
+    "width": 2448,
+    "height": 2611,
+    "megapixels": 6.39,
+    "aspect_ratio": 0.938
+  },
+  "factory-factory-exterior-017.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-017.jpeg",
+    "width": 800,
+    "height": 600,
+    "megapixels": 0.48,
+    "aspect_ratio": 1.333
+  },
+  "factory-factory-interior-016.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-016.jpeg",
+    "width": 900,
+    "height": 600,
+    "megapixels": 0.54,
+    "aspect_ratio": 1.5
+  },
+  "factory-factory-interior-041.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-041.jpeg",
+    "width": 800,
+    "height": 600,
+    "megapixels": 0.48,
+    "aspect_ratio": 1.333
+  },
+  "factory-factory-interior-020.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-020.jpeg",
+    "width": 1100,
+    "height": 733,
+    "megapixels": 0.81,
+    "aspect_ratio": 1.501
+  },
+  "factory-factory-interior-036.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-036.jpeg",
+    "width": 800,
+    "height": 600,
+    "megapixels": 0.48,
+    "aspect_ratio": 1.333
+  },
+  "factory-factory-exterior-021.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-021.jpeg",
+    "width": 1920,
+    "height": 760,
+    "megapixels": 1.46,
+    "aspect_ratio": 2.526
+  },
+  "factory-factory-interior-007.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-007.jpeg",
+    "width": 834,
+    "height": 624,
+    "megapixels": 0.52,
+    "aspect_ratio": 1.337
+  },
+  "factory-factory-interior-011.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-011.jpeg",
+    "width": 1000,
+    "height": 668,
+    "megapixels": 0.67,
+    "aspect_ratio": 1.497
+  },
+  "factory-factory-exterior-010.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-010.jpeg",
+    "width": 700,
+    "height": 450,
+    "megapixels": 0.32,
+    "aspect_ratio": 1.556
+  },
+  "factory-factory-exterior-006.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-006.jpeg",
+    "width": 750,
+    "height": 422,
+    "megapixels": 0.32,
+    "aspect_ratio": 1.777
+  },
+  "factory-factory-exterior-026.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-026.jpeg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "factory-factory-interior-031.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-031.jpeg",
+    "width": 640,
+    "height": 480,
+    "megapixels": 0.31,
+    "aspect_ratio": 1.333
+  },
+  "factory-factory-interior-027.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-027.jpeg",
+    "width": 800,
+    "height": 450,
+    "megapixels": 0.36,
+    "aspect_ratio": 1.778
+  },
+  "factory-factory-interior-026.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-026.jpeg",
+    "width": 700,
+    "height": 467,
+    "megapixels": 0.33,
+    "aspect_ratio": 1.499
+  },
+  "factory-factory-interior-030.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-030.jpeg",
+    "width": 792,
+    "height": 591,
+    "megapixels": 0.47,
+    "aspect_ratio": 1.34
+  },
+  "factory-factory-exterior-027.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-027.jpeg",
+    "width": 963,
+    "height": 543,
+    "megapixels": 0.52,
+    "aspect_ratio": 1.773
+  },
+  "factory-factory-exterior-007.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-007.jpeg",
+    "width": 1000,
+    "height": 670,
+    "megapixels": 0.67,
+    "aspect_ratio": 1.493
+  },
+  "factory-factory-exterior-011.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-exterior-011.jpeg",
+    "width": 797,
+    "height": 583,
+    "megapixels": 0.46,
+    "aspect_ratio": 1.367
+  },
+  "factory-factory-interior-010.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-010.jpeg",
+    "width": 900,
+    "height": 480,
+    "megapixels": 0.43,
+    "aspect_ratio": 1.875
+  },
+  "factory-factory-interior-006.jpeg": {
+    "path": "public/photos/raw/_factory/factory-factory-interior-006.jpeg",
+    "width": 802,
+    "height": 535,
+    "megapixels": 0.43,
+    "aspect_ratio": 1.499
+  },
+  "image63.jpeg": {
+    "path": "public/photos/raw/_docx/image63.jpeg",
+    "width": 1200,
+    "height": 800,
+    "megapixels": 0.96,
+    "aspect_ratio": 1.5
+  },
+  "image125.jpeg": {
+    "path": "public/photos/raw/_docx/image125.jpeg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "image34.jpeg": {
+    "path": "public/photos/raw/_docx/image34.jpeg",
+    "width": 600,
+    "height": 600,
+    "megapixels": 0.36,
+    "aspect_ratio": 1.0
+  },
+  "image172.jpeg": {
+    "path": "public/photos/raw/_docx/image172.jpeg",
+    "width": 700,
+    "height": 830,
+    "megapixels": 0.58,
+    "aspect_ratio": 0.843
+  },
+  "image164.jpeg": {
+    "path": "public/photos/raw/_docx/image164.jpeg",
+    "width": 1024,
+    "height": 1024,
+    "megapixels": 1.05,
+    "aspect_ratio": 1.0
+  },
+  "image75.jpeg": {
+    "path": "public/photos/raw/_docx/image75.jpeg",
+    "width": 600,
+    "height": 446,
+    "megapixels": 0.27,
+    "aspect_ratio": 1.345
+  },
+  "image133.jpeg": {
+    "path": "public/photos/raw/_docx/image133.jpeg",
+    "width": 1115,
+    "height": 755,
+    "megapixels": 0.84,
+    "aspect_ratio": 1.477
+  },
+  "image261.jpeg": {
+    "path": "public/photos/raw/_docx6/image261.jpeg",
+    "width": 500,
+    "height": 500,
+    "megapixels": 0.25,
+    "aspect_ratio": 1.0
+  },
+  "image148.jpeg": {
+    "path": "public/photos/raw/_docx/image148.jpeg",
+    "width": 400,
+    "height": 400,
+    "megapixels": 0.16,
+    "aspect_ratio": 1.0
+  },
+  "image236.jpeg": {
+    "path": "public/photos/raw/_docx6/image236.jpeg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "image59.jpeg": {
+    "path": "public/photos/raw/_docx/image59.jpeg",
+    "width": 612,
+    "height": 408,
+    "megapixels": 0.25,
+    "aspect_ratio": 1.5
+  },
+  "image220.jpeg": {
+    "path": "public/photos/raw/_docx6/image220.jpeg",
+    "width": 1601,
+    "height": 1601,
+    "megapixels": 2.56,
+    "aspect_ratio": 1.0
+  },
+  "image109.jpeg": {
+    "path": "public/photos/raw/_docx/image109.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image277.jpeg": {
+    "path": "public/photos/raw/_docx6/image277.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image18.jpeg": {
+    "path": "public/photos/raw/_docx/image18.jpeg",
+    "width": 1024,
+    "height": 1024,
+    "megapixels": 1.05,
+    "aspect_ratio": 1.0
+  },
+  "image129.jpeg": {
+    "path": "public/photos/raw/_docx/image129.jpeg",
+    "width": 499,
+    "height": 406,
+    "megapixels": 0.2,
+    "aspect_ratio": 1.229
+  },
+  "image200.jpeg": {
+    "path": "public/photos/raw/_docx6/image200.jpeg",
+    "width": 640,
+    "height": 427,
+    "megapixels": 0.27,
+    "aspect_ratio": 1.499
+  },
+  "image80.jpeg": {
+    "path": "public/photos/raw/_docx/image80.jpeg",
+    "width": 636,
+    "height": 484,
+    "megapixels": 0.31,
+    "aspect_ratio": 1.314
+  },
+  "image191.jpeg": {
+    "path": "public/photos/raw/_docx6/image191.jpeg",
+    "width": 1279,
+    "height": 1706,
+    "megapixels": 2.18,
+    "aspect_ratio": 0.75
+  },
+  "image38.jpeg": {
+    "path": "public/photos/raw/_docx/image38.jpeg",
+    "width": 1267,
+    "height": 713,
+    "megapixels": 0.9,
+    "aspect_ratio": 1.777
+  },
+  "image257.jpeg": {
+    "path": "public/photos/raw/_docx6/image257.jpeg",
+    "width": 2309,
+    "height": 1299,
+    "megapixels": 3.0,
+    "aspect_ratio": 1.778
+  },
+  "image168.jpeg": {
+    "path": "public/photos/raw/_docx/image168.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image187.jpeg": {
+    "path": "public/photos/raw/_docx6/image187.jpeg",
+    "width": 380,
+    "height": 380,
+    "megapixels": 0.14,
+    "aspect_ratio": 1.0
+  },
+  "image241.jpeg": {
+    "path": "public/photos/raw/_docx6/image241.jpeg",
+    "width": 607,
+    "height": 570,
+    "megapixels": 0.35,
+    "aspect_ratio": 1.065
+  },
+  "image79.jpeg": {
+    "path": "public/photos/raw/_docx/image79.jpeg",
+    "width": 900,
+    "height": 900,
+    "megapixels": 0.81,
+    "aspect_ratio": 1.0
+  },
+  "image216.jpeg": {
+    "path": "public/photos/raw/_docx6/image216.jpeg",
+    "width": 1200,
+    "height": 1200,
+    "megapixels": 1.44,
+    "aspect_ratio": 1.0
+  },
+  "image96.jpeg": {
+    "path": "public/photos/raw/_docx/image96.jpeg",
+    "width": 802,
+    "height": 790,
+    "megapixels": 0.63,
+    "aspect_ratio": 1.015
+  },
+  "image144.jpeg": {
+    "path": "public/photos/raw/_docx/image144.jpeg",
+    "width": 700,
+    "height": 394,
+    "megapixels": 0.28,
+    "aspect_ratio": 1.777
+  },
+  "image282.jpeg": {
+    "path": "public/photos/raw/_docx6/image282.jpeg",
+    "width": 536,
+    "height": 536,
+    "megapixels": 0.29,
+    "aspect_ratio": 1.0
+  },
+  "image113.jpeg": {
+    "path": "public/photos/raw/_docx/image113.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image55.jpeg": {
+    "path": "public/photos/raw/_docx/image55.jpeg",
+    "width": 1024,
+    "height": 1024,
+    "megapixels": 1.05,
+    "aspect_ratio": 1.0
+  },
+  "image105.jpeg": {
+    "path": "public/photos/raw/_docx/image105.jpeg",
+    "width": 448,
+    "height": 450,
+    "megapixels": 0.2,
+    "aspect_ratio": 0.996
+  },
+  "image43.jpeg": {
+    "path": "public/photos/raw/_docx/image43.jpeg",
+    "width": 1268,
+    "height": 715,
+    "megapixels": 0.91,
+    "aspect_ratio": 1.773
+  },
+  "image152.jpeg": {
+    "path": "public/photos/raw/_docx/image152.jpeg",
+    "width": 1411,
+    "height": 938,
+    "megapixels": 1.32,
+    "aspect_ratio": 1.504
+  },
+  "image294.jpeg": {
+    "path": "public/photos/raw/_docx6/image294.jpeg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "image14.jpeg": {
+    "path": "public/photos/raw/_docx/image14.jpeg",
+    "width": 1265,
+    "height": 690,
+    "megapixels": 0.87,
+    "aspect_ratio": 1.833
+  },
+  "image15.jpeg": {
+    "path": "public/photos/raw/_docx/image15.jpeg",
+    "width": 610,
+    "height": 420,
+    "megapixels": 0.26,
+    "aspect_ratio": 1.452
+  },
+  "image153.jpeg": {
+    "path": "public/photos/raw/_docx/image153.jpeg",
+    "width": 800,
+    "height": 400,
+    "megapixels": 0.32,
+    "aspect_ratio": 2.0
+  },
+  "image42.jpeg": {
+    "path": "public/photos/raw/_docx/image42.jpeg",
+    "width": 500,
+    "height": 500,
+    "megapixels": 0.25,
+    "aspect_ratio": 1.0
+  },
+  "image104.jpeg": {
+    "path": "public/photos/raw/_docx/image104.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image54.jpeg": {
+    "path": "public/photos/raw/_docx/image54.jpeg",
+    "width": 500,
+    "height": 500,
+    "megapixels": 0.25,
+    "aspect_ratio": 1.0
+  },
+  "image112.jpeg": {
+    "path": "public/photos/raw/_docx/image112.jpeg",
+    "width": 600,
+    "height": 800,
+    "megapixels": 0.48,
+    "aspect_ratio": 0.75
+  },
+  "image283.jpeg": {
+    "path": "public/photos/raw/_docx6/image283.jpeg",
+    "width": 600,
+    "height": 600,
+    "megapixels": 0.36,
+    "aspect_ratio": 1.0
+  },
+  "image145.jpeg": {
+    "path": "public/photos/raw/_docx/image145.jpeg",
+    "width": 1200,
+    "height": 900,
+    "megapixels": 1.08,
+    "aspect_ratio": 1.333
+  },
+  "image78.jpeg": {
+    "path": "public/photos/raw/_docx/image78.jpeg",
+    "width": 1269,
+    "height": 1269,
+    "megapixels": 1.61,
+    "aspect_ratio": 1.0
+  },
+  "image97.jpeg": {
+    "path": "public/photos/raw/_docx/image97.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image217.jpeg": {
+    "path": "public/photos/raw/_docx6/image217.jpeg",
+    "width": 512,
+    "height": 512,
+    "megapixels": 0.26,
+    "aspect_ratio": 1.0
+  },
+  "image240.jpeg": {
+    "path": "public/photos/raw/_docx6/image240.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image169.jpeg": {
+    "path": "public/photos/raw/_docx/image169.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image186.jpeg": {
+    "path": "public/photos/raw/_docx6/image186.jpeg",
+    "width": 1200,
+    "height": 1200,
+    "megapixels": 1.44,
+    "aspect_ratio": 1.0
+  },
+  "image39.jpeg": {
+    "path": "public/photos/raw/_docx/image39.jpeg",
+    "width": 1607,
+    "height": 1607,
+    "megapixels": 2.58,
+    "aspect_ratio": 1.0
+  },
+  "image256.jpeg": {
+    "path": "public/photos/raw/_docx6/image256.jpeg",
+    "width": 2121,
+    "height": 1414,
+    "megapixels": 3.0,
+    "aspect_ratio": 1.5
+  },
+  "image81.jpeg": {
+    "path": "public/photos/raw/_docx/image81.jpeg",
+    "width": 1267,
+    "height": 1690,
+    "megapixels": 2.14,
+    "aspect_ratio": 0.75
+  },
+  "image201.jpeg": {
+    "path": "public/photos/raw/_docx6/image201.jpeg",
+    "width": 512,
+    "height": 512,
+    "megapixels": 0.26,
+    "aspect_ratio": 1.0
+  },
+  "image128.jpeg": {
+    "path": "public/photos/raw/_docx/image128.jpeg",
+    "width": 1267,
+    "height": 2606,
+    "megapixels": 3.3,
+    "aspect_ratio": 0.486
+  },
+  "image276.jpeg": {
+    "path": "public/photos/raw/_docx6/image276.jpeg",
+    "width": 533,
+    "height": 533,
+    "megapixels": 0.28,
+    "aspect_ratio": 1.0
+  },
+  "image19.jpeg": {
+    "path": "public/photos/raw/_docx/image19.jpeg",
+    "width": 1200,
+    "height": 675,
+    "megapixels": 0.81,
+    "aspect_ratio": 1.778
+  },
+  "image108.jpeg": {
+    "path": "public/photos/raw/_docx/image108.jpeg",
+    "width": 800,
+    "height": 600,
+    "megapixels": 0.48,
+    "aspect_ratio": 1.333
+  },
+  "image221.jpeg": {
+    "path": "public/photos/raw/_docx6/image221.jpeg",
+    "width": 747,
+    "height": 471,
+    "megapixels": 0.35,
+    "aspect_ratio": 1.586
+  },
+  "image1.jpeg": {
+    "path": "public/photos/raw/_docx/image1.jpeg",
+    "width": 345,
+    "height": 374,
+    "megapixels": 0.13,
+    "aspect_ratio": 0.922
+  },
+  "image237.jpeg": {
+    "path": "public/photos/raw/_docx6/image237.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image58.jpeg": {
+    "path": "public/photos/raw/_docx/image58.jpeg",
+    "width": 910,
+    "height": 773,
+    "megapixels": 0.7,
+    "aspect_ratio": 1.177
+  },
+  "image149.jpeg": {
+    "path": "public/photos/raw/_docx/image149.jpeg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "image260.jpeg": {
+    "path": "public/photos/raw/_docx6/image260.jpeg",
+    "width": 550,
+    "height": 477,
+    "megapixels": 0.26,
+    "aspect_ratio": 1.153
+  },
+  "image132.jpeg": {
+    "path": "public/photos/raw/_docx/image132.jpeg",
+    "width": 1000,
+    "height": 667,
+    "megapixels": 0.67,
+    "aspect_ratio": 1.499
+  },
+  "image74.jpeg": {
+    "path": "public/photos/raw/_docx/image74.jpeg",
+    "width": 360,
+    "height": 510,
+    "megapixels": 0.18,
+    "aspect_ratio": 0.706
+  },
+  "image165.jpeg": {
+    "path": "public/photos/raw/_docx/image165.jpeg",
+    "width": 1205,
+    "height": 1146,
+    "megapixels": 1.38,
+    "aspect_ratio": 1.051
+  },
+  "image23.jpeg": {
+    "path": "public/photos/raw/_docx/image23.jpeg",
+    "width": 4000,
+    "height": 5600,
+    "megapixels": 22.4,
+    "aspect_ratio": 0.714
+  },
+  "image173.jpeg": {
+    "path": "public/photos/raw/_docx/image173.jpeg",
+    "width": 1000,
+    "height": 1216,
+    "megapixels": 1.22,
+    "aspect_ratio": 0.822
+  },
+  "image124.jpeg": {
+    "path": "public/photos/raw/_docx/image124.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image62.jpeg": {
+    "path": "public/photos/raw/_docx/image62.jpeg",
+    "width": 960,
+    "height": 960,
+    "megapixels": 0.92,
+    "aspect_ratio": 1.0
+  },
+  "image69.jpeg": {
+    "path": "public/photos/raw/_docx/image69.jpeg",
+    "width": 1266,
+    "height": 1266,
+    "megapixels": 1.6,
+    "aspect_ratio": 1.0
+  },
+  "image206.jpeg": {
+    "path": "public/photos/raw/_docx6/image206.jpeg",
+    "width": 1300,
+    "height": 1300,
+    "megapixels": 1.69,
+    "aspect_ratio": 1.0
+  },
+  "image86.jpeg": {
+    "path": "public/photos/raw/_docx/image86.jpeg",
+    "width": 1267,
+    "height": 1690,
+    "megapixels": 2.14,
+    "aspect_ratio": 0.75
+  },
+  "image178.jpeg": {
+    "path": "public/photos/raw/_docx6/image178.jpeg",
+    "width": 1600,
+    "height": 1600,
+    "megapixels": 2.56,
+    "aspect_ratio": 1.0
+  },
+  "image197.jpeg": {
+    "path": "public/photos/raw/_docx6/image197.jpeg",
+    "width": 500,
+    "height": 500,
+    "megapixels": 0.25,
+    "aspect_ratio": 1.0
+  },
+  "image251.jpeg": {
+    "path": "public/photos/raw/_docx6/image251.jpeg",
+    "width": 700,
+    "height": 700,
+    "megapixels": 0.49,
+    "aspect_ratio": 1.0
+  },
+  "image181.jpeg": {
+    "path": "public/photos/raw/_docx6/image181.jpeg",
+    "width": 540,
+    "height": 540,
+    "megapixels": 0.29,
+    "aspect_ratio": 1.0
+  },
+  "image28.jpeg": {
+    "path": "public/photos/raw/_docx/image28.jpeg",
+    "width": 568,
+    "height": 378,
+    "megapixels": 0.21,
+    "aspect_ratio": 1.503
+  },
+  "image247.jpeg": {
+    "path": "public/photos/raw/_docx6/image247.jpeg",
+    "width": 1000,
+    "height": 944,
+    "megapixels": 0.94,
+    "aspect_ratio": 1.059
+  },
+  "image139.jpeg": {
+    "path": "public/photos/raw/_docx/image139.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image210.jpeg": {
+    "path": "public/photos/raw/_docx6/image210.jpeg",
+    "width": 1295,
+    "height": 728,
+    "megapixels": 0.94,
+    "aspect_ratio": 1.779
+  },
+  "image90.jpeg": {
+    "path": "public/photos/raw/_docx/image90.jpeg",
+    "width": 1267,
+    "height": 950,
+    "megapixels": 1.2,
+    "aspect_ratio": 1.334
+  },
+  "image142.jpeg": {
+    "path": "public/photos/raw/_docx/image142.jpeg",
+    "width": 470,
+    "height": 336,
+    "megapixels": 0.16,
+    "aspect_ratio": 1.399
+  },
+  "image284.jpeg": {
+    "path": "public/photos/raw/_docx6/image284.jpeg",
+    "width": 600,
+    "height": 600,
+    "megapixels": 0.36,
+    "aspect_ratio": 1.0
+  },
+  "image115.jpeg": {
+    "path": "public/photos/raw/_docx/image115.jpeg",
+    "width": 1267,
+    "height": 845,
+    "megapixels": 1.07,
+    "aspect_ratio": 1.499
+  },
+  "image53.jpeg": {
+    "path": "public/photos/raw/_docx/image53.jpeg",
+    "width": 500,
+    "height": 500,
+    "megapixels": 0.25,
+    "aspect_ratio": 1.0
+  },
+  "image103.jpeg": {
+    "path": "public/photos/raw/_docx/image103.jpeg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "image45.jpeg": {
+    "path": "public/photos/raw/_docx/image45.jpeg",
+    "width": 1024,
+    "height": 740,
+    "megapixels": 0.76,
+    "aspect_ratio": 1.384
+  },
+  "image154.jpeg": {
+    "path": "public/photos/raw/_docx/image154.jpeg",
+    "width": 687,
+    "height": 400,
+    "megapixels": 0.27,
+    "aspect_ratio": 1.718
+  },
+  "image292.jpeg": {
+    "path": "public/photos/raw/_docx6/image292.jpeg",
+    "width": 960,
+    "height": 960,
+    "megapixels": 0.92,
+    "aspect_ratio": 1.0
+  },
+  "image65.jpeg": {
+    "path": "public/photos/raw/_docx/image65.jpeg",
+    "width": 550,
+    "height": 550,
+    "megapixels": 0.3,
+    "aspect_ratio": 1.0
+  },
+  "image123.jpeg": {
+    "path": "public/photos/raw/_docx/image123.jpeg",
+    "width": 482,
+    "height": 649,
+    "megapixels": 0.31,
+    "aspect_ratio": 0.743
+  },
+  "image32.jpeg": {
+    "path": "public/photos/raw/_docx/image32.jpeg",
+    "width": 1258,
+    "height": 1258,
+    "megapixels": 1.58,
+    "aspect_ratio": 1.0
+  },
+  "image174.jpeg": {
+    "path": "public/photos/raw/_docx/image174.jpeg",
+    "width": 637,
+    "height": 813,
+    "megapixels": 0.52,
+    "aspect_ratio": 0.784
+  },
+  "image24.jpeg": {
+    "path": "public/photos/raw/_docx/image24.jpeg",
+    "width": 324,
+    "height": 486,
+    "megapixels": 0.16,
+    "aspect_ratio": 0.667
+  },
+  "image162.jpeg": {
+    "path": "public/photos/raw/_docx/image162.jpeg",
+    "width": 491,
+    "height": 583,
+    "megapixels": 0.29,
+    "aspect_ratio": 0.842
+  },
+  "image73.jpeg": {
+    "path": "public/photos/raw/_docx/image73.jpeg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "image135.jpeg": {
+    "path": "public/photos/raw/_docx/image135.jpeg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "image267.jpeg": {
+    "path": "public/photos/raw/_docx6/image267.jpeg",
+    "width": 758,
+    "height": 715,
+    "megapixels": 0.54,
+    "aspect_ratio": 1.06
+  },
+  "image288.jpeg": {
+    "path": "public/photos/raw/_docx6/image288.jpeg",
+    "width": 1024,
+    "height": 1024,
+    "megapixels": 1.05,
+    "aspect_ratio": 1.0
+  },
+  "image230.jpeg": {
+    "path": "public/photos/raw/_docx6/image230.jpeg",
+    "width": 3620,
+    "height": 2268,
+    "megapixels": 8.21,
+    "aspect_ratio": 1.596
+  },
+  "image119.jpeg": {
+    "path": "public/photos/raw/_docx/image119.jpeg",
+    "width": 800,
+    "height": 535,
+    "megapixels": 0.43,
+    "aspect_ratio": 1.495
+  },
+  "image226.jpeg": {
+    "path": "public/photos/raw/_docx6/image226.jpeg",
+    "width": 1000,
+    "height": 750,
+    "megapixels": 0.75,
+    "aspect_ratio": 1.333
+  },
+  "image49.jpeg": {
+    "path": "public/photos/raw/_docx4/image49.jpeg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "image271.jpeg": {
+    "path": "public/photos/raw/_docx6/image271.jpeg",
+    "width": 1080,
+    "height": 1080,
+    "megapixels": 1.17,
+    "aspect_ratio": 1.0
+  },
+  "image158.jpeg": {
+    "path": "public/photos/raw/_docx/image158.jpeg",
+    "width": 1200,
+    "height": 400,
+    "megapixels": 0.48,
+    "aspect_ratio": 3.0
+  },
+  "image159.jpeg": {
+    "path": "public/photos/raw/_docx/image159.jpeg",
+    "width": 550,
+    "height": 600,
+    "megapixels": 0.33,
+    "aspect_ratio": 0.917
+  },
+  "image270.jpeg": {
+    "path": "public/photos/raw/_docx6/image270.jpeg",
+    "width": 600,
+    "height": 600,
+    "megapixels": 0.36,
+    "aspect_ratio": 1.0
+  },
+  "image227.jpeg": {
+    "path": "public/photos/raw/_docx6/image227.jpeg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "image48.jpeg": {
+    "path": "public/photos/raw/_docx/image48.jpeg",
+    "width": 1024,
+    "height": 559,
+    "megapixels": 0.57,
+    "aspect_ratio": 1.832
+  },
+  "image7.jpeg": {
+    "path": "public/photos/raw/_docx/image7.jpeg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "image118.jpeg": {
+    "path": "public/photos/raw/_docx/image118.jpeg",
+    "width": 870,
+    "height": 801,
+    "megapixels": 0.7,
+    "aspect_ratio": 1.086
+  },
+  "image231.jpeg": {
+    "path": "public/photos/raw/_docx6/image231.jpeg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "image266.jpeg": {
+    "path": "public/photos/raw/_docx6/image266.jpeg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "image289.jpeg": {
+    "path": "public/photos/raw/_docx6/image289.jpeg",
+    "width": 750,
+    "height": 750,
+    "megapixels": 0.56,
+    "aspect_ratio": 1.0
+  },
+  "image134.jpeg": {
+    "path": "public/photos/raw/_docx/image134.jpeg",
+    "width": 800,
+    "height": 1227,
+    "megapixels": 0.98,
+    "aspect_ratio": 0.652
+  },
+  "image72.jpeg": {
+    "path": "public/photos/raw/_docx/image72.jpeg",
+    "width": 1200,
+    "height": 800,
+    "megapixels": 0.96,
+    "aspect_ratio": 1.5
+  },
+  "image163.jpeg": {
+    "path": "public/photos/raw/_docx/image163.jpeg",
+    "width": 2000,
+    "height": 1333,
+    "megapixels": 2.67,
+    "aspect_ratio": 1.5
+  },
+  "image25.jpeg": {
+    "path": "public/photos/raw/_docx/image25.jpeg",
+    "width": 1267,
+    "height": 1690,
+    "megapixels": 2.14,
+    "aspect_ratio": 0.75
+  },
+  "image175.jpeg": {
+    "path": "public/photos/raw/_docx/image175.jpeg",
+    "width": 1280,
+    "height": 1280,
+    "megapixels": 1.64,
+    "aspect_ratio": 1.0
+  },
+  "image33.jpeg": {
+    "path": "public/photos/raw/_docx/image33.jpeg",
+    "width": 560,
+    "height": 560,
+    "megapixels": 0.31,
+    "aspect_ratio": 1.0
+  },
+  "image122.jpeg": {
+    "path": "public/photos/raw/_docx6/image122.jpeg",
+    "width": 512,
+    "height": 512,
+    "megapixels": 0.26,
+    "aspect_ratio": 1.0
+  },
+  "image64.jpeg": {
+    "path": "public/photos/raw/_docx/image64.jpeg",
+    "width": 1264,
+    "height": 1364,
+    "megapixels": 1.72,
+    "aspect_ratio": 0.927
+  },
+  "image13.jpeg": {
+    "path": "public/photos/raw/_docx/image13.jpeg",
+    "width": 1030,
+    "height": 721,
+    "megapixels": 0.74,
+    "aspect_ratio": 1.429
+  },
+  "image293.jpeg": {
+    "path": "public/photos/raw/_docx6/image293.jpeg",
+    "width": 1024,
+    "height": 1024,
+    "megapixels": 1.05,
+    "aspect_ratio": 1.0
+  },
+  "image155.jpeg": {
+    "path": "public/photos/raw/_docx/image155.jpeg",
+    "width": 1536,
+    "height": 1024,
+    "megapixels": 1.57,
+    "aspect_ratio": 1.5
+  },
+  "image44.jpeg": {
+    "path": "public/photos/raw/_docx/image44.jpeg",
+    "width": 749,
+    "height": 562,
+    "megapixels": 0.42,
+    "aspect_ratio": 1.333
+  },
+  "image102.jpeg": {
+    "path": "public/photos/raw/_docx/image102.jpeg",
+    "width": 1269,
+    "height": 951,
+    "megapixels": 1.21,
+    "aspect_ratio": 1.334
+  },
+  "image52.jpeg": {
+    "path": "public/photos/raw/_docx/image52.jpeg",
+    "width": 612,
+    "height": 612,
+    "megapixels": 0.37,
+    "aspect_ratio": 1.0
+  },
+  "image114.jpeg": {
+    "path": "public/photos/raw/_docx/image114.jpeg",
+    "width": 900,
+    "height": 600,
+    "megapixels": 0.54,
+    "aspect_ratio": 1.5
+  },
+  "image285.jpeg": {
+    "path": "public/photos/raw/_docx6/image285.jpeg",
+    "width": 2501,
+    "height": 2262,
+    "megapixels": 5.66,
+    "aspect_ratio": 1.106
+  },
+  "image143.jpeg": {
+    "path": "public/photos/raw/_docx/image143.jpeg",
+    "width": 800,
+    "height": 533,
+    "megapixels": 0.43,
+    "aspect_ratio": 1.501
+  },
+  "image91.jpeg": {
+    "path": "public/photos/raw/_docx/image91.jpeg",
+    "width": 1266,
+    "height": 898,
+    "megapixels": 1.14,
+    "aspect_ratio": 1.41
+  },
+  "image211.jpeg": {
+    "path": "public/photos/raw/_docx6/image211.jpeg",
+    "width": 1920,
+    "height": 1276,
+    "megapixels": 2.45,
+    "aspect_ratio": 1.505
+  },
+  "image138.jpeg": {
+    "path": "public/photos/raw/_docx/image138.jpeg",
+    "width": 1265,
+    "height": 1265,
+    "megapixels": 1.6,
+    "aspect_ratio": 1.0
+  },
+  "image246.jpeg": {
+    "path": "public/photos/raw/_docx6/image246.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image180.jpeg": {
+    "path": "public/photos/raw/_docx6/image180.jpeg",
+    "width": 1500,
+    "height": 1500,
+    "megapixels": 2.25,
+    "aspect_ratio": 1.0
+  },
+  "image250.jpeg": {
+    "path": "public/photos/raw/_docx6/image250.jpeg",
+    "width": 1024,
+    "height": 683,
+    "megapixels": 0.7,
+    "aspect_ratio": 1.499
+  },
+  "image179.jpeg": {
+    "path": "public/photos/raw/_docx6/image179.jpeg",
+    "width": 500,
+    "height": 500,
+    "megapixels": 0.25,
+    "aspect_ratio": 1.0
+  },
+  "image196.jpeg": {
+    "path": "public/photos/raw/_docx6/image196.jpeg",
+    "width": 550,
+    "height": 550,
+    "megapixels": 0.3,
+    "aspect_ratio": 1.0
+  },
+  "image68.jpeg": {
+    "path": "public/photos/raw/_docx/image68.jpeg",
+    "width": 1024,
+    "height": 1024,
+    "megapixels": 1.05,
+    "aspect_ratio": 1.0
+  },
+  "image87.jpeg": {
+    "path": "public/photos/raw/_docx/image87.jpeg",
+    "width": 1267,
+    "height": 950,
+    "megapixels": 1.2,
+    "aspect_ratio": 1.334
+  },
+  "image207.jpeg": {
+    "path": "public/photos/raw/_docx6/image207.jpeg",
+    "width": 500,
+    "height": 500,
+    "megapixels": 0.25,
+    "aspect_ratio": 1.0
+  },
+  "image10.jpeg": {
+    "path": "public/photos/raw/_docx/image10.jpeg",
+    "width": 636,
+    "height": 795,
+    "megapixels": 0.51,
+    "aspect_ratio": 0.8
+  },
+  "image290.jpeg": {
+    "path": "public/photos/raw/_docx6/image290.jpeg",
+    "width": 854,
+    "height": 854,
+    "megapixels": 0.73,
+    "aspect_ratio": 1.0
+  },
+  "image156.jpeg": {
+    "path": "public/photos/raw/_docx/image156.jpeg",
+    "width": 1500,
+    "height": 655,
+    "megapixels": 0.98,
+    "aspect_ratio": 2.29
+  },
+  "image47.jpeg": {
+    "path": "public/photos/raw/_docx/image47.jpeg",
+    "width": 1000,
+    "height": 569,
+    "megapixels": 0.57,
+    "aspect_ratio": 1.757
+  },
+  "image228.jpeg": {
+    "path": "public/photos/raw/_docx6/image228.jpeg",
+    "width": 498,
+    "height": 331,
+    "megapixels": 0.16,
+    "aspect_ratio": 1.505
+  },
+  "image101.jpeg": {
+    "path": "public/photos/raw/_docx/image101.jpeg",
+    "width": 1265,
+    "height": 1265,
+    "megapixels": 1.6,
+    "aspect_ratio": 1.0
+  },
+  "image51.jpeg": {
+    "path": "public/photos/raw/_docx/image51.jpeg",
+    "width": 612,
+    "height": 612,
+    "megapixels": 0.37,
+    "aspect_ratio": 1.0
+  },
+  "image117.jpeg": {
+    "path": "public/photos/raw/_docx/image117.jpeg",
+    "width": 1200,
+    "height": 857,
+    "megapixels": 1.03,
+    "aspect_ratio": 1.4
+  },
+  "image8.jpeg": {
+    "path": "public/photos/raw/_docx/image8.jpeg",
+    "width": 1268,
+    "height": 862,
+    "megapixels": 1.09,
+    "aspect_ratio": 1.471
+  },
+  "image286.jpeg": {
+    "path": "public/photos/raw/_docx6/image286.jpeg",
+    "width": 500,
+    "height": 500,
+    "megapixels": 0.25,
+    "aspect_ratio": 1.0
+  },
+  "image269.jpeg": {
+    "path": "public/photos/raw/_docx6/image269.jpeg",
+    "width": 640,
+    "height": 640,
+    "megapixels": 0.41,
+    "aspect_ratio": 1.0
+  },
+  "image140.jpeg": {
+    "path": "public/photos/raw/_docx/image140.jpeg",
+    "width": 707,
+    "height": 368,
+    "megapixels": 0.26,
+    "aspect_ratio": 1.921
+  },
+  "image92.jpeg": {
+    "path": "public/photos/raw/_docx/image92.jpeg",
+    "width": 707,
+    "height": 368,
+    "megapixels": 0.26,
+    "aspect_ratio": 1.921
+  },
+  "image212.jpeg": {
+    "path": "public/photos/raw/_docx6/image212.jpeg",
+    "width": 900,
+    "height": 900,
+    "megapixels": 0.81,
+    "aspect_ratio": 1.0
+  },
+  "image245.jpeg": {
+    "path": "public/photos/raw/_docx6/image245.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image183.jpeg": {
+    "path": "public/photos/raw/_docx6/image183.jpeg",
+    "width": 800,
+    "height": 457,
+    "megapixels": 0.37,
+    "aspect_ratio": 1.751
+  },
+  "image253.jpeg": {
+    "path": "public/photos/raw/_docx6/image253.jpeg",
+    "width": 635,
+    "height": 405,
+    "megapixels": 0.26,
+    "aspect_ratio": 1.568
+  },
+  "image195.jpeg": {
+    "path": "public/photos/raw/_docx6/image195.jpeg",
+    "width": 1108,
+    "height": 1477,
+    "megapixels": 1.64,
+    "aspect_ratio": 0.75
+  },
+  "image84.jpeg": {
+    "path": "public/photos/raw/_docx/image84.jpeg",
+    "width": 730,
+    "height": 547,
+    "megapixels": 0.4,
+    "aspect_ratio": 1.335
+  },
+  "image204.jpeg": {
+    "path": "public/photos/raw/_docx6/image204.jpeg",
+    "width": 661,
+    "height": 661,
+    "megapixels": 0.44,
+    "aspect_ratio": 1.0
+  },
+  "image273.jpeg": {
+    "path": "public/photos/raw/_docx6/image273.jpeg",
+    "width": 650,
+    "height": 666,
+    "megapixels": 0.43,
+    "aspect_ratio": 0.976
+  },
+  "image224.jpeg": {
+    "path": "public/photos/raw/_docx6/image224.jpeg",
+    "width": 800,
+    "height": 588,
+    "megapixels": 0.47,
+    "aspect_ratio": 1.361
+  },
+  "image4.jpeg": {
+    "path": "public/photos/raw/_docx4/image4.jpeg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "image232.jpeg": {
+    "path": "public/photos/raw/_docx6/image232.jpeg",
+    "width": 500,
+    "height": 500,
+    "megapixels": 0.25,
+    "aspect_ratio": 1.0
+  },
+  "image265.jpeg": {
+    "path": "public/photos/raw/_docx6/image265.jpeg",
+    "width": 550,
+    "height": 547,
+    "megapixels": 0.3,
+    "aspect_ratio": 1.005
+  },
+  "image137.jpeg": {
+    "path": "public/photos/raw/_docx/image137.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image71.jpeg": {
+    "path": "public/photos/raw/_docx/image71.jpeg",
+    "width": 400,
+    "height": 400,
+    "megapixels": 0.16,
+    "aspect_ratio": 1.0
+  },
+  "image160.jpeg": {
+    "path": "public/photos/raw/_docx/image160.jpeg",
+    "width": 550,
+    "height": 550,
+    "megapixels": 0.3,
+    "aspect_ratio": 1.0
+  },
+  "image249.jpeg": {
+    "path": "public/photos/raw/_docx6/image249.jpeg",
+    "width": 500,
+    "height": 459,
+    "megapixels": 0.23,
+    "aspect_ratio": 1.089
+  },
+  "image26.jpeg": {
+    "path": "public/photos/raw/_docx/image26.jpeg",
+    "width": 1268,
+    "height": 1690,
+    "megapixels": 2.14,
+    "aspect_ratio": 0.75
+  },
+  "image199.jpeg": {
+    "path": "public/photos/raw/_docx6/image199.jpeg",
+    "width": 1122,
+    "height": 986,
+    "megapixels": 1.11,
+    "aspect_ratio": 1.138
+  },
+  "image176.jpeg": {
+    "path": "public/photos/raw/_docx/image176.jpeg",
+    "width": 640,
+    "height": 640,
+    "megapixels": 0.41,
+    "aspect_ratio": 1.0
+  },
+  "image30.jpeg": {
+    "path": "public/photos/raw/_docx/image30.jpeg",
+    "width": 600,
+    "height": 600,
+    "megapixels": 0.36,
+    "aspect_ratio": 1.0
+  },
+  "image121.jpeg": {
+    "path": "public/photos/raw/_docx/image121.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image208.jpeg": {
+    "path": "public/photos/raw/_docx6/image208.jpeg",
+    "width": 1200,
+    "height": 1200,
+    "megapixels": 1.44,
+    "aspect_ratio": 1.0
+  },
+  "image88.jpeg": {
+    "path": "public/photos/raw/_docx/image88.jpeg",
+    "width": 900,
+    "height": 675,
+    "megapixels": 0.61,
+    "aspect_ratio": 1.333
+  },
+  "image67.jpeg": {
+    "path": "public/photos/raw/_docx/image67.jpeg",
+    "width": 600,
+    "height": 446,
+    "megapixels": 0.27,
+    "aspect_ratio": 1.345
+  },
+  "image89.jpeg": {
+    "path": "public/photos/raw/_docx/image89.jpeg",
+    "width": 550,
+    "height": 550,
+    "megapixels": 0.3,
+    "aspect_ratio": 1.0
+  },
+  "image209.jpeg": {
+    "path": "public/photos/raw/_docx6/image209.jpeg",
+    "width": 2048,
+    "height": 1365,
+    "megapixels": 2.8,
+    "aspect_ratio": 1.5
+  },
+  "image66.jpeg": {
+    "path": "public/photos/raw/_docx/image66.jpeg",
+    "width": 640,
+    "height": 640,
+    "megapixels": 0.41,
+    "aspect_ratio": 1.0
+  },
+  "image120.jpeg": {
+    "path": "public/photos/raw/_docx/image120.jpeg",
+    "width": 525,
+    "height": 600,
+    "megapixels": 0.32,
+    "aspect_ratio": 0.875
+  },
+  "image31.jpeg": {
+    "path": "public/photos/raw/_docx/image31.jpeg",
+    "width": 1138,
+    "height": 655,
+    "megapixels": 0.75,
+    "aspect_ratio": 1.737
+  },
+  "image198.jpeg": {
+    "path": "public/photos/raw/_docx6/image198.jpeg",
+    "width": 2400,
+    "height": 2400,
+    "megapixels": 5.76,
+    "aspect_ratio": 1.0
+  },
+  "image177.jpeg": {
+    "path": "public/photos/raw/_docx/image177.jpeg",
+    "width": 800,
+    "height": 600,
+    "megapixels": 0.48,
+    "aspect_ratio": 1.333
+  },
+  "image248.jpeg": {
+    "path": "public/photos/raw/_docx6/image248.jpeg",
+    "width": 550,
+    "height": 550,
+    "megapixels": 0.3,
+    "aspect_ratio": 1.0
+  },
+  "image27.jpeg": {
+    "path": "public/photos/raw/_docx/image27.jpeg",
+    "width": 800,
+    "height": 1067,
+    "megapixels": 0.85,
+    "aspect_ratio": 0.75
+  },
+  "image161.jpeg": {
+    "path": "public/photos/raw/_docx/image161.jpeg",
+    "width": 1406,
+    "height": 1406,
+    "megapixels": 1.98,
+    "aspect_ratio": 1.0
+  },
+  "image70.jpeg": {
+    "path": "public/photos/raw/_docx/image70.jpeg",
+    "width": 550,
+    "height": 550,
+    "megapixels": 0.3,
+    "aspect_ratio": 1.0
+  },
+  "image136.jpeg": {
+    "path": "public/photos/raw/_docx/image136.jpeg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "image264.jpeg": {
+    "path": "public/photos/raw/_docx6/image264.jpeg",
+    "width": 350,
+    "height": 467,
+    "megapixels": 0.16,
+    "aspect_ratio": 0.749
+  },
+  "image233.jpeg": {
+    "path": "public/photos/raw/_docx6/image233.jpeg",
+    "width": 872,
+    "height": 504,
+    "megapixels": 0.44,
+    "aspect_ratio": 1.73
+  },
+  "image5.jpeg": {
+    "path": "public/photos/raw/_docx/image5.jpeg",
+    "width": 456,
+    "height": 328,
+    "megapixels": 0.15,
+    "aspect_ratio": 1.39
+  },
+  "image225.jpeg": {
+    "path": "public/photos/raw/_docx6/image225.jpeg",
+    "width": 912,
+    "height": 912,
+    "megapixels": 0.83,
+    "aspect_ratio": 1.0
+  },
+  "image272.jpeg": {
+    "path": "public/photos/raw/_docx6/image272.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image205.jpeg": {
+    "path": "public/photos/raw/_docx6/image205.jpeg",
+    "width": 1024,
+    "height": 1024,
+    "megapixels": 1.05,
+    "aspect_ratio": 1.0
+  },
+  "image85.jpeg": {
+    "path": "public/photos/raw/_docx/image85.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image252.jpeg": {
+    "path": "public/photos/raw/_docx6/image252.jpeg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "image182.jpeg": {
+    "path": "public/photos/raw/_docx6/image182.jpeg",
+    "width": 640,
+    "height": 640,
+    "megapixels": 0.41,
+    "aspect_ratio": 1.0
+  },
+  "image244.jpeg": {
+    "path": "public/photos/raw/_docx6/image244.jpeg",
+    "width": 500,
+    "height": 500,
+    "megapixels": 0.25,
+    "aspect_ratio": 1.0
+  },
+  "image213.jpeg": {
+    "path": "public/photos/raw/_docx6/image213.jpeg",
+    "width": 6114,
+    "height": 3440,
+    "megapixels": 21.03,
+    "aspect_ratio": 1.777
+  },
+  "image93.jpeg": {
+    "path": "public/photos/raw/_docx/image93.jpeg",
+    "width": 500,
+    "height": 500,
+    "megapixels": 0.25,
+    "aspect_ratio": 1.0
+  },
+  "image141.jpeg": {
+    "path": "public/photos/raw/_docx/image141.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image287.jpeg": {
+    "path": "public/photos/raw/_docx6/image287.jpeg",
+    "width": 842,
+    "height": 765,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.101
+  },
+  "image268.jpeg": {
+    "path": "public/photos/raw/_docx6/image268.jpeg",
+    "width": 600,
+    "height": 600,
+    "megapixels": 0.36,
+    "aspect_ratio": 1.0
+  },
+  "image116.jpeg": {
+    "path": "public/photos/raw/_docx/image116.jpeg",
+    "width": 1115,
+    "height": 720,
+    "megapixels": 0.8,
+    "aspect_ratio": 1.549
+  },
+  "image9.jpeg": {
+    "path": "public/photos/raw/_docx/image9.jpeg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "image50.jpeg": {
+    "path": "public/photos/raw/_docx4/image50.jpeg",
+    "width": 948,
+    "height": 636,
+    "megapixels": 0.6,
+    "aspect_ratio": 1.491
+  },
+  "image100.jpeg": {
+    "path": "public/photos/raw/_docx/image100.jpeg",
+    "width": 715,
+    "height": 1271,
+    "megapixels": 0.91,
+    "aspect_ratio": 0.563
+  },
+  "image46.jpeg": {
+    "path": "public/photos/raw/_docx/image46.jpeg",
+    "width": 1267,
+    "height": 845,
+    "megapixels": 1.07,
+    "aspect_ratio": 1.499
+  },
+  "image229.jpeg": {
+    "path": "public/photos/raw/_docx6/image229.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image157.jpeg": {
+    "path": "public/photos/raw/_docx/image157.jpeg",
+    "width": 5504,
+    "height": 3096,
+    "megapixels": 17.04,
+    "aspect_ratio": 1.778
+  },
+  "image291.jpeg": {
+    "path": "public/photos/raw/_docx6/image291.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image11.jpeg": {
+    "path": "public/photos/raw/_docx/image11.jpeg",
+    "width": 821,
+    "height": 540,
+    "megapixels": 0.44,
+    "aspect_ratio": 1.52
+  },
+  "image275.jpeg": {
+    "path": "public/photos/raw/_docx6/image275.jpeg",
+    "width": 600,
+    "height": 600,
+    "megapixels": 0.36,
+    "aspect_ratio": 1.0
+  },
+  "image222.jpeg": {
+    "path": "public/photos/raw/_docx6/image222.jpeg",
+    "width": 696,
+    "height": 400,
+    "megapixels": 0.28,
+    "aspect_ratio": 1.74
+  },
+  "image2.jpeg": {
+    "path": "public/photos/raw/_docx/image2.jpeg",
+    "width": 560,
+    "height": 560,
+    "megapixels": 0.31,
+    "aspect_ratio": 1.0
+  },
+  "image234.jpeg": {
+    "path": "public/photos/raw/_docx6/image234.jpeg",
+    "width": 600,
+    "height": 600,
+    "megapixels": 0.36,
+    "aspect_ratio": 1.0
+  },
+  "image263.jpeg": {
+    "path": "public/photos/raw/_docx6/image263.jpeg",
+    "width": 800,
+    "height": 534,
+    "megapixels": 0.43,
+    "aspect_ratio": 1.498
+  },
+  "image131.jpeg": {
+    "path": "public/photos/raw/_docx/image131.jpeg",
+    "width": 450,
+    "height": 450,
+    "megapixels": 0.2,
+    "aspect_ratio": 1.0
+  },
+  "image218.jpeg": {
+    "path": "public/photos/raw/_docx6/image218.jpeg",
+    "width": 350,
+    "height": 350,
+    "megapixels": 0.12,
+    "aspect_ratio": 1.0
+  },
+  "image98.jpeg": {
+    "path": "public/photos/raw/_docx/image98.jpeg",
+    "width": 1024,
+    "height": 1024,
+    "megapixels": 1.05,
+    "aspect_ratio": 1.0
+  },
+  "image77.jpeg": {
+    "path": "public/photos/raw/_docx/image77.jpeg",
+    "width": 1269,
+    "height": 2340,
+    "megapixels": 2.97,
+    "aspect_ratio": 0.542
+  },
+  "image189.jpeg": {
+    "path": "public/photos/raw/_docx6/image189.jpeg",
+    "width": 500,
+    "height": 500,
+    "megapixels": 0.25,
+    "aspect_ratio": 1.0
+  },
+  "image166.jpeg": {
+    "path": "public/photos/raw/_docx/image166.jpeg",
+    "width": 1800,
+    "height": 1800,
+    "megapixels": 3.24,
+    "aspect_ratio": 1.0
+  },
+  "image20.jpeg": {
+    "path": "public/photos/raw/_docx/image20.jpeg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "image170.jpeg": {
+    "path": "public/photos/raw/_docx/image170.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image259.jpeg": {
+    "path": "public/photos/raw/_docx6/image259.jpeg",
+    "width": 500,
+    "height": 375,
+    "megapixels": 0.19,
+    "aspect_ratio": 1.333
+  },
+  "image127.jpeg": {
+    "path": "public/photos/raw/_docx/image127.jpeg",
+    "width": 640,
+    "height": 480,
+    "megapixels": 0.31,
+    "aspect_ratio": 1.333
+  },
+  "image61.jpeg": {
+    "path": "public/photos/raw/_docx/image61.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image16.jpeg": {
+    "path": "public/photos/raw/_docx/image16.jpeg",
+    "width": 720,
+    "height": 405,
+    "megapixels": 0.29,
+    "aspect_ratio": 1.778
+  },
+  "image279.jpeg": {
+    "path": "public/photos/raw/_docx6/image279.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image150.jpeg": {
+    "path": "public/photos/raw/_docx/image150.jpeg",
+    "width": 1000,
+    "height": 800,
+    "megapixels": 0.8,
+    "aspect_ratio": 1.25
+  },
+  "image41.jpeg": {
+    "path": "public/photos/raw/_docx/image41.jpeg",
+    "width": 1266,
+    "height": 712,
+    "megapixels": 0.9,
+    "aspect_ratio": 1.778
+  },
+  "image107.jpeg": {
+    "path": "public/photos/raw/_docx/image107.jpeg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "image57.jpeg": {
+    "path": "public/photos/raw/_docx/image57.jpeg",
+    "width": 730,
+    "height": 451,
+    "megapixels": 0.33,
+    "aspect_ratio": 1.619
+  },
+  "image238.jpeg": {
+    "path": "public/photos/raw/_docx6/image238.jpeg",
+    "width": 500,
+    "height": 500,
+    "megapixels": 0.25,
+    "aspect_ratio": 1.0
+  },
+  "image111.jpeg": {
+    "path": "public/photos/raw/_docx/image111.jpeg",
+    "width": 1267,
+    "height": 950,
+    "megapixels": 1.2,
+    "aspect_ratio": 1.334
+  },
+  "image280.jpeg": {
+    "path": "public/photos/raw/_docx6/image280.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image146.jpeg": {
+    "path": "public/photos/raw/_docx/image146.jpeg",
+    "width": 800,
+    "height": 600,
+    "megapixels": 0.48,
+    "aspect_ratio": 1.333
+  },
+  "image94.jpeg": {
+    "path": "public/photos/raw/_docx/image94.jpeg",
+    "width": 877,
+    "height": 1168,
+    "megapixels": 1.02,
+    "aspect_ratio": 0.751
+  },
+  "image214.jpeg": {
+    "path": "public/photos/raw/_docx6/image214.jpeg",
+    "width": 590,
+    "height": 415,
+    "megapixels": 0.24,
+    "aspect_ratio": 1.422
+  },
+  "image243.jpeg": {
+    "path": "public/photos/raw/_docx6/image243.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image185.jpeg": {
+    "path": "public/photos/raw/_docx6/image185.jpeg",
+    "width": 320,
+    "height": 444,
+    "megapixels": 0.14,
+    "aspect_ratio": 0.721
+  },
+  "image255.jpeg": {
+    "path": "public/photos/raw/_docx6/image255.jpeg",
+    "width": 1415,
+    "height": 2119,
+    "megapixels": 3.0,
+    "aspect_ratio": 0.668
+  },
+  "image82.jpeg": {
+    "path": "public/photos/raw/_docx/image82.jpeg",
+    "width": 700,
+    "height": 700,
+    "megapixels": 0.49,
+    "aspect_ratio": 1.0
+  },
+  "image202.jpeg": {
+    "path": "public/photos/raw/_docx6/image202.jpeg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "image203.jpeg": {
+    "path": "public/photos/raw/_docx6/image203.jpeg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "image83.jpeg": {
+    "path": "public/photos/raw/_docx/image83.jpeg",
+    "width": 1200,
+    "height": 1200,
+    "megapixels": 1.44,
+    "aspect_ratio": 1.0
+  },
+  "image192.jpeg": {
+    "path": "public/photos/raw/_docx6/image192.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image254.jpeg": {
+    "path": "public/photos/raw/_docx6/image254.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image184.jpeg": {
+    "path": "public/photos/raw/_docx6/image184.jpeg",
+    "width": 580,
+    "height": 580,
+    "megapixels": 0.34,
+    "aspect_ratio": 1.0
+  },
+  "image242.jpeg": {
+    "path": "public/photos/raw/_docx6/image242.jpeg",
+    "width": 1200,
+    "height": 1200,
+    "megapixels": 1.44,
+    "aspect_ratio": 1.0
+  },
+  "image215.jpeg": {
+    "path": "public/photos/raw/_docx6/image215.jpeg",
+    "width": 360,
+    "height": 360,
+    "megapixels": 0.13,
+    "aspect_ratio": 1.0
+  },
+  "image95.jpeg": {
+    "path": "public/photos/raw/_docx/image95.jpeg",
+    "width": 1200,
+    "height": 700,
+    "megapixels": 0.84,
+    "aspect_ratio": 1.714
+  },
+  "image147.jpeg": {
+    "path": "public/photos/raw/_docx6/image147.jpeg",
+    "width": 700,
+    "height": 700,
+    "megapixels": 0.49,
+    "aspect_ratio": 1.0
+  },
+  "image281.jpeg": {
+    "path": "public/photos/raw/_docx6/image281.jpeg",
+    "width": 1024,
+    "height": 1024,
+    "megapixels": 1.05,
+    "aspect_ratio": 1.0
+  },
+  "image110.jpeg": {
+    "path": "public/photos/raw/_docx/image110.jpeg",
+    "width": 750,
+    "height": 500,
+    "megapixels": 0.38,
+    "aspect_ratio": 1.5
+  },
+  "image56.jpeg": {
+    "path": "public/photos/raw/_docx/image56.jpeg",
+    "width": 1024,
+    "height": 625,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.638
+  },
+  "image239.jpeg": {
+    "path": "public/photos/raw/_docx6/image239.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image106.jpeg": {
+    "path": "public/photos/raw/_docx/image106.jpeg",
+    "width": 422,
+    "height": 470,
+    "megapixels": 0.2,
+    "aspect_ratio": 0.898
+  },
+  "image40.jpeg": {
+    "path": "public/photos/raw/_docx/image40.jpeg",
+    "width": 896,
+    "height": 600,
+    "megapixels": 0.54,
+    "aspect_ratio": 1.493
+  },
+  "image151.jpeg": {
+    "path": "public/photos/raw/_docx/image151.jpeg",
+    "width": 2000,
+    "height": 1518,
+    "megapixels": 3.04,
+    "aspect_ratio": 1.318
+  },
+  "image17.jpeg": {
+    "path": "public/photos/raw/_docx/image17.jpeg",
+    "width": 1381,
+    "height": 1197,
+    "megapixels": 1.65,
+    "aspect_ratio": 1.154
+  },
+  "image278.jpeg": {
+    "path": "public/photos/raw/_docx6/image278.jpeg",
+    "width": 800,
+    "height": 800,
+    "megapixels": 0.64,
+    "aspect_ratio": 1.0
+  },
+  "image60.jpeg": {
+    "path": "public/photos/raw/_docx/image60.jpeg",
+    "width": 1266,
+    "height": 1266,
+    "megapixels": 1.6,
+    "aspect_ratio": 1.0
+  },
+  "image126.jpeg": {
+    "path": "public/photos/raw/_docx/image126.jpeg",
+    "width": 489,
+    "height": 336,
+    "megapixels": 0.16,
+    "aspect_ratio": 1.455
+  },
+  "image258.jpeg": {
+    "path": "public/photos/raw/_docx6/image258.jpeg",
+    "width": 1200,
+    "height": 673,
+    "megapixels": 0.81,
+    "aspect_ratio": 1.783
+  },
+  "image37.jpeg": {
+    "path": "public/photos/raw/_docx/image37.jpeg",
+    "width": 400,
+    "height": 400,
+    "megapixels": 0.16,
+    "aspect_ratio": 1.0
+  },
+  "image171.jpeg": {
+    "path": "public/photos/raw/_docx/image171.jpeg",
+    "width": 689,
+    "height": 363,
+    "megapixels": 0.25,
+    "aspect_ratio": 1.898
+  },
+  "image21.jpeg": {
+    "path": "public/photos/raw/_docx/image21.jpeg",
+    "width": 660,
+    "height": 697,
+    "megapixels": 0.46,
+    "aspect_ratio": 0.947
+  },
+  "image188.jpeg": {
+    "path": "public/photos/raw/_docx6/image188.jpeg",
+    "width": 600,
+    "height": 600,
+    "megapixels": 0.36,
+    "aspect_ratio": 1.0
+  },
+  "image167.jpeg": {
+    "path": "public/photos/raw/_docx/image167.jpeg",
+    "width": 1000,
+    "height": 1000,
+    "megapixels": 1.0,
+    "aspect_ratio": 1.0
+  },
+  "image99.jpeg": {
+    "path": "public/photos/raw/_docx/image99.jpeg",
+    "width": 1267,
+    "height": 1267,
+    "megapixels": 1.61,
+    "aspect_ratio": 1.0
+  },
+  "image219.jpeg": {
+    "path": "public/photos/raw/_docx6/image219.jpeg",
+    "width": 1601,
+    "height": 1601,
+    "megapixels": 2.56,
+    "aspect_ratio": 1.0
+  },
+  "image76.jpeg": {
+    "path": "public/photos/raw/_docx/image76.jpeg",
+    "width": 680,
+    "height": 510,
+    "megapixels": 0.35,
+    "aspect_ratio": 1.333
+  },
+  "image130.jpeg": {
+    "path": "public/photos/raw/_docx/image130.jpeg",
+    "width": 1266,
+    "height": 2035,
+    "megapixels": 2.58,
+    "aspect_ratio": 0.622
+  },
+  "image262.jpeg": {
+    "path": "public/photos/raw/_docx6/image262.jpeg",
+    "width": 600,
+    "height": 400,
+    "megapixels": 0.24,
+    "aspect_ratio": 1.5
+  },
+  "image235.jpeg": {
+    "path": "public/photos/raw/_docx6/image235.jpeg",
+    "width": 1280,
+    "height": 1280,
+    "megapixels": 1.64,
+    "aspect_ratio": 1.0
+  },
+  "image3.jpeg": {
+    "path": "public/photos/raw/_docx/image3.jpeg",
+    "width": 640,
+    "height": 640,
+    "megapixels": 0.41,
+    "aspect_ratio": 1.0
+  },
+  "image223.jpeg": {
+    "path": "public/photos/raw/_docx6/image223.jpeg",
+    "width": 400,
+    "height": 400,
+    "megapixels": 0.16,
+    "aspect_ratio": 1.0
+  },
+  "image274.jpeg": {
+    "path": "public/photos/raw/_docx6/image274.jpeg",
+    "width": 500,
+    "height": 471,
+    "megapixels": 0.24,
+    "aspect_ratio": 1.062
+  },
+  "image22.jpeg": {
+    "path": "public/photos/raw/_docx/image22.jpeg",
+    "width": 1280,
+    "height": 960,
+    "megapixels": 1.23,
+    "aspect_ratio": 1.333
+  },
+  "image35.jpeg": {
+    "path": "public/photos/raw/_docx/image35.jpeg",
+    "width": 1024,
+    "height": 699,
+    "megapixels": 0.72,
+    "aspect_ratio": 1.465
+  },
+  "image12.jpeg": {
+    "path": "public/photos/raw/_docx/image12.jpeg",
+    "width": 1024,
+    "height": 576,
+    "megapixels": 0.59,
+    "aspect_ratio": 1.778
+  },
+  "image6.jpeg": {
+    "path": "public/photos/raw/_docx/image6.jpeg",
+    "width": 1280,
+    "height": 1440,
+    "megapixels": 1.84,
+    "aspect_ratio": 0.889
+  },
+  "image29.jpeg": {
+    "path": "public/photos/raw/_docx/image29.jpeg",
+    "width": 720,
+    "height": 720,
+    "megapixels": 0.52,
+    "aspect_ratio": 1.0
+  },
+  "image36.jpeg": {
+    "path": "public/photos/raw/_docx/image36.jpeg",
+    "width": 1200,
+    "height": 1200,
+    "megapixels": 1.44,
+    "aspect_ratio": 1.0
+  }
+}

@@ -27,7 +27,7 @@ export default function QCPage({ params }: { params: { locale: Locale } }) {
               <h1 className="max-w-2xl text-[40px] font-bold leading-[1.15] text-navy">{t.h1}</h1>
               <p className="mt-5 max-w-xl text-[17px] text-graphite">{t.p}</p>
             </div>
-            <PlaceholderPhoto caption="Quality inspection" prompt="quality control inspector using precision measuring tools on metal industrial parts in clean laboratory, realistic photograph, bright lighting" alt="QC" imageSize="landscape_4_3" className="aspect-[4/3] min-h-[280px] rounded-sm card-elevated" />
+            <PlaceholderPhoto caption="Quality inspection" prompt="quality control inspector using precision measuring tools on metal industrial parts in clean laboratory, realistic photograph, bright lighting" alt="QC" imageSize="landscape_4_3" className="aspect-[4/3] min-h-[280px] rounded-sm card-elevated" src="/photos/raw/pixabay-compressor-machine.jpg" />
           </div>
         </div>
       </section>

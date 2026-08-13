@@ -1,0 +1,86 @@
+{
+  "version": "v2-i18n",
+  "generated": "2026-08-11",
+  "pages": [
+    {
+      "route": "/v2/[locale]",
+      "en": true,
+      "zh": false,
+      "ru": false,
+      "fallback_mechanism": false,
+      "has_placeholder": false,
+      "i18n_score": "en_only"
+    },
+    {
+      "route": "/v2/[locale]",
+      "en": true,
+      "zh": true,
+      "ru": true,
+      "fallback_mechanism": true,
+      "has_placeholder": false,
+      "i18n_score": "full"
+    },
+    {
+      "route": "/v2/[locale]/capability-network",
+      "en": true,
+      "zh": false,
+      "ru": false,
+      "fallback_mechanism": false,
+      "has_placeholder": false,
+      "i18n_score": "en_only"
+    },
+    {
+      "route": "/v2/[locale]/industries/{slug}",
+      "en": true,
+      "zh": false,
+      "ru": false,
+      "fallback_mechanism": false,
+      "has_placeholder": false,
+      "i18n_score": "en_only"
+    },
+    {
+      "route": "/v2/[locale]/solutions/{slug}",
+      "en": true,
+      "zh": false,
+      "ru": false,
+      "fallback_mechanism": false,
+      "has_placeholder": false,
+      "i18n_score": "en_only"
+    },
+    {
+      "route": "/v2/[locale]/oem",
+      "en": true,
+      "zh": true,
+      "ru": true,
+      "fallback_mechanism": true,
+      "has_placeholder": false,
+      "i18n_score": "full"
+    },
+    {
+      "route": "/v2/[locale]/partners/{slug}",
+      "en": true,
+      "zh": false,
+      "ru": false,
+      "fallback_mechanism": false,
+      "has_placeholder": false,
+      "i18n_score": "en_only"
+    },
+    {
+      "route": "/v2/[locale]/request",
+      "en": true,
+      "zh": false,
+      "ru": false,
+      "fallback_mechanism": false,
+      "has_placeholder": false,
+      "i18n_score": "en_only"
+    }
+  ],
+  "summary": {
+    "total": 8,
+    "full_i18n": 2,
+    "partial": 0,
+    "en_only": 6,
+    "with_placeholders": 0,
+    "placeholder_count": 0
+  }
+}

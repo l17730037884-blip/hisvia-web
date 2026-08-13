@@ -12,6 +12,8 @@ export const routes = {
     automation: "/solutions/automation",
     mechanical: "/solutions/mechanical",
     consumables: "/solutions/consumables",
+    filtration: "/solutions/filtration",
+    pneumatics: "/solutions/pneumatics",
   },
   brands: "/brands",
   brand: (slug: string) => `/brands/${slug}`,

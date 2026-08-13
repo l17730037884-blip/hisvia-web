@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>HISVIA AI Pipeline V2 — Visual Review</title>
+<style>
+:root{--bg:#1a1a2e;--card:#16213e;--border:#2a2a4a;--text:#e0e0e0;--muted:#8892a4;--accent:#4fc3f7;--green:#66bb6a;--red:#ef5350;--orange:#ffa726}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+header{background:var(--card);border-bottom:1px solid var(--border);padding:16px 24px;position:sticky;top:0;z-index:10}
+header h1{font-size:20px;color:#fff}
+header .sub{font-size:12px;color:var(--muted);margin-top:2px}
+.review-item{background:var(--card);border:1px solid var(--border);border-radius:12px;margin:20px 24px;overflow:hidden}
+.review-header{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;background:rgba(255,255,255,.03);border-bottom:1px solid var(--border);flex-wrap:wrap;gap:10px}
+.review-header .info{flex:1;min-width:200px}
+.review-header .info h3{font-size:15px;color:#fff;margin-bottom:2px}
+.review-header .info .meta{font-size:11px;color:var(--muted);display:flex;gap:12px;flex-wrap:wrap}
+.review-header .info .meta span{background:rgba(255,255,255,.05);padding:2px 8px;border-radius:4px}
+.review-header .actions{display:flex;gap:8px}
+.review-header .actions button{padding:6px 14px;border-radius:6px;font-size:12px;cursor:pointer;border:1px solid var(--border);font-weight:500;transition:all .15s}
+.btn-approve{background:rgba(102,187,106,.15);color:var(--green);border-color:var(--green)!important}
+.btn-approve:hover{background:rgba(102,187,106,.25)}
+.btn-approve.active{background:var(--green);color:#fff}
+.btn-reject{background:rgba(239,83,80,.15);color:var(--red);border-color:var(--red)!important}
+.btn-reject:hover{background:rgba(239,83,80,.25)}
+.btn-reject.active{background:var(--red);color:#fff}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border)}
+.compare-col{padding:16px;background:var(--card)}
+.compare-col h4{font-size:12px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-bottom:10px}
+.compare-col .img-box{background:#0a0a1a;border-radius:8px;display:flex;align-items:center;justify-content:center;min-height:200px;overflow:hidden;border:1px solid rgba(255,255,255,.05)}
+.compare-col .img-box img{max-width:100%;max-height:400px;object-fit:contain}
+.variants-section{padding:14px 20px;border-top:1px solid var(--border)}
+.variants-section h4{font-size:12px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-bottom:10px}
+.variants-grid{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px}
+.variant-card{min-width:180px;max-width:220px;background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:8px;overflow:hidden;flex-shrink:0}
+.variant-card .v-img{background:#0a0a1a;height:130px;display:flex;align-items:center;justify-content:center;border-bottom:1px solid var(--border)}
+.variant-card .v-img img{max-width:100%;max-height:120px;object-fit:contain}
+.variant-card .v-label{padding:6px 8px;font-size:10px;text-align:center}
+.variant-card .v-label .t{color:var(--accent);font-weight:600;text-transform:uppercase}
+.variant-card .v-label .s{color:var(--muted);font-size:9px;display:block}
+.analysis-bar{padding:10px 20px;border-top:1px solid var(--border);display:flex;gap:16px;flex-wrap:wrap;font-size:11px;align-items:center}
+.analysis-bar .metric{display:flex;align-items:center;gap:6px}
+.analysis-bar .metric .m-label{color:var(--muted)}
+.analysis-bar .metric .m-val{font-weight:600}
+.analysis-bar .score-dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+.s-excellent{background:var(--green)}.s-good{background:var(--orange)}.s-fair{background:var(--red)}
+.status-approved{border-left:3px solid var(--green)}
+.status-rejected{border-left:3px solid var(--red)}
+.summary-bar{display:flex;gap:12px;padding:10px 24px;background:var(--card);border-bottom:1px solid var(--border);font-size:12px;color:var(--muted);align-items:center}
+.summary-bar .count{font-weight:700;font-size:16px}
+.empty{text-align:center;padding:60px;color:var(--muted)}
+@media(max-width:768px){.compare{grid-template-columns:1fr}.variants-grid{flex-wrap:wrap}}
+</style>
+</head>
+<body>
+<header>
+<h1>HISVIA AI Pipeline V2 — Visual Review</h1>
+<div class="sub">10 test images · AI-processed variants · Approve / Reject</div>
+</header>
+<div class="summary-bar">
+<span>Total: <span class="count" id="totalCount">10</span></span>
+<span>Approved: <span class="count" style="color:var(--green)" id="approvedCount">0</span></span>
+<span>Rejected: <span class="count" style="color:var(--red)" id="rejectedCount">0</span></span>
+<span style="margin-left:auto">Click Approve/Reject to mark each image</span>
+</div>
+<div id="reviewContainer"></div>
+
+<script>
+var DATA = [{"id": "asset-04499f18", "filename": "part-filter-4.jpg", "asset_type": "part", "brand": "", "category_lv1": "filter", "category_lv2": "filter_element", "original_path": "/photos/raw/_final/part-filter-4.jpg", "processed_files": [{"type": "transparent_png", "path": "/assets/processed/transparent/asset-04499f18_nobg.png", "width": 2048, "height": 2048, "format": "png", "created_at": "2026-08-10T01:46:10.636079", "method": "edge+color_distance"}, {"type": "upscaled", "path": "/assets/processed/upscaled/asset-04499f18_upscaled.jpg", "width": 2048, "height": 2048, "format": "jpeg", "created_at": "2026-08-10T01:46:10.636095", "method": "lanczos"}, {"type": "main", "path": "/assets/processed/gallery/asset-04499f18_main.jpg", "width": 2048, "height": 2048, "format": "jpeg", "created_at": "2026-08-10T01:46:10.636098", "method": "enhanced"}, {"type": "detail", "path": "/assets/processed/gallery/asset-04499f18_detail.jpg", "width": 2048, "height": 2048, "format": "jpeg", "created_at": "2026-08-10T01:46:10.636101", "method": "enhanced"}, {"type": "wide", "path": "/assets/processed/gallery/asset-04499f18_wide.jpg", "width": 2048, "height": 2048, "format": "jpeg", "created_at": "2026-08-10T01:46:10.636104", "method": "enhanced"}], "processing_method": "ai-openai", "model_used": "gpt-4o-mini + Pillow", "quality_score": 0.81, "processing_status": "processed", "analysis": {"asset_id": "asset-04499f18", "filename": "part-filter-4.jpg", "asset_type": "part", "dimensions": {"width": 2048, "height": 2048}, "aspect_ratio": 1.0, "main_subject": "filter element", "dominant_colors": [{"rgb": [0, 0, 0], "pct": 14.0}, {"rgb": [224, 224, 224], "pct": 5.1}, {"rgb": [224, 224, 192], "pct": 4.8}, {"rgb": [192, 192, 160], "pct": 4.5}, {"rgb": [160, 160, 128], "pct": 4.2}], "brightness_avg": 116.3, "contrast_std": 76.1, "edge_density": 0.537, "texture_sharpness": 547.0, "background_type": "industrial_complex", "has_brand_logo": false, "brand_name": "", "commercial_quality": "excellent", "quality_scores": {"resolution": 1.0, "sharpness": 1.0, "contrast": 1.0, "background": 0.3, "composition": 0.7}, "overall_score": 0.8, "suitable_for_hero": false, "suitable_for_gallery": true, "needs_background_removal": true, "method": "local-cv", "model": "Pillow+numpy+scipy"}}, {"id": "asset-82bfcf8d", "filename": "part-oilsep-0.jpg", "asset_type": "part", "brand": "", "category_lv1": "filter", "category_lv2": "oil_separator", "original_path": "/photos/raw/_final/part-oilsep-0.jpg", "processed_files": [{"type": "transparent_png", "path": "/assets/processed/transparent/asset-82bfcf8d_nobg.png", "width": 800, "height": 800, "format": "png", "created_at": "2026-08-10T01:46:12.662711", "method": "edge+color_distance"}, {"type": "upscaled", "path": "/assets/processed/upscaled/asset-82bfcf8d_upscaled.jpg", "width": 1200, "height": 1200, "format": "jpeg", "created_at": "2026-08-10T01:46:12.662724", "method": "lanczos"}, {"type": "main", "path": "/assets/processed/gallery/asset-82bfcf8d_main.jpg", "width": 800, "height": 800, "format": "jpeg", "created_at": "2026-08-10T01:46:12.662727", "method": "enhanced"}, {"type": "detail", "path": "/assets/processed/gallery/asset-82bfcf8d_detail.jpg", "width": 800, "height": 800, "format": "jpeg", "created_at": "2026-08-10T01:46:12.662729", "method": "enhanced"}, {"type": "wide", "path": "/assets/processed/gallery/asset-82bfcf8d_wide.jpg", "width": 1000, "height": 1000, "format": "jpeg", "created_at": "2026-08-10T01:46:12.662731", "method": "enhanced"}], "processing_method": "ai-openai", "model_used": "gpt-4o-mini + Pillow", "quality_score": 0.73, "processing_status": "processed", "analysis": {"asset_id": "asset-82bfcf8d", "filename": "part-oilsep-0.jpg", "asset_type": "part", "dimensions": {"width": 800, "height": 800}, "aspect_ratio": 1.0, "main_subject": "oil separator", "dominant_colors": [{"rgb": [224, 224, 224], "pct": 74.7}, {"rgb": [0, 0, 0], "pct": 4.8}, {"rgb": [192, 192, 192], "pct": 2.5}, {"rgb": [160, 160, 160], "pct": 2.2}, {"rgb": [128, 128, 128], "pct": 2.0}], "brightness_avg": 218.4, "contrast_std": 71.3, "edge_density": 0.176, "texture_sharpness": 2659.1, "background_type": "studio_solid", "has_brand_logo": false, "brand_name": "", "commercial_quality": "excellent", "quality_scores": {"resolution": 0.64, "sharpness": 1.0, "contrast": 1.0, "background": 0.3, "composition": 0.7}, "overall_score": 0.73, "suitable_for_hero": false, "suitable_for_gallery": true, "needs_background_removal": true, "method": "local-cv", "model": "Pillow+numpy+scipy"}}, {"id": "asset-8ca0f6e8", "filename": "part-oilsep-1.jpg", "asset_type": "part", "brand": "", "category_lv1": "filter", "category_lv2": "oil_separator", "original_path": "/photos/raw/_final/part-oilsep-1.jpg", "processed_files": [{"type": "transparent_png", "path": "/assets/processed/transparent/asset-8ca0f6e8_nobg.png", "width": 750, "height": 750, "format": "png", "created_at": "2026-08-10T01:46:15.004346", "method": "edge+color_distance"}, {"type": "upscaled", "path": "/assets/processed/upscaled/asset-8ca0f6e8_upscaled.jpg", "width": 1200, "height": 1200, "format": "jpeg", "created_at": "2026-08-10T01:46:15.004360", "method": "lanczos"}, {"type": "main", "path": "/assets/processed/gallery/asset-8ca0f6e8_main.jpg", "width": 800, "height": 800, "format": "jpeg", "created_at": "2026-08-10T01:46:15.004363", "method": "enhanced"}, {"type": "detail", "path": "/assets/processed/gallery/asset-8ca0f6e8_detail.jpg", "width": 750, "height": 750, "format": "jpeg", "created_at": "2026-08-10T01:46:15.004366", "method": "enhanced"}, {"type": "wide", "path": "/assets/processed/gallery/asset-8ca0f6e8_wide.jpg", "width": 1000, "height": 1000, "format": "jpeg", "created_at": "2026-08-10T01:46:15.004368", "method": "enhanced"}], "processing_method": "ai-openai", "model_used": "gpt-4o-mini + Pillow", "quality_score": 0.73, "processing_status": "processed", "analysis": {"asset_id": "asset-8ca0f6e8", "filename": "part-oilsep-1.jpg", "asset_type": "part", "dimensions": {"width": 750, "height": 750}, "aspect_ratio": 1.0, "main_subject": "oil separator", "dominant_colors": [{"rgb": [224, 224, 224], "pct": 56.7}, {"rgb": [224, 96, 0], "pct": 4.9}, {"rgb": [0, 0, 0], "pct": 3.7}, {"rgb": [64, 64, 64], "pct": 3.2}, {"rgb": [64, 64, 32], "pct": 2.3}], "brightness_avg": 187.7, "contrast_std": 84.3, "edge_density": 0.21, "texture_sharpness": 1442.4, "background_type": "studio_solid", "has_brand_logo": false, "brand_name": "", "commercial_quality": "excellent", "quality_scores": {"resolution": 0.56, "sharpness": 1.0, "contrast": 1.0, "background": 0.3, "composition": 0.7}, "overall_score": 0.71, "suitable_for_hero": false, "suitable_for_gallery": true, "needs_background_removal": true, "method": "local-cv", "model": "Pillow+numpy+scipy"}}, {"id": "asset-9adaa31c", "filename": "image41.jpeg", "asset_type": "manufacturing", "brand": "", "category_lv1": "other", "category_lv2": "industrial_equipment", "original_path": "/photos/raw/_docx5/image41.jpeg", "processed_files": [{"type": "factory_view", "path": "/assets/processed/factory/asset-9adaa31c_factory.jpg", "width": 1200, "height": 1600, "format": "jpeg", "created_at": "2026-08-10T01:46:19.579513", "method": "enhanced"}], "processing_method": "ai-openai", "model_used": "gpt-4o-mini + Pillow", "quality_score": 0.69, "processing_status": "processed", "analysis": {"asset_id": "asset-9adaa31c", "filename": "image41.jpeg", "asset_type": "manufacturing", "dimensions": {"width": 1200, "height": 1600}, "aspect_ratio": 0.75, "main_subject": "industrial equipment", "dominant_colors": [{"rgb": [64, 64, 64], "pct": 15.0}, {"rgb": [32, 32, 32], "pct": 14.6}, {"rgb": [0, 0, 0], "pct": 10.1}, {"rgb": [96, 96, 96], "pct": 8.3}, {"rgb": [96, 96, 64], "pct": 7.0}], "brightness_avg": 94.8, "contrast_std": 54.9, "edge_density": 0.605, "texture_sharpness": 1225.4, "background_type": "industrial_complex", "has_brand_logo": false, "brand_name": "", "commercial_quality": "excellent", "quality_scores": {"resolution": 1.0, "sharpness": 1.0, "contrast": 0.92, "background": 0.3, "composition": 0.7}, "overall_score": 0.78, "suitable_for_hero": false, "suitable_for_gallery": true, "needs_background_removal": true, "method": "local-cv", "model": "Pillow+numpy+scipy"}}, {"id": "asset-dc129126", "filename": "image42.jpeg", "asset_type": "manufacturing", "brand": "", "category_lv1": "other", "category_lv2": "industrial_equipment", "original_path": "/photos/raw/_docx5/image42.jpeg", "processed_files": [{"type": "factory_view", "path": "/assets/processed/factory/asset-dc129126_factory.jpg", "width": 1600, "height": 758, "format": "jpeg", "created_at": "2026-08-10T01:46:21.187353", "method": "enhanced"}], "processing_method": "ai-openai", "model_used": "gpt-4o-mini + Pillow", "quality_score": 0.69, "processing_status": "processed", "analysis": {"asset_id": "asset-dc129126", "filename": "image42.jpeg", "asset_type": "manufacturing", "dimensions": {"width": 1600, "height": 758}, "aspect_ratio": 2.11, "main_subject": "industrial equipment", "dominant_colors": [{"rgb": [224, 224, 224], "pct": 8.2}, {"rgb": [32, 32, 32], "pct": 6.1}, {"rgb": [0, 0, 0], "pct": 4.3}, {"rgb": [32, 32, 0], "pct": 3.9}, {"rgb": [192, 192, 192], "pct": 3.4}], "brightness_avg": 122.2, "contrast_std": 69.9, "edge_density": 0.582, "texture_sharpness": 2657.6, "background_type": "industrial_complex", "has_brand_logo": false, "brand_name": "", "commercial_quality": "excellent", "quality_scores": {"resolution": 1.0, "sharpness": 1.0, "contrast": 1.0, "background": 0.3, "composition": 0.5}, "overall_score": 0.76, "suitable_for_hero": false, "suitable_for_gallery": true, "needs_background_removal": true, "method": "local-cv", "model": "Pillow+numpy+scipy"}}, {"id": "asset-0c33ffa1", "filename": "image145.jpeg", "asset_type": "product", "brand": "", "category_lv1": "compressor", "category_lv2": "compressor_general", "original_path": "/photos/raw/_docx/image145.jpeg", "processed_files": [{"type": "transparent_png", "path": "/assets/processed/transparent/asset-0c33ffa1_nobg.png", "width": 1200, "height": 900, "format": "png", "created_at": "2026-08-10T01:45:47.634766", "method": "edge+color_distance"}, {"type": "upscaled", "path": "/assets/processed/upscaled/asset-0c33ffa1_upscaled.jpg", "width": 1200, "height": 900, "format": "jpeg", "created_at": "2026-08-10T01:45:47.634777", "method": "lanczos"}, {"type": "main", "path": "/assets/processed/gallery/asset-0c33ffa1_main.jpg", "width": 1200, "height": 900, "format": "jpeg", "created_at": "2026-08-10T01:45:47.634779", "method": "enhanced"}, {"type": "detail", "path": "/assets/processed/gallery/asset-0c33ffa1_detail.jpg", "width": 1200, "height": 900, "format": "jpeg", "created_at": "2026-08-10T01:45:47.634782", "method": "enhanced"}, {"type": "wide", "path": "/assets/processed/gallery/asset-0c33ffa1_wide.jpg", "width": 1200, "height": 900, "format": "jpeg", "created_at": "2026-08-10T01:45:47.634784", "method": "enhanced"}], "processing_method": "ai-openai", "model_used": "gpt-4o-mini + Pillow", "quality_score": 0.71, "processing_status": "processed", "analysis": {"asset_id": "asset-0c33ffa1", "filename": "image145.jpeg", "asset_type": "product", "dimensions": {"width": 1200, "height": 900}, "aspect_ratio": 1.33, "main_subject": "compressor general", "dominant_colors": [{"rgb": [224, 224, 224], "pct": 37.9}, {"rgb": [192, 192, 192], "pct": 18.8}, {"rgb": [128, 96, 64], "pct": 4.1}, {"rgb": [224, 192, 192], "pct": 2.9}, {"rgb": [192, 192, 160], "pct": 2.8}], "brightness_avg": 186.4, "contrast_std": 59.0, "edge_density": 0.439, "texture_sharpness": 1025.3, "background_type": "studio_solid", "has_brand_logo": false, "brand_name": "", "commercial_quality": "excellent", "quality_scores": {"resolution": 1.0, "sharpness": 1.0, "contrast": 0.98, "background": 0.3, "composition": 0.7}, "overall_score": 0.8, "suitable_for_hero": false, "suitable_for_gallery": true, "needs_background_removal": true, "method": "local-cv", "model": "Pillow+numpy+scipy"}}, {"id": "asset-2d60b432", "filename": "image35.jpeg", "asset_type": "brand_machine", "brand": "Yaskawa", "category_lv1": "automation", "category_lv2": "automation_general", "original_path": "/photos/raw/_docx2/image35.jpeg", "processed_files": [{"type": "hero_16x9", "path": "/assets/processed/hero/asset-2d60b432_hero.jpg", "width": 1600, "height": 900, "format": "jpeg", "created_at": "2026-08-10T01:46:16.657694", "method": "compose+gradient"}, {"type": "industrial_scene", "path": "/assets/processed/scene/asset-2d60b432_scene.jpg", "width": 1200, "height": 1799, "format": "jpeg", "created_at": "2026-08-10T01:46:16.657705", "method": "enhanced"}], "processing_method": "ai-openai", "model_used": "gpt-4o-mini + Pillow", "quality_score": 0.77, "processing_status": "processed", "analysis": {"asset_id": "asset-2d60b432", "filename": "image35.jpeg", "asset_type": "brand_machine", "dimensions": {"width": 1100, "height": 1650}, "aspect_ratio": 0.67, "main_subject": "Yaskawa automation general", "dominant_colors": [{"rgb": [96, 96, 96], "pct": 14.3}, {"rgb": [128, 128, 128], "pct": 10.0}, {"rgb": [64, 64, 64], "pct": 7.2}, {"rgb": [160, 160, 160], "pct": 5.4}, {"rgb": [192, 192, 192], "pct": 4.9}], "brightness_avg": 126.4, "contrast_std": 54.3, "edge_density": 0.529, "texture_sharpness": 1232.3, "background_type": "industrial_complex", "has_brand_logo": true, "brand_name": "Yaskawa", "commercial_quality": "excellent", "quality_scores": {"resolution": 1.0, "sharpness": 1.0, "contrast": 0.9, "background": 0.3, "composition": 0.7}, "overall_score": 0.78, "suitable_for_hero": false, "suitable_for_gallery": true, "needs_background_removal": true, "method": "local-cv", "model": "Pillow+numpy+scipy"}}, {"id": "asset-7b5cb069", "filename": "image37.jpeg", "asset_type": "brand_machine", "brand": "Yaskawa", "category_lv1": "automation", "category_lv2": "automation_general", "original_path": "/photos/raw/_docx2/image37.jpeg", "processed_files": [{"type": "hero_16x9", "path": "/assets/processed/hero/asset-7b5cb069_hero.jpg", "width": 1600, "height": 900, "format": "jpeg", "created_at": "2026-08-10T01:46:18.112278", "method": "compose+gradient"}, {"type": "industrial_scene", "path": "/assets/processed/scene/asset-7b5cb069_scene.jpg", "width": 1200, "height": 900, "format": "jpeg", "created_at": "2026-08-10T01:46:18.112292", "method": "enhanced"}], "processing_method": "ai-openai", "model_used": "gpt-4o-mini + Pillow", "quality_score": 0.77, "processing_status": "processed", "analysis": {"asset_id": "asset-7b5cb069", "filename": "image37.jpeg", "asset_type": "brand_machine", "dimensions": {"width": 1200, "height": 900}, "aspect_ratio": 1.33, "main_subject": "Yaskawa automation general", "dominant_colors": [{"rgb": [0, 0, 0], "pct": 12.1}, {"rgb": [32, 32, 32], "pct": 10.8}, {"rgb": [64, 64, 64], "pct": 6.4}, {"rgb": [224, 224, 224], "pct": 5.6}, {"rgb": [96, 96, 96], "pct": 4.7}], "brightness_avg": 98.5, "contrast_std": 67.8, "edge_density": 0.624, "texture_sharpness": 2710.1, "background_type": "industrial_complex", "has_brand_logo": true, "brand_name": "Yaskawa", "commercial_quality": "excellent", "quality_scores": {"resolution": 1.0, "sharpness": 1.0, "contrast": 1.0, "background": 0.3, "composition": 0.7}, "overall_score": 0.8, "suitable_for_hero": false, "suitable_for_gallery": true, "needs_background_removal": true, "method": "local-cv", "model": "Pillow+numpy+scipy"}}, {"id": "asset-ef87717c", "filename": "image62.jpeg", "asset_type": "product", "brand": "", "category_lv1": "compressor", "category_lv2": "air_treatment_system", "original_path": "/photos/raw/_docx6/image62.jpeg", "processed_files": [{"type": "transparent_png", "path": "/assets/processed/transparent/asset-ef87717c_nobg.png", "width": 1600, "height": 1790, "format": "png", "created_at": "2026-08-10T01:45:42.917998", "method": "edge+color_distance"}, {"type": "upscaled", "path": "/assets/processed/upscaled/asset-ef87717c_upscaled.jpg", "width": 1600, "height": 1790, "format": "jpeg", "created_at": "2026-08-10T01:45:42.918012", "method": "lanczos"}, {"type": "main", "path": "/assets/processed/gallery/asset-ef87717c_main.jpg", "width": 1600, "height": 1790, "format": "jpeg", "created_at": "2026-08-10T01:45:42.918016", "method": "enhanced"}, {"type": "detail", "path": "/assets/processed/gallery/asset-ef87717c_detail.jpg", "width": 1600, "height": 1790, "format": "jpeg", "created_at": "2026-08-10T01:45:42.918019", "method": "enhanced"}, {"type": "wide", "path": "/assets/processed/gallery/asset-ef87717c_wide.jpg", "width": 1600, "height": 1790, "format": "jpeg", "created_at": "2026-08-10T01:45:42.918021", "method": "enhanced"}], "processing_method": "ai-openai", "model_used": "gpt-4o-mini + Pillow", "quality_score": 0.74, "processing_status": "processed", "analysis": {"asset_id": "asset-ef87717c", "filename": "image62.jpeg", "asset_type": "product", "dimensions": {"width": 1600, "height": 1790}, "aspect_ratio": 0.89, "main_subject": "air treatment system", "dominant_colors": [{"rgb": [224, 224, 224], "pct": 57.4}, {"rgb": [192, 192, 192], "pct": 19.7}, {"rgb": [160, 160, 160], "pct": 5.4}, {"rgb": [32, 32, 32], "pct": 4.0}, {"rgb": [128, 128, 128], "pct": 1.6}], "brightness_avg": 213.6, "contrast_std": 61.0, "edge_density": 0.245, "texture_sharpness": 750.2, "background_type": "studio_solid", "has_brand_logo": false, "brand_name": "", "commercial_quality": "excellent", "quality_scores": {"resolution": 1.0, "sharpness": 1.0, "contrast": 1.0, "background": 0.3, "composition": 0.7}, "overall_score": 0.8, "suitable_for_hero": false, "suitable_for_gallery": true, "needs_background_removal": true, "method": "local-cv", "model": "Pillow+numpy+scipy"}}, {"id": "asset-cb14195c", "filename": "image65.jpeg", "asset_type": "product", "brand": "", "category_lv1": "compressor", "category_lv2": "air_treatment_system", "original_path": "/photos/raw/_docx6/image65.jpeg", "processed_files": [{"type": "transparent_png", "path": "/assets/processed/transparent/asset-cb14195c_nobg.png", "width": 1680, "height": 1680, "format": "png", "created_at": "2026-08-10T01:45:53.800265", "method": "edge+color_distance"}, {"type": "upscaled", "path": "/assets/processed/upscaled/asset-cb14195c_upscaled.jpg", "width": 1680, "height": 1680, "format": "jpeg", "created_at": "2026-08-10T01:45:53.800278", "method": "lanczos"}, {"type": "main", "path": "/assets/processed/gallery/asset-cb14195c_main.jpg", "width": 1680, "height": 1680, "format": "jpeg", "created_at": "2026-08-10T01:45:53.800281", "method": "enhanced"}, {"type": "detail", "path": "/assets/processed/gallery/asset-cb14195c_detail.jpg", "width": 1680, "height": 1680, "format": "jpeg", "created_at": "2026-08-10T01:45:53.800283", "method": "enhanced"}, {"type": "wide", "path": "/assets/processed/gallery/asset-cb14195c_wide.jpg", "width": 1680, "height": 1680, "format": "jpeg", "created_at": "2026-08-10T01:45:53.800285", "method": "enhanced"}], "processing_method": "ai-openai", "model_used": "gpt-4o-mini + Pillow", "quality_score": 0.69, "processing_status": "processed", "analysis": {"asset_id": "asset-cb14195c", "filename": "image65.jpeg", "asset_type": "product", "dimensions": {"width": 1680, "height": 1680}, "aspect_ratio": 1.0, "main_subject": "air treatment system", "dominant_colors": [{"rgb": [224, 224, 224], "pct": 66.3}, {"rgb": [192, 192, 192], "pct": 4.2}, {"rgb": [160, 160, 160], "pct": 3.2}, {"rgb": [192, 224, 224], "pct": 2.7}, {"rgb": [128, 128, 128], "pct": 2.6}], "brightness_avg": 215.3, "contrast_std": 64.0, "edge_density": 0.242, "texture_sharpness": 429.9, "background_type": "studio_solid", "has_brand_logo": false, "brand_name": "", "commercial_quality": "excellent", "quality_scores": {"resolution": 1.0, "sharpness": 0.86, "contrast": 1.0, "background": 0.3, "composition": 0.7}, "overall_score": 0.77, "suitable_for_hero": false, "suitable_for_gallery": true, "needs_background_removal": true, "method": "local-cv", "model": "Pillow+numpy+scipy"}}];
+
+var reviews = {};
+
+function renderAll(){
+    var h='';
+    for(var i=0;i<DATA.length;i++){
+        var d=DATA[i];
+        var status=reviews[d.id]||'pending';
+        var a=d.analysis||{};
+        var qs=a.quality_scores||{};
+        var ql=a.commercial_quality||'';
+        var sc=ql==='excellent'?'s-excellent':ql==='good'?'s-good':'s-fair';
+        
+        // Variants
+        var vars='';
+        for(var j=0;j<d.processed_files.length;j++){
+            var pf=d.processed_files[j];
+            vars+='<div class="variant-card"><div class="v-img"><img loading="lazy" src="'+pf.path+'" alt=""/></div><div class="v-label"><span class="t">'+pf.type+'</span><span class="s">'+pf.width+'x'+pf.height+'</span></div></div>';
+        }
+        
+        // Analysis metrics
+        var metrics='';
+        if(Object.keys(qs).length>0){
+            metrics+='<div class="metric"><span class="m-label">Resolution</span><span class="m-val">'+(qs.resolution*100).toFixed(0)+'%</span></div>';
+            metrics+='<div class="metric"><span class="m-label">Sharpness</span><span class="m-val">'+(qs.sharpness*100).toFixed(0)+'%</span></div>';
+            metrics+='<div class="metric"><span class="m-label">Contrast</span><span class="m-val">'+(qs.contrast*100).toFixed(0)+'%</span></div>';
+            metrics+='<div class="metric"><span class="m-label">Quality</span><span class="score-dot '+sc+'"></span><span class="m-val">'+ql+'</span></div>';
+        }
+        if(a.background_type) metrics+='<div class="metric"><span class="m-label">BG</span><span class="m-val">'+a.background_type+'</span></div>';
+        
+        h+='<div class="review-item status-'+status+'" id="item-'+d.id+'">'+
+        '<div class="review-header">'+
+        '<div class="info">'+
+        '<h3>'+esc(d.filename)+'</h3>'+
+        '<div class="meta">'+
+        '<span>'+d.asset_type.replace(/_/g,' ')+'</span>'+
+        (d.brand?'<span>'+esc(d.brand)+'</span>':'')+
+        '<span>'+d.category_lv1+'/'+d.category_lv2+'</span>'+
+        '<span>'+d.processing_method+'</span>'+
+        '<span>Score: '+(d.quality_score*100).toFixed(0)+'%</span>'+
+        '</div></div>'+
+        '<div class="actions">'+
+        '<button class="btn-approve'+(status==='approved'?' active':'')+'" onclick="mark(''+d.id+'','approved')">✓ Approve</button>'+
+        '<button class="btn-reject'+(status==='rejected'?' active':'')+'" onclick="mark(''+d.id+'','rejected')">✕ Reject</button>'+
+        '</div></div>'+
+        '<div class="compare">'+
+        '<div class="compare-col"><h4>📷 Original</h4><div class="img-box"><img loading="lazy" src="'+d.original_path+'" alt=""/></div></div>'+
+        '<div class="compare-col"><h4>✨ Processed (best variant)</h4><div class="img-box"><img loading="lazy" src="'+(d.processed_files[0]?d.processed_files[0].path:d.original_path)+'" alt=""/></div></div>'+
+        '</div>'+
+        '<div class="variants-section"><h4>🎨 All Variants ('+d.processed_files.length+')</h4><div class="variants-grid">'+vars+'</div></div>'+
+        (metrics?'<div class="analysis-bar">'+metrics+'</div>':'')+
+        '</div>';
+    }
+    document.getElementById('reviewContainer').innerHTML=h;
+    updateCounts();
+}
+
+function mark(id,status){
+    reviews[id]=status;
+    var el=document.getElementById('item-'+id);
+    el.className='review-item status-'+status;
+    el.querySelector('.btn-approve').className='btn-approve'+(status==='approved'?' active':'');
+    el.querySelector('.btn-reject').className='btn-reject'+(status==='rejected'?' active':'');
+    updateCounts();
+}
+
+function updateCounts(){
+    var a=0,r=0;
+    for(var k in reviews){if(reviews[k]==='approved')a++;if(reviews[k]==='rejected')r++;}
+    document.getElementById('approvedCount').textContent=a;
+    document.getElementById('rejectedCount').textContent=r;
+}
+
+function esc(s){return(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+renderAll();
+</script>
+</body>
+</html>

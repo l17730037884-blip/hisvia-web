@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>补.docx — 8大方向配件分类归档</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"PingFang SC",sans-serif;background:#f0f2f5;color:#1a1a1a;padding:20px;line-height:1.5}
+h1{font-size:22px;margin-bottom:4px}
+.sub{font-size:13px;color:#666;margin-bottom:16px}
+.summary{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}
+.stat{background:#fff;border:1px solid #ddd;border-radius:4px;padding:8px 14px;font-size:13px}
+.stat b{font-size:20px}
+.note{background:#fffbe6;border:1px solid #ffe58f;border-radius:6px;padding:14px;margin-bottom:20px;font-size:12.5px;line-height:1.7}
+.note b{color:#d48806}
+.note ul{padding-left:18px;margin-top:4px}
+.note li{margin:2px 0}
+.toc{background:#fff;border:1px solid #ddd;border-radius:6px;padding:12px;margin-bottom:20px}
+.toc-title{font-size:13px;font-weight:700;margin-bottom:6px;color:#555}
+.toc a{display:inline-block;padding:4px 10px;margin:2px;background:#e8f0fe;border-radius:3px;text-decoration:none;color:#1a6fb2;font-size:12px}
+.toc a:hover{background:#1a6fb2;color:#fff}
+.cat{background:#fff;border:1px solid #ddd;border-radius:6px;margin-bottom:16px;overflow:hidden}
+.cat-h{background:linear-gradient(135deg,#1a6fb2,#2a7fc2);color:#fff;padding:14px 18px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.cat-h .en{font-size:16px;font-weight:700}
+.cat-h .cn{font-size:13px;opacity:0.9}
+.cat-h .cnt{font-size:12px;margin-left:auto;opacity:0.9;font-family:monospace}
+.cat-body{padding:14px 18px}
+.cat-desc{font-size:13px;color:#555;margin-bottom:10px;padding:8px 12px;background:#f7f9fc;border-left:3px solid #1a6fb2;border-radius:3px}
+.cat-sub{font-size:12px;color:#444;margin-bottom:12px;padding:8px 12px;background:#fffdf0;border:1px solid #ffe58f;border-radius:3px}
+.cat-sub ul{padding-left:16px;margin-top:4px}
+.cat-sub li{margin:2px 0}
+.cat-sub b{color:#d48806}
+.row{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}
+.c{background:#fff;border:1px solid #ddd;border-radius:4px;overflow:hidden}
+.c img{width:100%;height:160px;object-fit:contain;background:#fff;display:block;cursor:zoom-in;border-bottom:1px solid #eee}
+.c img.zoom{position:fixed;top:5%;left:5%;width:90%;height:auto;max-height:90vh;z-index:99}
+.lb{padding:6px 8px;font-size:10px}
+.lb .nm{font-weight:700;font-size:11px;margin-bottom:2px}
+.lb .fl{color:#999;font-size:9px;font-family:monospace}
+.adjust{background:#fff7e6;border:1px solid #ffd591;border-radius:6px;padding:14px;margin-bottom:20px;font-size:12.5px;line-height:1.7}
+.adjust b{color:#d4380d}
+.adjust-title{font-size:14px;font-weight:700;color:#d4380d;margin-bottom:6px}
+.adjust ul{padding-left:18px}
+</style></head><body>
+<h1>补.docx — 8大方向配件分类</h1>
+<p class="sub">按文档建议的HISVIA最终8大分类结构整理 · 共45张配件认知展示图</p>
+<div class="summary">
+<div class="stat"><b>45</b> 总图片</div>
+<div class="stat"><b>8</b> 大方向</div>
+<div class="stat"><b>3</b> 修正项</div>
+</div>
+
+<div class="note">
+<b>文档说明：</b>这批是「认知展示图」，用于网站分类页/设备解决方案页。后续正式商用建议替换为自有工厂/供应链实拍。
+<br>补完后素材库覆盖逻辑：<b>设备类型 → 维修场景 → 标准替换件 → 非标OEM能力</b>
+</div>
+
+<div class="adjust">
+<div class="adjust-title">⚠️ 文档建议分类调整（3处）</div>
+<ul>
+<li><b>电气自动化备件 → Industrial Automation &amp; Control</b>（更专业，含控制/驱动/检测/供电4个子层）</li>
+<li><b>柴油滤 → 移除</b>（偏发动机/车辆，改为 Fuel &amp; Lubrication Filtration）</li>
+<li><b>工业维修耗材 → Industrial Maintenance Solutions</b>（避免太泛拉低专业感，聚焦密封/紧固件/胶/磨料/工具）</li>
+</ul>
+</div>
+<div class="toc"><div class="toc-title">快速跳转 · HISVIA 最终推荐8大分类</div>
+<a href="#air">1. Air Compressor Systems 空压机系统</a>
+<a href="#hydraulic">2. Hydraulic Systems 液压系统</a>
+<a href="#pneumatic">3. Pneumatic Automation 气动自动化</a>
+<a href="#filtration">4. Industrial Filtration 工业过滤</a>
+<a href="#pumpvalve">5. Pumps & Valve Systems 泵阀流体系统</a>
+<a href="#control">6. Industrial Automation & Control 工业自动化控制</a>
+<a href="#mech">7. Mechanical Transmission Parts 机械传动件</a>
+<a href="#maint">8. Industrial Maintenance Solutions 工业维修耗材</a>
+</div>
+<div class="cat" id="air"><div class="cat-h"><span class="en">1. Air Compressor Systems</span><span class="cn">空压机系统</span><span class="cnt">4张</span></div><div class="cat-body"><div class="cat-desc"><b>方向说明：</b>主机维护(滤油器/分离器/滤芯/润滑油/维修包) + 压缩空气后处理</div><div class="cat-sub"><b>子分类 / 包含配件：</b><ul><li>油气分离器 Oil Separator ✅</li><li>空气滤芯 Air Filter ✅</li><li>油过滤器 Oil Filter ✅</li><li>润滑油 Lubricant ✅</li><li>维修包 Service Kit ✅</li><li>后处理：冷干机/吸干机滤芯/自动排水器/精密过滤器</li></ul></div><div class="row"><div class="c"><img src="/photos/raw/_docx3/image1.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#1</div><div class="fl">image1.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image2.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#2</div><div class="fl">image2.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image3.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#3</div><div class="fl">image3.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image4.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#4</div><div class="fl">image4.jpeg</div></div></div>
+</div></div></div>
+<div class="cat" id="hydraulic"><div class="cat-h"><span class="en">2. Hydraulic Systems</span><span class="cn">液压系统</span><span class="cnt">8张</span></div><div class="cat-body"><div class="cat-desc"><b>方向说明：</b>过滤(回油/吸油/高压) + 元件(阀/泵/马达) + 密封</div><div class="cat-sub"><b>子分类 / 包含配件：</b><ul><li>液压过滤：回油/吸油/高压过滤器</li><li>液压元件：方向阀/溢流阀/比例阀</li><li>液压泵 & 液压马达</li><li>密封件：油封/O型圈/密封包</li></ul></div><div class="row"><div class="c"><img src="/photos/raw/_docx3/image5.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#5</div><div class="fl">image5.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image6.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#6</div><div class="fl">image6.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image7.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#7</div><div class="fl">image7.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image8.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#8</div><div class="fl">image8.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image9.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#9</div><div class="fl">image9.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image10.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#10</div><div class="fl">image10.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image11.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#11</div><div class="fl">image11.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image12.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#12</div><div class="fl">image12.jpeg</div></div></div>
+</div></div></div>
+<div class="cat" id="pneumatic"><div class="cat-h"><span class="en">3. Pneumatic Automation</span><span class="cn">气动自动化</span><span class="cnt">4张</span></div><div class="cat-body"><div class="cat-desc"><b>方向说明：</b>气源处理 + 执行元件(气缸/电磁阀/气管/接头)</div><div class="cat-sub"><b>子分类 / 包含配件：</b><ul><li>FRL三联件(过滤器/调压阀/润滑器)</li><li>气缸</li><li>电磁阀</li><li>气管 + 气动接头</li><li>替代品牌：SMC/Festo/CKD/Parker</li></ul></div><div class="row"><div class="c"><img src="/photos/raw/_docx3/image13.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#13</div><div class="fl">image13.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image14.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#14</div><div class="fl">image14.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image15.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#15</div><div class="fl">image15.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image16.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#16</div><div class="fl">image16.jpeg</div></div></div>
+</div></div></div>
+<div class="cat" id="filtration"><div class="cat-h"><span class="en">4. Industrial Filtration</span><span class="cn">工业过滤</span><span class="cnt">6张</span></div><div class="cat-body"><div class="cat-desc"><b>方向说明：</b>空气过滤 + 液体过滤 + 工业过程过滤</div><div class="cat-sub"><b>子分类 / 包含配件：</b><ul><li>空气过滤：HVAC Filter / Dust Filter</li><li>液体过滤：Water / Oil / Chemical Filter</li><li>工业过程：Cartridge / Bag / Coalescing Filter</li><li>⚠️ 文档建议：去掉 Diesel Filter 改为 Fuel & Lubrication Filtration</li></ul></div><div class="row"><div class="c"><img src="/photos/raw/_docx3/image17.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#17</div><div class="fl">image17.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image18.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#18</div><div class="fl">image18.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image19.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#19</div><div class="fl">image19.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image20.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#20</div><div class="fl">image20.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image21.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#21</div><div class="fl">image21.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image22.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#22</div><div class="fl">image22.jpeg</div></div></div>
+</div></div></div>
+<div class="cat" id="pumpvalve"><div class="cat-h"><span class="en">5. Pumps & Valve Systems</span><span class="cn">泵阀流体系统</span><span class="cnt">4张</span></div><div class="cat-body"><div class="cat-desc"><b>方向说明：</b>泵类 + 阀类 + 机械密封</div><div class="cat-sub"><b>子分类 / 包含配件：</b><ul><li>泵：Centrifugal / Chemical / Vacuum / Screw Pump</li><li>阀：Ball / Butterfly / Gate / Control Valve</li><li>核心维修需求：Mechanical Seal 机械密封 ✅</li></ul></div><div class="row"><div class="c"><img src="/photos/raw/_docx3/image23.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#23</div><div class="fl">image23.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image24.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#24</div><div class="fl">image24.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image25.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#25</div><div class="fl">image25.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image26.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#26</div><div class="fl">image26.jpeg</div></div></div>
+</div></div></div>
+<div class="cat" id="control"><div class="cat-h"><span class="en">6. Industrial Automation & Control</span><span class="cn">工业自动化控制</span><span class="cnt">6张</span></div><div class="cat-body"><div class="cat-desc"><b>方向说明：</b>控制 + 驱动 + 检测 + 供电</div><div class="cat-sub"><b>子分类 / 包含配件：</b><ul><li>控制：PLC / HMI</li><li>驱动：Servo Drive / VFD 变频器</li><li>检测：Encoder 编码器 / Sensor 传感器</li><li>供电：Industrial Power Supply 工业电源</li></ul></div><div class="row"><div class="c"><img src="/photos/raw/_docx3/image27.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#27</div><div class="fl">image27.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image28.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#28</div><div class="fl">image28.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image29.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#29</div><div class="fl">image29.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image30.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#30</div><div class="fl">image30.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image31.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#31</div><div class="fl">image31.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image32.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#32</div><div class="fl">image32.jpeg</div></div></div>
+</div></div></div>
+<div class="cat" id="mech"><div class="cat-h"><span class="en">7. Mechanical Transmission Parts</span><span class="cn">机械传动件</span><span class="cnt">4张</span></div><div class="cat-body"><div class="cat-desc"><b>方向说明：</b>轴承/链条/链轮/皮带/同步带/联轴器 + 减速机 + 直线导轨</div><div class="cat-sub"><b>子分类 / 包含配件：</b><ul><li>Bearing Unit 轴承座</li><li>Chain & Sprocket 链条/链轮</li><li>Belt & Timing Belt 皮带/同步带</li><li>Coupling 联轴器</li><li>新增：Gearbox 减速机 + Linear Guide 直线导轨</li></ul></div><div class="row"><div class="c"><img src="/photos/raw/_docx3/image33.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#33</div><div class="fl">image33.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image34.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#34</div><div class="fl">image34.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image35.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#35</div><div class="fl">image35.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image36.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#36</div><div class="fl">image36.jpeg</div></div></div>
+</div></div></div>
+<div class="cat" id="maint"><div class="cat-h"><span class="en">8. Industrial Maintenance Solutions</span><span class="cn">工业维修耗材</span><span class="cnt">9张</span></div><div class="cat-body"><div class="cat-desc"><b>方向说明：</b>不叫耗材（太泛），改为维修解决方案：密封/紧固件/胶/磨料/工具</div><div class="cat-sub"><b>子分类 / 包含配件：</b><ul><li>Sealing Products 密封产品</li><li>Fasteners 螺丝紧固件</li><li>Adhesives 工业胶/密封胶</li><li>Abrasives 磨料磨具</li><li>Maintenance Tools 工业维修工具</li></ul></div><div class="row"><div class="c"><img src="/photos/raw/_docx3/image37.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#37</div><div class="fl">image37.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image38.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#38</div><div class="fl">image38.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image39.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#39</div><div class="fl">image39.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image40.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#40</div><div class="fl">image40.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image41.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#41</div><div class="fl">image41.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image42.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#42</div><div class="fl">image42.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image43.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#43</div><div class="fl">image43.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image44.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#44</div><div class="fl">image44.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx3/image45.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#45</div><div class="fl">image45.jpeg</div></div></div>
+</div></div></div>
+
+<div class="cat" style="border:2px solid #1a6fb2">
+<div class="cat-h"><span class="en">HISVIA 网站最终推荐结构</span><span class="cnt">共8大方向</span></div>
+<div class="cat-body" style="padding:18px">
+<div class="cat-desc" style="background:#f0fff4;border-left-color:#52c41a"><b>每个分类页统一模板（建议）：</b>左：设备照片 &nbsp;|&nbsp; 中：常见故障 &nbsp;|&nbsp; 右：替代方案(Standard Parts / OEM Parts / Custom Manufacturing)</div>
+<table style="width:100%;border-collapse:collapse;font-size:12.5px;margin-top:8px">
+<thead><tr style="background:#1a6fb2;color:#fff;text-align:left">
+<th style="padding:8px 10px">分类</th><th style="padding:8px 10px">入口品牌展示</th><th style="padding:8px 10px">核心配件子类</th>
+</tr></thead>
+<tbody>
+<tr style="border-bottom:1px solid #eee"><td style="padding:8px 10px;font-weight:700">1. Air Compressor Systems</td><td style="padding:8px 10px">Atlas Copco / Kaeser / IR / Sullair / GD / Hitachi / Sullair / CompAir</td><td style="padding:8px 10px">滤油器·分离器·滤芯·润滑油·维修包 + 冷干机后处理</td></tr>
+<tr style="border-bottom:1px solid #eee;background:#fafafa"><td style="padding:8px 10px;font-weight:700">2. Hydraulic Systems</td><td style="padding:8px 10px">Bosch Rexroth / Parker / Eaton / Yuken / Kawasaki</td><td style="padding:8px 10px">液压过滤·阀·泵·马达·密封</td></tr>
+<tr style="border-bottom:1px solid #eee"><td style="padding:8px 10px;font-weight:700">3. Pneumatic Automation</td><td style="padding:8px 10px">SMC / Festo / CKD / Parker</td><td style="padding:8px 10px">FRL·气缸·电磁阀·气管·接头</td></tr>
+<tr style="border-bottom:1px solid #eee;background:#fafafa"><td style="padding:8px 10px;font-weight:700">4. Industrial Filtration</td><td style="padding:8px 10px">Donaldson / Pall 等</td><td style="padding:8px 10px">空气过滤·液体过滤·过程过滤</td></tr>
+<tr style="border-bottom:1px solid #eee"><td style="padding:8px 10px;font-weight:700">5. Pumps &amp; Valves</td><td style="padding:8px 10px">KSB / Grundfos / Sulzer / Wilo / Emerson / Metso</td><td style="padding:8px 10px">各类泵·阀·机械密封</td></tr>
+<tr style="border-bottom:1px solid #eee;background:#fafafa"><td style="padding:8px 10px;font-weight:700">6. Industrial Automation &amp; Control</td><td style="padding:8px 10px">Siemens / Schneider / ABB / OMRON</td><td style="padding:8px 10px">PLC·HMI·VFD·伺服·编码器·传感器·电源</td></tr>
+<tr style="border-bottom:1px solid #eee"><td style="padding:8px 10px;font-weight:700">7. Mechanical Transmission</td><td style="padding:8px 10px">SKF / FAG / TIMKEN 兼容</td><td style="padding:8px 10px">轴承座·链条·链轮·皮带·联轴器·减速机·直线导轨</td></tr>
+<tr style="background:#fafafa"><td style="padding:8px 10px;font-weight:700">8. Industrial Maintenance Solutions</td><td style="padding:8px 10px">不按品牌入口</td><td style="padding:8px 10px">密封·紧固件·工业胶·磨料·维修工具</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</body></html>

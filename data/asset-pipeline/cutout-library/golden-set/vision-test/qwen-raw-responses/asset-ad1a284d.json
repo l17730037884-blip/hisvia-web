@@ -1,0 +1,35 @@
+{
+  "output": {
+    "choices": [
+      {
+        "message": {
+          "content": [
+            {
+              "text": "```json\n{\n  \"visible_object\": [\n    \"component\"\n  ],\n  \"object_type\": \"component\",\n  \"visible_brand\": [\n    \"FESTO\"\n  ],\n  \"visible_text\": [\n    \"FESTO\",\n    \"LP-14-C\",\n    \"Part\",\n    \"10-32 UNF-2B\",\n    \"Intake/Inlet\",\n    \"Outlet/Exhaust\"\n  ],\n  \"visible_features\": [\n    \"blue ribbed cap\",\n    \"black threaded section\",\n    \"white base with threaded port\",\n    \"screw head\",\n    \"symbol markings\",\n    \"text labels\"\n  ],\n  \"image_condition\": \"white_background_product\",\n  \"industrial_clues\": [\n    \"pneumatic component\",\n    \"adjustable valve\",\n    \"fluid control\"\n  ],\n  \"visual_confidence\": 1\n}\n```"
+            }
+          ],
+          "reasoning_content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens_details": {
+      "image_tokens": 212,
+      "text_tokens": 190
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 589,
+    "output_tokens": 187,
+    "input_tokens": 402,
+    "output_tokens_details": {
+      "text_tokens": 187
+    },
+    "image_tokens": 212
+  },
+  "request_id": "aafd4f47-ea0e-9b22-9d78-4e35c9a3238b"
+}

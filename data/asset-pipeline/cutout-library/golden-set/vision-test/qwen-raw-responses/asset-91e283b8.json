@@ -1,0 +1,35 @@
+{
+  "output": {
+    "choices": [
+      {
+        "message": {
+          "content": [
+            {
+              "text": "```json\n{\n  \"visible_object\": [\n    \"programmable_controller\"\n  ],\n  \"object_type\": \"equipment\",\n  \"visible_brand\": [\n    \"Omron\"\n  ],\n  \"visible_text\": [\n    \"Omron\",\n    \"SYSMAC\",\n    \"CJ2M\",\n    \"CPU35\",\n    \"PROGRAMMABLE CONTROLLER\",\n    \"SW SETTING BATTERY\",\n    \"OPEN\",\n    \"MCPWR\",\n    \"BUSY\",\n    \"PERIPHERAL\",\n    \"100BASE-TX\",\n    \"10BASE-T\",\n    \"EtherNet/IP\",\n    \"RUN\",\n    \"ERR/ALM\",\n    \"INH\",\n    \"PRPHL\",\n    \"BKUP\",\n    \"MS\",\n    \"NS\",\n    \"COMM\",\n    \"100M\",\n    \"10M\",\n    \"UNIT No.\",\n    \"NODE No.\"\n  ],\n  \"visible_features\": [\n    \"rectangular shape\",\n    \"black color\",\n    \"ventilated top\",\n    \"yellow switch\",\n    \"LED indicators\",\n    \"Ethernet port\",\n    \"connector port\",\n    \"battery compartment\",\n    \"text labels for functions\"\n  ],\n  \"image_condition\": \"white_background_product\",\n  \"industrial_clues\": [\n    \"programmable controller\",\n    \"EtherNet/IP\",\n    \"industrial automation\"\n  ],\n  \"visual_confidence\": 1\n}\n```"
+            }
+          ],
+          "reasoning_content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens_details": {
+      "image_tokens": 963,
+      "text_tokens": 190
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1453,
+    "output_tokens": 300,
+    "input_tokens": 1153,
+    "output_tokens_details": {
+      "text_tokens": 300
+    },
+    "image_tokens": 963
+  },
+  "request_id": "728436b1-9210-90e7-a448-299371d04185"
+}

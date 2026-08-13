@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "total_assets": 49,
+  "generated_pages": {
+    "system_pages": 8,
+    "capability_pages": 3,
+    "procurement_pages": 10,
+    "seo_pages": 34,
+    "total": 55
+  },
+  "asset_placement_summary": {
+    "hero": 8,
+    "system_section": 15,
+    "product_support": 13,
+    "factory_trust": 10,
+    "seo_thumbnail": 1,
+    "needs_review": 2
+  },
+  "website_modules_supported": [
+    "Homepage (hero + system overview)",
+    "System Solutions pages (8 systems)",
+    "Procurement RFQ entry pages (10 buyer scenarios)",
+    "SEO landing pages (30 industry pages)",
+    "About Us / Manufacturing Network (factory trust assets)",
+    "OEM/ODM capability page"
+  ]
+}

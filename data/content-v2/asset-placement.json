@@ -1,0 +1,141 @@
+{
+  "version": "v2",
+  "generated": "2026-08-11",
+  "description": "Asset placement map — every image must have an asset_id, system_type, and defined usage role. No random image assignment.",
+  "usage_roles": {
+    "hero": "Primary hero image for page header — large format, high visual impact",
+    "system_section": "Section illustration within a system page — shows equipment type",
+    "technical": "Technical detail or component close-up — supports capability explanation",
+    "factory_trust": "Factory floor or manufacturing process image — builds trust",
+    "seo_thumbnail": "Thumbnail image for SEO landing pages and social sharing",
+    "capability": "Illustrates a specific manufacturing capability or process"
+  },
+  "placements": [
+    {
+      "asset_id": "asset-21c46019",
+      "system_type": "Air Compressor Systems",
+      "page": "/solutions/compressors",
+      "usage": "hero",
+      "description": "Industrial screw compressor unit"
+    },
+    {
+      "asset_id": "asset-6b7b1713",
+      "system_type": "Air Compressor Systems",
+      "page": "/solutions/compressors",
+      "usage": "system_section",
+      "description": "Compressor system components"
+    },
+    {
+      "asset_id": "asset-918a3003",
+      "system_type": "Air Compressor Systems",
+      "page": "/solutions/compressors",
+      "usage": "system_section",
+      "description": "Brand equipment reference"
+    },
+    {
+      "asset_id": "asset-cd532cc1",
+      "system_type": "Hydraulic Systems",
+      "page": "/solutions/hydraulic",
+      "usage": "hero",
+      "description": "Hydraulic power unit assembly"
+    },
+    {
+      "asset_id": "asset-ce8be518",
+      "system_type": "Hydraulic Systems",
+      "page": "/solutions/hydraulic",
+      "usage": "system_section",
+      "description": "Hydraulic pump detail"
+    },
+    {
+      "asset_id": "asset-325714de",
+      "system_type": "Pumps & Fluid Handling",
+      "page": "/solutions/pumps",
+      "usage": "hero",
+      "description": "Industrial centrifugal pump"
+    },
+    {
+      "asset_id": "asset-344e002d",
+      "system_type": "Pumps & Fluid Handling",
+      "page": "/solutions/pumps",
+      "usage": "technical",
+      "description": "Screw pump assembly"
+    },
+    {
+      "asset_id": "asset-7b19d020",
+      "system_type": "Valves & Flow Control",
+      "page": "/solutions/valves",
+      "usage": "hero",
+      "description": "Industrial ball valve"
+    },
+    {
+      "asset_id": "asset-d29f9c00",
+      "system_type": "Valves & Flow Control",
+      "page": "/solutions/valves",
+      "usage": "system_section",
+      "description": "Valve actuator assembly"
+    },
+    {
+      "asset_id": "asset-3986d47f",
+      "system_type": "Industrial Filtration",
+      "page": "/solutions/filtration",
+      "usage": "hero",
+      "description": "Industrial dust filtration system"
+    },
+    {
+      "asset_id": "asset-40a7670c",
+      "system_type": "Industrial Filtration",
+      "page": "/solutions/filtration",
+      "usage": "technical",
+      "description": "Filter element detail"
+    },
+    {
+      "asset_id": "asset-5d428a16",
+      "system_type": "Pneumatic Automation",
+      "page": "/solutions/automation",
+      "usage": "hero",
+      "description": "Pneumatic automation components"
+    },
+    {
+      "asset_id": "asset-8342923a",
+      "system_type": "Pneumatic Automation",
+      "page": "/solutions/automation",
+      "usage": "system_section",
+      "description": "Pneumatic cylinder assembly"
+    },
+    {
+      "asset_id": "asset-4ab74032",
+      "system_type": "Mechanical Transmission",
+      "page": "/solutions/mechanical-transmission",
+      "usage": "hero",
+      "description": "Industrial bearing assembly"
+    },
+    {
+      "asset_id": "asset-6b0073d0",
+      "system_type": "Mechanical Transmission",
+      "page": "/solutions/mechanical-transmission",
+      "usage": "technical",
+      "description": "Gear and transmission component"
+    },
+    {
+      "asset_id": "asset-91e283b8",
+      "system_type": "Industrial Automation & Control",
+      "page": "/solutions/automation-control",
+      "usage": "hero",
+      "description": "Industrial automation control system"
+    },
+    {
+      "asset_id": "asset-e4c126b0",
+      "system_type": "Industrial Automation & Control",
+      "page": "/solutions/automation-control",
+      "usage": "system_section",
+      "description": "VFD drive unit"
+    }
+  ],
+  "rules": [
+    "Every image placement must reference a valid asset_id from assets-v2.json",
+    "asset_id must match the system_type of the page it appears on",
+    "No asset can serve conflicting roles (e.g., hero AND thumbnail on different pages)",
+    "factory_trust images only from real factory photo assets",
+    "No AI-generated images as factory_trust"
+  ]
+}

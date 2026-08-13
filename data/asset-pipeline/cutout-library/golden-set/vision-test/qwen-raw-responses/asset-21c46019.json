@@ -1,0 +1,35 @@
+{
+  "output": {
+    "choices": [
+      {
+        "message": {
+          "content": [
+            {
+              "text": "```json\n{\n  \"visible_object\": [\n    \"equipment\"\n  ],\n  \"object_type\": \"equipment\",\n  \"visible_brand\": [\n    \"CompAir\"\n  ],\n  \"visible_text\": [\n    \"CompAir\",\n    \"www.CompAir.com\",\n    \"L 250\"\n  ],\n  \"visible_features\": [\n    \"blue metal casing\",\n    \"control panel with buttons and indicators\",\n    \"warning label\",\n    \"model number on lower right\",\n    \"website URL on lower left\",\n    \"warehouse background with shelving and other equipment\"\n  ],\n  \"image_condition\": \"industrial_scene\",\n  \"industrial_clues\": [\n    \"compressed air system\",\n    \"industrial machinery\",\n    \"warehouse setting\"\n  ],\n  \"visual_confidence\": 1\n}\n```"
+            }
+          ],
+          "reasoning_content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens_details": {
+      "image_tokens": 302,
+      "text_tokens": 190
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 661,
+    "output_tokens": 169,
+    "input_tokens": 492,
+    "output_tokens_details": {
+      "text_tokens": 169
+    },
+    "image_tokens": 302
+  },
+  "request_id": "75ebec70-73c1-9ffc-997f-1c578cef5fc0"
+}

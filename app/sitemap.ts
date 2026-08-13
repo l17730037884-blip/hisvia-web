@@ -44,6 +44,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   });
 
+  // Production homepage experience layer (/v2/[locale])
+  locales.forEach((locale) => {
+    entries.push({
+      url: `${SITE_URL}/v2/${locale}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 1.0,
+    });
+  });
+
   allRoutes.forEach((route) => {
     locales.forEach((locale) => {
       entries.push({

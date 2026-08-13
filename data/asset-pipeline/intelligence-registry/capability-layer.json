@@ -1,0 +1,902 @@
+[
+  {
+    "asset_id": "asset-001ac56b",
+    "system_type": null,
+    "supplier_type": null,
+    "manufacturing_capability": [],
+    "industry_scope": [],
+    "export_potential": "N/A"
+  },
+  {
+    "asset_id": "asset-21c46019",
+    "system_type": "Air Compressor Systems",
+    "supplier_type": "Air Compressor & Compressed Air System Manufacturer",
+    "manufacturing_capability": [
+      "Air Compressor Assembly & Testing",
+      "Compressed Air System Design",
+      "Compressor Package Engineering",
+      "Air Treatment Integration"
+    ],
+    "industry_scope": [
+      "General Manufacturing",
+      "Food & Beverage",
+      "Pharmaceutical",
+      "Electronics",
+      "Automotive",
+      "Textile",
+      "Chemical Processing",
+      "Oil & Gas",
+      "Power Generation"
+    ],
+    "export_potential": "High — global demand for energy-efficient compressed air solutions"
+  },
+  {
+    "asset_id": "asset-325714de",
+    "system_type": "Pumps & Fluid Handling",
+    "supplier_type": "Industrial Pump & Fluid Handling Equipment Manufacturer",
+    "manufacturing_capability": [
+      "Pump Assembly & Performance Testing",
+      "Fluid Handling System Design",
+      "Pump Skid Fabrication",
+      "Mechanical Seal Integration"
+    ],
+    "industry_scope": [
+      "Water & Wastewater",
+      "Chemical Processing",
+      "Oil & Gas",
+      "Marine",
+      "Agriculture",
+      "HVAC",
+      "Mining",
+      "Power Generation"
+    ],
+    "export_potential": "Very High — pumps are the #1 rotating equipment globally"
+  },
+  {
+    "asset_id": "asset-344e002d",
+    "system_type": "Pumps & Fluid Handling",
+    "supplier_type": "Industrial Pump & Fluid Handling Equipment Manufacturer",
+    "manufacturing_capability": [
+      "Pump Assembly & Performance Testing",
+      "Fluid Handling System Design",
+      "Pump Skid Fabrication",
+      "Mechanical Seal Integration"
+    ],
+    "industry_scope": [
+      "Water & Wastewater",
+      "Chemical Processing",
+      "Oil & Gas",
+      "Marine",
+      "Agriculture",
+      "HVAC",
+      "Mining",
+      "Power Generation"
+    ],
+    "export_potential": "Very High — pumps are the #1 rotating equipment globally"
+  },
+  {
+    "asset_id": "asset-3986d47f",
+    "system_type": "Industrial Filtration",
+    "supplier_type": "Industrial Filtration System Manufacturer",
+    "manufacturing_capability": [
+      "Filter Element Manufacturing",
+      "Dust Collection System Design",
+      "Filter Media Selection & Testing",
+      "Air Quality Compliance Engineering"
+    ],
+    "industry_scope": [
+      "Cement",
+      "Steel",
+      "Woodworking",
+      "Pharmaceutical",
+      "Chemical Processing",
+      "Mining",
+      "Food Processing",
+      "Power Generation"
+    ],
+    "export_potential": "High — filtration is mandatory in all industrial sectors globally"
+  },
+  {
+    "asset_id": "asset-40a7670c",
+    "system_type": "Industrial Filtration",
+    "supplier_type": "Industrial Filtration System Manufacturer",
+    "manufacturing_capability": [
+      "Filter Element Manufacturing",
+      "Dust Collection System Design",
+      "Filter Media Selection & Testing",
+      "Air Quality Compliance Engineering"
+    ],
+    "industry_scope": [
+      "Cement",
+      "Steel",
+      "Woodworking",
+      "Pharmaceutical",
+      "Chemical Processing",
+      "Mining",
+      "Food Processing",
+      "Power Generation"
+    ],
+    "export_potential": "High — filtration is mandatory in all industrial sectors globally"
+  },
+  {
+    "asset_id": "asset-40e9d9a1",
+    "system_type": null,
+    "supplier_type": null,
+    "manufacturing_capability": [],
+    "industry_scope": [],
+    "export_potential": "N/A"
+  },
+  {
+    "asset_id": "asset-475bb362",
+    "system_type": "Pumps & Fluid Handling",
+    "supplier_type": "Industrial Pump & Fluid Handling Equipment Manufacturer",
+    "manufacturing_capability": [
+      "Pump Assembly & Performance Testing",
+      "Fluid Handling System Design",
+      "Pump Skid Fabrication",
+      "Mechanical Seal Integration"
+    ],
+    "industry_scope": [
+      "Water & Wastewater",
+      "Chemical Processing",
+      "Oil & Gas",
+      "Marine",
+      "Agriculture",
+      "HVAC",
+      "Mining",
+      "Power Generation"
+    ],
+    "export_potential": "Very High — pumps are the #1 rotating equipment globally"
+  },
+  {
+    "asset_id": "asset-48b63b1e",
+    "system_type": "Pumps & Fluid Handling",
+    "supplier_type": "Industrial Pump & Fluid Handling Equipment Manufacturer",
+    "manufacturing_capability": [
+      "Pump Assembly & Performance Testing",
+      "Fluid Handling System Design",
+      "Pump Skid Fabrication",
+      "Mechanical Seal Integration"
+    ],
+    "industry_scope": [
+      "Water & Wastewater",
+      "Chemical Processing",
+      "Oil & Gas",
+      "Marine",
+      "Agriculture",
+      "HVAC",
+      "Mining",
+      "Power Generation"
+    ],
+    "export_potential": "Very High — pumps are the #1 rotating equipment globally"
+  },
+  {
+    "asset_id": "asset-4ab74032",
+    "system_type": "Mechanical Transmission",
+    "supplier_type": "Mechanical Power Transmission Component Manufacturer",
+    "manufacturing_capability": [
+      "Precision Bearing Manufacturing",
+      "Gear Cutting & Heat Treatment",
+      "Coupling Design & Testing",
+      "Power Transmission System Engineering"
+    ],
+    "industry_scope": [
+      "All Manufacturing",
+      "Automotive",
+      "Mining",
+      "Agriculture",
+      "Wind Energy",
+      "Railway",
+      "Marine",
+      "Construction"
+    ],
+    "export_potential": "Very High — bearings and gears are global commodity components"
+  },
+  {
+    "asset_id": "asset-58e52f7c",
+    "system_type": null,
+    "supplier_type": null,
+    "manufacturing_capability": [],
+    "industry_scope": [],
+    "export_potential": "N/A"
+  },
+  {
+    "asset_id": "asset-5b33ea4b",
+    "system_type": null,
+    "supplier_type": null,
+    "manufacturing_capability": [],
+    "industry_scope": [],
+    "export_potential": "N/A"
+  },
+  {
+    "asset_id": "asset-5d428a16",
+    "system_type": "Pneumatic Automation",
+    "supplier_type": "Pneumatic Automation Component Manufacturer",
+    "manufacturing_capability": [
+      "Pneumatic Cylinder & Valve Manufacturing",
+      "FRL Assembly & Testing",
+      "Pneumatic Circuit Design",
+      "Automation End-Effector Engineering"
+    ],
+    "industry_scope": [
+      "Factory Automation",
+      "Packaging",
+      "Assembly Lines",
+      "Automotive Manufacturing",
+      "Electronics Assembly",
+      "Food Processing"
+    ],
+    "export_potential": "High — pneumatic components are ISO-standardized global products"
+  },
+  {
+    "asset_id": "asset-6b0073d0",
+    "system_type": "Mechanical Transmission",
+    "supplier_type": "Mechanical Power Transmission Component Manufacturer",
+    "manufacturing_capability": [
+      "Precision Bearing Manufacturing",
+      "Gear Cutting & Heat Treatment",
+      "Coupling Design & Testing",
+      "Power Transmission System Engineering"
+    ],
+    "industry_scope": [
+      "All Manufacturing",
+      "Automotive",
+      "Mining",
+      "Agriculture",
+      "Wind Energy",
+      "Railway",
+      "Marine",
+      "Construction"
+    ],
+    "export_potential": "Very High — bearings and gears are global commodity components"
+  },
+  {
+    "asset_id": "asset-6b7b1713",
+    "system_type": "Air Compressor Systems",
+    "supplier_type": "Air Compressor & Compressed Air System Manufacturer",
+    "manufacturing_capability": [
+      "Air Compressor Assembly & Testing",
+      "Compressed Air System Design",
+      "Compressor Package Engineering",
+      "Air Treatment Integration"
+    ],
+    "industry_scope": [
+      "General Manufacturing",
+      "Food & Beverage",
+      "Pharmaceutical",
+      "Electronics",
+      "Automotive",
+      "Textile",
+      "Chemical Processing",
+      "Oil & Gas",
+      "Power Generation"
+    ],
+    "export_potential": "High — global demand for energy-efficient compressed air solutions"
+  },
+  {
+    "asset_id": "asset-7aaf9aca",
+    "system_type": "Mechanical Transmission",
+    "supplier_type": "Mechanical Power Transmission Component Manufacturer",
+    "manufacturing_capability": [
+      "Precision Bearing Manufacturing",
+      "Gear Cutting & Heat Treatment",
+      "Coupling Design & Testing",
+      "Power Transmission System Engineering"
+    ],
+    "industry_scope": [
+      "All Manufacturing",
+      "Automotive",
+      "Mining",
+      "Agriculture",
+      "Wind Energy",
+      "Railway",
+      "Marine",
+      "Construction"
+    ],
+    "export_potential": "Very High — bearings and gears are global commodity components"
+  },
+  {
+    "asset_id": "asset-7b19d020",
+    "system_type": "Valves & Flow Control",
+    "supplier_type": "Industrial Valve & Flow Control Manufacturer",
+    "manufacturing_capability": [
+      "Valve Casting & Machining",
+      "Valve Assembly & Pressure Testing",
+      "Actuation Integration",
+      "Flow Control System Engineering"
+    ],
+    "industry_scope": [
+      "Oil & Gas",
+      "Petrochemical",
+      "Water Treatment",
+      "Power Generation",
+      "Chemical",
+      "HVAC",
+      "Marine",
+      "Pharmaceutical"
+    ],
+    "export_potential": "Very High — valves are essential in every pipeline system worldwide"
+  },
+  {
+    "asset_id": "asset-7da7f124",
+    "system_type": "Industrial Filtration",
+    "supplier_type": "Industrial Filtration System Manufacturer",
+    "manufacturing_capability": [
+      "Filter Element Manufacturing",
+      "Dust Collection System Design",
+      "Filter Media Selection & Testing",
+      "Air Quality Compliance Engineering"
+    ],
+    "industry_scope": [
+      "Cement",
+      "Steel",
+      "Woodworking",
+      "Pharmaceutical",
+      "Chemical Processing",
+      "Mining",
+      "Food Processing",
+      "Power Generation"
+    ],
+    "export_potential": "High — filtration is mandatory in all industrial sectors globally"
+  },
+  {
+    "asset_id": "asset-81187c75",
+    "system_type": null,
+    "supplier_type": null,
+    "manufacturing_capability": [],
+    "industry_scope": [],
+    "export_potential": "N/A"
+  },
+  {
+    "asset_id": "asset-8342923a",
+    "system_type": "Pneumatic Automation",
+    "supplier_type": "Pneumatic Automation Component Manufacturer",
+    "manufacturing_capability": [
+      "Pneumatic Cylinder & Valve Manufacturing",
+      "FRL Assembly & Testing",
+      "Pneumatic Circuit Design",
+      "Automation End-Effector Engineering"
+    ],
+    "industry_scope": [
+      "Factory Automation",
+      "Packaging",
+      "Assembly Lines",
+      "Automotive Manufacturing",
+      "Electronics Assembly",
+      "Food Processing"
+    ],
+    "export_potential": "High — pneumatic components are ISO-standardized global products"
+  },
+  {
+    "asset_id": "asset-8490ea6c",
+    "system_type": "Industrial Filtration",
+    "supplier_type": "Industrial Filtration System Manufacturer",
+    "manufacturing_capability": [
+      "Filter Element Manufacturing",
+      "Dust Collection System Design",
+      "Filter Media Selection & Testing",
+      "Air Quality Compliance Engineering"
+    ],
+    "industry_scope": [
+      "Cement",
+      "Steel",
+      "Woodworking",
+      "Pharmaceutical",
+      "Chemical Processing",
+      "Mining",
+      "Food Processing",
+      "Power Generation"
+    ],
+    "export_potential": "High — filtration is mandatory in all industrial sectors globally"
+  },
+  {
+    "asset_id": "asset-84bb2bba",
+    "system_type": null,
+    "supplier_type": null,
+    "manufacturing_capability": [],
+    "industry_scope": [],
+    "export_potential": "N/A"
+  },
+  {
+    "asset_id": "asset-87e2254b",
+    "system_type": null,
+    "supplier_type": null,
+    "manufacturing_capability": [],
+    "industry_scope": [],
+    "export_potential": "N/A"
+  },
+  {
+    "asset_id": "asset-918a3003",
+    "system_type": "Air Compressor Systems",
+    "supplier_type": "Air Compressor & Compressed Air System Manufacturer",
+    "manufacturing_capability": [
+      "Air Compressor Assembly & Testing",
+      "Compressed Air System Design",
+      "Compressor Package Engineering",
+      "Air Treatment Integration"
+    ],
+    "industry_scope": [
+      "General Manufacturing",
+      "Food & Beverage",
+      "Pharmaceutical",
+      "Electronics",
+      "Automotive",
+      "Textile",
+      "Chemical Processing",
+      "Oil & Gas",
+      "Power Generation"
+    ],
+    "export_potential": "High — global demand for energy-efficient compressed air solutions"
+  },
+  {
+    "asset_id": "asset-91e283b8",
+    "system_type": "Industrial Automation & Control",
+    "supplier_type": "Industrial Automation & Control System Integrator",
+    "manufacturing_capability": [
+      "PLC & Control Panel Assembly",
+      "Sensor Calibration & Testing",
+      "VFD Configuration & Testing",
+      "SCADA System Integration",
+      "Industrial IoT Gateway Configuration"
+    ],
+    "industry_scope": [
+      "All Manufacturing Sectors",
+      "Smart Factory",
+      "Industry 4.0",
+      "Process Automation",
+      "Building Automation",
+      "Energy Management"
+    ],
+    "export_potential": "High — industrial automation is a global megatrend"
+  },
+  {
+    "asset_id": "asset-9f330fb8",
+    "system_type": "Air Compressor Systems",
+    "supplier_type": "Air Compressor & Compressed Air System Manufacturer",
+    "manufacturing_capability": [
+      "Air Compressor Assembly & Testing",
+      "Compressed Air System Design",
+      "Compressor Package Engineering",
+      "Air Treatment Integration"
+    ],
+    "industry_scope": [
+      "General Manufacturing",
+      "Food & Beverage",
+      "Pharmaceutical",
+      "Electronics",
+      "Automotive",
+      "Textile",
+      "Chemical Processing",
+      "Oil & Gas",
+      "Power Generation"
+    ],
+    "export_potential": "High — global demand for energy-efficient compressed air solutions"
+  },
+  {
+    "asset_id": "asset-a1ae0abb",
+    "system_type": null,
+    "supplier_type": null,
+    "manufacturing_capability": [],
+    "industry_scope": [],
+    "export_potential": "N/A"
+  },
+  {
+    "asset_id": "asset-a88224cd",
+    "system_type": "Pumps & Fluid Handling",
+    "supplier_type": "Industrial Pump & Fluid Handling Equipment Manufacturer",
+    "manufacturing_capability": [
+      "Pump Assembly & Performance Testing",
+      "Fluid Handling System Design",
+      "Pump Skid Fabrication",
+      "Mechanical Seal Integration"
+    ],
+    "industry_scope": [
+      "Water & Wastewater",
+      "Chemical Processing",
+      "Oil & Gas",
+      "Marine",
+      "Agriculture",
+      "HVAC",
+      "Mining",
+      "Power Generation"
+    ],
+    "export_potential": "Very High — pumps are the #1 rotating equipment globally"
+  },
+  {
+    "asset_id": "asset-a8ee483b",
+    "system_type": "Mechanical Transmission",
+    "supplier_type": "Mechanical Power Transmission Component Manufacturer",
+    "manufacturing_capability": [
+      "Precision Bearing Manufacturing",
+      "Gear Cutting & Heat Treatment",
+      "Coupling Design & Testing",
+      "Power Transmission System Engineering"
+    ],
+    "industry_scope": [
+      "All Manufacturing",
+      "Automotive",
+      "Mining",
+      "Agriculture",
+      "Wind Energy",
+      "Railway",
+      "Marine",
+      "Construction"
+    ],
+    "export_potential": "Very High — bearings and gears are global commodity components"
+  },
+  {
+    "asset_id": "asset-a978f441",
+    "system_type": "Air Compressor Systems",
+    "supplier_type": "Air Compressor & Compressed Air System Manufacturer",
+    "manufacturing_capability": [
+      "Air Compressor Assembly & Testing",
+      "Compressed Air System Design",
+      "Compressor Package Engineering",
+      "Air Treatment Integration"
+    ],
+    "industry_scope": [
+      "General Manufacturing",
+      "Food & Beverage",
+      "Pharmaceutical",
+      "Electronics",
+      "Automotive",
+      "Textile",
+      "Chemical Processing",
+      "Oil & Gas",
+      "Power Generation"
+    ],
+    "export_potential": "High — global demand for energy-efficient compressed air solutions"
+  },
+  {
+    "asset_id": "asset-ad1a284d",
+    "system_type": "Pneumatic Automation",
+    "supplier_type": "Pneumatic Automation Component Manufacturer",
+    "manufacturing_capability": [
+      "Pneumatic Cylinder & Valve Manufacturing",
+      "FRL Assembly & Testing",
+      "Pneumatic Circuit Design",
+      "Automation End-Effector Engineering"
+    ],
+    "industry_scope": [
+      "Factory Automation",
+      "Packaging",
+      "Assembly Lines",
+      "Automotive Manufacturing",
+      "Electronics Assembly",
+      "Food Processing"
+    ],
+    "export_potential": "High — pneumatic components are ISO-standardized global products"
+  },
+  {
+    "asset_id": "asset-b69c6430",
+    "system_type": null,
+    "supplier_type": null,
+    "manufacturing_capability": [],
+    "industry_scope": [],
+    "export_potential": "N/A"
+  },
+  {
+    "asset_id": "asset-b7d57b28",
+    "system_type": "Mechanical Transmission",
+    "supplier_type": "Mechanical Power Transmission Component Manufacturer",
+    "manufacturing_capability": [
+      "Precision Bearing Manufacturing",
+      "Gear Cutting & Heat Treatment",
+      "Coupling Design & Testing",
+      "Power Transmission System Engineering"
+    ],
+    "industry_scope": [
+      "All Manufacturing",
+      "Automotive",
+      "Mining",
+      "Agriculture",
+      "Wind Energy",
+      "Railway",
+      "Marine",
+      "Construction"
+    ],
+    "export_potential": "Very High — bearings and gears are global commodity components"
+  },
+  {
+    "asset_id": "asset-cd532cc1",
+    "system_type": "Hydraulic Systems",
+    "supplier_type": "Hydraulic System & Component Manufacturer",
+    "manufacturing_capability": [
+      "Hydraulic Power Unit Design & Build",
+      "Hydraulic Manifold CNC Machining",
+      "Hydraulic System Testing & Commissioning",
+      "Electro-Hydraulic Control Integration"
+    ],
+    "industry_scope": [
+      "Heavy Machinery",
+      "Construction Equipment",
+      "Mining",
+      "Marine & Offshore",
+      "Steel Mills",
+      "Injection Molding",
+      "Industrial Presses"
+    ],
+    "export_potential": "High — hydraulic components are standardized global commodities"
+  },
+  {
+    "asset_id": "asset-ce8be518",
+    "system_type": "Hydraulic Systems",
+    "supplier_type": "Hydraulic System & Component Manufacturer",
+    "manufacturing_capability": [
+      "Hydraulic Power Unit Design & Build",
+      "Hydraulic Manifold CNC Machining",
+      "Hydraulic System Testing & Commissioning",
+      "Electro-Hydraulic Control Integration"
+    ],
+    "industry_scope": [
+      "Heavy Machinery",
+      "Construction Equipment",
+      "Mining",
+      "Marine & Offshore",
+      "Steel Mills",
+      "Injection Molding",
+      "Industrial Presses"
+    ],
+    "export_potential": "High — hydraulic components are standardized global commodities"
+  },
+  {
+    "asset_id": "asset-ceb53592",
+    "system_type": null,
+    "supplier_type": null,
+    "manufacturing_capability": [],
+    "industry_scope": [],
+    "export_potential": "N/A"
+  },
+  {
+    "asset_id": "asset-cfd129d3",
+    "system_type": "Pneumatic Automation",
+    "supplier_type": "Pneumatic Automation Component Manufacturer",
+    "manufacturing_capability": [
+      "Pneumatic Cylinder & Valve Manufacturing",
+      "FRL Assembly & Testing",
+      "Pneumatic Circuit Design",
+      "Automation End-Effector Engineering"
+    ],
+    "industry_scope": [
+      "Factory Automation",
+      "Packaging",
+      "Assembly Lines",
+      "Automotive Manufacturing",
+      "Electronics Assembly",
+      "Food Processing"
+    ],
+    "export_potential": "High — pneumatic components are ISO-standardized global products"
+  },
+  {
+    "asset_id": "asset-d29f9c00",
+    "system_type": "Valves & Flow Control",
+    "supplier_type": "Industrial Valve & Flow Control Manufacturer",
+    "manufacturing_capability": [
+      "Valve Casting & Machining",
+      "Valve Assembly & Pressure Testing",
+      "Actuation Integration",
+      "Flow Control System Engineering"
+    ],
+    "industry_scope": [
+      "Oil & Gas",
+      "Petrochemical",
+      "Water Treatment",
+      "Power Generation",
+      "Chemical",
+      "HVAC",
+      "Marine",
+      "Pharmaceutical"
+    ],
+    "export_potential": "Very High — valves are essential in every pipeline system worldwide"
+  },
+  {
+    "asset_id": "asset-d7c25888",
+    "system_type": null,
+    "supplier_type": null,
+    "manufacturing_capability": [],
+    "industry_scope": [],
+    "export_potential": "N/A"
+  },
+  {
+    "asset_id": "asset-da50866c",
+    "system_type": "Mechanical Transmission",
+    "supplier_type": "Mechanical Power Transmission Component Manufacturer",
+    "manufacturing_capability": [
+      "Precision Bearing Manufacturing",
+      "Gear Cutting & Heat Treatment",
+      "Coupling Design & Testing",
+      "Power Transmission System Engineering"
+    ],
+    "industry_scope": [
+      "All Manufacturing",
+      "Automotive",
+      "Mining",
+      "Agriculture",
+      "Wind Energy",
+      "Railway",
+      "Marine",
+      "Construction"
+    ],
+    "export_potential": "Very High — bearings and gears are global commodity components"
+  },
+  {
+    "asset_id": "asset-dfd5500a",
+    "system_type": "Hydraulic Systems",
+    "supplier_type": "Hydraulic System & Component Manufacturer",
+    "manufacturing_capability": [
+      "Hydraulic Power Unit Design & Build",
+      "Hydraulic Manifold CNC Machining",
+      "Hydraulic System Testing & Commissioning",
+      "Electro-Hydraulic Control Integration"
+    ],
+    "industry_scope": [
+      "Heavy Machinery",
+      "Construction Equipment",
+      "Mining",
+      "Marine & Offshore",
+      "Steel Mills",
+      "Injection Molding",
+      "Industrial Presses"
+    ],
+    "export_potential": "High — hydraulic components are standardized global commodities"
+  },
+  {
+    "asset_id": "asset-e4c126b0",
+    "system_type": "Industrial Automation & Control",
+    "supplier_type": "Industrial Automation & Control System Integrator",
+    "manufacturing_capability": [
+      "PLC & Control Panel Assembly",
+      "Sensor Calibration & Testing",
+      "VFD Configuration & Testing",
+      "SCADA System Integration",
+      "Industrial IoT Gateway Configuration"
+    ],
+    "industry_scope": [
+      "All Manufacturing Sectors",
+      "Smart Factory",
+      "Industry 4.0",
+      "Process Automation",
+      "Building Automation",
+      "Energy Management"
+    ],
+    "export_potential": "High — industrial automation is a global megatrend"
+  },
+  {
+    "asset_id": "asset-e6830784",
+    "system_type": "Hydraulic Systems",
+    "supplier_type": "Hydraulic System & Component Manufacturer",
+    "manufacturing_capability": [
+      "Hydraulic Power Unit Design & Build",
+      "Hydraulic Manifold CNC Machining",
+      "Hydraulic System Testing & Commissioning",
+      "Electro-Hydraulic Control Integration"
+    ],
+    "industry_scope": [
+      "Heavy Machinery",
+      "Construction Equipment",
+      "Mining",
+      "Marine & Offshore",
+      "Steel Mills",
+      "Injection Molding",
+      "Industrial Presses"
+    ],
+    "export_potential": "High — hydraulic components are standardized global commodities"
+  },
+  {
+    "asset_id": "asset-e82582ef",
+    "system_type": "Valves & Flow Control",
+    "supplier_type": "Industrial Valve & Flow Control Manufacturer",
+    "manufacturing_capability": [
+      "Valve Casting & Machining",
+      "Valve Assembly & Pressure Testing",
+      "Actuation Integration",
+      "Flow Control System Engineering"
+    ],
+    "industry_scope": [
+      "Oil & Gas",
+      "Petrochemical",
+      "Water Treatment",
+      "Power Generation",
+      "Chemical",
+      "HVAC",
+      "Marine",
+      "Pharmaceutical"
+    ],
+    "export_potential": "Very High — valves are essential in every pipeline system worldwide"
+  },
+  {
+    "asset_id": "asset-eb8b77cc",
+    "system_type": "Industrial Filtration",
+    "supplier_type": "Industrial Filtration System Manufacturer",
+    "manufacturing_capability": [
+      "Filter Element Manufacturing",
+      "Dust Collection System Design",
+      "Filter Media Selection & Testing",
+      "Air Quality Compliance Engineering"
+    ],
+    "industry_scope": [
+      "Cement",
+      "Steel",
+      "Woodworking",
+      "Pharmaceutical",
+      "Chemical Processing",
+      "Mining",
+      "Food Processing",
+      "Power Generation"
+    ],
+    "export_potential": "High — filtration is mandatory in all industrial sectors globally"
+  },
+  {
+    "asset_id": "asset-f0993304",
+    "system_type": "Industrial Filtration",
+    "supplier_type": "Industrial Filtration System Manufacturer",
+    "manufacturing_capability": [
+      "Filter Element Manufacturing",
+      "Dust Collection System Design",
+      "Filter Media Selection & Testing",
+      "Air Quality Compliance Engineering"
+    ],
+    "industry_scope": [
+      "Cement",
+      "Steel",
+      "Woodworking",
+      "Pharmaceutical",
+      "Chemical Processing",
+      "Mining",
+      "Food Processing",
+      "Power Generation"
+    ],
+    "export_potential": "High — filtration is mandatory in all industrial sectors globally"
+  },
+  {
+    "asset_id": "asset-f0e95dba",
+    "system_type": "Valves & Flow Control",
+    "supplier_type": "Industrial Valve & Flow Control Manufacturer",
+    "manufacturing_capability": [
+      "Valve Casting & Machining",
+      "Valve Assembly & Pressure Testing",
+      "Actuation Integration",
+      "Flow Control System Engineering"
+    ],
+    "industry_scope": [
+      "Oil & Gas",
+      "Petrochemical",
+      "Water Treatment",
+      "Power Generation",
+      "Chemical",
+      "HVAC",
+      "Marine",
+      "Pharmaceutical"
+    ],
+    "export_potential": "Very High — valves are essential in every pipeline system worldwide"
+  },
+  {
+    "asset_id": "asset-f33f7c96",
+    "system_type": "Industrial Automation & Control",
+    "supplier_type": "Industrial Automation & Control System Integrator",
+    "manufacturing_capability": [
+      "PLC & Control Panel Assembly",
+      "Sensor Calibration & Testing",
+      "VFD Configuration & Testing",
+      "SCADA System Integration",
+      "Industrial IoT Gateway Configuration"
+    ],
+    "industry_scope": [
+      "All Manufacturing Sectors",
+      "Smart Factory",
+      "Industry 4.0",
+      "Process Automation",
+      "Building Automation",
+      "Energy Management"
+    ],
+    "export_potential": "High — industrial automation is a global megatrend"
+  },
+  {
+    "asset_id": "asset-f611401c",
+    "system_type": null,
+    "supplier_type": null,
+    "manufacturing_capability": [],
+    "industry_scope": [],
+    "export_potential": "N/A"
+  }
+]

@@ -1,0 +1,244 @@
+{
+  "version": "v1",
+  "generated": "2026-08-11",
+  "total_mappings": 28,
+  "mappings": [
+    {
+      "v1_route": "/",
+      "v2_route": "/v2/[locale]",
+      "v1_exists": true,
+      "coverage": "full",
+      "missing": [],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/about",
+      "v2_route": "/v2/[locale] (company profile embedded in homepage)",
+      "v1_exists": true,
+      "coverage": "full",
+      "missing": [],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/brands",
+      "v2_route": "V2 uses brand data from system pages — partial coverage",
+      "v1_exists": true,
+      "coverage": "none",
+      "missing": [],
+      "migration_action": "keep_v1"
+    },
+    {
+      "v1_route": "/capability-network",
+      "v2_route": "/v2/[locale]/capability-network",
+      "v1_exists": true,
+      "coverage": "full",
+      "missing": [],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/contact",
+      "v2_route": "Static page — keep V1",
+      "v1_exists": true,
+      "coverage": "none",
+      "missing": [],
+      "migration_action": "keep_v1"
+    },
+    {
+      "v1_route": "/faq",
+      "v2_route": "Static page — keep V1",
+      "v1_exists": true,
+      "coverage": "none",
+      "missing": [],
+      "migration_action": "keep_v1"
+    },
+    {
+      "v1_route": "/industries/construction",
+      "v2_route": "/v2/[locale]/industries/construction",
+      "v1_exists": false,
+      "coverage": "full",
+      "missing": [],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/industries/manufacturing",
+      "v2_route": "/v2/[locale]/industries/manufacturing",
+      "v1_exists": false,
+      "coverage": "full",
+      "missing": [],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/industries/mining",
+      "v2_route": "/v2/[locale]/industries/mining",
+      "v1_exists": false,
+      "coverage": "full",
+      "missing": [],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/industries/oil-gas",
+      "v2_route": "/v2/[locale]/industries/oil-gas",
+      "v1_exists": false,
+      "coverage": "full",
+      "missing": [],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/industries/water-treatment",
+      "v2_route": "/v2/[locale]/industries/water-treatment",
+      "v1_exists": false,
+      "coverage": "full",
+      "missing": [],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/manufacturing-network",
+      "v2_route": "/v2/[locale]/capability-network (merged)",
+      "v1_exists": true,
+      "coverage": "full",
+      "missing": [
+        "Merged into broader V2 page"
+      ],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/oem",
+      "v2_route": "/v2/[locale]/oem",
+      "v1_exists": false,
+      "coverage": "full",
+      "missing": [],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/partners/distributor",
+      "v2_route": "/v2/[locale]/partners/distributor",
+      "v1_exists": false,
+      "coverage": "full",
+      "missing": [],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/partners/regional-partner",
+      "v2_route": "/v2/[locale]/partners/regional_agent",
+      "v1_exists": false,
+      "coverage": "full",
+      "missing": [],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/partners/service-center",
+      "v2_route": "/v2/[locale]/partners/service_center",
+      "v1_exists": false,
+      "coverage": "full",
+      "missing": [],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/request",
+      "v2_route": "Uses V1 RequestForm component — keep V1 for now",
+      "v1_exists": true,
+      "coverage": "none",
+      "missing": [],
+      "migration_action": "keep_v1"
+    },
+    {
+      "v1_route": "/solutions/automation",
+      "v2_route": "/v2/[locale]/solutions/automation",
+      "v1_exists": true,
+      "coverage": "full",
+      "missing": [],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/solutions/compressor-parts",
+      "v2_route": "/v2/[locale]/solutions/compressors (merged)",
+      "v1_exists": true,
+      "coverage": "full",
+      "missing": [
+        "Merged into broader V2 page"
+      ],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/solutions/compressors",
+      "v2_route": "/v2/[locale]/solutions/compressors",
+      "v1_exists": true,
+      "coverage": "full",
+      "missing": [],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/solutions/consumables",
+      "v2_route": "/v2/[locale]/solutions/filtration (merged)",
+      "v1_exists": true,
+      "coverage": "full",
+      "missing": [
+        "Merged into broader V2 page"
+      ],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/solutions/filtration",
+      "v2_route": "/v2/[locale]/solutions/filtration",
+      "v1_exists": true,
+      "coverage": "full",
+      "missing": [],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/solutions/hydraulics",
+      "v2_route": "/v2/[locale]/solutions/hydraulic",
+      "v1_exists": true,
+      "coverage": "full",
+      "missing": [],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/solutions/mechanical",
+      "v2_route": "/v2/[locale]/solutions/mechanical-transmission",
+      "v1_exists": true,
+      "coverage": "full",
+      "missing": [],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/solutions/pneumatics",
+      "v2_route": "/v2/[locale]/solutions/automation",
+      "v1_exists": true,
+      "coverage": "full",
+      "missing": [],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/solutions/pumps",
+      "v2_route": "/v2/[locale]/solutions/pumps",
+      "v1_exists": true,
+      "coverage": "full",
+      "missing": [],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/solutions/valves",
+      "v2_route": "/v2/[locale]/solutions/valves",
+      "v1_exists": true,
+      "coverage": "full",
+      "missing": [],
+      "migration_action": "redirect"
+    },
+    {
+      "v1_route": "/submit-requirement",
+      "v2_route": "Uses V1 RequestForm component — keep V1 for now",
+      "v1_exists": true,
+      "coverage": "none",
+      "missing": [],
+      "migration_action": "keep_v1"
+    }
+  ],
+  "summary": {
+    "full_coverage": 23,
+    "partial_coverage": 0,
+    "no_coverage": 5,
+    "ready_to_migrate": 23,
+    "keep_v1": 5
+  }
+}

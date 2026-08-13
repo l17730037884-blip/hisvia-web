@@ -1,0 +1,58 @@
+```json
+[
+  {
+    "index": 0,
+    "visual_type": "equipment_photo",
+    "visual_role": "hero_primary",
+    "background_type": "white",
+    "has_transparency": false,
+    "subject": "Plastic injection molding machine with examples of plastic products",
+    "quality_1_10": 9
+  },
+  {
+    "index": 1,
+    "visual_type": "component_detail",
+    "visual_role": "solution_showcase",
+    "background_type": "white",
+    "has_transparency": false,
+    "subject": "Custom sheet metal parts with manufacturing capabilities and certifications",
+    "quality_1_10": 8
+  },
+  {
+    "index": 2,
+    "visual_type": "factory_environment",
+    "visual_role": "factory_proof",
+    "background_type": "outdoor",
+    "has_transparency": false,
+    "subject": "Entrance gate of China Second Heavy Machinery Group Company",
+    "quality_1_10": 7
+  },
+  {
+    "index": 3,
+    "visual_type": "factory_environment",
+    "visual_role": "factory_proof",
+    "background_type": "outdoor",
+    "has_transparency": false,
+    "subject": "Entrance gate of Zhengzhou Coal Mining Machinery Group Co., Ltd.",
+    "quality_1_10": 8
+  },
+  {
+    "index": 4,
+    "visual_type": "factory_environment",
+    "visual_role": "factory_proof",
+    "background_type": "outdoor",
+    "has_transparency": false,
+    "subject": "Entrance of Shenyang Industrial Pump Manufacturing Co., Ltd. with flags and signage",
+    "quality_1_10": 7
+  },
+  {
+    "index": 5,
+    "visual_type": "equipment_photo",
+    "visual_role": "technical_detail",
+    "background_type": "indoor",
+    "has_transparency": false,
+    "subject": "Atlas Copco GA15FF air compressor unit on a pallet",
+    "quality_1_10": 8
+  }
+]
+```

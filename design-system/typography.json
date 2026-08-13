@@ -1,0 +1,73 @@
+{
+  "version": "1.0",
+  "fonts": {
+    "display": {
+      "family": "var(--font-archivo), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+      "tailwind": "font-display",
+      "role": "Hero titles, brand name, key statistics"
+    },
+    "body": {
+      "family": "var(--font-plex-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+      "tailwind": "font-body",
+      "role": "Body text, navigation, descriptions"
+    },
+    "mono": {
+      "family": "var(--font-plex-mono), 'SF Mono', 'Fira Code', monospace",
+      "tailwind": "font-mono",
+      "role": "Labels, technical specs, kickers, version badges"
+    }
+  },
+  "scale": {
+    "hero-title": {
+      "size": "36px / 44px / 52px",
+      "weight": "700 (bold)",
+      "leading": "1.12",
+      "tracking": "tight",
+      "class": "text-[36px] md:text-[44px] lg:text-[52px] font-bold leading-[1.12] tracking-tight"
+    },
+    "section-title": {
+      "size": "24px / 28px",
+      "weight": "700",
+      "leading": "1.2",
+      "class": "text-[24px] md:text-[28px] font-bold leading-[1.2]"
+    },
+    "subsection-title": {
+      "size": "16px / 18px",
+      "weight": "600",
+      "class": "text-[16px] md:text-[18px] font-semibold"
+    },
+    "body": {
+      "size": "15px / 16px",
+      "weight": "400",
+      "leading": "1.6",
+      "class": "text-[15px] md:text-[16px] leading-relaxed"
+    },
+    "body-small": {
+      "size": "13px / 13.5px",
+      "weight": "400",
+      "class": "text-[13px] md:text-[13.5px]"
+    },
+    "caption": {
+      "size": "11px / 12px",
+      "weight": "400",
+      "class": "text-[11px] md:text-[12px]"
+    },
+    "kicker": {
+      "size": "11px / 12px",
+      "weight": "600",
+      "tracking": "0.2em",
+      "class": "text-[11px] font-semibold uppercase tracking-[0.2em]"
+    },
+    "nav": {
+      "size": "13px",
+      "weight": "500",
+      "class": "text-[13px] font-medium"
+    }
+  },
+  "rules": [
+    "Hero title always uses font-display",
+    "Kickers always use font-mono uppercase",
+    "Body never below 13px for readability",
+    "Technical data uses font-mono"
+  ]
+}

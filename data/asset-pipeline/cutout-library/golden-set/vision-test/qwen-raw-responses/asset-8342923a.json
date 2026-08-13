@@ -1,0 +1,35 @@
+{
+  "output": {
+    "choices": [
+      {
+        "message": {
+          "content": [
+            {
+              "text": "```json\n{\n  \"visible_object\": [\n    \"cylinder\",\n    \"rod\",\n    \"flange\",\n    \"bolts\"\n  ],\n  \"object_type\": \"component\",\n  \"visible_brand\": [],\n  \"visible_text\": [],\n  \"visible_features\": [\n    \"metallic rod\",\n    \"threaded end\",\n    \"flanged mounting\",\n    \"red fasteners\",\n    \"parallel guide rods\"\n  ],\n  \"image_condition\": \"white_background_product\",\n  \"industrial_clues\": [\n    \"pneumatic component\",\n    \"actuator\",\n    \"linear motion\"\n  ],\n  \"visual_confidence\": 95\n}\n```"
+            }
+          ],
+          "reasoning_content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens_details": {
+      "image_tokens": 627,
+      "text_tokens": 190
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 956,
+    "output_tokens": 139,
+    "input_tokens": 817,
+    "output_tokens_details": {
+      "text_tokens": 139
+    },
+    "image_tokens": 627
+  },
+  "request_id": "254dad9a-5523-99b8-9120-9f562c02ba1f"
+}

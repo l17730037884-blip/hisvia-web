@@ -1,0 +1,35 @@
+{
+  "output": {
+    "choices": [
+      {
+        "message": {
+          "content": [
+            {
+              "text": "```json\n{\n  \"visible_object\": [\n    \"machine\",\n    \"conveyor\",\n    \"signboard\",\n    \"lighting\",\n    \"pipe\",\n    \"barrier\"\n  ],\n  \"object_type\": \"factory_scene\",\n  \"visible_brand\": [\n    \"SIEMENS\"\n  ],\n  \"visible_text\": [\n    \"ASSEMBLY AREA\",\n    \"SIEMENS\"\n  ],\n  \"visible_features\": [\n    \"automated assembly line\",\n    \"safety barriers\",\n    \"overhead piping\",\n    \"structured factory layout\"\n  ],\n  \"image_condition\": \"factory_photo\",\n  \"industrial_clues\": [\n    \"manufacturing facility\",\n    \"assembly operations\",\n    \"industrial automation\"\n  ],\n  \"visual_confidence\": 0.95\n}\n```"
+            }
+          ],
+          "reasoning_content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens_details": {
+      "image_tokens": 578,
+      "text_tokens": 190
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 936,
+    "output_tokens": 168,
+    "input_tokens": 768,
+    "output_tokens_details": {
+      "text_tokens": 168
+    },
+    "image_tokens": 578
+  },
+  "request_id": "a5fc23e2-b506-975a-847e-2ed25c7f8d9c"
+}

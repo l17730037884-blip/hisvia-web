@@ -1,0 +1,35 @@
+{
+  "output": {
+    "choices": [
+      {
+        "message": {
+          "content": [
+            {
+              "text": "```json\n{\n  \"visible_object\": [\n    \"气缸\"\n  ],\n  \"object_type\": \"component\",\n  \"visible_brand\": [],\n  \"visible_text\": [],\n  \"visible_features\": [\n    \"多个相同的圆柱形物体\",\n    \"银色金属主体\",\n    \"黑色顶部和底部\",\n    \"红色旋钮\",\n    \"金属杆伸出底部\",\n    \"金色导轨\",\n    \"绿色背景\"\n  ],\n  \"image_condition\": \"white_background_product\",\n  \"industrial_clues\": [\n    \"气动元件\",\n    \"工业自动化部件\"\n  ],\n  \"visual_confidence\": 95\n}\n```"
+            }
+          ],
+          "reasoning_content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens_details": {
+      "image_tokens": 627,
+      "text_tokens": 190
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 954,
+    "output_tokens": 137,
+    "input_tokens": 817,
+    "output_tokens_details": {
+      "text_tokens": 137
+    },
+    "image_tokens": 627
+  },
+  "request_id": "91e262d3-52fe-9821-b416-67c2b0a4eaeb"
+}

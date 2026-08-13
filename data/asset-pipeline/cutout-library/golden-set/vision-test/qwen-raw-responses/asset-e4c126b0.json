@@ -1,0 +1,35 @@
+{
+  "output": {
+    "choices": [
+      {
+        "message": {
+          "content": [
+            {
+              "text": "```json\n{\n  \"visible_object\": [\n    \"Gardner Denver L250\"\n  ],\n  \"object_type\": \"equipment\",\n  \"visible_brand\": [\n    \"Gardner Denver\"\n  ],\n  \"visible_text\": [\n    \"Gardner Denver\",\n    \"L250\"\n  ],\n  \"visible_features\": [\n    \"white and red casing\",\n    \"control panel with display and buttons\",\n    \"ventilation grille\",\n    \"corner protectors\"\n  ],\n  \"image_condition\": \"white_background_product\",\n  \"industrial_clues\": [],\n  \"visual_confidence\": 1\n}\n```"
+            }
+          ],
+          "reasoning_content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens_details": {
+      "image_tokens": 1242,
+      "text_tokens": 190
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1566,
+    "output_tokens": 134,
+    "input_tokens": 1432,
+    "output_tokens_details": {
+      "text_tokens": 134
+    },
+    "image_tokens": 1242
+  },
+  "request_id": "c38c9417-15b2-93b2-a270-d00dcf26d023"
+}

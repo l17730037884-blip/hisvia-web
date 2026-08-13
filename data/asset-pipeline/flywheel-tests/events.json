@@ -1,0 +1,992 @@
+{
+  "events": [
+    {
+      "event_id": "EVT-0001",
+      "timestamp": "2026-06-01T08:08:00Z",
+      "event_type": "BUYER_REQUEST_CREATED",
+      "actor_type": "buyer",
+      "actor_id": "BUYER-854",
+      "source": "website",
+      "related_assets": [
+        "asset-7aa48e7e",
+        "asset-703d2aac",
+        "asset-6b7b1713"
+      ],
+      "related_supplier": null,
+      "related_market": "Russia",
+      "result": "pending",
+      "metadata": {
+        "system_type": "Air Compressor Systems",
+        "industry": "construction",
+        "urgency": "normal"
+      }
+    },
+    {
+      "event_id": "EVT-0002",
+      "timestamp": "2026-06-02T08:05:00Z",
+      "event_type": "BUYER_REQUEST_CREATED",
+      "actor_type": "buyer",
+      "actor_id": "BUYER-323",
+      "source": "partner_referral",
+      "related_assets": [
+        "asset-21c46019"
+      ],
+      "related_supplier": null,
+      "related_market": "Indonesia",
+      "result": "pending",
+      "metadata": {
+        "system_type": "Mechanical Transmission",
+        "industry": "construction",
+        "urgency": "high"
+      }
+    },
+    {
+      "event_id": "EVT-0003",
+      "timestamp": "2026-06-03T08:26:00Z",
+      "event_type": "BUYER_REQUEST_CREATED",
+      "actor_type": "buyer",
+      "actor_id": "BUYER-325",
+      "source": "SEO_landing",
+      "related_assets": [
+        "asset-c6834021",
+        "asset-d019942b",
+        "asset-b30cfc76"
+      ],
+      "related_supplier": null,
+      "related_market": "Russia",
+      "result": "pending",
+      "metadata": {
+        "system_type": "Industrial Filtration",
+        "industry": "construction",
+        "urgency": "urgent"
+      }
+    },
+    {
+      "event_id": "EVT-0004",
+      "timestamp": "2026-06-04T08:09:00Z",
+      "event_type": "BUYER_REQUEST_CREATED",
+      "actor_type": "buyer",
+      "actor_id": "BUYER-320",
+      "source": "direct_inquiry",
+      "related_assets": [
+        "asset-98c32b0b",
+        "asset-83e87c07",
+        "asset-7aa48e7e"
+      ],
+      "related_supplier": null,
+      "related_market": "Russia",
+      "result": "pending",
+      "metadata": {
+        "system_type": "Pneumatic Automation",
+        "industry": "mining",
+        "urgency": "normal"
+      }
+    },
+    {
+      "event_id": "EVT-0005",
+      "timestamp": "2026-06-05T08:16:00Z",
+      "event_type": "BUYER_REQUEST_CREATED",
+      "actor_type": "buyer",
+      "actor_id": "BUYER-926",
+      "source": "website",
+      "related_assets": [
+        "asset-88f5b6a1",
+        "asset-c1e20081"
+      ],
+      "related_supplier": null,
+      "related_market": "India",
+      "result": "pending",
+      "metadata": {
+        "system_type": "Hydraulic Systems",
+        "industry": "food",
+        "urgency": "high"
+      }
+    },
+    {
+      "event_id": "EVT-0006",
+      "timestamp": "2026-06-06T08:18:00Z",
+      "event_type": "BUYER_REQUEST_CREATED",
+      "actor_type": "buyer",
+      "actor_id": "BUYER-949",
+      "source": "direct_inquiry",
+      "related_assets": [
+        "asset-b99e5c97"
+      ],
+      "related_supplier": null,
+      "related_market": "Russia",
+      "result": "pending",
+      "metadata": {
+        "system_type": "Mechanical Transmission",
+        "industry": "construction",
+        "urgency": "normal"
+      }
+    },
+    {
+      "event_id": "EVT-0007",
+      "timestamp": "2026-06-07T08:54:00Z",
+      "event_type": "BUYER_REQUEST_CREATED",
+      "actor_type": "buyer",
+      "actor_id": "BUYER-338",
+      "source": "website",
+      "related_assets": [
+        "asset-6b7b1713",
+        "asset-7f6f9e49",
+        "asset-40a7670c"
+      ],
+      "related_supplier": null,
+      "related_market": "Russia",
+      "result": "pending",
+      "metadata": {
+        "system_type": "Air Compressor Systems",
+        "industry": "food",
+        "urgency": "urgent"
+      }
+    },
+    {
+      "event_id": "EVT-0008",
+      "timestamp": "2026-06-08T08:22:00Z",
+      "event_type": "BUYER_REQUEST_CREATED",
+      "actor_type": "buyer",
+      "actor_id": "BUYER-314",
+      "source": "direct_inquiry",
+      "related_assets": [
+        "asset-8c88c8a9"
+      ],
+      "related_supplier": null,
+      "related_market": "Uzbekistan",
+      "result": "pending",
+      "metadata": {
+        "system_type": "Valves & Flow Control",
+        "industry": "mining",
+        "urgency": "high"
+      }
+    },
+    {
+      "event_id": "EVT-0009",
+      "timestamp": "2026-06-09T08:24:00Z",
+      "event_type": "BUYER_REQUEST_CREATED",
+      "actor_type": "buyer",
+      "actor_id": "BUYER-376",
+      "source": "partner_referral",
+      "related_assets": [
+        "asset-9d1227fa"
+      ],
+      "related_supplier": null,
+      "related_market": "Kazakhstan",
+      "result": "pending",
+      "metadata": {
+        "system_type": "Industrial Filtration",
+        "industry": "manufacturing",
+        "urgency": "normal"
+      }
+    },
+    {
+      "event_id": "EVT-0010",
+      "timestamp": "2026-06-10T08:04:00Z",
+      "event_type": "BUYER_REQUEST_CREATED",
+      "actor_type": "buyer",
+      "actor_id": "BUYER-316",
+      "source": "direct_inquiry",
+      "related_assets": [
+        "asset-92e6ee68",
+        "asset-7aa48e7e"
+      ],
+      "related_supplier": null,
+      "related_market": "UAE",
+      "result": "pending",
+      "metadata": {
+        "system_type": "Air Compressor Systems",
+        "industry": "oil_gas",
+        "urgency": "high"
+      }
+    },
+    {
+      "event_id": "EVT-0011",
+      "timestamp": "2026-06-11T08:08:00Z",
+      "event_type": "BUYER_REQUEST_CREATED",
+      "actor_type": "buyer",
+      "actor_id": "BUYER-352",
+      "source": "direct_inquiry",
+      "related_assets": [
+        "asset-9d1227fa",
+        "asset-4ab74032",
+        "asset-7981e8b6"
+      ],
+      "related_supplier": null,
+      "related_market": "Kyrgyzstan",
+      "result": "pending",
+      "metadata": {
+        "system_type": "Mechanical Transmission",
+        "industry": "construction",
+        "urgency": "urgent"
+      }
+    },
+    {
+      "event_id": "EVT-0012",
+      "timestamp": "2026-06-12T08:32:00Z",
+      "event_type": "BUYER_REQUEST_CREATED",
+      "actor_type": "buyer",
+      "actor_id": "BUYER-605",
+      "source": "website",
+      "related_assets": [
+        "asset-6b7b1713",
+        "asset-48b63b1e"
+      ],
+      "related_supplier": null,
+      "related_market": "Indonesia",
+      "result": "pending",
+      "metadata": {
+        "system_type": "Mechanical Transmission",
+        "industry": "mining",
+        "urgency": "normal"
+      }
+    },
+    {
+      "event_id": "EVT-0013",
+      "timestamp": "2026-06-13T08:24:00Z",
+      "event_type": "BUYER_REQUEST_CREATED",
+      "actor_type": "buyer",
+      "actor_id": "BUYER-490",
+      "source": "SEO_landing",
+      "related_assets": [
+        "asset-98c32b0b",
+        "asset-c1e20081",
+        "asset-3986d47f"
+      ],
+      "related_supplier": null,
+      "related_market": "Kazakhstan",
+      "result": "pending",
+      "metadata": {
+        "system_type": "Pneumatic Automation",
+        "industry": "construction",
+        "urgency": "urgent"
+      }
+    },
+    {
+      "event_id": "EVT-0014",
+      "timestamp": "2026-06-14T08:56:00Z",
+      "event_type": "BUYER_REQUEST_CREATED",
+      "actor_type": "buyer",
+      "actor_id": "BUYER-649",
+      "source": "direct_inquiry",
+      "related_assets": [
+        "asset-daa8c1a0",
+        "asset-475bb362",
+        "asset-cb96edf5"
+      ],
+      "related_supplier": null,
+      "related_market": "Saudi Arabia",
+      "result": "pending",
+      "metadata": {
+        "system_type": "Air Compressor Systems",
+        "industry": "manufacturing",
+        "urgency": "normal"
+      }
+    },
+    {
+      "event_id": "EVT-0015",
+      "timestamp": "2026-06-15T08:00:00Z",
+      "event_type": "BUYER_REQUEST_CREATED",
+      "actor_type": "buyer",
+      "actor_id": "BUYER-839",
+      "source": "direct_inquiry",
+      "related_assets": [
+        "asset-9d1227fa"
+      ],
+      "related_supplier": null,
+      "related_market": "UAE",
+      "result": "pending",
+      "metadata": {
+        "system_type": "Mechanical Transmission",
+        "industry": "construction",
+        "urgency": "normal"
+      }
+    },
+    {
+      "event_id": "EVT-0016",
+      "timestamp": "2026-06-12T04:53:00Z",
+      "event_type": "MATCH_COMPLETED",
+      "actor_type": "system",
+      "actor_id": "matching-engine",
+      "source": "auto_match",
+      "related_assets": [
+        "asset-9d1227fa"
+      ],
+      "related_supplier": "FAC-XIN-002",
+      "related_market": "Kazakhstan",
+      "result": "matched",
+      "metadata": {
+        "system_type": "Industrial Filtration",
+        "match_score": 93.1,
+        "ref_event": "EVT-0009"
+      }
+    },
+    {
+      "event_id": "EVT-0017",
+      "timestamp": "2026-06-12T18:23:00Z",
+      "event_type": "MATCH_COMPLETED",
+      "actor_type": "system",
+      "actor_id": "matching-engine",
+      "source": "auto_match",
+      "related_assets": [
+        "asset-9d1227fa",
+        "asset-4ab74032",
+        "asset-7981e8b6"
+      ],
+      "related_supplier": "FAC-ZJ-001",
+      "related_market": "Kyrgyzstan",
+      "result": "matched",
+      "metadata": {
+        "system_type": "Mechanical Transmission",
+        "match_score": 83.1,
+        "ref_event": "EVT-0011"
+      }
+    },
+    {
+      "event_id": "EVT-0018",
+      "timestamp": "2026-06-14T18:58:00Z",
+      "event_type": "MATCH_COMPLETED",
+      "actor_type": "system",
+      "actor_id": "matching-engine",
+      "source": "auto_match",
+      "related_assets": [
+        "asset-98c32b0b",
+        "asset-c1e20081",
+        "asset-3986d47f"
+      ],
+      "related_supplier": "FAC-XIN-003",
+      "related_market": "Kazakhstan",
+      "result": "matched",
+      "metadata": {
+        "system_type": "Pneumatic Automation",
+        "match_score": 80.5,
+        "ref_event": "EVT-0013"
+      }
+    },
+    {
+      "event_id": "EVT-0019",
+      "timestamp": "2026-06-14T10:07:00Z",
+      "event_type": "MATCH_COMPLETED",
+      "actor_type": "system",
+      "actor_id": "matching-engine",
+      "source": "auto_match",
+      "related_assets": [
+        "asset-7aa48e7e",
+        "asset-703d2aac",
+        "asset-6b7b1713"
+      ],
+      "related_supplier": "FAC-ZJ-002",
+      "related_market": "Russia",
+      "result": "matched",
+      "metadata": {
+        "system_type": "Air Compressor Systems",
+        "match_score": 72.3,
+        "ref_event": "EVT-0001"
+      }
+    },
+    {
+      "event_id": "EVT-0020",
+      "timestamp": "2026-06-16T04:15:00Z",
+      "event_type": "MATCH_COMPLETED",
+      "actor_type": "system",
+      "actor_id": "matching-engine",
+      "source": "auto_match",
+      "related_assets": [
+        "asset-9d1227fa"
+      ],
+      "related_supplier": "FAC-SH-002",
+      "related_market": "UAE",
+      "result": "matched",
+      "metadata": {
+        "system_type": "Mechanical Transmission",
+        "match_score": 93.4,
+        "ref_event": "EVT-0015"
+      }
+    },
+    {
+      "event_id": "EVT-0021",
+      "timestamp": "2026-06-16T14:05:00Z",
+      "event_type": "MATCH_COMPLETED",
+      "actor_type": "system",
+      "actor_id": "matching-engine",
+      "source": "auto_match",
+      "related_assets": [
+        "asset-7aa48e7e",
+        "asset-703d2aac",
+        "asset-6b7b1713"
+      ],
+      "related_supplier": "FAC-XIN-004",
+      "related_market": "Russia",
+      "result": "matched",
+      "metadata": {
+        "system_type": "Air Compressor Systems",
+        "match_score": 93.4,
+        "ref_event": "EVT-0001"
+      }
+    },
+    {
+      "event_id": "EVT-0022",
+      "timestamp": "2026-06-18T19:49:00Z",
+      "event_type": "MATCH_COMPLETED",
+      "actor_type": "system",
+      "actor_id": "matching-engine",
+      "source": "auto_match",
+      "related_assets": [
+        "asset-6b7b1713",
+        "asset-48b63b1e"
+      ],
+      "related_supplier": "FAC-GD-002",
+      "related_market": "Indonesia",
+      "result": "matched",
+      "metadata": {
+        "system_type": "Mechanical Transmission",
+        "match_score": 91.0,
+        "ref_event": "EVT-0012"
+      }
+    },
+    {
+      "event_id": "EVT-0023",
+      "timestamp": "2026-06-19T20:10:00Z",
+      "event_type": "MATCH_COMPLETED",
+      "actor_type": "system",
+      "actor_id": "matching-engine",
+      "source": "auto_match",
+      "related_assets": [
+        "asset-c6834021",
+        "asset-d019942b",
+        "asset-b30cfc76"
+      ],
+      "related_supplier": "FAC-XIN-003",
+      "related_market": "Russia",
+      "result": "matched",
+      "metadata": {
+        "system_type": "Industrial Filtration",
+        "match_score": 85.1,
+        "ref_event": "EVT-0003"
+      }
+    },
+    {
+      "event_id": "EVT-0024",
+      "timestamp": "2026-06-20T12:13:00Z",
+      "event_type": "MATCH_COMPLETED",
+      "actor_type": "system",
+      "actor_id": "matching-engine",
+      "source": "auto_match",
+      "related_assets": [
+        "asset-88f5b6a1",
+        "asset-c1e20081"
+      ],
+      "related_supplier": "FAC-ZJ-001",
+      "related_market": "India",
+      "result": "matched",
+      "metadata": {
+        "system_type": "Hydraulic Systems",
+        "match_score": 93.2,
+        "ref_event": "EVT-0005"
+      }
+    },
+    {
+      "event_id": "EVT-0025",
+      "timestamp": "2026-06-22T05:12:00Z",
+      "event_type": "MATCH_COMPLETED",
+      "actor_type": "system",
+      "actor_id": "matching-engine",
+      "source": "auto_match",
+      "related_assets": [
+        "asset-9d1227fa"
+      ],
+      "related_supplier": "FAC-ZJ-001",
+      "related_market": "UAE",
+      "result": "matched",
+      "metadata": {
+        "system_type": "Mechanical Transmission",
+        "match_score": 88.7,
+        "ref_event": "EVT-0015"
+      }
+    },
+    {
+      "event_id": "EVT-0026",
+      "timestamp": "2026-06-18T12:42:00Z",
+      "event_type": "SUPPLIER_SELECTED",
+      "actor_type": "buyer",
+      "actor_id": "matching-engine",
+      "source": "buyer_choice",
+      "related_assets": [
+        "asset-9d1227fa"
+      ],
+      "related_supplier": "FAC-SH-002",
+      "related_market": "UAE",
+      "result": "selected",
+      "metadata": {
+        "system_type": "Mechanical Transmission",
+        "reason": "fast_delivery"
+      }
+    },
+    {
+      "event_id": "EVT-0027",
+      "timestamp": "2026-06-20T03:28:00Z",
+      "event_type": "SUPPLIER_SELECTED",
+      "actor_type": "buyer",
+      "actor_id": "matching-engine",
+      "source": "buyer_choice",
+      "related_assets": [
+        "asset-c6834021",
+        "asset-d019942b",
+        "asset-b30cfc76"
+      ],
+      "related_supplier": "FAC-XIN-003",
+      "related_market": "Russia",
+      "result": "selected",
+      "metadata": {
+        "system_type": "Industrial Filtration",
+        "reason": "best_price"
+      }
+    },
+    {
+      "event_id": "EVT-0028",
+      "timestamp": "2026-06-19T13:04:00Z",
+      "event_type": "SUPPLIER_SELECTED",
+      "actor_type": "buyer",
+      "actor_id": "matching-engine",
+      "source": "buyer_choice",
+      "related_assets": [
+        "asset-7aa48e7e",
+        "asset-703d2aac",
+        "asset-6b7b1713"
+      ],
+      "related_supplier": "FAC-ZJ-002",
+      "related_market": "Russia",
+      "result": "selected",
+      "metadata": {
+        "system_type": "Air Compressor Systems",
+        "reason": "fast_delivery"
+      }
+    },
+    {
+      "event_id": "EVT-0029",
+      "timestamp": "2026-06-22T07:14:00Z",
+      "event_type": "SUPPLIER_SELECTED",
+      "actor_type": "buyer",
+      "actor_id": "matching-engine",
+      "source": "buyer_choice",
+      "related_assets": [
+        "asset-9d1227fa"
+      ],
+      "related_supplier": "FAC-XIN-002",
+      "related_market": "Kazakhstan",
+      "result": "selected",
+      "metadata": {
+        "system_type": "Industrial Filtration",
+        "reason": "best_quality"
+      }
+    },
+    {
+      "event_id": "EVT-0030",
+      "timestamp": "2026-06-20T18:45:00Z",
+      "event_type": "SUPPLIER_SELECTED",
+      "actor_type": "buyer",
+      "actor_id": "matching-engine",
+      "source": "buyer_choice",
+      "related_assets": [
+        "asset-9d1227fa"
+      ],
+      "related_supplier": "FAC-XIN-002",
+      "related_market": "Kazakhstan",
+      "result": "selected",
+      "metadata": {
+        "system_type": "Industrial Filtration",
+        "reason": "best_price"
+      }
+    },
+    {
+      "event_id": "EVT-0031",
+      "timestamp": "2026-06-21T17:57:00Z",
+      "event_type": "SUPPLIER_SELECTED",
+      "actor_type": "buyer",
+      "actor_id": "matching-engine",
+      "source": "buyer_choice",
+      "related_assets": [
+        "asset-7aa48e7e",
+        "asset-703d2aac",
+        "asset-6b7b1713"
+      ],
+      "related_supplier": "FAC-ZJ-002",
+      "related_market": "Russia",
+      "result": "selected",
+      "metadata": {
+        "system_type": "Air Compressor Systems",
+        "reason": "best_price"
+      }
+    },
+    {
+      "event_id": "EVT-0032",
+      "timestamp": "2026-06-22T18:32:00Z",
+      "event_type": "SUPPLIER_SELECTED",
+      "actor_type": "buyer",
+      "actor_id": "matching-engine",
+      "source": "buyer_choice",
+      "related_assets": [
+        "asset-7aa48e7e",
+        "asset-703d2aac",
+        "asset-6b7b1713"
+      ],
+      "related_supplier": "FAC-XIN-004",
+      "related_market": "Russia",
+      "result": "selected",
+      "metadata": {
+        "system_type": "Air Compressor Systems",
+        "reason": "best_quality"
+      }
+    },
+    {
+      "event_id": "EVT-0033",
+      "timestamp": "2026-06-25T23:13:00Z",
+      "event_type": "SUPPLIER_SELECTED",
+      "actor_type": "buyer",
+      "actor_id": "matching-engine",
+      "source": "buyer_choice",
+      "related_assets": [
+        "asset-9d1227fa"
+      ],
+      "related_supplier": "FAC-SH-002",
+      "related_market": "UAE",
+      "result": "selected",
+      "metadata": {
+        "system_type": "Mechanical Transmission",
+        "reason": "best_quality"
+      }
+    },
+    {
+      "event_id": "EVT-0034",
+      "timestamp": "2026-06-20T00:50:00Z",
+      "event_type": "QUOTE_RECEIVED",
+      "actor_type": "supplier",
+      "actor_id": "FAC-SH-002",
+      "source": "supplier_response",
+      "related_assets": [
+        "asset-9d1227fa"
+      ],
+      "related_supplier": "FAC-SH-002",
+      "related_market": "UAE",
+      "result": "quote_sent",
+      "metadata": {
+        "quote_amount": 35996,
+        "currency": "USD",
+        "lead_time_days": 41
+      }
+    },
+    {
+      "event_id": "EVT-0035",
+      "timestamp": "2026-06-20T15:06:00Z",
+      "event_type": "QUOTE_RECEIVED",
+      "actor_type": "supplier",
+      "actor_id": "FAC-XIN-002",
+      "source": "supplier_response",
+      "related_assets": [
+        "asset-9d1227fa"
+      ],
+      "related_supplier": "FAC-XIN-002",
+      "related_market": "Kazakhstan",
+      "result": "quote_sent",
+      "metadata": {
+        "quote_amount": 48187,
+        "currency": "USD",
+        "lead_time_days": 42
+      }
+    },
+    {
+      "event_id": "EVT-0036",
+      "timestamp": "2026-06-22T12:26:00Z",
+      "event_type": "QUOTE_RECEIVED",
+      "actor_type": "supplier",
+      "actor_id": "FAC-ZJ-002",
+      "source": "supplier_response",
+      "related_assets": [
+        "asset-7aa48e7e",
+        "asset-703d2aac",
+        "asset-6b7b1713"
+      ],
+      "related_supplier": "FAC-ZJ-002",
+      "related_market": "Russia",
+      "result": "quote_sent",
+      "metadata": {
+        "quote_amount": 35606,
+        "currency": "USD",
+        "lead_time_days": 18
+      }
+    },
+    {
+      "event_id": "EVT-0037",
+      "timestamp": "2026-06-22T12:25:00Z",
+      "event_type": "QUOTE_RECEIVED",
+      "actor_type": "supplier",
+      "actor_id": "FAC-XIN-003",
+      "source": "supplier_response",
+      "related_assets": [
+        "asset-c6834021",
+        "asset-d019942b",
+        "asset-b30cfc76"
+      ],
+      "related_supplier": "FAC-XIN-003",
+      "related_market": "Russia",
+      "result": "quote_sent",
+      "metadata": {
+        "quote_amount": 27236,
+        "currency": "USD",
+        "lead_time_days": 21
+      }
+    },
+    {
+      "event_id": "EVT-0038",
+      "timestamp": "2026-06-23T21:12:00Z",
+      "event_type": "QUOTE_RECEIVED",
+      "actor_type": "supplier",
+      "actor_id": "FAC-XIN-002",
+      "source": "supplier_response",
+      "related_assets": [
+        "asset-9d1227fa"
+      ],
+      "related_supplier": "FAC-XIN-002",
+      "related_market": "Kazakhstan",
+      "result": "quote_sent",
+      "metadata": {
+        "quote_amount": 40146,
+        "currency": "USD",
+        "lead_time_days": 43
+      }
+    },
+    {
+      "event_id": "EVT-0039",
+      "timestamp": "2026-07-01T22:11:00Z",
+      "event_type": "ORDER_COMPLETED",
+      "actor_type": "buyer",
+      "actor_id": "matching-engine",
+      "source": "order_system",
+      "related_assets": [
+        "asset-7aa48e7e",
+        "asset-703d2aac",
+        "asset-6b7b1713"
+      ],
+      "related_supplier": "FAC-ZJ-002",
+      "related_market": "Russia",
+      "result": "completed",
+      "metadata": {
+        "order_amount": 23254,
+        "currency": "USD",
+        "system_type": "Air Compressor Systems"
+      }
+    },
+    {
+      "event_id": "EVT-0040",
+      "timestamp": "2026-07-02T16:55:00Z",
+      "event_type": "ORDER_COMPLETED",
+      "actor_type": "buyer",
+      "actor_id": "matching-engine",
+      "source": "order_system",
+      "related_assets": [
+        "asset-9d1227fa"
+      ],
+      "related_supplier": "FAC-SH-002",
+      "related_market": "UAE",
+      "result": "completed",
+      "metadata": {
+        "order_amount": 9940,
+        "currency": "USD",
+        "system_type": "Mechanical Transmission"
+      }
+    },
+    {
+      "event_id": "EVT-0041",
+      "timestamp": "2026-07-04T02:06:00Z",
+      "event_type": "ORDER_COMPLETED",
+      "actor_type": "buyer",
+      "actor_id": "matching-engine",
+      "source": "order_system",
+      "related_assets": [
+        "asset-9d1227fa"
+      ],
+      "related_supplier": "FAC-SH-002",
+      "related_market": "UAE",
+      "result": "completed",
+      "metadata": {
+        "order_amount": 8315,
+        "currency": "USD",
+        "system_type": "Mechanical Transmission"
+      }
+    },
+    {
+      "event_id": "EVT-0042",
+      "timestamp": "2026-07-04T11:59:00Z",
+      "event_type": "ORDER_COMPLETED",
+      "actor_type": "buyer",
+      "actor_id": "matching-engine",
+      "source": "order_system",
+      "related_assets": [
+        "asset-9d1227fa"
+      ],
+      "related_supplier": "FAC-SH-002",
+      "related_market": "UAE",
+      "result": "completed",
+      "metadata": {
+        "order_amount": 20491,
+        "currency": "USD",
+        "system_type": "Mechanical Transmission"
+      }
+    },
+    {
+      "event_id": "EVT-0043",
+      "timestamp": "2026-07-05T22:31:00Z",
+      "event_type": "ORDER_COMPLETED",
+      "actor_type": "buyer",
+      "actor_id": "matching-engine",
+      "source": "order_system",
+      "related_assets": [
+        "asset-7aa48e7e",
+        "asset-703d2aac",
+        "asset-6b7b1713"
+      ],
+      "related_supplier": "FAC-ZJ-002",
+      "related_market": "Russia",
+      "result": "completed",
+      "metadata": {
+        "order_amount": 36546,
+        "currency": "USD",
+        "system_type": "Air Compressor Systems"
+      }
+    },
+    {
+      "event_id": "EVT-0044",
+      "timestamp": "2026-06-06T08:13:00Z",
+      "event_type": "PARTNER_REFERRED",
+      "actor_type": "partner",
+      "actor_id": "PAR-014",
+      "source": "partner_network",
+      "related_assets": [
+        "asset-344e002d",
+        "asset-58e52f7c"
+      ],
+      "related_supplier": null,
+      "related_market": "India",
+      "result": "referred",
+      "metadata": {
+        "referral_type": "lead"
+      }
+    },
+    {
+      "event_id": "EVT-0045",
+      "timestamp": "2026-06-09T08:24:00Z",
+      "event_type": "PARTNER_REFERRED",
+      "actor_type": "partner",
+      "actor_id": "PAR-005",
+      "source": "partner_network",
+      "related_assets": [
+        "asset-7f6f9e49",
+        "asset-98c32b0b"
+      ],
+      "related_supplier": null,
+      "related_market": "Saudi Arabia",
+      "result": "referred",
+      "metadata": {
+        "referral_type": "market_entry"
+      }
+    },
+    {
+      "event_id": "EVT-0046",
+      "timestamp": "2026-06-12T08:45:00Z",
+      "event_type": "PARTNER_REFERRED",
+      "actor_type": "partner",
+      "actor_id": "PAR-008",
+      "source": "partner_network",
+      "related_assets": [
+        "asset-5d428a16"
+      ],
+      "related_supplier": null,
+      "related_market": "UAE",
+      "result": "referred",
+      "metadata": {
+        "referral_type": "lead"
+      }
+    },
+    {
+      "event_id": "EVT-0047",
+      "timestamp": "2026-06-21T08:03:00Z",
+      "event_type": "PAGE_GENERATED",
+      "actor_type": "system",
+      "actor_id": "seo-engine",
+      "source": "auto_generation",
+      "related_assets": [
+        "asset-e1145313",
+        "asset-b30cfc76",
+        "asset-344e002d",
+        "asset-82b06932"
+      ],
+      "related_supplier": null,
+      "related_market": "Russia",
+      "result": "published",
+      "metadata": {
+        "page_type": "system_page",
+        "url": "/solutions/industrial-automation-and-control"
+      }
+    },
+    {
+      "event_id": "EVT-0048",
+      "timestamp": "2026-06-23T08:32:00Z",
+      "event_type": "PAGE_GENERATED",
+      "actor_type": "system",
+      "actor_id": "seo-engine",
+      "source": "auto_generation",
+      "related_assets": [
+        "asset-58e52f7c",
+        "asset-344e002d",
+        "asset-aa90420c",
+        "asset-40a7670c"
+      ],
+      "related_supplier": null,
+      "related_market": "Russia",
+      "result": "published",
+      "metadata": {
+        "page_type": "system_page",
+        "url": "/solutions/hydraulic-systems"
+      }
+    },
+    {
+      "event_id": "EVT-0049",
+      "timestamp": "2026-06-26T08:25:00Z",
+      "event_type": "FEEDBACK_RECEIVED",
+      "actor_type": "buyer",
+      "actor_id": "BUYER-500",
+      "source": "feedback_form",
+      "related_assets": [
+        "asset-7aa48e7e",
+        "asset-703d2aac",
+        "asset-6b7b1713"
+      ],
+      "related_supplier": "FAC-ZJ-002",
+      "related_market": "Russia",
+      "result": "feedback_collected",
+      "metadata": {
+        "rating": 3,
+        "match_quality": "good"
+      }
+    },
+    {
+      "event_id": "EVT-0050",
+      "timestamp": "2026-06-28T08:38:00Z",
+      "event_type": "FEEDBACK_RECEIVED",
+      "actor_type": "buyer",
+      "actor_id": "BUYER-500",
+      "source": "feedback_form",
+      "related_assets": [
+        "asset-9d1227fa"
+      ],
+      "related_supplier": "FAC-ZJ-001",
+      "related_market": "UAE",
+      "result": "feedback_collected",
+      "metadata": {
+        "rating": 3,
+        "match_quality": "excellent"
+      }
+    }
+  ],
+  "total": 50
+}

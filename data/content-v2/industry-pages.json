@@ -1,0 +1,141 @@
+{
+  "version": "v2",
+  "generated": "2026-08-11",
+  "description": "Industry landing pages — organized by buyer's industry, not by product category",
+  "industries": [
+    {
+      "id": "mining",
+      "route": "/industries/mining",
+      "title": "Mining Industry Supply Solutions",
+      "buyer_pain_point": "Mining operations in remote locations need reliable spare parts supply. Equipment downtime costs thousands per hour. OEM parts have long lead times and premium pricing. Alternative quality suppliers are essential for maintaining fleet availability.",
+      "relevant_systems": [
+        "Air Compressor Systems",
+        "Hydraulic Systems",
+        "Pumps & Fluid Handling",
+        "Mechanical Transmission",
+        "Industrial Filtration"
+      ],
+      "typical_equipment": [
+        "Excavators and hydraulic shovels",
+        "Haul trucks and loaders",
+        "Drilling rigs and rock breakers",
+        "Crushers and grinding mills",
+        "Conveyor systems",
+        "Dewatering pumps",
+        "Ventilation compressors",
+        "Dust collection systems"
+      ],
+      "sourcing_priorities": [
+        "Hydraulic pump and motor replacements",
+        "Bearing and seal kits for crushers and mills",
+        "Compressor service parts for mine ventilation",
+        "Slurry pump wear parts and impellers",
+        "Dust collector filter bags and cartridges"
+      ]
+    },
+    {
+      "id": "oil-gas",
+      "route": "/industries/oil-gas",
+      "title": "Oil & Gas Industry Supply Solutions",
+      "buyer_pain_point": "Oil and gas facilities require certified components that meet API, ASME, and ATEX standards. Equipment operates in harsh environments. Supply chain reliability and material traceability are non-negotiable.",
+      "relevant_systems": [
+        "Valves & Flow Control",
+        "Pumps & Fluid Handling",
+        "Air Compressor Systems",
+        "Industrial Filtration"
+      ],
+      "typical_equipment": [
+        "Pipeline valves and actuators",
+        "Process pumps and compressors",
+        "Instrument air systems",
+        "Filtration and separation equipment",
+        "Wellhead and Christmas tree components"
+      ],
+      "sourcing_priorities": [
+        "API 6D pipeline valves",
+        "API 610 process pumps",
+        "Compressor parts for gas gathering",
+        "Coalescing filter elements",
+        "Instrument air dryer components"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "route": "/industries/manufacturing",
+      "title": "Manufacturing Industry Supply Solutions",
+      "buyer_pain_point": "Factory production lines depend on automation, pneumatics, and mechanical systems. Production downtime from component failure directly impacts output. Alternative spare parts suppliers reduce single-source dependency and maintenance costs.",
+      "relevant_systems": [
+        "Pneumatic Automation",
+        "Industrial Automation & Control",
+        "Mechanical Transmission",
+        "Air Compressor Systems"
+      ],
+      "typical_equipment": [
+        "CNC machines and machining centers",
+        "Injection molding machines",
+        "Packaging and filling lines",
+        "Conveyor and material handling",
+        "Industrial robots and automation cells"
+      ],
+      "sourcing_priorities": [
+        "Pneumatic cylinders and solenoid valves",
+        "VFD and servo drive replacements",
+        "PLC modules and industrial sensors",
+        "Bearing replacements for motors and spindles",
+        "Compressor air-end and service kits"
+      ]
+    },
+    {
+      "id": "construction",
+      "route": "/industries/construction",
+      "title": "Construction Equipment Supply Solutions",
+      "buyer_pain_point": "Construction equipment operates under heavy loads in dusty environments. Hydraulic systems, undercarriage parts, and engine components wear quickly. Reliable alternative parts suppliers keep equipment fleets working.",
+      "relevant_systems": [
+        "Hydraulic Systems",
+        "Mechanical Transmission",
+        "Industrial Filtration",
+        "Pumps & Fluid Handling"
+      ],
+      "typical_equipment": [
+        "Excavators and backhoes",
+        "Bulldozers and graders",
+        "Cranes and lifting equipment",
+        "Concrete pumps and mixers",
+        "Portable compressors and generators"
+      ],
+      "sourcing_priorities": [
+        "Hydraulic cylinder seal kits",
+        "Travel motor and swing motor parts",
+        "Filter elements for engine and hydraulic oil",
+        "Undercarriage parts: rollers, idlers, sprockets",
+        "Water pump and oil pump replacements"
+      ]
+    },
+    {
+      "id": "water-treatment",
+      "route": "/industries/water-treatment",
+      "title": "Water Treatment Industry Supply Solutions",
+      "buyer_pain_point": "Water and wastewater treatment plants operate 24/7. Pump failures, valve leaks, and filter clogging cause treatment interruptions. Reliable spare parts at reasonable cost are essential for continuous operation.",
+      "relevant_systems": [
+        "Pumps & Fluid Handling",
+        "Valves & Flow Control",
+        "Industrial Filtration",
+        "Industrial Automation & Control"
+      ],
+      "typical_equipment": [
+        "Centrifugal pumps and submersible pumps",
+        "Gate valves and butterfly valves",
+        "Filter presses and membrane systems",
+        "Chemical dosing systems",
+        "Aeration blowers and diffusers"
+      ],
+      "sourcing_priorities": [
+        "Pump impellers and wear rings",
+        "Mechanical seals for water pumps",
+        "Valve seats and seals",
+        "Filter membrane replacements",
+        "Flow meters and level sensors"
+      ]
+    }
+  ]
+}

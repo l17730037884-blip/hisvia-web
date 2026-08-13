@@ -1,0 +1,42 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Rfq {
+  id                    String    @id @default(uuid()) @db.Uuid
+  publicRef             String    @unique @map("public_ref")
+  idempotencyKey        String    @unique @map("idempotency_key")
+  buyerName             String?   @map("buyer_name")
+  buyerEmail            String    @map("buyer_email")
+  requirementText       String    @map("requirement_text") @db.Text
+  capabilitySelection   Json?     @map("capability_selection")
+  materialApplication   Json?     @map("material_application")
+  evidenceSnapshot      Json?     @map("evidence_snapshot")
+  factoryClusterSnapshot Json?    @map("factory_cluster_snapshot")
+  status                String    @default("new") @map("status")
+  internalStatus        String    @default("received") @map("internal_status")
+  assignedTo            String?   @map("assigned_to")
+  sourceLocale          String?   @map("source_locale")
+  createdAt             DateTime  @default(now()) @map("created_at")
+  updatedAt             DateTime  @updatedAt @map("updated_at")
+  events                RfqEvent[]
+
+  @@map("rfqs")
+}
+
+model RfqEvent {
+  id        String   @id @default(uuid()) @db.Uuid
+  rfqId     String   @map("rfq_id") @db.Uuid
+  eventType String   @map("event_type")
+  payload   Json?
+  createdAt DateTime @default(now()) @map("created_at")
+  rfq       Rfq      @relation(fields: [rfqId], references: [id], onDelete: Cascade)
+
+  @@index([rfqId])
+  @@map("rfq_events")
+}

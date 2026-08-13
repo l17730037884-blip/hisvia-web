@@ -1,0 +1,3215 @@
+<!DOCTYPE html>
+<html lang="zh"><head><meta charset="utf-8"/><title>白底抠图诊断报告</title>
+<style>
+:root{--bg:#0f0f1a;--card:#1a1a30;--border:#2a2a4a;--text:#c8c8d8;--red:#e74c3c;--yellow:#f39c12;--green:#27ae60}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"PingFang SC",sans-serif;background:var(--bg);color:var(--text);padding:16px}
+h1{font-size:18px;margin-bottom:4px}
+.summary{display:flex;gap:16px;margin:12px 0;flex-wrap:wrap}
+.summary .box{padding:10px 18px;border-radius:8px;font-weight:700;font-size:13px}
+.box.red{background:#3d2020;border:1px solid var(--red);color:var(--red)}
+.box.yellow{background:#3d3020;border:1px solid var(--yellow);color:var(--yellow)}
+.box.green{background:#1d3020;border:1px solid var(--green);color:var(--green)}
+.section-title{font-size:15px;font-weight:700;margin:20px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--border)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:8px;margin:4px 0;display:flex;gap:10px;align-items:center;font-size:11px}
+.card img{width:80px;height:60px;object-fit:contain;background:#000;border-radius:4px}
+.metric{display:inline-block;padding:1px 5px;border-radius:3px;margin:1px;font-size:9px;font-family:monospace}
+.metric.red{background:#3d2020;color:#e74c3c}
+.metric.yellow{background:#3d3020;color:#f39c12}
+.metric.green{background:#1d3020;color:#27ae60}
+.metric.blue{background:#1d2d3d;color:#3498db}
+.risk-badge{display:inline-block;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:700}
+.risk-badge.high{background:#e74c3c;color:#fff}
+.risk-badge.medium{background:#f39c12;color:#000}
+.risk-badge.low{background:#27ae60;color:#fff}
+.reason{font-size:9px;color:#e74c3c;margin-left:4px}
+.fn{font-weight:700;font-size:11px}
+</style></head><body>
+<h1>🔬 白底抠图诊断报告</h1>
+<p style="font-size:11px;color:#8892a4">分析318张白底图,诊断漫水法可行性. 根因:产品含亮色(>235灰阶)→漫水泄漏</p>
+<div class="summary">
+<div class="box red">🔴 高风险 必须BiRefNet 250张</div>
+<div class="box yellow">🟡 中风险 边缘加固漫水 50张</div>
+<div class="box green">🟢 低风险 漫水安全 18张</div>
+</div>
+<div class="section-title">🔴 高风险 — 产品含亮色/对比度低 → 必须BiRefNet (250张)</div><div class="card">
+<img src="../photos/raw/_docx6/image105.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image105.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±4</span>
+<span class="metric green">对比度106</span>
+<span class="metric red">亮部25%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(25%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image36.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image36.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度91</span>
+<span class="metric red">亮部23%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(23%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image189.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image189.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±7</span>
+<span class="metric green">对比度81</span>
+<span class="metric red">亮部32%</span>
+<span class="metric yellow">阴影Δ12</span>
+<div><span class="reason">⚠产品亮部>20%(32%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=12)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/brand-machine-ingersoll-rand-5.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">brand-machine-ingersoll-rand-5.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度78</span>
+<span class="metric red">亮部23%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(23%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image113.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image113.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘209±11</span>
+<span class="metric green">对比度110</span>
+<span class="metric green">亮部0%</span>
+<span class="metric yellow">阴影Δ26</span>
+<div><span class="reason">⚠边缘非纯白(白占比0%,std=11)</span> <span class="reason">⚠底部阴影(Δ=26)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image55.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image55.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘248±33</span>
+<span class="metric green">对比度73</span>
+<span class="metric red">亮部61%</span>
+<span class="metric green">阴影Δ-0</span>
+<div><span class="reason">⚠边缘非纯白(白占比97%,std=33)</span> <span class="reason">⚠产品亮部>20%(61%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image64.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image64.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘246±40</span>
+<span class="metric yellow">对比度45</span>
+<span class="metric red">亮部66%</span>
+<span class="metric green">阴影Δ-30</span>
+<div><span class="reason">⚠边缘非纯白(白占比96%,std=40)</span> <span class="reason">⚠产品亮部>20%(66%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image208.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image208.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±2</span>
+<span class="metric green">对比度123</span>
+<span class="metric red">亮部25%</span>
+<span class="metric green">阴影Δ2</span>
+<div><span class="reason">⚠产品亮部>20%(25%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/brand-machine-gardner-denver-5.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">brand-machine-gardner-denver-5.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘250±26</span>
+<span class="metric green">对比度96</span>
+<span class="metric yellow">亮部19%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠边缘非纯白(白占比96%,std=26)</span> <span class="reason">⚠产品有亮区(19%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image3.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image3.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘252±25</span>
+<span class="metric green">对比度85</span>
+<span class="metric red">亮部28%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠边缘非纯白(白占比98%,std=25)</span> <span class="reason">⚠产品亮部>20%(28%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image101.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image101.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘246±44</span>
+<span class="metric yellow">对比度35</span>
+<span class="metric red">亮部50%</span>
+<span class="metric yellow">阴影Δ34</span>
+<div><span class="reason">⚠边缘非纯白(白占比95%,std=44)</span> <span class="reason">⚠产品亮部>20%(50%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=34)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image79.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image79.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度56</span>
+<span class="metric red">亮部65%</span>
+<span class="metric yellow">阴影Δ10</span>
+<div><span class="reason">⚠产品亮部>20%(65%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=10)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image27.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image27.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘252±20</span>
+<span class="metric green">对比度153</span>
+<span class="metric green">亮部1%</span>
+<span class="metric yellow">阴影Δ33</span>
+<div><span class="reason">⚠边缘非纯白(白占比98%,std=20)</span> <span class="reason">⚠底部阴影(Δ=33)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image74.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image74.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘239±46</span>
+<span class="metric green">对比度55</span>
+<span class="metric red">亮部58%</span>
+<span class="metric green">阴影Δ-22</span>
+<div><span class="reason">⚠边缘非纯白(白占比87%,std=46)</span> <span class="reason">⚠产品亮部>20%(58%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/part-sensor-0.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">part-sensor-0.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘253±20</span>
+<span class="metric green">对比度101</span>
+<span class="metric red">亮部35%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠边缘非纯白(白占比98%,std=20)</span> <span class="reason">⚠产品亮部>20%(35%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image94.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image94.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘251±23</span>
+<span class="metric green">对比度113</span>
+<span class="metric red">亮部34%</span>
+<span class="metric green">阴影Δ7</span>
+<div><span class="reason">⚠边缘非纯白(白占比97%,std=23)</span> <span class="reason">⚠产品亮部>20%(34%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image202.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image202.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±10</span>
+<span class="metric green">对比度50</span>
+<span class="metric red">亮部52%</span>
+<span class="metric yellow">阴影Δ11</span>
+<div><span class="reason">⚠产品亮部>20%(52%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=11)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image277.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image277.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘209±10</span>
+<span class="metric green">对比度59</span>
+<span class="metric green">亮部3%</span>
+<span class="metric green">阴影Δ6</span>
+<div><span class="reason">⚠边缘非纯白(白占比0%,std=10)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image21.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image21.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘250±28</span>
+<span class="metric green">对比度106</span>
+<span class="metric red">亮部32%</span>
+<span class="metric yellow">阴影Δ29</span>
+<div><span class="reason">⚠边缘非纯白(白占比96%,std=28)</span> <span class="reason">⚠产品亮部>20%(32%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=29)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image64.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image64.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±5</span>
+<span class="metric green">对比度101</span>
+<span class="metric red">亮部30%</span>
+<span class="metric green">阴影Δ8</span>
+<div><span class="reason">⚠产品亮部>20%(30%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image31.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image31.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±14</span>
+<span class="metric green">对比度125</span>
+<span class="metric red">亮部23%</span>
+<span class="metric green">阴影Δ-0</span>
+<div><span class="reason">⚠边缘非纯白(白占比99%,std=14)</span> <span class="reason">⚠产品亮部>20%(23%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image166.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image166.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±1</span>
+<span class="metric green">对比度80</span>
+<span class="metric red">亮部30%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(30%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image119.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image119.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度88</span>
+<span class="metric red">亮部31%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(31%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image18.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image18.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘251±25</span>
+<span class="metric green">对比度108</span>
+<span class="metric red">亮部40%</span>
+<span class="metric yellow">阴影Δ36</span>
+<div><span class="reason">⚠边缘非纯白(白占比98%,std=25)</span> <span class="reason">⚠产品亮部>20%(40%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=36)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image92.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image92.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘253±0</span>
+<span class="metric green">对比度69</span>
+<span class="metric red">亮部56%</span>
+<span class="metric green">阴影Δ1</span>
+<div><span class="reason">⚠产品亮部>20%(57%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image11.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image11.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度117</span>
+<span class="metric red">亮部34%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(34%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image51.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image51.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘242±40</span>
+<span class="metric green">对比度158</span>
+<span class="metric green">亮部5%</span>
+<span class="metric yellow">阴影Δ10</span>
+<div><span class="reason">⚠边缘非纯白(白占比92%,std=41)</span> <span class="reason">⚠底部阴影(Δ=10)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_brand/atlas-copco-22.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">atlas-copco-22.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘210±22</span>
+<span class="metric green">对比度74</span>
+<span class="metric green">亮部0%</span>
+<span class="metric yellow">阴影Δ32</span>
+<div><span class="reason">⚠边缘非纯白(白占比0%,std=22)</span> <span class="reason">⚠底部阴影(Δ=32)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image155.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image155.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘252±18</span>
+<span class="metric green">对比度75</span>
+<span class="metric red">亮部52%</span>
+<span class="metric yellow">阴影Δ34</span>
+<div><span class="reason">⚠边缘非纯白(白占比98%,std=18)</span> <span class="reason">⚠产品亮部>20%(52%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=34)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image60.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image60.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric yellow">对比度45</span>
+<span class="metric red">亮部72%</span>
+<span class="metric green">阴影Δ1</span>
+<div><span class="reason">⚠产品亮部>20%(72%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx5/image34.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image34.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘209±12</span>
+<span class="metric green">对比度51</span>
+<span class="metric green">亮部0%</span>
+<span class="metric yellow">阴影Δ20</span>
+<div><span class="reason">⚠边缘非纯白(白占比0%,std=13)</span> <span class="reason">⚠底部阴影(Δ=20)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image239.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image239.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度75</span>
+<span class="metric red">亮部30%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(30%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image31.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image31.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度60</span>
+<span class="metric red">亮部34%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(34%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image252.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image252.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±12</span>
+<span class="metric green">对比度86</span>
+<span class="metric red">亮部40%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠边缘非纯白(白占比99%,std=12)</span> <span class="reason">⚠产品亮部>20%(40%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/part-ballvalve-1.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">part-ballvalve-1.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±6</span>
+<span class="metric green">对比度57</span>
+<span class="metric red">亮部53%</span>
+<span class="metric yellow">阴影Δ13</span>
+<div><span class="reason">⚠产品亮部>20%(53%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=13)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image58.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image58.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度83</span>
+<span class="metric red">亮部53%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(53%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image182.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image182.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘247±2</span>
+<span class="metric green">对比度111</span>
+<span class="metric red">亮部22%</span>
+<span class="metric green">阴影Δ6</span>
+<div><span class="reason">⚠产品亮部>20%(21%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image34.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image34.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric red">对比度12</span>
+<span class="metric red">亮部88%</span>
+<span class="metric green">阴影Δ7</span>
+<div><span class="reason">⚠对比度极低(12),产品=背景色</span> <span class="reason">⚠产品亮部>20%(88%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image23.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image23.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度113</span>
+<span class="metric red">亮部31%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(31%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image57.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image57.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘249±31</span>
+<span class="metric green">对比度66</span>
+<span class="metric red">亮部59%</span>
+<span class="metric green">阴影Δ-24</span>
+<div><span class="reason">⚠边缘非纯白(白占比96%,std=31)</span> <span class="reason">⚠产品亮部>20%(59%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/part-pump-0.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">part-pump-0.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度120</span>
+<span class="metric red">亮部22%</span>
+<span class="metric green">阴影Δ4</span>
+<div><span class="reason">⚠产品亮部>20%(22%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image96.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image96.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric red">对比度22</span>
+<span class="metric red">亮部85%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠对比度偏低(22)</span> <span class="reason">⚠产品亮部>20%(85%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image74.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image74.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘251±15</span>
+<span class="metric green">对比度66</span>
+<span class="metric red">亮部29%</span>
+<span class="metric yellow">阴影Δ30</span>
+<div><span class="reason">⚠边缘非纯白(白占比92%,std=15)</span> <span class="reason">⚠产品亮部>20%(29%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=30)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image97.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image97.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric yellow">对比度31</span>
+<span class="metric red">亮部65%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠对比度偏低(31)</span> <span class="reason">⚠产品亮部>20%(65%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image204.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image204.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘253±12</span>
+<span class="metric green">对比度73</span>
+<span class="metric red">亮部42%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠边缘非纯白(白占比98%,std=12)</span> <span class="reason">⚠产品亮部>20%(42%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image2.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image2.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘253±13</span>
+<span class="metric green">对比度127</span>
+<span class="metric green">亮部1%</span>
+<span class="metric green">阴影Δ5</span>
+<div><span class="reason">⚠边缘非纯白(白占比96%,std=13)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/brand-machine-ingersoll-rand-0.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">brand-machine-ingersoll-rand-0.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±5</span>
+<span class="metric yellow">对比度48</span>
+<span class="metric red">亮部44%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(44%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image13.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image13.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘252±18</span>
+<span class="metric green">对比度92</span>
+<span class="metric red">亮部33%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠边缘非纯白(白占比97%,std=18)</span> <span class="reason">⚠产品亮部>20%(33%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image93.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image93.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±8</span>
+<span class="metric yellow">对比度48</span>
+<span class="metric red">亮部64%</span>
+<span class="metric green">阴影Δ2</span>
+<div><span class="reason">⚠产品亮部>20%(64%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image161.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image161.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘252±19</span>
+<span class="metric green">对比度103</span>
+<span class="metric red">亮部30%</span>
+<span class="metric yellow">阴影Δ13</span>
+<div><span class="reason">⚠边缘非纯白(白占比98%,std=19)</span> <span class="reason">⚠产品亮部>20%(29%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=13)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image12.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image12.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±10</span>
+<span class="metric green">对比度55</span>
+<span class="metric red">亮部54%</span>
+<span class="metric yellow">阴影Δ9</span>
+<div><span class="reason">⚠产品亮部>20%(54%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=9)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image24.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image24.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘246±37</span>
+<span class="metric green">对比度114</span>
+<span class="metric red">亮部31%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠边缘非纯白(白占比94%,std=37)</span> <span class="reason">⚠产品亮部>20%(31%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image62.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image62.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±10</span>
+<span class="metric green">对比度52</span>
+<span class="metric red">亮部30%</span>
+<span class="metric green">阴影Δ7</span>
+<div><span class="reason">⚠产品亮部>20%(30%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image25.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image25.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度67</span>
+<span class="metric red">亮部51%</span>
+<span class="metric yellow">阴影Δ13</span>
+<div><span class="reason">⚠产品亮部>20%(51%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=13)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image242.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image242.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度102</span>
+<span class="metric red">亮部46%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(46%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image219.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image219.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±9</span>
+<span class="metric green">对比度57</span>
+<span class="metric red">亮部60%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(59%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image235.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image235.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度91</span>
+<span class="metric red">亮部45%</span>
+<span class="metric green">阴影Δ-0</span>
+<div><span class="reason">⚠产品亮部>20%(45%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image24.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image24.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘253±19</span>
+<span class="metric green">对比度143</span>
+<span class="metric yellow">亮部16%</span>
+<span class="metric yellow">阴影Δ36</span>
+<div><span class="reason">⚠边缘非纯白(白占比99%,std=19)</span> <span class="reason">⚠产品有亮区(16%)</span> <span class="reason">⚠底部阴影(Δ=36)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image121.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image121.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度86</span>
+<span class="metric red">亮部46%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(46%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image17.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image17.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘252±13</span>
+<span class="metric yellow">对比度39</span>
+<span class="metric yellow">亮部10%</span>
+<span class="metric green">阴影Δ7</span>
+<div><span class="reason">⚠边缘非纯白(白占比93%,std=13)</span> <span class="reason">⚠产品有亮区(11%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image69.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image69.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘250±24</span>
+<span class="metric green">对比度86</span>
+<span class="metric red">亮部23%</span>
+<span class="metric yellow">阴影Δ32</span>
+<div><span class="reason">⚠边缘非纯白(白占比96%,std=24)</span> <span class="reason">⚠产品亮部>20%(23%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=32)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image62.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image62.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±7</span>
+<span class="metric green">对比度106</span>
+<span class="metric red">亮部25%</span>
+<span class="metric green">阴影Δ5</span>
+<div><span class="reason">⚠产品亮部>20%(25%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image9.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image9.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度70</span>
+<span class="metric red">亮部45%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(45%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image47.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image47.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘242±40</span>
+<span class="metric green">对比度94</span>
+<span class="metric yellow">亮部16%</span>
+<span class="metric yellow">阴影Δ19</span>
+<div><span class="reason">⚠边缘非纯白(白占比89%,std=40)</span> <span class="reason">⚠产品有亮区(16%)</span> <span class="reason">⚠底部阴影(Δ=19)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image20.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image20.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘251±24</span>
+<span class="metric green">对比度116</span>
+<span class="metric red">亮部29%</span>
+<span class="metric green">阴影Δ-9</span>
+<div><span class="reason">⚠边缘非纯白(白占比97%,std=24)</span> <span class="reason">⚠产品亮部>20%(29%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/part-ballvalve-0.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">part-ballvalve-0.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±2</span>
+<span class="metric green">对比度61</span>
+<span class="metric red">亮部50%</span>
+<span class="metric green">阴影Δ2</span>
+<div><span class="reason">⚠产品亮部>20%(50%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/part-pump-3.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">part-pump-3.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘228±22</span>
+<span class="metric green">对比度165</span>
+<span class="metric green">亮部1%</span>
+<span class="metric yellow">阴影Δ29</span>
+<div><span class="reason">⚠边缘非纯白(白占比30%,std=22)</span> <span class="reason">⚠底部阴影(Δ=29)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image58.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image58.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘250±17</span>
+<span class="metric green">对比度81</span>
+<span class="metric green">亮部3%</span>
+<span class="metric yellow">阴影Δ9</span>
+<div><span class="reason">⚠边缘非纯白(白占比93%,std=17)</span> <span class="reason">⚠底部阴影(Δ=9)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image40.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image40.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±8</span>
+<span class="metric green">对比度53</span>
+<span class="metric red">亮部34%</span>
+<span class="metric green">阴影Δ1</span>
+<div><span class="reason">⚠产品亮部>20%(35%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/part-oilsep-5.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">part-oilsep-5.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±15</span>
+<span class="metric green">对比度68</span>
+<span class="metric red">亮部58%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠边缘非纯白(白占比99%,std=15)</span> <span class="reason">⚠产品亮部>20%(58%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image33.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image33.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘244±40</span>
+<span class="metric green">对比度138</span>
+<span class="metric green">亮部8%</span>
+<span class="metric yellow">阴影Δ33</span>
+<div><span class="reason">⚠边缘非纯白(白占比93%,std=40)</span> <span class="reason">⚠底部阴影(Δ=33)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_brand/atlas-copco-24.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">atlas-copco-24.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘252±22</span>
+<span class="metric green">对比度128</span>
+<span class="metric yellow">亮部17%</span>
+<span class="metric yellow">阴影Δ51</span>
+<div><span class="reason">⚠边缘非纯白(白占比98%,std=22)</span> <span class="reason">⚠产品有亮区(17%)</span> <span class="reason">⚠底部阴影(Δ=51)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image205.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image205.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric yellow">对比度46</span>
+<span class="metric red">亮部62%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(62%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx5/image10.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image10.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度65</span>
+<span class="metric red">亮部45%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(45%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image207.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image207.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘250±31</span>
+<span class="metric green">对比度53</span>
+<span class="metric red">亮部42%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠边缘非纯白(白占比96%,std=31)</span> <span class="reason">⚠产品亮部>20%(42%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image57.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image57.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±8</span>
+<span class="metric yellow">对比度49</span>
+<span class="metric red">亮部30%</span>
+<span class="metric yellow">阴影Δ23</span>
+<div><span class="reason">⚠产品亮部>20%(30%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=23)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image79.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image79.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度99</span>
+<span class="metric red">亮部41%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(41%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image130.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image130.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘237±13</span>
+<span class="metric green">对比度84</span>
+<span class="metric green">亮部6%</span>
+<span class="metric yellow">阴影Δ21</span>
+<div><span class="reason">⚠边缘非纯白(白占比47%,std=13)</span> <span class="reason">⚠底部阴影(Δ=21)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image85.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image85.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度54</span>
+<span class="metric red">亮部70%</span>
+<span class="metric green">阴影Δ1</span>
+<div><span class="reason">⚠产品亮部>20%(70%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image241.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image241.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度79</span>
+<span class="metric red">亮部35%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(35%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image56.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image56.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘253±17</span>
+<span class="metric green">对比度54</span>
+<span class="metric red">亮部66%</span>
+<span class="metric yellow">阴影Δ11</span>
+<div><span class="reason">⚠边缘非纯白(白占比99%,std=17)</span> <span class="reason">⚠产品亮部>20%(66%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=11)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image60.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image60.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘253±18</span>
+<span class="metric green">对比度85</span>
+<span class="metric red">亮部53%</span>
+<span class="metric yellow">阴影Δ18</span>
+<div><span class="reason">⚠边缘非纯白(白占比99%,std=18)</span> <span class="reason">⚠产品亮部>20%(53%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=18)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image54.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image54.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘250±21</span>
+<span class="metric green">对比度113</span>
+<span class="metric green">亮部8%</span>
+<span class="metric green">阴影Δ2</span>
+<div><span class="reason">⚠边缘非纯白(白占比94%,std=21)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image113.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image113.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘251±22</span>
+<span class="metric green">对比度72</span>
+<span class="metric red">亮部36%</span>
+<span class="metric green">阴影Δ1</span>
+<div><span class="reason">⚠边缘非纯白(白占比97%,std=22)</span> <span class="reason">⚠产品亮部>20%(37%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image248.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image248.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度58</span>
+<span class="metric red">亮部49%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(49%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image26.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image26.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±14</span>
+<span class="metric green">对比度107</span>
+<span class="metric red">亮部32%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠边缘非纯白(白占比99%,std=14)</span> <span class="reason">⚠产品亮部>20%(32%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image52.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image52.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度116</span>
+<span class="metric red">亮部34%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(34%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image180.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image180.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric yellow">对比度34</span>
+<span class="metric red">亮部59%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠对比度偏低(34)</span> <span class="reason">⚠产品亮部>20%(59%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image110.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image110.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±1</span>
+<span class="metric green">对比度79</span>
+<span class="metric red">亮部44%</span>
+<span class="metric yellow">阴影Δ11</span>
+<div><span class="reason">⚠产品亮部>20%(43%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=11)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx5/image22.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image22.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±15</span>
+<span class="metric green">对比度144</span>
+<span class="metric yellow">亮部10%</span>
+<span class="metric yellow">阴影Δ17</span>
+<div><span class="reason">⚠边缘非纯白(白占比99%,std=15)</span> <span class="reason">⚠产品有亮区(10%)</span> <span class="reason">⚠底部阴影(Δ=17)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx5/image19.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image19.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘251±20</span>
+<span class="metric green">对比度130</span>
+<span class="metric green">亮部5%</span>
+<span class="metric yellow">阴影Δ27</span>
+<div><span class="reason">⚠边缘非纯白(白占比97%,std=20)</span> <span class="reason">⚠底部阴影(Δ=27)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image37.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image37.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘251±23</span>
+<span class="metric green">对比度150</span>
+<span class="metric green">亮部9%</span>
+<span class="metric green">阴影Δ-4</span>
+<div><span class="reason">⚠边缘非纯白(白占比97%,std=23)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image115.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image115.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘249±30</span>
+<span class="metric green">对比度103</span>
+<span class="metric red">亮部30%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠边缘非纯白(白占比96%,std=30)</span> <span class="reason">⚠产品亮部>20%(30%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image118.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image118.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric yellow">对比度47</span>
+<span class="metric red">亮部65%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(65%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image67.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image67.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘243±0</span>
+<span class="metric red">对比度29</span>
+<span class="metric red">亮部52%</span>
+<span class="metric green">阴影Δ2</span>
+<div><span class="reason">⚠对比度偏低(29)</span> <span class="reason">⚠产品亮部>20%(52%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image284.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image284.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±9</span>
+<span class="metric red">对比度14</span>
+<span class="metric red">亮部88%</span>
+<span class="metric yellow">阴影Δ35</span>
+<div><span class="reason">⚠对比度极低(14),产品=背景色</span> <span class="reason">⚠产品亮部>20%(88%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=35)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image20.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image20.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度107</span>
+<span class="metric red">亮部35%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(35%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image70.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image70.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘252±14</span>
+<span class="metric green">对比度62</span>
+<span class="metric red">亮部29%</span>
+<span class="metric green">阴影Δ-1</span>
+<div><span class="reason">⚠边缘非纯白(白占比97%,std=14)</span> <span class="reason">⚠产品亮部>20%(29%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image32.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image32.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘251±29</span>
+<span class="metric green">对比度135</span>
+<span class="metric yellow">亮部19%</span>
+<span class="metric yellow">阴影Δ25</span>
+<div><span class="reason">⚠边缘非纯白(白占比98%,std=29)</span> <span class="reason">⚠产品有亮区(19%)</span> <span class="reason">⚠底部阴影(Δ=25)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image84.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image84.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘250±25</span>
+<span class="metric yellow">对比度30</span>
+<span class="metric red">亮部64%</span>
+<span class="metric green">阴影Δ-6</span>
+<div><span class="reason">⚠边缘非纯白(白占比96%,std=25)</span> <span class="reason">⚠对比度偏低(31)</span> <span class="reason">⚠产品亮部>20%(65%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image231.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image231.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘250±23</span>
+<span class="metric green">对比度107</span>
+<span class="metric red">亮部20%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠边缘非纯白(白占比96%,std=23)</span> <span class="reason">⚠产品亮部>20%(20%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image265.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image265.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘246±5</span>
+<span class="metric green">对比度163</span>
+<span class="metric green">亮部2%</span>
+<span class="metric yellow">阴影Δ25</span>
+<div><span class="reason">⚠边缘非纯白(白占比88%,std=5)</span> <span class="reason">⚠底部阴影(Δ=25)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image282.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image282.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘237±48</span>
+<span class="metric red">对比度-5</span>
+<span class="metric red">亮部94%</span>
+<span class="metric yellow">阴影Δ41</span>
+<div><span class="reason">⚠边缘非纯白(白占比88%,std=48)</span> <span class="reason">⚠对比度极低(-5),产品=背景色</span> <span class="reason">⚠产品亮部>20%(93%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=41)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image75.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image75.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度60</span>
+<span class="metric red">亮部48%</span>
+<span class="metric green">阴影Δ2</span>
+<div><span class="reason">⚠产品亮部>20%(48%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image218.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image218.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度104</span>
+<span class="metric red">亮部32%</span>
+<span class="metric green">阴影Δ5</span>
+<div><span class="reason">⚠产品亮部>20%(32%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image169.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image169.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘253±14</span>
+<span class="metric green">对比度56</span>
+<span class="metric red">亮部36%</span>
+<span class="metric yellow">阴影Δ11</span>
+<div><span class="reason">⚠边缘非纯白(白占比97%,std=14)</span> <span class="reason">⚠产品亮部>20%(36%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=11)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image178.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image178.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘253±17</span>
+<span class="metric green">对比度104</span>
+<span class="metric yellow">亮部12%</span>
+<span class="metric yellow">阴影Δ25</span>
+<div><span class="reason">⚠边缘非纯白(白占比98%,std=17)</span> <span class="reason">⚠产品有亮区(11%)</span> <span class="reason">⚠底部阴影(Δ=25)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image14.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image14.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘250±27</span>
+<span class="metric green">对比度132</span>
+<span class="metric yellow">亮部13%</span>
+<span class="metric yellow">阴影Δ33</span>
+<div><span class="reason">⚠边缘非纯白(白占比97%,std=27)</span> <span class="reason">⚠产品有亮区(13%)</span> <span class="reason">⚠底部阴影(Δ=33)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image280.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image280.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘236±31</span>
+<span class="metric green">对比度91</span>
+<span class="metric red">亮部24%</span>
+<span class="metric yellow">阴影Δ58</span>
+<div><span class="reason">⚠边缘非纯白(白占比71%,std=31)</span> <span class="reason">⚠产品亮部>20%(24%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=58)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image145.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image145.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric yellow">对比度48</span>
+<span class="metric red">亮部43%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(43%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/part-sensor-1.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">part-sensor-1.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±2</span>
+<span class="metric green">对比度76</span>
+<span class="metric red">亮部54%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(54%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image78.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image78.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘252±22</span>
+<span class="metric green">对比度60</span>
+<span class="metric red">亮部53%</span>
+<span class="metric green">阴影Δ-0</span>
+<div><span class="reason">⚠边缘非纯白(白占比98%,std=23)</span> <span class="reason">⚠产品亮部>20%(53%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image245.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image245.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度121</span>
+<span class="metric red">亮部22%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(22%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image243.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image243.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度141</span>
+<span class="metric red">亮部22%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(22%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image37.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image37.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘252±12</span>
+<span class="metric yellow">对比度35</span>
+<span class="metric red">亮部66%</span>
+<span class="metric yellow">阴影Δ12</span>
+<div><span class="reason">⚠边缘非纯白(白占比93%,std=12)</span> <span class="reason">⚠对比度偏低(35)</span> <span class="reason">⚠产品亮部>20%(66%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=12)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image170.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image170.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘252±18</span>
+<span class="metric yellow">对比度46</span>
+<span class="metric red">亮部47%</span>
+<span class="metric yellow">阴影Δ9</span>
+<div><span class="reason">⚠边缘非纯白(白占比97%,std=18)</span> <span class="reason">⚠产品亮部>20%(47%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=9)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image140.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image140.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度86</span>
+<span class="metric red">亮部45%</span>
+<span class="metric green">阴影Δ-0</span>
+<div><span class="reason">⚠产品亮部>20%(45%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image27.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image27.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘216±28</span>
+<span class="metric green">对比度112</span>
+<span class="metric green">亮部0%</span>
+<span class="metric yellow">阴影Δ43</span>
+<div><span class="reason">⚠边缘非纯白(白占比7%,std=28)</span> <span class="reason">⚠底部阴影(Δ=43)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image159.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image159.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度60</span>
+<span class="metric red">亮部54%</span>
+<span class="metric green">阴影Δ6</span>
+<div><span class="reason">⚠产品亮部>20%(54%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image118.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image118.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘235±14</span>
+<span class="metric green">对比度51</span>
+<span class="metric red">亮部23%</span>
+<span class="metric green">阴影Δ-6</span>
+<div><span class="reason">⚠边缘非纯白(白占比48%,std=14)</span> <span class="reason">⚠产品亮部>20%(23%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image56.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image56.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘253±19</span>
+<span class="metric green">对比度149</span>
+<span class="metric yellow">亮部10%</span>
+<span class="metric yellow">阴影Δ16</span>
+<div><span class="reason">⚠边缘非纯白(白占比98%,std=19)</span> <span class="reason">⚠产品有亮区(10%)</span> <span class="reason">⚠底部阴影(Δ=16)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image49.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image49.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘246±40</span>
+<span class="metric green">对比度125</span>
+<span class="metric red">亮部24%</span>
+<span class="metric yellow">阴影Δ71</span>
+<div><span class="reason">⚠边缘非纯白(白占比94%,std=40)</span> <span class="reason">⚠产品亮部>20%(24%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=71)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image114.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image114.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘253±20</span>
+<span class="metric green">对比度58</span>
+<span class="metric red">亮部67%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠边缘非纯白(白占比99%,std=20)</span> <span class="reason">⚠产品亮部>20%(67%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image183.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image183.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±6</span>
+<span class="metric green">对比度77</span>
+<span class="metric red">亮部34%</span>
+<span class="metric yellow">阴影Δ9</span>
+<div><span class="reason">⚠产品亮部>20%(34%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=9)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image5.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image5.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度115</span>
+<span class="metric red">亮部40%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(40%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image23.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image23.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±8</span>
+<span class="metric green">对比度110</span>
+<span class="metric red">亮部23%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(23%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image92.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image92.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘253±0</span>
+<span class="metric green">对比度62</span>
+<span class="metric red">亮部27%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(27%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image238.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image238.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±1</span>
+<span class="metric green">对比度69</span>
+<span class="metric red">亮部37%</span>
+<span class="metric yellow">阴影Δ16</span>
+<div><span class="reason">⚠产品亮部>20%(37%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=16)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image142.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image142.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度72</span>
+<span class="metric red">亮部60%</span>
+<span class="metric green">阴影Δ3</span>
+<div><span class="reason">⚠产品亮部>20%(60%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image151.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image151.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±12</span>
+<span class="metric yellow">对比度47</span>
+<span class="metric red">亮部59%</span>
+<span class="metric yellow">阴影Δ17</span>
+<div><span class="reason">⚠产品亮部>20%(59%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=17)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image244.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image244.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±0</span>
+<span class="metric green">对比度118</span>
+<span class="metric red">亮部35%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(35%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image162.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image162.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘253±20</span>
+<span class="metric green">对比度133</span>
+<span class="metric red">亮部31%</span>
+<span class="metric green">阴影Δ7</span>
+<div><span class="reason">⚠边缘非纯白(白占比99%,std=20)</span> <span class="reason">⚠产品亮部>20%(31%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image16.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image16.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度89</span>
+<span class="metric red">亮部48%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(48%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx5/image39.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image39.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘246±31</span>
+<span class="metric green">对比度118</span>
+<span class="metric yellow">亮部13%</span>
+<span class="metric green">阴影Δ1</span>
+<div><span class="reason">⚠边缘非纯白(白占比95%,std=31)</span> <span class="reason">⚠产品有亮区(13%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image174.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image174.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘248±34</span>
+<span class="metric green">对比度162</span>
+<span class="metric green">亮部0%</span>
+<span class="metric yellow">阴影Δ31</span>
+<div><span class="reason">⚠边缘非纯白(白占比95%,std=34)</span> <span class="reason">⚠底部阴影(Δ=31)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/part-oilsep-0.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">part-oilsep-0.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度97</span>
+<span class="metric red">亮部32%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(32%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_brand/hitachi-22.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">hitachi-22.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度75</span>
+<span class="metric red">亮部48%</span>
+<span class="metric yellow">阴影Δ23</span>
+<div><span class="reason">⚠产品亮部>20%(48%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=23)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image148.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image148.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘251±19</span>
+<span class="metric green">对比度87</span>
+<span class="metric green">亮部9%</span>
+<span class="metric yellow">阴影Δ15</span>
+<div><span class="reason">⚠边缘非纯白(白占比96%,std=19)</span> <span class="reason">⚠底部阴影(Δ=15)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx5/image17.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image17.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘245±10</span>
+<span class="metric green">对比度62</span>
+<span class="metric red">亮部38%</span>
+<span class="metric yellow">阴影Δ21</span>
+<div><span class="reason">⚠边缘非纯白(白占比59%,std=10)</span> <span class="reason">⚠产品亮部>20%(38%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=21)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image13.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image13.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘252±24</span>
+<span class="metric green">对比度157</span>
+<span class="metric green">亮部0%</span>
+<span class="metric yellow">阴影Δ11</span>
+<div><span class="reason">⚠边缘非纯白(白占比98%,std=24)</span> <span class="reason">⚠底部阴影(Δ=11)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image141.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image141.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±2</span>
+<span class="metric green">对比度117</span>
+<span class="metric red">亮部25%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(25%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image94.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image94.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘250±19</span>
+<span class="metric green">对比度70</span>
+<span class="metric red">亮部45%</span>
+<span class="metric yellow">阴影Δ13</span>
+<div><span class="reason">⚠边缘非纯白(白占比96%,std=19)</span> <span class="reason">⚠产品亮部>20%(45%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=13)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/brand-machine-atlas-copco-4.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">brand-machine-atlas-copco-4.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘236±2</span>
+<span class="metric green">对比度82</span>
+<span class="metric yellow">亮部14%</span>
+<span class="metric green">阴影Δ1</span>
+<div><span class="reason">⚠边缘非纯白(白占比3%,std=2)</span> <span class="reason">⚠产品有亮区(14%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image201.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image201.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘222±33</span>
+<span class="metric green">对比度114</span>
+<span class="metric green">亮部0%</span>
+<span class="metric yellow">阴影Δ48</span>
+<div><span class="reason">⚠边缘非纯白(白占比0%,std=33)</span> <span class="reason">⚠底部阴影(Δ=48)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image215.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image215.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±3</span>
+<span class="metric green">对比度72</span>
+<span class="metric red">亮部48%</span>
+<span class="metric green">阴影Δ5</span>
+<div><span class="reason">⚠产品亮部>20%(48%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image181.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image181.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度111</span>
+<span class="metric red">亮部40%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(40%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image73.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image73.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±8</span>
+<span class="metric green">对比度53</span>
+<span class="metric red">亮部49%</span>
+<span class="metric yellow">阴影Δ32</span>
+<div><span class="reason">⚠产品亮部>20%(49%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=32)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx5/image36.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image36.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±2</span>
+<span class="metric green">对比度80</span>
+<span class="metric red">亮部36%</span>
+<span class="metric yellow">阴影Δ16</span>
+<div><span class="reason">⚠产品亮部>20%(37%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=16)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image30.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image30.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘204±22</span>
+<span class="metric green">对比度89</span>
+<span class="metric green">亮部0%</span>
+<span class="metric green">阴影Δ-22</span>
+<div><span class="reason">⚠边缘非纯白(白占比0%,std=22)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image158.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image158.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘251±27</span>
+<span class="metric green">对比度73</span>
+<span class="metric red">亮部48%</span>
+<span class="metric yellow">阴影Δ38</span>
+<div><span class="reason">⚠边缘非纯白(白占比97%,std=27)</span> <span class="reason">⚠产品亮部>20%(48%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=38)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image93.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image93.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度83</span>
+<span class="metric red">亮部30%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(30%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_brand/gardner-denver-25.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">gardner-denver-25.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric red">对比度19</span>
+<span class="metric red">亮部80%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠对比度极低(19),产品=背景色</span> <span class="reason">⚠产品亮部>20%(80%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image149.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image149.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘246±36</span>
+<span class="metric green">对比度123</span>
+<span class="metric red">亮部24%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠边缘非纯白(白占比94%,std=36)</span> <span class="reason">⚠产品亮部>20%(24%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/part-oilsep-4.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">part-oilsep-4.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度53</span>
+<span class="metric red">亮部61%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(61%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image62.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image62.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘250±27</span>
+<span class="metric green">对比度137</span>
+<span class="metric green">亮部3%</span>
+<span class="metric yellow">阴影Δ30</span>
+<div><span class="reason">⚠边缘非纯白(白占比96%,std=27)</span> <span class="reason">⚠底部阴影(Δ=30)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/part-pump-6.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">part-pump-6.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±1</span>
+<span class="metric green">对比度115</span>
+<span class="metric red">亮部34%</span>
+<span class="metric green">阴影Δ2</span>
+<div><span class="reason">⚠产品亮部>20%(33%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image261.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image261.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘252±20</span>
+<span class="metric green">对比度190</span>
+<span class="metric green">亮部1%</span>
+<span class="metric yellow">阴影Δ12</span>
+<div><span class="reason">⚠边缘非纯白(白占比98%,std=20)</span> <span class="reason">⚠底部阴影(Δ=12)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image91.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image91.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±5</span>
+<span class="metric green">对比度57</span>
+<span class="metric red">亮部66%</span>
+<span class="metric green">阴影Δ6</span>
+<div><span class="reason">⚠产品亮部>20%(66%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx5/image37.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image37.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘241±41</span>
+<span class="metric green">对比度128</span>
+<span class="metric yellow">亮部16%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠边缘非纯白(白占比89%,std=41)</span> <span class="reason">⚠产品有亮区(16%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image52.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image52.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘250±28</span>
+<span class="metric green">对比度104</span>
+<span class="metric red">亮部33%</span>
+<span class="metric yellow">阴影Δ27</span>
+<div><span class="reason">⚠边缘非纯白(白占比95%,std=28)</span> <span class="reason">⚠产品亮部>20%(33%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=27)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image196.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image196.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘234±11</span>
+<span class="metric green">对比度88</span>
+<span class="metric red">亮部25%</span>
+<span class="metric green">阴影Δ-23</span>
+<div><span class="reason">⚠边缘非纯白(白占比52%,std=11)</span> <span class="reason">⚠产品亮部>20%(25%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image152.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image152.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度59</span>
+<span class="metric red">亮部61%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(61%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image80.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image80.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘240±43</span>
+<span class="metric green">对比度130</span>
+<span class="metric green">亮部0%</span>
+<span class="metric green">阴影Δ-24</span>
+<div><span class="reason">⚠边缘非纯白(白占比89%,std=43)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image29.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image29.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度56</span>
+<span class="metric red">亮部33%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(33%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image279.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image279.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘231±7</span>
+<span class="metric green">对比度71</span>
+<span class="metric green">亮部2%</span>
+<span class="metric green">阴影Δ-13</span>
+<div><span class="reason">⚠边缘非纯白(白占比5%,std=7)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image16.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image16.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度100</span>
+<span class="metric red">亮部36%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(36%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_brand/ingersoll-rand-3.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">ingersoll-rand-3.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度60</span>
+<span class="metric red">亮部44%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(44%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image61.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image61.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘253±16</span>
+<span class="metric green">对比度69</span>
+<span class="metric red">亮部49%</span>
+<span class="metric green">阴影Δ6</span>
+<div><span class="reason">⚠边缘非纯白(白占比98%,std=16)</span> <span class="reason">⚠产品亮部>20%(49%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image1.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image1.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘198±69</span>
+<span class="metric green">对比度80</span>
+<span class="metric green">亮部0%</span>
+<span class="metric green">阴影Δ3</span>
+<div><span class="reason">⚠边缘非纯白(白占比57%,std=69)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image109.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image109.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric yellow">对比度50</span>
+<span class="metric red">亮部59%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(59%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx5/image2.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image2.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘205±43</span>
+<span class="metric green">对比度65</span>
+<span class="metric green">亮部0%</span>
+<span class="metric green">阴影Δ-0</span>
+<div><span class="reason">⚠边缘非纯白(白占比0%,std=43)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image156.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image156.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘252±16</span>
+<span class="metric yellow">对比度47</span>
+<span class="metric red">亮部62%</span>
+<span class="metric yellow">阴影Δ19</span>
+<div><span class="reason">⚠边缘非纯白(白占比96%,std=16)</span> <span class="reason">⚠产品亮部>20%(62%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=19)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image225.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image225.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度78</span>
+<span class="metric red">亮部45%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(45%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image162.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image162.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘202±26</span>
+<span class="metric green">对比度99</span>
+<span class="metric green">亮部1%</span>
+<span class="metric yellow">阴影Δ46</span>
+<div><span class="reason">⚠边缘非纯白(白占比0%,std=26)</span> <span class="reason">⚠底部阴影(Δ=46)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image14.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image14.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度95</span>
+<span class="metric red">亮部34%</span>
+<span class="metric green">阴影Δ2</span>
+<div><span class="reason">⚠产品亮部>20%(34%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image63.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image63.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±1</span>
+<span class="metric green">对比度123</span>
+<span class="metric red">亮部25%</span>
+<span class="metric yellow">阴影Δ10</span>
+<div><span class="reason">⚠产品亮部>20%(25%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=10)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image22.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image22.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±3</span>
+<span class="metric green">对比度78</span>
+<span class="metric red">亮部38%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(39%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/part-automation-6.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">part-automation-6.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘252±20</span>
+<span class="metric green">对比度102</span>
+<span class="metric red">亮部20%</span>
+<span class="metric yellow">阴影Δ58</span>
+<div><span class="reason">⚠边缘非纯白(白占比99%,std=20)</span> <span class="reason">⚠产品亮部>20%(20%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=58)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image89.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image89.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘248±34</span>
+<span class="metric green">对比度52</span>
+<span class="metric red">亮部52%</span>
+<span class="metric green">阴影Δ2</span>
+<div><span class="reason">⚠边缘非纯白(白占比96%,std=34)</span> <span class="reason">⚠产品亮部>20%(52%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image157.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image157.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘252±20</span>
+<span class="metric yellow">对比度37</span>
+<span class="metric red">亮部73%</span>
+<span class="metric yellow">阴影Δ21</span>
+<div><span class="reason">⚠边缘非纯白(白占比98%,std=21)</span> <span class="reason">⚠产品亮部>20%(73%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=21)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image46.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image46.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘240±39</span>
+<span class="metric green">对比度118</span>
+<span class="metric green">亮部9%</span>
+<span class="metric yellow">阴影Δ73</span>
+<div><span class="reason">⚠边缘非纯白(白占比86%,std=39)</span> <span class="reason">⚠底部阴影(Δ=73)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image185.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image185.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘251±22</span>
+<span class="metric green">对比度123</span>
+<span class="metric green">亮部0%</span>
+<span class="metric yellow">阴影Δ29</span>
+<div><span class="reason">⚠边缘非纯白(白占比96%,std=22)</span> <span class="reason">⚠底部阴影(Δ=29)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/part-oilsep-3.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">part-oilsep-3.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度72</span>
+<span class="metric red">亮部66%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(66%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image54.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image54.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric yellow">对比度46</span>
+<span class="metric red">亮部73%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(73%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_brand/atlas-copco-21.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">atlas-copco-21.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘231±5</span>
+<span class="metric green">对比度110</span>
+<span class="metric green">亮部0%</span>
+<span class="metric green">阴影Δ1</span>
+<div><span class="reason">⚠边缘非纯白(白占比0%,std=5)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image144.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image144.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±1</span>
+<span class="metric green">对比度80</span>
+<span class="metric red">亮部34%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(34%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image77.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image77.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘250±16</span>
+<span class="metric green">对比度78</span>
+<span class="metric red">亮部31%</span>
+<span class="metric yellow">阴影Δ34</span>
+<div><span class="reason">⚠边缘非纯白(白占比91%,std=16)</span> <span class="reason">⚠产品亮部>20%(31%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=34)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image20.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image20.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度89</span>
+<span class="metric red">亮部52%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(52%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image251.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image251.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度111</span>
+<span class="metric red">亮部30%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(30%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image90.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image90.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘247±33</span>
+<span class="metric green">对比度51</span>
+<span class="metric red">亮部60%</span>
+<span class="metric green">阴影Δ-14</span>
+<div><span class="reason">⚠边缘非纯白(白占比94%,std=33)</span> <span class="reason">⚠产品亮部>20%(60%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image150.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image150.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘252±1</span>
+<span class="metric red">对比度26</span>
+<span class="metric red">亮部79%</span>
+<span class="metric green">阴影Δ4</span>
+<div><span class="reason">⚠对比度偏低(26)</span> <span class="reason">⚠产品亮部>20%(79%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image7.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image7.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘252±10</span>
+<span class="metric green">对比度125</span>
+<span class="metric red">亮部24%</span>
+<span class="metric green">阴影Δ1</span>
+<div><span class="reason">⚠产品亮部>20%(24%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/part-oilsep-2.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">part-oilsep-2.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度126</span>
+<span class="metric red">亮部25%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(25%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image281.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image281.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±0</span>
+<span class="metric yellow">对比度44</span>
+<span class="metric red">亮部63%</span>
+<span class="metric yellow">阴影Δ21</span>
+<div><span class="reason">⚠产品亮部>20%(63%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=21)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image59.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image59.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±16</span>
+<span class="metric green">对比度64</span>
+<span class="metric red">亮部60%</span>
+<span class="metric yellow">阴影Δ13</span>
+<div><span class="reason">⚠边缘非纯白(白占比99%,std=16)</span> <span class="reason">⚠产品亮部>20%(60%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=13)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image197.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image197.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘250±22</span>
+<span class="metric green">对比度89</span>
+<span class="metric red">亮部47%</span>
+<span class="metric green">阴影Δ-2</span>
+<div><span class="reason">⚠边缘非纯白(白占比94%,std=23)</span> <span class="reason">⚠产品亮部>20%(47%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image232.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image232.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘251±21</span>
+<span class="metric green">对比度123</span>
+<span class="metric yellow">亮部15%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠边缘非纯白(白占比97%,std=21)</span> <span class="reason">⚠产品有亮区(15%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image44.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image44.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±13</span>
+<span class="metric green">对比度65</span>
+<span class="metric red">亮部35%</span>
+<span class="metric yellow">阴影Δ11</span>
+<div><span class="reason">⚠边缘非纯白(白占比99%,std=13)</span> <span class="reason">⚠产品亮部>20%(35%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=11)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image249.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image249.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘252±16</span>
+<span class="metric green">对比度134</span>
+<span class="metric red">亮部25%</span>
+<span class="metric yellow">阴影Δ9</span>
+<div><span class="reason">⚠边缘非纯白(白占比98%,std=16)</span> <span class="reason">⚠产品亮部>20%(25%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=9)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image220.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image220.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度101</span>
+<span class="metric red">亮部23%</span>
+<span class="metric green">阴影Δ2</span>
+<div><span class="reason">⚠产品亮部>20%(23%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image35.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image35.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±2</span>
+<span class="metric green">对比度105</span>
+<span class="metric red">亮部23%</span>
+<span class="metric yellow">阴影Δ17</span>
+<div><span class="reason">⚠产品亮部>20%(23%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=17)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image73.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image73.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘248±31</span>
+<span class="metric green">对比度64</span>
+<span class="metric red">亮部51%</span>
+<span class="metric yellow">阴影Δ13</span>
+<div><span class="reason">⚠边缘非纯白(白占比95%,std=31)</span> <span class="reason">⚠产品亮部>20%(51%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=13)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image76.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image76.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric yellow">对比度41</span>
+<span class="metric red">亮部64%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(64%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_brand/ingersoll-rand-5.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">ingersoll-rand-5.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度90</span>
+<span class="metric red">亮部47%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(47%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_brand/sullair-28.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">sullair-28.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度147</span>
+<span class="metric red">亮部20%</span>
+<span class="metric green">阴影Δ3</span>
+<div><span class="reason">⚠产品亮部>20%(20%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image18.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image18.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘235±20</span>
+<span class="metric green">对比度78</span>
+<span class="metric yellow">亮部17%</span>
+<span class="metric green">阴影Δ-22</span>
+<div><span class="reason">⚠边缘非纯白(白占比40%,std=20)</span> <span class="reason">⚠产品有亮区(17%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image53.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image53.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘242±39</span>
+<span class="metric green">对比度106</span>
+<span class="metric red">亮部26%</span>
+<span class="metric yellow">阴影Δ95</span>
+<div><span class="reason">⚠边缘非纯白(白占比89%,std=39)</span> <span class="reason">⚠产品亮部>20%(26%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=95)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image236.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image236.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘249±18</span>
+<span class="metric green">对比度83</span>
+<span class="metric red">亮部30%</span>
+<span class="metric yellow">阴影Δ8</span>
+<div><span class="reason">⚠边缘非纯白(白占比90%,std=18)</span> <span class="reason">⚠产品亮部>20%(30%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=8)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image61.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image61.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度91</span>
+<span class="metric red">亮部46%</span>
+<span class="metric green">阴影Δ1</span>
+<div><span class="reason">⚠产品亮部>20%(46%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image52.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image52.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±1</span>
+<span class="metric green">对比度81</span>
+<span class="metric red">亮部31%</span>
+<span class="metric yellow">阴影Δ37</span>
+<div><span class="reason">⚠产品亮部>20%(31%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=37)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image139.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image139.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度68</span>
+<span class="metric red">亮部60%</span>
+<span class="metric green">阴影Δ1</span>
+<div><span class="reason">⚠产品亮部>20%(60%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image86.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image86.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘240±49</span>
+<span class="metric green">对比度54</span>
+<span class="metric red">亮部59%</span>
+<span class="metric green">阴影Δ-30</span>
+<div><span class="reason">⚠边缘非纯白(白占比91%,std=49)</span> <span class="reason">⚠产品亮部>20%(59%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image260.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image260.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度107</span>
+<span class="metric red">亮部23%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(23%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_brand/hitachi-27.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">hitachi-27.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度85</span>
+<span class="metric red">亮部24%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(24%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image250.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image250.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±5</span>
+<span class="metric green">对比度99</span>
+<span class="metric red">亮部39%</span>
+<span class="metric yellow">阴影Δ11</span>
+<div><span class="reason">⚠产品亮部>20%(39%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=11)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image173.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image173.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±4</span>
+<span class="metric green">对比度82</span>
+<span class="metric red">亮部36%</span>
+<span class="metric green">阴影Δ8</span>
+<div><span class="reason">⚠产品亮部>20%(36%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image96.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image96.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘251±22</span>
+<span class="metric green">对比度136</span>
+<span class="metric green">亮部0%</span>
+<span class="metric yellow">阴影Δ25</span>
+<div><span class="reason">⚠边缘非纯白(白占比97%,std=22)</span> <span class="reason">⚠底部阴影(Δ=25)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/part-bearing-7.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">part-bearing-7.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度93</span>
+<span class="metric red">亮部20%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(20%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image95.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image95.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度55</span>
+<span class="metric red">亮部61%</span>
+<span class="metric yellow">阴影Δ10</span>
+<div><span class="reason">⚠产品亮部>20%(61%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=10)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image107.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image107.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘252±16</span>
+<span class="metric green">对比度89</span>
+<span class="metric red">亮部23%</span>
+<span class="metric yellow">阴影Δ9</span>
+<div><span class="reason">⚠边缘非纯白(白占比95%,std=16)</span> <span class="reason">⚠产品亮部>20%(23%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=9)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image147.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image147.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±5</span>
+<span class="metric green">对比度52</span>
+<span class="metric red">亮部41%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(41%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image87.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image87.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric yellow">对比度48</span>
+<span class="metric red">亮部70%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(70%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image160.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image160.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘239±51</span>
+<span class="metric green">对比度78</span>
+<span class="metric red">亮部36%</span>
+<span class="metric green">阴影Δ-20</span>
+<div><span class="reason">⚠边缘非纯白(白占比90%,std=51)</span> <span class="reason">⚠产品亮部>20%(37%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_brand/ingersoll-rand-0.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">ingersoll-rand-0.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度69</span>
+<span class="metric red">亮部44%</span>
+<span class="metric green">阴影Δ-0</span>
+<div><span class="reason">⚠产品亮部>20%(44%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image10.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image10.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘246±31</span>
+<span class="metric green">对比度107</span>
+<span class="metric yellow">亮部12%</span>
+<span class="metric yellow">阴影Δ31</span>
+<div><span class="reason">⚠边缘非纯白(白占比90%,std=31)</span> <span class="reason">⚠产品有亮区(12%)</span> <span class="reason">⚠底部阴影(Δ=31)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image149.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image149.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±3</span>
+<span class="metric green">对比度70</span>
+<span class="metric red">亮部59%</span>
+<span class="metric yellow">阴影Δ8</span>
+<div><span class="reason">⚠产品亮部>20%(59%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=8)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image24.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image24.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘251±22</span>
+<span class="metric green">对比度130</span>
+<span class="metric yellow">亮部15%</span>
+<span class="metric yellow">阴影Δ29</span>
+<div><span class="reason">⚠边缘非纯白(白占比98%,std=22)</span> <span class="reason">⚠产品有亮区(15%)</span> <span class="reason">⚠底部阴影(Δ=29)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx5/image24.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image24.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric red">对比度26</span>
+<span class="metric red">亮部49%</span>
+<span class="metric yellow">阴影Δ40</span>
+<div><span class="reason">⚠对比度偏低(26)</span> <span class="reason">⚠产品亮部>20%(49%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=40)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image51.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image51.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±4</span>
+<span class="metric green">对比度84</span>
+<span class="metric red">亮部36%</span>
+<span class="metric yellow">阴影Δ11</span>
+<div><span class="reason">⚠产品亮部>20%(36%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=11)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image65.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image65.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘208±4</span>
+<span class="metric yellow">对比度40</span>
+<span class="metric green">亮部0%</span>
+<span class="metric green">阴影Δ7</span>
+<div><span class="reason">⚠边缘非纯白(白占比0%,std=5)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image141.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image141.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘249±29</span>
+<span class="metric green">对比度84</span>
+<span class="metric red">亮部38%</span>
+<span class="metric yellow">阴影Δ35</span>
+<div><span class="reason">⚠边缘非纯白(白占比96%,std=29)</span> <span class="reason">⚠产品亮部>20%(38%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=35)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image276.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image276.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘238±8</span>
+<span class="metric green">对比度89</span>
+<span class="metric yellow">亮部16%</span>
+<span class="metric green">阴影Δ-3</span>
+<div><span class="reason">⚠边缘非纯白(白占比46%,std=8)</span> <span class="reason">⚠产品有亮区(17%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image165.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image165.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘249±28</span>
+<span class="metric green">对比度109</span>
+<span class="metric red">亮部31%</span>
+<span class="metric green">阴影Δ3</span>
+<div><span class="reason">⚠边缘非纯白(白占比95%,std=28)</span> <span class="reason">⚠产品亮部>20%(31%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image19.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image19.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘248±29</span>
+<span class="metric green">对比度114</span>
+<span class="metric green">亮部3%</span>
+<span class="metric yellow">阴影Δ20</span>
+<div><span class="reason">⚠边缘非纯白(白占比93%,std=29)</span> <span class="reason">⚠底部阴影(Δ=20)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_brand/ingersoll-rand-1.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">ingersoll-rand-1.jpg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘247±28</span>
+<span class="metric green">对比度172</span>
+<span class="metric green">亮部0%</span>
+<span class="metric yellow">阴影Δ49</span>
+<div><span class="reason">⚠边缘非纯白(白占比92%,std=28)</span> <span class="reason">⚠底部阴影(Δ=49)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image21.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image21.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘248±31</span>
+<span class="metric green">对比度122</span>
+<span class="metric red">亮部22%</span>
+<span class="metric yellow">阴影Δ47</span>
+<div><span class="reason">⚠边缘非纯白(白占比93%,std=31)</span> <span class="reason">⚠产品亮部>20%(22%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=47)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image8.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image8.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘253±16</span>
+<span class="metric green">对比度142</span>
+<span class="metric yellow">亮部19%</span>
+<span class="metric yellow">阴影Δ14</span>
+<div><span class="reason">⚠边缘非纯白(白占比99%,std=16)</span> <span class="reason">⚠产品有亮区(19%)</span> <span class="reason">⚠底部阴影(Δ=14)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image153.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image153.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘251±19</span>
+<span class="metric green">对比度68</span>
+<span class="metric red">亮部52%</span>
+<span class="metric green">阴影Δ3</span>
+<div><span class="reason">⚠边缘非纯白(白占比97%,std=19)</span> <span class="reason">⚠产品亮部>20%(51%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image138.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image138.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘248±34</span>
+<span class="metric green">对比度82</span>
+<span class="metric red">亮部30%</span>
+<span class="metric yellow">阴影Δ37</span>
+<div><span class="reason">⚠边缘非纯白(白占比96%,std=35)</span> <span class="reason">⚠产品亮部>20%(30%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=37)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image100.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image100.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘234±60</span>
+<span class="metric red">对比度13</span>
+<span class="metric red">亮部54%</span>
+<span class="metric green">阴影Δ-3</span>
+<div><span class="reason">⚠边缘非纯白(白占比89%,std=60)</span> <span class="reason">⚠对比度极低(13),产品=背景色</span> <span class="reason">⚠产品亮部>20%(54%),漫水必漏</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image82.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image82.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘245±41</span>
+<span class="metric green">对比度60</span>
+<span class="metric red">亮部58%</span>
+<span class="metric green">阴影Δ-18</span>
+<div><span class="reason">⚠边缘非纯白(白占比93%,std=41)</span> <span class="reason">⚠产品亮部>20%(58%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image41.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image41.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±3</span>
+<span class="metric green">对比度112</span>
+<span class="metric red">亮部32%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(32%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image77.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image77.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度56</span>
+<span class="metric red">亮部60%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品亮部>20%(60%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image28.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image28.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘243±12</span>
+<span class="metric green">对比度160</span>
+<span class="metric green">亮部6%</span>
+<span class="metric yellow">阴影Δ36</span>
+<div><span class="reason">⚠边缘非纯白(白占比64%,std=12)</span> <span class="reason">⚠底部阴影(Δ=35)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image88.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image88.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘241±42</span>
+<span class="metric green">对比度72</span>
+<span class="metric red">亮部52%</span>
+<span class="metric green">阴影Δ-30</span>
+<div><span class="reason">⚠边缘非纯白(白占比89%,std=42)</span> <span class="reason">⚠产品亮部>20%(52%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image203.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image203.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘252±25</span>
+<span class="metric yellow">对比度37</span>
+<span class="metric red">亮部60%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠边缘非纯白(白占比98%,std=25)</span> <span class="reason">⚠产品亮部>20%(60%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image46.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image46.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘254±10</span>
+<span class="metric yellow">对比度38</span>
+<span class="metric red">亮部66%</span>
+<span class="metric yellow">阴影Δ18</span>
+<div><span class="reason">⚠产品亮部>20%(66%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=18)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image154.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image154.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘253±17</span>
+<span class="metric green">对比度78</span>
+<span class="metric red">亮部57%</span>
+<span class="metric yellow">阴影Δ16</span>
+<div><span class="reason">⚠边缘非纯白(白占比99%,std=17)</span> <span class="reason">⚠产品亮部>20%(57%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=16)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image116.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image116.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘244±44</span>
+<span class="metric green">对比度64</span>
+<span class="metric red">亮部50%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠边缘非纯白(白占比92%,std=44)</span> <span class="reason">⚠产品亮部>20%(50%),漫水必漏</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image39.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image39.jpeg <span class="risk-badge high">high</span></div>
+<span class="metric blue">边缘250±6</span>
+<span class="metric green">对比度66</span>
+<span class="metric red">亮部30%</span>
+<span class="metric yellow">阴影Δ16</span>
+<div><span class="reason">⚠边缘非纯白(白占比88%,std=6)</span> <span class="reason">⚠产品亮部>20%(29%),漫水必漏</span> <span class="reason">⚠底部阴影(Δ=16)</span> <span class="reason">⚠产品暗部+亮部并存,边缘难界定</span></div>
+</div>
+</div><div class="section-title">🟡 中风险 — 略有阴影/亮部 → 边缘加固后漫水 (50张)</div><div class="card">
+<img src="../photos/raw/_docx/image164.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image164.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度119</span>
+<span class="metric yellow">亮部18%</span>
+<span class="metric yellow">阴影Δ10</span>
+<div><span class="reason">⚠产品有亮区(19%)</span> <span class="reason">⚠底部阴影(Δ=10)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image66.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image66.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度92</span>
+<span class="metric yellow">亮部19%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品有亮区(19%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx5/image11.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image11.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度68</span>
+<span class="metric yellow">亮部10%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品有亮区(10%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image54.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image54.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度120</span>
+<span class="metric green">亮部9%</span>
+<span class="metric yellow">阴影Δ27</span>
+<div><span class="reason">⚠底部阴影(Δ=27)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image247.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image247.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度127</span>
+<span class="metric yellow">亮部19%</span>
+<span class="metric green">阴影Δ4</span>
+<div><span class="reason">⚠产品有亮区(19%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/brand-machine-kaeser-0.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">brand-machine-kaeser-0.jpg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘250±6</span>
+<span class="metric green">对比度132</span>
+<span class="metric yellow">亮部10%</span>
+<span class="metric yellow">阴影Δ16</span>
+<div><span class="reason">⚠产品有亮区(10%)</span> <span class="reason">⚠底部阴影(Δ=16)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image11.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image11.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度122</span>
+<span class="metric yellow">亮部14%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品有亮区(14%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image179.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image179.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度134</span>
+<span class="metric yellow">亮部14%</span>
+<span class="metric yellow">阴影Δ10</span>
+<div><span class="reason">⚠产品有亮区(14%)</span> <span class="reason">⚠底部阴影(Δ=10)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image6.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image6.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘254±9</span>
+<span class="metric green">对比度95</span>
+<span class="metric yellow">亮部10%</span>
+<span class="metric green">阴影Δ5</span>
+<div><span class="reason">⚠产品有亮区(10%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image17.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image17.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±6</span>
+<span class="metric green">对比度150</span>
+<span class="metric yellow">亮部16%</span>
+<span class="metric green">阴影Δ-0</span>
+<div><span class="reason">⚠产品有亮区(16%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx5/image23.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image23.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度119</span>
+<span class="metric yellow">亮部11%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品有亮区(11%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image4.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image4.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±6</span>
+<span class="metric green">对比度129</span>
+<span class="metric green">亮部0%</span>
+<span class="metric yellow">阴影Δ32</span>
+<div><span class="reason">⚠底部阴影(Δ=32)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image198.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image198.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘254±9</span>
+<span class="metric green">对比度169</span>
+<span class="metric green">亮部1%</span>
+<span class="metric yellow">阴影Δ8</span>
+<div><span class="reason">⚠底部阴影(Δ=8)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image126.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image126.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度119</span>
+<span class="metric yellow">亮部12%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品有亮区(12%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image10.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image10.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘253±10</span>
+<span class="metric green">对比度166</span>
+<span class="metric green">亮部0%</span>
+<span class="metric yellow">阴影Δ32</span>
+<div><span class="reason">⚠底部阴影(Δ=32)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image5.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image5.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度140</span>
+<span class="metric green">亮部1%</span>
+<span class="metric yellow">阴影Δ18</span>
+<div><span class="reason">⚠底部阴影(Δ=18)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image65.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image65.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘254±10</span>
+<span class="metric green">对比度91</span>
+<span class="metric yellow">亮部19%</span>
+<span class="metric green">阴影Δ4</span>
+<div><span class="reason">⚠产品有亮区(19%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image7.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image7.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±1</span>
+<span class="metric green">对比度110</span>
+<span class="metric yellow">亮部17%</span>
+<span class="metric yellow">阴影Δ34</span>
+<div><span class="reason">⚠产品有亮区(17%)</span> <span class="reason">⚠底部阴影(Δ=34)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx5/image12.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image12.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±5</span>
+<span class="metric green">对比度123</span>
+<span class="metric green">亮部0%</span>
+<span class="metric yellow">阴影Δ23</span>
+<div><span class="reason">⚠底部阴影(Δ=23)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image13.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image13.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±4</span>
+<span class="metric yellow">对比度50</span>
+<span class="metric yellow">亮部10%</span>
+<span class="metric green">阴影Δ-0</span>
+<div><span class="reason">⚠产品有亮区(10%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image2.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image2.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±4</span>
+<span class="metric green">对比度110</span>
+<span class="metric green">亮部5%</span>
+<span class="metric yellow">阴影Δ18</span>
+<div><span class="reason">⚠底部阴影(Δ=18)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image164.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image164.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度112</span>
+<span class="metric yellow">亮部12%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品有亮区(12%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image246.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image246.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度170</span>
+<span class="metric yellow">亮部12%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品有亮区(12%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image47.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image47.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±2</span>
+<span class="metric green">对比度77</span>
+<span class="metric yellow">亮部20%</span>
+<span class="metric green">阴影Δ6</span>
+<div><span class="reason">⚠产品有亮区(20%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image34.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image34.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度82</span>
+<span class="metric yellow">亮部14%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品有亮区(14%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image99.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image99.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±2</span>
+<span class="metric green">对比度151</span>
+<span class="metric yellow">亮部10%</span>
+<span class="metric green">阴影Δ8</span>
+<div><span class="reason">⚠产品有亮区(10%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image240.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image240.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度138</span>
+<span class="metric yellow">亮部20%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品有亮区(20%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image40.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image40.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度129</span>
+<span class="metric yellow">亮部18%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品有亮区(18%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx5/image29.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image29.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±2</span>
+<span class="metric yellow">对比度36</span>
+<span class="metric yellow">亮部12%</span>
+<span class="metric yellow">阴影Δ15</span>
+<div><span class="reason">⚠产品有亮区(12%)</span> <span class="reason">⚠底部阴影(Δ=15)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image9.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image9.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度110</span>
+<span class="metric yellow">亮部12%</span>
+<span class="metric yellow">阴影Δ23</span>
+<div><span class="reason">⚠产品有亮区(12%)</span> <span class="reason">⚠底部阴影(Δ=23)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image12.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image12.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度133</span>
+<span class="metric green">亮部1%</span>
+<span class="metric yellow">阴影Δ12</span>
+<div><span class="reason">⚠底部阴影(Δ=12)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image127.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image127.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度122</span>
+<span class="metric yellow">亮部12%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品有亮区(12%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image51.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image51.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±6</span>
+<span class="metric green">对比度117</span>
+<span class="metric green">亮部5%</span>
+<span class="metric yellow">阴影Δ11</span>
+<div><span class="reason">⚠底部阴影(Δ=11)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image177.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image177.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度160</span>
+<span class="metric green">亮部0%</span>
+<span class="metric yellow">阴影Δ30</span>
+<div><span class="reason">⚠底部阴影(Δ=30)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image160.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image160.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度132</span>
+<span class="metric yellow">亮部13%</span>
+<span class="metric green">阴影Δ4</span>
+<div><span class="reason">⚠产品有亮区(13%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image30.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image30.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度160</span>
+<span class="metric yellow">亮部12%</span>
+<span class="metric yellow">阴影Δ10</span>
+<div><span class="reason">⚠产品有亮区(12%)</span> <span class="reason">⚠底部阴影(Δ=10)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image278.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image278.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度147</span>
+<span class="metric green">亮部6%</span>
+<span class="metric yellow">阴影Δ10</span>
+<div><span class="reason">⚠底部阴影(Δ=10)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image122.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image122.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度102</span>
+<span class="metric yellow">亮部19%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品有亮区(19%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image146.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image146.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘253±11</span>
+<span class="metric green">对比度101</span>
+<span class="metric yellow">亮部17%</span>
+<span class="metric green">阴影Δ2</span>
+<div><span class="reason">⚠产品有亮区(17%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image42.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image42.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘254±2</span>
+<span class="metric green">对比度140</span>
+<span class="metric yellow">亮部11%</span>
+<span class="metric yellow">阴影Δ16</span>
+<div><span class="reason">⚠产品有亮区(11%)</span> <span class="reason">⚠底部阴影(Δ=16)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image184.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image184.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度142</span>
+<span class="metric yellow">亮部18%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品有亮区(18%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image187.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image187.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度183</span>
+<span class="metric green">亮部5%</span>
+<span class="metric yellow">阴影Δ18</span>
+<div><span class="reason">⚠底部阴影(Δ=18)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image44.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image44.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±5</span>
+<span class="metric green">对比度125</span>
+<span class="metric green">亮部1%</span>
+<span class="metric yellow">阴影Δ22</span>
+<div><span class="reason">⚠底部阴影(Δ=22)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image234.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image234.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±1</span>
+<span class="metric green">对比度140</span>
+<span class="metric yellow">亮部19%</span>
+<span class="metric green">阴影Δ6</span>
+<div><span class="reason">⚠产品有亮区(19%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/part-automation-4.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">part-automation-4.jpg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度147</span>
+<span class="metric green">亮部0%</span>
+<span class="metric yellow">阴影Δ22</span>
+<div><span class="reason">⚠底部阴影(Δ=22)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image175.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image175.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘254±8</span>
+<span class="metric green">对比度139</span>
+<span class="metric yellow">亮部17%</span>
+<span class="metric yellow">阴影Δ20</span>
+<div><span class="reason">⚠产品有亮区(17%)</span> <span class="reason">⚠底部阴影(Δ=20)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image173.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image173.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度140</span>
+<span class="metric yellow">亮部14%</span>
+<span class="metric green">阴影Δ6</span>
+<div><span class="reason">⚠产品有亮区(14%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx5/image13.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image13.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度73</span>
+<span class="metric yellow">亮部19%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠产品有亮区(19%)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image48.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image48.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘253±11</span>
+<span class="metric yellow">对比度44</span>
+<span class="metric yellow">亮部14%</span>
+<span class="metric yellow">阴影Δ16</span>
+<div><span class="reason">⚠产品有亮区(15%)</span> <span class="reason">⚠底部阴影(Δ=17)</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image42.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image42.jpeg <span class="risk-badge medium">medium</span></div>
+<span class="metric blue">边缘251±10</span>
+<span class="metric green">对比度119</span>
+<span class="metric green">亮部2%</span>
+<span class="metric yellow">阴影Δ24</span>
+<div><span class="reason">⚠底部阴影(Δ=24)</span></div>
+</div>
+</div><div class="section-title">🟢 低风险 — 产品深色/白底清晰 → 漫水安全 (18张)</div><div class="card">
+<img src="../photos/raw/_docx/image83.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image83.jpeg <span class="risk-badge low">low</span></div>
+<span class="metric blue">边缘255±1</span>
+<span class="metric green">对比度192</span>
+<span class="metric green">亮部8%</span>
+<span class="metric green">阴影Δ2</span>
+<div><span class="reason">⚠白底清晰,漫水安全</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx2/image1.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image1.jpeg <span class="risk-badge low">low</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度144</span>
+<span class="metric green">亮部0%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠白底清晰,漫水安全</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image123.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image123.jpeg <span class="risk-badge low">low</span></div>
+<span class="metric blue">边缘254±9</span>
+<span class="metric green">对比度133</span>
+<span class="metric green">亮部3%</span>
+<span class="metric green">阴影Δ4</span>
+<div><span class="reason">⚠白底清晰,漫水安全</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image200.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image200.jpeg <span class="risk-badge low">low</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度144</span>
+<span class="metric green">亮部1%</span>
+<span class="metric green">阴影Δ7</span>
+<div><span class="reason">⚠白底清晰,漫水安全</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image25.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image25.jpeg <span class="risk-badge low">low</span></div>
+<span class="metric blue">边缘254±6</span>
+<span class="metric green">对比度120</span>
+<span class="metric green">亮部6%</span>
+<span class="metric green">阴影Δ4</span>
+<div><span class="reason">⚠白底清晰,漫水安全</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image221.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image221.jpeg <span class="risk-badge low">low</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度117</span>
+<span class="metric green">亮部10%</span>
+<span class="metric green">阴影Δ2</span>
+<div><span class="reason">⚠白底清晰,漫水安全</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image148.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image148.jpeg <span class="risk-badge low">low</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度84</span>
+<span class="metric green">亮部6%</span>
+<span class="metric green">阴影Δ2</span>
+<div><span class="reason">⚠白底清晰,漫水安全</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image186.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image186.jpeg <span class="risk-badge low">low</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度128</span>
+<span class="metric green">亮部5%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠白底清晰,漫水安全</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/part-automation-1.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">part-automation-1.jpg <span class="risk-badge low">low</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度147</span>
+<span class="metric green">亮部0%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠白底清晰,漫水安全</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx5/image14.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image14.jpeg <span class="risk-badge low">low</span></div>
+<span class="metric blue">边缘254±8</span>
+<span class="metric green">对比度158</span>
+<span class="metric green">亮部4%</span>
+<span class="metric green">阴影Δ-0</span>
+<div><span class="reason">⚠白底清晰,漫水安全</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx3/image15.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image15.jpeg <span class="risk-badge low">low</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度130</span>
+<span class="metric green">亮部8%</span>
+<span class="metric green">阴影Δ2</span>
+<div><span class="reason">⚠白底清晰,漫水安全</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image97.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image97.jpeg <span class="risk-badge low">low</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度108</span>
+<span class="metric green">亮部4%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠白底清晰,漫水安全</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/brand-machine-hitachi-4.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">brand-machine-hitachi-4.jpg <span class="risk-badge low">low</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度148</span>
+<span class="metric green">亮部0%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠白底清晰,漫水安全</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image103.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image103.jpeg <span class="risk-badge low">low</span></div>
+<span class="metric blue">边缘255±5</span>
+<span class="metric green">对比度70</span>
+<span class="metric green">亮部2%</span>
+<span class="metric green">阴影Δ4</span>
+<div><span class="reason">⚠白底清晰,漫水安全</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image192.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image192.jpeg <span class="risk-badge low">low</span></div>
+<span class="metric blue">边缘254±8</span>
+<span class="metric green">对比度116</span>
+<span class="metric green">亮部1%</span>
+<span class="metric green">阴影Δ7</span>
+<div><span class="reason">⚠白底清晰,漫水安全</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_final/part-oilsep-1.jpg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">part-oilsep-1.jpg <span class="risk-badge low">low</span></div>
+<span class="metric blue">边缘255±0</span>
+<span class="metric green">对比度146</span>
+<span class="metric green">亮部4%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠白底清晰,漫水安全</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx/image75.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image75.jpeg <span class="risk-badge low">low</span></div>
+<span class="metric blue">边缘243±0</span>
+<span class="metric green">对比度136</span>
+<span class="metric green">亮部0%</span>
+<span class="metric green">阴影Δ0</span>
+<div><span class="reason">⚠白底清晰,漫水安全</span></div>
+</div>
+</div><div class="card">
+<img src="../photos/raw/_docx6/image176.jpeg" onerror="this.style.display='none'"/>
+<div>
+<div class="fn">image176.jpeg <span class="risk-badge low">low</span></div>
+<span class="metric blue">边缘255±2</span>
+<span class="metric green">对比度146</span>
+<span class="metric green">亮部2%</span>
+<span class="metric green">阴影Δ8</span>
+<div><span class="reason">⚠白底清晰,漫水安全</span></div>
+</div>
+</div></body></html>

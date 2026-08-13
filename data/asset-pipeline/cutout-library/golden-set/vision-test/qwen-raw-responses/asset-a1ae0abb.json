@@ -1,0 +1,35 @@
+{
+  "output": {
+    "choices": [
+      {
+        "message": {
+          "content": [
+            {
+              "text": "```json\n{\n  \"visible_object\": [\n    \"equipment\"\n  ],\n  \"object_type\": \"equipment\",\n  \"visible_brand\": [],\n  \"visible_text\": [\n    \"1810 0282 90\",\n    \"2SPLZ\",\n    \"1810 0282 90\"\n  ],\n  \"visible_features\": [\n    \"metallic gray component\",\n    \"rectangular shape\",\n    \"multiple bolt heads\",\n    \"plastic wrapping\",\n    \"on wooden pallet\",\n    \"barcode label\"\n  ],\n  \"image_condition\": \"industrial_scene\",\n  \"industrial_clues\": [\n    \"component on pallet\",\n    \"barcode label\",\n    \"plastic wrapping\"\n  ],\n  \"visual_confidence\": 95\n}\n```"
+            }
+          ],
+          "reasoning_content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens_details": {
+      "image_tokens": 627,
+      "text_tokens": 190
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 986,
+    "output_tokens": 169,
+    "input_tokens": 817,
+    "output_tokens_details": {
+      "text_tokens": 169
+    },
+    "image_tokens": 627
+  },
+  "request_id": "d7113cc8-d549-9a69-9786-df02c4d12f53"
+}

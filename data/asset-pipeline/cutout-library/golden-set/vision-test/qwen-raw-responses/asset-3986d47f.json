@@ -1,0 +1,35 @@
+{
+  "output": {
+    "choices": [
+      {
+        "message": {
+          "content": [
+            {
+              "text": "```json\n{\n  \"visible_object\": [\n    \"component\"\n  ],\n  \"object_type\": \"component\",\n  \"visible_brand\": [],\n  \"visible_text\": [],\n  \"visible_features\": [\n    \"two cylindrical filters\",\n    \"pressure gauge in the center\",\n    \"black central component\",\n    \"screws on the top\",\n    \"transparent tubes on filters\",\n    \"white background\"\n  ],\n  \"image_condition\": \"white_background_product\",\n  \"industrial_clues\": [\n    \"fluid filtration system\",\n    \"pressure monitoring\",\n    \"industrial component\"\n  ],\n  \"visual_confidence\": 1\n}\n```"
+            }
+          ],
+          "reasoning_content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens_details": {
+      "image_tokens": 291,
+      "text_tokens": 190
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 615,
+    "output_tokens": 134,
+    "input_tokens": 481,
+    "output_tokens_details": {
+      "text_tokens": 134
+    },
+    "image_tokens": 291
+  },
+  "request_id": "cd63d0fe-e604-9008-bdad-131b8e29dc87"
+}

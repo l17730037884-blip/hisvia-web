@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "system": "8px base",
+  "scale": {
+    "0": "0px",
+    "1": "4px",
+    "2": "8px",
+    "3": "12px",
+    "4": "16px",
+    "5": "20px",
+    "6": "24px",
+    "8": "32px",
+    "10": "40px",
+    "12": "48px",
+    "16": "64px",
+    "20": "80px",
+    "24": "96px",
+    "30": "120px"
+  },
+  "sections": {
+    "section-padding-y": "py-16 md:py-20",
+    "section-padding-x": "px-6",
+    "container-max-width": "max-w-wrap (1240px)",
+    "hero-padding-top": "pt-20 md:pt-24",
+    "hero-padding-bottom": "pb-16 md:pb-20",
+    "card-padding": "p-6",
+    "nav-height": "h-[68px]"
+  },
+  "rules": [
+    "All spacing must be multiples of 4px",
+    "Section vertical padding: 64px default, 80px for hero-adjacent",
+    "Card internal padding: 24px",
+    "Grid gaps: 16px (cards), 24px (sections), 40px (hero)"
+  ]
+}

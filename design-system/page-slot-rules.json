@@ -1,0 +1,103 @@
+{
+  "version": "1.0",
+  "phase": "34",
+  "name": "HISVIA Page Visual Slot Rules",
+  "rule": "NO developer may freely place images. Every image must be resolved through getBestImageForSlot().",
+
+  "pages": {
+    "homepage": {
+      "slots": [
+        {
+          "name": "hero",
+          "purpose": "3-second brand positioning: HISVIA = verified China industrial supply chain",
+          "allowed_visual_types": ["production_line", "factory_scene"],
+          "forbidden_visual_types": ["equipment_machine", "component_part", "brand_logo", "technical_diagram"],
+          "allowed_visual_roles": ["hero_candidate"],
+          "min_quality_score": 70,
+          "min_width": 1600,
+          "layout": "full_bleed or editorial_split_40_60",
+          "crop": "center",
+          "fallback_if_missing": "MISSING_ASSET — do not substitute with equipment image"
+        },
+        {
+          "name": "trust_stats",
+          "purpose": "Scale evidence: factories, systems, experience, regions",
+          "image": false,
+          "content": "stat_grid_4col"
+        },
+        {
+          "name": "solution_cards",
+          "purpose": "Industrial system capability demonstration",
+          "count": 8,
+          "allowed_visual_types": ["equipment_machine", "production_line"],
+          "forbidden_visual_types": ["component_part", "brand_logo"],
+          "allowed_visual_roles": ["solution_application"],
+          "min_quality_score": 50,
+          "layout_per_card": "16:9 image top, title + problem + brand tags + capability below",
+          "image_fit": "object-contain",
+          "fallback_if_missing": "Use equipment from _final/ matching system type"
+        },
+        {
+          "name": "quality_assurance",
+          "purpose": "How we ensure quality — customer benefit framing",
+          "image": false,
+          "content": "dark_section_4col_icon_cards"
+        },
+        {
+          "name": "factory_gallery",
+          "purpose": "Real factory evidence — manufacturing credibility",
+          "count": 10,
+          "allowed_visual_types": ["factory_scene", "production_line", "worker_operation", "laboratory", "warehouse"],
+          "forbidden_visual_types": ["equipment_machine", "component_part", "brand_logo"],
+          "allowed_visual_roles": ["factory_proof", "trust_evidence"],
+          "min_quality_score": 0,
+          "layout": "masonry_grid_5col_hero_first",
+          "image_fit": "object-contain",
+          "must_show": "location label, capability type",
+          "source_directory": "_factory/"
+        },
+        {
+          "name": "manufacturing_capability",
+          "purpose": "Process capability: casting → machining → assembly → QC",
+          "count": 5,
+          "slots": [
+            {"position": 0, "name": "cnc_machining", "visual_type": "production_line"},
+            {"position": 1, "name": "metal_casting", "visual_type": "production_line"},
+            {"position": 2, "name": "precision_forging", "visual_type": "production_line"},
+            {"position": 3, "name": "assembly_line", "visual_type": "worker_operation"},
+            {"position": 4, "name": "qc_testing", "visual_type": "laboratory"}
+          ],
+          "layout": "1_large_hero + 4_small_grid + text",
+          "image_fit": "object-contain"
+        },
+        {
+          "name": "manufacturing_regions",
+          "purpose": "4 hubs with scale + specialization",
+          "image": false,
+          "layout": "4col_stat_cards"
+        },
+        {
+          "name": "oem_partner",
+          "purpose": "OEM partnership + distribution network",
+          "count": 2,
+          "allowed_visual_types": ["equipment_machine", "brand_logo"],
+          "allowed_visual_roles": ["brand_partner", "solution_application"],
+          "layout": "asymmetric_2col"
+        }
+      ]
+    }
+  },
+
+  "global_rules": {
+    "component_images": "component_part visual_type → ONLY allowed in product_detail, technical_gallery, carousel slots",
+    "transparent_png": "Never in hero, solution_cards, factory_gallery. Product detail carousel only.",
+    "white_bg_product": "Never in hero. Solution cards only if ≥1600px and equipment type.",
+    "factory_exterior": "Never in homepage_hero. Allowed in factory_network page.",
+    "minimum_resolution_by_slot": {
+      "hero": 1600,
+      "solution_cards": 800,
+      "factory_gallery": 800,
+      "manufacturing_capability": 600
+    }
+  }
+}

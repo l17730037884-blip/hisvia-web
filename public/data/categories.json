@@ -1,0 +1,267 @@
+[
+  {
+    "category_lv1": "filter",
+    "category_lv2": "dust_filter",
+    "count": 73
+  },
+  {
+    "category_lv1": "automation",
+    "category_lv2": "automation_general",
+    "count": 59
+  },
+  {
+    "category_lv1": "compressor",
+    "category_lv2": "rotary_screw_compressor",
+    "count": 52
+  },
+  {
+    "category_lv1": "hydraulic",
+    "category_lv2": "hydraulic_general",
+    "count": 42
+  },
+  {
+    "category_lv1": "compressor",
+    "category_lv2": "compressor_general",
+    "count": 41
+  },
+  {
+    "category_lv1": "valve",
+    "category_lv2": "valve_general",
+    "count": 37
+  },
+  {
+    "category_lv1": "hydraulic",
+    "category_lv2": "hydraulic_power_unit",
+    "count": 28
+  },
+  {
+    "category_lv1": "valve",
+    "category_lv2": "butterfly_valve",
+    "count": 22
+  },
+  {
+    "category_lv1": "filter",
+    "category_lv2": "filter_general",
+    "count": 19
+  },
+  {
+    "category_lv1": "pump",
+    "category_lv2": "centrifugal_pump",
+    "count": 19
+  },
+  {
+    "category_lv1": "dryer",
+    "category_lv2": "desiccant_air_dryer",
+    "count": 19
+  },
+  {
+    "category_lv1": "filter",
+    "category_lv2": "filter_element",
+    "count": 15
+  },
+  {
+    "category_lv1": "other",
+    "category_lv2": "industrial_equipment",
+    "count": 14
+  },
+  {
+    "category_lv1": "valve",
+    "category_lv2": "control_valve",
+    "count": 12
+  },
+  {
+    "category_lv1": "filter",
+    "category_lv2": "precision_filter",
+    "count": 11
+  },
+  {
+    "category_lv1": "pump",
+    "category_lv2": "pump_spare_parts",
+    "count": 10
+  },
+  {
+    "category_lv1": "valve",
+    "category_lv2": "ball_valve",
+    "count": 9
+  },
+  {
+    "category_lv1": "compressor",
+    "category_lv2": "air_treatment_system",
+    "count": 8
+  },
+  {
+    "category_lv1": "automation",
+    "category_lv2": "industrial_controller",
+    "count": 7
+  },
+  {
+    "category_lv1": "coupling",
+    "category_lv2": "coupling_general",
+    "count": 7
+  },
+  {
+    "category_lv1": "coupling",
+    "category_lv2": "timing_belt",
+    "count": 7
+  },
+  {
+    "category_lv1": "seal",
+    "category_lv2": "gasket",
+    "count": 7
+  },
+  {
+    "category_lv1": "seal",
+    "category_lv2": "custom_seal",
+    "count": 7
+  },
+  {
+    "category_lv1": "filter",
+    "category_lv2": "oil_separator",
+    "count": 6
+  },
+  {
+    "category_lv1": "bearing",
+    "category_lv2": "bearing_general",
+    "count": 6
+  },
+  {
+    "category_lv1": "pump",
+    "category_lv2": "pump_general",
+    "count": 6
+  },
+  {
+    "category_lv1": "hydraulic",
+    "category_lv2": "hydraulic_valve",
+    "count": 6
+  },
+  {
+    "category_lv1": "filter",
+    "category_lv2": "coalescing_filter",
+    "count": 6
+  },
+  {
+    "category_lv1": "pump",
+    "category_lv2": "gear_pump",
+    "count": 6
+  },
+  {
+    "category_lv1": "pump",
+    "category_lv2": "pump_impeller",
+    "count": 6
+  },
+  {
+    "category_lv1": "valve",
+    "category_lv2": "gate_valve",
+    "count": 6
+  },
+  {
+    "category_lv1": "valve",
+    "category_lv2": "valve_actuator",
+    "count": 6
+  },
+  {
+    "category_lv1": "valve",
+    "category_lv2": "valve_repair_kit",
+    "count": 6
+  },
+  {
+    "category_lv1": "automation",
+    "category_lv2": "plc_module",
+    "count": 6
+  },
+  {
+    "category_lv1": "automation",
+    "category_lv2": "plc_controller",
+    "count": 6
+  },
+  {
+    "category_lv1": "automation",
+    "category_lv2": "proximity_sensor",
+    "count": 6
+  },
+  {
+    "category_lv1": "automation",
+    "category_lv2": "photoelectric_sensor",
+    "count": 6
+  },
+  {
+    "category_lv1": "automation",
+    "category_lv2": "encoder",
+    "count": 6
+  },
+  {
+    "category_lv1": "gearbox",
+    "category_lv2": "gearbox_reducer",
+    "count": 6
+  },
+  {
+    "category_lv1": "coupling",
+    "category_lv2": "chain_sprocket",
+    "count": 6
+  },
+  {
+    "category_lv1": "hydraulic",
+    "category_lv2": "hydraulic_control",
+    "count": 5
+  },
+  {
+    "category_lv1": "pump",
+    "category_lv2": "chemical_pump",
+    "count": 5
+  },
+  {
+    "category_lv1": "pump",
+    "category_lv2": "screw_pump",
+    "count": 5
+  },
+  {
+    "category_lv1": "automation",
+    "category_lv2": "io_module",
+    "count": 5
+  },
+  {
+    "category_lv1": "automation",
+    "category_lv2": "pressure_sensor",
+    "count": 5
+  },
+  {
+    "category_lv1": "bearing",
+    "category_lv2": "bearing_unit",
+    "count": 5
+  },
+  {
+    "category_lv1": "seal",
+    "category_lv2": "o_ring",
+    "count": 5
+  },
+  {
+    "category_lv1": "hydraulic",
+    "category_lv2": "hydraulic_seal",
+    "count": 5
+  },
+  {
+    "category_lv1": "seal",
+    "category_lv2": "mechanical_seal",
+    "count": 5
+  },
+  {
+    "category_lv1": "compressor",
+    "category_lv2": "compressor_package",
+    "count": 3
+  },
+  {
+    "category_lv1": "compressor",
+    "category_lv2": "air_end",
+    "count": 3
+  },
+  {
+    "category_lv1": "automation",
+    "category_lv2": "pneumatic_cylinder",
+    "count": 2
+  },
+  {
+    "category_lv1": "dryer",
+    "category_lv2": "refrigerated_air_dryer",
+    "count": 1
+  }
+]

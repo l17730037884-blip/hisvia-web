@@ -1,0 +1,742 @@
+[
+  {
+    "asset_id": "asset-04499f18",
+    "filename": "part-filter-4.jpg",
+    "asset_type": "part",
+    "dimensions": {
+      "width": 2048,
+      "height": 2048
+    },
+    "aspect_ratio": 1.0,
+    "main_subject": "filter element",
+    "dominant_colors": [
+      {
+        "rgb": [
+          0,
+          0,
+          0
+        ],
+        "pct": 14.0
+      },
+      {
+        "rgb": [
+          224,
+          224,
+          224
+        ],
+        "pct": 5.1
+      },
+      {
+        "rgb": [
+          224,
+          224,
+          192
+        ],
+        "pct": 4.8
+      },
+      {
+        "rgb": [
+          192,
+          192,
+          160
+        ],
+        "pct": 4.5
+      },
+      {
+        "rgb": [
+          160,
+          160,
+          128
+        ],
+        "pct": 4.2
+      }
+    ],
+    "brightness_avg": 116.3,
+    "contrast_std": 76.1,
+    "edge_density": 0.537,
+    "texture_sharpness": 547.0,
+    "background_type": "industrial_complex",
+    "has_brand_logo": false,
+    "brand_name": "",
+    "commercial_quality": "excellent",
+    "quality_scores": {
+      "resolution": 1.0,
+      "sharpness": 1.0,
+      "contrast": 1.0,
+      "background": 0.3,
+      "composition": 0.7
+    },
+    "overall_score": 0.8,
+    "suitable_for_hero": false,
+    "suitable_for_gallery": true,
+    "needs_background_removal": true,
+    "method": "local-cv",
+    "model": "Pillow+numpy+scipy"
+  },
+  {
+    "asset_id": "asset-82bfcf8d",
+    "filename": "part-oilsep-0.jpg",
+    "asset_type": "part",
+    "dimensions": {
+      "width": 800,
+      "height": 800
+    },
+    "aspect_ratio": 1.0,
+    "main_subject": "oil separator",
+    "dominant_colors": [
+      {
+        "rgb": [
+          224,
+          224,
+          224
+        ],
+        "pct": 74.7
+      },
+      {
+        "rgb": [
+          0,
+          0,
+          0
+        ],
+        "pct": 4.8
+      },
+      {
+        "rgb": [
+          192,
+          192,
+          192
+        ],
+        "pct": 2.5
+      },
+      {
+        "rgb": [
+          160,
+          160,
+          160
+        ],
+        "pct": 2.2
+      },
+      {
+        "rgb": [
+          128,
+          128,
+          128
+        ],
+        "pct": 2.0
+      }
+    ],
+    "brightness_avg": 218.4,
+    "contrast_std": 71.3,
+    "edge_density": 0.176,
+    "texture_sharpness": 2659.1,
+    "background_type": "studio_solid",
+    "has_brand_logo": false,
+    "brand_name": "",
+    "commercial_quality": "excellent",
+    "quality_scores": {
+      "resolution": 0.64,
+      "sharpness": 1.0,
+      "contrast": 1.0,
+      "background": 0.3,
+      "composition": 0.7
+    },
+    "overall_score": 0.73,
+    "suitable_for_hero": false,
+    "suitable_for_gallery": true,
+    "needs_background_removal": true,
+    "method": "local-cv",
+    "model": "Pillow+numpy+scipy"
+  },
+  {
+    "asset_id": "asset-8ca0f6e8",
+    "filename": "part-oilsep-1.jpg",
+    "asset_type": "part",
+    "dimensions": {
+      "width": 750,
+      "height": 750
+    },
+    "aspect_ratio": 1.0,
+    "main_subject": "oil separator",
+    "dominant_colors": [
+      {
+        "rgb": [
+          224,
+          224,
+          224
+        ],
+        "pct": 56.7
+      },
+      {
+        "rgb": [
+          224,
+          96,
+          0
+        ],
+        "pct": 4.9
+      },
+      {
+        "rgb": [
+          0,
+          0,
+          0
+        ],
+        "pct": 3.7
+      },
+      {
+        "rgb": [
+          64,
+          64,
+          64
+        ],
+        "pct": 3.2
+      },
+      {
+        "rgb": [
+          64,
+          64,
+          32
+        ],
+        "pct": 2.3
+      }
+    ],
+    "brightness_avg": 187.7,
+    "contrast_std": 84.3,
+    "edge_density": 0.21,
+    "texture_sharpness": 1442.4,
+    "background_type": "studio_solid",
+    "has_brand_logo": false,
+    "brand_name": "",
+    "commercial_quality": "excellent",
+    "quality_scores": {
+      "resolution": 0.56,
+      "sharpness": 1.0,
+      "contrast": 1.0,
+      "background": 0.3,
+      "composition": 0.7
+    },
+    "overall_score": 0.71,
+    "suitable_for_hero": false,
+    "suitable_for_gallery": true,
+    "needs_background_removal": true,
+    "method": "local-cv",
+    "model": "Pillow+numpy+scipy"
+  },
+  {
+    "asset_id": "asset-9adaa31c",
+    "filename": "image41.jpeg",
+    "asset_type": "manufacturing",
+    "dimensions": {
+      "width": 1200,
+      "height": 1600
+    },
+    "aspect_ratio": 0.75,
+    "main_subject": "industrial equipment",
+    "dominant_colors": [
+      {
+        "rgb": [
+          64,
+          64,
+          64
+        ],
+        "pct": 15.0
+      },
+      {
+        "rgb": [
+          32,
+          32,
+          32
+        ],
+        "pct": 14.6
+      },
+      {
+        "rgb": [
+          0,
+          0,
+          0
+        ],
+        "pct": 10.1
+      },
+      {
+        "rgb": [
+          96,
+          96,
+          96
+        ],
+        "pct": 8.3
+      },
+      {
+        "rgb": [
+          96,
+          96,
+          64
+        ],
+        "pct": 7.0
+      }
+    ],
+    "brightness_avg": 94.8,
+    "contrast_std": 54.9,
+    "edge_density": 0.605,
+    "texture_sharpness": 1225.4,
+    "background_type": "industrial_complex",
+    "has_brand_logo": false,
+    "brand_name": "",
+    "commercial_quality": "excellent",
+    "quality_scores": {
+      "resolution": 1.0,
+      "sharpness": 1.0,
+      "contrast": 0.92,
+      "background": 0.3,
+      "composition": 0.7
+    },
+    "overall_score": 0.78,
+    "suitable_for_hero": false,
+    "suitable_for_gallery": true,
+    "needs_background_removal": true,
+    "method": "local-cv",
+    "model": "Pillow+numpy+scipy"
+  },
+  {
+    "asset_id": "asset-dc129126",
+    "filename": "image42.jpeg",
+    "asset_type": "manufacturing",
+    "dimensions": {
+      "width": 1600,
+      "height": 758
+    },
+    "aspect_ratio": 2.11,
+    "main_subject": "industrial equipment",
+    "dominant_colors": [
+      {
+        "rgb": [
+          224,
+          224,
+          224
+        ],
+        "pct": 8.2
+      },
+      {
+        "rgb": [
+          32,
+          32,
+          32
+        ],
+        "pct": 6.1
+      },
+      {
+        "rgb": [
+          0,
+          0,
+          0
+        ],
+        "pct": 4.3
+      },
+      {
+        "rgb": [
+          32,
+          32,
+          0
+        ],
+        "pct": 3.9
+      },
+      {
+        "rgb": [
+          192,
+          192,
+          192
+        ],
+        "pct": 3.4
+      }
+    ],
+    "brightness_avg": 122.2,
+    "contrast_std": 69.9,
+    "edge_density": 0.582,
+    "texture_sharpness": 2657.6,
+    "background_type": "industrial_complex",
+    "has_brand_logo": false,
+    "brand_name": "",
+    "commercial_quality": "excellent",
+    "quality_scores": {
+      "resolution": 1.0,
+      "sharpness": 1.0,
+      "contrast": 1.0,
+      "background": 0.3,
+      "composition": 0.5
+    },
+    "overall_score": 0.76,
+    "suitable_for_hero": false,
+    "suitable_for_gallery": true,
+    "needs_background_removal": true,
+    "method": "local-cv",
+    "model": "Pillow+numpy+scipy"
+  },
+  {
+    "asset_id": "asset-0c33ffa1",
+    "filename": "image145.jpeg",
+    "asset_type": "product",
+    "dimensions": {
+      "width": 1200,
+      "height": 900
+    },
+    "aspect_ratio": 1.33,
+    "main_subject": "compressor general",
+    "dominant_colors": [
+      {
+        "rgb": [
+          224,
+          224,
+          224
+        ],
+        "pct": 37.9
+      },
+      {
+        "rgb": [
+          192,
+          192,
+          192
+        ],
+        "pct": 18.8
+      },
+      {
+        "rgb": [
+          128,
+          96,
+          64
+        ],
+        "pct": 4.1
+      },
+      {
+        "rgb": [
+          224,
+          192,
+          192
+        ],
+        "pct": 2.9
+      },
+      {
+        "rgb": [
+          192,
+          192,
+          160
+        ],
+        "pct": 2.8
+      }
+    ],
+    "brightness_avg": 186.4,
+    "contrast_std": 59.0,
+    "edge_density": 0.439,
+    "texture_sharpness": 1025.3,
+    "background_type": "studio_solid",
+    "has_brand_logo": false,
+    "brand_name": "",
+    "commercial_quality": "excellent",
+    "quality_scores": {
+      "resolution": 1.0,
+      "sharpness": 1.0,
+      "contrast": 0.98,
+      "background": 0.3,
+      "composition": 0.7
+    },
+    "overall_score": 0.8,
+    "suitable_for_hero": false,
+    "suitable_for_gallery": true,
+    "needs_background_removal": true,
+    "method": "local-cv",
+    "model": "Pillow+numpy+scipy"
+  },
+  {
+    "asset_id": "asset-2d60b432",
+    "filename": "image35.jpeg",
+    "asset_type": "brand_machine",
+    "dimensions": {
+      "width": 1100,
+      "height": 1650
+    },
+    "aspect_ratio": 0.67,
+    "main_subject": "Yaskawa automation general",
+    "dominant_colors": [
+      {
+        "rgb": [
+          96,
+          96,
+          96
+        ],
+        "pct": 14.3
+      },
+      {
+        "rgb": [
+          128,
+          128,
+          128
+        ],
+        "pct": 10.0
+      },
+      {
+        "rgb": [
+          64,
+          64,
+          64
+        ],
+        "pct": 7.2
+      },
+      {
+        "rgb": [
+          160,
+          160,
+          160
+        ],
+        "pct": 5.4
+      },
+      {
+        "rgb": [
+          192,
+          192,
+          192
+        ],
+        "pct": 4.9
+      }
+    ],
+    "brightness_avg": 126.4,
+    "contrast_std": 54.3,
+    "edge_density": 0.529,
+    "texture_sharpness": 1232.3,
+    "background_type": "industrial_complex",
+    "has_brand_logo": true,
+    "brand_name": "Yaskawa",
+    "commercial_quality": "excellent",
+    "quality_scores": {
+      "resolution": 1.0,
+      "sharpness": 1.0,
+      "contrast": 0.9,
+      "background": 0.3,
+      "composition": 0.7
+    },
+    "overall_score": 0.78,
+    "suitable_for_hero": false,
+    "suitable_for_gallery": true,
+    "needs_background_removal": true,
+    "method": "local-cv",
+    "model": "Pillow+numpy+scipy"
+  },
+  {
+    "asset_id": "asset-7b5cb069",
+    "filename": "image37.jpeg",
+    "asset_type": "brand_machine",
+    "dimensions": {
+      "width": 1200,
+      "height": 900
+    },
+    "aspect_ratio": 1.33,
+    "main_subject": "Yaskawa automation general",
+    "dominant_colors": [
+      {
+        "rgb": [
+          0,
+          0,
+          0
+        ],
+        "pct": 12.1
+      },
+      {
+        "rgb": [
+          32,
+          32,
+          32
+        ],
+        "pct": 10.8
+      },
+      {
+        "rgb": [
+          64,
+          64,
+          64
+        ],
+        "pct": 6.4
+      },
+      {
+        "rgb": [
+          224,
+          224,
+          224
+        ],
+        "pct": 5.6
+      },
+      {
+        "rgb": [
+          96,
+          96,
+          96
+        ],
+        "pct": 4.7
+      }
+    ],
+    "brightness_avg": 98.5,
+    "contrast_std": 67.8,
+    "edge_density": 0.624,
+    "texture_sharpness": 2710.1,
+    "background_type": "industrial_complex",
+    "has_brand_logo": true,
+    "brand_name": "Yaskawa",
+    "commercial_quality": "excellent",
+    "quality_scores": {
+      "resolution": 1.0,
+      "sharpness": 1.0,
+      "contrast": 1.0,
+      "background": 0.3,
+      "composition": 0.7
+    },
+    "overall_score": 0.8,
+    "suitable_for_hero": false,
+    "suitable_for_gallery": true,
+    "needs_background_removal": true,
+    "method": "local-cv",
+    "model": "Pillow+numpy+scipy"
+  },
+  {
+    "asset_id": "asset-ef87717c",
+    "filename": "image62.jpeg",
+    "asset_type": "product",
+    "dimensions": {
+      "width": 1600,
+      "height": 1790
+    },
+    "aspect_ratio": 0.89,
+    "main_subject": "air treatment system",
+    "dominant_colors": [
+      {
+        "rgb": [
+          224,
+          224,
+          224
+        ],
+        "pct": 57.4
+      },
+      {
+        "rgb": [
+          192,
+          192,
+          192
+        ],
+        "pct": 19.7
+      },
+      {
+        "rgb": [
+          160,
+          160,
+          160
+        ],
+        "pct": 5.4
+      },
+      {
+        "rgb": [
+          32,
+          32,
+          32
+        ],
+        "pct": 4.0
+      },
+      {
+        "rgb": [
+          128,
+          128,
+          128
+        ],
+        "pct": 1.6
+      }
+    ],
+    "brightness_avg": 213.6,
+    "contrast_std": 61.0,
+    "edge_density": 0.245,
+    "texture_sharpness": 750.2,
+    "background_type": "studio_solid",
+    "has_brand_logo": false,
+    "brand_name": "",
+    "commercial_quality": "excellent",
+    "quality_scores": {
+      "resolution": 1.0,
+      "sharpness": 1.0,
+      "contrast": 1.0,
+      "background": 0.3,
+      "composition": 0.7
+    },
+    "overall_score": 0.8,
+    "suitable_for_hero": false,
+    "suitable_for_gallery": true,
+    "needs_background_removal": true,
+    "method": "local-cv",
+    "model": "Pillow+numpy+scipy"
+  },
+  {
+    "asset_id": "asset-cb14195c",
+    "filename": "image65.jpeg",
+    "asset_type": "product",
+    "dimensions": {
+      "width": 1680,
+      "height": 1680
+    },
+    "aspect_ratio": 1.0,
+    "main_subject": "air treatment system",
+    "dominant_colors": [
+      {
+        "rgb": [
+          224,
+          224,
+          224
+        ],
+        "pct": 66.3
+      },
+      {
+        "rgb": [
+          192,
+          192,
+          192
+        ],
+        "pct": 4.2
+      },
+      {
+        "rgb": [
+          160,
+          160,
+          160
+        ],
+        "pct": 3.2
+      },
+      {
+        "rgb": [
+          192,
+          224,
+          224
+        ],
+        "pct": 2.7
+      },
+      {
+        "rgb": [
+          128,
+          128,
+          128
+        ],
+        "pct": 2.6
+      }
+    ],
+    "brightness_avg": 215.3,
+    "contrast_std": 64.0,
+    "edge_density": 0.242,
+    "texture_sharpness": 429.9,
+    "background_type": "studio_solid",
+    "has_brand_logo": false,
+    "brand_name": "",
+    "commercial_quality": "excellent",
+    "quality_scores": {
+      "resolution": 1.0,
+      "sharpness": 0.86,
+      "contrast": 1.0,
+      "background": 0.3,
+      "composition": 0.7
+    },
+    "overall_score": 0.77,
+    "suitable_for_hero": false,
+    "suitable_for_gallery": true,
+    "needs_background_removal": true,
+    "method": "local-cv",
+    "model": "Pillow+numpy+scipy"
+  }
+]

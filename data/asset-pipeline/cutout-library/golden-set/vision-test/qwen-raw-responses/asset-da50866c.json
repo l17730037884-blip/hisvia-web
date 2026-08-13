@@ -1,0 +1,35 @@
+{
+  "output": {
+    "choices": [
+      {
+        "message": {
+          "content": [
+            {
+              "text": "```json\n{\n  \"visible_object\": [\n    \"bearing\"\n  ],\n  \"object_type\": \"component\",\n  \"visible_brand\": [],\n  \"visible_text\": [],\n  \"visible_features\": [\n    \"circular shape\",\n    \"metallic outer ring\",\n    \"red inner seal\",\n    \"central hole\"\n  ],\n  \"image_condition\": \"white_background_product\",\n  \"industrial_clues\": [\n    \"mechanical component\",\n    \"rotational part\"\n  ],\n  \"visual_confidence\": 1\n}\n```"
+            }
+          ],
+          "reasoning_content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens_details": {
+      "image_tokens": 227,
+      "text_tokens": 190
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 530,
+    "output_tokens": 113,
+    "input_tokens": 417,
+    "output_tokens_details": {
+      "text_tokens": 113
+    },
+    "image_tokens": 227
+  },
+  "request_id": "d8c694c2-5875-961f-af7d-f323fd2f6d00"
+}

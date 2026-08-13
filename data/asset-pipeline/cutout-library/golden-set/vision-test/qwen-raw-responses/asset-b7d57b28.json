@@ -1,0 +1,35 @@
+{
+  "output": {
+    "choices": [
+      {
+        "message": {
+          "content": [
+            {
+              "text": "```json\n{\n  \"visible_object\": [\n    \"bearing\",\n    \"bearing\"\n  ],\n  \"object_type\": \"component\",\n  \"visible_brand\": [],\n  \"visible_text\": [],\n  \"visible_features\": [\n    \"metallic surface\",\n    \"color-coded seals\",\n    \"circular shape\",\n    \"stacked arrangement\"\n  ],\n  \"image_condition\": \"white_background_product\",\n  \"industrial_clues\": [\n    \"mechanical component\",\n    \"rotating assembly\"\n  ],\n  \"visual_confidence\": 1\n}\n```"
+            }
+          ],
+          "reasoning_content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens_details": {
+      "image_tokens": 227,
+      "text_tokens": 190
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 534,
+    "output_tokens": 117,
+    "input_tokens": 417,
+    "output_tokens_details": {
+      "text_tokens": 117
+    },
+    "image_tokens": 227
+  },
+  "request_id": "d7c5f8fc-16df-92e9-baba-928c7d177fd0"
+}

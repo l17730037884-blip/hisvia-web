@@ -1,0 +1,288 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>高标准AI识图审核 — 8维度严格评审</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"PingFang SC",sans-serif;background:#f0f2f5;color:#1a1a1a;padding:24px;line-height:1.5}
+h1{font-size:22px;margin-bottom:4px}
+.sub{font-size:13px;color:#666;margin-bottom:6px}
+.summary{background:#fff;border:1px solid #ddd;border-radius:6px;padding:14px 16px;margin:12px 0 20px;font-size:13px}
+.summary b{color:#1a7a3a}
+.stat{display:flex;gap:10px;margin-top:10px;flex-wrap:wrap}
+.stat span{font-size:12.5px;padding:5px 10px;border-radius:3px}
+.group{background:#fff;border:1px solid #ddd;border-radius:6px;padding:16px;margin-bottom:18px}
+.gh{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;padding-bottom:10px;border-bottom:1px solid #eee}
+.gh .num{font-size:12px;font-weight:700;color:#fff;background:#1a6fb2;padding:2px 8px;border-radius:3px}
+.gh .cn{font-size:16px;font-weight:700}
+.gh .pos{font-size:12.5px;color:#555}
+.row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:12px}
+.c{border:2px solid;border-radius:5px;overflow:hidden}
+.c img{width:100%;height:170px;object-fit:contain;background:#fff;display:block;cursor:zoom-in;border-bottom:1px solid #eee}
+.c img.zoom{position:fixed;top:5%;left:5%;width:90%;height:auto;max-height:90vh;z-index:99}
+.lb{padding:8px 10px;font-size:11px}
+.lb .tag{font-size:11px;font-weight:700;padding:2px 6px;border-radius:2px;display:inline-block;margin-bottom:5px}
+.lb .field{margin-top:3px;color:#444}
+.lb .field b{color:#1a1a1a;font-weight:600}
+.lb .bad{color:#c0392b}
+.warn{background:#fde8e8;border:1px solid #f5c6c6;color:#c0392b;padding:10px;border-radius:4px;font-size:12.5px;margin-top:10px}
+.ok{background:#eafaf1;border:1px solid #b8e8c8;color:#1a7a3a;padding:10px;border-radius:4px;font-size:12.5px;margin-top:10px}
+</style></head><body>
+<h1>高标准 AI 识图审核 — 8维度严格评审</h1>
+<p class="sub">qwen-vl-plus · 标准:无水印+实拍场景+完全匹配+清晰高+专业商业摄影+国际范 · 宁缺毋滥</p>
+<div class="summary">
+<b>评审结论：</b>alibaba/made-in-china 图源本质是「B2B产品白底展示图」，不是「工厂实拍场景图」。24张中仅4张为实拍场景且完全匹配。
+<div class="stat">
+<span style="background:#e8f8ec;color:#1a7a3a">★★ 强烈推荐: 4张</span>
+<span style="background:#fff8dc;color:#7a6200">△ 推荐(略欠): 5张</span>
+<span style="background:#fde8e8;color:#c0392b">✗ 不推荐: 15张</span>
+</div>
+</div>
+
+<div class="group"><div class="gh"><span class="num">01</span><span class="cn">CNC 数控加工</span><span class="pos">→ 首页制造能力#1</span></div><div class="row">
+<div class="c" style="background:#fff8dc;border-color:#7a620044">
+<img src="_candidates/cnc-0.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#7a6200;color:#fff">0 · △ 推荐(略欠)</span>
+<div class="field"><b>内容:</b> 多种金属零件散落在白色背景上，展示精密加工效果。</div>
+<div class="field "><b>水印:</b> 无</div>
+<div class="field"><b>类型:</b> 产品白底展示图</div>
+<div class="field"><b>匹配:</b> 部分匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+<div class="c" style="background:#fff8dc;border-color:#7a620044">
+<img src="_candidates/cnc-1.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#7a6200;color:#fff">1 · △ 推荐(略欠)</span>
+<div class="field"><b>内容:</b> 多种颜色的金属零件和塑料零件展示，涵盖OEM&ODM服务。</div>
+<div class="field "><b>水印:</b> 无</div>
+<div class="field"><b>类型:</b> 产品白底展示图</div>
+<div class="field"><b>匹配:</b> 部分匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+<div class="c" style="background:#fde8e8;border-color:#c0392b44">
+<img src="_candidates/cnc-2.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#c0392b;color:#fff">2 · ✗ 不推荐</span>
+<div class="field"><b>内容:</b> CNC数控加工的金属零件展示，突出精密制造工艺。</div>
+<div class="field bad"><b>水印:</b> UM</div>
+<div class="field"><b>类型:</b> 产品白底展示图</div>
+<div class="field"><b>匹配:</b> 部分匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+<div class="c" style="background:#e8f8ec;border-color:#1a7a3a44">
+<img src="_candidates/cnc-3.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#1a7a3a;color:#fff">3 · ★★ 强烈推荐</span>
+<div class="field"><b>内容:</b> 展示高精度数控加工零件及测量工具，强调严格公差控制。</div>
+<div class="field "><b>水印:</b> 无</div>
+<div class="field"><b>类型:</b> 实拍场景图</div>
+<div class="field"><b>匹配:</b> 完全匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+</div>
+<div class="ok">✓ 本组有 1 张达标(实拍场景+完全匹配+无水印)，可直接选用</div>
+</div>
+<div class="group"><div class="gh"><span class="num">02</span><span class="cn">金属结构件加工</span><span class="pos">→ 首页制造能力#2</span></div><div class="row">
+<div class="c" style="background:#fff8dc;border-color:#7a620044">
+<img src="_candidates/metal-fab-0.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#7a6200;color:#fff">0 · △ 推荐(略欠)</span>
+<div class="field"><b>内容:</b> 多种金属结构件整齐排列，展示精密加工工艺。</div>
+<div class="field "><b>水印:</b> 无</div>
+<div class="field"><b>类型:</b> 产品白底展示图</div>
+<div class="field"><b>匹配:</b> 部分匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+<div class="c" style="background:#fff8dc;border-color:#7a620044">
+<img src="_candidates/metal-fab-1.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#7a6200;color:#fff">1 · △ 推荐(略欠)</span>
+<div class="field"><b>内容:</b> 多种金属结构件展示，涵盖钣金折弯与焊接工艺</div>
+<div class="field "><b>水印:</b> 无</div>
+<div class="field"><b>类型:</b> 产品白底展示图</div>
+<div class="field"><b>匹配:</b> 部分匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+<div class="c" style="background:#fde8e8;border-color:#c0392b44">
+<img src="_candidates/metal-fab-2.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#c0392b;color:#fff">2 · ✗ 不推荐</span>
+<div class="field"><b>内容:</b> 展示多种定制金属零件，包括支架、外壳、安装板和结构件，强调精密制造和可靠结果。</div>
+<div class="field bad"><b>水印:</b> 有，包含ISO 9001、CE、RoHS、SGS等认证标志及“Verified Supplier”字样。</div>
+<div class="field"><b>类型:</b> 产品白底展示图</div>
+<div class="field"><b>匹配:</b> 部分匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+<div class="c" style="background:#fff8dc;border-color:#7a620044">
+<img src="_candidates/metal-fab-3.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#7a6200;color:#fff">3 · △ 推荐(略欠)</span>
+<div class="field"><b>内容:</b> 多种颜色的金属结构件，包括螺栓、轴承和机械零件。</div>
+<div class="field "><b>水印:</b> 无</div>
+<div class="field"><b>类型:</b> 产品白底展示图</div>
+<div class="field"><b>匹配:</b> 部分匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+</div>
+<div class="warn"><b>本组无实拍场景图达标</b> · alibaba 全是白底产品展示图。要「实拍场景」需换源 Unsplash/Pexels 专业工业摄影。</div>
+</div>
+<div class="group"><div class="gh"><span class="num">03</span><span class="cn">铸造件生产</span><span class="pos">→ 首页制造能力#3</span></div><div class="row">
+<div class="c" style="background:#e8f8ec;border-color:#1a7a3a44">
+<img src="_candidates/casting-0.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#1a7a3a;color:#fff">0 · ★★ 强烈推荐</span>
+<div class="field"><b>内容:</b> 铸造车间熔炉浇注金属铸件实拍，展示工业生产流程</div>
+<div class="field "><b>水印:</b> 无</div>
+<div class="field"><b>类型:</b> 实拍场景图</div>
+<div class="field"><b>匹配:</b> 完全匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+<div class="c" style="background:#fff8dc;border-color:#7a620044">
+<img src="_candidates/casting-1.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#7a6200;color:#fff">1 · △ 推荐(略欠)</span>
+<div class="field"><b>内容:</b> 多种金属铸造件产品展示，包括管道接头和机械部件。</div>
+<div class="field "><b>水印:</b> 无</div>
+<div class="field"><b>类型:</b> 产品白底展示图</div>
+<div class="field"><b>匹配:</b> 部分匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+<div class="c" style="background:#fde8e8;border-color:#c0392b44">
+<img src="_candidates/casting-2.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#c0392b;color:#fff">2 · ✗ 不推荐</span>
+<div class="field"><b>内容:</b> 展示工业定制流程与认证证书，涵盖从客户咨询到产品检验的全过程。</div>
+<div class="field bad"><b>水印:</b> 华睿盛宏精密五金(深圳)有限公司, SGS, ISO9001 CERTIFICATE, SKA 3rd Year, WJTT ROHS TEST REPORT</div>
+<div class="field"><b>类型:</b> 示意图</div>
+<div class="field"><b>匹配:</b> 不匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+<div class="c" style="background:#fff8dc;border-color:#7a620044">
+<img src="_candidates/casting-3.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#7a6200;color:#fff">3 · △ 推荐(略欠)</span>
+<div class="field"><b>内容:</b> 铸造件特写，展示金属铸件的细节和结构</div>
+<div class="field "><b>水印:</b> 无</div>
+<div class="field"><b>类型:</b> 产品白底展示图</div>
+<div class="field"><b>匹配:</b> 部分匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+</div>
+<div class="ok">✓ 本组有 1 张达标(实拍场景+完全匹配+无水印)，可直接选用</div>
+</div>
+<div class="group"><div class="gh"><span class="num">04</span><span class="cn">注塑成型</span><span class="pos">→ 首页制造能力#4</span></div><div class="row">
+<div class="c" style="background:#fff8dc;border-color:#7a620044">
+<img src="_candidates/injection-0.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#7a6200;color:#fff">0 · △ 推荐(略欠)</span>
+<div class="field"><b>内容:</b> 多种颜色的注塑成型塑料零件整齐排列展示</div>
+<div class="field "><b>水印:</b> 无</div>
+<div class="field"><b>类型:</b> 产品白底展示图</div>
+<div class="field"><b>匹配:</b> 部分匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+<div class="c" style="background:#fff8dc;border-color:#7a620044">
+<img src="_candidates/injection-1.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#7a6200;color:#fff">1 · △ 推荐(略欠)</span>
+<div class="field"><b>内容:</b> 注塑模具与成品塑料零件展示</div>
+<div class="field "><b>水印:</b> 无</div>
+<div class="field"><b>类型:</b> 产品白底展示图</div>
+<div class="field"><b>匹配:</b> 部分匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+<div class="c" style="background:#fde8e8;border-color:#c0392b44">
+<img src="_candidates/injection-2.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#c0392b;color:#fff">2 · ✗ 不推荐</span>
+<div class="field"><b>内容:</b> 注塑成型的塑料零件展示，包括黑色和白色的部件。</div>
+<div class="field bad"><b>水印:</b> Hefeng</div>
+<div class="field"><b>类型:</b> 产品白底展示图</div>
+<div class="field"><b>匹配:</b> 部分匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+<div class="c" style="background:#fff8dc;border-color:#7a620044">
+<img src="_candidates/injection-3.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#7a6200;color:#fff">3 · △ 推荐(略欠)</span>
+<div class="field"><b>内容:</b> 注塑成型机及其生产出的塑料制品展示</div>
+<div class="field "><b>水印:</b> 无</div>
+<div class="field"><b>类型:</b> 产品白底展示图</div>
+<div class="field"><b>匹配:</b> 部分匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+</div>
+<div class="warn"><b>本组无实拍场景图达标</b> · alibaba 全是白底产品展示图。要「实拍场景」需换源 Unsplash/Pexels 专业工业摄影。</div>
+</div>
+<div class="group"><div class="gh"><span class="num">05</span><span class="cn">工业组装</span><span class="pos">→ 首页制造能力#5</span></div><div class="row">
+<div class="c" style="background:#fff8dc;border-color:#7a620044">
+<img src="_candidates/assembly-0.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#7a6200;color:#fff">0 · △ 推荐(略欠)</span>
+<div class="field"><b>内容:</b> 工业装配线及零部件展示</div>
+<div class="field "><b>水印:</b> 无</div>
+<div class="field"><b>类型:</b> 产品白底展示图</div>
+<div class="field"><b>匹配:</b> 部分匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+<div class="c" style="background:#e8f8ec;border-color:#1a7a3a44">
+<img src="_candidates/assembly-1.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#1a7a3a;color:#fff">1 · ★★ 强烈推荐</span>
+<div class="field"><b>内容:</b> 工业设备运行</div>
+<div class="field "><b>水印:</b> 无</div>
+<div class="field"><b>类型:</b> 实拍场景图</div>
+<div class="field"><b>匹配:</b> 完全匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+<div class="c" style="background:#e8f8ec;border-color:#1a7a3a44">
+<img src="_candidates/assembly-2.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#1a7a3a;color:#fff">2 · ★★ 强烈推荐</span>
+<div class="field"><b>内容:</b> 工业装配线设备实拍，展示现代化生产线场景。</div>
+<div class="field "><b>水印:</b> 无</div>
+<div class="field"><b>类型:</b> 实拍场景图</div>
+<div class="field"><b>匹配:</b> 完全匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+<div class="c" style="background:#e8f8ec;border-color:#1a7a3a44">
+<img src="_candidates/assembly-3.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#1a7a3a;color:#fff">3 · ★★ 强烈推荐</span>
+<div class="field"><b>内容:</b> 工业装配线设备在工厂环境中的实拍场景</div>
+<div class="field "><b>水印:</b> 无</div>
+<div class="field"><b>类型:</b> 实拍场景图</div>
+<div class="field"><b>匹配:</b> 完全匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+</div>
+<div class="ok">✓ 本组有 3 张达标(实拍场景+完全匹配+无水印)，可直接选用</div>
+</div>
+<div class="group"><div class="gh"><span class="num">06</span><span class="cn">质量检验</span><span class="pos">→ 首页制造能力#6</span></div><div class="row">
+<div class="c" style="background:#fde8e8;border-color:#c0392b44">
+<img src="_candidates/inspection-0.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#c0392b;color:#fff">0 · ✗ 不推荐</span>
+<div class="field"><b>内容:</b> 专业工业检测设备展示，非质检员使用卡尺/千分尺场景</div>
+<div class="field "><b>水印:</b> 无</div>
+<div class="field"><b>类型:</b> 产品白底展示图</div>
+<div class="field"><b>匹配:</b> 不匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+<div class="c" style="background:#fde8e8;border-color:#c0392b44">
+<img src="_candidates/inspection-1.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#c0392b;color:#fff">1 · ✗ 不推荐</span>
+<div class="field"><b>内容:</b> 手持式测量仪器展示，背景为彩色流线型图案</div>
+<div class="field bad"><b>水印:</b> NIR System</div>
+<div class="field"><b>类型:</b> 产品白底展示图</div>
+<div class="field"><b>匹配:</b> 不匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+<div class="c" style="background:#fde8e8;border-color:#c0392b44">
+<img src="_candidates/inspection-2.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#c0392b;color:#fff">2 · ✗ 不推荐</span>
+<div class="field"><b>内容:</b> 卡尺检测金属零件的特写，展示精密测量工具。</div>
+<div class="field bad"><b>水印:</b> JIMEDICAL INSTRUMENTS</div>
+<div class="field"><b>类型:</b> 产品白底展示图</div>
+<div class="field"><b>匹配:</b> 不匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+<div class="c" style="background:#fde8e8;border-color:#c0392b44">
+<img src="_candidates/inspection-3.jpg" onclick="this.classList.toggle('zoom')">
+<div class="lb"><span class="tag" style="background:#c0392b;color:#fff">3 · ✗ 不推荐</span>
+<div class="field"><b>内容:</b> 数字万用表展示，用于工业质量检测</div>
+<div class="field bad"><b>水印:</b> Value MM65E</div>
+<div class="field"><b>类型:</b> 产品白底展示图</div>
+<div class="field"><b>匹配:</b> 不匹配</div>
+<div class="field"><b>国际范:</b> 适合国际工业网站</div>
+</div></div>
+</div>
+<div class="warn"><b>质检组全军覆没</b> · alibaba 卖的是量具产品图(带品牌水印)，非质检场景。必须换源:Unsplash「质检员卡尺测量金属零件」真实摄影。</div>
+</div>
+
+<div class="summary" style="margin-top:20px">
+<b>下一步建议：</b><br>
+1. 达标的4张(assembly-2/3, casting-0, cnc-3)可直接采用<br>
+2. 其余模块(CNC/金属加工/注塑/质检/铸造补充)需换源 Unsplash，搜索「工厂实拍场景」类专业工业摄影<br>
+3. 识图闭环已建立，任何新图源都能用 qwen-vl-plus 自动8维度检测<br>
+<br><b>已达标的4张：</b> assembly-2 装配线实拍 · assembly-3 装配线工厂实拍 · casting-0 铸造车间熔炉实拍 · cnc-3 CNC零件+量具实拍
+</div>
+</body></html>

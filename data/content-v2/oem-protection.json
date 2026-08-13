@@ -1,0 +1,93 @@
+{
+  "version": "v2",
+  "generated": "2026-08-11",
+  "description": "OEM trust module — IP protection, confidential development, custom manufacturing for OEM buyers",
+  "page": {
+    "route": "/oem",
+    "title": "OEM & Custom Manufacturing Partnership",
+    "subtitle": "Confidential development. IP protection. Custom manufacturing solutions.",
+    "positioning": "HISVIA facilitates OEM manufacturing partnerships between overseas companies and verified Chinese factories. We understand that IP protection, confidentiality, and quality consistency are non-negotiable for OEM relationships."
+  },
+  "ip_protection": {
+    "title": "Intellectual Property Protection",
+    "description": "We take IP protection seriously. Our OEM process includes contractual safeguards and practical measures to protect your designs, specifications, and business interests.",
+    "measures": [
+      "NDA executed before any technical information sharing",
+      "Design files and specifications shared only with contracted factory",
+      "Contractual prohibition on factory using your designs for other customers",
+      "Tooling and molds owned by you, not the factory",
+      "Option for split manufacturing across multiple factories to protect complete design",
+      "Brand-neutral packaging and documentation — your brand, not ours"
+    ],
+    "ndA_process": [
+      "You submit OEM inquiry with general description (no confidential details)",
+      "HISVIA provides standard Mutual NDA for signature",
+      "After NDA execution, detailed technical discussion begins",
+      "Factory matching based on capability, not just price",
+      "Sample production with your quality approval before bulk order"
+    ]
+  },
+  "custom_manufacturing": {
+    "title": "Custom Manufacturing Capabilities",
+    "capabilities": [
+      {
+        "id": "reverse_engineering",
+        "name": "Reverse Engineering",
+        "description": "3D scanning, material analysis, and CAD modeling from existing parts. Create production-ready drawings and specifications from physical samples."
+      },
+      {
+        "id": "custom_design",
+        "name": "Custom Design & Engineering",
+        "description": "Design optimization for manufacturability. Material selection consulting. Engineering support from concept to production."
+      },
+      {
+        "id": "tooling_mold",
+        "name": "Tooling & Mold Making",
+        "description": "Custom tooling, jigs, fixtures, and molds for your specific parts. You own the tooling — we manage the production."
+      },
+      {
+        "id": "quality_program",
+        "name": "Custom Quality Program",
+        "description": "PPAP, FAI, and custom inspection protocols. Your quality standards, our execution. Full traceability from raw material to finished part."
+      }
+    ]
+  },
+  "buyer_path": [
+    {
+      "step": 1,
+      "title": "Initial Inquiry",
+      "description": "Describe your OEM need in general terms. No confidential details at this stage."
+    },
+    {
+      "step": 2,
+      "title": "NDA & Qualification",
+      "description": "Mutual NDA signed. HISVIA qualifies your requirements and identifies matching factories."
+    },
+    {
+      "step": 3,
+      "title": "Technical Review",
+      "description": "Detailed drawings, specifications, and quality requirements reviewed. Factory capability matched."
+    },
+    {
+      "step": 4,
+      "title": "Sample Development",
+      "description": "Prototype or sample production. Your quality approval required before production."
+    },
+    {
+      "step": 5,
+      "title": "Production & Quality",
+      "description": "Bulk production with agreed quality program. In-process inspection. Pre-shipment inspection."
+    },
+    {
+      "step": 6,
+      "title": "Delivery & Support",
+      "description": "Export documentation, logistics, and ongoing quality support for repeat orders."
+    }
+  ],
+  "rules": [
+    "All OEM claims are verifiable by documented process",
+    "No fictional NDA or IP protection claims",
+    "No guarantee of patent protection in buyer's jurisdiction",
+    "Buyer is advised to seek local legal counsel for IP matters"
+  ]
+}

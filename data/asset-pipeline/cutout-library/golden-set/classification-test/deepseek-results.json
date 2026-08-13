@@ -1,0 +1,693 @@
+{
+  "version": "industrial-classification-test-v1",
+  "model": "deepseek",
+  "asset_count": 49,
+  "results": [
+    {
+      "asset_id": "asset-918a3003",
+      "prediction": {
+        "asset_type": "equipment",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": "Atlas Copco",
+        "application": []
+      },
+      "reasoning": "Equipment detected but cannot determine specific industrial system from visual data alone.",
+      "confidence": 0.5,
+      "risk_level": "high"
+    },
+    {
+      "asset_id": "asset-6b7b1713",
+      "prediction": {
+        "asset_type": "equipment",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": "KAESER",
+        "application": []
+      },
+      "reasoning": "Equipment detected but cannot determine specific industrial system from visual data alone.",
+      "confidence": 0.5,
+      "risk_level": "high"
+    },
+    {
+      "asset_id": "asset-21c46019",
+      "prediction": {
+        "asset_type": "equipment",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": "CompAir",
+        "application": []
+      },
+      "reasoning": "Equipment detected but cannot determine specific industrial system from visual data alone.",
+      "confidence": 0.5,
+      "risk_level": "high"
+    },
+    {
+      "asset_id": "asset-cfd129d3",
+      "prediction": {
+        "asset_type": "component",
+        "system_type": "Industrial Filtration",
+        "category": "Filter Elements",
+        "subcategory": "Filter Element General",
+        "brand": "Atlas Copco",
+        "application": []
+      },
+      "reasoning": "R004: Filter must be sub-typed. Defaulting to Filter Element General.",
+      "confidence": 0.6,
+      "risk_level": "high"
+    },
+    {
+      "asset_id": "asset-e82582ef",
+      "prediction": {
+        "asset_type": "component",
+        "system_type": "Valves & Flow Control",
+        "category": "Ball Valves",
+        "subcategory": null,
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "R008: Valve detected → Valves & Flow Control.",
+      "confidence": 0.85,
+      "risk_level": "medium"
+    },
+    {
+      "asset_id": "asset-b7d57b28",
+      "prediction": {
+        "asset_type": "component",
+        "system_type": "Mechanical Transmission",
+        "category": "Bearings",
+        "subcategory": "Roller Bearing",
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "Bearing → Mechanical Transmission → Bearings.",
+      "confidence": 0.8,
+      "risk_level": "medium"
+    },
+    {
+      "asset_id": "asset-da50866c",
+      "prediction": {
+        "asset_type": "component",
+        "system_type": "Mechanical Transmission",
+        "category": "Bearings",
+        "subcategory": "Roller Bearing",
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "Bearing → Mechanical Transmission → Bearings.",
+      "confidence": 0.8,
+      "risk_level": "medium"
+    },
+    {
+      "asset_id": "asset-8342923a",
+      "prediction": {
+        "asset_type": "component",
+        "system_type": "Pneumatic Automation",
+        "category": "Pneumatic Components",
+        "subcategory": null,
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "Pneumatic components → Pneumatic Automation.",
+      "confidence": 0.75,
+      "risk_level": "medium"
+    },
+    {
+      "asset_id": "asset-5d428a16",
+      "prediction": {
+        "asset_type": "unknown",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "Cannot classify from available visual information. R009 applies.",
+      "confidence": 0.3,
+      "risk_level": "high"
+    },
+    {
+      "asset_id": "asset-a978f441",
+      "prediction": {
+        "asset_type": "equipment",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": "Atlas Copco",
+        "application": []
+      },
+      "reasoning": "Equipment detected but cannot determine specific industrial system from visual data alone.",
+      "confidence": 0.5,
+      "risk_level": "high"
+    },
+    {
+      "asset_id": "asset-dfd5500a",
+      "prediction": {
+        "asset_type": "equipment",
+        "system_type": "Pumps & Fluid Handling",
+        "category": "Centrifugal Pumps",
+        "subcategory": null,
+        "brand": "Reishauer",
+        "application": []
+      },
+      "reasoning": "R007: Pump detected → Pumps & Fluid Handling.",
+      "confidence": 0.85,
+      "risk_level": "low"
+    },
+    {
+      "asset_id": "asset-58e52f7c",
+      "prediction": {
+        "asset_type": "factory",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "Factory scene detected. R002: Factory → asset_type=factory, system_type=null.",
+      "confidence": 0.9,
+      "risk_level": "low"
+    },
+    {
+      "asset_id": "asset-40e9d9a1",
+      "prediction": {
+        "asset_type": "factory",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": "SIEMENS",
+        "application": []
+      },
+      "reasoning": "Factory scene detected. R002: Factory → asset_type=factory, system_type=null.",
+      "confidence": 0.9,
+      "risk_level": "low"
+    },
+    {
+      "asset_id": "asset-f611401c",
+      "prediction": {
+        "asset_type": "factory",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "Factory scene detected. R002: Factory → asset_type=factory, system_type=null.",
+      "confidence": 0.9,
+      "risk_level": "low"
+    },
+    {
+      "asset_id": "asset-475bb362",
+      "prediction": {
+        "asset_type": "equipment",
+        "system_type": "Pumps & Fluid Handling",
+        "category": "Centrifugal Pumps",
+        "subcategory": null,
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "R007: Pump detected → Pumps & Fluid Handling.",
+      "confidence": 0.85,
+      "risk_level": "low"
+    },
+    {
+      "asset_id": "asset-344e002d",
+      "prediction": {
+        "asset_type": "equipment",
+        "system_type": "Pumps & Fluid Handling",
+        "category": "Centrifugal Pumps",
+        "subcategory": null,
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "R007: Pump detected → Pumps & Fluid Handling.",
+      "confidence": 0.85,
+      "risk_level": "low"
+    },
+    {
+      "asset_id": "asset-7da7f124",
+      "prediction": {
+        "asset_type": "factory",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": "Donaldson",
+        "application": []
+      },
+      "reasoning": "Factory scene detected. R002: Factory → asset_type=factory, system_type=null.",
+      "confidence": 0.9,
+      "risk_level": "low"
+    },
+    {
+      "asset_id": "asset-8490ea6c",
+      "prediction": {
+        "asset_type": "equipment",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": "Donaldson Torit",
+        "application": []
+      },
+      "reasoning": "Equipment detected but cannot determine specific industrial system from visual data alone.",
+      "confidence": 0.5,
+      "risk_level": "high"
+    },
+    {
+      "asset_id": "asset-eb8b77cc",
+      "prediction": {
+        "asset_type": "equipment",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": "Donaldson",
+        "application": []
+      },
+      "reasoning": "Equipment detected but cannot determine specific industrial system from visual data alone.",
+      "confidence": 0.5,
+      "risk_level": "high"
+    },
+    {
+      "asset_id": "asset-f0993304",
+      "prediction": {
+        "asset_type": "equipment",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": "Donaldson Torit",
+        "application": []
+      },
+      "reasoning": "Equipment detected but cannot determine specific industrial system from visual data alone.",
+      "confidence": 0.5,
+      "risk_level": "high"
+    },
+    {
+      "asset_id": "asset-ce8be518",
+      "prediction": {
+        "asset_type": "equipment",
+        "system_type": "Pumps & Fluid Handling",
+        "category": "Centrifugal Pumps",
+        "subcategory": null,
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "R007: Pump detected → Pumps & Fluid Handling.",
+      "confidence": 0.85,
+      "risk_level": "low"
+    },
+    {
+      "asset_id": "asset-b69c6430",
+      "prediction": {
+        "asset_type": "factory",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": "KUKA",
+        "application": []
+      },
+      "reasoning": "Factory scene detected. R002: Factory → asset_type=factory, system_type=null.",
+      "confidence": 0.9,
+      "risk_level": "low"
+    },
+    {
+      "asset_id": "asset-5b33ea4b",
+      "prediction": {
+        "asset_type": "factory",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": "KUKA",
+        "application": []
+      },
+      "reasoning": "Factory scene detected. R002: Factory → asset_type=factory, system_type=null.",
+      "confidence": 0.9,
+      "risk_level": "low"
+    },
+    {
+      "asset_id": "asset-48b63b1e",
+      "prediction": {
+        "asset_type": "equipment",
+        "system_type": "Pumps & Fluid Handling",
+        "category": "Centrifugal Pumps",
+        "subcategory": null,
+        "brand": "SULZER",
+        "application": []
+      },
+      "reasoning": "R007: Pump detected → Pumps & Fluid Handling.",
+      "confidence": 0.85,
+      "risk_level": "low"
+    },
+    {
+      "asset_id": "asset-9f330fb8",
+      "prediction": {
+        "asset_type": "equipment",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": "ALPHA LUBRICANTS",
+        "application": []
+      },
+      "reasoning": "Equipment detected but cannot determine specific industrial system from visual data alone.",
+      "confidence": 0.5,
+      "risk_level": "high"
+    },
+    {
+      "asset_id": "asset-84bb2bba",
+      "prediction": {
+        "asset_type": "unknown",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "Cannot classify from available visual information. R009 applies.",
+      "confidence": 0.3,
+      "risk_level": "high"
+    },
+    {
+      "asset_id": "asset-3986d47f",
+      "prediction": {
+        "asset_type": "unknown",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "Cannot classify from available visual information. R009 applies.",
+      "confidence": 0.3,
+      "risk_level": "high"
+    },
+    {
+      "asset_id": "asset-ad1a284d",
+      "prediction": {
+        "asset_type": "unknown",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": "FESTO",
+        "application": []
+      },
+      "reasoning": "Cannot classify from available visual information. R009 applies.",
+      "confidence": 0.3,
+      "risk_level": "high"
+    },
+    {
+      "asset_id": "asset-40a7670c",
+      "prediction": {
+        "asset_type": "component",
+        "system_type": "Industrial Filtration",
+        "category": "Filter Elements",
+        "subcategory": "Filter Element General",
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "R004: Filter must be sub-typed. Defaulting to Filter Element General.",
+      "confidence": 0.6,
+      "risk_level": "high"
+    },
+    {
+      "asset_id": "asset-325714de",
+      "prediction": {
+        "asset_type": "equipment",
+        "system_type": "Pumps & Fluid Handling",
+        "category": "Centrifugal Pumps",
+        "subcategory": null,
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "R007: Pump detected → Pumps & Fluid Handling.",
+      "confidence": 0.85,
+      "risk_level": "low"
+    },
+    {
+      "asset_id": "asset-4ab74032",
+      "prediction": {
+        "asset_type": "unknown",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "Cannot classify from available visual information. R009 applies.",
+      "confidence": 0.3,
+      "risk_level": "high"
+    },
+    {
+      "asset_id": "asset-7aaf9aca",
+      "prediction": {
+        "asset_type": "unknown",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": "LOCTITE",
+        "application": []
+      },
+      "reasoning": "Cannot classify from available visual information. R009 applies.",
+      "confidence": 0.3,
+      "risk_level": "high"
+    },
+    {
+      "asset_id": "asset-a1ae0abb",
+      "prediction": {
+        "asset_type": "equipment",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "Equipment detected but cannot determine specific industrial system from visual data alone.",
+      "confidence": 0.5,
+      "risk_level": "high"
+    },
+    {
+      "asset_id": "asset-e4c126b0",
+      "prediction": {
+        "asset_type": "equipment",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": "Gardner Denver",
+        "application": []
+      },
+      "reasoning": "Equipment detected but cannot determine specific industrial system from visual data alone.",
+      "confidence": 0.5,
+      "risk_level": "high"
+    },
+    {
+      "asset_id": "asset-e6830784",
+      "prediction": {
+        "asset_type": "component",
+        "system_type": "Valves & Flow Control",
+        "category": "Control Valves",
+        "subcategory": "Globe Control Valve",
+        "brand": "Vickers",
+        "application": []
+      },
+      "reasoning": "R008: Valve detected → Valves & Flow Control.",
+      "confidence": 0.85,
+      "risk_level": "medium"
+    },
+    {
+      "asset_id": "asset-cd532cc1",
+      "prediction": {
+        "asset_type": "component",
+        "system_type": "Pneumatic Automation",
+        "category": "Pneumatic Components",
+        "subcategory": null,
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "Pneumatic components → Pneumatic Automation.",
+      "confidence": 0.75,
+      "risk_level": "medium"
+    },
+    {
+      "asset_id": "asset-a88224cd",
+      "prediction": {
+        "asset_type": "equipment",
+        "system_type": "Pumps & Fluid Handling",
+        "category": "Centrifugal Pumps",
+        "subcategory": null,
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "R007: Pump detected → Pumps & Fluid Handling.",
+      "confidence": 0.85,
+      "risk_level": "low"
+    },
+    {
+      "asset_id": "asset-f0e95dba",
+      "prediction": {
+        "asset_type": "component",
+        "system_type": "Valves & Flow Control",
+        "category": "Ball Valves",
+        "subcategory": null,
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "R008: Valve detected → Valves & Flow Control.",
+      "confidence": 0.85,
+      "risk_level": "medium"
+    },
+    {
+      "asset_id": "asset-d29f9c00",
+      "prediction": {
+        "asset_type": "component",
+        "system_type": "Valves & Flow Control",
+        "category": "Ball Valves",
+        "subcategory": null,
+        "brand": "EVF",
+        "application": []
+      },
+      "reasoning": "R008: Valve detected → Valves & Flow Control.",
+      "confidence": 0.85,
+      "risk_level": "medium"
+    },
+    {
+      "asset_id": "asset-7b19d020",
+      "prediction": {
+        "asset_type": "component",
+        "system_type": "Valves & Flow Control",
+        "category": "Ball Valves",
+        "subcategory": null,
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "R008: Valve detected → Valves & Flow Control.",
+      "confidence": 0.85,
+      "risk_level": "medium"
+    },
+    {
+      "asset_id": "asset-f33f7c96",
+      "prediction": {
+        "asset_type": "equipment",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": "ABB",
+        "application": []
+      },
+      "reasoning": "Equipment detected but cannot determine specific industrial system from visual data alone.",
+      "confidence": 0.5,
+      "risk_level": "high"
+    },
+    {
+      "asset_id": "asset-91e283b8",
+      "prediction": {
+        "asset_type": "equipment",
+        "system_type": "Industrial Automation & Control",
+        "category": "PLC & Controllers",
+        "subcategory": "PLC Controller",
+        "brand": "Omron",
+        "application": []
+      },
+      "reasoning": "Automation components detected → Industrial Automation & Control.",
+      "confidence": 0.8,
+      "risk_level": "medium"
+    },
+    {
+      "asset_id": "asset-6b0073d0",
+      "prediction": {
+        "asset_type": "component",
+        "system_type": "Mechanical Transmission",
+        "category": "Bearings",
+        "subcategory": "Roller Bearing",
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "Bearing → Mechanical Transmission → Bearings.",
+      "confidence": 0.8,
+      "risk_level": "medium"
+    },
+    {
+      "asset_id": "asset-a8ee483b",
+      "prediction": {
+        "asset_type": "component",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "R003: Seal → cross-system component. system_type=null.",
+      "confidence": 0.7,
+      "risk_level": "medium"
+    },
+    {
+      "asset_id": "asset-87e2254b",
+      "prediction": {
+        "asset_type": "factory",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": "China Erzhong",
+        "application": []
+      },
+      "reasoning": "Factory scene detected. R002: Factory → asset_type=factory, system_type=null.",
+      "confidence": 0.9,
+      "risk_level": "low"
+    },
+    {
+      "asset_id": "asset-81187c75",
+      "prediction": {
+        "asset_type": "factory",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": "PRECISE",
+        "application": []
+      },
+      "reasoning": "Factory scene detected. R002: Factory → asset_type=factory, system_type=null.",
+      "confidence": 0.9,
+      "risk_level": "low"
+    },
+    {
+      "asset_id": "asset-d7c25888",
+      "prediction": {
+        "asset_type": "factory",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "Factory scene detected. R002: Factory → asset_type=factory, system_type=null.",
+      "confidence": 0.9,
+      "risk_level": "low"
+    },
+    {
+      "asset_id": "asset-ceb53592",
+      "prediction": {
+        "asset_type": "factory",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": "CNC",
+        "application": []
+      },
+      "reasoning": "Factory scene detected. R002: Factory → asset_type=factory, system_type=null.",
+      "confidence": 0.9,
+      "risk_level": "low"
+    },
+    {
+      "asset_id": "asset-001ac56b",
+      "prediction": {
+        "asset_type": "factory",
+        "system_type": null,
+        "category": null,
+        "subcategory": null,
+        "brand": null,
+        "application": []
+      },
+      "reasoning": "Factory scene detected. R002: Factory → asset_type=factory, system_type=null.",
+      "confidence": 0.9,
+      "risk_level": "low"
+    }
+  ]
+}

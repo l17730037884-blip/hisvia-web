@@ -1,0 +1,35 @@
+{
+  "output": {
+    "choices": [
+      {
+        "message": {
+          "content": [
+            {
+              "text": "```json\n{\n  \"visible_object\": [\n    \"ABB PM554-T-ETH\"\n  ],\n  \"object_type\": \"equipment\",\n  \"visible_brand\": [\n    \"ABB\"\n  ],\n  \"visible_text\": [\n    \"ABB\",\n    \"PM554\",\n    \"CPU PM554-T-ETH\",\n    \"PWR\",\n    \"RUN\",\n    \"ERR\",\n    \"COM1\",\n    \"ETHERNET\",\n    \"WARNING\",\n    \"Use of incorrect battery may cause fire or explosion\"\n  ],\n  \"visible_features\": [\n    \"red stripe with brand name\",\n    \"LED indicator lights (PWR, RUN, ERR)\",\n    \"ethernet port\",\n    \"serial communication port (COM1)\",\n    \"terminal block for connections\",\n    \"labeling for input/output channels\"\n  ],\n  \"image_condition\": \"white_background_product\",\n  \"industrial_clues\": [\n    \"control module\",\n    \"industrial automation\",\n    \"network connectivity\",\n    \"power management\"\n  ],\n  \"visual_confidence\": 1\n}\n```"
+            }
+          ],
+          "reasoning_content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens_details": {
+      "image_tokens": 402,
+      "text_tokens": 190
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 817,
+    "output_tokens": 225,
+    "input_tokens": 592,
+    "output_tokens_details": {
+      "text_tokens": 225
+    },
+    "image_tokens": 402
+  },
+  "request_id": "bcd4fdbd-7f33-9a10-b576-60797cb64df1"
+}

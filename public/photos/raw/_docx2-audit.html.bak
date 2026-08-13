@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>缺的图.docx — 11品牌整机图审核</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"PingFang SC",sans-serif;background:#f0f2f5;color:#1a1a1a;padding:20px;line-height:1.5}
+h1{font-size:20px;margin-bottom:4px}
+.sub{font-size:12px;color:#666;margin-bottom:12px}
+.summary{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}
+.stat{background:#fff;border:1px solid #ddd;border-radius:4px;padding:8px 14px;font-size:13px}
+.stat b{font-size:18px;color:#1a6fb2}
+.toc{background:#fff;border:1px solid #ddd;border-radius:6px;padding:12px;margin-bottom:16px}
+.toc a{display:inline-block;padding:4px 10px;margin:2px;background:#e8f0fe;border-radius:3px;text-decoration:none;color:#1a6fb2;font-size:12px}
+.toc a:hover{background:#1a6fb2;color:#fff}
+.section-title{font-size:16px;font-weight:700;padding-bottom:6px;border-bottom:2px solid #1a6fb2;margin:20px 0 10px}
+.group{background:#fff;border:1px solid #ddd;border-radius:6px;padding:14px;margin-bottom:12px}
+.gh{display:flex;align-items:baseline;gap:8px;padding-bottom:8px;border-bottom:1px solid #eee}
+.gh .cn{font-size:15px;font-weight:700}
+.gh .type{font-size:12px;color:#888}
+.gh .cnt{font-size:12px;color:#666;margin-left:auto}
+.row{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin-top:10px}
+.c{background:#fff;border:1px solid #ddd;border-radius:4px;overflow:hidden}
+.c img{width:100%;height:200px;object-fit:contain;background:#fff;display:block;cursor:zoom-in;border-bottom:1px solid #eee}
+.c img.zoom{position:fixed;top:5%;left:5%;width:90%;height:auto;max-height:90vh;z-index:99}
+.lb{padding:8px 10px;font-size:11px}
+.lb .nm{font-weight:700;font-size:12px;margin-bottom:3px}
+.lb .fl{color:#999;font-size:10px;font-family:monospace}
+</style></head><body>
+<h1>缺的图.docx — 11品牌整机图</h1>
+<p class="sub">文档共63张图片，覆盖11个品牌整机展示</p>
+<div class="summary">
+<div class="stat"><b>63</b> 总图片</div>
+<div class="stat"><b>11</b> 品牌</div>
+<div class="stat"><b>4</b> 方向</div>
+</div>
+<div class="toc">
+<a href="#sullair">Sullair (7张)</a>
+<a href="#compair">CompAir (6张)</a>
+<a href="#eaton">Eaton (3张)</a>
+<a href="#yuken">Yuken (6张)</a>
+<a href="#kawasaki">Kawasaki (5张)</a>
+<a href="#kuka">KUKA (6张)</a>
+<a href="#yaskawa">Yaskawa Motoman (6张)</a>
+<a href="#sulzer">Sulzer (6张)</a>
+<a href="#wilo">Wilo (7张)</a>
+<a href="#emerson">Emerson (6张)</a>
+<a href="#metso">Metso (5张)</a>
+</div>
+<div class="section-title">空压机</div>
+<div class="group" id="sullair"><div class="gh"><span class="cn">Sullair</span><span class="type">螺杆空压机</span><span class="cnt">7张</span></div><div class="row">
+<div class="c"><img src="/photos/raw/_docx2/image1.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#1</div><div class="fl">image1.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image2.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#2</div><div class="fl">image2.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image3.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#3</div><div class="fl">image3.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image4.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#4</div><div class="fl">image4.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image5.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#5</div><div class="fl">image5.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image6.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#6</div><div class="fl">image6.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image7.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#7</div><div class="fl">image7.jpeg</div></div></div>
+</div></div>
+<div class="group" id="compair"><div class="gh"><span class="cn">CompAir</span><span class="type">螺杆空压机</span><span class="cnt">6张</span></div><div class="row">
+<div class="c"><img src="/photos/raw/_docx2/image8.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#8</div><div class="fl">image8.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image9.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#9</div><div class="fl">image9.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image10.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#10</div><div class="fl">image10.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image11.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#11</div><div class="fl">image11.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image12.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#12</div><div class="fl">image12.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image13.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#13</div><div class="fl">image13.jpeg</div></div></div>
+</div></div>
+<div class="section-title">液压系统</div>
+<div class="group" id="eaton"><div class="gh"><span class="cn">Eaton</span><span class="type">液压站 / 液压系统</span><span class="cnt">3张</span></div><div class="row">
+<div class="c"><img src="/photos/raw/_docx2/image14.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#14</div><div class="fl">image14.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image15.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#15</div><div class="fl">image15.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image16.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#16</div><div class="fl">image16.jpeg</div></div></div>
+</div></div>
+<div class="group" id="yuken"><div class="gh"><span class="cn">Yuken</span><span class="type">液压阀台 / 液压站</span><span class="cnt">6张</span></div><div class="row">
+<div class="c"><img src="/photos/raw/_docx2/image17.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#17</div><div class="fl">image17.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image18.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#18</div><div class="fl">image18.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image19.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#19</div><div class="fl">image19.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image20.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#20</div><div class="fl">image20.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image21.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#21</div><div class="fl">image21.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image22.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#22</div><div class="fl">image22.jpeg</div></div></div>
+</div></div>
+<div class="group" id="kawasaki"><div class="gh"><span class="cn">Kawasaki</span><span class="type">液压泵站</span><span class="cnt">5张</span></div><div class="row">
+<div class="c"><img src="/photos/raw/_docx2/image23.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#23</div><div class="fl">image23.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image24.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#24</div><div class="fl">image24.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image25.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#25</div><div class="fl">image25.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image26.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#26</div><div class="fl">image26.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image27.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#27</div><div class="fl">image27.jpeg</div></div></div>
+</div></div>
+<div class="section-title">自动化设备</div>
+<div class="group" id="kuka"><div class="gh"><span class="cn">KUKA</span><span class="type">工业机器人</span><span class="cnt">6张</span></div><div class="row">
+<div class="c"><img src="/photos/raw/_docx2/image28.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#28</div><div class="fl">image28.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image29.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#29</div><div class="fl">image29.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image30.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#30</div><div class="fl">image30.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image31.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#31</div><div class="fl">image31.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image32.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#32</div><div class="fl">image32.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image33.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#33</div><div class="fl">image33.jpeg</div></div></div>
+</div></div>
+<div class="group" id="yaskawa"><div class="gh"><span class="cn">Yaskawa Motoman</span><span class="type">工业机器人</span><span class="cnt">6张</span></div><div class="row">
+<div class="c"><img src="/photos/raw/_docx2/image34.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#34</div><div class="fl">image34.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image35.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#35</div><div class="fl">image35.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image36.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#36</div><div class="fl">image36.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image37.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#37</div><div class="fl">image37.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image38.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#38</div><div class="fl">image38.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image39.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#39</div><div class="fl">image39.jpeg</div></div></div>
+</div></div>
+<div class="section-title">泵阀系统</div>
+<div class="group" id="sulzer"><div class="gh"><span class="cn">Sulzer</span><span class="type">化工泵 / 离心泵</span><span class="cnt">6张</span></div><div class="row">
+<div class="c"><img src="/photos/raw/_docx2/image40.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#40</div><div class="fl">image40.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image41.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#41</div><div class="fl">image41.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image42.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#42</div><div class="fl">image42.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image43.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#43</div><div class="fl">image43.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image44.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#44</div><div class="fl">image44.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image45.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#45</div><div class="fl">image45.jpeg</div></div></div>
+</div></div>
+<div class="group" id="wilo"><div class="gh"><span class="cn">Wilo</span><span class="type">水泵 / 离心泵</span><span class="cnt">7张</span></div><div class="row">
+<div class="c"><img src="/photos/raw/_docx2/image46.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#46</div><div class="fl">image46.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image47.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#47</div><div class="fl">image47.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image48.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#48</div><div class="fl">image48.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image49.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#49</div><div class="fl">image49.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image50.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#50</div><div class="fl">image50.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image51.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#51</div><div class="fl">image51.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image52.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#52</div><div class="fl">image52.jpeg</div></div></div>
+</div></div>
+<div class="group" id="emerson"><div class="gh"><span class="cn">Emerson</span><span class="type">控制阀 / 调节阀</span><span class="cnt">6张</span></div><div class="row">
+<div class="c"><img src="/photos/raw/_docx2/image53.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#53</div><div class="fl">image53.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image54.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#54</div><div class="fl">image54.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image55.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#55</div><div class="fl">image55.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image56.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#56</div><div class="fl">image56.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image57.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#57</div><div class="fl">image57.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image58.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#58</div><div class="fl">image58.jpeg</div></div></div>
+</div></div>
+<div class="group" id="metso"><div class="gh"><span class="cn">Metso</span><span class="type">蝶阀 / 矿用阀</span><span class="cnt">5张</span></div><div class="row">
+<div class="c"><img src="/photos/raw/_docx2/image59.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#59</div><div class="fl">image59.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image60.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#60</div><div class="fl">image60.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image61.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#61</div><div class="fl">image61.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image62.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#62</div><div class="fl">image62.jpeg</div></div></div>
+<div class="c"><img src="/photos/raw/_docx2/image63.jpeg" onclick="this.classList.toggle('zoom')"><div class="lb"><div class="nm">#63</div><div class="fl">image63.jpeg</div></div></div>
+</div></div>
+</body></html>

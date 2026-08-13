@@ -29,7 +29,7 @@ export default function AboutPage({ params }: { params: { locale: Locale } }) {
                 <GhostButton href={`${base}${routes.partnershipModel}`}>{t.partnershipModel.kicker}</GhostButton>
               </div>
             </div>
-            <PlaceholderPhoto caption="Factory inspection" prompt="engineers reviewing technical specifications with factory manager on a manufacturing floor, realistic photograph, candid moment" alt="Factory inspection" imageSize="landscape_4_3" className="aspect-[4/3] min-h-[340px] rounded-sm card-elevated" />
+            <PlaceholderPhoto caption="Factory inspection" prompt="engineers reviewing technical specifications with factory manager on a manufacturing floor, realistic photograph, candid moment" alt="Factory inspection" imageSize="landscape_4_3" className="aspect-[4/3] min-h-[340px] rounded-sm card-elevated" src="/photos/raw/pixabay-engineer-meeting.jpg" />
           </div>
         </div>
       </section>

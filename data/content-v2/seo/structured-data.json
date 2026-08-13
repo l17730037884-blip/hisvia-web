@@ -1,0 +1,76 @@
+{
+  "version": "v2",
+  "generated": "2026-08-11",
+  "organization": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "HISVIA",
+    "description": "Industrial Supply Chain Partner — connecting overseas buyers with verified Chinese manufacturing capabilities.",
+    "url": "https://hisvia.com",
+    "areaServed": [
+      "Russia",
+      "Kazakhstan",
+      "UAE",
+      "Vietnam",
+      "India",
+      "Uzbekistan",
+      "Turkey"
+    ],
+    "knowsAbout": [
+      "Air Compressor Systems",
+      "Hydraulic Systems",
+      "Pumps & Fluid Handling",
+      "Valves & Flow Control",
+      "Industrial Filtration",
+      "Pneumatic Automation",
+      "Mechanical Transmission",
+      "Industrial Automation & Control"
+    ]
+  },
+  "services": [
+    {
+      "@type": "Service",
+      "name": "Industrial Parts Sourcing",
+      "description": "Source replacement parts and components for industrial equipment from verified Chinese manufacturers.",
+      "serviceType": "Industrial Procurement"
+    },
+    {
+      "@type": "Service",
+      "name": "OEM Manufacturing Partnership",
+      "description": "Confidential OEM and custom manufacturing partnerships with Chinese factories.",
+      "serviceType": "Contract Manufacturing"
+    },
+    {
+      "@type": "Service",
+      "name": "Supply Chain Partner Program",
+      "description": "Distributor, service center, and regional agent partnership programs for industrial markets.",
+      "serviceType": "Distribution Partnership"
+    }
+  ],
+  "faq": [
+    {
+      "@type": "Question",
+      "name": "Is HISVIA a trading company or e-commerce platform?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "HISVIA is neither. We are an industrial supply chain partner that connects overseas buyers with verified Chinese manufacturing capabilities. We do not hold inventory, sell products online, or operate as a marketplace."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does HISVIA verify Chinese manufacturers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "HISVIA uses a tiered verification process: Visual Verified (facility documentation), Document Verified (business license, certifications), Factory Verified (on-site audit), and Partner Verified (proven track record). Verification level is displayed transparently."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can HISVIA help with custom/OEM manufacturing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. HISVIA facilitates OEM manufacturing partnerships with IP protection measures including NDA execution before technical information sharing, contractual design protection, and buyer-owned tooling."
+      }
+    }
+  ]
+}

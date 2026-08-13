@@ -1,0 +1,35 @@
+{
+  "output": {
+    "choices": [
+      {
+        "message": {
+          "content": [
+            {
+              "text": "```json\n{\n  \"visible_object\": [\n    \"pump\"\n  ],\n  \"object_type\": \"equipment\",\n  \"visible_brand\": [\n    \"SULZER\"\n  ],\n  \"visible_text\": [\n    \"SULZER\"\n  ],\n  \"visible_features\": [\n    \"white body\",\n    \"flanged connections\",\n    \"blue shaft end\",\n    \"support base\"\n  ],\n  \"image_condition\": \"white_background_product\",\n  \"industrial_clues\": [\n    \"fluid handling equipment\",\n    \"industrial machinery\"\n  ],\n  \"visual_confidence\": 1\n}\n```"
+            }
+          ],
+          "reasoning_content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens_details": {
+      "image_tokens": 1249,
+      "text_tokens": 190
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1568,
+    "output_tokens": 129,
+    "input_tokens": 1439,
+    "output_tokens_details": {
+      "text_tokens": 129
+    },
+    "image_tokens": 1249
+  },
+  "request_id": "ae1b4563-d156-9e34-a9cd-63c7d6daef10"
+}

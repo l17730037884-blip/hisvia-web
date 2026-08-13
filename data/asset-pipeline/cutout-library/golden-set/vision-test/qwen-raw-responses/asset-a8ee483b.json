@@ -1,0 +1,35 @@
+{
+  "output": {
+    "choices": [
+      {
+        "message": {
+          "content": [
+            {
+              "text": "```json\n{\n  \"visible_object\": [\n    \"ring\",\n    \"seal\"\n  ],\n  \"object_type\": \"component\",\n  \"visible_brand\": [],\n  \"visible_text\": [],\n  \"visible_features\": [\n    \"circular shapes\",\n    \"different sizes\",\n    \"blue and black colors\",\n    \"some with dual-layer design\"\n  ],\n  \"image_condition\": \"white_background_product\",\n  \"industrial_clues\": [\n    \"seals\",\n    \"gaskets\",\n    \"mechanical components\"\n  ],\n  \"visual_confidence\": 0.95\n}\n```"
+            }
+          ],
+          "reasoning_content": "",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens_details": {
+      "image_tokens": 1158,
+      "text_tokens": 190
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 1475,
+    "output_tokens": 127,
+    "input_tokens": 1348,
+    "output_tokens_details": {
+      "text_tokens": 127
+    },
+    "image_tokens": 1158
+  },
+  "request_id": "7f80d713-d9ca-902e-9b8d-27d8f6cf8f25"
+}

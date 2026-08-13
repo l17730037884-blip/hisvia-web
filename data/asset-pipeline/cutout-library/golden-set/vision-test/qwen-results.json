@@ -1,0 +1,1670 @@
+{
+  "version": "qwen-vision-test-v1",
+  "model": "qwen-vl-plus",
+  "asset_count": 50,
+  "tested_count": 49,
+  "failed_count": 1,
+  "timestamp": "2026-08-10T22:39:34.522446",
+  "results": [
+    {
+      "asset_id": "asset-918a3003",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "equipment"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [
+          "Atlas Copco"
+        ],
+        "visible_text": [
+          "Atlas Copco",
+          "G",
+          "GA15 FF"
+        ],
+        "visible_features": [
+          "two-tone panel",
+          "control interface",
+          "emergency stop button",
+          "warning label",
+          "pallet base"
+        ],
+        "image_condition": "industrial_scene",
+        "industrial_clues": [
+          "compressed air system",
+          "industrial machinery"
+        ],
+        "visual_confidence": 95
+      },
+      "raw_file": "qwen-raw-responses/asset-918a3003.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-6b7b1713",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "machine",
+          "control_panel",
+          "vent",
+          "knob",
+          "branding"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [
+          "KAESER"
+        ],
+        "visible_text": [
+          "KAESER"
+        ],
+        "visible_features": [
+          "yellow and gray color scheme",
+          "digital display",
+          "red emergency stop knob",
+          "ventilation grille",
+          "locking mechanism",
+          "support legs"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "compressed air equipment",
+          "industrial machinery"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-6b7b1713.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-21c46019",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "equipment"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [
+          "CompAir"
+        ],
+        "visible_text": [
+          "CompAir",
+          "www.CompAir.com",
+          "L 250"
+        ],
+        "visible_features": [
+          "blue metal casing",
+          "control panel with buttons and indicators",
+          "warning label",
+          "model number on lower right",
+          "website URL on lower left",
+          "warehouse background with shelving and other equipment"
+        ],
+        "image_condition": "industrial_scene",
+        "industrial_clues": [
+          "compressed air system",
+          "industrial machinery",
+          "warehouse setting"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-21c46019.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-cfd129d3",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "canister",
+          "filters",
+          "gaskets",
+          "hoses",
+          "connectors",
+          "control_module",
+          "seals",
+          "springs"
+        ],
+        "object_type": "component",
+        "visible_brand": [
+          "Atlas Copco"
+        ],
+        "visible_text": [
+          "Atlas Copco",
+          "Roto-Inject Fluid",
+          "20",
+          "PI 1630 0919.00"
+        ],
+        "visible_features": [
+          "various sizes and shapes",
+          "plastic and metal materials",
+          "labeled packaging",
+          "new condition"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "air filtration",
+          "fluid handling",
+          "pneumatic systems",
+          "maintenance parts"
+        ],
+        "visual_confidence": 95
+      },
+      "raw_file": "qwen-raw-responses/asset-cfd129d3.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-e82582ef",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "valve",
+          "electrical_connector"
+        ],
+        "object_type": "component",
+        "visible_brand": [],
+        "visible_text": [
+          "220 V AC",
+          "ED 100%",
+          "IP 00/65"
+        ],
+        "visible_features": [
+          "black rectangular housing",
+          "brass-colored valve body",
+          "threaded inlet/outlet",
+          "metal mounting screws",
+          "green label with white text",
+          "knurled adjustment knob",
+          "white background"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "electromagnetic valve",
+          "fluid control",
+          "electrical actuation"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-e82582ef.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-b7d57b28",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "bearing",
+          "bearing"
+        ],
+        "object_type": "component",
+        "visible_brand": [],
+        "visible_text": [],
+        "visible_features": [
+          "metallic surface",
+          "color-coded seals",
+          "circular shape",
+          "stacked arrangement"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "mechanical component",
+          "rotating assembly"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-b7d57b28.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-da50866c",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "bearing"
+        ],
+        "object_type": "component",
+        "visible_brand": [],
+        "visible_text": [],
+        "visible_features": [
+          "circular shape",
+          "metallic outer ring",
+          "red inner seal",
+          "central hole"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "mechanical component",
+          "rotational part"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-da50866c.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-8342923a",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "cylinder",
+          "rod",
+          "flange",
+          "bolts"
+        ],
+        "object_type": "component",
+        "visible_brand": [],
+        "visible_text": [],
+        "visible_features": [
+          "metallic rod",
+          "threaded end",
+          "flanged mounting",
+          "red fasteners",
+          "parallel guide rods"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "pneumatic component",
+          "actuator",
+          "linear motion"
+        ],
+        "visual_confidence": 95
+      },
+      "raw_file": "qwen-raw-responses/asset-8342923a.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-5d428a16",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "气缸"
+        ],
+        "object_type": "component",
+        "visible_brand": [],
+        "visible_text": [],
+        "visible_features": [
+          "多个相同的圆柱形物体",
+          "银色金属主体",
+          "黑色顶部和底部",
+          "红色旋钮",
+          "金属杆伸出底部",
+          "金色导轨",
+          "绿色背景"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "气动元件",
+          "工业自动化部件"
+        ],
+        "visual_confidence": 95
+      },
+      "raw_file": "qwen-raw-responses/asset-5d428a16.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-a978f441",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "equipment"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [
+          "Atlas Copco"
+        ],
+        "visible_text": [
+          "Atlas Copco",
+          "G"
+        ],
+        "visible_features": [
+          "rectangular metal casing",
+          "control panel with display and buttons",
+          "ventilation grille",
+          "yellow warning label",
+          "brand logo on side"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "compressor",
+          "industrial machinery"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-a978f441.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-dfd5500a",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "pump",
+          "motor",
+          "reservoir",
+          "pressure_gauge",
+          "hose",
+          "valve",
+          "filter"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [
+          "Reishauer"
+        ],
+        "visible_text": [
+          "Reishauer"
+        ],
+        "visible_features": [
+          "metallic construction",
+          "blue control box",
+          "pressure gauge with dial",
+          "black cylindrical component",
+          "red cap",
+          "yellow warning label",
+          "transparent fluid level indicator"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "hydraulic system",
+          "fluid handling",
+          "mechanical assembly"
+        ],
+        "visual_confidence": 95
+      },
+      "raw_file": "qwen-raw-responses/asset-dfd5500a.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-58e52f7c",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "robotic_arm",
+          "conveyor_belt",
+          "workstation",
+          "safety_barrier"
+        ],
+        "object_type": "factory_scene",
+        "visible_brand": [],
+        "visible_text": [],
+        "visible_features": [
+          "yellow robotic arms",
+          "green floor",
+          "overhead lighting",
+          "structured assembly line",
+          "safety railings"
+        ],
+        "image_condition": "factory_photo",
+        "industrial_clues": [
+          "automated manufacturing",
+          "assembly line",
+          "robotics integration"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-58e52f7c.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-40e9d9a1",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "machine",
+          "conveyor",
+          "signboard",
+          "lighting",
+          "pipe",
+          "barrier"
+        ],
+        "object_type": "factory_scene",
+        "visible_brand": [
+          "SIEMENS"
+        ],
+        "visible_text": [
+          "ASSEMBLY AREA",
+          "SIEMENS"
+        ],
+        "visible_features": [
+          "automated assembly line",
+          "safety barriers",
+          "overhead piping",
+          "structured factory layout"
+        ],
+        "image_condition": "factory_photo",
+        "industrial_clues": [
+          "manufacturing facility",
+          "assembly operations",
+          "industrial automation"
+        ],
+        "visual_confidence": 0.95
+      },
+      "raw_file": "qwen-raw-responses/asset-40e9d9a1.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-f611401c",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "robot_arm",
+          "conveyor_belt",
+          "control_panel",
+          "safety_barrier"
+        ],
+        "object_type": "factory_scene",
+        "visible_brand": [],
+        "visible_text": [
+          "E"
+        ],
+        "visible_features": [
+          "yellow_color",
+          "red_light_indicator",
+          "mechanical_joints",
+          "cabling",
+          "assembly_line"
+        ],
+        "image_condition": "industrial_scene",
+        "industrial_clues": [
+          "automation",
+          "manufacturing",
+          "robotics"
+        ],
+        "visual_confidence": 95
+      },
+      "raw_file": "qwen-raw-responses/asset-f611401c.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-475bb362",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "pump",
+          "motor"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [],
+        "visible_text": [
+          "technical specifications label"
+        ],
+        "visible_features": [
+          "blue painted metal",
+          "flanged connections",
+          "motor housing with cooling fins",
+          "central shaft coupling",
+          "support base",
+          "technical label"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "fluid handling equipment",
+          "industrial motor-pump assembly"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-475bb362.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-344e002d",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "pump",
+          "motor"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [],
+        "visible_text": [],
+        "visible_features": [
+          "metallic body",
+          "circular inlet",
+          "black motor housing",
+          "base mounting plate",
+          "screws",
+          "label on motor"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "fluid handling",
+          "mechanical assembly",
+          "industrial machinery"
+        ],
+        "visual_confidence": 95
+      },
+      "raw_file": "qwen-raw-responses/asset-344e002d.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-7da7f124",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "equipment",
+          "pipes",
+          "barrels"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [
+          "Donaldson"
+        ],
+        "visible_text": [
+          "Donaldson"
+        ],
+        "visible_features": [
+          "blue cylindrical equipment",
+          "white circular components",
+          "metal pipes",
+          "blue barrels",
+          "industrial building in background"
+        ],
+        "image_condition": "factory_photo",
+        "industrial_clues": [
+          "air filtration system",
+          "exhaust piping",
+          "industrial facility"
+        ],
+        "visual_confidence": 95
+      },
+      "raw_file": "qwen-raw-responses/asset-7da7f124.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-8490ea6c",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "cylindrical_tank",
+          "ladder",
+          "platform",
+          "pipe",
+          "building"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [
+          "Donaldson Torit"
+        ],
+        "visible_text": [
+          "Donaldson",
+          "Torit"
+        ],
+        "visible_features": [
+          "blue_cylindrical_structure",
+          "yellow_ladder_and_platform",
+          "metal_piping",
+          "support_framework",
+          "outdoor_installation"
+        ],
+        "image_condition": "industrial_scene",
+        "industrial_clues": [
+          "dust_collection_system",
+          "ventilation_equipment"
+        ],
+        "visual_confidence": 0.95
+      },
+      "raw_file": "qwen-raw-responses/asset-8490ea6c.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-eb8b77cc",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "equipment"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [
+          "Donaldson"
+        ],
+        "visible_text": [
+          "Donaldson"
+        ],
+        "visible_features": [
+          "blue industrial machine",
+          "cylindrical top section",
+          "multiple circular ports on side",
+          "metal frame base",
+          "industrial setting",
+          "barrels on floor"
+        ],
+        "image_condition": "industrial_scene",
+        "industrial_clues": [
+          "dust collection system",
+          "manufacturing environment"
+        ],
+        "visual_confidence": 95
+      },
+      "raw_file": "qwen-raw-responses/asset-eb8b77cc.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-f0993304",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "equipment",
+          "component"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [
+          "Donaldson Torit"
+        ],
+        "visible_text": [
+          "Donaldson",
+          "Torit",
+          "Prime Power"
+        ],
+        "visible_features": [
+          "blue industrial machine",
+          "cylindrical duct",
+          "pallets",
+          "factory setting",
+          "metal framework",
+          "person in work attire"
+        ],
+        "image_condition": "industrial_scene",
+        "industrial_clues": [
+          "manufacturing environment",
+          "air filtration system",
+          "production equipment"
+        ],
+        "visual_confidence": 0.95
+      },
+      "raw_file": "qwen-raw-responses/asset-f0993304.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-ce8be518",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "pump",
+          "motor",
+          "tank",
+          "hoses",
+          "gauges",
+          "valves"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [],
+        "visible_text": [],
+        "visible_features": [
+          "metallic construction",
+          "white background",
+          "mounted components",
+          "fluid reservoir",
+          "electrical motor",
+          "pressure gauges",
+          "flexible hoses"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "hydraulic system",
+          "fluid power",
+          "industrial machinery"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-ce8be518.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-b69c6430",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "robot_arm",
+          "conveyor_belt",
+          "safety_barrier"
+        ],
+        "object_type": "factory_scene",
+        "visible_brand": [
+          "KUKA"
+        ],
+        "visible_text": [
+          "KUKA"
+        ],
+        "visible_features": [
+          "orange_robotic_arms",
+          "automated_production_line",
+          "metal_conveyors",
+          "black_safety_caging",
+          "structured_factory_layout"
+        ],
+        "image_condition": "factory_photo",
+        "industrial_clues": [
+          "automation",
+          "manufacturing",
+          "robotics",
+          "assembly_line"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-b69c6430.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-5b33ea4b",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "robot_arm",
+          "manufacturing_equipment",
+          "component",
+          "person"
+        ],
+        "object_type": "factory_scene",
+        "visible_brand": [
+          "KUKA"
+        ],
+        "visible_text": [
+          "KUKA"
+        ],
+        "visible_features": [
+          "orange_robot_arms",
+          "assembly_line",
+          "production_components",
+          "industrial_environment",
+          "worker_in_factory"
+        ],
+        "image_condition": "industrial_scene",
+        "industrial_clues": [
+          "automation",
+          "manufacturing",
+          "robotics"
+        ],
+        "visual_confidence": 95
+      },
+      "raw_file": "qwen-raw-responses/asset-5b33ea4b.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-48b63b1e",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "pump"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [
+          "SULZER"
+        ],
+        "visible_text": [
+          "SULZER"
+        ],
+        "visible_features": [
+          "white body",
+          "flanged connections",
+          "blue shaft end",
+          "support base"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "fluid handling equipment",
+          "industrial machinery"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-48b63b1e.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-9f330fb8",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "bottle"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [
+          "ALPHA LUBRICANTS"
+        ],
+        "visible_text": [
+          "ALPHA",
+          "LUBRICANTS",
+          "Pure Performance",
+          "COMPRESSOR OIL",
+          "PREMIUM SYNTHETIC",
+          "ISO 100",
+          "Premium Synthetic COMPRESSOR OIL",
+          "1 GAL/3.785L"
+        ],
+        "visible_features": [
+          "black plastic bottle",
+          "white cap",
+          "label with red, white, and blue design",
+          "handle on the bottle"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "compressor oil",
+          "synthetic lubricant"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-9f330fb8.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-84bb2bba",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "component"
+        ],
+        "object_type": "component",
+        "visible_brand": [],
+        "visible_text": [],
+        "visible_features": [
+          "cylindrical shape",
+          "mesh-like texture",
+          "black top and bottom caps",
+          "central hole in the top cap",
+          "vertical ridges on the body"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-84bb2bba.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-3986d47f",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "component"
+        ],
+        "object_type": "component",
+        "visible_brand": [],
+        "visible_text": [],
+        "visible_features": [
+          "two cylindrical filters",
+          "pressure gauge in the center",
+          "black central component",
+          "screws on the top",
+          "transparent tubes on filters",
+          "white background"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "fluid filtration system",
+          "pressure monitoring",
+          "industrial component"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-3986d47f.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-ad1a284d",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "component"
+        ],
+        "object_type": "component",
+        "visible_brand": [
+          "FESTO"
+        ],
+        "visible_text": [
+          "FESTO",
+          "LP-14-C",
+          "Part",
+          "10-32 UNF-2B",
+          "Intake/Inlet",
+          "Outlet/Exhaust"
+        ],
+        "visible_features": [
+          "blue ribbed cap",
+          "black threaded section",
+          "white base with threaded port",
+          "screw head",
+          "symbol markings",
+          "text labels"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "pneumatic component",
+          "adjustable valve",
+          "fluid control"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-ad1a284d.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-40a7670c",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "filter"
+        ],
+        "object_type": "component",
+        "visible_brand": [],
+        "visible_text": [],
+        "visible_features": [
+          "rectangular frame",
+          "pleated material",
+          "yellowish filter medium",
+          "white outer layer",
+          "metallic edges"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "air filtration",
+          "ventilation system"
+        ],
+        "visual_confidence": 0.95
+      },
+      "raw_file": "qwen-raw-responses/asset-40a7670c.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-325714de",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "pump",
+          "motor"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [],
+        "visible_text": [],
+        "visible_features": [
+          "gray metallic body",
+          "ribbed cooling fins",
+          "black motor with ventilation grille",
+          "flanged connection port",
+          "transparent oil level indicator",
+          "mounting base"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "vacuum pump",
+          "industrial machinery"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-325714de.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-4ab74032",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "component"
+        ],
+        "object_type": "component",
+        "visible_brand": [],
+        "visible_text": [
+          "FYH"
+        ],
+        "visible_features": [
+          "dark gray metallic body",
+          "central cylindrical bore",
+          "two mounting holes on base",
+          "top cap screw",
+          "cast texture"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "bearing housing",
+          "mechanical component"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-4ab74032.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-7aaf9aca",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "tube"
+        ],
+        "object_type": "component",
+        "visible_brand": [
+          "LOCTITE",
+          "Henkel"
+        ],
+        "visible_text": [
+          "LOCTITE",
+          "SI 5660",
+          "GREY SILICONE",
+          "SILIKON GRAU",
+          "SILICONE GRIS",
+          "SILICONE GRIJS",
+          "GASKET MAKER/ SEALANT",
+          "FLÄCHENDICHTUNG",
+          "JOINT D'ÉTANCHÉITÉ",
+          "FLENSAFDICTINGSMIDDEL",
+          "100 ml / 145 g",
+          "Henkel"
+        ],
+        "visible_features": [
+          "silver metallic tube",
+          "white cap",
+          "red text",
+          "gray label section",
+          "multilingual product description"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "sealant",
+          "silicone",
+          "gasket maker"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-7aaf9aca.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-a1ae0abb",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "equipment"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [],
+        "visible_text": [
+          "1810 0282 90",
+          "2SPLZ",
+          "1810 0282 90"
+        ],
+        "visible_features": [
+          "metallic gray component",
+          "rectangular shape",
+          "multiple bolt heads",
+          "plastic wrapping",
+          "on wooden pallet",
+          "barcode label"
+        ],
+        "image_condition": "industrial_scene",
+        "industrial_clues": [
+          "component on pallet",
+          "barcode label",
+          "plastic wrapping"
+        ],
+        "visual_confidence": 95
+      },
+      "raw_file": "qwen-raw-responses/asset-a1ae0abb.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-e4c126b0",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "Gardner Denver L250"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [
+          "Gardner Denver"
+        ],
+        "visible_text": [
+          "Gardner Denver",
+          "L250"
+        ],
+        "visible_features": [
+          "white and red casing",
+          "control panel with display and buttons",
+          "ventilation grille",
+          "corner protectors"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-e4c126b0.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-e6830784",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "blue_cylinder",
+          "pressure_gauge",
+          "filter",
+          "control_valves",
+          "warning_label"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [
+          "Vickers",
+          "E.T.N"
+        ],
+        "visible_text": [
+          "Vickers",
+          "E.T.N",
+          "WARNING",
+          "LOCKOUT FOR SAFETY"
+        ],
+        "visible_features": [
+          "blue_paint",
+          "metal_construct",
+          "mechanical_components",
+          "safety_label"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "hydraulic_system",
+          "pneumatic_equipment"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-e6830784.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-cd532cc1",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "cylinder",
+          "cap",
+          "threads"
+        ],
+        "object_type": "component",
+        "visible_brand": [],
+        "visible_text": [],
+        "visible_features": [
+          "blue color",
+          "cylindrical shape",
+          "top cap with two screws",
+          "side threaded port",
+          "knurled section on side"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "fluid handling",
+          "pneumatic or hydraulic component"
+        ],
+        "visual_confidence": 95
+      },
+      "raw_file": "qwen-raw-responses/asset-cd532cc1.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-a88224cd",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "pump",
+          "motor",
+          "pipes",
+          "gauges",
+          "base_plate"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [],
+        "visible_text": [],
+        "visible_features": [
+          "blue motor",
+          "yellow coupling",
+          "silver pump",
+          "metal piping",
+          "pressure gauges",
+          "grid floor",
+          "concrete base"
+        ],
+        "image_condition": "industrial_scene",
+        "industrial_clues": [
+          "fluid processing",
+          "mechanical power transmission",
+          "industrial infrastructure"
+        ],
+        "visual_confidence": 0.95
+      },
+      "raw_file": "qwen-raw-responses/asset-a88224cd.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-f0e95dba",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "valve",
+          "handle"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [],
+        "visible_text": [],
+        "visible_features": [
+          "blue painted body",
+          "circular shape",
+          "flanged connections",
+          "central disc",
+          "handwheel handle"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "fluid control",
+          "piping system",
+          "industrial valve"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-f0e95dba.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-d29f9c00",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "valve",
+          "handle"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [
+          "EVF"
+        ],
+        "visible_text": [
+          "EVF",
+          "Fig:CID/316/EPDM",
+          "Body:CF8M",
+          "Seat:EPDM",
+          "PN10"
+        ],
+        "visible_features": [
+          "blue body",
+          "black handle",
+          "flanged connections",
+          "central metallic disc",
+          "text labels on top"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "fluid control",
+          "piping system",
+          "industrial valve"
+        ],
+        "visual_confidence": 95
+      },
+      "raw_file": "qwen-raw-responses/asset-d29f9c00.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-7b19d020",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "valve"
+        ],
+        "object_type": "component",
+        "visible_brand": [],
+        "visible_text": [
+          "10"
+        ],
+        "visible_features": [
+          "blue body",
+          "circular shape",
+          "metal disc",
+          "flanges with bolt holes",
+          "top mounting bracket"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "fluid control",
+          "piping system"
+        ],
+        "visual_confidence": 95
+      },
+      "raw_file": "qwen-raw-responses/asset-7b19d020.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-f33f7c96",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "ABB PM554-T-ETH"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [
+          "ABB"
+        ],
+        "visible_text": [
+          "ABB",
+          "PM554",
+          "CPU PM554-T-ETH",
+          "PWR",
+          "RUN",
+          "ERR",
+          "COM1",
+          "ETHERNET",
+          "WARNING",
+          "Use of incorrect battery may cause fire or explosion"
+        ],
+        "visible_features": [
+          "red stripe with brand name",
+          "LED indicator lights (PWR, RUN, ERR)",
+          "ethernet port",
+          "serial communication port (COM1)",
+          "terminal block for connections",
+          "labeling for input/output channels"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "control module",
+          "industrial automation",
+          "network connectivity",
+          "power management"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-f33f7c96.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-91e283b8",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "programmable_controller"
+        ],
+        "object_type": "equipment",
+        "visible_brand": [
+          "Omron"
+        ],
+        "visible_text": [
+          "Omron",
+          "SYSMAC",
+          "CJ2M",
+          "CPU35",
+          "PROGRAMMABLE CONTROLLER",
+          "SW SETTING BATTERY",
+          "OPEN",
+          "MCPWR",
+          "BUSY",
+          "PERIPHERAL",
+          "100BASE-TX",
+          "10BASE-T",
+          "EtherNet/IP",
+          "RUN",
+          "ERR/ALM",
+          "INH",
+          "PRPHL",
+          "BKUP",
+          "MS",
+          "NS",
+          "COMM",
+          "100M",
+          "10M",
+          "UNIT No.",
+          "NODE No."
+        ],
+        "visible_features": [
+          "rectangular shape",
+          "black color",
+          "ventilated top",
+          "yellow switch",
+          "LED indicators",
+          "Ethernet port",
+          "connector port",
+          "battery compartment",
+          "text labels for functions"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "programmable controller",
+          "EtherNet/IP",
+          "industrial automation"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-91e283b8.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-6b0073d0",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "bearing",
+          "housing"
+        ],
+        "object_type": "component",
+        "visible_brand": [],
+        "visible_text": [
+          "CHINA",
+          "ABL"
+        ],
+        "visible_features": [
+          "metallic gray housing",
+          "central circular opening",
+          "two mounting flanges with holes",
+          "small golden-colored bolt",
+          "smooth inner bearing surface"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "mechanical component",
+          "bearing assembly",
+          "mounting hardware"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-6b0073d0.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-a8ee483b",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "ring",
+          "seal"
+        ],
+        "object_type": "component",
+        "visible_brand": [],
+        "visible_text": [],
+        "visible_features": [
+          "circular shapes",
+          "different sizes",
+          "blue and black colors",
+          "some with dual-layer design"
+        ],
+        "image_condition": "white_background_product",
+        "industrial_clues": [
+          "seals",
+          "gaskets",
+          "mechanical components"
+        ],
+        "visual_confidence": 0.95
+      },
+      "raw_file": "qwen-raw-responses/asset-a8ee483b.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-87e2254b",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "arch_structure",
+          "signboard",
+          "building",
+          "car",
+          "gate",
+          "trees"
+        ],
+        "object_type": "factory_scene",
+        "visible_brand": [
+          "China Erzhong"
+        ],
+        "visible_text": [
+          "中国第二重型机械集团公司",
+          "CHINA ERZHONG",
+          "CHINA NA"
+        ],
+        "visible_features": [
+          "large arch entrance",
+          "automated gate",
+          "company signage",
+          "vehicle passage"
+        ],
+        "image_condition": "factory_photo",
+        "industrial_clues": [
+          "enterprise entrance",
+          "manufacturing company"
+        ],
+        "visual_confidence": 0.95
+      },
+      "raw_file": "qwen-raw-responses/asset-87e2254b.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-81187c75",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "building",
+          "gate",
+          "cars",
+          "palm tree",
+          "speed bump"
+        ],
+        "object_type": "factory_scene",
+        "visible_brand": [
+          "PRECISE"
+        ],
+        "visible_text": [
+          "PRECISE",
+          "2",
+          "PRECISE INDUSTRY"
+        ],
+        "visible_features": [
+          "modern industrial building",
+          "automated gate",
+          "parked vehicles",
+          "landscaping with palm tree"
+        ],
+        "image_condition": "factory_photo",
+        "industrial_clues": [
+          "manufacturing facility",
+          "company entrance",
+          "vehicle access control"
+        ],
+        "visual_confidence": 95
+      },
+      "raw_file": "qwen-raw-responses/asset-81187c75.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-d7c25888",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "building",
+          "gate",
+          "cars",
+          "signboard",
+          "trees",
+          "sky"
+        ],
+        "object_type": "factory_scene",
+        "visible_brand": [],
+        "visible_text": [
+          "安徽中瑞机械制造有限公司",
+          "ANHUI ZHONGRUI MACHINE TOOL CO.,LTD",
+          "电液折弯机 激光切割机 液压冲床"
+        ],
+        "visible_features": [
+          "exterior view",
+          "industrial building",
+          "expanding gate",
+          "parked cars",
+          "landscaping with grass and trees",
+          "clear sky with clouds"
+        ],
+        "image_condition": "factory_photo",
+        "industrial_clues": [
+          "manufacturing company",
+          "industrial equipment",
+          "company signage"
+        ],
+        "visual_confidence": 1
+      },
+      "raw_file": "qwen-raw-responses/asset-d7c25888.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-ceb53592",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "building",
+          "signboard",
+          "flags",
+          "gate"
+        ],
+        "object_type": "factory_scene",
+        "visible_brand": [
+          "CNC"
+        ],
+        "visible_text": [
+          "济南超梦数控机械有限公司",
+          "JINAN CHAOMENG CNC MACHINERY CO.,LTD."
+        ],
+        "visible_features": [
+          "large industrial building",
+          "metal gate",
+          "multiple flagpoles with flags",
+          "company name signboard in front of the building"
+        ],
+        "image_condition": "factory_photo",
+        "industrial_clues": [
+          "CNC machinery",
+          "industrial facility"
+        ],
+        "visual_confidence": 95
+      },
+      "raw_file": "qwen-raw-responses/asset-ceb53592.json",
+      "error": null
+    },
+    {
+      "asset_id": "asset-001ac56b",
+      "image_type": "original",
+      "qwen_output": {
+        "visible_object": [
+          "building",
+          "cars",
+          "streetlight",
+          "trees",
+          "parking lot"
+        ],
+        "object_type": "factory_scene",
+        "visible_brand": [],
+        "visible_text": [
+          "叶鲁数控",
+          "高新技术企业",
+          "东莞市虎门镇新湾工业区"
+        ],
+        "visible_features": [
+          "multi-story building",
+          "blue and white color scheme",
+          "glass windows",
+          "parked vehicles",
+          "street signage",
+          "clear sky"
+        ],
+        "image_condition": "factory_photo",
+        "industrial_clues": [
+          "building signage indicating a technical or manufacturing entity",
+          "parked cars suggesting operational activity"
+        ],
+        "visual_confidence": 95
+      },
+      "raw_file": "qwen-raw-responses/asset-001ac56b.json",
+      "error": null
+    }
+  ]
+}

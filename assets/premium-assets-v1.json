@@ -1,0 +1,153 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-08-12",
+  "total_audited": 839,
+  "pools": {
+    "hero": [],
+    "large_visual": [],
+    "factory_profile": [],
+    "card": []
+  },
+  "top_10": [
+    {
+      "filename": "brand-machine-gardner-denver-4.jpg",
+      "path": "/photos/raw/_final/brand-machine-gardner-denver-4.jpg",
+      "premium_score": 72.3,
+      "scores": {
+        "premium_visual_score": 72.3,
+        "industrial_quality": 51.0,
+        "composition_quality": 78,
+        "lighting_quality": 59.8,
+        "subject_strength": 80,
+        "brand_feel": 80.2,
+        "hero_suitability": 80
+      }
+    },
+    {
+      "filename": "hitachi-20.jpg",
+      "path": "/photos/raw/_brand/hitachi-20.jpg",
+      "premium_score": 72.3,
+      "scores": {
+        "premium_visual_score": 72.3,
+        "industrial_quality": 58.5,
+        "composition_quality": 68,
+        "lighting_quality": 63.0,
+        "subject_strength": 80,
+        "brand_feel": 79.5,
+        "hero_suitability": 80
+      }
+    },
+    {
+      "filename": "hitachi-22.jpg",
+      "path": "/photos/raw/_brand/hitachi-22.jpg",
+      "premium_score": 72.3,
+      "scores": {
+        "premium_visual_score": 72.3,
+        "industrial_quality": 58.5,
+        "composition_quality": 68,
+        "lighting_quality": 63.0,
+        "subject_strength": 80,
+        "brand_feel": 79.5,
+        "hero_suitability": 80
+      }
+    },
+    {
+      "filename": "hitachi-25.jpg",
+      "path": "/photos/raw/_brand/hitachi-25.jpg",
+      "premium_score": 72.3,
+      "scores": {
+        "premium_visual_score": 72.3,
+        "industrial_quality": 58.5,
+        "composition_quality": 68,
+        "lighting_quality": 63.0,
+        "subject_strength": 80,
+        "brand_feel": 79.5,
+        "hero_suitability": 80
+      }
+    },
+    {
+      "filename": "hitachi-26.jpg",
+      "path": "/photos/raw/_brand/hitachi-26.jpg",
+      "premium_score": 72.3,
+      "scores": {
+        "premium_visual_score": 72.3,
+        "industrial_quality": 58.5,
+        "composition_quality": 68,
+        "lighting_quality": 63.0,
+        "subject_strength": 80,
+        "brand_feel": 79.5,
+        "hero_suitability": 80
+      }
+    },
+    {
+      "filename": "ingersoll-rand-1.jpg",
+      "path": "/photos/raw/_brand/ingersoll-rand-1.jpg",
+      "premium_score": 72.3,
+      "scores": {
+        "premium_visual_score": 72.3,
+        "industrial_quality": 58.5,
+        "composition_quality": 68,
+        "lighting_quality": 63.0,
+        "subject_strength": 80,
+        "brand_feel": 79.5,
+        "hero_suitability": 80
+      }
+    },
+    {
+      "filename": "ingersoll-rand-3.jpg",
+      "path": "/photos/raw/_brand/ingersoll-rand-3.jpg",
+      "premium_score": 72.3,
+      "scores": {
+        "premium_visual_score": 72.3,
+        "industrial_quality": 58.5,
+        "composition_quality": 68,
+        "lighting_quality": 63.0,
+        "subject_strength": 80,
+        "brand_feel": 79.5,
+        "hero_suitability": 80
+      }
+    },
+    {
+      "filename": "ingersoll-rand-5.jpg",
+      "path": "/photos/raw/_brand/ingersoll-rand-5.jpg",
+      "premium_score": 72.3,
+      "scores": {
+        "premium_visual_score": 72.3,
+        "industrial_quality": 58.5,
+        "composition_quality": 68,
+        "lighting_quality": 63.0,
+        "subject_strength": 80,
+        "brand_feel": 79.5,
+        "hero_suitability": 80
+      }
+    },
+    {
+      "filename": "brand-machine-kaeser-5.jpg",
+      "path": "/photos/raw/_final/brand-machine-kaeser-5.jpg",
+      "premium_score": 71.7,
+      "scores": {
+        "premium_visual_score": 71.7,
+        "industrial_quality": 57.0,
+        "composition_quality": 68,
+        "lighting_quality": 61.0,
+        "subject_strength": 80,
+        "brand_feel": 79.1,
+        "hero_suitability": 80
+      }
+    },
+    {
+      "filename": "ingersoll-rand-2.jpg",
+      "path": "/photos/raw/_brand/ingersoll-rand-2.jpg",
+      "premium_score": 70.7,
+      "scores": {
+        "premium_visual_score": 70.7,
+        "industrial_quality": 52.5,
+        "composition_quality": 68,
+        "lighting_quality": 60.6,
+        "subject_strength": 80,
+        "brand_feel": 77.7,
+        "hero_suitability": 80
+      }
+    }
+  ]
+}
