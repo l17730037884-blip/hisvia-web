@@ -1,5 +1,5 @@
 export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://planetary-engineering.example"
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.hisvia.com"
 ).replace(/\/+$/, "");
 
 export const BRAND: Record<"ru" | "en", string> = {
