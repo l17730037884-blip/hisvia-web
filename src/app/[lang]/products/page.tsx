@@ -225,6 +225,48 @@ export default async function ProductsPage({ params }: { params: Promise<{ lang:
         </Container>
       </Section>
 
+      {/* ── 第8页 · 24个产品抠图网格 ── */}
+      <Section id="page8-products" tone="surface" className="border-y border-line">
+        <Container className="max-w-7xl">
+          <SectionHeader
+            kicker={locale === "ru" ? "Каталог · Стр. 8" : "Catalog · Page 8"}
+            title={locale === "ru" ? "Гидроцилиндры — Модельный ряд" : "Hydraulic Cylinders — Model Range"}
+            lead={locale === "ru" ? "24 типоразмера, прозрачный фон, AI-апскейл 4×" : "24 models, transparent background, AI upscaled 4×"}
+          />
+          <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 md:gap-5 lg:grid-cols-5">
+            {[
+              "p01","p02","p03","p04","p05",
+              "p06","p07","p08","p09","p10",
+              "p12","p13","p14","p15","p16",
+              "p17","p18","p19","p20","p21",
+              "p22","p23","p24","p25",
+            ].map((id, idx) => (
+              <figure
+                key={id}
+                className="group relative overflow-hidden rounded-card border border-line bg-white transition-all duration-500 ease-out hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_16px_40px_-18px_rgba(0,0,0,0.12)]"
+              >
+                <div className="relative aspect-square w-full overflow-hidden bg-white">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={`/assets/cutout/page8/${id}.png`}
+                    alt={`${locale === "ru" ? "Гидроцилиндр" : "Hydraulic Cylinder"} ${id}`}
+                    className="h-full w-full object-contain object-center p-3 transition-transform duration-700 ease-out group-hover:scale-110"
+                  />
+                </div>
+                <figcaption className="border-t border-line bg-white px-3 py-2">
+                  <p className="text-xs font-semibold tracking-tight text-ink group-hover:text-accent">
+                    {locale === "ru" ? "Модель" : "Model"} {id.toUpperCase()}
+                  </p>
+                  <p className="mt-0.5 text-[10px] text-ink-muted">
+                    № {idx + 1}/24
+                  </p>
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </Container>
+      </Section>
+
       <Section tone="canvas" className="!pt-6 md:!pt-10">
         <Container className="max-w-6xl">
           <SectionHeader
