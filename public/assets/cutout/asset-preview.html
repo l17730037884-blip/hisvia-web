@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<title>PNG 抠图资源预览 · 网站替换准备清单</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "IBM Plex Sans", "PingFang SC", sans-serif;
+    background: #0f1115;
+    color: #e5e7eb;
+    line-height: 1.5;
+    padding: 40px 32px 120px;
+  }
+  .page-head {
+    max-width: 1400px;
+    margin: 0 auto 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #2a2e37;
+  }
+  .page-head h1 {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin-bottom: 8px;
+  }
+  .page-head p {
+    color: #9ca3af;
+    font-size: 14px;
+  }
+  .stats {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  .stat {
+    background: #171a21;
+    border: 1px solid #2a2e37;
+    border-radius: 6px;
+    padding: 12px 16px;
+    min-width: 180px;
+  }
+  .stat .label {
+    font-size: 12px;
+    color: #9ca3af;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .stat .value {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 4px;
+  }
+  .stat .value.ok { color: #34d399; }
+  .stat .value.warn { color: #fbbf24; }
+  .stat .value.info { color: #60a5fa; }
+
+  .section {
+    max-width: 1400px;
+    margin: 0 auto 56px;
+  }
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #1f2430;
+  }
+  .section-head h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .section-head .tag {
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: #171a21;
+    border: 1px solid #2a2e37;
+    color: #9ca3af;
+  }
+  .section-head .tag.green {
+    background: rgba(52, 211, 153, 0.1);
+    border-color: rgba(52, 211, 153, 0.3);
+    color: #34d399;
+  }
+  .section-head .tag.amber {
+    background: rgba(251, 191, 36, 0.1);
+    border-color: rgba(251, 191, 36, 0.3);
+    color: #fbbf24;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+  }
+  .card {
+    background: #171a21;
+    border: 1px solid #2a2e37;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: border-color 0.15s;
+  }
+  .card:hover { border-color: #4b5563; }
+  .thumb {
+    aspect-ratio: 4/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    background:
+      linear-gradient(45deg, #1a1d24 25%, transparent 25%),
+      linear-gradient(-45deg, #1a1d24 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, #1a1d24 75%),
+      linear-gradient(-45deg, transparent 75%, #1a1d24 75%);
+    background-size: 16px 16px;
+    background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
+    background-color: #0c0e13;
+  }
+  .thumb .jpg-bg {
+    background: none;
+  }
+  .thumb img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+  .badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    background: #1f2937;
+    color: #e5e7eb;
+    border: 1px solid #374151;
+  }
+  .badge.cutout { background: rgba(52, 211, 153, 0.15); border-color: rgba(52, 211, 153, 0.4); color: #34d399; }
+  .badge.scene { background: rgba(96, 165, 250, 0.15); border-color: rgba(96, 165, 250, 0.4); color: #60a5fa; }
+  .badge.idle { background: rgba(251, 191, 36, 0.12); border-color: rgba(251, 191, 36, 0.35); color: #fbbf24; }
+
+  .meta {
+    padding: 12px 14px 14px;
+    border-top: 1px solid #1f2430;
+  }
+  .asset-id {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 13px;
+    font-weight: 600;
+    color: #f3f4f6;
+  }
+  .note {
+    font-size: 12px;
+    color: #9ca3af;
+    margin-top: 4px;
+  }
+  .usage {
+    margin-top: 8px;
+    font-size: 11px;
+    color: #6b7280;
+  }
+  .usage span {
+    display: inline-block;
+    background: #0f1218;
+    padding: 2px 7px;
+    border-radius: 3px;
+    margin: 2px 4px 2px 0;
+    border: 1px solid #1f2430;
+  }
+  .path {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 10px;
+    color: #4b5563;
+    margin-top: 8px;
+    word-break: break-all;
+  }
+  .legend {
+    max-width: 1400px;
+    margin: 0 auto 32px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: #9ca3af;
+  }
+  .legend-item { display: flex; align-items: center; gap: 6px; }
+  .legend-item .dot {
+    width: 10px; height: 10px; border-radius: 2px; display: inline-block;
+  }
+  .footer-note {
+    max-width: 1400px;
+    margin: 40px auto 0;
+    padding: 16px 20px;
+    background: #171a21;
+    border-left: 3px solid #fbbf24;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #d1d5db;
+  }
+  .footer-note code {
+    background: #0c0e13;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px;
+    color: #fbbf24;
+  }
+</style>
+</head>
+<body>
+  <header class="page-head">
+    <h1>PNG 抠图资源预览 · 网站图片替换准备</h1>
+    <p>生成时间：2026-08-20 · 用于网站替换前的人工审核。切图存放于 <code>/public/assets/cutout/</code>，已验收产品抠图白名单见 <code>src/data/cutout-assets.ts</code></p>
+    <div class="stats">
+      <div class="stat">
+        <div class="label">抠图总数 (cutout/)</div>
+        <div class="value info">42 + 3</div>
+      </div>
+      <div class="stat">
+        <div class="label">通过验收 · 可替换型号区</div>
+        <div class="value ok">14 张</div>
+      </div>
+      <div class="stat">
+        <div class="label">场景/Hero/背景 (保留 JPG)</div>
+        <div class="value warn">12 张</div>
+      </div>
+      <div class="stat">
+        <div class="label">未使用备用资产</div>
+        <div class="value info">6 张</div>
+      </div>
+    </div>
+  </header>
+
+  <div class="legend">
+    <div class="legend-item"><span class="dot" style="background:rgba(52,211,153,.4)"></span>✅ CUTOUT — 抠图通过，可透明叠加使用</div>
+    <div class="legend-item"><span class="dot" style="background:rgba(96,165,250,.4)"></span>🖼 SCENE — 场景/背景/封面，建议保留原 JPG 不抠</div>
+    <div class="legend-item"><span class="dot" style="background:rgba(251,191,36,.4)"></span>⏳ IDLE — 当前蓝图未分配，备用资产</div>
+  </div>
+
+  <!-- 第 1 组：Hero / 场景 / 背景用图（保留 JPG，非抠图） -->
+  <section class="section">
+    <div class="section-head">
+      <h2>1. Hero / 场景 / 背景 / CTA 配图</h2>
+      <span class="tag amber">SCENE · 建议保留 JPG</span>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <div class="thumb jpg-bg"><div class="badge scene">HERO</div><img src="/assets/ASSET-04.jpg" alt="" onerror="this.style.opacity=0.3"></div>
+        <div class="meta"><div class="asset-id">ASSET-04</div><div class="note">首页封面主图</div><div class="usage"><span>HOME M02 HERO</span></div><div class="path">/assets/ASSET-04.jpg</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb jpg-bg"><div class="badge scene">COMPANY</div><img src="/assets/ASSET-05.jpg" alt="" onerror="this.style.opacity=0.3"></div>
+        <div class="meta"><div class="asset-id">ASSET-05</div><div class="note">公司/能力实拍（图文 split）</div><div class="usage"><span>HOME M03 COMPANY</span><span>P04-INTRO</span></div><div class="path">/assets/ASSET-05.jpg</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb jpg-bg"><div class="badge scene">PRODUCT HERO</div><img src="/assets/ASSET-06.jpg" alt="" onerror="this.style.opacity=0.3"></div>
+        <div class="meta"><div class="asset-id">ASSET-06</div><div class="note">产品页封面工程图</div><div class="usage"><span>PLANETARY M02 HERO</span></div><div class="path">/assets/ASSET-06.jpg</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb jpg-bg"><div class="badge scene">FEATURE</div><img src="/assets/ASSET-07.jpg" alt="" onerror="this.style.opacity=0.3"></div>
+        <div class="meta"><div class="asset-id">ASSET-07</div><div class="note">工程视觉/能力图</div><div class="usage"><span>PLANETARY M05 FEATURE</span></div><div class="path">/assets/ASSET-07.jpg</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb jpg-bg"><div class="badge scene">OEM</div><img src="/assets/ASSET-36.jpg" alt="" onerror="this.style.opacity=0.3"></div>
+        <div class="meta"><div class="asset-id">ASSET-36</div><div class="note">OEM/定制封底实拍</div><div class="usage"><span>HOME M09 OEM</span><span>PRODUCTS M10 CTA</span><span>ABOUT M06</span></div><div class="path">/assets/ASSET-36.jpg</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb jpg-bg"><div class="badge scene">CTA BAND</div><img src="/assets/ASSET-37.jpg" alt="" onerror="this.style.opacity=0.3"></div>
+        <div class="meta"><div class="asset-id">ASSET-37</div><div class="note">深色转化带背景（dim 25%）</div><div class="usage"><span>HOME M10 CTA</span><span>PLANETARY M10 CTA</span><span>ABOUT M06</span></div><div class="path">/assets/ASSET-37.jpg</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb jpg-bg"><div class="badge scene">ABOUT</div><img src="/assets/ASSET-38.jpg" alt="" onerror="this.style.opacity=0.3"></div>
+        <div class="meta"><div class="asset-id">ASSET-38</div><div class="note">公司配图 3 号 / OEM split 候选</div><div class="usage"><span>ABOUT M06</span></div><div class="path">/assets/ASSET-38.jpg</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb jpg-bg"><div class="badge scene">LOGO</div><img src="/assets/ASSET-39.jpg" alt="" onerror="this.style.opacity=0.3"></div>
+        <div class="meta"><div class="asset-id">ASSET-39</div><div class="note">企业 Logo（PDF 封面锁定）</div><div class="usage"><span>ALL PAGES M01 LOGO</span></div><div class="path">/assets/ASSET-39.jpg</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb jpg-bg"><div class="badge scene">CERT</div><img src="/assets/ASSET-10.jpg" alt="" onerror="this.style.opacity=0.3"></div>
+        <div class="meta"><div class="asset-id">ASSET-10 ~ ASSET-17</div><div class="note">证书网格 8 张（超出蓝图上限 3，待裁决）</div><div class="usage"><span>PLANETARY (EXTRA) CERT</span></div><div class="path">/assets/ASSET-10~17.jpg</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 第 2 组：已验收产品抠图（可替换型号区） -->
+  <section class="section">
+    <div class="section-head">
+      <h2>2. ✅ 已验收产品抠图 · cutout-assets.ts 白名单（14 张，可替换型号区）</h2>
+      <span class="tag green">CUTOUT APPROVED</span>
+    </div>
+    <div class="grid">
+      <!-- P06 家族代表 + 两款 -->
+      <div class="card">
+        <div class="thumb"><div class="badge cutout">P06-A / P06-B · FAMILY</div><img src="/assets/cutout/ASSET-18.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-18</div><div class="note">行星减速器家族代表图 / 301-2-001040-00 / 301-2-001016-00（带制动轴）共用</div><div class="usage"><span>HOME M05 FAMILY</span><span>PRODUCTS M05 FAMILY</span><span>P06-A</span><span>P06-B</span></div><div class="path">/assets/cutout/ASSET-18.png</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb"><div class="badge cutout">P07-B</div><img src="/assets/cutout/ASSET-19.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-19</div><div class="note">301-2-001060-00（单、双支撑）</div><div class="usage"><span>P07-B</span></div><div class="path">/assets/cutout/ASSET-19.png</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb"><div class="badge cutout">P07-A</div><img src="/assets/cutout/ASSET-20.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-20</div><div class="note">301-2-001040-00（单、双支撑）</div><div class="usage"><span>P07-A</span></div><div class="path">/assets/cutout/ASSET-20.png</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb"><div class="badge cutout">P08-B</div><img src="/assets/cutout/ASSET-21.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-21</div><div class="note">301-2-026082-00（大承载双支撑）</div><div class="usage"><span>P08-B</span></div><div class="path">/assets/cutout/ASSET-21.png</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb"><div class="badge cutout">P08-A</div><img src="/assets/cutout/ASSET-22.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-22</div><div class="note">301-2-080021-00</div><div class="usage"><span>P08-A</span></div><div class="path">/assets/cutout/ASSET-22.png</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb"><div class="badge cutout">P09-B</div><img src="/assets/cutout/ASSET-23.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-23</div><div class="note">301-2-004050-00（带制动轴）</div><div class="usage"><span>P09-B</span></div><div class="path">/assets/cutout/ASSET-23.png</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb"><div class="badge cutout">P09-A</div><img src="/assets/cutout/ASSET-24.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-24</div><div class="note">301-2-005032-00（大承载双支撑）</div><div class="usage"><span>P09-A</span></div><div class="path">/assets/cutout/ASSET-24.png</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb"><div class="badge cutout">P10-B</div><img src="/assets/cutout/ASSET-25.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-25</div><div class="note">301-2-160040-00（带制动轴）</div><div class="usage"><span>P10-B</span></div><div class="path">/assets/cutout/ASSET-25.png</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb"><div class="badge cutout">P10-A</div><img src="/assets/cutout/ASSET-26.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-26</div><div class="note">301-2-001020-00</div><div class="usage"><span>P10-A</span></div><div class="path">/assets/cutout/ASSET-26.png</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb"><div class="badge cutout">P11-A</div><img src="/assets/cutout/ASSET-27.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-27</div><div class="note">GOA91F-00C</div><div class="usage"><span>P11-A</span></div><div class="path">/assets/cutout/ASSET-27.png</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb"><div class="badge cutout">P12-B</div><img src="/assets/cutout/ASSET-32.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-32</div><div class="note">FE-160D-L2-S2-P2</div><div class="usage"><span>P12-B</span></div><div class="path">/assets/cutout/ASSET-32.png</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb"><div class="badge cutout">P12-A</div><img src="/assets/cutout/ASSET-33.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-33</div><div class="note">FE-155D-L2-S2-P2</div><div class="usage"><span>P12-A</span></div><div class="path">/assets/cutout/ASSET-33.png</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb"><div class="badge cutout">P13-A · NON-STD</div><img src="/assets/cutout/ASSET-34.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-34</div><div class="note">FB-180D-L2-S2-P2（非标件）/ 定制页 spotlight</div><div class="usage"><span>P13-A</span><span>CUSTOMIZATION M09 SPOTLIGHT</span></div><div class="path">/assets/cutout/ASSET-34.png</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb"><div class="badge cutout">P13-B</div><img src="/assets/cutout/ASSET-35.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-35</div><div class="note">301-2-003120-00（带制动轴）</div><div class="usage"><span>P13-B</span></div><div class="path">/assets/cutout/ASSET-35.png</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 第 3 组：Held / Fallback 资产（蓝图排除或 P11-B 备选） -->
+  <section class="section">
+    <div class="section-head">
+      <h2>3. HELD · 蓝图排除或 P11-B 备选资产</h2>
+      <span class="tag">HOLD · P11-B FALLBACK</span>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <div class="thumb"><div class="badge cutout">P11-B · FALLBACK 1</div><img src="/assets/cutout/ASSET-30.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-30</div><div class="note">AFR90-L2-C20 fallback（透明率 97.5%，建议优先使用）</div><div class="usage"><span>P11-B (fallback)</span></div><div class="path">/assets/cutout/ASSET-30.png</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb"><div class="badge scene">P11-B · HELD 2</div><img src="/assets/cutout/ASSET-28.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-28</div><div class="note">P11-B 宽幅尺寸图（heldAssetsExcludedFromUI）</div><div class="usage"><span>P11-B (备选)</span></div><div class="path">/assets/cutout/ASSET-28.png</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb"><div class="badge cutout">P11-B · HELD 3</div><img src="/assets/cutout/ASSET-29.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-29</div><div class="note">P11-B 小图（heldAssetsExcludedFromUI）</div><div class="usage"><span>P11-B (备选)</span></div><div class="path">/assets/cutout/ASSET-29.png</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb"><div class="badge cutout">P11-B · HELD 4</div><img src="/assets/cutout/ASSET-31.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-31</div><div class="note">P11-B 照片（231x225，heldAssetsExcludedFromUI）</div><div class="usage"><span>P11-B (备选)</span></div><div class="path">/assets/cutout/ASSET-31.png</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 第 4 组：未使用备用资产（unusedAssets） -->
+  <section class="section">
+    <div class="section-head">
+      <h2>4. ⏳ 未使用备用资产（unusedAssets · 蓝图未分配）</h2>
+      <span class="tag amber">IDLE · 可用于去重替换</span>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <div class="thumb jpg-bg"><div class="badge idle">UNUSED</div><img src="/assets/cutout/ASSET-01.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-01</div><div class="note">备用资产，未分配槽位</div><div class="usage"><span>候选：家族图去重 / 能力卡片</span></div><div class="path">/assets/cutout/ASSET-01.png</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb jpg-bg"><div class="badge idle">UNUSED</div><img src="/assets/cutout/ASSET-02.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-02</div><div class="note">备用资产，未分配槽位</div><div class="usage"><span>候选：家族图去重 / 能力卡片</span></div><div class="path">/assets/cutout/ASSET-02.png</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb jpg-bg"><div class="badge idle">UNUSED</div><img src="/assets/cutout/ASSET-03.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-03</div><div class="note">备用资产，未分配槽位</div><div class="usage"><span>候选：家族图去重 / 能力卡片</span></div><div class="path">/assets/cutout/ASSET-03.png</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb jpg-bg"><div class="badge idle">UNUSED</div><img src="/assets/ASSET-08.jpg" alt="" onerror="this.src='/assets/cutout/ASSET-08.png'"></div>
+        <div class="meta"><div class="asset-id">ASSET-08</div><div class="note">备用资产，候选 PRODUCTS HERO / 家族图去重</div><div class="usage"><span>候选：PRODUCTS M02 HERO</span></div><div class="path">/assets/cutout/ASSET-08.png</div></div>
+      </div>
+      <div class="card">
+        <div class="thumb jpg-bg"><div class="badge idle">UNUSED</div><img src="/assets/cutout/ASSET-44.png" alt=""></div>
+        <div class="meta"><div class="asset-id">ASSET-44</div><div class="note">备用资产，未分配槽位</div><div class="usage"><span>候选：能力卡片 / 详情补充</span></div><div class="path">/assets/cutout/ASSET-44.png</div></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="footer-note">
+    <strong>替换执行提示：</strong> 网站组件（model-range / image-panel / media-text）取图逻辑在 <code>src/data/assets.generated.ts</code>。下一步将根据本页审核结果，把型号图槽位从 <code>/assets/ASSET-XX.jpg</code> 切换到 <code>/assets/cutout/ASSET-XX.png</code>（仅限 CUTOUT APPROVED 组）。ASSET-36/37/38/04/05/06/07 等场景图<strong>保留 JPG 路径</strong>，避免 Hero 区、CTA 背景区出现"漂浮抠图"。
+  </div>
+</body>
+</html>

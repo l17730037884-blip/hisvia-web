@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>重抠审核 — 4 张</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, sans-serif; background: #1a1a1a; color: #eee; padding: 20px; }
+  h1 { font-size: 1.2rem; margin-bottom: 4px; }
+  .sub { color: #888; font-size: 0.8rem; margin-bottom: 20px; }
+  .pair { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 28px;
+    border: 1px solid #333; border-radius: 10px; overflow: hidden; background: #222; }
+  .pair-header { grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between;
+    padding: 10px 16px; background: #2a2a2a; border-bottom: 1px solid #333; }
+  .pair-header .name { font-weight: 700; font-size: 1rem; }
+  .pair-header .status { font-size: 0.75rem; padding: 2px 10px; border-radius: 20px; font-weight: 600; }
+  .status-pending { background: #3a3a2a; color: #d4d476; }
+  .status-pass { background: #1a3a1a; color: #6ec06e; }
+  .status-fail { background: #3a1a1a; color: #c06e6e; }
+  .side { padding: 10px; }
+  .side-label { font-size: 0.68rem; color: #999; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 6px; }
+  .side-label .model { color: #6e9ec0; font-weight: 600; }
+  .img-box { position: relative; width: 100%; height: 220px; display: flex; align-items: center; justify-content: center;
+    background-image:
+      linear-gradient(45deg, #2a2a2a 25%, transparent 25%),
+      linear-gradient(-45deg, #2a2a2a 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, #2a2a2a 75%),
+      linear-gradient(-45deg, transparent 75%, #2a2a2a 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0;
+    border-radius: 6px; overflow: hidden;
+  }
+  .img-box.white { background: #1e1e1e; }
+  .img-box img { max-width: 90%; max-height: 200px; object-fit: contain; }
+  .actions-bar { position: sticky; top: 0; z-index: 100; background: #1a1a1a; padding: 12px 0;
+    border-bottom: 1px solid #333; margin-bottom: 20px; display: flex; gap: 12px; align-items: center; }
+  .actions-bar .count { font-size: 0.8rem; color: #888; }
+  .actions-bar button { padding: 6px 14px; border: 1px solid #444; border-radius: 5px; background: #2a2a2a;
+    color: #ccc; font-size: 0.8rem; cursor: pointer; }
+  .actions-bar button:hover { background: #333; border-color: #666; }
+  .pair-buttons { grid-column: 1 / -1; display: flex; gap: 8px; padding: 10px 16px; background: #2a2a2a; border-top: 1px solid #333; }
+  .pair-buttons .btn { flex: 1; padding: 8px 0; border: 1px solid #444; border-radius: 5px; background: #2a2a2a;
+    color: #ccc; font-size: 0.8rem; font-weight: 600; cursor: pointer; transition: all 0.15s; }
+  .pair-buttons .btn:hover { border-color: #666; background: #333; }
+  .pair-buttons .btn.active.pass { background: #1a3a1a; border-color: #2a6a2a; color: #fff; }
+  .pair-buttons .btn.active.fail { background: #3a1a1a; border-color: #6a2a2a; color: #fff; }
+</style>
+</head>
+<body>
+
+<h1>重抠审核 — ISNet 模型</h1>
+<p class="sub">三列对比：原图 / U2Net(首次) / ISNet(重抠)。选"通过"或"不通过"，最后导出报告。</p>
+
+<div class="actions-bar">
+  <span class="count" id="counter">加载中...</span>
+  <button onclick="exportReport()">导出审核报告</button>
+</div>
+
+<div id="container"></div>
+
+<script>
+const RETRY_ASSETS = ['ASSET-18','ASSET-21','ASSET-33','ASSET-34'];
+const decisions = {};
+
+function getExt(name) {
+  return ['ASSET-28','ASSET-29','ASSET-31'].includes(name) ? 'png' : 'jpg';
+}
+
+function getStatus(name) {
+  const d = decisions[name];
+  if (!d) return 'pending';
+  return d === 'pass' ? 'pass' : 'fail';
+}
+
+function statusLabel(s) {
+  return {pending:'待审', pass:'通过', fail:'不通过'}[s] || '待审';
+}
+
+function renderPair(name) {
+  const ext = getExt(name);
+  const d = decisions[name];
+  const st = getStatus(name);
+  const origSrc = `../../${name}.${ext}`;
+  const u2netSrc = `./${name}.png`;
+  const isnetSrc = `./retry/${name}.png`;
+
+  const passActive = d === 'pass' ? 'active pass' : '';
+  const failActive = d === 'fail' ? 'active fail' : '';
+
+  return `
+  <div class="pair" data-name="${name}">
+    <div class="pair-header">
+      <span class="name">${name}</span>
+      <span class="status status-${st}">${statusLabel(st)}</span>
+    </div>
+    <div class="side">
+      <div class="side-label">原图</div>
+      <div class="img-box white"><img src="${origSrc}" loading="lazy"></div>
+    </div>
+    <div class="side">
+      <div class="side-label">首次 <span class="model">U2Net</span></div>
+      <div class="img-box"><img src="${u2netSrc}" loading="lazy"></div>
+    </div>
+    <div class="side">
+      <div class="side-label">重抠 <span class="model">ISNet</span></div>
+      <div class="img-box"><img src="${isnetSrc}" loading="lazy"></div>
+    </div>
+    <div class="pair-buttons">
+      <button class="btn ${passActive}" onclick="decide('${name}','pass')">ISNet 通过</button>
+      <button class="btn ${failActive}" onclick="decide('${name}','fail')">不通过（用原图）</button>
+    </div>
+  </div>`;
+}
+
+function decide(name, val) {
+  if (decisions[name] === val) {
+    delete decisions[name];
+  } else {
+    decisions[name] = val;
+  }
+  const el = document.querySelector(`.pair[data-name="${name}"]`);
+  if (el) el.outerHTML = renderPair(name);
+  updateCounter();
+  saveLocal();
+}
+
+function updateCounter() {
+  let pending = 0, passed = 0, failed = 0;
+  RETRY_ASSETS.forEach(n => {
+    const s = getStatus(n);
+    if (s === 'pending') pending++;
+    else if (s === 'pass') passed++;
+    else if (s === 'fail') failed++;
+  });
+  document.getElementById('counter').textContent =
+    `待审 ${pending} / 通过 ${passed} / 不通过 ${failed} / 共 ${RETRY_ASSETS.length}`;
+}
+
+function saveLocal() {
+  localStorage.setItem('retry_decisions', JSON.stringify(decisions));
+}
+
+function loadLocal() {
+  try {
+    const s = localStorage.getItem('retry_decisions');
+    if (s) Object.assign(decisions, JSON.parse(s));
+  } catch(e) {}
+}
+
+function exportReport() {
+  const report = RETRY_ASSETS.map(n => ({
+    asset: n,
+    isnet_decision: decisions[n] || 'pending',
+  }));
+  const json = JSON.stringify(report, null, 2);
+  const blob = new Blob([json], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'retry-audit-report.json';
+  a.click();
+  URL.revokeObjectURL(url);
+  navigator.clipboard.writeText(json).then(() => {
+    alert(`审核报告已导出\n文件: retry-audit-report.json\n内容已复制到剪贴板`);
+  }).catch(() => {
+    alert(`审核报告已导出\n文件: retry-audit-report.json`);
+  });
+}
+
+loadLocal();
+document.getElementById('container').innerHTML = RETRY_ASSETS.map(renderPair).join('');
+updateCounter();
+</script>
+</body>
+</html>

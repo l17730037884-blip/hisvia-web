@@ -1,0 +1,722 @@
+{
+ "generatedAt": "2026-08-19T09:33:19.986Z",
+ "assets": [
+  {
+   "assetId": "ASSET-01",
+   "file": "img-0004.jpg",
+   "pdfObj": 4,
+   "role": "F_BACKGROUND",
+   "pages": [
+    2
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-01.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-02",
+   "file": "img-0010.jpg",
+   "pdfObj": 10,
+   "role": "F_BACKGROUND",
+   "pages": [
+    3
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-02.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-03",
+   "file": "img-0127.jpg",
+   "pdfObj": 127,
+   "role": "F_BACKGROUND",
+   "pages": [
+    14
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-03.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-04",
+   "file": "img-0171.jpg",
+   "pdfObj": 171,
+   "role": "A_HERO",
+   "pages": [
+    1
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-04.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-39",
+   "file": "img-0173.jpg",
+   "pdfObj": 173,
+   "role": "B_LOGO",
+   "pages": [
+    1
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-39.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-44",
+   "file": "img-0012.jpg",
+   "pdfObj": 12,
+   "role": "B_LOGO",
+   "pages": [
+    3
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-44.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-05",
+   "file": "img-0018.jpg",
+   "pdfObj": 18,
+   "role": "H_INTRO_PHOTOS",
+   "pages": [
+    4
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-05.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-06",
+   "file": "img-0020.jpg",
+   "pdfObj": 20,
+   "role": "H_INTRO_PHOTOS",
+   "pages": [
+    4
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-06.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-07",
+   "file": "img-0022.jpg",
+   "pdfObj": 22,
+   "role": "H_INTRO_PHOTOS",
+   "pages": [
+    4
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-07.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-08",
+   "file": "img-0024.jpg",
+   "pdfObj": 24,
+   "role": "H_INTRO_PHOTOS",
+   "pages": [
+    4
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-08.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-09",
+   "file": "img-0026.jpg",
+   "pdfObj": 26,
+   "role": "H_INTRO_PHOTOS",
+   "pages": [
+    4
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-09.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-10",
+   "file": "img-0031.jpg",
+   "pdfObj": 31,
+   "role": "I_CERTIFICATE_PHOTOS",
+   "pages": [
+    5
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-10.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-11",
+   "file": "img-0032.jpg",
+   "pdfObj": 32,
+   "role": "I_CERTIFICATE_PHOTOS",
+   "pages": [
+    5
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-11.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-12",
+   "file": "img-0033.jpg",
+   "pdfObj": 33,
+   "role": "I_CERTIFICATE_PHOTOS",
+   "pages": [
+    5
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-12.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-13",
+   "file": "img-0035.jpg",
+   "pdfObj": 35,
+   "role": "I_CERTIFICATE_PHOTOS",
+   "pages": [
+    5
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-13.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-14",
+   "file": "img-0037.jpg",
+   "pdfObj": 37,
+   "role": "I_CERTIFICATE_PHOTOS",
+   "pages": [
+    5
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-14.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-15",
+   "file": "img-0038.jpg",
+   "pdfObj": 38,
+   "role": "I_CERTIFICATE_PHOTOS",
+   "pages": [
+    5
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-15.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-16",
+   "file": "img-0040.jpg",
+   "pdfObj": 40,
+   "role": "I_CERTIFICATE_PHOTOS",
+   "pages": [
+    5
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-16.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-17",
+   "file": "img-0042.jpg",
+   "pdfObj": 42,
+   "role": "I_CERTIFICATE_PHOTOS",
+   "pages": [
+    5
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-17.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-18",
+   "file": "img-0047.jpg",
+   "pdfObj": 47,
+   "role": "C_PRODUCT_PHOTO",
+   "pages": [
+    6
+   ],
+   "relatedProducts": [
+    "P06-A",
+    "P06-B"
+   ],
+   "renderedPath": "/assets/ASSET-18.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-19",
+   "file": "img-0052.jpg",
+   "pdfObj": 52,
+   "role": "C_PRODUCT_PHOTO",
+   "pages": [
+    7
+   ],
+   "relatedProducts": [
+    "P07-B"
+   ],
+   "renderedPath": "/assets/ASSET-19.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-20",
+   "file": "img-0054.jpg",
+   "pdfObj": 54,
+   "role": "C_PRODUCT_PHOTO",
+   "pages": [
+    7
+   ],
+   "relatedProducts": [
+    "P07-A"
+   ],
+   "renderedPath": "/assets/ASSET-20.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-21",
+   "file": "img-0063.jpg",
+   "pdfObj": 63,
+   "role": "C_PRODUCT_PHOTO",
+   "pages": [
+    8
+   ],
+   "relatedProducts": [
+    "P08-B"
+   ],
+   "renderedPath": "/assets/ASSET-21.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-22",
+   "file": "img-0064.jpg",
+   "pdfObj": 64,
+   "role": "C_PRODUCT_PHOTO",
+   "pages": [
+    8
+   ],
+   "relatedProducts": [
+    "P08-A"
+   ],
+   "renderedPath": "/assets/ASSET-22.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-23",
+   "file": "img-0069.jpg",
+   "pdfObj": 69,
+   "role": "C_PRODUCT_PHOTO",
+   "pages": [
+    9
+   ],
+   "relatedProducts": [
+    "P09-B"
+   ],
+   "renderedPath": "/assets/ASSET-23.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-24",
+   "file": "img-0070.jpg",
+   "pdfObj": 70,
+   "role": "C_PRODUCT_PHOTO",
+   "pages": [
+    9
+   ],
+   "relatedProducts": [
+    "P09-A"
+   ],
+   "renderedPath": "/assets/ASSET-24.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-25",
+   "file": "img-0075.jpg",
+   "pdfObj": 75,
+   "role": "C_PRODUCT_PHOTO",
+   "pages": [
+    10
+   ],
+   "relatedProducts": [
+    "P10-B"
+   ],
+   "renderedPath": "/assets/ASSET-25.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-26",
+   "file": "img-0076.jpg",
+   "pdfObj": 76,
+   "role": "C_PRODUCT_PHOTO",
+   "pages": [
+    10
+   ],
+   "relatedProducts": [
+    "P10-A"
+   ],
+   "renderedPath": "/assets/ASSET-26.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-27",
+   "file": "img-0083.jpg",
+   "pdfObj": 83,
+   "role": "C_PRODUCT_PHOTO",
+   "pages": [
+    11
+   ],
+   "relatedProducts": [
+    "P11-A"
+   ],
+   "renderedPath": "/assets/ASSET-27.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-28",
+   "file": "img-0084.bin",
+   "pdfObj": 84,
+   "role": "C_PRODUCT_PHOTO",
+   "pages": [
+    11
+   ],
+   "relatedProducts": [
+    "P11-B"
+   ],
+   "renderedPath": "/assets/ASSET-28.png",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-29",
+   "file": "img-0086.bin",
+   "pdfObj": 86,
+   "role": "C_PRODUCT_PHOTO",
+   "pages": [
+    11
+   ],
+   "relatedProducts": [
+    "P11-B"
+   ],
+   "renderedPath": "/assets/ASSET-29.png",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-30",
+   "file": "img-0087.jpg",
+   "pdfObj": 87,
+   "role": "C_PRODUCT_PHOTO",
+   "pages": [
+    11
+   ],
+   "relatedProducts": [
+    "P11-B"
+   ],
+   "renderedPath": "/assets/ASSET-30.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-31",
+   "file": "img-0088.bin",
+   "pdfObj": 88,
+   "role": "C_PRODUCT_PHOTO",
+   "pages": [
+    11
+   ],
+   "relatedProducts": [
+    "P11-B"
+   ],
+   "renderedPath": "/assets/ASSET-31.png",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-32",
+   "file": "img-0093.jpg",
+   "pdfObj": 93,
+   "role": "C_PRODUCT_PHOTO",
+   "pages": [
+    12
+   ],
+   "relatedProducts": [
+    "P12-B"
+   ],
+   "renderedPath": "/assets/ASSET-32.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-33",
+   "file": "img-0094.jpg",
+   "pdfObj": 94,
+   "role": "C_PRODUCT_PHOTO",
+   "pages": [
+    12
+   ],
+   "relatedProducts": [
+    "P12-A"
+   ],
+   "renderedPath": "/assets/ASSET-33.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-34",
+   "file": "img-0099.jpg",
+   "pdfObj": 99,
+   "role": "C_PRODUCT_PHOTO",
+   "pages": [
+    13
+   ],
+   "relatedProducts": [
+    "P13-A"
+   ],
+   "renderedPath": "/assets/ASSET-34.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-35",
+   "file": "img-0101.jpg",
+   "pdfObj": 101,
+   "role": "C_PRODUCT_PHOTO",
+   "pages": [
+    13
+   ],
+   "relatedProducts": [
+    "P13-B"
+   ],
+   "renderedPath": "/assets/ASSET-35.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-36",
+   "file": "img-0129.jpg",
+   "pdfObj": 129,
+   "role": "J_BACKCOVER_PHOTOS",
+   "pages": [
+    14
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-36.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-37",
+   "file": "img-0131.jpg",
+   "pdfObj": 131,
+   "role": "J_BACKCOVER_PHOTOS",
+   "pages": [
+    14
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-37.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-38",
+   "file": "img-0133.jpg",
+   "pdfObj": 133,
+   "role": "J_BACKCOVER_PHOTOS",
+   "pages": [
+    14
+   ],
+   "relatedProducts": [],
+   "renderedPath": "/assets/ASSET-38.jpg",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-45",
+   "file": "hydraulic-cylinder-01.png",
+   "pdfObj": 0,
+   "role": "C_PRODUCT_PHOTO",
+   "pages": [],
+   "relatedProducts": ["HYDRAULIC-SERIES"],
+   "renderedPath": "/assets/ASSET-45.png",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-46",
+   "file": "hydraulic-cylinder-02.png",
+   "pdfObj": 0,
+   "role": "C_PRODUCT_PHOTO",
+   "pages": [],
+   "relatedProducts": ["HYDRAULIC-SERIES"],
+   "renderedPath": "/assets/ASSET-46.png",
+   "missing": false
+  },
+  {
+   "assetId": "ASSET-47",
+   "file": "hydraulic-cylinder-03.png",
+   "pdfObj": 0,
+   "role": "C_PRODUCT_PHOTO",
+   "pages": [],
+   "relatedProducts": ["HYDRAULIC-SERIES"],
+   "renderedPath": "/assets/ASSET-47.png",
+   "missing": false
+  }
+ ],
+ "productImages": [
+  {
+   "productId": "P06-A",
+   "model": "301-2-001040-00(带制动轴)",
+   "assetIds": [
+    "ASSET-18"
+   ],
+   "position": "left"
+  },
+  {
+   "productId": "P06-B",
+   "model": "301-2-001016-00(带制动轴)",
+   "assetIds": [
+    "ASSET-18"
+   ],
+   "position": "right"
+  },
+  {
+   "productId": "P07-A",
+   "model": "301-2-001040-00(单、双支撑)",
+   "assetIds": [
+    "ASSET-20"
+   ],
+   "position": "left"
+  },
+  {
+   "productId": "P07-B",
+   "model": "301-2-001060-00(单、双支撑)",
+   "assetIds": [
+    "ASSET-19"
+   ],
+   "position": "right"
+  },
+  {
+   "productId": "P08-A",
+   "model": "301-2-080021-00",
+   "assetIds": [
+    "ASSET-22"
+   ],
+   "position": "left"
+  },
+  {
+   "productId": "P08-B",
+   "model": "301-2-026082-00(大承载双支撑)",
+   "assetIds": [
+    "ASSET-21"
+   ],
+   "position": "right"
+  },
+  {
+   "productId": "P09-A",
+   "model": "301-2-005032-00(大承载双支撑)",
+   "assetIds": [
+    "ASSET-24"
+   ],
+   "position": "left"
+  },
+  {
+   "productId": "P09-B",
+   "model": "301-2-004050-00(带制动轴)",
+   "assetIds": [
+    "ASSET-23"
+   ],
+   "position": "right"
+  },
+  {
+   "productId": "P10-A",
+   "model": "301-2-001020-00",
+   "assetIds": [
+    "ASSET-26"
+   ],
+   "position": "left"
+  },
+  {
+   "productId": "P10-B",
+   "model": "301-2-160040-00(带制动轴)",
+   "assetIds": [
+    "ASSET-25"
+   ],
+   "position": "right"
+  },
+  {
+   "productId": "P11-A",
+   "model": "GOA91F-00C",
+   "assetIds": [
+    "ASSET-27"
+   ],
+   "position": "left"
+  },
+  {
+   "productId": "P11-B",
+   "model": "AFR90-L2-C20",
+   "assetIds": [
+    "ASSET-31",
+    "ASSET-28",
+    "ASSET-29",
+    "ASSET-30"
+   ],
+   "position": "right"
+  },
+  {
+   "productId": "P12-A",
+   "model": "FE-155D-L2-S2-P2",
+   "assetIds": [
+    "ASSET-33"
+   ],
+   "position": "left"
+  },
+  {
+   "productId": "P12-B",
+   "model": "FE-160D-L2-S2-P2",
+   "assetIds": [
+    "ASSET-32"
+   ],
+   "position": "right"
+  },
+  {
+   "productId": "P13-A",
+   "model": "FB-180D-L2-S2-P2(非标件)",
+   "assetIds": [
+    "ASSET-34"
+   ],
+   "position": "left"
+  },
+  {
+   "productId": "P13-B",
+   "model": "301-2-003120-00(带制动轴)",
+   "assetIds": [
+    "ASSET-35"
+   ],
+   "position": "right"
+  },
+  {
+   "productId": "P04-INTRO",
+   "model": "产品介绍/功能优点配图",
+   "assetIds": [
+    "ASSET-05",
+    "ASSET-06",
+    "ASSET-07",
+    "ASSET-08",
+    "ASSET-09"
+   ],
+   "position": null
+  },
+  {
+   "productId": "P05-CERT",
+   "model": "资质证书图",
+   "assetIds": [
+    "ASSET-10",
+    "ASSET-11",
+    "ASSET-12",
+    "ASSET-13",
+    "ASSET-14",
+    "ASSET-15",
+    "ASSET-16",
+    "ASSET-17"
+   ],
+   "position": null
+  },
+  {
+   "productId": "P14-BACKCOVER",
+   "model": "封底配图",
+   "assetIds": [
+    "ASSET-36",
+    "ASSET-37",
+    "ASSET-38"
+   ],
+   "position": null
+  }
+ ]
+}

@@ -1,0 +1,230 @@
+[
+  {
+    "source": "ASSET-01.jpg",
+    "output": "ASSET-01.png",
+    "transparent_ratio": 0.4702,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-02.jpg",
+    "output": "ASSET-02.png",
+    "transparent_ratio": 0.7953,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-03.jpg",
+    "output": "ASSET-03.png",
+    "transparent_ratio": 0.8458,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-04.jpg",
+    "output": "ASSET-04.png",
+    "transparent_ratio": 0.6922,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-05.jpg",
+    "output": "ASSET-05.png",
+    "transparent_ratio": 0.657,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-06.jpg",
+    "output": "ASSET-06.png",
+    "transparent_ratio": 0.7315,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-07.jpg",
+    "output": "ASSET-07.png",
+    "transparent_ratio": 0.4978,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-08.jpg",
+    "output": "ASSET-08.png",
+    "transparent_ratio": 0.4747,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-10.jpg",
+    "output": "ASSET-10.png",
+    "transparent_ratio": 0.0782,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-11.jpg",
+    "output": "ASSET-11.png",
+    "transparent_ratio": 0.0186,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-12.jpg",
+    "output": "ASSET-12.png",
+    "transparent_ratio": 0.6607,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-13.jpg",
+    "output": "ASSET-13.png",
+    "transparent_ratio": 0.0973,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-15.jpg",
+    "output": "ASSET-15.png",
+    "transparent_ratio": 0.1193,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-16.jpg",
+    "output": "ASSET-16.png",
+    "transparent_ratio": 0.0865,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-17.jpg",
+    "output": "ASSET-17.png",
+    "transparent_ratio": 0.0414,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-18.jpg",
+    "output": "ASSET-18.png",
+    "transparent_ratio": 0.3876,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-19.jpg",
+    "output": "ASSET-19.png",
+    "transparent_ratio": 0.2928,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-20.jpg",
+    "output": "ASSET-20.png",
+    "transparent_ratio": 0.2938,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-21.jpg",
+    "output": "ASSET-21.png",
+    "transparent_ratio": 0.393,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-22.jpg",
+    "output": "ASSET-22.png",
+    "transparent_ratio": 0.244,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-23.jpg",
+    "output": "ASSET-23.png",
+    "transparent_ratio": 0.2951,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-24.jpg",
+    "output": "ASSET-24.png",
+    "transparent_ratio": 0.2302,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-25.jpg",
+    "output": "ASSET-25.png",
+    "transparent_ratio": 0.2974,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-26.jpg",
+    "output": "ASSET-26.png",
+    "transparent_ratio": 0.3741,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-27.jpg",
+    "output": "ASSET-27.png",
+    "transparent_ratio": 0.2616,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-28.png",
+    "output": "ASSET-28.png",
+    "transparent_ratio": 0.146,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-29.png",
+    "output": "ASSET-29.png",
+    "transparent_ratio": 0.7882,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-30.jpg",
+    "output": "ASSET-30.png",
+    "transparent_ratio": 0.975,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-31.png",
+    "output": "ASSET-31.png",
+    "transparent_ratio": 0.5562,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-32.jpg",
+    "output": "ASSET-32.png",
+    "transparent_ratio": 0.4319,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-33.jpg",
+    "output": "ASSET-33.png",
+    "transparent_ratio": 0.3876,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-34.jpg",
+    "output": "ASSET-34.png",
+    "transparent_ratio": 0.3278,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-35.jpg",
+    "output": "ASSET-35.png",
+    "transparent_ratio": 0.316,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-36.jpg",
+    "output": "ASSET-36.png",
+    "transparent_ratio": 0.7166,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-37.jpg",
+    "output": "ASSET-37.png",
+    "transparent_ratio": 0.503,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-38.jpg",
+    "output": "ASSET-38.png",
+    "transparent_ratio": 0.6572,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-39.jpg",
+    "output": "ASSET-39.png",
+    "transparent_ratio": 0.6493,
+    "status": "done"
+  },
+  {
+    "source": "ASSET-44.jpg",
+    "output": "ASSET-44.png",
+    "transparent_ratio": 0.6715,
+    "status": "done"
+  }
+]

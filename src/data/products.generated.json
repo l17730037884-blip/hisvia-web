@@ -1,0 +1,1349 @@
+{
+ "generatedAt": "2026-08-19T09:33:19.931Z",
+ "count": 16,
+ "products": [
+  {
+   "productId": "P06-A",
+   "model": "301-2-001040-00(带制动轴)",
+   "slug": "301-2-001040-00",
+   "variant": "与P07-A同型号不同变体",
+   "sourcePage": 6,
+   "contentId": "CN-P06-PROD-01",
+   "imageAssetIds": [
+    "ASSET-18"
+   ],
+   "parameters": [
+    {
+     "name": "额定功率",
+     "value": "3KW"
+    },
+    {
+     "name": "额定输入转速",
+     "value": "3000r/min"
+    },
+    {
+     "name": "最大输入转速",
+     "value": "4500r/min"
+    },
+    {
+     "name": "减速比",
+     "value": "40:1"
+    },
+    {
+     "name": "额定输出转矩",
+     "value": "600NM"
+    },
+    {
+     "name": "最大输出转矩",
+     "value": "1100NM"
+    },
+    {
+     "name": "噪音",
+     "value": "≤65dB"
+    },
+    {
+     "name": "最大径向力",
+     "value": "3000KG"
+    },
+    {
+     "name": "回程间隙",
+     "value": "≤30arcmin"
+    },
+    {
+     "name": "满载效率",
+     "value": "≥90%"
+    },
+    {
+     "name": "使用寿命",
+     "value": "≥20000h"
+    },
+    {
+     "name": "润滑",
+     "value": "免维护合成润滑脂"
+    },
+    {
+     "name": "使用环境温度",
+     "value": "-15°C~+90°C"
+    },
+    {
+     "name": "防护等级",
+     "value": "IP54"
+    },
+    {
+     "name": "推荐适配电机",
+     "value": "1KW-3KW"
+    },
+    {
+     "name": "单轮驱动载荷",
+     "value": "3000KG"
+    },
+    {
+     "name": "行走速度",
+     "value": "0.94m/s-1.1m/s"
+    },
+    {
+     "name": "适配轮径",
+     "value": "Φ240-Φ280/推荐Φ270"
+    }
+   ],
+   "application": "AGV移动机器人专用精密行星轮毂行走减速器(PDF P04-B05)",
+   "customNote": "产品连接尺寸和速比可以根据客户需求调整和定制。"
+  },
+  {
+   "productId": "P06-B",
+   "model": "301-2-001040-00",
+   "slug": "301-2-001040-00",
+   "variant": null,
+   "sourcePage": 6,
+   "contentId": "CN-P06-PROD-02",
+   "imageAssetIds": [
+    "ASSET-05"
+   ],
+   "parameters": [
+    {
+     "name": "额定功率",
+     "value": "3KW"
+    },
+    {
+     "name": "额定输入转速",
+     "value": "3000r/min"
+    },
+    {
+     "name": "最大输入转速",
+     "value": "4500r/min"
+    },
+    {
+     "name": "减速比",
+     "value": "16:1"
+    },
+    {
+     "name": "额定输出转矩",
+     "value": "300NM"
+    },
+    {
+     "name": "最大输出转矩",
+     "value": "500NM"
+    },
+    {
+     "name": "噪音",
+     "value": "≤65dB"
+    },
+    {
+     "name": "最大径向力",
+     "value": "3000KG"
+    },
+    {
+     "name": "回程间隙",
+     "value": "≤30arcmin"
+    },
+    {
+     "name": "满载效率",
+     "value": "≥90%"
+    },
+    {
+     "name": "使用寿命",
+     "value": "≥20000h"
+    },
+    {
+     "name": "润滑",
+     "value": "免维护合成润滑脂"
+    },
+    {
+     "name": "使用环境温度",
+     "value": "-15°C~+90°C"
+    },
+    {
+     "name": "防护等级",
+     "value": "IP54"
+    },
+    {
+     "name": "推荐适配电机",
+     "value": "1KW-3KW"
+    },
+    {
+     "name": "单轮驱动载荷",
+     "value": "3000KG"
+    },
+    {
+     "name": "行走速度",
+     "value": "2.35m/s-2.75m/s"
+    },
+    {
+     "name": "适配轮径",
+     "value": "Φ240-Φ280/推荐Φ270"
+    }
+   ],
+   "application": "AGV移动机器人专用精密行星轮毂行走减速器(PDF P04-B05)",
+   "customNote": "产品连接尺寸和速比可以根据客户需求调整和定制。"
+  },
+  {
+   "productId": "P07-A",
+   "model": "301-2-001040-00(单、双支撑)",
+   "slug": "301-2-001040-00",
+   "variant": "与P06-A同型号不同变体",
+   "sourcePage": 7,
+   "contentId": "CN-P07-PROD-03",
+   "imageAssetIds": [
+    "ASSET-20"
+   ],
+   "parameters": [
+    {
+     "name": "额定功率",
+     "value": "3KW"
+    },
+    {
+     "name": "额定输入转速",
+     "value": "3000r/min"
+    },
+    {
+     "name": "最大输入转速",
+     "value": "4500r/min"
+    },
+    {
+     "name": "减速比",
+     "value": "40:1"
+    },
+    {
+     "name": "额定输出转矩",
+     "value": "600NM"
+    },
+    {
+     "name": "最大输出转矩",
+     "value": "1100NM"
+    },
+    {
+     "name": "噪音",
+     "value": "≤65dB"
+    },
+    {
+     "name": "最大径向力",
+     "value": "3000KG"
+    },
+    {
+     "name": "回程间隙",
+     "value": "≤30arcmin"
+    },
+    {
+     "name": "满载效率",
+     "value": "≥90%"
+    },
+    {
+     "name": "使用寿命",
+     "value": "≥20000h"
+    },
+    {
+     "name": "润滑",
+     "value": "免维护合成润滑脂"
+    },
+    {
+     "name": "使用环境温度",
+     "value": "-15°C~+90°C"
+    },
+    {
+     "name": "防护等级",
+     "value": "IP54"
+    },
+    {
+     "name": "推荐适配电机",
+     "value": "1KW-3KW"
+    },
+    {
+     "name": "单轮驱动载荷",
+     "value": "3000KG"
+    },
+    {
+     "name": "行走速度",
+     "value": "0.94m/s-1.1m/s"
+    },
+    {
+     "name": "适配轮径",
+     "value": "Φ240-Φ280/推荐Φ270"
+    }
+   ],
+   "application": "AGV移动机器人专用精密行星轮毂行走减速器(PDF P04-B05)",
+   "customNote": "产品连接尺寸和速比可以根据客户需求调整和定制。"
+  },
+  {
+   "productId": "P07-B",
+   "model": "301-2-001150-00",
+   "slug": "301-2-001150-00",
+   "variant": null,
+   "sourcePage": 7,
+   "contentId": "CN-P07-PROD-04",
+   "imageAssetIds": [
+    "ASSET-07"
+   ],
+   "parameters": [
+    {
+     "name": "额定功率",
+     "value": "3KW"
+    },
+    {
+     "name": "额定输入转速",
+     "value": "3000r/min"
+    },
+    {
+     "name": "最大输入转速",
+     "value": "4500r/min"
+    },
+    {
+     "name": "减速比",
+     "value": "16:1"
+    },
+    {
+     "name": "额定输出转矩",
+     "value": "300NM"
+    },
+    {
+     "name": "最大输出转矩",
+     "value": "500NM"
+    },
+    {
+     "name": "噪音",
+     "value": "≤65dB"
+    },
+    {
+     "name": "最大径向力",
+     "value": "3000KG"
+    },
+    {
+     "name": "回程间隙",
+     "value": "≤30arcmin"
+    },
+    {
+     "name": "满载效率",
+     "value": "≥90%"
+    },
+    {
+     "name": "使用寿命",
+     "value": "≥20000h"
+    },
+    {
+     "name": "润滑",
+     "value": "免维护合成润滑脂"
+    },
+    {
+     "name": "使用环境温度",
+     "value": "-15°C~+90°C"
+    },
+    {
+     "name": "防护等级",
+     "value": "IP54"
+    },
+    {
+     "name": "推荐适配电机",
+     "value": "1KW-3KW"
+    },
+    {
+     "name": "单轮驱动载荷",
+     "value": "3000KG"
+    },
+    {
+     "name": "行走速度",
+     "value": "2.35m/s-2.75m/s"
+    },
+    {
+     "name": "适配轮径",
+     "value": "Φ240-Φ280/推荐Φ270"
+    }
+   ],
+   "application": "AGV移动机器人专用精密行星轮毂行走减速器(PDF P04-B05)",
+   "customNote": "产品连接尺寸和速比可以根据客户需求调整和定制。"
+  },
+  {
+   "productId": "P08-A",
+   "model": "301-2-080021-00",
+   "slug": "301-2-080021-00",
+   "variant": null,
+   "sourcePage": 8,
+   "contentId": "CN-P08-PROD-05",
+   "imageAssetIds": [
+    "ASSET-22"
+   ],
+   "parameters": [
+    {
+     "name": "额定功率",
+     "value": "400W"
+    },
+    {
+     "name": "额定输入转速",
+     "value": "3000r/min"
+    },
+    {
+     "name": "最大输入转速",
+     "value": "5000r/min"
+    },
+    {
+     "name": "减速比",
+     "value": "21:1"
+    },
+    {
+     "name": "额定输出转矩",
+     "value": "80NM"
+    },
+    {
+     "name": "最大输出转矩",
+     "value": "160NM"
+    },
+    {
+     "name": "噪音",
+     "value": "≤65dB"
+    },
+    {
+     "name": "最大径向力",
+     "value": "600KG"
+    },
+    {
+     "name": "回程间隙",
+     "value": "≤30arcmin"
+    },
+    {
+     "name": "满载效率",
+     "value": "≥90%"
+    },
+    {
+     "name": "使用寿命",
+     "value": "≥20000h"
+    },
+    {
+     "name": "润滑",
+     "value": "免维护合成润滑脂"
+    },
+    {
+     "name": "使用环境温度",
+     "value": "-15°C~+90°C"
+    },
+    {
+     "name": "防护等级",
+     "value": "IP54"
+    },
+    {
+     "name": "推荐适配电机",
+     "value": "400W-1000W"
+    },
+    {
+     "name": "单轮驱动载荷",
+     "value": "600KG"
+    },
+    {
+     "name": "行走速度",
+     "value": "1.2m/s-1.5m/s"
+    },
+    {
+     "name": "适配轮径",
+     "value": "Φ160-Φ200/推荐Φ160"
+    }
+   ],
+   "application": "AGV移动机器人专用精密行星轮毂行走减速器(PDF P04-B05)",
+   "customNote": "产品连接尺寸和速比可以根据客户需求调整和定制。"
+  },
+  {
+   "productId": "P08-B",
+   "model": "301-2-001020-00(带制动轴)",
+   "slug": "301-2-001020-00-b",
+   "variant": null,
+   "sourcePage": 8,
+   "contentId": "CN-P08-PROD-06",
+   "imageAssetIds": [
+    "ASSET-08"
+   ],
+   "parameters": [
+    {
+     "name": "额定功率",
+     "value": "9KW"
+    },
+    {
+     "name": "额定输入转速",
+     "value": "2500r/min"
+    },
+    {
+     "name": "最大输入转速",
+     "value": "4000r/min"
+    },
+    {
+     "name": "减速比",
+     "value": "82.27:1"
+    },
+    {
+     "name": "额定输出转矩",
+     "value": "4000NM"
+    },
+    {
+     "name": "最大输出转矩",
+     "value": "10000NM"
+    },
+    {
+     "name": "噪音",
+     "value": "≤75dB"
+    },
+    {
+     "name": "最大径向力",
+     "value": "20000KG"
+    },
+    {
+     "name": "回程间隙",
+     "value": "≤60arcmin"
+    },
+    {
+     "name": "满载效率",
+     "value": "≥90%"
+    },
+    {
+     "name": "使用寿命",
+     "value": "≥20000h"
+    },
+    {
+     "name": "润滑",
+     "value": "润滑油"
+    },
+    {
+     "name": "使用环境温度",
+     "value": "-15°C~+90°C"
+    },
+    {
+     "name": "防护等级",
+     "value": "IP54"
+    },
+    {
+     "name": "推荐适配电机",
+     "value": "7.5KW-11KW"
+    },
+    {
+     "name": "单轮驱动载荷",
+     "value": "20000KG"
+    },
+    {
+     "name": "行走速度",
+     "value": "0.8m/s-0.95m/s"
+    },
+    {
+     "name": "适配轮径",
+     "value": "Φ500-Φ600/推荐Φ600"
+    }
+   ],
+   "application": "AGV移动机器人专用精密行星轮毂行走减速器(PDF P04-B05)",
+   "customNote": "产品连接尺寸和速比可以根据客户需求调整和定制。"
+  },
+  {
+   "productId": "P09-A",
+   "model": "301-2-005032-00(大承载双支撑)",
+   "slug": "301-2-005032-00",
+   "variant": null,
+   "sourcePage": 9,
+   "contentId": "CN-P09-PROD-07",
+   "imageAssetIds": [
+    "ASSET-24"
+   ],
+   "parameters": [
+    {
+     "name": "额定功率",
+     "value": "10KW"
+    },
+    {
+     "name": "额定输入转速",
+     "value": "1315r/min"
+    },
+    {
+     "name": "最大输入转速",
+     "value": "3026r/min"
+    },
+    {
+     "name": "减速比",
+     "value": "32:1"
+    },
+    {
+     "name": "额定输出转矩",
+     "value": "2700NM"
+    },
+    {
+     "name": "最大输出转矩",
+     "value": "4500NM"
+    },
+    {
+     "name": "噪音",
+     "value": "≤75dB"
+    },
+    {
+     "name": "最大径向力",
+     "value": "6000KG"
+    },
+    {
+     "name": "回程间隙",
+     "value": "≤60arcmin"
+    },
+    {
+     "name": "满载效率",
+     "value": "≥90%"
+    },
+    {
+     "name": "使用寿命",
+     "value": "≥20000h"
+    },
+    {
+     "name": "润滑",
+     "value": "润滑油"
+    },
+    {
+     "name": "使用环境温度",
+     "value": "-15°C~+90°C"
+    },
+    {
+     "name": "防护等级",
+     "value": "IP54"
+    },
+    {
+     "name": "推荐适配电机",
+     "value": "5.5KW-10KW"
+    },
+    {
+     "name": "单轮驱动载荷",
+     "value": "6000KG"
+    },
+    {
+     "name": "行走速度",
+     "value": "0.86m/s-1.07m/s"
+    },
+    {
+     "name": "适配轮径",
+     "value": "Φ400-Φ500"
+    }
+   ],
+   "application": "AGV移动机器人专用精密行星轮毂行走减速器(PDF P04-B05)",
+   "customNote": "产品连接尺寸和速比可以根据客户需求调整和定制。"
+  },
+  {
+   "productId": "P09-B",
+   "model": "301-2-004050-00(带制动轴)",
+   "slug": "301-2-004050-00",
+   "variant": null,
+   "sourcePage": 9,
+   "contentId": "CN-P09-PROD-08",
+   "imageAssetIds": [
+    "ASSET-23"
+   ],
+   "parameters": [
+    {
+     "name": "额定功率",
+     "value": "7.5KW"
+    },
+    {
+     "name": "额定输入转速",
+     "value": "3000r/min"
+    },
+    {
+     "name": "最大输入转速",
+     "value": "4500r/min"
+    },
+    {
+     "name": "减速比",
+     "value": "50:1"
+    },
+    {
+     "name": "额定输出转矩",
+     "value": "1800NM"
+    },
+    {
+     "name": "最大输出转矩",
+     "value": "3600NM"
+    },
+    {
+     "name": "噪音",
+     "value": "≤70dB"
+    },
+    {
+     "name": "最大径向力",
+     "value": "5000KG"
+    },
+    {
+     "name": "回程间隙",
+     "value": "≤30arcmin"
+    },
+    {
+     "name": "满载效率",
+     "value": "≥90%"
+    },
+    {
+     "name": "使用寿命",
+     "value": "≥20000h"
+    },
+    {
+     "name": "润滑",
+     "value": "免维护合成润滑脂"
+    },
+    {
+     "name": "使用环境温度",
+     "value": "-15°C~+90°C"
+    },
+    {
+     "name": "防护等级",
+     "value": "IP54"
+    },
+    {
+     "name": "推荐适配电机",
+     "value": "5.5KW-7.5KW"
+    },
+    {
+     "name": "单轮驱动载荷",
+     "value": "5000KG"
+    },
+    {
+     "name": "行走速度",
+     "value": "1.1m/s-1.25m/s"
+    },
+    {
+     "name": "适配轮径",
+     "value": "Φ350-Φ400"
+    }
+   ],
+   "application": "AGV移动机器人专用精密行星轮毂行走减速器(PDF P04-B05)",
+   "customNote": "产品连接尺寸和速比可以根据客户需求调整和定制。"
+  },
+  {
+   "productId": "P10-A",
+   "model": "301-2-001020-00",
+   "slug": "301-2-001020-00",
+   "variant": null,
+   "sourcePage": 10,
+   "contentId": "CN-P10-PROD-09",
+   "imageAssetIds": [
+    "ASSET-26"
+   ],
+   "parameters": [
+    {
+     "name": "额定功率",
+     "value": "1000W"
+    },
+    {
+     "name": "额定输入转速",
+     "value": "3000r/min"
+    },
+    {
+     "name": "最大输入转速",
+     "value": "6000r/min"
+    },
+    {
+     "name": "减速比",
+     "value": "20.5:1"
+    },
+    {
+     "name": "额定输出转矩",
+     "value": "164NM"
+    },
+    {
+     "name": "最大输出转矩",
+     "value": "295.2NM"
+    },
+    {
+     "name": "噪音",
+     "value": "≤65dB"
+    },
+    {
+     "name": "最大径向力",
+     "value": "280KG"
+    },
+    {
+     "name": "回程间隙",
+     "value": "≤30arcmin"
+    },
+    {
+     "name": "满载效率",
+     "value": "≥90%"
+    },
+    {
+     "name": "使用寿命",
+     "value": "≥20000h"
+    },
+    {
+     "name": "润滑",
+     "value": "免维护合成润滑脂"
+    },
+    {
+     "name": "使用环境温度",
+     "value": "-15°C~+90°C"
+    },
+    {
+     "name": "防护等级",
+     "value": "IP54"
+    },
+    {
+     "name": "推荐适配电机",
+     "value": "400W-1000W"
+    },
+    {
+     "name": "单轮驱动载荷",
+     "value": "280KG"
+    },
+    {
+     "name": "行走速度",
+     "value": "1.22m/s-1.53m/s"
+    },
+    {
+     "name": "适配轮径",
+     "value": "Φ160-Φ200/推荐Φ180"
+    }
+   ],
+   "application": "AGV移动机器人专用精密行星轮毂行走减速器(PDF P04-B05)",
+   "customNote": "产品连接尺寸和速比可以根据客户需求调整和定制。"
+  },
+  {
+   "productId": "P10-B",
+   "model": "301-2-160040-00(带制动轴)",
+   "slug": "301-2-160040-00",
+   "variant": null,
+   "sourcePage": 10,
+   "contentId": "CN-P10-PROD-10",
+   "imageAssetIds": [
+    "ASSET-25"
+   ],
+   "parameters": [
+    {
+     "name": "额定功率",
+     "value": "3KW"
+    },
+    {
+     "name": "额定输入转速",
+     "value": "3000r/min"
+    },
+    {
+     "name": "最大输入转速",
+     "value": "5000r/min"
+    },
+    {
+     "name": "减速比",
+     "value": "40:1"
+    },
+    {
+     "name": "额定输出转矩",
+     "value": "440NM"
+    },
+    {
+     "name": "最大输出转矩",
+     "value": "700NM"
+    },
+    {
+     "name": "噪音",
+     "value": "≤65dB"
+    },
+    {
+     "name": "最大径向力",
+     "value": "1500KG"
+    },
+    {
+     "name": "回程间隙",
+     "value": "≤30arcmin"
+    },
+    {
+     "name": "满载效率",
+     "value": "≥90%"
+    },
+    {
+     "name": "使用寿命",
+     "value": "≥20000h"
+    },
+    {
+     "name": "润滑",
+     "value": "免维护合成润滑脂"
+    },
+    {
+     "name": "使用环境温度",
+     "value": "-15°C~+90°C"
+    },
+    {
+     "name": "防护等级",
+     "value": "IP54"
+    },
+    {
+     "name": "推荐适配电机",
+     "value": "1.2KW-3KW"
+    },
+    {
+     "name": "单轮驱动载荷",
+     "value": "1500KG"
+    },
+    {
+     "name": "行走速度",
+     "value": "0.82m/s-0.98m/s"
+    },
+    {
+     "name": "适配轮径",
+     "value": "Φ210-Φ250"
+    }
+   ],
+   "application": "AGV移动机器人专用精密行星轮毂行走减速器(PDF P04-B05)",
+   "customNote": "产品连接尺寸和速比可以根据客户需求调整和定制。"
+  },
+  {
+   "productId": "P11-A",
+   "model": "GOA91F-00C",
+   "slug": "goa91f-00c",
+   "variant": null,
+   "sourcePage": 11,
+   "contentId": "CN-P11-PROD-11",
+   "imageAssetIds": [
+    "ASSET-27"
+   ],
+   "parameters": [
+    {
+     "name": "额定功率",
+     "value": "9KW"
+    },
+    {
+     "name": "额定输入转速",
+     "value": "2715r/min"
+    },
+    {
+     "name": "最大输入转速",
+     "value": "4000r/min"
+    },
+    {
+     "name": "减速比",
+     "value": "127.54:1"
+    },
+    {
+     "name": "额定输出转矩",
+     "value": "10000NM"
+    },
+    {
+     "name": "最大输出转矩",
+     "value": "38568NM"
+    },
+    {
+     "name": "噪音",
+     "value": "≤65dB"
+    },
+    {
+     "name": "最大径向力",
+     "value": "20000KG"
+    },
+    {
+     "name": "回程间隙",
+     "value": "≤30arcmin"
+    },
+    {
+     "name": "满载效率",
+     "value": "≥90%"
+    },
+    {
+     "name": "使用寿命",
+     "value": "≥20000h"
+    },
+    {
+     "name": "润滑",
+     "value": "润滑油"
+    },
+    {
+     "name": "使用环境温度",
+     "value": "-15°C~+90°C"
+    },
+    {
+     "name": "防护等级",
+     "value": "IP54"
+    },
+    {
+     "name": "推荐适配电机",
+     "value": "7.5KW-11KW"
+    },
+    {
+     "name": "单轮驱动载荷",
+     "value": "20000KG"
+    },
+    {
+     "name": "行走速度",
+     "value": "0.56m/s-0.67m/s"
+    },
+    {
+     "name": "适配轮径",
+     "value": "Φ500-Φ600/推荐Φ600"
+    }
+   ],
+   "application": "AGV移动机器人专用精密行星轮毂行走减速器(PDF P04-B05)",
+   "customNote": "产品连接尺寸和速比可以根据客户需求调整和定制。"
+  },
+  {
+   "productId": "P11-B",
+   "model": "AFR90-L2-C20",
+   "slug": "afr90-l2-c20",
+   "variant": null,
+   "sourcePage": 11,
+   "contentId": "CN-P11-PROD-12",
+   "imageAssetIds": [
+    "ASSET-31",
+    "ASSET-28",
+    "ASSET-29",
+    "ASSET-30"
+   ],
+   "parameters": [
+    {
+     "name": "额定功率",
+     "value": "1kW"
+    },
+    {
+     "name": "额定输入转速",
+     "value": "3000r/min"
+    },
+    {
+     "name": "最大输入转速",
+     "value": "6000r/min"
+    },
+    {
+     "name": "减速比",
+     "value": "12-100"
+    },
+    {
+     "name": "额定输出转矩",
+     "value": "60-108NM"
+    },
+    {
+     "name": "最大输出转矩",
+     "value": "120-200NM"
+    },
+    {
+     "name": "噪音",
+     "value": "≤65dB"
+    },
+    {
+     "name": "最大径向力",
+     "value": "1200N"
+    },
+    {
+     "name": "回程间隙",
+     "value": "≤30arcmin"
+    },
+    {
+     "name": "满载效率",
+     "value": "≥90%"
+    },
+    {
+     "name": "使用寿命",
+     "value": "≥20000h"
+    },
+    {
+     "name": "润滑",
+     "value": "免维护合成润滑脂"
+    },
+    {
+     "name": "使用环境温度",
+     "value": "-15°C~+90°C"
+    },
+    {
+     "name": "防护等级",
+     "value": "IP54"
+    },
+    {
+     "name": "推荐适配电机",
+     "value": "1kW 48V"
+    },
+    {
+     "name": "额定电流",
+     "value": "27A"
+    },
+    {
+     "name": "设备载荷",
+     "value": "1000KG"
+    }
+   ],
+   "application": "AGV移动机器人专用精密行星轮毂行走减速器(PDF P04-B05)",
+   "customNote": "产品连接尺寸和速比可以根据客户需求调整和定制。"
+  },
+  {
+   "productId": "P12-A",
+   "model": "FE-155D-L2-S2-P2",
+   "slug": "fe-155d-l2-s2-p2",
+   "variant": null,
+   "sourcePage": 12,
+   "contentId": "CN-P12-PROD-13",
+   "imageAssetIds": [
+    "ASSET-33"
+   ],
+   "parameters": [
+    {
+     "name": "额定功率",
+     "value": "1.2KW-3KW"
+    },
+    {
+     "name": "额定输入转速",
+     "value": "3000r/min"
+    },
+    {
+     "name": "最大输入转速",
+     "value": "6000r/min"
+    },
+    {
+     "name": "减速比",
+     "value": "12-100"
+    },
+    {
+     "name": "额定输出转矩",
+     "value": "342-450NM"
+    },
+    {
+     "name": "最大输出转矩",
+     "value": "684-900NM"
+    },
+    {
+     "name": "噪音",
+     "value": "≤65dB"
+    },
+    {
+     "name": "最大径向力",
+     "value": "9400N"
+    },
+    {
+     "name": "回程间隙",
+     "value": "≤10arcmin"
+    },
+    {
+     "name": "满载效率",
+     "value": "≥90%"
+    },
+    {
+     "name": "使用寿命",
+     "value": "≥20000h"
+    },
+    {
+     "name": "润滑",
+     "value": "免维护合成润滑脂"
+    },
+    {
+     "name": "使用环境温度",
+     "value": "-15°C~+90°C"
+    },
+    {
+     "name": "防护等级",
+     "value": "IP54"
+    }
+   ],
+   "application": "AGV移动机器人专用精密行星轮毂行走减速器(PDF P04-B05)",
+   "customNote": "产品连接尺寸和速比可以根据客户需求调整和定制。"
+  },
+  {
+   "productId": "P12-B",
+   "model": "FE-160D-L2-S2-P2",
+   "slug": "fe-160d-l2-s2-p2",
+   "variant": null,
+   "sourcePage": 12,
+   "contentId": "CN-P12-PROD-14",
+   "imageAssetIds": [
+    "ASSET-32"
+   ],
+   "parameters": [
+    {
+     "name": "额定功率",
+     "value": "1.2KW-3KW"
+    },
+    {
+     "name": "额定输入转速",
+     "value": "3000r/min"
+    },
+    {
+     "name": "最大输入转速",
+     "value": "6000r/min"
+    },
+    {
+     "name": "减速比",
+     "value": "12-100"
+    },
+    {
+     "name": "额定输出转矩",
+     "value": "342-450NM"
+    },
+    {
+     "name": "最大输出转矩",
+     "value": "684-900NM"
+    },
+    {
+     "name": "噪音",
+     "value": "≤65dB"
+    },
+    {
+     "name": "最大径向力",
+     "value": "9400N"
+    },
+    {
+     "name": "回程间隙",
+     "value": "≤10arcmin"
+    },
+    {
+     "name": "满载效率",
+     "value": "≥90%"
+    },
+    {
+     "name": "使用寿命",
+     "value": "≥20000h"
+    },
+    {
+     "name": "润滑",
+     "value": "免维护合成润滑脂"
+    },
+    {
+     "name": "使用环境温度",
+     "value": "-15°C~+90°C"
+    },
+    {
+     "name": "防护等级",
+     "value": "IP54"
+    }
+   ],
+   "application": "AGV移动机器人专用精密行星轮毂行走减速器(PDF P04-B05)",
+   "customNote": "产品连接尺寸和速比可以根据客户需求调整和定制。"
+  },
+  {
+   "productId": "P13-A",
+   "model": "FB-180D-L2-S2-P2(非标件)",
+   "slug": "fb-180d-l2-s2-p2",
+   "variant": null,
+   "sourcePage": 13,
+   "contentId": "CN-P13-PROD-15",
+   "imageAssetIds": [
+    "ASSET-34"
+   ],
+   "parameters": [
+    {
+     "name": "额定功率",
+     "value": "4.5KW-7.5KW"
+    },
+    {
+     "name": "额定输入转速",
+     "value": "3000r/min"
+    },
+    {
+     "name": "最大输入转速",
+     "value": "6000r/min"
+    },
+    {
+     "name": "减速比",
+     "value": "12-100"
+    },
+    {
+     "name": "额定输出转矩",
+     "value": "588-900NM"
+    },
+    {
+     "name": "最大输出转矩",
+     "value": "1176-1800NM"
+    },
+    {
+     "name": "噪音",
+     "value": "≤67dB"
+    },
+    {
+     "name": "最大径向力",
+     "value": "14500N"
+    },
+    {
+     "name": "回程间隙",
+     "value": "≤10arcmin"
+    },
+    {
+     "name": "满载效率",
+     "value": "≥90%"
+    },
+    {
+     "name": "使用寿命",
+     "value": "≥20000h"
+    },
+    {
+     "name": "润滑",
+     "value": "免维护合成润滑脂"
+    },
+    {
+     "name": "使用环境温度",
+     "value": "-15°C~+90°C"
+    },
+    {
+     "name": "防护等级",
+     "value": "IP54"
+    }
+   ],
+   "application": "AGV移动机器人专用精密行星轮毂行走减速器(PDF P04-B05)",
+   "customNote": "产品连接尺寸和速比可以根据客户需求调整和定制。"
+  },
+  {
+   "productId": "P13-B",
+   "model": "301-2-003120-00(带制动轴)",
+   "slug": "301-2-003120-00",
+   "variant": null,
+   "sourcePage": 13,
+   "contentId": "CN-P13-PROD-16",
+   "imageAssetIds": [
+    "ASSET-35"
+   ],
+   "parameters": [
+    {
+     "name": "额定功率",
+     "value": "9KW"
+    },
+    {
+     "name": "额定输入转速",
+     "value": "3000r/min"
+    },
+    {
+     "name": "最大输入转速",
+     "value": "6000r/min"
+    },
+    {
+     "name": "减速比",
+     "value": "120:1"
+    },
+    {
+     "name": "额定输出转矩",
+     "value": "3200NM"
+    },
+    {
+     "name": "最大输出转矩",
+     "value": "6400NM"
+    },
+    {
+     "name": "噪音",
+     "value": "≤70dB"
+    },
+    {
+     "name": "最大径向力",
+     "value": "12000KG"
+    },
+    {
+     "name": "回程间隙",
+     "value": "≤60arcmin"
+    },
+    {
+     "name": "满载效率",
+     "value": "≥90%"
+    },
+    {
+     "name": "使用寿命",
+     "value": "≥20000h"
+    },
+    {
+     "name": "润滑",
+     "value": "润滑油"
+    },
+    {
+     "name": "使用环境温度",
+     "value": "-15°C~+90°C"
+    },
+    {
+     "name": "防护等级",
+     "value": "IP54"
+    },
+    {
+     "name": "推荐适配电机",
+     "value": "7.5KW-11KW"
+    },
+    {
+     "name": "单轮驱动载荷",
+     "value": "12000KG"
+    },
+    {
+     "name": "行走速度",
+     "value": "0.65m/s-0.785m/s"
+    },
+    {
+     "name": "适配轮径",
+     "value": "Φ500-Φ600/推荐Φ600"
+    }
+   ],
+   "application": "AGV移动机器人专用精密行星轮毂行走减速器(PDF P04-B05)",
+   "customNote": "产品连接尺寸和速比可以根据客户需求调整和定制。"
+  }
+ ]
+}

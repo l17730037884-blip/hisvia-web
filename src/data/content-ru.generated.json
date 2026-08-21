@@ -1,0 +1,5132 @@
+{
+  "generatedAt": "2026-08-19T09:33:19.935Z",
+  "language": "ru",
+  "units": [
+    {
+      "contentId": "RU-P01-H01",
+      "sourceContentId": "CN-P01-H01",
+      "sourceCn": "蚌埠市行星工程机械有限公司",
+      "translation": "ООО «Бэнбу Планетарное Машиностроительное Предприятие»",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "CT-01"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P01-H02",
+      "sourceContentId": "CN-P01-H02",
+      "sourceCn": "蚌埠行星",
+      "translation": "Бэнбу Планетар",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.5,
+      "glossaryTermsUsed": [
+        "CT-02"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P01-H03",
+      "sourceContentId": "CN-P01-H03",
+      "sourceCn": "AGV精密减速机宣传册",
+      "translation": "Каталог прецизионных редукторов AGV",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "TT-01"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P01-H04",
+      "sourceContentId": "CN-P01-H04",
+      "sourceCn": "AUTOMATED GUIDED REDUCER",
+      "translation": "AUTOMATED GUIDED REDUCER",
+      "translationStatus": "TRANSLATED",
+      "confidence": 1,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P01-S01",
+      "sourceContentId": "CN-P01-S01",
+      "sourceCn": "专业成就事业，细致体现关怀，诚信铸就辉煌",
+      "translation": "Точность строит доверие. Внимание — партнёрства. Честность — результат.",
+      "translationStatus": "REWRITTEN_NATIVE",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P01-C01",
+      "sourceContentId": "CN-P01-C01",
+      "sourceCn": "安徽省蚌埠市国家级高新技术开发区大庆路1558号",
+      "translation": "КНР, провинция Аньхой, г. Бэнбу, национальная зона высокотехнологичного развития, ул. Дацин, 1558",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "CT-06",
+        "CT-07"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P01-C02",
+      "sourceContentId": "CN-P01-C02",
+      "sourceCn": "400-0552-863",
+      "translation": "400-0552-863",
+      "translationStatus": "TRANSLATED",
+      "confidence": 1,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P01-C03",
+      "sourceContentId": "CN-P01-C03",
+      "sourceCn": "233000",
+      "translation": "233000",
+      "translationStatus": "TRANSLATED",
+      "confidence": 1,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P01-N01",
+      "sourceContentId": "CN-P01-N01",
+      "sourceCn": "2023A版",
+      "translation": "Издание 2023A",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P02-H01",
+      "sourceContentId": "CN-P02-H01",
+      "sourceCn": "AGV精密行星减速机",
+      "translation": "Прецизионный планетарный редуктор AGV",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "TT-01",
+        "TT-03"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P02-H02",
+      "sourceContentId": "CN-P02-H02",
+      "sourceCn": "目录",
+      "translation": "Содержание",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P02-T01",
+      "sourceContentId": "CN-P02-T01",
+      "sourceCn": "企业简介",
+      "translation": "О компании",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P02-T02",
+      "sourceContentId": "CN-P02-T02",
+      "sourceCn": "产品介绍",
+      "translation": "О продукции",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P02-T03",
+      "sourceContentId": "CN-P02-T03",
+      "sourceCn": "功能优点",
+      "translation": "Функции и преимущества",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P02-T04",
+      "sourceContentId": "CN-P02-T04",
+      "sourceCn": "资质和荣誉",
+      "translation": "Квалификация и награды",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P02-T05",
+      "sourceContentId": "CN-P02-T05",
+      "sourceCn": "参数配置",
+      "translation": "Технические параметры",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P02-T06",
+      "sourceContentId": "CN-P02-T06",
+      "sourceCn": "定制流程",
+      "translation": "Индивидуальный заказ",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P03-H01",
+      "sourceContentId": "CN-P03-H01",
+      "sourceCn": "企业简介",
+      "translation": "О компании",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P03-B01",
+      "sourceContentId": "CN-P03-B01",
+      "sourceCn": "蚌埠市行星工程机械有限公司成立于2002年，坐落在千里淮河第一港蚌埠市的国家级高新技术产业开发区内。是从事机器人行走齿轮精密减速机的研发、制造和销售以及树形智能立体车库的研发与销售的实体企业。",
+      "translation": "ООО «Бэнбу Планетарное Машиностроительное Предприятие» основано в 2002 году и расположено в национальной зоне высокотехнологичного промышленного развития г. Бэнбу (провинция Аньхой, КНР). Мы разрабатываем, производим и поставляем прецизионные зубчатые редукторы приводных колёс роботов, а также создаём интеллектуальные многоярусные гаражи древовидного типа.",
+      "translationStatus": "REWRITTEN_NATIVE",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "CT-01",
+        "CT-06",
+        "CT-07",
+        "TT-04",
+        "TT-16"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P03-B02",
+      "sourceContentId": "CN-P03-B02",
+      "sourceCn": "公司占地面积40000多平方米，从事行星齿轮减速器研发制造30多年。产品涉及工业机器人、工程机械、风力发电、矿山机械等设备行星减速器的研发、生产、制造等。",
+      "translation": "Площадь производственных площадей предприятия — более 40 000 м². Более 30 лет мы специализируемся на разработке и серийном производстве планетарных редукторов. Наша продукция применяется в промышленных роботах, строительной технике, ветроэнергетике, горнодобывающем оборудовании и других ответственных сферах.",
+      "translationStatus": "REWRITTEN_NATIVE",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "TT-03",
+        "TT-17",
+        "TT-18",
+        "TT-19",
+        "TT-20"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P03-B03",
+      "sourceContentId": "CN-P03-B03",
+      "sourceCn": "为中国中铁，中国铁建重工、海螺集团等国内外知名厂家配套。产品远销国内外30几个国家及地区。",
+      "translation": "Мы поставляем компоненты ведущим отечественным и зарубежным производителям, включая China Railway, CRCC Heavy Industry и Conch Group. География поставок — более 30 стран и регионов мира.",
+      "translationStatus": "REWRITTEN_NATIVE",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "CT-03",
+        "CT-04",
+        "CT-05"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P03-B04",
+      "sourceContentId": "CN-P03-B04",
+      "sourceCn": "公司多项产品获得科技进步奖、名牌产品等荣誉称号。机器人行星精密减速机除了满足常规系列AGV机器人使用外，更在重载工业机器人领域有着独到的经验和实力。",
+      "translation": "Ряд наших линеек отмечен премиями за научно-технические достижения и званиями «известный бренд» провинциального уровня. Прецизионные планетарные редукторы полностью покрывают потребности серийных AGV-платформ, а также доказали надёжность в составе тяжёлых промышленных роботов при длительных пиковых нагрузках.",
+      "translationStatus": "REWRITTEN_NATIVE",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "TT-05",
+        "TT-23"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P03-B05",
+      "sourceContentId": "CN-P03-B05",
+      "sourceCn": "公司自成立以来，始终以“一流的产品质量、一流的工作效率、一流的企业形象”为企业宗旨，坚持用户第一、注重质量管理，不断自我超越。我们将继续发扬“不断改进是我们制胜的法宝”的光荣传统。与海内外广大客商共同创造智能机器人知名品牌。",
+      "translation": "С момента основания компания придерживается принципа «первоклассное качество продукции, первоклассная эффективность работы, первоклассный имидж предприятия», ставит интересы клиента на первое место, уделяет внимание управлению качеством и постоянно превосходит себя. Мы продолжаем славную традицию «Постоянное совершенствование — наша формула успеха» и вместе с партнёрами в Китае и за рубежом создаём известный бренд интеллектуальных роботов.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "CT-01"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P03-S01",
+      "sourceContentId": "CN-P03-S01",
+      "sourceCn": "行星传动 装备美好生活",
+      "translation": "Планетарные передачи — для лучшей жизни",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "TT-03"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P04-H01",
+      "sourceContentId": "CN-P04-H01",
+      "sourceCn": "产品介绍",
+      "translation": "О продукции",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P04-B01",
+      "sourceContentId": "CN-P04-B01",
+      "sourceCn": "AGV是（Automated Guided Vehicle）的缩写，意即“自动导引运输车”，又名无人搬运车、自动导航车、激光导航车。其显著特点的是无人驾驶，AGV上装备有自动导向系统，可以保障系统在不需要人工引航的情况下就能够沿预定的路线自动行驶，将货物或物料自动从起始点运送到目的地。移动系统的关键传统部件即行星齿轮精密减速器。",
+      "translation": "AGV — аббревиатура от Automated Guided Vehicle, т.е. «автоматически управляемое транспортное средство», также называемое безводительским транспортным средством, транспортным средством с автоматической навигацией или лазерной навигацией. Его отличительная особенность — движение без водителя: AGV оснащён системой автоматического наведения, позволяющей следовать по заданному маршруту без вмешательства человека.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "TT-05",
+        "TT-06",
+        "TT-07",
+        "TT-08",
+        "TT-09"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P04-B02",
+      "sourceContentId": "CN-P04-B02",
+      "sourceCn": "行星减速器是由精密齿轮按行星结构设计的，专业用于机器人扭矩传动的关键核心部件。行星减速器配备电机、控制器、转向盘等即组成转向舵轮。",
+      "translation": "Планетарный редуктор построен по схеме «солнце — сателлиты — эпицикл» из прецизионных зубчатых колёс и обеспечивает высокую плотность крутящего момента при компактных габаритах. Это главный элемент силовой передачи в робототехнических платформах. В сборе с тяговым электродвигателем, контроллером и поворотным диском он образует управляемое ведущее колесо полного привода.",
+      "translationStatus": "REWRITTEN_NATIVE",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "TT-03",
+        "TT-10",
+        "EG-22"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P04-H02",
+      "sourceContentId": "CN-P04-H02",
+      "sourceCn": "功能优点",
+      "translation": "Функции и преимущества",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P04-B03",
+      "sourceContentId": "CN-P04-B03",
+      "sourceCn": "行星减速器作为AGV核心零部件的优点：结构紧凑、占用空间小、传动精度高，使机器人在工作中能够完成特别精密的工作指令。行星减速结构可以实现传动效率高，可以在较小的空间内使机器人动力传动损耗更少、速度可控、扭矩增大。使机器人运输能力大幅度增加。",
+      "translation": "Как сердце силовой приводной схемы AGV, планетарный редуктор даёт три ключевых преимущества. Во-первых, компактность при высокой точности позиционирования — машина выполняет повторяющиеся микронные перемещения в стеснённых проходах. Во-вторых, высокий КПД и низкие потери мощности даже при жёстких ограничениях по месту в шасси. В-третьих, стабильное управление скоростью с гарантированным выходным моментом. Итог: реальный прирост грузоподъёмности и производительности за смену.",
+      "translationStatus": "REWRITTEN_NATIVE",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "TT-05",
+        "TT-03",
+        "EG-21",
+        "EG-22"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P04-B04",
+      "sourceContentId": "CN-P04-B04",
+      "sourceCn": "行星减速器采用行星结构设计，硬齿面齿轮加工，使机器寿命更长久更耐用。",
+      "translation": "Зубчатые колёса в наших редукторах проходят объёмную закалку (case-hardening) с последующим шлифованием профиля — это гарантирует увеличенный моторесурс и стабильность характеристик под непрерывной нагрузкой.",
+      "translationStatus": "REWRITTEN_NATIVE",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "TT-03",
+        "TT-12",
+        "EG-11"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P04-B05",
+      "sourceContentId": "CN-P04-B05",
+      "sourceCn": "针对AGV移动机器人特殊设计的精密行星轮毂行走减速器，能够更有效的应对客户所需。具有同体积传动效率更高、同工况运行精度更高、更精密、高强度。同扭矩运行寿命更长、应对特殊工况更强、配置丰富多样、配置重载圆锥滚子轴承在长期的实际工况使用中较RV系列、摆线针轮系列等减速器寿命更长、维护成本更低。",
+      "translation": "Наш прецизионный планетарный колёсно-ходовой редуктор спроектирован специально под AGV-платформы — все параметры «заточены» под реальные требования заказчиков. При равных габаритах он демонстрирует более высокий КПД и повторяемость позиционирования, чем у конкурентов. При равном паспортном моменте — больший моторесурс и устойчивость к ударным нагрузкам, пыли, влаге и перепадам температур. В стандартную комплектацию входят тяжёлые конические роликовые подшипники — поэтому по реальному ресурсу и стоимости владения в длительной полевой эксплуатации редуктор стабильно превосходит RV- и циклоидальные схемы.",
+      "translationStatus": "REWRITTEN_NATIVE",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "TT-05",
+        "TT-11",
+        "TT-13",
+        "TT-15",
+        "EG-21"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P05-H01",
+      "sourceContentId": "CN-P05-H01",
+      "sourceCn": "资质和荣誉",
+      "translation": "Квалификация и награды",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P05-F01",
+      "sourceContentId": "CN-P05-F01",
+      "sourceCn": "我公司机器人精密减速器于2016年获得科技部科技成果鉴定",
+      "translation": "В 2016 году наш прецизионный редуктор для роботов прошёл экспертизу научно-технических достижений Министерства науки и технологий КНР.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "CR-01",
+        "CR-02",
+        "TT-23"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P05-F02",
+      "sourceContentId": "CN-P05-F02",
+      "sourceCn": "于2018年收录于安徽省科技报告共享服务系统（kibg.ahinfo.gov.cn）",
+      "translation": "В 2018 году включён в Систему совместного доступа к научно-техническим отчётам провинции Аньхой (kibg.ahinfo.gov.cn). Номер свидетельства AHSTR-2018-00104.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "CR-03",
+        "CR-06",
+        "CR-10"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P05-F03",
+      "sourceContentId": "CN-P05-F03",
+      "sourceCn": "于2018年收录于安徽省科技报告共享服务系统",
+      "translation": "В 2018 году прецизионный редуктор для роботов получил Свидетельство о регистрации научно-технического достижения.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "CR-04",
+        "TT-23"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P05-F04",
+      "sourceContentId": "CN-P05-F04",
+      "sourceCn": "机器人精密减速器2018年获得科技成果登记证书",
+      "translation": "Вторая премия в области науки и техники провинции Аньхой (лауреат: ООО «Бэнбу Планетарное Машиностроительное Предприятие»; регистрирующий орган: Департамент науки и технологий провинции Аньхой; проект: разработка и промышленное внедрение главных приводных редукторов для тоннелепроходческих щитов).",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.65,
+      "glossaryTermsUsed": [
+        "AW-01",
+        "AW-03",
+        "AW-05",
+        "TT-21",
+        "TT-22",
+        "AW-10"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P05-F05",
+      "sourceContentId": "CN-P05-F05",
+      "sourceCn": "蚌埠市第二批“3221”产业创新团队",
+      "translation": "Промышленная инновационная команда «3221» (вторая группа, город Бэнбу, 2012 г.).",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.75,
+      "glossaryTermsUsed": [
+        "AW-06",
+        "CR-09"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P05-F06",
+      "sourceContentId": "CN-P05-F06",
+      "sourceCn": "安徽省工业设计中心",
+      "translation": "Промышленный дизайн-центр провинции Аньхой",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "AW-07"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P05-F07",
+      "sourceContentId": "CN-P05-F07",
+      "sourceCn": "安徽省创新型试点企业",
+      "translation": "Инновационное пилотное предприятие провинции Аньхой",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "AW-08"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P05-F08",
+      "sourceContentId": "CN-P05-F08",
+      "sourceCn": "蚌埠市科学技术奖 一等奖（项目名称：盾构机主驱动减速机的国产化；奖状号：2015-1-3；日期2016年4月12日）",
+      "translation": "Первая премия в области науки и техники города Бэнбу (проект: локализация главных приводных редукторов для тоннелепроходческих щитов; номер диплома 2015-1-3; дата: 12 апреля 2016 г.).",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "AW-01",
+        "AW-02",
+        "AW-04",
+        "TT-21",
+        "TT-22",
+        "AW-09",
+        "CR-08"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P14-H01",
+      "sourceContentId": "CN-P14-H01",
+      "sourceCn": "定制流程",
+      "translation": "Процесс индивидуального заказа",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P14-P01",
+      "sourceContentId": "CN-P14-P01",
+      "sourceCn": "客户提出定制需求",
+      "translation": "Формулирование требований",
+      "translationStatus": "REWRITTEN_NATIVE",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P14-P02",
+      "sourceContentId": "CN-P14-P02",
+      "sourceCn": "了解需求",
+      "translation": "Анализ задачи",
+      "translationStatus": "REWRITTEN_NATIVE",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P14-P03",
+      "sourceContentId": "CN-P14-P03",
+      "sourceCn": "归纳总结",
+      "translation": "Оценка реализуемости",
+      "translationStatus": "REWRITTEN_NATIVE",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P14-P04",
+      "sourceContentId": "CN-P14-P04",
+      "sourceCn": "定制方案",
+      "translation": "Разработка предложения",
+      "translationStatus": "REWRITTEN_NATIVE",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P14-P05",
+      "sourceContentId": "CN-P14-P05",
+      "sourceCn": "确定方案",
+      "translation": "Согласование и фиксация",
+      "translationStatus": "REWRITTEN_NATIVE",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P14-P06",
+      "sourceContentId": "CN-P14-P06",
+      "sourceCn": "安排生产",
+      "translation": "Запуск в производство",
+      "translationStatus": "REWRITTEN_NATIVE",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P14-P07",
+      "sourceContentId": "CN-P14-P07",
+      "sourceCn": "安装调试",
+      "translation": "Монтаж и наладка",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P14-P08",
+      "sourceContentId": "CN-P14-P08",
+      "sourceCn": "售后服务",
+      "translation": "Сервис и сопровождение",
+      "translationStatus": "REWRITTEN_NATIVE",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P14-B01",
+      "sourceContentId": "CN-P14-B01",
+      "sourceCn": "我们专注于：安全性——使您的设备长时间运行而没有后顾之忧；集成性——降低设备总成本，提高设备的性能和使用效率；多用性——响应客户要求，提供个性化定制，使您的设备适应更多工况；创新——我们不仅仅是制造，我们旨在提供智能创造。",
+      "translation": "При разработке каждого редуктора мы держим четыре приоритета, проверенные практикой. Безопасность — стабильная работа парка ваших машин в долгую. Стоимость владения — высокий КПД и низкие затраты на ТО на всём протяжении жизненного цикла. Адаптивность — индивидуальные подсоединения, передаточные числа и моменты под конкретное применение. Инженерные новшества — мы не просто «делаем детали», мы создаём приводные решения, расширяющие возможности ваших роботов.",
+      "translationStatus": "REWRITTEN_NATIVE",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-P14-B02",
+      "sourceContentId": "CN-P14-B02",
+      "sourceCn": "我公司专注设计加工行星减速机30多年，有着先进的生产设备和完善的设计制造体系。随着工业机器人行业的迅速发展，为顺应市场需求，我公司研究开发了多种AGV精密减速机。具有体积小、重量轻、扭矩大、速比范围广、精度高、传动效率高、免维护等特点，被广泛用于各种工业智能化产品中。",
+      "translation": "Более 30 лет мы проектируем и производим планетарные редукторы. Собственное производство укомплектовано современными станками с ЧПУ для нарезания и шлифования зубьев, а также многоступенчатой системой входного и выходного контроля качества. В ответ на стремительный рост рынка промышленных роботов мы расширили линейку AGV-редукторов по диапазонам моментов, передаточных чисел и габаритов. Отличительные черты наших AGV-решений: компактность, малая масса, высокая плотность момента, широкий ряд передаточных чисел, жёсткие допуски по люфту, высокий КПД и длительные интервалы обслуживания. Редукторы работают в составе самых разных устройств промышленной автоматизации и интеллектуального производства.",
+      "translationStatus": "REWRITTEN_NATIVE",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "TT-01",
+        "TT-03",
+        "TT-17"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P06-A-TITLE",
+      "sourceContentId": "CN-P06-PROD-01",
+      "sourceCn": "301-2-001040-00(带制动轴)",
+      "translation": "301-2-001040-00 (с тормозным валом)",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "PM-01"
+      ],
+      "protectedTermsPreserved": [
+        "301-2-001040-00"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-A-NOTE",
+      "sourceContentId": "CN-P06-PROD-01-NOTE",
+      "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
+      "translation": "Присоединительные размеры и передаточные числа могут быть скорректированы и изготовлены по индивидуальным требованиям заказчика.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-24",
+        "EG-04"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P06-A-APP",
+      "sourceContentId": "CN-P06-PROD-01-APP",
+      "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
+      "translation": "Прецизионный планетарный колёсный ходовой редуктор для мобильных роботов AGV",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "TT-05",
+        "TT-03",
+        "TT-11"
+      ],
+      "protectedTermsPreserved": [
+        "AGV"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-A-PARAM-55",
+      "sourceContentId": "CN-P06-PROD-01-PARAM-额定功率",
+      "sourceCn": "额定功率 = 3KW",
+      "translation": "Номинальная мощность = 3KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-01"
+      ],
+      "protectedTermsPreserved": [
+        "3KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-A-PARAM-56",
+      "sourceContentId": "CN-P06-PROD-01-PARAM-额定输入转速",
+      "sourceCn": "额定输入转速 = 3000r/min",
+      "translation": "Номинальная частота вращения на входе = 3000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-02"
+      ],
+      "protectedTermsPreserved": [
+        "3000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-A-PARAM-57",
+      "sourceContentId": "CN-P06-PROD-01-PARAM-最大输入转速",
+      "sourceCn": "最大输入转速 = 4500r/min",
+      "translation": "Макс. частота вращения на входе = 4500r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-03"
+      ],
+      "protectedTermsPreserved": [
+        "4500r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-A-PARAM-58",
+      "sourceContentId": "CN-P06-PROD-01-PARAM-减速比",
+      "sourceCn": "减速比 = 40:1",
+      "translation": "Передаточное число = 40:1",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-04"
+      ],
+      "protectedTermsPreserved": [
+        "40:1"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-A-PARAM-59",
+      "sourceContentId": "CN-P06-PROD-01-PARAM-额定输出转矩",
+      "sourceCn": "额定输出转矩 = 600NM",
+      "translation": "Номинальный выходной крутящий момент = 600NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-05"
+      ],
+      "protectedTermsPreserved": [
+        "600NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-A-PARAM-60",
+      "sourceContentId": "CN-P06-PROD-01-PARAM-最大输出转矩",
+      "sourceCn": "最大输出转矩 = 1100NM",
+      "translation": "Макс. выходной крутящий момент = 1100NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-06"
+      ],
+      "protectedTermsPreserved": [
+        "1100NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-A-PARAM-61",
+      "sourceContentId": "CN-P06-PROD-01-PARAM-噪音",
+      "sourceCn": "噪音 = ≤65dB",
+      "translation": "Шум = ≤65dB",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-07"
+      ],
+      "protectedTermsPreserved": [
+        "≤65dB"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-A-PARAM-62",
+      "sourceContentId": "CN-P06-PROD-01-PARAM-最大径向力",
+      "sourceCn": "最大径向力 = 3000KG",
+      "translation": "Макс. радиальная нагрузка = 3000KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-08"
+      ],
+      "protectedTermsPreserved": [
+        "3000KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-A-PARAM-63",
+      "sourceContentId": "CN-P06-PROD-01-PARAM-回程间隙",
+      "sourceCn": "回程间隙 = ≤30arcmin",
+      "translation": "Мёртвый ход (люфт) = ≤30arcmin",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-09"
+      ],
+      "protectedTermsPreserved": [
+        "≤30arcmin"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-A-PARAM-64",
+      "sourceContentId": "CN-P06-PROD-01-PARAM-满载效率",
+      "sourceCn": "满载效率 = ≥90%",
+      "translation": "КПД при полной нагрузке = ≥90%",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-10"
+      ],
+      "protectedTermsPreserved": [
+        "≥90%"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-A-PARAM-65",
+      "sourceContentId": "CN-P06-PROD-01-PARAM-使用寿命",
+      "sourceCn": "使用寿命 = ≥20000h",
+      "translation": "Срок службы = ≥20000h",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-11"
+      ],
+      "protectedTermsPreserved": [
+        "≥20000h"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-A-PARAM-66",
+      "sourceContentId": "CN-P06-PROD-01-PARAM-润滑",
+      "sourceCn": "润滑 = 免维护合成润滑脂",
+      "translation": "Смазка = Синтетическая смазка, не требующая обслуживания",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-12"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P06-A-PARAM-67",
+      "sourceContentId": "CN-P06-PROD-01-PARAM-使用环境温度",
+      "sourceCn": "使用环境温度 = -15°C~+90°C",
+      "translation": "Рабочая температура окружающей среды = -15°C~+90°C",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-13"
+      ],
+      "protectedTermsPreserved": [
+        "-15°C~+90°C"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-A-PARAM-68",
+      "sourceContentId": "CN-P06-PROD-01-PARAM-防护等级",
+      "sourceCn": "防护等级 = IP54",
+      "translation": "Степень защиты = IP54",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-14"
+      ],
+      "protectedTermsPreserved": [
+        "IP54"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-A-PARAM-69",
+      "sourceContentId": "CN-P06-PROD-01-PARAM-推荐适配电机",
+      "sourceCn": "推荐适配电机 = 1KW-3KW",
+      "translation": "Рекомендуемый электродвигатель = 1KW-3KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-15"
+      ],
+      "protectedTermsPreserved": [
+        "1KW-3KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-A-PARAM-70",
+      "sourceContentId": "CN-P06-PROD-01-PARAM-单轮驱动载荷",
+      "sourceCn": "单轮驱动载荷 = 3000KG",
+      "translation": "Нагрузка на ведущее колесо = 3000KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-16"
+      ],
+      "protectedTermsPreserved": [
+        "3000KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-A-PARAM-71",
+      "sourceContentId": "CN-P06-PROD-01-PARAM-行走速度",
+      "sourceCn": "行走速度 = 0.94m/s-1.1m/s",
+      "translation": "Скорость движения = 0.94m/s-1.1m/s",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-17"
+      ],
+      "protectedTermsPreserved": [
+        "0.94m/s-1.1m/s"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-A-PARAM-72",
+      "sourceContentId": "CN-P06-PROD-01-PARAM-适配轮径",
+      "sourceCn": "适配轮径 = Φ240-Φ280/推荐Φ270",
+      "translation": "Диаметр подходящего колеса = Φ240-Φ280/推荐Φ270",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-18"
+      ],
+      "protectedTermsPreserved": [
+        "Φ240-Φ280/推荐Φ270"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-B-TITLE",
+      "sourceContentId": "CN-P06-PROD-02",
+      "sourceCn": "301-2-001016-00(带制动轴)",
+      "translation": "301-2-001016-00 (с тормозным валом)",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "PM-02"
+      ],
+      "protectedTermsPreserved": [
+        "301-2-001016-00"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-B-NOTE",
+      "sourceContentId": "CN-P06-PROD-02-NOTE",
+      "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
+      "translation": "Присоединительные размеры и передаточные числа могут быть скорректированы и изготовлены по индивидуальным требованиям заказчика.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-24",
+        "EG-04"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P06-B-APP",
+      "sourceContentId": "CN-P06-PROD-02-APP",
+      "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
+      "translation": "Прецизионный планетарный колёсный ходовой редуктор для мобильных роботов AGV",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "TT-05",
+        "TT-03",
+        "TT-11"
+      ],
+      "protectedTermsPreserved": [
+        "AGV"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-B-PARAM-76",
+      "sourceContentId": "CN-P06-PROD-02-PARAM-额定功率",
+      "sourceCn": "额定功率 = 3KW",
+      "translation": "Номинальная мощность = 3KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-01"
+      ],
+      "protectedTermsPreserved": [
+        "3KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-B-PARAM-77",
+      "sourceContentId": "CN-P06-PROD-02-PARAM-额定输入转速",
+      "sourceCn": "额定输入转速 = 3000r/min",
+      "translation": "Номинальная частота вращения на входе = 3000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-02"
+      ],
+      "protectedTermsPreserved": [
+        "3000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-B-PARAM-78",
+      "sourceContentId": "CN-P06-PROD-02-PARAM-最大输入转速",
+      "sourceCn": "最大输入转速 = 4500r/min",
+      "translation": "Макс. частота вращения на входе = 4500r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-03"
+      ],
+      "protectedTermsPreserved": [
+        "4500r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-B-PARAM-79",
+      "sourceContentId": "CN-P06-PROD-02-PARAM-减速比",
+      "sourceCn": "减速比 = 16:1",
+      "translation": "Передаточное число = 16:1",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-04"
+      ],
+      "protectedTermsPreserved": [
+        "16:1"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-B-PARAM-80",
+      "sourceContentId": "CN-P06-PROD-02-PARAM-额定输出转矩",
+      "sourceCn": "额定输出转矩 = 300NM",
+      "translation": "Номинальный выходной крутящий момент = 300NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-05"
+      ],
+      "protectedTermsPreserved": [
+        "300NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-B-PARAM-81",
+      "sourceContentId": "CN-P06-PROD-02-PARAM-最大输出转矩",
+      "sourceCn": "最大输出转矩 = 500NM",
+      "translation": "Макс. выходной крутящий момент = 500NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-06"
+      ],
+      "protectedTermsPreserved": [
+        "500NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-B-PARAM-82",
+      "sourceContentId": "CN-P06-PROD-02-PARAM-噪音",
+      "sourceCn": "噪音 = ≤65dB",
+      "translation": "Шум = ≤65dB",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-07"
+      ],
+      "protectedTermsPreserved": [
+        "≤65dB"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-B-PARAM-83",
+      "sourceContentId": "CN-P06-PROD-02-PARAM-最大径向力",
+      "sourceCn": "最大径向力 = 3000KG",
+      "translation": "Макс. радиальная нагрузка = 3000KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-08"
+      ],
+      "protectedTermsPreserved": [
+        "3000KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-B-PARAM-84",
+      "sourceContentId": "CN-P06-PROD-02-PARAM-回程间隙",
+      "sourceCn": "回程间隙 = ≤30arcmin",
+      "translation": "Мёртвый ход (люфт) = ≤30arcmin",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-09"
+      ],
+      "protectedTermsPreserved": [
+        "≤30arcmin"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-B-PARAM-85",
+      "sourceContentId": "CN-P06-PROD-02-PARAM-满载效率",
+      "sourceCn": "满载效率 = ≥90%",
+      "translation": "КПД при полной нагрузке = ≥90%",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-10"
+      ],
+      "protectedTermsPreserved": [
+        "≥90%"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-B-PARAM-86",
+      "sourceContentId": "CN-P06-PROD-02-PARAM-使用寿命",
+      "sourceCn": "使用寿命 = ≥20000h",
+      "translation": "Срок службы = ≥20000h",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-11"
+      ],
+      "protectedTermsPreserved": [
+        "≥20000h"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-B-PARAM-87",
+      "sourceContentId": "CN-P06-PROD-02-PARAM-润滑",
+      "sourceCn": "润滑 = 免维护合成润滑脂",
+      "translation": "Смазка = Синтетическая смазка, не требующая обслуживания",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-12"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P06-B-PARAM-88",
+      "sourceContentId": "CN-P06-PROD-02-PARAM-使用环境温度",
+      "sourceCn": "使用环境温度 = -15°C~+90°C",
+      "translation": "Рабочая температура окружающей среды = -15°C~+90°C",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-13"
+      ],
+      "protectedTermsPreserved": [
+        "-15°C~+90°C"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-B-PARAM-89",
+      "sourceContentId": "CN-P06-PROD-02-PARAM-防护等级",
+      "sourceCn": "防护等级 = IP54",
+      "translation": "Степень защиты = IP54",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-14"
+      ],
+      "protectedTermsPreserved": [
+        "IP54"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-B-PARAM-90",
+      "sourceContentId": "CN-P06-PROD-02-PARAM-推荐适配电机",
+      "sourceCn": "推荐适配电机 = 1KW-3KW",
+      "translation": "Рекомендуемый электродвигатель = 1KW-3KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.8,
+      "glossaryTermsUsed": [
+        "EG-15"
+      ],
+      "protectedTermsPreserved": [
+        "1KW-3KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-B-PARAM-91",
+      "sourceContentId": "CN-P06-PROD-02-PARAM-单轮驱动载荷",
+      "sourceCn": "单轮驱动载荷 = 3000KG",
+      "translation": "Нагрузка на ведущее колесо = 3000KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-16"
+      ],
+      "protectedTermsPreserved": [
+        "3000KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-B-PARAM-92",
+      "sourceContentId": "CN-P06-PROD-02-PARAM-行走速度",
+      "sourceCn": "行走速度 = 2.35m/s-2.75m/s",
+      "translation": "Скорость движения = 2.35m/s-2.75m/s",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-17"
+      ],
+      "protectedTermsPreserved": [
+        "2.35m/s-2.75m/s"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P06-B-PARAM-93",
+      "sourceContentId": "CN-P06-PROD-02-PARAM-适配轮径",
+      "sourceCn": "适配轮径 = Φ240-Φ280/推荐Φ270",
+      "translation": "Диаметр подходящего колеса = Φ240-Φ280/推荐Φ270",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-18"
+      ],
+      "protectedTermsPreserved": [
+        "Φ240-Φ280/推荐Φ270"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-A-TITLE",
+      "sourceContentId": "CN-P07-PROD-03",
+      "sourceCn": "301-2-001040-00(单、双支撑)",
+      "translation": "301-2-001040-00 (одно-/двухопорное исполнение)",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "PM-01"
+      ],
+      "protectedTermsPreserved": [
+        "301-2-001040-00"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-A-NOTE",
+      "sourceContentId": "CN-P07-PROD-03-NOTE",
+      "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
+      "translation": "Присоединительные размеры и передаточные числа могут быть скорректированы и изготовлены по индивидуальным требованиям заказчика.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-24",
+        "EG-04"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P07-A-APP",
+      "sourceContentId": "CN-P07-PROD-03-APP",
+      "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
+      "translation": "Прецизионный планетарный колёсный ходовой редуктор для мобильных роботов AGV",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "TT-05",
+        "TT-03",
+        "TT-11"
+      ],
+      "protectedTermsPreserved": [
+        "AGV"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-A-PARAM-97",
+      "sourceContentId": "CN-P07-PROD-03-PARAM-额定功率",
+      "sourceCn": "额定功率 = 3KW",
+      "translation": "Номинальная мощность = 3KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-01"
+      ],
+      "protectedTermsPreserved": [
+        "3KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-A-PARAM-98",
+      "sourceContentId": "CN-P07-PROD-03-PARAM-额定输入转速",
+      "sourceCn": "额定输入转速 = 3000r/min",
+      "translation": "Номинальная частота вращения на входе = 3000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-02"
+      ],
+      "protectedTermsPreserved": [
+        "3000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-A-PARAM-99",
+      "sourceContentId": "CN-P07-PROD-03-PARAM-最大输入转速",
+      "sourceCn": "最大输入转速 = 4500r/min",
+      "translation": "Макс. частота вращения на входе = 4500r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-03"
+      ],
+      "protectedTermsPreserved": [
+        "4500r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-A-PARAM-100",
+      "sourceContentId": "CN-P07-PROD-03-PARAM-减速比",
+      "sourceCn": "减速比 = 40:1",
+      "translation": "Передаточное число = 40:1",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-04"
+      ],
+      "protectedTermsPreserved": [
+        "40:1"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-A-PARAM-101",
+      "sourceContentId": "CN-P07-PROD-03-PARAM-额定输出转矩",
+      "sourceCn": "额定输出转矩 = 600NM",
+      "translation": "Номинальный выходной крутящий момент = 600NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-05"
+      ],
+      "protectedTermsPreserved": [
+        "600NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-A-PARAM-102",
+      "sourceContentId": "CN-P07-PROD-03-PARAM-最大输出转矩",
+      "sourceCn": "最大输出转矩 = 1100NM",
+      "translation": "Макс. выходной крутящий момент = 1100NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-06"
+      ],
+      "protectedTermsPreserved": [
+        "1100NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-A-PARAM-103",
+      "sourceContentId": "CN-P07-PROD-03-PARAM-噪音",
+      "sourceCn": "噪音 = ≤65dB",
+      "translation": "Шум = ≤65dB",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-07"
+      ],
+      "protectedTermsPreserved": [
+        "≤65dB"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-A-PARAM-104",
+      "sourceContentId": "CN-P07-PROD-03-PARAM-最大径向力",
+      "sourceCn": "最大径向力 = 3000KG",
+      "translation": "Макс. радиальная нагрузка = 3000KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-08"
+      ],
+      "protectedTermsPreserved": [
+        "3000KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-A-PARAM-105",
+      "sourceContentId": "CN-P07-PROD-03-PARAM-回程间隙",
+      "sourceCn": "回程间隙 = ≤30arcmin",
+      "translation": "Мёртвый ход (люфт) = ≤30arcmin",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-09"
+      ],
+      "protectedTermsPreserved": [
+        "≤30arcmin"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-A-PARAM-106",
+      "sourceContentId": "CN-P07-PROD-03-PARAM-满载效率",
+      "sourceCn": "满载效率 = ≥90%",
+      "translation": "КПД при полной нагрузке = ≥90%",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-10"
+      ],
+      "protectedTermsPreserved": [
+        "≥90%"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-A-PARAM-107",
+      "sourceContentId": "CN-P07-PROD-03-PARAM-使用寿命",
+      "sourceCn": "使用寿命 = ≥20000h",
+      "translation": "Срок службы = ≥20000h",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-11"
+      ],
+      "protectedTermsPreserved": [
+        "≥20000h"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-A-PARAM-108",
+      "sourceContentId": "CN-P07-PROD-03-PARAM-润滑",
+      "sourceCn": "润滑 = 免维护合成润滑脂",
+      "translation": "Смазка = Синтетическая смазка, не требующая обслуживания",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-12"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P07-A-PARAM-109",
+      "sourceContentId": "CN-P07-PROD-03-PARAM-使用环境温度",
+      "sourceCn": "使用环境温度 = -15°C~+90°C",
+      "translation": "Рабочая температура окружающей среды = -15°C~+90°C",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-13"
+      ],
+      "protectedTermsPreserved": [
+        "-15°C~+90°C"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-A-PARAM-110",
+      "sourceContentId": "CN-P07-PROD-03-PARAM-防护等级",
+      "sourceCn": "防护等级 = IP54",
+      "translation": "Степень защиты = IP54",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-14"
+      ],
+      "protectedTermsPreserved": [
+        "IP54"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-A-PARAM-111",
+      "sourceContentId": "CN-P07-PROD-03-PARAM-推荐适配电机",
+      "sourceCn": "推荐适配电机 = 1KW-3KW",
+      "translation": "Рекомендуемый электродвигатель = 1KW-3KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-15"
+      ],
+      "protectedTermsPreserved": [
+        "1KW-3KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-A-PARAM-112",
+      "sourceContentId": "CN-P07-PROD-03-PARAM-单轮驱动载荷",
+      "sourceCn": "单轮驱动载荷 = 3000KG",
+      "translation": "Нагрузка на ведущее колесо = 3000KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-16"
+      ],
+      "protectedTermsPreserved": [
+        "3000KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-A-PARAM-113",
+      "sourceContentId": "CN-P07-PROD-03-PARAM-行走速度",
+      "sourceCn": "行走速度 = 0.94m/s-1.1m/s",
+      "translation": "Скорость движения = 0.94m/s-1.1m/s",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-17"
+      ],
+      "protectedTermsPreserved": [
+        "0.94m/s-1.1m/s"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-A-PARAM-114",
+      "sourceContentId": "CN-P07-PROD-03-PARAM-适配轮径",
+      "sourceCn": "适配轮径 = Φ240-Φ280/推荐Φ270",
+      "translation": "Диаметр подходящего колеса = Φ240-Φ280/推荐Φ270",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-18"
+      ],
+      "protectedTermsPreserved": [
+        "Φ240-Φ280/推荐Φ270"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-B-TITLE",
+      "sourceContentId": "CN-P07-PROD-04",
+      "sourceCn": "301-2-001060-00(单、双支撑)",
+      "translation": "301-2-001060-00 (одно-/двухопорное исполнение)",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "PM-03"
+      ],
+      "protectedTermsPreserved": [
+        "301-2-001060-00"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-B-NOTE",
+      "sourceContentId": "CN-P07-PROD-04-NOTE",
+      "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
+      "translation": "Присоединительные размеры и передаточные числа могут быть скорректированы и изготовлены по индивидуальным требованиям заказчика.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-24",
+        "EG-04"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P07-B-APP",
+      "sourceContentId": "CN-P07-PROD-04-APP",
+      "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
+      "translation": "Прецизионный планетарный колёсный ходовой редуктор для мобильных роботов AGV",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "TT-05",
+        "TT-03",
+        "TT-11"
+      ],
+      "protectedTermsPreserved": [
+        "AGV"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-B-PARAM-118",
+      "sourceContentId": "CN-P07-PROD-04-PARAM-额定功率",
+      "sourceCn": "额定功率 = 3KW",
+      "translation": "Номинальная мощность = 3KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-01"
+      ],
+      "protectedTermsPreserved": [
+        "3KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-B-PARAM-119",
+      "sourceContentId": "CN-P07-PROD-04-PARAM-额定输入转速",
+      "sourceCn": "额定输入转速 = 3000r/min",
+      "translation": "Номинальная частота вращения на входе = 3000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-02"
+      ],
+      "protectedTermsPreserved": [
+        "3000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-B-PARAM-120",
+      "sourceContentId": "CN-P07-PROD-04-PARAM-最大输入转速",
+      "sourceCn": "最大输入转速 = 4500r/min",
+      "translation": "Макс. частота вращения на входе = 4500r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-03"
+      ],
+      "protectedTermsPreserved": [
+        "4500r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-B-PARAM-121",
+      "sourceContentId": "CN-P07-PROD-04-PARAM-减速比",
+      "sourceCn": "减速比 = 16:1",
+      "translation": "Передаточное число = 16:1",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-04"
+      ],
+      "protectedTermsPreserved": [
+        "16:1"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-B-PARAM-122",
+      "sourceContentId": "CN-P07-PROD-04-PARAM-额定输出转矩",
+      "sourceCn": "额定输出转矩 = 300NM",
+      "translation": "Номинальный выходной крутящий момент = 300NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-05"
+      ],
+      "protectedTermsPreserved": [
+        "300NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-B-PARAM-123",
+      "sourceContentId": "CN-P07-PROD-04-PARAM-最大输出转矩",
+      "sourceCn": "最大输出转矩 = 500NM",
+      "translation": "Макс. выходной крутящий момент = 500NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-06"
+      ],
+      "protectedTermsPreserved": [
+        "500NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-B-PARAM-124",
+      "sourceContentId": "CN-P07-PROD-04-PARAM-噪音",
+      "sourceCn": "噪音 = ≤65dB",
+      "translation": "Шум = ≤65dB",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-07"
+      ],
+      "protectedTermsPreserved": [
+        "≤65dB"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-B-PARAM-125",
+      "sourceContentId": "CN-P07-PROD-04-PARAM-最大径向力",
+      "sourceCn": "最大径向力 = 3000KG",
+      "translation": "Макс. радиальная нагрузка = 3000KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-08"
+      ],
+      "protectedTermsPreserved": [
+        "3000KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-B-PARAM-126",
+      "sourceContentId": "CN-P07-PROD-04-PARAM-回程间隙",
+      "sourceCn": "回程间隙 = ≤30arcmin",
+      "translation": "Мёртвый ход (люфт) = ≤30arcmin",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-09"
+      ],
+      "protectedTermsPreserved": [
+        "≤30arcmin"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-B-PARAM-127",
+      "sourceContentId": "CN-P07-PROD-04-PARAM-满载效率",
+      "sourceCn": "满载效率 = ≥90%",
+      "translation": "КПД при полной нагрузке = ≥90%",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-10"
+      ],
+      "protectedTermsPreserved": [
+        "≥90%"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-B-PARAM-128",
+      "sourceContentId": "CN-P07-PROD-04-PARAM-使用寿命",
+      "sourceCn": "使用寿命 = ≥20000h",
+      "translation": "Срок службы = ≥20000h",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-11"
+      ],
+      "protectedTermsPreserved": [
+        "≥20000h"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-B-PARAM-129",
+      "sourceContentId": "CN-P07-PROD-04-PARAM-润滑",
+      "sourceCn": "润滑 = 免维护合成润滑脂",
+      "translation": "Смазка = Синтетическая смазка, не требующая обслуживания",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-12"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P07-B-PARAM-130",
+      "sourceContentId": "CN-P07-PROD-04-PARAM-使用环境温度",
+      "sourceCn": "使用环境温度 = -15°C~+90°C",
+      "translation": "Рабочая температура окружающей среды = -15°C~+90°C",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-13"
+      ],
+      "protectedTermsPreserved": [
+        "-15°C~+90°C"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-B-PARAM-131",
+      "sourceContentId": "CN-P07-PROD-04-PARAM-防护等级",
+      "sourceCn": "防护等级 = IP54",
+      "translation": "Степень защиты = IP54",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-14"
+      ],
+      "protectedTermsPreserved": [
+        "IP54"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-B-PARAM-132",
+      "sourceContentId": "CN-P07-PROD-04-PARAM-推荐适配电机",
+      "sourceCn": "推荐适配电机 = 1KW-3KW",
+      "translation": "Рекомендуемый электродвигатель = 1KW-3KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-15"
+      ],
+      "protectedTermsPreserved": [
+        "1KW-3KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-B-PARAM-133",
+      "sourceContentId": "CN-P07-PROD-04-PARAM-单轮驱动载荷",
+      "sourceCn": "单轮驱动载荷 = 3000KG",
+      "translation": "Нагрузка на ведущее колесо = 3000KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-16"
+      ],
+      "protectedTermsPreserved": [
+        "3000KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-B-PARAM-134",
+      "sourceContentId": "CN-P07-PROD-04-PARAM-行走速度",
+      "sourceCn": "行走速度 = 2.35m/s-2.75m/s",
+      "translation": "Скорость движения = 2.35m/s-2.75m/s",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-17"
+      ],
+      "protectedTermsPreserved": [
+        "2.35m/s-2.75m/s"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P07-B-PARAM-135",
+      "sourceContentId": "CN-P07-PROD-04-PARAM-适配轮径",
+      "sourceCn": "适配轮径 = Φ240-Φ280/推荐Φ270",
+      "translation": "Диаметр подходящего колеса = Φ240-Φ280/推荐Φ270",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-18"
+      ],
+      "protectedTermsPreserved": [
+        "Φ240-Φ280/推荐Φ270"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-A-TITLE",
+      "sourceContentId": "CN-P08-PROD-05",
+      "sourceCn": "301-2-080021-00",
+      "translation": "301-2-080021-00",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "PM-04"
+      ],
+      "protectedTermsPreserved": [
+        "301-2-080021-00"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-A-NOTE",
+      "sourceContentId": "CN-P08-PROD-05-NOTE",
+      "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
+      "translation": "Присоединительные размеры и передаточные числа могут быть скорректированы и изготовлены по индивидуальным требованиям заказчика.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-24",
+        "EG-04"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P08-A-APP",
+      "sourceContentId": "CN-P08-PROD-05-APP",
+      "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
+      "translation": "Прецизионный планетарный колёсный ходовой редуктор для мобильных роботов AGV",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "TT-05",
+        "TT-03",
+        "TT-11"
+      ],
+      "protectedTermsPreserved": [
+        "AGV"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-A-PARAM-139",
+      "sourceContentId": "CN-P08-PROD-05-PARAM-额定功率",
+      "sourceCn": "额定功率 = 400W",
+      "translation": "Номинальная мощность = 400W",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-01"
+      ],
+      "protectedTermsPreserved": [
+        "400W"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-A-PARAM-140",
+      "sourceContentId": "CN-P08-PROD-05-PARAM-额定输入转速",
+      "sourceCn": "额定输入转速 = 3000r/min",
+      "translation": "Номинальная частота вращения на входе = 3000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-02"
+      ],
+      "protectedTermsPreserved": [
+        "3000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-A-PARAM-141",
+      "sourceContentId": "CN-P08-PROD-05-PARAM-最大输入转速",
+      "sourceCn": "最大输入转速 = 5000r/min",
+      "translation": "Макс. частота вращения на входе = 5000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-03"
+      ],
+      "protectedTermsPreserved": [
+        "5000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-A-PARAM-142",
+      "sourceContentId": "CN-P08-PROD-05-PARAM-减速比",
+      "sourceCn": "减速比 = 21:1",
+      "translation": "Передаточное число = 21:1",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-04"
+      ],
+      "protectedTermsPreserved": [
+        "21:1"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-A-PARAM-143",
+      "sourceContentId": "CN-P08-PROD-05-PARAM-额定输出转矩",
+      "sourceCn": "额定输出转矩 = 80NM",
+      "translation": "Номинальный выходной крутящий момент = 80NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-05"
+      ],
+      "protectedTermsPreserved": [
+        "80NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-A-PARAM-144",
+      "sourceContentId": "CN-P08-PROD-05-PARAM-最大输出转矩",
+      "sourceCn": "最大输出转矩 = 160NM",
+      "translation": "Макс. выходной крутящий момент = 160NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-06"
+      ],
+      "protectedTermsPreserved": [
+        "160NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-A-PARAM-145",
+      "sourceContentId": "CN-P08-PROD-05-PARAM-噪音",
+      "sourceCn": "噪音 = ≤65dB",
+      "translation": "Шум = ≤65dB",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-07"
+      ],
+      "protectedTermsPreserved": [
+        "≤65dB"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-A-PARAM-146",
+      "sourceContentId": "CN-P08-PROD-05-PARAM-最大径向力",
+      "sourceCn": "最大径向力 = 600KG",
+      "translation": "Макс. радиальная нагрузка = 600KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-08"
+      ],
+      "protectedTermsPreserved": [
+        "600KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-A-PARAM-147",
+      "sourceContentId": "CN-P08-PROD-05-PARAM-回程间隙",
+      "sourceCn": "回程间隙 = ≤30arcmin",
+      "translation": "Мёртвый ход (люфт) = ≤30arcmin",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-09"
+      ],
+      "protectedTermsPreserved": [
+        "≤30arcmin"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-A-PARAM-148",
+      "sourceContentId": "CN-P08-PROD-05-PARAM-满载效率",
+      "sourceCn": "满载效率 = ≥90%",
+      "translation": "КПД при полной нагрузке = ≥90%",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-10"
+      ],
+      "protectedTermsPreserved": [
+        "≥90%"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-A-PARAM-149",
+      "sourceContentId": "CN-P08-PROD-05-PARAM-使用寿命",
+      "sourceCn": "使用寿命 = ≥20000h",
+      "translation": "Срок службы = ≥20000h",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-11"
+      ],
+      "protectedTermsPreserved": [
+        "≥20000h"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-A-PARAM-150",
+      "sourceContentId": "CN-P08-PROD-05-PARAM-润滑",
+      "sourceCn": "润滑 = 免维护合成润滑脂",
+      "translation": "Смазка = Синтетическая смазка, не требующая обслуживания",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-12"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P08-A-PARAM-151",
+      "sourceContentId": "CN-P08-PROD-05-PARAM-使用环境温度",
+      "sourceCn": "使用环境温度 = -15°C~+90°C",
+      "translation": "Рабочая температура окружающей среды = -15°C~+90°C",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-13"
+      ],
+      "protectedTermsPreserved": [
+        "-15°C~+90°C"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-A-PARAM-152",
+      "sourceContentId": "CN-P08-PROD-05-PARAM-防护等级",
+      "sourceCn": "防护等级 = IP54",
+      "translation": "Степень защиты = IP54",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-14"
+      ],
+      "protectedTermsPreserved": [
+        "IP54"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-A-PARAM-153",
+      "sourceContentId": "CN-P08-PROD-05-PARAM-推荐适配电机",
+      "sourceCn": "推荐适配电机 = 400W-1000W",
+      "translation": "Рекомендуемый электродвигатель = 400W-1000W",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-15"
+      ],
+      "protectedTermsPreserved": [
+        "400W-1000W"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-A-PARAM-154",
+      "sourceContentId": "CN-P08-PROD-05-PARAM-单轮驱动载荷",
+      "sourceCn": "单轮驱动载荷 = 600KG",
+      "translation": "Нагрузка на ведущее колесо = 600KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-16"
+      ],
+      "protectedTermsPreserved": [
+        "600KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-A-PARAM-155",
+      "sourceContentId": "CN-P08-PROD-05-PARAM-行走速度",
+      "sourceCn": "行走速度 = 1.2m/s-1.5m/s",
+      "translation": "Скорость движения = 1.2m/s-1.5m/s",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-17"
+      ],
+      "protectedTermsPreserved": [
+        "1.2m/s-1.5m/s"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-A-PARAM-156",
+      "sourceContentId": "CN-P08-PROD-05-PARAM-适配轮径",
+      "sourceCn": "适配轮径 = Φ160-Φ200/推荐Φ160",
+      "translation": "Диаметр подходящего колеса = Φ160-Φ200/推荐Φ160",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-18"
+      ],
+      "protectedTermsPreserved": [
+        "Φ160-Φ200/推荐Φ160"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-B-TITLE",
+      "sourceContentId": "CN-P08-PROD-06",
+      "sourceCn": "301-2-026082-00(大承载双支撑)",
+      "translation": "301-2-026082-00 (двухопорное исполнение с высокой несущей способностью)",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "PM-05"
+      ],
+      "protectedTermsPreserved": [
+        "301-2-026082-00"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-B-NOTE",
+      "sourceContentId": "CN-P08-PROD-06-NOTE",
+      "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
+      "translation": "Присоединительные размеры и передаточные числа могут быть скорректированы и изготовлены по индивидуальным требованиям заказчика.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-24",
+        "EG-04"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P08-B-APP",
+      "sourceContentId": "CN-P08-PROD-06-APP",
+      "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
+      "translation": "Прецизионный планетарный колёсный ходовой редуктор для мобильных роботов AGV",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "TT-05",
+        "TT-03",
+        "TT-11"
+      ],
+      "protectedTermsPreserved": [
+        "AGV"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-B-PARAM-160",
+      "sourceContentId": "CN-P08-PROD-06-PARAM-额定功率",
+      "sourceCn": "额定功率 = 9KW",
+      "translation": "Номинальная мощность = 9KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-01"
+      ],
+      "protectedTermsPreserved": [
+        "9KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-B-PARAM-161",
+      "sourceContentId": "CN-P08-PROD-06-PARAM-额定输入转速",
+      "sourceCn": "额定输入转速 = 2500r/min",
+      "translation": "Номинальная частота вращения на входе = 2500r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-02"
+      ],
+      "protectedTermsPreserved": [
+        "2500r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-B-PARAM-162",
+      "sourceContentId": "CN-P08-PROD-06-PARAM-最大输入转速",
+      "sourceCn": "最大输入转速 = 4000r/min",
+      "translation": "Макс. частота вращения на входе = 4000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-03"
+      ],
+      "protectedTermsPreserved": [
+        "4000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-B-PARAM-163",
+      "sourceContentId": "CN-P08-PROD-06-PARAM-减速比",
+      "sourceCn": "减速比 = 82.27:1",
+      "translation": "Передаточное число = 82.27:1",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-04"
+      ],
+      "protectedTermsPreserved": [
+        "82.27:1"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-B-PARAM-164",
+      "sourceContentId": "CN-P08-PROD-06-PARAM-额定输出转矩",
+      "sourceCn": "额定输出转矩 = 4000NM",
+      "translation": "Номинальный выходной крутящий момент = 4000NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-05"
+      ],
+      "protectedTermsPreserved": [
+        "4000NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-B-PARAM-165",
+      "sourceContentId": "CN-P08-PROD-06-PARAM-最大输出转矩",
+      "sourceCn": "最大输出转矩 = 10000NM",
+      "translation": "Макс. выходной крутящий момент = 10000NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-06"
+      ],
+      "protectedTermsPreserved": [
+        "10000NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-B-PARAM-166",
+      "sourceContentId": "CN-P08-PROD-06-PARAM-噪音",
+      "sourceCn": "噪音 = ≤75dB",
+      "translation": "Шум = ≤75dB",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-07"
+      ],
+      "protectedTermsPreserved": [
+        "≤75dB"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-B-PARAM-167",
+      "sourceContentId": "CN-P08-PROD-06-PARAM-最大径向力",
+      "sourceCn": "最大径向力 = 20000KG",
+      "translation": "Макс. радиальная нагрузка = 20000KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-08"
+      ],
+      "protectedTermsPreserved": [
+        "20000KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-B-PARAM-168",
+      "sourceContentId": "CN-P08-PROD-06-PARAM-回程间隙",
+      "sourceCn": "回程间隙 = ≤60arcmin",
+      "translation": "Мёртвый ход (люфт) = ≤60arcmin",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-09"
+      ],
+      "protectedTermsPreserved": [
+        "≤60arcmin"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-B-PARAM-169",
+      "sourceContentId": "CN-P08-PROD-06-PARAM-满载效率",
+      "sourceCn": "满载效率 = ≥90%",
+      "translation": "КПД при полной нагрузке = ≥90%",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-10"
+      ],
+      "protectedTermsPreserved": [
+        "≥90%"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-B-PARAM-170",
+      "sourceContentId": "CN-P08-PROD-06-PARAM-使用寿命",
+      "sourceCn": "使用寿命 = ≥20000h",
+      "translation": "Срок службы = ≥20000h",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-11"
+      ],
+      "protectedTermsPreserved": [
+        "≥20000h"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-B-PARAM-171",
+      "sourceContentId": "CN-P08-PROD-06-PARAM-润滑",
+      "sourceCn": "润滑 = 润滑油",
+      "translation": "Смазка = Смазочное масло",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-12"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P08-B-PARAM-172",
+      "sourceContentId": "CN-P08-PROD-06-PARAM-使用环境温度",
+      "sourceCn": "使用环境温度 = -15°C~+90°C",
+      "translation": "Рабочая температура окружающей среды = -15°C~+90°C",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-13"
+      ],
+      "protectedTermsPreserved": [
+        "-15°C~+90°C"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-B-PARAM-173",
+      "sourceContentId": "CN-P08-PROD-06-PARAM-防护等级",
+      "sourceCn": "防护等级 = IP54",
+      "translation": "Степень защиты = IP54",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-14"
+      ],
+      "protectedTermsPreserved": [
+        "IP54"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-B-PARAM-174",
+      "sourceContentId": "CN-P08-PROD-06-PARAM-推荐适配电机",
+      "sourceCn": "推荐适配电机 = 7.5KW-11KW",
+      "translation": "Рекомендуемый электродвигатель = 7.5KW-11KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-15"
+      ],
+      "protectedTermsPreserved": [
+        "7.5KW-11KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-B-PARAM-175",
+      "sourceContentId": "CN-P08-PROD-06-PARAM-单轮驱动载荷",
+      "sourceCn": "单轮驱动载荷 = 20000KG",
+      "translation": "Нагрузка на ведущее колесо = 20000KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-16"
+      ],
+      "protectedTermsPreserved": [
+        "20000KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-B-PARAM-176",
+      "sourceContentId": "CN-P08-PROD-06-PARAM-行走速度",
+      "sourceCn": "行走速度 = 0.8m/s-0.95m/s",
+      "translation": "Скорость движения = 0.8m/s-0.95m/s",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-17"
+      ],
+      "protectedTermsPreserved": [
+        "0.8m/s-0.95m/s"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P08-B-PARAM-177",
+      "sourceContentId": "CN-P08-PROD-06-PARAM-适配轮径",
+      "sourceCn": "适配轮径 = Φ500-Φ600/推荐Φ600",
+      "translation": "Диаметр подходящего колеса = Φ500-Φ600/推荐Φ600",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-18"
+      ],
+      "protectedTermsPreserved": [
+        "Φ500-Φ600/推荐Φ600"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-A-TITLE",
+      "sourceContentId": "CN-P09-PROD-07",
+      "sourceCn": "301-2-005032-00(大承载双支撑)",
+      "translation": "301-2-005032-00 (двухопорное исполнение с высокой несущей способностью)",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "PM-06"
+      ],
+      "protectedTermsPreserved": [
+        "301-2-005032-00"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-A-NOTE",
+      "sourceContentId": "CN-P09-PROD-07-NOTE",
+      "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
+      "translation": "Присоединительные размеры и передаточные числа могут быть скорректированы и изготовлены по индивидуальным требованиям заказчика.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-24",
+        "EG-04"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P09-A-APP",
+      "sourceContentId": "CN-P09-PROD-07-APP",
+      "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
+      "translation": "Прецизионный планетарный колёсный ходовой редуктор для мобильных роботов AGV",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "TT-05",
+        "TT-03",
+        "TT-11"
+      ],
+      "protectedTermsPreserved": [
+        "AGV"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-A-PARAM-181",
+      "sourceContentId": "CN-P09-PROD-07-PARAM-额定功率",
+      "sourceCn": "额定功率 = 10KW",
+      "translation": "Номинальная мощность = 10KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-01"
+      ],
+      "protectedTermsPreserved": [
+        "10KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-A-PARAM-182",
+      "sourceContentId": "CN-P09-PROD-07-PARAM-额定输入转速",
+      "sourceCn": "额定输入转速 = 1315r/min",
+      "translation": "Номинальная частота вращения на входе = 1315r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-02"
+      ],
+      "protectedTermsPreserved": [
+        "1315r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-A-PARAM-183",
+      "sourceContentId": "CN-P09-PROD-07-PARAM-最大输入转速",
+      "sourceCn": "最大输入转速 = 3026r/min",
+      "translation": "Макс. частота вращения на входе = 3026r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-03"
+      ],
+      "protectedTermsPreserved": [
+        "3026r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-A-PARAM-184",
+      "sourceContentId": "CN-P09-PROD-07-PARAM-减速比",
+      "sourceCn": "减速比 = 32:1",
+      "translation": "Передаточное число = 32:1",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-04"
+      ],
+      "protectedTermsPreserved": [
+        "32:1"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-A-PARAM-185",
+      "sourceContentId": "CN-P09-PROD-07-PARAM-额定输出转矩",
+      "sourceCn": "额定输出转矩 = 2700NM",
+      "translation": "Номинальный выходной крутящий момент = 2700NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-05"
+      ],
+      "protectedTermsPreserved": [
+        "2700NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-A-PARAM-186",
+      "sourceContentId": "CN-P09-PROD-07-PARAM-最大输出转矩",
+      "sourceCn": "最大输出转矩 = 4500NM",
+      "translation": "Макс. выходной крутящий момент = 4500NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-06"
+      ],
+      "protectedTermsPreserved": [
+        "4500NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-A-PARAM-187",
+      "sourceContentId": "CN-P09-PROD-07-PARAM-噪音",
+      "sourceCn": "噪音 = ≤75dB",
+      "translation": "Шум = ≤75dB",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-07"
+      ],
+      "protectedTermsPreserved": [
+        "≤75dB"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-A-PARAM-188",
+      "sourceContentId": "CN-P09-PROD-07-PARAM-最大径向力",
+      "sourceCn": "最大径向力 = 6000KG",
+      "translation": "Макс. радиальная нагрузка = 6000KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-08"
+      ],
+      "protectedTermsPreserved": [
+        "6000KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-A-PARAM-189",
+      "sourceContentId": "CN-P09-PROD-07-PARAM-回程间隙",
+      "sourceCn": "回程间隙 = ≤60arcmin",
+      "translation": "Мёртвый ход (люфт) = ≤60arcmin",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-09"
+      ],
+      "protectedTermsPreserved": [
+        "≤60arcmin"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-A-PARAM-190",
+      "sourceContentId": "CN-P09-PROD-07-PARAM-满载效率",
+      "sourceCn": "满载效率 = ≥90%",
+      "translation": "КПД при полной нагрузке = ≥90%",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-10"
+      ],
+      "protectedTermsPreserved": [
+        "≥90%"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-A-PARAM-191",
+      "sourceContentId": "CN-P09-PROD-07-PARAM-使用寿命",
+      "sourceCn": "使用寿命 = ≥20000h",
+      "translation": "Срок службы = ≥20000h",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-11"
+      ],
+      "protectedTermsPreserved": [
+        "≥20000h"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-A-PARAM-192",
+      "sourceContentId": "CN-P09-PROD-07-PARAM-润滑",
+      "sourceCn": "润滑 = 润滑油",
+      "translation": "Смазка = Смазочное масло",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-12"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P09-A-PARAM-193",
+      "sourceContentId": "CN-P09-PROD-07-PARAM-使用环境温度",
+      "sourceCn": "使用环境温度 = -15°C~+90°C",
+      "translation": "Рабочая температура окружающей среды = -15°C~+90°C",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-13"
+      ],
+      "protectedTermsPreserved": [
+        "-15°C~+90°C"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-A-PARAM-194",
+      "sourceContentId": "CN-P09-PROD-07-PARAM-防护等级",
+      "sourceCn": "防护等级 = IP54",
+      "translation": "Степень защиты = IP54",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-14"
+      ],
+      "protectedTermsPreserved": [
+        "IP54"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-A-PARAM-195",
+      "sourceContentId": "CN-P09-PROD-07-PARAM-推荐适配电机",
+      "sourceCn": "推荐适配电机 = 5.5KW-10KW",
+      "translation": "Рекомендуемый электродвигатель = 5.5KW-10KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-15"
+      ],
+      "protectedTermsPreserved": [
+        "5.5KW-10KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-A-PARAM-196",
+      "sourceContentId": "CN-P09-PROD-07-PARAM-单轮驱动载荷",
+      "sourceCn": "单轮驱动载荷 = 6000KG",
+      "translation": "Нагрузка на ведущее колесо = 6000KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-16"
+      ],
+      "protectedTermsPreserved": [
+        "6000KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-A-PARAM-197",
+      "sourceContentId": "CN-P09-PROD-07-PARAM-行走速度",
+      "sourceCn": "行走速度 = 0.86m/s-1.07m/s",
+      "translation": "Скорость движения = 0.86m/s-1.07m/s",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-17"
+      ],
+      "protectedTermsPreserved": [
+        "0.86m/s-1.07m/s"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-A-PARAM-198",
+      "sourceContentId": "CN-P09-PROD-07-PARAM-适配轮径",
+      "sourceCn": "适配轮径 = Φ400-Φ500",
+      "translation": "Диаметр подходящего колеса = Φ400-Φ500",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.8,
+      "glossaryTermsUsed": [
+        "EG-18"
+      ],
+      "protectedTermsPreserved": [
+        "Φ400-Φ500"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-B-TITLE",
+      "sourceContentId": "CN-P09-PROD-08",
+      "sourceCn": "301-2-004050-00(带制动轴)",
+      "translation": "301-2-004050-00 (с тормозным валом)",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "PM-07"
+      ],
+      "protectedTermsPreserved": [
+        "301-2-004050-00"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-B-NOTE",
+      "sourceContentId": "CN-P09-PROD-08-NOTE",
+      "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
+      "translation": "Присоединительные размеры и передаточные числа могут быть скорректированы и изготовлены по индивидуальным требованиям заказчика.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-24",
+        "EG-04"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P09-B-APP",
+      "sourceContentId": "CN-P09-PROD-08-APP",
+      "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
+      "translation": "Прецизионный планетарный колёсный ходовой редуктор для мобильных роботов AGV",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "TT-05",
+        "TT-03",
+        "TT-11"
+      ],
+      "protectedTermsPreserved": [
+        "AGV"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-B-PARAM-202",
+      "sourceContentId": "CN-P09-PROD-08-PARAM-额定功率",
+      "sourceCn": "额定功率 = 7.5KW",
+      "translation": "Номинальная мощность = 7.5KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-01"
+      ],
+      "protectedTermsPreserved": [
+        "7.5KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-B-PARAM-203",
+      "sourceContentId": "CN-P09-PROD-08-PARAM-额定输入转速",
+      "sourceCn": "额定输入转速 = 3000r/min",
+      "translation": "Номинальная частота вращения на входе = 3000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-02"
+      ],
+      "protectedTermsPreserved": [
+        "3000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-B-PARAM-204",
+      "sourceContentId": "CN-P09-PROD-08-PARAM-最大输入转速",
+      "sourceCn": "最大输入转速 = 4500r/min",
+      "translation": "Макс. частота вращения на входе = 4500r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-03"
+      ],
+      "protectedTermsPreserved": [
+        "4500r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-B-PARAM-205",
+      "sourceContentId": "CN-P09-PROD-08-PARAM-减速比",
+      "sourceCn": "减速比 = 50:1",
+      "translation": "Передаточное число = 50:1",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-04"
+      ],
+      "protectedTermsPreserved": [
+        "50:1"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-B-PARAM-206",
+      "sourceContentId": "CN-P09-PROD-08-PARAM-额定输出转矩",
+      "sourceCn": "额定输出转矩 = 1800NM",
+      "translation": "Номинальный выходной крутящий момент = 1800NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-05"
+      ],
+      "protectedTermsPreserved": [
+        "1800NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-B-PARAM-207",
+      "sourceContentId": "CN-P09-PROD-08-PARAM-最大输出转矩",
+      "sourceCn": "最大输出转矩 = 3600NM",
+      "translation": "Макс. выходной крутящий момент = 3600NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-06"
+      ],
+      "protectedTermsPreserved": [
+        "3600NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-B-PARAM-208",
+      "sourceContentId": "CN-P09-PROD-08-PARAM-噪音",
+      "sourceCn": "噪音 = ≤70dB",
+      "translation": "Шум = ≤70dB",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-07"
+      ],
+      "protectedTermsPreserved": [
+        "≤70dB"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-B-PARAM-209",
+      "sourceContentId": "CN-P09-PROD-08-PARAM-最大径向力",
+      "sourceCn": "最大径向力 = 5000KG",
+      "translation": "Макс. радиальная нагрузка = 5000KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-08"
+      ],
+      "protectedTermsPreserved": [
+        "5000KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-B-PARAM-210",
+      "sourceContentId": "CN-P09-PROD-08-PARAM-回程间隙",
+      "sourceCn": "回程间隙 = ≤30arcmin",
+      "translation": "Мёртвый ход (люфт) = ≤30arcmin",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-09"
+      ],
+      "protectedTermsPreserved": [
+        "≤30arcmin"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-B-PARAM-211",
+      "sourceContentId": "CN-P09-PROD-08-PARAM-满载效率",
+      "sourceCn": "满载效率 = ≥90%",
+      "translation": "КПД при полной нагрузке = ≥90%",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-10"
+      ],
+      "protectedTermsPreserved": [
+        "≥90%"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-B-PARAM-212",
+      "sourceContentId": "CN-P09-PROD-08-PARAM-使用寿命",
+      "sourceCn": "使用寿命 = ≥20000h",
+      "translation": "Срок службы = ≥20000h",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-11"
+      ],
+      "protectedTermsPreserved": [
+        "≥20000h"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-B-PARAM-213",
+      "sourceContentId": "CN-P09-PROD-08-PARAM-润滑",
+      "sourceCn": "润滑 = 免维护合成润滑脂",
+      "translation": "Смазка = Синтетическая смазка, не требующая обслуживания",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-12"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P09-B-PARAM-214",
+      "sourceContentId": "CN-P09-PROD-08-PARAM-使用环境温度",
+      "sourceCn": "使用环境温度 = -15°C~+90°C",
+      "translation": "Рабочая температура окружающей среды = -15°C~+90°C",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-13"
+      ],
+      "protectedTermsPreserved": [
+        "-15°C~+90°C"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-B-PARAM-215",
+      "sourceContentId": "CN-P09-PROD-08-PARAM-防护等级",
+      "sourceCn": "防护等级 = IP54",
+      "translation": "Степень защиты = IP54",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-14"
+      ],
+      "protectedTermsPreserved": [
+        "IP54"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-B-PARAM-216",
+      "sourceContentId": "CN-P09-PROD-08-PARAM-推荐适配电机",
+      "sourceCn": "推荐适配电机 = 5.5KW-7.5KW",
+      "translation": "Рекомендуемый электродвигатель = 5.5KW-7.5KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-15"
+      ],
+      "protectedTermsPreserved": [
+        "5.5KW-7.5KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-B-PARAM-217",
+      "sourceContentId": "CN-P09-PROD-08-PARAM-单轮驱动载荷",
+      "sourceCn": "单轮驱动载荷 = 5000KG",
+      "translation": "Нагрузка на ведущее колесо = 5000KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-16"
+      ],
+      "protectedTermsPreserved": [
+        "5000KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-B-PARAM-218",
+      "sourceContentId": "CN-P09-PROD-08-PARAM-行走速度",
+      "sourceCn": "行走速度 = 1.1m/s-1.25m/s",
+      "translation": "Скорость движения = 1.1m/s-1.25m/s",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-17"
+      ],
+      "protectedTermsPreserved": [
+        "1.1m/s-1.25m/s"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P09-B-PARAM-219",
+      "sourceContentId": "CN-P09-PROD-08-PARAM-适配轮径",
+      "sourceCn": "适配轮径 = Φ350-Φ400",
+      "translation": "Диаметр подходящего колеса = Φ350-Φ400",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-18"
+      ],
+      "protectedTermsPreserved": [
+        "Φ350-Φ400"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-A-TITLE",
+      "sourceContentId": "CN-P10-PROD-09",
+      "sourceCn": "301-2-001020-00",
+      "translation": "301-2-001020-00",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "PM-08"
+      ],
+      "protectedTermsPreserved": [
+        "301-2-001020-00"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-A-NOTE",
+      "sourceContentId": "CN-P10-PROD-09-NOTE",
+      "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
+      "translation": "Присоединительные размеры и передаточные числа могут быть скорректированы и изготовлены по индивидуальным требованиям заказчика.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-24",
+        "EG-04"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P10-A-APP",
+      "sourceContentId": "CN-P10-PROD-09-APP",
+      "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
+      "translation": "Прецизионный планетарный колёсный ходовой редуктор для мобильных роботов AGV",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "TT-05",
+        "TT-03",
+        "TT-11"
+      ],
+      "protectedTermsPreserved": [
+        "AGV"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-A-PARAM-223",
+      "sourceContentId": "CN-P10-PROD-09-PARAM-额定功率",
+      "sourceCn": "额定功率 = 1000W",
+      "translation": "Номинальная мощность = 1000W",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-01"
+      ],
+      "protectedTermsPreserved": [
+        "1000W"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-A-PARAM-224",
+      "sourceContentId": "CN-P10-PROD-09-PARAM-额定输入转速",
+      "sourceCn": "额定输入转速 = 3000r/min",
+      "translation": "Номинальная частота вращения на входе = 3000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-02"
+      ],
+      "protectedTermsPreserved": [
+        "3000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-A-PARAM-225",
+      "sourceContentId": "CN-P10-PROD-09-PARAM-最大输入转速",
+      "sourceCn": "最大输入转速 = 6000r/min",
+      "translation": "Макс. частота вращения на входе = 6000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-03"
+      ],
+      "protectedTermsPreserved": [
+        "6000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-A-PARAM-226",
+      "sourceContentId": "CN-P10-PROD-09-PARAM-减速比",
+      "sourceCn": "减速比 = 20.5:1",
+      "translation": "Передаточное число = 20.5:1",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-04"
+      ],
+      "protectedTermsPreserved": [
+        "20.5:1"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-A-PARAM-227",
+      "sourceContentId": "CN-P10-PROD-09-PARAM-额定输出转矩",
+      "sourceCn": "额定输出转矩 = 164NM",
+      "translation": "Номинальный выходной крутящий момент = 164NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-05"
+      ],
+      "protectedTermsPreserved": [
+        "164NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-A-PARAM-228",
+      "sourceContentId": "CN-P10-PROD-09-PARAM-最大输出转矩",
+      "sourceCn": "最大输出转矩 = 295.2NM",
+      "translation": "Макс. выходной крутящий момент = 295.2NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-06"
+      ],
+      "protectedTermsPreserved": [
+        "295.2NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-A-PARAM-229",
+      "sourceContentId": "CN-P10-PROD-09-PARAM-噪音",
+      "sourceCn": "噪音 = ≤65dB",
+      "translation": "Шум = ≤65dB",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-07"
+      ],
+      "protectedTermsPreserved": [
+        "≤65dB"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-A-PARAM-230",
+      "sourceContentId": "CN-P10-PROD-09-PARAM-最大径向力",
+      "sourceCn": "最大径向力 = 280KG",
+      "translation": "Макс. радиальная нагрузка = 280KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-08"
+      ],
+      "protectedTermsPreserved": [
+        "280KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-A-PARAM-231",
+      "sourceContentId": "CN-P10-PROD-09-PARAM-回程间隙",
+      "sourceCn": "回程间隙 = ≤30arcmin",
+      "translation": "Мёртвый ход (люфт) = ≤30arcmin",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-09"
+      ],
+      "protectedTermsPreserved": [
+        "≤30arcmin"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-A-PARAM-232",
+      "sourceContentId": "CN-P10-PROD-09-PARAM-满载效率",
+      "sourceCn": "满载效率 = ≥90%",
+      "translation": "КПД при полной нагрузке = ≥90%",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-10"
+      ],
+      "protectedTermsPreserved": [
+        "≥90%"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-A-PARAM-233",
+      "sourceContentId": "CN-P10-PROD-09-PARAM-使用寿命",
+      "sourceCn": "使用寿命 = ≥20000h",
+      "translation": "Срок службы = ≥20000h",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-11"
+      ],
+      "protectedTermsPreserved": [
+        "≥20000h"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-A-PARAM-234",
+      "sourceContentId": "CN-P10-PROD-09-PARAM-润滑",
+      "sourceCn": "润滑 = 免维护合成润滑脂",
+      "translation": "Смазка = Синтетическая смазка, не требующая обслуживания",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-12"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P10-A-PARAM-235",
+      "sourceContentId": "CN-P10-PROD-09-PARAM-使用环境温度",
+      "sourceCn": "使用环境温度 = -15°C~+90°C",
+      "translation": "Рабочая температура окружающей среды = -15°C~+90°C",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-13"
+      ],
+      "protectedTermsPreserved": [
+        "-15°C~+90°C"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-A-PARAM-236",
+      "sourceContentId": "CN-P10-PROD-09-PARAM-防护等级",
+      "sourceCn": "防护等级 = IP54",
+      "translation": "Степень защиты = IP54",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-14"
+      ],
+      "protectedTermsPreserved": [
+        "IP54"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-A-PARAM-237",
+      "sourceContentId": "CN-P10-PROD-09-PARAM-推荐适配电机",
+      "sourceCn": "推荐适配电机 = 400W-1000W",
+      "translation": "Рекомендуемый электродвигатель = 400W-1000W",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-15"
+      ],
+      "protectedTermsPreserved": [
+        "400W-1000W"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-A-PARAM-238",
+      "sourceContentId": "CN-P10-PROD-09-PARAM-单轮驱动载荷",
+      "sourceCn": "单轮驱动载荷 = 280KG",
+      "translation": "Нагрузка на ведущее колесо = 280KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.7,
+      "glossaryTermsUsed": [
+        "EG-16"
+      ],
+      "protectedTermsPreserved": [
+        "280KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-A-PARAM-239",
+      "sourceContentId": "CN-P10-PROD-09-PARAM-行走速度",
+      "sourceCn": "行走速度 = 1.22m/s-1.53m/s",
+      "translation": "Скорость движения = 1.22m/s-1.53m/s",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-17"
+      ],
+      "protectedTermsPreserved": [
+        "1.22m/s-1.53m/s"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-A-PARAM-240",
+      "sourceContentId": "CN-P10-PROD-09-PARAM-适配轮径",
+      "sourceCn": "适配轮径 = Φ160-Φ200/推荐Φ180",
+      "translation": "Диаметр подходящего колеса = Φ160-Φ200/推荐Φ180",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-18"
+      ],
+      "protectedTermsPreserved": [
+        "Φ160-Φ200/推荐Φ180"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-B-TITLE",
+      "sourceContentId": "CN-P10-PROD-10",
+      "sourceCn": "301-2-160040-00(带制动轴)",
+      "translation": "301-2-160040-00 (с тормозным валом)",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "PM-09"
+      ],
+      "protectedTermsPreserved": [
+        "301-2-160040-00"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-B-NOTE",
+      "sourceContentId": "CN-P10-PROD-10-NOTE",
+      "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
+      "translation": "Присоединительные размеры и передаточные числа могут быть скорректированы и изготовлены по индивидуальным требованиям заказчика.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-24",
+        "EG-04"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P10-B-APP",
+      "sourceContentId": "CN-P10-PROD-10-APP",
+      "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
+      "translation": "Прецизионный планетарный колёсный ходовой редуктор для мобильных роботов AGV",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "TT-05",
+        "TT-03",
+        "TT-11"
+      ],
+      "protectedTermsPreserved": [
+        "AGV"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-B-PARAM-244",
+      "sourceContentId": "CN-P10-PROD-10-PARAM-额定功率",
+      "sourceCn": "额定功率 = 3KW",
+      "translation": "Номинальная мощность = 3KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-01"
+      ],
+      "protectedTermsPreserved": [
+        "3KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-B-PARAM-245",
+      "sourceContentId": "CN-P10-PROD-10-PARAM-额定输入转速",
+      "sourceCn": "额定输入转速 = 3000r/min",
+      "translation": "Номинальная частота вращения на входе = 3000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-02"
+      ],
+      "protectedTermsPreserved": [
+        "3000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-B-PARAM-246",
+      "sourceContentId": "CN-P10-PROD-10-PARAM-最大输入转速",
+      "sourceCn": "最大输入转速 = 5000r/min",
+      "translation": "Макс. частота вращения на входе = 5000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-03"
+      ],
+      "protectedTermsPreserved": [
+        "5000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-B-PARAM-247",
+      "sourceContentId": "CN-P10-PROD-10-PARAM-减速比",
+      "sourceCn": "减速比 = 40:1",
+      "translation": "Передаточное число = 40:1",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-04"
+      ],
+      "protectedTermsPreserved": [
+        "40:1"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-B-PARAM-248",
+      "sourceContentId": "CN-P10-PROD-10-PARAM-额定输出转矩",
+      "sourceCn": "额定输出转矩 = 440NM",
+      "translation": "Номинальный выходной крутящий момент = 440NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-05"
+      ],
+      "protectedTermsPreserved": [
+        "440NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-B-PARAM-249",
+      "sourceContentId": "CN-P10-PROD-10-PARAM-最大输出转矩",
+      "sourceCn": "最大输出转矩 = 700NM",
+      "translation": "Макс. выходной крутящий момент = 700NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-06"
+      ],
+      "protectedTermsPreserved": [
+        "700NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-B-PARAM-250",
+      "sourceContentId": "CN-P10-PROD-10-PARAM-噪音",
+      "sourceCn": "噪音 = ≤65dB",
+      "translation": "Шум = ≤65dB",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-07"
+      ],
+      "protectedTermsPreserved": [
+        "≤65dB"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-B-PARAM-251",
+      "sourceContentId": "CN-P10-PROD-10-PARAM-最大径向力",
+      "sourceCn": "最大径向力 = 1500KG",
+      "translation": "Макс. радиальная нагрузка = 1500KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-08"
+      ],
+      "protectedTermsPreserved": [
+        "1500KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-B-PARAM-252",
+      "sourceContentId": "CN-P10-PROD-10-PARAM-回程间隙",
+      "sourceCn": "回程间隙 = ≤30arcmin",
+      "translation": "Мёртвый ход (люфт) = ≤30arcmin",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-09"
+      ],
+      "protectedTermsPreserved": [
+        "≤30arcmin"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-B-PARAM-253",
+      "sourceContentId": "CN-P10-PROD-10-PARAM-满载效率",
+      "sourceCn": "满载效率 = ≥90%",
+      "translation": "КПД при полной нагрузке = ≥90%",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-10"
+      ],
+      "protectedTermsPreserved": [
+        "≥90%"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-B-PARAM-254",
+      "sourceContentId": "CN-P10-PROD-10-PARAM-使用寿命",
+      "sourceCn": "使用寿命 = ≥20000h",
+      "translation": "Срок службы = ≥20000h",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-11"
+      ],
+      "protectedTermsPreserved": [
+        "≥20000h"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-B-PARAM-255",
+      "sourceContentId": "CN-P10-PROD-10-PARAM-润滑",
+      "sourceCn": "润滑 = 免维护合成润滑脂",
+      "translation": "Смазка = Синтетическая смазка, не требующая обслуживания",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-12"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P10-B-PARAM-256",
+      "sourceContentId": "CN-P10-PROD-10-PARAM-使用环境温度",
+      "sourceCn": "使用环境温度 = -15°C~+90°C",
+      "translation": "Рабочая температура окружающей среды = -15°C~+90°C",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-13"
+      ],
+      "protectedTermsPreserved": [
+        "-15°C~+90°C"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-B-PARAM-257",
+      "sourceContentId": "CN-P10-PROD-10-PARAM-防护等级",
+      "sourceCn": "防护等级 = IP54",
+      "translation": "Степень защиты = IP54",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-14"
+      ],
+      "protectedTermsPreserved": [
+        "IP54"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-B-PARAM-258",
+      "sourceContentId": "CN-P10-PROD-10-PARAM-推荐适配电机",
+      "sourceCn": "推荐适配电机 = 1.2KW-3KW",
+      "translation": "Рекомендуемый электродвигатель = 1.2KW-3KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-15"
+      ],
+      "protectedTermsPreserved": [
+        "1.2KW-3KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-B-PARAM-259",
+      "sourceContentId": "CN-P10-PROD-10-PARAM-单轮驱动载荷",
+      "sourceCn": "单轮驱动载荷 = 1500KG",
+      "translation": "Нагрузка на ведущее колесо = 1500KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-16"
+      ],
+      "protectedTermsPreserved": [
+        "1500KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-B-PARAM-260",
+      "sourceContentId": "CN-P10-PROD-10-PARAM-行走速度",
+      "sourceCn": "行走速度 = 0.82m/s-0.98m/s",
+      "translation": "Скорость движения = 0.82m/s-0.98m/s",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-17"
+      ],
+      "protectedTermsPreserved": [
+        "0.82m/s-0.98m/s"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P10-B-PARAM-261",
+      "sourceContentId": "CN-P10-PROD-10-PARAM-适配轮径",
+      "sourceCn": "适配轮径 = Φ210-Φ250",
+      "translation": "Диаметр подходящего колеса = Φ210-Φ250",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-18"
+      ],
+      "protectedTermsPreserved": [
+        "Φ210-Φ250"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-A-TITLE",
+      "sourceContentId": "CN-P11-PROD-11",
+      "sourceCn": "GOA91F-00C",
+      "translation": "GOA91F-00C",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "PM-10"
+      ],
+      "protectedTermsPreserved": [
+        "GOA91F-00C"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-A-NOTE",
+      "sourceContentId": "CN-P11-PROD-11-NOTE",
+      "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
+      "translation": "Присоединительные размеры и передаточные числа могут быть скорректированы и изготовлены по индивидуальным требованиям заказчика.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-24",
+        "EG-04"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P11-A-APP",
+      "sourceContentId": "CN-P11-PROD-11-APP",
+      "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
+      "translation": "Прецизионный планетарный колёсный ходовой редуктор для мобильных роботов AGV",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "TT-05",
+        "TT-03",
+        "TT-11"
+      ],
+      "protectedTermsPreserved": [
+        "AGV"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-A-PARAM-265",
+      "sourceContentId": "CN-P11-PROD-11-PARAM-额定功率",
+      "sourceCn": "额定功率 = 9KW",
+      "translation": "Номинальная мощность = 9KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-01"
+      ],
+      "protectedTermsPreserved": [
+        "9KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-A-PARAM-266",
+      "sourceContentId": "CN-P11-PROD-11-PARAM-额定输入转速",
+      "sourceCn": "额定输入转速 = 2715r/min",
+      "translation": "Номинальная частота вращения на входе = 2715r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-02"
+      ],
+      "protectedTermsPreserved": [
+        "2715r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-A-PARAM-267",
+      "sourceContentId": "CN-P11-PROD-11-PARAM-最大输入转速",
+      "sourceCn": "最大输入转速 = 4000r/min",
+      "translation": "Макс. частота вращения на входе = 4000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-03"
+      ],
+      "protectedTermsPreserved": [
+        "4000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-A-PARAM-268",
+      "sourceContentId": "CN-P11-PROD-11-PARAM-减速比",
+      "sourceCn": "减速比 = 127.54:1",
+      "translation": "Передаточное число = 127.54:1",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-04"
+      ],
+      "protectedTermsPreserved": [
+        "127.54:1"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-A-PARAM-269",
+      "sourceContentId": "CN-P11-PROD-11-PARAM-额定输出转矩",
+      "sourceCn": "额定输出转矩 = 10000NM",
+      "translation": "Номинальный выходной крутящий момент = 10000NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-05"
+      ],
+      "protectedTermsPreserved": [
+        "10000NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-A-PARAM-270",
+      "sourceContentId": "CN-P11-PROD-11-PARAM-最大输出转矩",
+      "sourceCn": "最大输出转矩 = 38568NM",
+      "translation": "Макс. выходной крутящий момент = 38568NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-06"
+      ],
+      "protectedTermsPreserved": [
+        "38568NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-A-PARAM-271",
+      "sourceContentId": "CN-P11-PROD-11-PARAM-噪音",
+      "sourceCn": "噪音 = ≤65dB",
+      "translation": "Шум = ≤65dB",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-07"
+      ],
+      "protectedTermsPreserved": [
+        "≤65dB"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-A-PARAM-272",
+      "sourceContentId": "CN-P11-PROD-11-PARAM-最大径向力",
+      "sourceCn": "最大径向力 = 20000KG",
+      "translation": "Макс. радиальная нагрузка = 20000KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-08"
+      ],
+      "protectedTermsPreserved": [
+        "20000KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-A-PARAM-273",
+      "sourceContentId": "CN-P11-PROD-11-PARAM-回程间隙",
+      "sourceCn": "回程间隙 = ≤30arcmin",
+      "translation": "Мёртвый ход (люфт) = ≤30arcmin",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-09"
+      ],
+      "protectedTermsPreserved": [
+        "≤30arcmin"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-A-PARAM-274",
+      "sourceContentId": "CN-P11-PROD-11-PARAM-满载效率",
+      "sourceCn": "满载效率 = ≥90%",
+      "translation": "КПД при полной нагрузке = ≥90%",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-10"
+      ],
+      "protectedTermsPreserved": [
+        "≥90%"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-A-PARAM-275",
+      "sourceContentId": "CN-P11-PROD-11-PARAM-使用寿命",
+      "sourceCn": "使用寿命 = ≥20000h",
+      "translation": "Срок службы = ≥20000h",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-11"
+      ],
+      "protectedTermsPreserved": [
+        "≥20000h"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-A-PARAM-276",
+      "sourceContentId": "CN-P11-PROD-11-PARAM-润滑",
+      "sourceCn": "润滑 = 润滑油",
+      "translation": "Смазка = Смазочное масло",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-12"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P11-A-PARAM-277",
+      "sourceContentId": "CN-P11-PROD-11-PARAM-使用环境温度",
+      "sourceCn": "使用环境温度 = -15°C~+90°C",
+      "translation": "Рабочая температура окружающей среды = -15°C~+90°C",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-13"
+      ],
+      "protectedTermsPreserved": [
+        "-15°C~+90°C"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-A-PARAM-278",
+      "sourceContentId": "CN-P11-PROD-11-PARAM-防护等级",
+      "sourceCn": "防护等级 = IP54",
+      "translation": "Степень защиты = IP54",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-14"
+      ],
+      "protectedTermsPreserved": [
+        "IP54"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-A-PARAM-279",
+      "sourceContentId": "CN-P11-PROD-11-PARAM-推荐适配电机",
+      "sourceCn": "推荐适配电机 = 7.5KW-11KW",
+      "translation": "Рекомендуемый электродвигатель = 7.5KW-11KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-15"
+      ],
+      "protectedTermsPreserved": [
+        "7.5KW-11KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-A-PARAM-280",
+      "sourceContentId": "CN-P11-PROD-11-PARAM-单轮驱动载荷",
+      "sourceCn": "单轮驱动载荷 = 20000KG",
+      "translation": "Нагрузка на ведущее колесо = 20000KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-16"
+      ],
+      "protectedTermsPreserved": [
+        "20000KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-A-PARAM-281",
+      "sourceContentId": "CN-P11-PROD-11-PARAM-行走速度",
+      "sourceCn": "行走速度 = 0.56m/s-0.67m/s",
+      "translation": "Скорость движения = 0.56m/s-0.67m/s",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-17"
+      ],
+      "protectedTermsPreserved": [
+        "0.56m/s-0.67m/s"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-A-PARAM-282",
+      "sourceContentId": "CN-P11-PROD-11-PARAM-适配轮径",
+      "sourceCn": "适配轮径 = Φ500-Φ600/推荐Φ600",
+      "translation": "Диаметр подходящего колеса = Φ500-Φ600/推荐Φ600",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-18"
+      ],
+      "protectedTermsPreserved": [
+        "Φ500-Φ600/推荐Φ600"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-B-TITLE",
+      "sourceContentId": "CN-P11-PROD-12",
+      "sourceCn": "AFR90-L2-C20",
+      "translation": "AFR90-L2-C20",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "PM-11"
+      ],
+      "protectedTermsPreserved": [
+        "AFR90-L2-C20"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-B-NOTE",
+      "sourceContentId": "CN-P11-PROD-12-NOTE",
+      "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
+      "translation": "Присоединительные размеры и передаточные числа могут быть скорректированы и изготовлены по индивидуальным требованиям заказчика.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-24",
+        "EG-04"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P11-B-APP",
+      "sourceContentId": "CN-P11-PROD-12-APP",
+      "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
+      "translation": "Прецизионный планетарный колёсный ходовой редуктор для мобильных роботов AGV",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "TT-05",
+        "TT-03",
+        "TT-11"
+      ],
+      "protectedTermsPreserved": [
+        "AGV"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-B-PARAM-286",
+      "sourceContentId": "CN-P11-PROD-12-PARAM-额定功率",
+      "sourceCn": "额定功率 = 1kW",
+      "translation": "Номинальная мощность = 1kW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-01"
+      ],
+      "protectedTermsPreserved": [
+        "1kW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-B-PARAM-287",
+      "sourceContentId": "CN-P11-PROD-12-PARAM-额定输入转速",
+      "sourceCn": "额定输入转速 = 3000r/min",
+      "translation": "Номинальная частота вращения на входе = 3000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-02"
+      ],
+      "protectedTermsPreserved": [
+        "3000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-B-PARAM-288",
+      "sourceContentId": "CN-P11-PROD-12-PARAM-最大输入转速",
+      "sourceCn": "最大输入转速 = 6000r/min",
+      "translation": "Макс. частота вращения на входе = 6000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-03"
+      ],
+      "protectedTermsPreserved": [
+        "6000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-B-PARAM-289",
+      "sourceContentId": "CN-P11-PROD-12-PARAM-减速比",
+      "sourceCn": "减速比 = 12-100",
+      "translation": "Передаточное число = 12-100",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-04"
+      ],
+      "protectedTermsPreserved": [
+        "12-100"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-B-PARAM-290",
+      "sourceContentId": "CN-P11-PROD-12-PARAM-额定输出转矩",
+      "sourceCn": "额定输出转矩 = 60-108NM",
+      "translation": "Номинальный выходной крутящий момент = 60-108NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-05"
+      ],
+      "protectedTermsPreserved": [
+        "60-108NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-B-PARAM-291",
+      "sourceContentId": "CN-P11-PROD-12-PARAM-最大输出转矩",
+      "sourceCn": "最大输出转矩 = 120-200NM",
+      "translation": "Макс. выходной крутящий момент = 120-200NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-06"
+      ],
+      "protectedTermsPreserved": [
+        "120-200NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-B-PARAM-292",
+      "sourceContentId": "CN-P11-PROD-12-PARAM-噪音",
+      "sourceCn": "噪音 = ≤65dB",
+      "translation": "Шум = ≤65dB",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-07"
+      ],
+      "protectedTermsPreserved": [
+        "≤65dB"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-B-PARAM-293",
+      "sourceContentId": "CN-P11-PROD-12-PARAM-最大径向力",
+      "sourceCn": "最大径向力 = 1200N",
+      "translation": "Макс. радиальная нагрузка = 1200N",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-08"
+      ],
+      "protectedTermsPreserved": [
+        "1200N"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-B-PARAM-294",
+      "sourceContentId": "CN-P11-PROD-12-PARAM-回程间隙",
+      "sourceCn": "回程间隙 = ≤30arcmin",
+      "translation": "Мёртвый ход (люфт) = ≤30arcmin",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-09"
+      ],
+      "protectedTermsPreserved": [
+        "≤30arcmin"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-B-PARAM-295",
+      "sourceContentId": "CN-P11-PROD-12-PARAM-满载效率",
+      "sourceCn": "满载效率 = ≥90%",
+      "translation": "КПД при полной нагрузке = ≥90%",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-10"
+      ],
+      "protectedTermsPreserved": [
+        "≥90%"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-B-PARAM-296",
+      "sourceContentId": "CN-P11-PROD-12-PARAM-使用寿命",
+      "sourceCn": "使用寿命 = ≥20000h",
+      "translation": "Срок службы = ≥20000h",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-11"
+      ],
+      "protectedTermsPreserved": [
+        "≥20000h"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-B-PARAM-297",
+      "sourceContentId": "CN-P11-PROD-12-PARAM-润滑",
+      "sourceCn": "润滑 = 免维护合成润滑脂",
+      "translation": "Смазка = Синтетическая смазка, не требующая обслуживания",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-12"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P11-B-PARAM-298",
+      "sourceContentId": "CN-P11-PROD-12-PARAM-使用环境温度",
+      "sourceCn": "使用环境温度 = -15°C~+90°C",
+      "translation": "Рабочая температура окружающей среды = -15°C~+90°C",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-13"
+      ],
+      "protectedTermsPreserved": [
+        "-15°C~+90°C"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-B-PARAM-299",
+      "sourceContentId": "CN-P11-PROD-12-PARAM-防护等级",
+      "sourceCn": "防护等级 = IP54",
+      "translation": "Степень защиты = IP54",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-14"
+      ],
+      "protectedTermsPreserved": [
+        "IP54"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-B-PARAM-300",
+      "sourceContentId": "CN-P11-PROD-12-PARAM-推荐适配电机",
+      "sourceCn": "推荐适配电机 = 1kW 48V",
+      "translation": "Рекомендуемый электродвигатель = 1kW 48V",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-15"
+      ],
+      "protectedTermsPreserved": [
+        "1kW 48V"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-B-PARAM-301",
+      "sourceContentId": "CN-P11-PROD-12-PARAM-额定电流",
+      "sourceCn": "额定电流 = 27A",
+      "translation": "Номинальный ток = 27A",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-19"
+      ],
+      "protectedTermsPreserved": [
+        "27A"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P11-B-PARAM-302",
+      "sourceContentId": "CN-P11-PROD-12-PARAM-设备载荷",
+      "sourceCn": "设备载荷 = 1000KG",
+      "translation": "Нагрузочная способность оборудования = 1000KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-20"
+      ],
+      "protectedTermsPreserved": [
+        "1000KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-A-TITLE",
+      "sourceContentId": "CN-P12-PROD-13",
+      "sourceCn": "FE-155D-L2-S2-P2",
+      "translation": "FE-155D-L2-S2-P2",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "PM-12"
+      ],
+      "protectedTermsPreserved": [
+        "FE-155D-L2-S2-P2"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-A-NOTE",
+      "sourceContentId": "CN-P12-PROD-13-NOTE",
+      "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
+      "translation": "Присоединительные размеры и передаточные числа могут быть скорректированы и изготовлены по индивидуальным требованиям заказчика.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-24",
+        "EG-04"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P12-A-APP",
+      "sourceContentId": "CN-P12-PROD-13-APP",
+      "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
+      "translation": "Прецизионный планетарный колёсный ходовой редуктор для мобильных роботов AGV",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "TT-05",
+        "TT-03",
+        "TT-11"
+      ],
+      "protectedTermsPreserved": [
+        "AGV"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-A-PARAM-306",
+      "sourceContentId": "CN-P12-PROD-13-PARAM-额定功率",
+      "sourceCn": "额定功率 = 1.2KW-3KW",
+      "translation": "Номинальная мощность = 1.2KW-3KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-01"
+      ],
+      "protectedTermsPreserved": [
+        "1.2KW-3KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-A-PARAM-307",
+      "sourceContentId": "CN-P12-PROD-13-PARAM-额定输入转速",
+      "sourceCn": "额定输入转速 = 3000r/min",
+      "translation": "Номинальная частота вращения на входе = 3000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-02"
+      ],
+      "protectedTermsPreserved": [
+        "3000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-A-PARAM-308",
+      "sourceContentId": "CN-P12-PROD-13-PARAM-最大输入转速",
+      "sourceCn": "最大输入转速 = 6000r/min",
+      "translation": "Макс. частота вращения на входе = 6000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-03"
+      ],
+      "protectedTermsPreserved": [
+        "6000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-A-PARAM-309",
+      "sourceContentId": "CN-P12-PROD-13-PARAM-减速比",
+      "sourceCn": "减速比 = 12-100",
+      "translation": "Передаточное число = 12-100",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-04"
+      ],
+      "protectedTermsPreserved": [
+        "12-100"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-A-PARAM-310",
+      "sourceContentId": "CN-P12-PROD-13-PARAM-额定输出转矩",
+      "sourceCn": "额定输出转矩 = 342-450NM",
+      "translation": "Номинальный выходной крутящий момент = 342-450NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-05"
+      ],
+      "protectedTermsPreserved": [
+        "342-450NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-A-PARAM-311",
+      "sourceContentId": "CN-P12-PROD-13-PARAM-最大输出转矩",
+      "sourceCn": "最大输出转矩 = 684-900NM",
+      "translation": "Макс. выходной крутящий момент = 684-900NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-06"
+      ],
+      "protectedTermsPreserved": [
+        "684-900NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-A-PARAM-312",
+      "sourceContentId": "CN-P12-PROD-13-PARAM-噪音",
+      "sourceCn": "噪音 = ≤65dB",
+      "translation": "Шум = ≤65dB",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-07"
+      ],
+      "protectedTermsPreserved": [
+        "≤65dB"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-A-PARAM-313",
+      "sourceContentId": "CN-P12-PROD-13-PARAM-最大径向力",
+      "sourceCn": "最大径向力 = 9400N",
+      "translation": "Макс. радиальная нагрузка = 9400N",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-08"
+      ],
+      "protectedTermsPreserved": [
+        "9400N"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-A-PARAM-314",
+      "sourceContentId": "CN-P12-PROD-13-PARAM-回程间隙",
+      "sourceCn": "回程间隙 = ≤10arcmin",
+      "translation": "Мёртвый ход (люфт) = ≤10arcmin",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-09"
+      ],
+      "protectedTermsPreserved": [
+        "≤10arcmin"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-A-PARAM-315",
+      "sourceContentId": "CN-P12-PROD-13-PARAM-满载效率",
+      "sourceCn": "满载效率 = ≥90%",
+      "translation": "КПД при полной нагрузке = ≥90%",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-10"
+      ],
+      "protectedTermsPreserved": [
+        "≥90%"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-A-PARAM-316",
+      "sourceContentId": "CN-P12-PROD-13-PARAM-使用寿命",
+      "sourceCn": "使用寿命 = ≥20000h",
+      "translation": "Срок службы = ≥20000h",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-11"
+      ],
+      "protectedTermsPreserved": [
+        "≥20000h"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-A-PARAM-317",
+      "sourceContentId": "CN-P12-PROD-13-PARAM-润滑",
+      "sourceCn": "润滑 = 免维护合成润滑脂",
+      "translation": "Смазка = Синтетическая смазка, не требующая обслуживания",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-12"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P12-A-PARAM-318",
+      "sourceContentId": "CN-P12-PROD-13-PARAM-使用环境温度",
+      "sourceCn": "使用环境温度 = -15°C~+90°C",
+      "translation": "Рабочая температура окружающей среды = -15°C~+90°C",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-13"
+      ],
+      "protectedTermsPreserved": [
+        "-15°C~+90°C"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-A-PARAM-319",
+      "sourceContentId": "CN-P12-PROD-13-PARAM-防护等级",
+      "sourceCn": "防护等级 = IP54",
+      "translation": "Степень защиты = IP54",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-14"
+      ],
+      "protectedTermsPreserved": [
+        "IP54"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-B-TITLE",
+      "sourceContentId": "CN-P12-PROD-14",
+      "sourceCn": "FE-160D-L2-S2-P2",
+      "translation": "FE-160D-L2-S2-P2",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "PM-13"
+      ],
+      "protectedTermsPreserved": [
+        "FE-160D-L2-S2-P2"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-B-NOTE",
+      "sourceContentId": "CN-P12-PROD-14-NOTE",
+      "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
+      "translation": "Присоединительные размеры и передаточные числа могут быть скорректированы и изготовлены по индивидуальным требованиям заказчика.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-24",
+        "EG-04"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P12-B-APP",
+      "sourceContentId": "CN-P12-PROD-14-APP",
+      "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
+      "translation": "Прецизионный планетарный колёсный ходовой редуктор для мобильных роботов AGV",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "TT-05",
+        "TT-03",
+        "TT-11"
+      ],
+      "protectedTermsPreserved": [
+        "AGV"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-B-PARAM-323",
+      "sourceContentId": "CN-P12-PROD-14-PARAM-额定功率",
+      "sourceCn": "额定功率 = 1.2KW-3KW",
+      "translation": "Номинальная мощность = 1.2KW-3KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-01"
+      ],
+      "protectedTermsPreserved": [
+        "1.2KW-3KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-B-PARAM-324",
+      "sourceContentId": "CN-P12-PROD-14-PARAM-额定输入转速",
+      "sourceCn": "额定输入转速 = 3000r/min",
+      "translation": "Номинальная частота вращения на входе = 3000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-02"
+      ],
+      "protectedTermsPreserved": [
+        "3000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-B-PARAM-325",
+      "sourceContentId": "CN-P12-PROD-14-PARAM-最大输入转速",
+      "sourceCn": "最大输入转速 = 6000r/min",
+      "translation": "Макс. частота вращения на входе = 6000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-03"
+      ],
+      "protectedTermsPreserved": [
+        "6000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-B-PARAM-326",
+      "sourceContentId": "CN-P12-PROD-14-PARAM-减速比",
+      "sourceCn": "减速比 = 12-100",
+      "translation": "Передаточное число = 12-100",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-04"
+      ],
+      "protectedTermsPreserved": [
+        "12-100"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-B-PARAM-327",
+      "sourceContentId": "CN-P12-PROD-14-PARAM-额定输出转矩",
+      "sourceCn": "额定输出转矩 = 342-450NM",
+      "translation": "Номинальный выходной крутящий момент = 342-450NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-05"
+      ],
+      "protectedTermsPreserved": [
+        "342-450NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-B-PARAM-328",
+      "sourceContentId": "CN-P12-PROD-14-PARAM-最大输出转矩",
+      "sourceCn": "最大输出转矩 = 684-900NM",
+      "translation": "Макс. выходной крутящий момент = 684-900NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-06"
+      ],
+      "protectedTermsPreserved": [
+        "684-900NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-B-PARAM-329",
+      "sourceContentId": "CN-P12-PROD-14-PARAM-噪音",
+      "sourceCn": "噪音 = ≤65dB",
+      "translation": "Шум = ≤65dB",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-07"
+      ],
+      "protectedTermsPreserved": [
+        "≤65dB"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-B-PARAM-330",
+      "sourceContentId": "CN-P12-PROD-14-PARAM-最大径向力",
+      "sourceCn": "最大径向力 = 9400N",
+      "translation": "Макс. радиальная нагрузка = 9400N",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-08"
+      ],
+      "protectedTermsPreserved": [
+        "9400N"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-B-PARAM-331",
+      "sourceContentId": "CN-P12-PROD-14-PARAM-回程间隙",
+      "sourceCn": "回程间隙 = ≤10arcmin",
+      "translation": "Мёртвый ход (люфт) = ≤10arcmin",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-09"
+      ],
+      "protectedTermsPreserved": [
+        "≤10arcmin"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-B-PARAM-332",
+      "sourceContentId": "CN-P12-PROD-14-PARAM-满载效率",
+      "sourceCn": "满载效率 = ≥90%",
+      "translation": "КПД при полной нагрузке = ≥90%",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-10"
+      ],
+      "protectedTermsPreserved": [
+        "≥90%"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-B-PARAM-333",
+      "sourceContentId": "CN-P12-PROD-14-PARAM-使用寿命",
+      "sourceCn": "使用寿命 = ≥20000h",
+      "translation": "Срок службы = ≥20000h",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-11"
+      ],
+      "protectedTermsPreserved": [
+        "≥20000h"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-B-PARAM-334",
+      "sourceContentId": "CN-P12-PROD-14-PARAM-润滑",
+      "sourceCn": "润滑 = 免维护合成润滑脂",
+      "translation": "Смазка = Синтетическая смазка, не требующая обслуживания",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-12"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P12-B-PARAM-335",
+      "sourceContentId": "CN-P12-PROD-14-PARAM-使用环境温度",
+      "sourceCn": "使用环境温度 = -15°C~+90°C",
+      "translation": "Рабочая температура окружающей среды = -15°C~+90°C",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-13"
+      ],
+      "protectedTermsPreserved": [
+        "-15°C~+90°C"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P12-B-PARAM-336",
+      "sourceContentId": "CN-P12-PROD-14-PARAM-防护等级",
+      "sourceCn": "防护等级 = IP54",
+      "translation": "Степень защиты = IP54",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-14"
+      ],
+      "protectedTermsPreserved": [
+        "IP54"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-A-TITLE",
+      "sourceContentId": "CN-P13-PROD-15",
+      "sourceCn": "FB-180D-L2-S2-P2(非标件)",
+      "translation": "FB-180D-L2-S2-P2 (нестандартное изделие)",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "PM-14"
+      ],
+      "protectedTermsPreserved": [
+        "FB-180D-L2-S2-P2"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-A-NOTE",
+      "sourceContentId": "CN-P13-PROD-15-NOTE",
+      "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
+      "translation": "Присоединительные размеры и передаточные числа могут быть скорректированы и изготовлены по индивидуальным требованиям заказчика.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-24",
+        "EG-04"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P13-A-APP",
+      "sourceContentId": "CN-P13-PROD-15-APP",
+      "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
+      "translation": "Прецизионный планетарный колёсный ходовой редуктор для мобильных роботов AGV",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "TT-05",
+        "TT-03",
+        "TT-11"
+      ],
+      "protectedTermsPreserved": [
+        "AGV"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-A-EXTRA",
+      "sourceContentId": "CN-P13-PROD-15-EXTRA",
+      "sourceCn": "注明：此款为非标件，输入轴非标",
+      "translation": "Примечание: данная модель — нестандартное изделие; входной вал — нестандартный.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "PM-19",
+        "PM-20"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P13-A-PARAM-341",
+      "sourceContentId": "CN-P13-PROD-15-PARAM-额定功率",
+      "sourceCn": "额定功率 = 4.5KW-7.5KW",
+      "translation": "Номинальная мощность = 4.5KW-7.5KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-01"
+      ],
+      "protectedTermsPreserved": [
+        "4.5KW-7.5KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-A-PARAM-342",
+      "sourceContentId": "CN-P13-PROD-15-PARAM-额定输入转速",
+      "sourceCn": "额定输入转速 = 3000r/min",
+      "translation": "Номинальная частота вращения на входе = 3000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-02"
+      ],
+      "protectedTermsPreserved": [
+        "3000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-A-PARAM-343",
+      "sourceContentId": "CN-P13-PROD-15-PARAM-最大输入转速",
+      "sourceCn": "最大输入转速 = 6000r/min",
+      "translation": "Макс. частота вращения на входе = 6000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-03"
+      ],
+      "protectedTermsPreserved": [
+        "6000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-A-PARAM-344",
+      "sourceContentId": "CN-P13-PROD-15-PARAM-减速比",
+      "sourceCn": "减速比 = 12-100",
+      "translation": "Передаточное число = 12-100",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-04"
+      ],
+      "protectedTermsPreserved": [
+        "12-100"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-A-PARAM-345",
+      "sourceContentId": "CN-P13-PROD-15-PARAM-额定输出转矩",
+      "sourceCn": "额定输出转矩 = 588-900NM",
+      "translation": "Номинальный выходной крутящий момент = 588-900NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-05"
+      ],
+      "protectedTermsPreserved": [
+        "588-900NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-A-PARAM-346",
+      "sourceContentId": "CN-P13-PROD-15-PARAM-最大输出转矩",
+      "sourceCn": "最大输出转矩 = 1176-1800NM",
+      "translation": "Макс. выходной крутящий момент = 1176-1800NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-06"
+      ],
+      "protectedTermsPreserved": [
+        "1176-1800NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-A-PARAM-347",
+      "sourceContentId": "CN-P13-PROD-15-PARAM-噪音",
+      "sourceCn": "噪音 = ≤67dB",
+      "translation": "Шум = ≤67dB",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-07"
+      ],
+      "protectedTermsPreserved": [
+        "≤67dB"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-A-PARAM-348",
+      "sourceContentId": "CN-P13-PROD-15-PARAM-最大径向力",
+      "sourceCn": "最大径向力 = 14500N",
+      "translation": "Макс. радиальная нагрузка = 14500N",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-08"
+      ],
+      "protectedTermsPreserved": [
+        "14500N"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-A-PARAM-349",
+      "sourceContentId": "CN-P13-PROD-15-PARAM-回程间隙",
+      "sourceCn": "回程间隙 = ≤10arcmin",
+      "translation": "Мёртвый ход (люфт) = ≤10arcmin",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-09"
+      ],
+      "protectedTermsPreserved": [
+        "≤10arcmin"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-A-PARAM-350",
+      "sourceContentId": "CN-P13-PROD-15-PARAM-满载效率",
+      "sourceCn": "满载效率 = ≥90%",
+      "translation": "КПД при полной нагрузке = ≥90%",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-10"
+      ],
+      "protectedTermsPreserved": [
+        "≥90%"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-A-PARAM-351",
+      "sourceContentId": "CN-P13-PROD-15-PARAM-使用寿命",
+      "sourceCn": "使用寿命 = ≥20000h",
+      "translation": "Срок службы = ≥20000h",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-11"
+      ],
+      "protectedTermsPreserved": [
+        "≥20000h"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-A-PARAM-352",
+      "sourceContentId": "CN-P13-PROD-15-PARAM-润滑",
+      "sourceCn": "润滑 = 免维护合成润滑脂",
+      "translation": "Смазка = Синтетическая смазка, не требующая обслуживания",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-12"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P13-A-PARAM-353",
+      "sourceContentId": "CN-P13-PROD-15-PARAM-使用环境温度",
+      "sourceCn": "使用环境温度 = -15°C~+90°C",
+      "translation": "Рабочая температура окружающей среды = -15°C~+90°C",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-13"
+      ],
+      "protectedTermsPreserved": [
+        "-15°C~+90°C"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-A-PARAM-354",
+      "sourceContentId": "CN-P13-PROD-15-PARAM-防护等级",
+      "sourceCn": "防护等级 = IP54",
+      "translation": "Степень защиты = IP54",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-14"
+      ],
+      "protectedTermsPreserved": [
+        "IP54"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-B-TITLE",
+      "sourceContentId": "CN-P13-PROD-16",
+      "sourceCn": "301-2-003120-00(带制动轴)",
+      "translation": "301-2-003120-00 (с тормозным валом)",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "PM-15"
+      ],
+      "protectedTermsPreserved": [
+        "301-2-003120-00"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-B-NOTE",
+      "sourceContentId": "CN-P13-PROD-16-NOTE",
+      "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
+      "translation": "Присоединительные размеры и передаточные числа могут быть скорректированы и изготовлены по индивидуальным требованиям заказчика.",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-24",
+        "EG-04"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P13-B-APP",
+      "sourceContentId": "CN-P13-PROD-16-APP",
+      "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
+      "translation": "Прецизионный планетарный колёсный ходовой редуктор для мобильных роботов AGV",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "TT-05",
+        "TT-03",
+        "TT-11"
+      ],
+      "protectedTermsPreserved": [
+        "AGV"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-B-PARAM-358",
+      "sourceContentId": "CN-P13-PROD-16-PARAM-额定功率",
+      "sourceCn": "额定功率 = 9KW",
+      "translation": "Номинальная мощность = 9KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-01"
+      ],
+      "protectedTermsPreserved": [
+        "9KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-B-PARAM-359",
+      "sourceContentId": "CN-P13-PROD-16-PARAM-额定输入转速",
+      "sourceCn": "额定输入转速 = 3000r/min",
+      "translation": "Номинальная частота вращения на входе = 3000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-02"
+      ],
+      "protectedTermsPreserved": [
+        "3000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-B-PARAM-360",
+      "sourceContentId": "CN-P13-PROD-16-PARAM-最大输入转速",
+      "sourceCn": "最大输入转速 = 6000r/min",
+      "translation": "Макс. частота вращения на входе = 6000r/min",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-03"
+      ],
+      "protectedTermsPreserved": [
+        "6000r/min"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-B-PARAM-361",
+      "sourceContentId": "CN-P13-PROD-16-PARAM-减速比",
+      "sourceCn": "减速比 = 120:1",
+      "translation": "Передаточное число = 120:1",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-04"
+      ],
+      "protectedTermsPreserved": [
+        "120:1"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-B-PARAM-362",
+      "sourceContentId": "CN-P13-PROD-16-PARAM-额定输出转矩",
+      "sourceCn": "额定输出转矩 = 3200NM",
+      "translation": "Номинальный выходной крутящий момент = 3200NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-05"
+      ],
+      "protectedTermsPreserved": [
+        "3200NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-B-PARAM-363",
+      "sourceContentId": "CN-P13-PROD-16-PARAM-最大输出转矩",
+      "sourceCn": "最大输出转矩 = 6400NM",
+      "translation": "Макс. выходной крутящий момент = 6400NM",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-06"
+      ],
+      "protectedTermsPreserved": [
+        "6400NM"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-B-PARAM-364",
+      "sourceContentId": "CN-P13-PROD-16-PARAM-噪音",
+      "sourceCn": "噪音 = ≤70dB",
+      "translation": "Шум = ≤70dB",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-07"
+      ],
+      "protectedTermsPreserved": [
+        "≤70dB"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-B-PARAM-365",
+      "sourceContentId": "CN-P13-PROD-16-PARAM-最大径向力",
+      "sourceCn": "最大径向力 = 12000KG",
+      "translation": "Макс. радиальная нагрузка = 12000KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-08"
+      ],
+      "protectedTermsPreserved": [
+        "12000KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-B-PARAM-366",
+      "sourceContentId": "CN-P13-PROD-16-PARAM-回程间隙",
+      "sourceCn": "回程间隙 = ≤60arcmin",
+      "translation": "Мёртвый ход (люфт) = ≤60arcmin",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-09"
+      ],
+      "protectedTermsPreserved": [
+        "≤60arcmin"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-B-PARAM-367",
+      "sourceContentId": "CN-P13-PROD-16-PARAM-满载效率",
+      "sourceCn": "满载效率 = ≥90%",
+      "translation": "КПД при полной нагрузке = ≥90%",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.95,
+      "glossaryTermsUsed": [
+        "EG-10"
+      ],
+      "protectedTermsPreserved": [
+        "≥90%"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-B-PARAM-368",
+      "sourceContentId": "CN-P13-PROD-16-PARAM-使用寿命",
+      "sourceCn": "使用寿命 = ≥20000h",
+      "translation": "Срок службы = ≥20000h",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-11"
+      ],
+      "protectedTermsPreserved": [
+        "≥20000h"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-B-PARAM-369",
+      "sourceContentId": "CN-P13-PROD-16-PARAM-润滑",
+      "sourceCn": "润滑 = 润滑油",
+      "translation": "Смазка = Смазочное масло",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-12"
+      ],
+      "protectedTermsPreserved": []
+    },
+    {
+      "contentId": "RU-PROD-P13-B-PARAM-370",
+      "sourceContentId": "CN-P13-PROD-16-PARAM-使用环境温度",
+      "sourceCn": "使用环境温度 = -15°C~+90°C",
+      "translation": "Рабочая температура окружающей среды = -15°C~+90°C",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-13"
+      ],
+      "protectedTermsPreserved": [
+        "-15°C~+90°C"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-B-PARAM-371",
+      "sourceContentId": "CN-P13-PROD-16-PARAM-防护等级",
+      "sourceCn": "防护等级 = IP54",
+      "translation": "Степень защиты = IP54",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-14"
+      ],
+      "protectedTermsPreserved": [
+        "IP54"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-B-PARAM-372",
+      "sourceContentId": "CN-P13-PROD-16-PARAM-推荐适配电机",
+      "sourceCn": "推荐适配电机 = 7.5KW-11KW",
+      "translation": "Рекомендуемый электродвигатель = 7.5KW-11KW",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-15"
+      ],
+      "protectedTermsPreserved": [
+        "7.5KW-11KW"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-B-PARAM-373",
+      "sourceContentId": "CN-P13-PROD-16-PARAM-单轮驱动载荷",
+      "sourceCn": "单轮驱动载荷 = 12000KG",
+      "translation": "Нагрузка на ведущее колесо = 12000KG",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-16"
+      ],
+      "protectedTermsPreserved": [
+        "12000KG"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-B-PARAM-374",
+      "sourceContentId": "CN-P13-PROD-16-PARAM-行走速度",
+      "sourceCn": "行走速度 = 0.65m/s-0.785m/s",
+      "translation": "Скорость движения = 0.65m/s-0.785m/s",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [
+        "EG-17"
+      ],
+      "protectedTermsPreserved": [
+        "0.65m/s-0.785m/s"
+      ]
+    },
+    {
+      "contentId": "RU-PROD-P13-B-PARAM-375",
+      "sourceContentId": "CN-P13-PROD-16-PARAM-适配轮径",
+      "sourceCn": "适配轮径 = Φ500-Φ600/推荐Φ600",
+      "translation": "Диаметр подходящего колеса = Φ500-Φ600/推荐Φ600",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.85,
+      "glossaryTermsUsed": [
+        "EG-18"
+      ],
+      "protectedTermsPreserved": [
+        "Φ500-Φ600/推荐Φ600"
+      ]
+    }
+  ]
+}

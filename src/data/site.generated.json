@@ -1,0 +1,255 @@
+{
+ "generatedAt": "2026-08-19T09:33:19.986Z",
+ "company": {
+  "nameCn": "蚌埠市行星工程机械有限公司",
+  "nameEn": "Bengbu Planetary Engineering Machinery Co., Ltd.",
+  "brandCn": "蚌埠行星",
+  "headerEn": "Professional, meticulous and honest",
+  "contact": {
+   "address": "安徽省蚌埠市国家级高新技术开发区大庆路1558号",
+   "phone": "400-0552-863",
+   "postalCode": "233000"
+  }
+ },
+ "companyFacts": [
+  {
+   "factId": "CF-01",
+   "item": "公司名称(中文)",
+   "value": "蚌埠市行星工程机械有限公司",
+   "sourcePage": 1,
+   "contentId": "CN-P01-H01",
+   "confidence": 1,
+   "status": "CONFIRMED"
+  },
+  {
+   "factId": "CF-02",
+   "item": "公司名称(英文)",
+   "value": "Bengbu Planetary Engineering Machinery Co., Ltd.",
+   "sourcePage": 1,
+   "contentId": "CN-P01-H01",
+   "confidence": 0.9,
+   "status": "CONFIRMED",
+   "evidence": "PDF封面/页眉英文标识"
+  },
+  {
+   "factId": "CF-03",
+   "item": "品牌名(图形)",
+   "value": "蚌埠行星",
+   "sourcePage": 1,
+   "contentId": "CN-P01-H02",
+   "confidence": 0.5,
+   "status": "CONFIRMED"
+  },
+  {
+   "factId": "CF-04",
+   "item": "成立时间",
+   "value": "2002年",
+   "sourcePage": 3,
+   "contentId": "CN-P03-B01",
+   "confidence": 0.95,
+   "status": "CONFIRMED"
+  },
+  {
+   "factId": "CF-05",
+   "item": "所在地",
+   "value": "安徽省蚌埠市国家级高新技术产业开发区(千里淮河第一港蚌埠市)",
+   "sourcePage": 3,
+   "contentId": "CN-P03-B01",
+   "confidence": 0.9,
+   "status": "CONFIRMED"
+  },
+  {
+   "factId": "CF-06",
+   "item": "占地面积",
+   "value": "40000多平方米",
+   "sourcePage": 3,
+   "contentId": "CN-P03-B02",
+   "confidence": 0.9,
+   "status": "CONFIRMED"
+  },
+  {
+   "factId": "CF-07",
+   "item": "从业经验(行星齿轮减速器研发制造)",
+   "value": "30多年",
+   "sourcePage": 3,
+   "contentId": "CN-P03-B02",
+   "confidence": 0.9,
+   "status": "CONFIRMED"
+  },
+  {
+   "factId": "CF-08",
+   "item": "业务范围",
+   "value": "机器人行走齿轮精密减速机的研发、制造和销售; 树形智能立体车库的研发与销售",
+   "sourcePage": 3,
+   "contentId": "CN-P03-B01",
+   "confidence": 0.95,
+   "status": "CONFIRMED"
+  },
+  {
+   "factId": "CF-09",
+   "item": "配套客户",
+   "value": "中国中铁、中国铁建重工、海螺集团等国内外知名厂家",
+   "sourcePage": 3,
+   "contentId": "CN-P03-B03",
+   "confidence": 0.9,
+   "status": "CONFIRMED"
+  },
+  {
+   "factId": "CF-10",
+   "item": "出口范围",
+   "value": "国内外30几个国家及地区",
+   "sourcePage": 3,
+   "contentId": "CN-P03-B03",
+   "confidence": 0.9,
+   "status": "CONFIRMED"
+  },
+  {
+   "factId": "CF-11",
+   "item": "企业宗旨",
+   "value": "一流的产品质量、一流的工作效率、一流的企业形象",
+   "sourcePage": 3,
+   "contentId": "CN-P03-B05",
+   "confidence": 0.9,
+   "status": "CONFIRMED"
+  },
+  {
+   "factId": "CF-12",
+   "item": "口号/光荣传统",
+   "value": "不断改进是我们制胜的法宝",
+   "sourcePage": 3,
+   "contentId": "CN-P03-B05",
+   "confidence": 0.9,
+   "status": "CONFIRMED"
+  },
+  {
+   "factId": "CF-13",
+   "item": "页眉英文标语",
+   "value": "Professional, meticulous and honest",
+   "sourcePage": "1,3,5,14",
+   "contentId": "CN-P01-H02等/HEADER-EN",
+   "confidence": 0.95,
+   "status": "CONFIRMED"
+  },
+  {
+   "factId": "CF-14",
+   "item": "页脚标语",
+   "value": "行星传动 装备美好生活",
+   "sourcePage": 3,
+   "contentId": "CN-P03-S01",
+   "confidence": 0.85,
+   "status": "CONFIRMED"
+  },
+  {
+   "factId": "CF-15",
+   "item": "版本标识",
+   "value": "2023A版",
+   "sourcePage": 1,
+   "contentId": "CN-P01-N01",
+   "confidence": 0.95,
+   "status": "CONFIRMED"
+  },
+  {
+   "factId": "CF-16",
+   "item": "地址",
+   "value": "安徽省蚌埠市国家级高新技术开发区大庆路1558号",
+   "sourcePage": 1,
+   "contentId": "CN-P01-C01",
+   "confidence": 0.82,
+   "status": "CONFIRMED"
+  },
+  {
+   "factId": "CF-17",
+   "item": "电话",
+   "value": "400-0552-863",
+   "sourcePage": 1,
+   "contentId": "CN-P01-C02",
+   "confidence": 0.9,
+   "status": "CONFIRMED"
+  },
+  {
+   "factId": "CF-18",
+   "item": "邮政编码",
+   "value": "233000",
+   "sourcePage": 1,
+   "contentId": "CN-P01-C03",
+   "confidence": 0.9,
+   "status": "CONFIRMED"
+  },
+  {
+   "factId": "CF-19",
+   "item": "宣传册标题",
+   "value": "AGV精密减速机宣传册(2023A版)",
+   "sourcePage": 1,
+   "contentId": "CN-P01-H03",
+   "confidence": 0.85,
+   "status": "CONFIRMED"
+  }
+ ],
+ "certifications": [
+  {
+   "certId": "CERT-01",
+   "item": "科技成果鉴定",
+   "cn": "我公司机器人精密减速器于2016年获得科技部科技成果鉴定",
+   "confidence": 0.95,
+   "status": "CONFIRMED"
+  },
+  {
+   "certId": "CERT-02",
+   "item": "科技报告收录",
+   "cn": "于2018年收录于安徽省科技报告共享服务系统(kibg.ahinfo.gov.cn); 证书编号 AHSTR-2018-00104",
+   "confidence": 0.85,
+   "status": "CONFIRMED"
+  },
+  {
+   "certId": "CERT-03",
+   "item": "科技成果登记证书",
+   "cn": "机器人精密减速器2018年获得科技成果登记证书",
+   "confidence": 0.95,
+   "status": "CONFIRMED"
+  },
+  {
+   "certId": "CERT-04",
+   "item": "安徽省科学技术奖",
+   "cn": "安徽省科学技术奖 二等奖(获奖者: 蚌埠市行星工程机械有限公司; 登记机构: 安徽省科学技术厅; 项目名称: 盾构机主驱动减速机的研发及产业化)",
+   "confidence": 0.65,
+   "status": "CONFIRMED_BY_CROSS_EVIDENCE"
+  },
+  {
+   "certId": "CERT-05",
+   "item": "产业创新团队",
+   "cn": "蚌埠市第二批\"3221\"产业创新团队(2012年)",
+   "confidence": 0.75,
+   "status": "CONFIRMED"
+  },
+  {
+   "certId": "CERT-06",
+   "item": "工业设计中心",
+   "cn": "安徽省工业设计中心",
+   "confidence": 0.95,
+   "status": "CONFIRMED"
+  },
+  {
+   "certId": "CERT-07",
+   "item": "创新型试点企业",
+   "cn": "安徽省创新型试点企业",
+   "confidence": 0.95,
+   "status": "CONFIRMED"
+  },
+  {
+   "certId": "CERT-08",
+   "item": "蚌埠市科学技术奖",
+   "cn": "蚌埠市科学技术奖 一等奖(项目名称: 盾构机主驱动减速机的国产化; 奖状号: 2015-1-3; 日期: 2016年4月12日)",
+   "confidence": 0.85,
+   "status": "CONFIRMED"
+  }
+ ],
+ "uncertainCount": 6,
+ "uncertainIds": [
+  "UNK-01",
+  "UNK-02",
+  "UNK-03",
+  "UNK-04",
+  "UNK-05",
+  "UNK-06"
+ ]
+}

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>替换前最终确认 v2 — 产品图最终状态</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, sans-serif; background: #1a1a1a; color: #eee; padding: 20px; }
+  h1 { font-size: 1.3rem; margin-bottom: 4px; }
+  .sub { color: #888; font-size: 0.85rem; margin-bottom: 16px; }
+  .summary { display: flex; gap: 10px; margin-bottom: 24px; flex-wrap: wrap; }
+  .stat { padding: 8px 14px; border-radius: 8px; font-size: 0.82rem; font-weight: 600; }
+  .stat-transp { background: #1a2a3a; color: #6e9ec0; border: 1px solid #2a4a6a; }
+  .stat-orig { background: #2a2a2a; color: #aaa; border: 1px solid #444; }
+  .stat-crop { background: #2a3a1a; color: #b0d06e; border: 1px solid #4a6a2a; }
+  .stat-dis { background: #3a1a1a; color: #c06e6e; border: 1px solid #6a2a2a; }
+  .stat-total { background: #1a3a1a; color: #6ec06e; border: 1px solid #2a6a2a; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; }
+  .card { border: 1px solid #333; border-radius: 10px; overflow: hidden; background: #222; }
+  .card-header { display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; background: #2a2a2a; border-bottom: 1px solid #333; }
+  .card-header .name { font-weight: 700; font-size: 0.82rem; }
+  .badge { font-size: 0.62rem; padding: 2px 8px; border-radius: 20px; font-weight: 600; white-space: nowrap; }
+  .badge-birefnet { background: #2a4a6a; color: #9ec0e0; }
+  .badge-isnet { background: #4a2a6a; color: #c09ee0; }
+  .badge-u2net { background: #2a6a4a; color: #9ee0c0; }
+  .badge-original { background: #3a3a3a; color: #999; }
+  .badge-cropped { background: #2a3a1a; color: #b0d06e; }
+  .badge-disabled { background: #3a1a1a; color: #c06e6e; }
+  .img-box { position: relative; width: 100%; height: 150px; display: flex; align-items: center; justify-content: center;
+    background-image:
+      linear-gradient(45deg, #2a2a2a 25%, transparent 25%),
+      linear-gradient(-45deg, #2a2a2a 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, #2a2a2a 75%),
+      linear-gradient(-45deg, transparent 75%, #2a2a2a 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0;
+    overflow: hidden;
+  }
+  .img-box.white { background: #1e1e1e; }
+  .img-box.disabled { background: #1a1a1a; opacity: 0.3; }
+  .img-box img { max-width: 88%; max-height: 130px; object-fit: contain; }
+  .card-footer { padding: 5px 12px; font-size: 0.65rem; color: #888; }
+  .section-title { font-size: 0.95rem; font-weight: 700; margin: 20px 0 10px; padding-bottom: 6px; border-bottom: 1px solid #333; }
+  .section-title .count { color: #888; font-weight: 400; font-size: 0.8rem; }
+  .confirm-bar { position: sticky; bottom: 0; background: #1a1a1a; padding: 16px 0; border-top: 1px solid #333; display: flex; justify-content: center; gap: 12px; }
+  .confirm-bar button { padding: 10px 24px; border: 1px solid #444; border-radius: 6px; background: #2a2a2a; color: #ccc; font-size: 0.9rem; cursor: pointer; }
+  .confirm-bar button:hover { background: #333; border-color: #666; }
+  .confirm-bar .confirm { background: #1a3a1a; border-color: #2a6a2a; color: #6ec06e; }
+</style>
+</head>
+<body>
+
+<h1>替换前最终确认 v2</h1>
+<p class="sub">ASSET-01/28/29/30/31 已禁用，ASSET-02/03 已裁剪（去掉上方 65%）。</p>
+
+<div class="summary">
+  <div class="stat stat-transp">透明 PNG: 22 张</div>
+  <div class="stat stat-crop">裁剪原图: 2 张</div>
+  <div class="stat stat-orig">原图: 9 张</div>
+  <div class="stat stat-dis">禁用: 5 张</div>
+  <div class="stat stat-total">合计: 38 张</div>
+</div>
+<div class="section-title">透明 PNG <span class="count">(22 张 — 替换网页原图)</span></div>
+<div class="grid">
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-04</span><span class="badge badge-birefnet">BiRefNet</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-04.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-04.png</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-05</span><span class="badge badge-birefnet">BiRefNet</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-05.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-05.png</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-06</span><span class="badge badge-birefnet">BiRefNet</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-06.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-06.png</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-07</span><span class="badge badge-birefnet">BiRefNet</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-07.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-07.png</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-08</span><span class="badge badge-u2net">U2Net</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-08.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-08.png</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-18</span><span class="badge badge-isnet">ISNet</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-18.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-18.png</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-19</span><span class="badge badge-u2net">U2Net</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-19.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-19.png</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-20</span><span class="badge badge-u2net">U2Net</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-20.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-20.png</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-21</span><span class="badge badge-birefnet">BiRefNet</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-21.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-21.png</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-22</span><span class="badge badge-u2net">U2Net</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-22.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-22.png</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-23</span><span class="badge badge-u2net">U2Net</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-23.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-23.png</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-24</span><span class="badge badge-u2net">U2Net</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-24.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-24.png</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-25</span><span class="badge badge-u2net">U2Net</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-25.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-25.png</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-26</span><span class="badge badge-u2net">U2Net</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-26.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-26.png</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-27</span><span class="badge badge-u2net">U2Net</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-27.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-27.png</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-32</span><span class="badge badge-u2net">U2Net</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-32.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-32.png</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-33</span><span class="badge badge-isnet">ISNet</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-33.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-33.png</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-34</span><span class="badge badge-isnet">ISNet</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-34.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-34.png</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-35</span><span class="badge badge-u2net">U2Net</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-35.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-35.png</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-36</span><span class="badge badge-birefnet">BiRefNet</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-36.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-36.png</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-37</span><span class="badge badge-birefnet">BiRefNet</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-37.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-37.png</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-38</span><span class="badge badge-birefnet">BiRefNet</span></div>
+    <div class="img-box"><img src="../cutout/ASSET-38.png" loading="lazy"></div>
+    <div class="card-footer">→ /assets/cutout/ASSET-38.png</div>
+  </div>
+</div>
+<div class="section-title">裁剪原图 <span class="count">(2 张 — 去掉上方 65%，保留下方 35%)</span></div>
+<div class="grid">
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-02</span><span class="badge badge-cropped">裁剪</span></div>
+    <div class="img-box white"><img src="../ASSET-02.jpg" loading="lazy"></div>
+    <div class="card-footer">→ /assets/ASSET-02.jpg (已裁剪)</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-03</span><span class="badge badge-cropped">裁剪</span></div>
+    <div class="img-box white"><img src="../ASSET-03.jpg" loading="lazy"></div>
+    <div class="card-footer">→ /assets/ASSET-03.jpg (已裁剪)</div>
+  </div>
+</div>
+<div class="section-title">原图 <span class="count">(9 张 — 保持不变)</span></div>
+<div class="grid">
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-10</span><span class="badge badge-original">原图</span></div>
+    <div class="img-box white"><img src="../ASSET-10.jpg" loading="lazy"></div>
+    <div class="card-footer">→ /assets/ASSET-10.jpg</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-11</span><span class="badge badge-original">原图</span></div>
+    <div class="img-box white"><img src="../ASSET-11.jpg" loading="lazy"></div>
+    <div class="card-footer">→ /assets/ASSET-11.jpg</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-12</span><span class="badge badge-original">原图</span></div>
+    <div class="img-box white"><img src="../ASSET-12.jpg" loading="lazy"></div>
+    <div class="card-footer">→ /assets/ASSET-12.jpg</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-13</span><span class="badge badge-original">原图</span></div>
+    <div class="img-box white"><img src="../ASSET-13.jpg" loading="lazy"></div>
+    <div class="card-footer">→ /assets/ASSET-13.jpg</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-15</span><span class="badge badge-original">原图</span></div>
+    <div class="img-box white"><img src="../ASSET-15.jpg" loading="lazy"></div>
+    <div class="card-footer">→ /assets/ASSET-15.jpg</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-16</span><span class="badge badge-original">原图</span></div>
+    <div class="img-box white"><img src="../ASSET-16.jpg" loading="lazy"></div>
+    <div class="card-footer">→ /assets/ASSET-16.jpg</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-17</span><span class="badge badge-original">原图</span></div>
+    <div class="img-box white"><img src="../ASSET-17.jpg" loading="lazy"></div>
+    <div class="card-footer">→ /assets/ASSET-17.jpg</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-39</span><span class="badge badge-original">原图</span></div>
+    <div class="img-box white"><img src="../ASSET-39.jpg" loading="lazy"></div>
+    <div class="card-footer">→ /assets/ASSET-39.jpg</div>
+  </div>
+  <div class="card">
+    <div class="card-header"><span class="name">ASSET-44</span><span class="badge badge-original">原图</span></div>
+    <div class="img-box white"><img src="../ASSET-44.jpg" loading="lazy"></div>
+    <div class="card-footer">→ /assets/ASSET-44.jpg</div>
+  </div>
+</div>
+<div class="section-title">禁用 <span class="count">(5 张 — 不在网站显示)</span></div>
+<div class="grid">
+  <div class="card" style="opacity:0.5">
+    <div class="card-header"><span class="name">ASSET-01</span><span class="badge badge-disabled">禁用</span></div>
+    <div class="img-box disabled"><img src="../ASSET-01.jpg" loading="lazy" style="filter:grayscale(1)"></div>
+    <div class="card-footer">→ EXCLUDED_ASSET_IDS</div>
+  </div>
+  <div class="card" style="opacity:0.5">
+    <div class="card-header"><span class="name">ASSET-28</span><span class="badge badge-disabled">禁用</span></div>
+    <div class="img-box disabled"><img src="../ASSET-28.png" loading="lazy" style="filter:grayscale(1)"></div>
+    <div class="card-footer">→ EXCLUDED_ASSET_IDS</div>
+  </div>
+  <div class="card" style="opacity:0.5">
+    <div class="card-header"><span class="name">ASSET-29</span><span class="badge badge-disabled">禁用</span></div>
+    <div class="img-box disabled"><img src="../ASSET-29.png" loading="lazy" style="filter:grayscale(1)"></div>
+    <div class="card-footer">→ EXCLUDED_ASSET_IDS</div>
+  </div>
+  <div class="card" style="opacity:0.5">
+    <div class="card-header"><span class="name">ASSET-30</span><span class="badge badge-disabled">禁用</span></div>
+    <div class="img-box disabled"><img src="../ASSET-30.jpg" loading="lazy" style="filter:grayscale(1)"></div>
+    <div class="card-footer">→ EXCLUDED_ASSET_IDS</div>
+  </div>
+  <div class="card" style="opacity:0.5">
+    <div class="card-header"><span class="name">ASSET-31</span><span class="badge badge-disabled">禁用</span></div>
+    <div class="img-box disabled"><img src="../ASSET-31.png" loading="lazy" style="filter:grayscale(1)"></div>
+    <div class="card-footer">→ EXCLUDED_ASSET_IDS</div>
+  </div>
+</div>
+
+<div class="confirm-bar">
+  <button onclick="exportConfirm(true)">✅ 确认替换</button>
+</div>
+<script>
+function exportConfirm(confirmed) {
+  const report = {
+    confirmed: !!confirmed,
+    transparent_png: 22,
+    cropped_original: 2,
+    original: 9,
+    disabled: 5,
+    total: 38,
+    timestamp: new Date().toISOString(),
+  };
+  const json = JSON.stringify(report, null, 2);
+  const blob = new Blob([json], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'final-confirm-v2.json';
+  a.click();
+  URL.revokeObjectURL(url);
+  navigator.clipboard.writeText(json).then(() => {
+    alert('✅ 确认报告已导出，请发给助手执行替换');
+  }).catch(() => { alert('报告已下载'); });
+}
+</script>
+</body>
+</html>

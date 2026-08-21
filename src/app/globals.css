@@ -1,0 +1,816 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, "Times New Roman", serif;
+  --font-sans: "IBM Plex Sans", system-ui, -apple-system, "SF Pro Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", "Noto Sans", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --color-canvas: #f6f7f8;
+  --color-surface: #ffffff;
+  --color-ink: #1f1f22;
+  --color-ink-muted: rgba(31, 31, 34, 0.72);
+  --color-ink-soft: rgba(31, 31, 34, 0.55);
+  --color-line: #dddfe0;
+  --color-accent: #0078a8;
+  --color-accent-strong: #00648c;
+  --color-on-accent: #ffffff;
+  --color-accent-green: #5bad5b;
+  --color-accent-red: #ef4056;
+  --color-accent-yellow: #ffd530;
+  --color-accent-pale: #e6f2f6;
+  --color-accent-green-pale: rgba(111, 183, 111, 0.1);
+  --color-dark: #1f1f22;
+  --color-dark-text: #ffffff;
+  --color-dark-muted: rgba(255, 255, 255, 0.62);
+  --color-dark-line: rgba(255, 255, 255, 0.16);
+  --color-stripe: #eef0f1;
+  --color-panel: #f1f3f4;
+  --color-header-top: #f2f2f2;
+  --color-link: #0078a8;
+  --color-soft-bg: #e9e9e9;
+  --color-hero-overlay-start: rgba(31, 31, 34, 0.5);
+  --color-hero-overlay-end: rgba(31, 31, 34, 0.16);
+  --color-mask-vignette-stop: var(--color-canvas);
+  --color-mask-line: var(--color-ink);
+  --color-mask-stroke-opacity: 0.07;
+  --color-mask-overlay-opacity: 0.035;
+
+  --radius-card: 14px;
+  --radius-btn: 10px;
+  --radius-input: 10px;
+  --radius-img: 10px;
+  --radius-hero: 14px;
+
+  --container-site: 1280px;
+
+  --spacing-content-x: 2.5rem;
+  --spacing-content-y: 6rem;
+  --spacing-section-gap: 2rem;
+  --spacing-card-pad: 1.5rem;
+  --spacing-hero-pad: 1.75rem;
+  --spacing-task-col-pad-y: 1.875rem;
+  --spacing-task-col-pad-x: 1.5rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* 移动端 anchor 跳转后，目标内容不要被底部悬浮的询盘 CTA 挡住（压缩后高度约 3.25rem） */
+    scroll-padding-bottom: calc(3.25rem + env(safe-area-inset-bottom, 0px));
+  }
+
+  @media (min-width: 768px) {
+    html {
+      scroll-padding-bottom: 0px;
+    }
+  }
+
+  body {
+    @apply bg-canvas font-sans text-ink antialiased;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  /* 按下反馈：真实按钮元素轻微下移（active/pressed 反馈） */
+  button:not(:disabled):active {
+    transform: translateY(1px);
+  }
+
+  /* 全站微颗粒纹理：打破纯平数字感（画报感） */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0.03;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer utilities {
+  .break-keep {
+    overflow-wrap: anywhere;
+    word-break: keep-all;
+  }
+
+  /* ── 玻璃渐变 (Glassmorphism) ── */
+
+  /* 基础玻璃：半透 + 模糊 + 细边 */
+  .glass {
+    background: color-mix(in srgb, var(--color-surface) 72%, transparent);
+    backdrop-filter: blur(12px) saturate(140%);
+    -webkit-backdrop-filter: blur(12px) saturate(140%);
+    border: 1px solid color-mix(in srgb, var(--color-ink) 8%, transparent);
+  }
+
+  /* 强玻璃：更不透明，用于浮层卡片 */
+  .glass-strong {
+    background: color-mix(in srgb, var(--color-surface) 88%, transparent);
+    backdrop-filter: blur(20px) saturate(160%);
+    -webkit-backdrop-filter: blur(20px) saturate(160%);
+    border: 1px solid color-mix(in srgb, var(--color-ink) 6%, transparent);
+    box-shadow: 0 8px 32px -8px rgba(31, 31, 34, 0.12);
+  }
+
+  /* 暗色玻璃：用于深色背景上的浮层 */
+  .glass-dark {
+    background: color-mix(in srgb, var(--color-dark) 72%, transparent);
+    backdrop-filter: blur(16px) saturate(140%);
+    -webkit-backdrop-filter: blur(16px) saturate(140%);
+    border: 1px solid var(--color-dark-line);
+  }
+
+  /* Hero 图片底部渐变：增强文字可读性 */
+  .hero-gradient-bottom {
+    background: linear-gradient(
+      to top,
+      color-mix(in srgb, var(--color-canvas) 60%, transparent) 0%,
+      transparent 60%
+    );
+  }
+
+  /* 卡片悬浮玻璃光：轻微高光 */
+  .glass-highlight {
+    position: relative;
+  }
+  .glass-highlight::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.08) 0%,
+      transparent 40%
+    );
+    pointer-events: none;
+  }
+
+  /* ── 画报风：编辑式排版 ── */
+
+  /* 首字下沉：段落首字符放大（克制版） */
+  .drop-cap::first-letter {
+    float: left;
+    font-family: var(--font-display);
+    font-size: 2.6em;
+    line-height: 0.85;
+    font-weight: 700;
+    margin: 0.06em 0.12em 0 0;
+    color: var(--color-accent);
+  }
+
+  /* 大引号块：左侧引号 + 加粗大字（克制版） */
+  .pull-quote {
+    position: relative;
+    padding-left: 2.75rem;
+    font-family: var(--font-display);
+    font-size: clamp(1.1875rem, 1.8vw, 1.5rem);
+    font-weight: 600;
+    line-height: 1.45;
+    letter-spacing: -0.02em;
+    color: var(--color-ink);
+  }
+  .pull-quote::before {
+    content: "\201C";
+    position: absolute;
+    left: 0;
+    top: -0.1em;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--color-accent);
+    font-family: var(--font-display);
+  }
+
+  /* 色块过渡：实底色块 + 装饰编号（克制版） */
+  .color-block {
+    position: relative;
+    overflow: hidden;
+    background: var(--color-accent);
+    color: var(--color-on-accent);
+  }
+  .color-block-numeral {
+    font-family: var(--font-display);
+    font-size: clamp(4rem, 8vw, 6.5rem);
+    font-weight: 700;
+    line-height: 0.9;
+    letter-spacing: -0.05em;
+    opacity: 0.16;
+  }
+
+  /* 不对称编辑网格：图 7 / 文 5，反向 5 / 7 */
+  .editorial-grid-7-5 {
+    display: grid;
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    gap: clamp(2.5rem, 5vw, 5rem);
+    align-items: start;
+  }
+  .editorial-grid-5-7 {
+    display: grid;
+    grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+    gap: clamp(2.5rem, 5vw, 5rem);
+    align-items: start;
+  }
+  @media (max-width: 768px) {
+    .editorial-grid-7-5,
+    .editorial-grid-5-7 {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 2rem;
+    }
+  }
+}
+
+/* ── 产品动效 ── */
+
+/* 悬浮飘动：透明产品图轻微上下浮动 */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+.animate-float {
+  animation: float 3.5s ease-in-out infinite;
+}
+
+/* 淡入上滑：滚动进入视口时 */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out both;
+}
+
+/* 悬停放大：产品卡 hover 时图片缓慢放大 */
+.img-hover {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.img-hover:hover {
+  transform: scale(1.04);
+}
+
+/* 卡片阴影过渡 */
+.card-shadow {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.card-hover:hover .card-shadow {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* ---------- 全局 hover 文字变色：所有文案"触到即变亮蓝 accent" ---------- */
+
+/* ① 所有 <a>/<Link>：默认继承颜色；hover 一律变 accent + 平滑过渡 */
+a {
+  transition: color 0.25s ease, text-shadow 0.25s ease, opacity 0.25s ease;
+}
+a:hover {
+  color: var(--color-accent) !important;
+}
+
+/* ② 深底环境的 <a>：hover 仍是 accent（accent 在深底下足够亮） */
+.text-dark-text a:hover,
+footer a:hover,
+.bg-ink a:hover,
+[class*="bg-[#0"] a:hover {
+  color: var(--color-accent) !important;
+}
+
+/* ③ 正文文案"可 hover 变蓝"通用类
+      任何 <p>/<h2>/<span>/<H2>/<Body>/型号文字 只要挂上 .hoverable-text，
+      鼠标扫过 → 立刻变 accent + 蓝色发光（"发亮"感）。 */
+.hoverable-text {
+  transition: color 0.25s ease, text-shadow 0.25s ease, filter 0.25s ease;
+  cursor: default;
+}
+.hoverable-text:hover {
+  color: var(--color-accent) !important;
+  text-shadow: 0 0 16px rgba(0, 120, 168, 0.28);
+}
+
+/* ④ 深底环境下的 .hoverable-text：更强一点的发光 */
+footer .hoverable-text:hover,
+.bg-ink .hoverable-text:hover,
+.text-dark-text .hoverable-text:hover {
+  color: var(--color-accent) !important;
+  text-shadow: 0 0 22px rgba(0, 120, 168, 0.45);
+}
+
+/* ⑤ 标题级大字 H1/H2/H3：hover 也变蓝（视觉主标也要有反馈） */
+h1.hoverable-text:hover,
+h2.hoverable-text:hover,
+h3.hoverable-text:hover,
+h4.hoverable-text:hover {
+  color: var(--color-accent) !important;
+  text-shadow: 0 0 26px rgba(0, 120, 168, 0.35);
+}
+
+/* ⑥ 卡片 group 里的文字：随整卡进入 hover 就同步变蓝（group + group-hover 方案兜底）
+   组件里写 group + group-hover:text-accent 走 Tailwind；
+   这里给没写 group 的也保底：只要父级文字变蓝，子级 a 也跟着跟上文保持一致。*/
+.group:hover > .hoverable-text,
+.group:hover .hoverable-text {
+  color: var(--color-accent) !important;
+}
+.group:hover > .hoverable-text:hover,
+.group:hover .hoverable-text:hover {
+  text-shadow: 0 0 20px rgba(0, 120, 168, 0.32);
+}
+
+/* ============== 全站"指到哪段 / 哪张卡 → 哪段文字变色"精准触达 ==============
+   之前用 section / grid / gap / space-y / px-py 这些大模块外层当触达单元 = 鼠标移到模块空白，
+   整模块所有字一下全变蓝——这是错的。
+   新版：触发范围从"大模块"缩到【单卡小包装 + 文字元素自身 hover】。
+   • 单卡包装：figure / *card* / glass-highlight / *tile* / *item* / li / dt / dd / figcaption / …
+     → 鼠标指到那张证书、那产品卡、那条列表项，卡片内部所有文字一起变蓝。
+   • 文字自身 hover：p / h1~h6 / span / label 等直接指到文字也变，
+     纯段落、纯标题这种"没有卡包装"的也精准变。
+   • 按钮 / 表单 / SVG / Logo / Brand 全部排除不变色。
+=============================================================================== */
+
+/* ① 浅底【单卡 hover → 卡内文字全部变蓝】 */
+:where(
+  figure,
+  [class*="card" i],
+  [class*="Card"],
+  [class*="glass-highlight"],
+  [class*="glass-card"],
+  [class*="tile" i],
+  [class*="cell" i],
+  [class*="item" i],
+  [class*="Item"],
+  [class*="feature" i],
+  [class*="stat" i],
+  [class*="info" i],
+  [class*="media-item" i],
+  [class*="list-item" i],
+  li,
+  dt,
+  dd,
+  figcaption,
+  [class*="caption" i],
+  [class*="quote"],
+  blockquote,
+  [class*="panel" i],
+  [class*="banner" i],
+  [class*="block" i]
+):hover
+  :where(
+    p,
+    li,
+    dt,
+    dd,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    blockquote,
+    figcaption,
+    caption,
+    small,
+    span,
+    label,
+    [class*="text-ink"],
+    [class*="text-heading"],
+    [class*="Heading"],
+    [class*="title" i],
+    [class*="Title"],
+    [class*="subtitle" i],
+    [class*="Subtitle"],
+    [class*="body" i],
+    [class*="Body"],
+    [class*="label" i],
+    [class*="lead" i],
+    [class*="lede"],
+    [class*="meta" i],
+    [class*="caption" i],
+    [class*="desc" i],
+    [class*="summary" i]
+  ) {
+  color: var(--color-accent) !important;
+  transition: color 0.22s ease, text-shadow 0.22s ease;
+  text-shadow: 0 0 14px rgba(0, 120, 168, 0.22);
+}
+
+/* ①B 浅底【文字自身 hover】兜底：纯段落/纯标题/纯标签这种没卡包装的，指到字本身也变 */
+:where(
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  li,
+  dt,
+  dd,
+  blockquote,
+  figcaption,
+  caption,
+  small,
+  span,
+  label,
+  [class*="text-ink"],
+  [class*="text-heading"],
+  [class*="Heading"],
+  [class*="title" i],
+  [class*="Title"],
+  [class*="subtitle" i],
+  [class*="Subtitle"],
+  [class*="body" i],
+  [class*="Body"],
+  [class*="label" i],
+  [class*="lead" i],
+  [class*="lede"],
+  [class*="meta" i],
+  [class*="caption" i],
+  [class*="desc" i],
+  [class*="summary" i]
+):hover {
+  color: var(--color-accent) !important;
+  transition: color 0.22s ease, text-shadow 0.22s ease;
+  text-shadow: 0 0 14px rgba(0, 120, 168, 0.22);
+}
+
+/* ② 浅底单卡 hover 时：排除按钮/表单/SVG/Logo/品牌 */
+:where(
+  figure,
+  [class*="card" i],
+  [class*="Card"],
+  [class*="glass-highlight"],
+  [class*="glass-card"],
+  [class*="tile" i],
+  [class*="cell" i],
+  [class*="item" i],
+  [class*="Item"],
+  [class*="feature" i],
+  [class*="stat" i],
+  [class*="info" i],
+  [class*="media-item" i],
+  [class*="list-item" i],
+  li,
+  dt,
+  dd,
+  figcaption,
+  [class*="caption" i],
+  [class*="quote"],
+  blockquote,
+  [class*="panel" i],
+  [class*="banner" i],
+  [class*="block" i]
+):hover
+  :where(
+    button,
+    [role="button"],
+    [class*="btn" i],
+    [class*="Btn"],
+    [class*="button" i],
+    [class*="Button"],
+    input,
+    textarea,
+    select,
+    option,
+    svg *,
+    svg,
+    path,
+    [class*="logo" i],
+    [class*="Logo"],
+    [class*="brand" i],
+    [class*="Brand"],
+    .sr-only,
+    [aria-hidden="true"]
+  ) {
+  color: initial !important;
+  text-shadow: none !important;
+}
+
+/* ③ 深底【单卡 hover → 卡内文字变蓝（发光更强）】 */
+:where(
+  footer,
+  [class*="bg-ink"],
+  [class*="text-dark-text"],
+  [style*="background:#0"],
+  [style*="background: #0"]
+)
+  :where(
+    figure,
+    [class*="card" i],
+    [class*="Card"],
+    [class*="glass-highlight"],
+    [class*="glass-card"],
+    [class*="tile" i],
+    [class*="cell" i],
+    [class*="item" i],
+    [class*="Item"],
+    [class*="feature" i],
+    [class*="stat" i],
+    [class*="info" i],
+    [class*="media-item" i],
+    [class*="list-item" i],
+    li,
+    dt,
+    dd,
+    figcaption,
+    [class*="caption" i],
+    [class*="quote"],
+    blockquote,
+    [class*="panel" i],
+    [class*="banner" i],
+    [class*="block" i]
+  ):hover
+  :where(
+    p,
+    li,
+    dt,
+    dd,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    blockquote,
+    figcaption,
+    caption,
+    small,
+    span,
+    label,
+    [class*="text-dark-text"],
+    [class*="text-heading"],
+    [class*="Heading"],
+    [class*="title" i],
+    [class*="Title"],
+    [class*="subtitle" i],
+    [class*="Subtitle"],
+    [class*="body" i],
+    [class*="Body"],
+    [class*="label" i],
+    [class*="lead" i],
+    [class*="lede"],
+    [class*="meta" i],
+    [class*="caption" i],
+    [class*="desc" i],
+    [class*="summary" i]
+  ) {
+  color: var(--color-accent) !important;
+  transition: color 0.22s ease, text-shadow 0.22s ease;
+  text-shadow: 0 0 20px rgba(0, 120, 168, 0.42);
+}
+
+/* ③B 深底【文字自身 hover】兜底 */
+:where(
+  footer,
+  [class*="bg-ink"],
+  [class*="text-dark-text"],
+  [style*="background:#0"],
+  [style*="background: #0"]
+)
+  :where(
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    li,
+    dt,
+    dd,
+    blockquote,
+    figcaption,
+    caption,
+    small,
+    span,
+    label,
+    [class*="text-dark-text"],
+    [class*="text-heading"],
+    [class*="Heading"],
+    [class*="title" i],
+    [class*="Title"],
+    [class*="subtitle" i],
+    [class*="Subtitle"],
+    [class*="body" i],
+    [class*="Body"],
+    [class*="label" i],
+    [class*="lead" i],
+    [class*="lede"],
+    [class*="meta" i],
+    [class*="caption" i],
+    [class*="desc" i],
+    [class*="summary" i]
+  ):hover {
+  color: var(--color-accent) !important;
+  transition: color 0.22s ease, text-shadow 0.22s ease;
+  text-shadow: 0 0 20px rgba(0, 120, 168, 0.42);
+}
+
+/* ④ 深底单卡 hover 时：同样排除按钮/表单/SVG/Logo/品牌 */
+:where(
+  footer,
+  [class*="bg-ink"],
+  [class*="text-dark-text"],
+  [style*="background:#0"],
+  [style*="background: #0"]
+)
+  :where(
+    figure,
+    [class*="card" i],
+    [class*="Card"],
+    [class*="glass-highlight"],
+    [class*="glass-card"],
+    [class*="tile" i],
+    [class*="cell" i],
+    [class*="item" i],
+    [class*="Item"],
+    [class*="feature" i],
+    [class*="stat" i],
+    [class*="info" i],
+    [class*="media-item" i],
+    [class*="list-item" i],
+    li,
+    dt,
+    dd,
+    figcaption,
+    [class*="caption" i],
+    [class*="quote"],
+    blockquote,
+    [class*="panel" i],
+    [class*="banner" i],
+    [class*="block" i]
+  ):hover
+  :where(
+    button,
+    [role="button"],
+    [class*="btn" i],
+    [class*="Btn"],
+    [class*="button" i],
+    [class*="Button"],
+    input,
+    textarea,
+    select,
+    option,
+    svg *,
+    svg,
+    path,
+    [class*="logo" i],
+    [class*="Logo"],
+    [class*="brand" i],
+    [class*="Brand"],
+    .sr-only,
+    [aria-hidden="true"]
+  ) {
+  color: initial !important;
+  text-shadow: none !important;
+}
+
+/* ⑤ 纯 `<a>` 标签链接：hover 统一变 accent（兜底） */
+a:hover {
+  color: var(--color-accent) !important;
+  transition: color 0.22s ease;
+}
+
+/* ========= 反覆盖：交互控件自管理颜色（按钮/Pill/QuickLinks卡），禁止被全局 hover 文字变蓝 破坏 =========
+   挂 .no-text-hover-override 的元素及其所有后代：
+   ① hover 时 color 不再强行变 accent，保持继承的设计态颜色（例如 on-accent 白字）
+   ② 去掉全局额外加的 text-shadow 发光（那层发光只适合正文段落/标题，按钮上显脏）
+   ③ 优先级跟全局 hover 规则同选择器级别，但放在文件后面 = 级联获胜。*/
+
+.no-text-hover-override,
+.no-text-hover-override * {
+  color: inherit !important;
+  text-shadow: none !important;
+}
+.no-text-hover-override:hover,
+.no-text-hover-override:hover *,
+.no-text-hover-override a:hover,
+.no-text-hover-override a:hover * {
+  color: inherit !important;
+  text-shadow: none !important;
+}
+
+/* ========== TaskGrid 4卡：hover 背景变 accent 蓝 → 所有文字绝对白色（用户强调几百遍） ==========
+   上面 no-text-hover-override 的 color:inherit 优先级很高，
+   这里用更强的选择器 + !important，专门锁死 TaskGrid 卡 hover 时的白字，保证蓝字蓝底不再看不见。
+   唯一例外是右下圆形箭头：白底蓝字设计，所以箭头区单独豁免回 accent 蓝。*/
+.task-grid-card.group:hover h1,
+.task-grid-card.group:hover h2,
+.task-grid-card.group:hover h3,
+.task-grid-card.group:hover h4,
+.task-grid-card.group:hover h5,
+.task-grid-card.group:hover h6,
+.task-grid-card.group:hover p,
+.task-grid-card.group:hover span,
+.task-grid-card.group:hover li,
+.task-grid-card.group:hover button,
+.task-grid-card.group:hover button *,
+.task-grid-card.group:hover .task-grid-title,
+.task-grid-card.group:hover .task-grid-item-label {
+  color: #ffffff !important;
+  text-shadow: none !important;
+}
+/* hover 时小横线 / 色点也要变白或保持亮感 */
+.task-grid-card.group:hover .task-grid-dot::before {
+  background-color: #ffffff !important;
+  transform: scale(1.25);
+}
+.task-grid-card.group:hover .task-grid-rule {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+}
+/* 右下箭头指示器豁免：hover 时要白底 + accent 蓝字 */
+.task-grid-card.group:hover .task-grid-arrow,
+.task-grid-card.group:hover .task-grid-arrow * {
+  color: var(--color-accent) !important;
+  background-color: #ffffff !important;
+}
+
+/* ---------- 产品模块 8 卡伸缩：hover 1 张放大、其他 7 张"让位缩小" + 容器不变 + 产品图默认缩小 ---------- */
+
+/* 1) 单卡基础：柔缓弹性过渡（放大/缩小/阴影/z-index/边框/颜色 全链路过渡） */
+.product-grid .product-card {
+  transition: transform 0.42s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.42s cubic-bezier(0.22, 1, 0.36, 1),
+              filter 0.42s ease;
+  transform-origin: center center;
+  will-change: transform;
+}
+
+/* 2) 容器（卡片外框）不变：不重设宽高，只让 transform 在原占位上缩放
+      → gap 仍由 Tailwind 的 md:gap-4 决定，不会出现"放大后撑破容器" */
+.product-grid .card-link {
+  will-change: transform;
+  transition: border-color 0.35s ease, background-color 0.35s ease,
+              box-shadow 0.35s ease, transform 0.42s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* 3) 鼠标进入 8 卡网格（任一处）时：除被 hover 的那张以外，其余 7 张统一"让位缩小"到 0.91
+      —— 被 hover 的那张单独在下面的选择器里放大到 ~1.08，形成"1 张前冲、7 张后撤让位"的对比
+      也顺便把网格整体向 hover 卡对齐，形成层次感 */
+.product-grid:hover > .product-card {
+  transform: scale(0.91);
+  filter: saturate(0.92) brightness(0.98);
+}
+
+/* 4) 被 hover 的那张卡：放大 ~1.08（明显前冲）、抬 z-index、加强阴影、边框变 accent 蓝
+      注：因为上面的 .product-grid:hover > .product-card 已经把所有 8 张缩到 0.91，
+      这条选择器"同优先级覆盖"单张为 1.08 —— 相对原尺寸 = ~1.08，相对 7 张缩小的 0.91 = 差 ~18%，伸缩感很强 */
+.product-grid > .product-card:hover {
+  transform: scale(1.08);
+  z-index: 20;
+  filter: saturate(1.06) brightness(1.01);
+  box-shadow: 0 18px 56px -20px rgba(0, 120, 168, 0.55),
+              0 6px 18px -10px rgba(0, 0, 0, 0.18);
+}
+
+/* 5) 被 hover 卡片内部的 <Link>：边框变 accent 蓝 + 背景提亮 2%，与"伸出来"的深度感呼应 */
+.product-grid > .product-card:hover .card-link {
+  border-color: rgba(0, 120, 168, 0.42);
+  background-color: #ffffff;
+  box-shadow: 0 14px 40px -22px rgba(0, 120, 168, 0.35);
+}
+
+/* 6) 产品图：容器尺寸不变（仍是 1/1 方块 DecoratedImage），视觉上默认"缩小 ~12%"
+      做法：直接把 <DecoratedImage> 内部的 <img> / 占位 div 统一 transform 缩 0.88，
+      hover 时随着卡片放大恢复到 1.00（相对放大 = ~1.14 的对比，伸缩感更强） */
+.product-grid .product-image img,
+.product-grid .product-image > div {
+  transition: transform 0.42s cubic-bezier(0.22, 1, 0.36, 1),
+              filter 0.35s ease;
+  transform: scale(0.88);
+  transform-origin: center center;
+}
+
+/* 7) 被 hover 那张的产品图：从 0.88 → 恢复 1.00（相对原尺寸视觉 = 放大了 1/0.88 ≈ +13.6%）
+      并加一层浅蓝发光（与 Hero / Manifesto 的 accent 发光体系一致） */
+.product-grid > .product-card:hover .product-image img,
+.product-grid > .product-card:hover .product-image > div {
+  transform: scale(1.00);
+  filter: drop-shadow(0 0 30px rgba(0, 120, 168, 0.32))
+          saturate(1.08);
+}
+
+/* 8) 型号文字：hover 变亮蓝 accent（和全局"触到文案变色"规则一致） + 轻微加粗 */
+.product-grid > .product-card:hover .model-text {
+  color: var(--color-accent) !important;
+  text-shadow: 0 0 14px rgba(0, 120, 168, 0.28);
+  letter-spacing: -0.025em;
+}

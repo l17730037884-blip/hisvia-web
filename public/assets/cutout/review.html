@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>透明 PNG 抠图审核</title>
+<style>
+  body { margin:0; padding:24px; font-family:system-ui,sans-serif; background:#1a1a1a; color:#eee; }
+  h1 { font-size:1.25rem; margin-bottom:16px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:16px; }
+  .card { background:#2a2a2a; border:1px solid #444; border-radius:8px; overflow:hidden; }
+  .card .img-wrap { position:relative; height:180px; display:flex; align-items:center; justify-content:center;
+    background-image:linear-gradient(45deg,#333 25%,transparent 25%),linear-gradient(-45deg,#333 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#333 75%),linear-gradient(-45deg,transparent 75%,#333 75%);
+    background-size:20px 20px; background-position:0 0,0 10px,10px -10px,-10px 0;
+  }
+  .card img { max-width:90%; max-height:160px; object-fit:contain; }
+  .card .info { padding:8px 12px; font-size:0.75rem; }
+  .card .info .name { font-weight:600; color:#fff; }
+  .card .info .ratio { color:#888; margin-top:2px; }
+  .card .badge { display:inline-block; padding:1px 6px; border-radius:4px; font-size:0.625rem; font-weight:600; }
+  .badge-ok { background:#2d5a2d; color:#7ec77e; }
+  .badge-low { background:#5a2d2d; color:#c77e7e; }
+  .badge-zero { background:#5a3d00; color:#c7a06e; }
+</style>
+</head>
+<body>
+<h1>透明 PNG 抠图审核 — 38 张</h1>
+<p style="color:#888;margin-bottom:16px">棋盘格背景 = 透明区域。绿色=正常, 红色=透明率过低, 橙色=无透明</p>
+<div class="grid" id="grid"></div>
+<script>
+fetch('manifest.json').then(r=>r.json()).then(data=>{
+  const grid=document.getElementById('grid');
+  data.forEach(item=>{
+    const name=item.source.replace(/\.(jpg|png)$/,'');
+    const ratio=item.transparent_ratio||0;
+    const card=document.createElement('div');
+    card.className='card';
+    let badgeClass='badge-ok', badgeText='OK';
+    if(ratio===0){badgeClass='badge-zero';badgeText='NO-CUT';}
+    else if(ratio<0.01){badgeClass='badge-low';badgeText='LOW';}
+    card.innerHTML=`<div class="img-wrap"><img src="${name}.png" alt="${name}"></div><div class="info"><span class="name">${name}</span> <span class="badge ${badgeClass}">${badgeText}</span><div class="ratio">透明: ${(ratio*100).toFixed(1)}%</div></div>`;
+    grid.appendChild(card);
+  });
+});
+</script>
+</body>
+</html>

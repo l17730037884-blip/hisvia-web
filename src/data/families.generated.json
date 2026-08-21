@@ -1,0 +1,17 @@
+{
+ "generatedAt": "2026-08-19T09:33:19.935Z",
+ "count": 1,
+ "families": [
+  {
+   "familyId": "PLANETARY",
+   "slug": "planetary-reducer",
+   "nameEn": "planetary reducer",
+   "nameRu": "планетарный редуктор",
+   "modelCount": 16,
+   "introContentId": "P04-B02",
+   "imageAssetIds": [
+    "ASSET-18"
+   ]
+  }
+ ]
+}
