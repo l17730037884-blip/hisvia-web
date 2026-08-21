@@ -46,10 +46,13 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
   const navHref = (key: string) => nav.find((n) => n.key === key)?.href ?? `/${locale}/`;
   const navLabel = (key: string) => nav.find((n) => n.key === key)?.label ?? "";
   const certPhotos = CERT_ASSET_IDS.map(resolveAsset).filter((p): p is string => Boolean(p));
-  // 顶部大图轮播：用原图（1169px 高）+ object-bottom 等效裁掉顶部 65%
-  const heroSlides: ImageCarouselSlide[] = HERO_PHOTO_IDS
-    .map((id) => `/assets/${id}-orig.jpg`)
-    .map((src) => ({ src, alt: BRAND[locale] }));
+  // 顶部大图轮播：首图为工厂门头（Company Profile 下首图），其余保留 ASSET-02 / ASSET-03
+  const heroSlides: ImageCarouselSlide[] = [
+    { src: "/assets/images/factory-gate.jpg", alt: BRAND[locale] },
+    ...HERO_PHOTO_IDS
+      .map((id) => `/assets/${id}-orig.jpg`)
+      .map((src) => ({ src, alt: BRAND[locale] })),
+  ];
   // 产品轮播数据（去中文括号/中文词残留 —— 用公共 sanitizeProductModelName）
   const products = getAllProducts();
   const ZOOM_25_ASSETS = new Set(["ASSET-05", "ASSET-07", "ASSET-08"]);

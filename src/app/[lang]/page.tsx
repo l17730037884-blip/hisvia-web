@@ -225,8 +225,8 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
         </Container>
       </section>
 
-      {/* Quick links */}
-      <Section tone="stripe" className="pt-4 pb-6 md:pt-10 md:pb-14">
+      {/* Quick links（全部隐藏：与 hero 下方 Tasks 4 卡片重复，含桌面/移动端） */}
+      <Section tone="stripe" className="hidden">
         <Container>
           <QuickLinks items={quickLinks} />
         </Container>

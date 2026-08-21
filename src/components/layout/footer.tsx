@@ -54,7 +54,8 @@ export default function Footer({ locale }: { locale: Locale }) {
 
       <Container className="relative">
         <div className="grid gap-8 py-8 md:grid-cols-[3fr_2fr_1fr] md:gap-10 md:py-10 lg:gap-12">
-          <div className="text-[0.8125rem] font-medium leading-[1.6] tracking-[-0.02em] md:text-[0.875rem]">
+          {/* ① 公司信息：手机端居中，桌面端左对齐 */}
+          <div className="text-center text-[0.8125rem] font-medium leading-[1.6] tracking-[-0.02em] md:text-left md:text-[0.875rem]">
             <p className="text-dark-text">{company}</p>
             <p className="mt-3 text-dark-muted">{address}</p>
             <p className="mt-2">
@@ -66,8 +67,9 @@ export default function Footer({ locale }: { locale: Locale }) {
             <p className="mt-1 text-dark-muted">{postal}</p>
           </div>
 
-          <nav aria-label="Footer">
-            <ul className="grid grid-cols-2 gap-x-5 gap-y-2 sm:grid-cols-3 sm:gap-x-6 md:grid-cols-2">
+          {/* ② 导航链接：手机端居中，桌面端左对齐 */}
+          <nav aria-label="Footer" className="text-center md:text-left">
+            <ul className="grid grid-cols-2 gap-x-5 gap-y-2 justify-items-center text-center sm:grid-cols-3 sm:gap-x-6 md:grid-cols-2 md:justify-items-start md:text-left">
               {items.map((item) => (
                 <li key={item.key}>
                   <Link
@@ -81,12 +83,13 @@ export default function Footer({ locale }: { locale: Locale }) {
             </ul>
           </nav>
 
-          <div className="text-[0.8125rem] font-medium leading-[1.6] tracking-[-0.02em] md:text-[0.875rem]">
+          {/* ③ 联系区 + 社媒图标：手机端居中，桌面端左对齐 */}
+          <div className="text-center text-[0.8125rem] font-medium leading-[1.6] tracking-[-0.02em] md:text-left md:text-[0.875rem]">
             <p className="text-dark-text">{contactLabel}</p>
             <p className="mt-3 text-dark-muted">{phone}</p>
 
             {/* 社媒图标：Telegram / WhatsApp / Instagram / Facebook / PayPal */}
-            <ul className="mt-4 flex flex-wrap items-center gap-3">
+            <ul className="mt-4 flex flex-wrap items-center justify-center gap-3 md:justify-start">
               {/* ① Telegram → 打开二维码新标签 */}
               <li>
                 <a
@@ -167,10 +170,10 @@ export default function Footer({ locale }: { locale: Locale }) {
         </div>
 
         <div
-          className="flex flex-col gap-3 border-t py-6 text-[0.8125rem] font-medium leading-[1.6] tracking-[-0.02em] md:flex-row md:items-center md:justify-between md:gap-10 md:py-8 md:text-[0.875rem]"
+          className="flex flex-col items-center gap-3 border-t py-6 text-center text-[0.8125rem] font-medium leading-[1.6] tracking-[-0.02em] md:flex-row md:items-center md:justify-between md:text-left md:gap-10 md:py-8 md:text-[0.875rem]"
           style={{ borderColor: "rgba(255,255,255,0.12)", color: "rgba(220,220,230,0.62)" }}
         >
-          <div className="flex flex-col gap-3 md:flex-row md:items-center md:gap-10">
+          <div className="flex flex-col items-center gap-3 md:flex-row md:items-center md:gap-10">
             <p>
               © {year} {company}
             </p>
