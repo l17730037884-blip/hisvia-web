@@ -5,7 +5,7 @@ description: "Bootstrap a Next.js 16 + Tailwind 4 industrial website with i18n (
 
 # 建站模版 · Next.js 工业外贸官网脚手架
 
-为"Bengbu Planetary（行星减速机 / 机械制造）类工业外贸官网"准备的可落地、多语言、响应式、带询盘表单 + 质量自动化工具的网站模版。直接复制此目录、替换 `src/data/*.generated.json` 内容和 `public/assets/` 产品图片，即可 1 小时内搭出一个新站。
+为"行星工程（Planetary Engineering · 工业减速机 / 机械制造）类工业外贸官网"准备的可落地、多语言、响应式、带询盘表单 + 质量自动化工具的网站模版。直接复制此目录、替换 `src/data/*.generated.json` 内容和 `public/assets/` 产品图片，即可 1 小时内搭出一个新站。
 
 ---
 

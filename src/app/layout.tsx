@@ -15,9 +15,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Bengbu Planetary Engineering Machinery Co., Ltd.",
+  title: "Planetary Engineering Co., Ltd.",
   description:
-    "AGV precision reducers — official information from Bengbu Planetary Engineering Machinery Co., Ltd.",
+    "AGV precision reducers — official information from Planetary Engineering Co., Ltd.",
 };
 
 /**

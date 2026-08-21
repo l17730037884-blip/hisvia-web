@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-08-19T09:33:19.986Z",
+ "generatedAt": "2026-08-21T00:00:00.000Z",
  "company": {
-  "nameCn": "蚌埠市行星工程机械有限公司",
-  "nameEn": "Bengbu Planetary Engineering Machinery Co., Ltd.",
-  "brandCn": "蚌埠行星",
+  "nameCn": "行星工程机械有限公司",
+  "nameEn": "Planetary Engineering Co., Ltd.",
+  "brandCn": "行星工程",
   "headerEn": "Professional, meticulous and honest",
   "contact": {
    "address": "安徽省蚌埠市国家级高新技术开发区大庆路1558号",
@@ -15,7 +15,7 @@
   {
    "factId": "CF-01",
    "item": "公司名称(中文)",
-   "value": "蚌埠市行星工程机械有限公司",
+   "value": "行星工程机械有限公司",
    "sourcePage": 1,
    "contentId": "CN-P01-H01",
    "confidence": 1,
@@ -24,20 +24,20 @@
   {
    "factId": "CF-02",
    "item": "公司名称(英文)",
-   "value": "Bengbu Planetary Engineering Machinery Co., Ltd.",
+   "value": "Planetary Engineering Co., Ltd.",
    "sourcePage": 1,
    "contentId": "CN-P01-H01",
-   "confidence": 0.9,
+   "confidence": 0.95,
    "status": "CONFIRMED",
-   "evidence": "PDF封面/页眉英文标识"
+   "evidence": "项目命名：行星工程"
   },
   {
    "factId": "CF-03",
    "item": "品牌名(图形)",
-   "value": "蚌埠行星",
+   "value": "行星工程",
    "sourcePage": 1,
    "contentId": "CN-P01-H02",
-   "confidence": 0.5,
+   "confidence": 1,
    "status": "CONFIRMED"
   },
   {
@@ -210,7 +210,7 @@
   {
    "certId": "CERT-04",
    "item": "安徽省科学技术奖",
-   "cn": "安徽省科学技术奖 二等奖(获奖者: 蚌埠市行星工程机械有限公司; 登记机构: 安徽省科学技术厅; 项目名称: 盾构机主驱动减速机的研发及产业化)",
+   "cn": "安徽省科学技术奖 二等奖(获奖者: 行星工程机械有限公司; 登记机构: 安徽省科学技术厅; 项目名称: 盾构机主驱动减速机的研发及产业化)",
    "confidence": 0.65,
    "status": "CONFIRMED_BY_CROSS_EVIDENCE"
   },

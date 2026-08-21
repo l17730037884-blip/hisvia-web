@@ -1,8 +1,8 @@
 export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://bengbu-planetary.example"
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://planetary-engineering.example"
 ).replace(/\/+$/, "");
 
 export const BRAND: Record<"ru" | "en", string> = {
-  en: "Bengbu Planetary Engineering Machinery Co., Ltd.",
-  ru: "Бэнбу Планетарное Машиностроительное Предприятие",
+  en: "Planetary Engineering Co., Ltd.",
+  ru: "ООО «Планетарная Инженерия»",
 };

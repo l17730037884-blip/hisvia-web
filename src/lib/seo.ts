@@ -10,8 +10,8 @@ export function pageTitle(locale: Locale, pageName: string): string {
 /** 描述模式: 与 seo-blueprint.json metaDescriptionPattern 一致。 */
 export function pageDescription(locale: Locale, pageName: string): string {
   return locale === "ru"
-    ? `${pageName} — официальная информация ООО «Бэнбу Планетарное Машиностроительное Предприятие» (прецизионные редукторы AGV).`
-    : `${pageName} — official information from Bengbu Planetary Engineering Machinery Co., Ltd. (AGV precision reducers).`;
+    ? `${pageName} — официальная информация ООО «Планетарная Инженерия» (прецизионные редукторы AGV).`
+    : `${pageName} — official information from Planetary Engineering Co., Ltd. (AGV precision reducers).`;
 }
 
 export function canonicalUrl(locale: Locale, path: string): string {
