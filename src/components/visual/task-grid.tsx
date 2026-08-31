@@ -61,7 +61,7 @@ export function TaskGrid({ columns }: { columns: TaskGridColumn[] }) {
             <span
               aria-hidden
               className={cn(
-                "pointer-events-none absolute left-0 top-0 z-20 rounded-tr-card bg-white/80 transition-all duration-300 group-hover:bg-white/95",
+                "pointer-events-none absolute start-0 top-0 z-20 rounded-tr-card bg-white/80 transition-all duration-300 group-hover:bg-white/95",
                 expanded ? "h-1 w-12" : "h-0 w-0"
               )}
             />
@@ -69,7 +69,7 @@ export function TaskGrid({ columns }: { columns: TaskGridColumn[] }) {
             <span
               aria-hidden
               className={cn(
-                "pointer-events-none absolute bottom-0 left-0 z-20 rounded-tr bg-white/90 transition-all duration-500 group-hover:w-[60%]",
+                "pointer-events-none absolute bottom-0 start-0 z-20 rounded-tr bg-white/90 transition-all duration-500 group-hover:w-[60%]",
                 expanded ? "h-[3px] w-0" : "h-0 w-0"
               )}
             />
@@ -79,16 +79,16 @@ export function TaskGrid({ columns }: { columns: TaskGridColumn[] }) {
               className={cn(
                 "task-grid-arrow absolute z-20 flex items-center justify-center rounded-full bg-stripe text-ink-muted transition-all duration-300 group-hover:!bg-white group-hover:!text-accent",
                 expanded
-                  ? "right-5 top-5 h-8 w-8 md:right-6 md:top-6"
-                  : "right-2 top-1/2 h-6 w-6 -translate-y-1/2"
+                  ? "end-5 top-5 h-8 w-8 md:end-6 md:top-6"
+                  : "end-2 top-1/2 h-6 w-6 -translate-y-1/2"
               )}
             >
               {expanded ? (
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" className="rtl:-scale-x-100">
                   <path d="M7 5l10 7-10 7" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               ) : (
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" className="rtl:-scale-x-100">
                   <path d="M7 5l10 7-10 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               )}
@@ -101,7 +101,7 @@ export function TaskGrid({ columns }: { columns: TaskGridColumn[] }) {
                 expanded ? "p-4 md:p-6" : "px-2 py-1.5"
               )}
             >
-              <div className={cn("flex items-center gap-1 pr-10 transition-[gap] duration-300", expanded ? "md:gap-2 pr-10" : "gap-1 pr-8")}>
+              <div className={cn("flex items-center gap-1 pe-10 transition-[gap] duration-300", expanded ? "md:gap-2 pe-10" : "gap-1 pe-8")}>
                 <span
                   aria-hidden
                   className={cn(
@@ -143,7 +143,7 @@ export function TaskGrid({ columns }: { columns: TaskGridColumn[] }) {
                             e.stopPropagation();
                             router.push(item.href);
                           }}
-                          className="no-text-hover-override relative z-30 inline-flex w-full items-center gap-2 text-left text-[0.8125rem] font-medium leading-[1.45] tracking-[-0.02em] text-ink-muted transition-colors duration-300 group-hover:!text-white"
+                          className="no-text-hover-override relative z-30 inline-flex w-full items-center gap-2 text-start text-[0.8125rem] font-medium leading-[1.45] tracking-[-0.02em] text-ink-muted transition-colors duration-300 group-hover:!text-white"
                         >
                           <span aria-hidden className="task-grid-rule block h-px w-4 bg-accent/40 transition-all duration-300 group-hover:w-6 group-hover:!bg-white/90" />
                           <span className="task-grid-item-label">{item.label}</span>

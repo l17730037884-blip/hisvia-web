@@ -2,9 +2,9 @@
 
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
-import { isLocale } from "@/lib/locale";
+import { isLocale, htmlDir } from "@/lib/locale";
 
-/** 根布局无法感知 [lang] 参数; 用 pathname 同步 <html lang>。 */
+/** 根布局 SSR 已设置 <html lang/dir>;此组件用于路由切换时同步属性(RSC 中无法感知 [lang] 变化)。 */
 export function LangSync() {
   const pathname = usePathname();
 
@@ -12,6 +12,7 @@ export function LangSync() {
     const lang = pathname.split("/")[1];
     if (isLocale(lang)) {
       document.documentElement.lang = lang;
+      document.documentElement.dir = htmlDir(lang);
     }
   }, [pathname]);
 

@@ -46,12 +46,12 @@ export function Intro({ slides }: { slides: IntroSlide[] }) {
         {/* ① 左侧边缘收暗（从 0.42 → 0.22，弱一档，不然浅底上显脏） */}
         <span
           aria-hidden
-          className="pointer-events-none absolute inset-y-0 left-0 w-[30%] bg-[linear-gradient(90deg,rgba(180,200,222,0.22)_0%,rgba(200,218,236,0.10)_45%,rgba(232,242,250,0)_100%)]"
+          className="pointer-events-none absolute inset-y-0 start-0 w-[30%] rtl:-scale-x-100 bg-[linear-gradient(90deg,rgba(180,200,222,0.22)_0%,rgba(200,218,236,0.10)_45%,rgba(232,242,250,0)_100%)]"
         />
         {/* ② 右侧边缘收暗（同弱度对称） */}
         <span
           aria-hidden
-          className="pointer-events-none absolute inset-y-0 right-0 w-[30%] bg-[linear-gradient(270deg,rgba(180,200,222,0.22)_0%,rgba(200,218,236,0.10)_45%,rgba(232,242,250,0)_100%)]"
+          className="pointer-events-none absolute inset-y-0 end-0 w-[30%] rtl:-scale-x-100 bg-[linear-gradient(270deg,rgba(180,200,222,0.22)_0%,rgba(200,218,236,0.10)_45%,rgba(232,242,250,0)_100%)]"
         />
         {/* ③ 统一径向渐晕（外围 0.54 → 0.28，浅底上不要压太黑） */}
         <span
@@ -76,7 +76,7 @@ export function Intro({ slides }: { slides: IntroSlide[] }) {
 
         {/* 左：图片区（统一比例锁 2.025:1；图片贴边零间距；三张显示尺寸一致） */}
         <div
-          className="relative flex aspect-[405/200] w-full items-center justify-center overflow-hidden border-b border-ink/16 bg-transparent p-0 lg:border-b-0 lg:border-r"
+          className="relative flex aspect-[405/200] w-full items-center justify-center overflow-hidden border-b border-ink/16 bg-transparent p-0 lg:border-b-0 lg:border-e"
         >
           {/* ==========================================
               SVG 工业水印层（z-0，产品图 z-10 在上；透明度 ~3%，做"画报纸感底纹"不抢图）
@@ -311,7 +311,7 @@ export function Intro({ slides }: { slides: IntroSlide[] }) {
           {/* 桌面右侧（lg 有 border-r）中性灰竖分隔线（统一 border-ink/16，不再用 accent 蓝导致分界线色差） */}
           <span
             aria-hidden
-            className="pointer-events-none absolute inset-y-0 right-0 hidden w-px bg-gradient-to-b from-transparent via-ink/18 to-transparent lg:block"
+            className="pointer-events-none absolute inset-y-0 end-0 hidden w-px bg-gradient-to-b from-transparent via-ink/18 to-transparent lg:block"
           />
           {/* 中心下方 极浅蓝主聚光灯（浅底上浓度再砍半：30→14%，不糊） */}
           <span
@@ -321,7 +321,7 @@ export function Intro({ slides }: { slides: IntroSlide[] }) {
           {/* 产品图左上 极浅蓝补光（14→06%，几乎是个"亮斑"而不是蓝色） */}
           <span
             aria-hidden
-            className="pointer-events-none absolute left-[8%] top-[12%] h-[40%] w-[40%] rounded-full bg-sky-300/6 blur-[110px]"
+            className="pointer-events-none absolute start-[8%] top-[12%] h-[40%] w-[40%] rounded-full bg-sky-300/6 blur-[110px]"
           />
           {/* 产品图（贴边零间距；统一 contain + 0.5% scale 抹平 3 张图比例 ~1% 微差 → 三张显示尺寸完全一致） */}
           <div className="relative z-10 h-full w-full drop-shadow-[0_0_36px_rgba(56,140,190,0.09)]">
@@ -423,14 +423,14 @@ export function Intro({ slides }: { slides: IntroSlide[] }) {
           </div>
 
           {/* 左右翻页（玻璃按钮） */}
-          <div className="absolute bottom-3 right-3 z-20 flex gap-2 md:bottom-5 md:right-5">
+          <div className="absolute bottom-3 end-3 z-20 flex gap-2 md:bottom-5 md:end-5">
             <button
               type="button"
               aria-label="Previous"
               onClick={() => goTo(index - 1)}
               className="glass flex h-7 w-7 items-center justify-center rounded-full text-ink transition-colors hover:bg-ink hover:text-white md:h-9 md:w-9"
             >
-              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden>
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden className="rtl:-scale-x-100">
                 <path d="M10 3L5 8l5 5" stroke="currentColor" strokeWidth="1.5" />
               </svg>
             </button>
@@ -440,7 +440,7 @@ export function Intro({ slides }: { slides: IntroSlide[] }) {
               onClick={() => goTo(index + 1)}
               className="glass flex h-7 w-7 items-center justify-center rounded-full text-ink transition-colors hover:bg-ink hover:text-white md:h-9 md:w-9"
             >
-              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden>
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden className="rtl:-scale-x-100">
                 <path d="M6 3l5 5-5 5" stroke="currentColor" strokeWidth="1.5" />
               </svg>
             </button>
@@ -449,27 +449,27 @@ export function Intro({ slides }: { slides: IntroSlide[] }) {
 
         {/* 右：文案区（lg 双栏时 h-full 跟随左图比例锁死；移动端单列自然高度 — 移除 flex justify-center + overflow-hidden，保证小屏上一定完整展开，不被裁） */}
         <div
-          className="relative border-t border-ink/16 bg-transparent p-5 text-ink sm:p-7 md:p-9 lg:h-full lg:border-l lg:border-t-0 lg:flex lg:flex-col lg:justify-center lg:overflow-hidden"
+          className="relative border-t border-ink/16 bg-transparent p-5 text-ink sm:p-7 md:p-9 lg:h-full lg:border-s lg:border-t-0 lg:flex lg:flex-col lg:justify-center lg:overflow-hidden"
         >
           {/* 桌面左侧（lg 有 border-l）中性灰竖分隔线——与左图 border-r 同为 via-ink/18，合一条不显色差 */}
           <span
             aria-hidden
-            className="pointer-events-none absolute inset-y-0 left-0 hidden w-px bg-gradient-to-b from-transparent via-ink/18 to-transparent lg:block"
+            className="pointer-events-none absolute inset-y-0 start-0 hidden w-px bg-gradient-to-b from-transparent via-ink/18 to-transparent lg:block"
           />
           {/* 左下 极浅蓝主聚光灯（25→11%，浅底上只亮不蓝） */}
           <span
             aria-hidden
-            className="pointer-events-none absolute -bottom-28 -left-24 h-96 w-96 rounded-full bg-sky-400/11 blur-[140px]"
+            className="pointer-events-none absolute -bottom-28 -start-24 h-96 w-96 rounded-full bg-sky-400/11 blur-[140px]"
           />
           {/* 右上 极浅蓝补光（16→07%） */}
           <span
             aria-hidden
-            className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full bg-sky-300/7 blur-[130px]"
+            className="pointer-events-none absolute -end-20 -top-20 h-64 w-64 rounded-full bg-sky-300/7 blur-[130px]"
           />
           {/* 左上白微高光（22→30%，浅底上更自然的亮斑） */}
           <span
             aria-hidden
-            className="pointer-events-none absolute left-[8%] top-[6%] h-48 w-48 rounded-full bg-white/30 blur-[90px]"
+            className="pointer-events-none absolute start-[8%] top-[6%] h-48 w-48 rounded-full bg-white/30 blur-[90px]"
           />
           <div key={index} className="animate-fade-in-up">
             <h2 className="font-display mb-2 text-[1.125rem] font-semibold leading-[1.15] tracking-[-0.03em] text-ink sm:text-[1.375rem] md:mb-3 md:text-[1.75rem] lg:mb-4 lg:text-[2rem]">
@@ -496,4 +496,3 @@ export function Intro({ slides }: { slides: IntroSlide[] }) {
     </div>
   );
 }
-

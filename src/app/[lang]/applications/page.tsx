@@ -6,8 +6,14 @@ import { Breadcrumb } from "@/components/layout/breadcrumb";
 import { getNavItems } from "@/lib/nav";
 import { localized } from "@/lib/content";
 import { pageTitle, pageDescription, languageAlternates, canonicalUrl } from "@/lib/seo";
-import { resolveLocale, type Locale } from "@/lib/locale";
+import { resolveLocale, ogLocale, type Locale } from "@/lib/locale";
 import { BRAND, SITE_URL } from "@/lib/site";
+
+/** 应用页本地化文案(9 种语言)。 */
+const APP_NAME: Record<Locale, string> = {
+  "zh-CN": "应用领域", en: "Applications", ru: "Применение", tr: "Uygulamalar",
+  es: "Aplicaciones", ar: "التطبيقات", de: "Anwendungen", fr: "Applications", pl: "Zastosowania",
+};
 
 async function getLocale(params: Promise<{ lang: string }>): Promise<Locale> {
   const { lang } = await params;
@@ -18,7 +24,7 @@ export async function generateMetadata({
   params,
 }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const locale = await getLocale(params);
-  const name = locale === "ru" ? "Применение" : "Applications";
+  const name = APP_NAME[locale];
   return {
     title: pageTitle(locale, name),
     description: pageDescription(locale, "Applications"),
@@ -26,7 +32,7 @@ export async function generateMetadata({
     openGraph: {
       title: pageTitle(locale, name),
       description: pageDescription(locale, "Applications"),
-      locale: locale === "ru" ? "ru_RU" : "en_US",
+      locale: ogLocale(locale),
       type: "website",
     },
   };

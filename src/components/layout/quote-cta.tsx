@@ -2,6 +2,14 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import type { Locale } from "@/lib/locale";
+
+/** 询盘按钮文案(9 种语言,工业 B2B 语境)。 */
+const QUOTE_LABEL: Record<Locale, string> = {
+  "zh-CN": "请求报价", en: "Request a Quote", ru: "Запросить расчёт", tr: "Teklif İste",
+  es: "Solicitar presupuesto", ar: "اطلب عرض سعر", de: "Angebot anfordern",
+  fr: "Demander un devis", pl: "Poproś o wycenę",
+};
 
 /**
  * 底部"询盘表单入口"CTA 按钮
@@ -13,7 +21,7 @@ export function QuoteCTA({
   locale,
   href,
 }: {
-  locale: "en" | "ru";
+  locale: Locale;
   href: string;
 }) {
   const wrapRef = useRef<HTMLDivElement | null>(null);
@@ -42,7 +50,7 @@ export function QuoteCTA({
     return () => io.disconnect();
   }, []);
 
-  const label = locale === "ru" ? "Запросить расчёт" : "Request a Quote";
+  const label = QUOTE_LABEL[locale];
 
   // —— 两套样式：visible=false（默认白底黑字）/ visible=true（深色底白字突出）
   const base =

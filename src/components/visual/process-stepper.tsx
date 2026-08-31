@@ -2,6 +2,47 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { cn } from "@/lib/cn";
+import type { Locale } from "@/lib/locale";
+
+/** 计数器模板({i}=当前步序号, {n}=总步数)。 */
+const COUNTER_FMT: Record<Locale, string> = {
+  "zh-CN": "步骤 {i} / {n}",
+  en: "Step {i} of {n}",
+  ru: "Шаг {i} из {n}",
+  tr: "Adım {i} / {n}",
+  es: "Paso {i} de {n}",
+  ar: "خطوة {i} من {n}",
+  de: "Schritt {i} von {n}",
+  fr: "Étape {i} sur {n}",
+  pl: "Krok {i} z {n}",
+};
+
+const DETAILS_TEXT: Record<Locale, string> = {
+  "zh-CN": "详情", en: "Details", ru: "Детали", tr: "Detaylar", es: "Detalles",
+  ar: "التفاصيل", de: "Details", fr: "Détails", pl: "Szczegóły",
+};
+
+const AUTOPLAY_TEXT: Record<Locale, string> = {
+  "zh-CN": "自动", en: "Autoplay", ru: "Авто", tr: "Otomatik", es: "Auto",
+  ar: "تلقائي", de: "Auto", fr: "Auto", pl: "Auto",
+};
+
+const TOGGLE_TEXT: Record<Locale, string> = {
+  "zh-CN": "切换自动播放", en: "Toggle autoplay", ru: "Вкл/выкл авто",
+  tr: "Otomatik oynatmayı aç/kapat", es: "Alternar reproducción automática",
+  ar: "تبديل التشغيل التلقائي", de: "Autoplay ein/aus",
+  fr: "Activer/désactiver l'auto", pl: "Przełącz autoodtwarzanie",
+};
+
+const PLAY_TEXT: Record<Locale, string> = {
+  "zh-CN": "播放", en: "Play", ru: "Старт", tr: "Oynat", es: "Reproducir",
+  ar: "تشغيل", de: "Wiedergabe", fr: "Lecture", pl: "Odtwórz",
+};
+
+const PAUSE_TEXT: Record<Locale, string> = {
+  "zh-CN": "暂停", en: "Pause", ru: "Пауза", tr: "Duraklat", es: "Pausa",
+  ar: "إيقاف مؤقت", de: "Pause", fr: "Pause", pl: "Wstrzymaj",
+};
 
 type Step = {
   id: string;
@@ -12,7 +53,7 @@ type Step = {
 
 type ProcessStepperProps = {
   steps: Step[];
-  locale: "ru" | "en";
+  locale: Locale;
   /** 非激活（用户未触碰）时是否自动轮播。默认开启。 */
   autoplay?: boolean;
   /** 自动轮播间隔（ms）。默认 5500ms。 */
@@ -79,10 +120,9 @@ export function ProcessStepper({
 
   const activeStep = steps[displayIndex];
 
-  const counterText =
-    locale === "ru"
-      ? `Шаг ${displayIndex + 1} из ${steps.length}`
-      : `Step ${displayIndex + 1} of ${steps.length}`;
+  const counterText = COUNTER_FMT[locale]
+    .replace("{i}", String(displayIndex + 1))
+    .replace("{n}", String(steps.length));
 
   return (
     <div
@@ -101,7 +141,7 @@ export function ProcessStepper({
             />
             <div
               aria-hidden
-              className="absolute left-0 top-1/2 h-px -translate-y-1/2 bg-accent transition-all duration-500"
+              className="absolute start-0 top-1/2 h-px -translate-y-1/2 bg-accent transition-all duration-500"
               style={{
                 width:
                   steps.length > 1
@@ -171,11 +211,11 @@ export function ProcessStepper({
         <ol className="relative space-y-3 md:hidden">
           <div
             aria-hidden
-            className="absolute left-[19px] top-5 bottom-5 w-px bg-line"
+            className="absolute start-[19px] top-5 bottom-5 w-px bg-line"
           />
           <div
             aria-hidden
-            className="absolute left-[19px] top-5 w-px bg-accent transition-all duration-500"
+            className="absolute start-[19px] top-5 w-px bg-accent transition-all duration-500"
             style={{
               height:
                 steps.length > 0
@@ -225,7 +265,7 @@ export function ProcessStepper({
                   </span>
                   <span
                     className={cn(
-                      "min-w-0 flex-1 truncate text-left font-display text-[0.875rem] font-medium tracking-[-0.02em]",
+                      "min-w-0 flex-1 truncate text-start font-display text-[0.875rem] font-medium tracking-[-0.02em]",
                       state === "active"
                         ? "text-ink"
                         : state === "done"
@@ -260,12 +300,12 @@ export function ProcessStepper({
               {/* 左上 accent 角线（替代旧数字装饰） */}
               <span
                 aria-hidden
-                className="pointer-events-none absolute left-0 top-0 h-1 w-32 rounded-tr-card bg-gradient-to-r from-accent via-accent/60 to-transparent md:h-1.5 md:w-48"
+                className="pointer-events-none absolute start-0 top-0 h-1 w-32 rounded-tr-card bg-gradient-to-r from-accent via-accent/60 to-transparent rtl:-scale-x-100 md:h-1.5 md:w-48"
               />
               <div className="relative flex flex-col gap-6 lg:flex-row lg:items-start">
                 <div className="min-w-0 flex-1">
                   <p className="font-mono text-[0.6875rem] uppercase tracking-[0.16em] text-accent">
-                    {locale === "ru" ? "Детали" : "Details"}
+                    {DETAILS_TEXT[locale]}
                   </p>
                   <h3 className="mt-2 font-display text-[clamp(1.125rem,1.6vw,1.5rem)] font-semibold leading-[1.2] tracking-[-0.02em] text-ink">
                     {activeStep.text}
@@ -296,7 +336,7 @@ export function ProcessStepper({
       {/* 自动轮播控制条：播放/暂停 + 静音/开启 按钮 */}
       <div className="flex items-center justify-between gap-4 pt-1 border-t border-line/50">
         <p className="font-mono text-[0.6875rem] uppercase tracking-[0.18em] text-ink-soft">
-          {locale === "ru" ? "Авто" : "Autoplay"}
+          {AUTOPLAY_TEXT[locale]}
         </p>
         <div className="flex items-center gap-3">
           {/* 进度点：小圆 → 大蓝圆 指示轮播进度 */}
@@ -321,7 +361,7 @@ export function ProcessStepper({
             onClick={() => setAutoplayPaused((v) => !v)}
             aria-pressed={autoplayPaused}
             className="inline-flex h-9 items-center gap-1.5 rounded-btn border border-line bg-surface px-3 font-mono text-[0.6875rem] font-medium uppercase tracking-[0.14em] text-ink-muted transition-colors hover:border-accent/30 hover:text-accent"
-            title={locale === "ru" ? "Вкл/выкл авто" : "Toggle autoplay"}
+            title={TOGGLE_TEXT[locale]}
           >
             {autoplayPaused ? (
               <>
@@ -332,7 +372,7 @@ export function ProcessStepper({
                     strokeWidth="1.3"
                   />
                 </svg>
-                <span>{locale === "ru" ? "Старт" : "Play"}</span>
+                <span>{PLAY_TEXT[locale]}</span>
               </>
             ) : (
               <>
@@ -350,7 +390,7 @@ export function ProcessStepper({
                     strokeLinejoin="round"
                   />
                 </svg>
-                <span>{locale === "ru" ? "Пауза" : "Pause"}</span>
+                <span>{PAUSE_TEXT[locale]}</span>
               </>
             )}
           </button>

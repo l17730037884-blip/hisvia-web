@@ -1,6 +1,7 @@
 import { NextResponse, type NextRequest } from "next/server";
 import nodemailer from "nodemailer";
 import type SMTPTransport from "nodemailer/lib/smtp-transport";
+import { type Locale, isLocale } from "@/lib/locale";
 
 /** 询盘表单后台接口。
  *  · POST：校验必填（name/phone/message）、email 格式；
@@ -16,6 +17,93 @@ export const dynamic = "force-dynamic";
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const PHONE_MIN_DIGITS = 6;
 const INQUIRY_TO = "info@hisvia.com"; // 固定收件箱：用户指定
+
+/** 邮件主题/标题前缀(9 种语言,工业 B2B 语境)。 */
+const SUBJECTS: Record<Locale, string> = {
+  "zh-CN": "网站新询盘",
+  en: "New Website Inquiry",
+  ru: "Новый запрос с сайта",
+  tr: "Web Sitesinden Yeni Talep",
+  es: "Nueva consulta desde el sitio web",
+  ar: "استفسار جديد من الموقع",
+  de: "Neue Anfrage von der Website",
+  fr: "Nouvelle demande depuis le site",
+  pl: "Nowe zapytanie ze strony",
+};
+const TITLES: Record<Locale, string> = SUBJECTS;
+
+/** 邮件字段标签(9 种语言)。 */
+const FIELD_NAMES: Record<"name" | "phone" | "email" | "company" | "product" | "message", Record<Locale, string>> = {
+  name: {
+    "zh-CN": "姓名", en: "Name", ru: "Имя", tr: "Ad", es: "Nombre",
+    ar: "الاسم", de: "Name", fr: "Nom", pl: "Imię",
+  },
+  phone: {
+    "zh-CN": "电话", en: "Phone", ru: "Телефон", tr: "Telefon", es: "Teléfono",
+    ar: "الهاتف", de: "Telefon", fr: "Téléphone", pl: "Telefon",
+  },
+  email: {
+    "zh-CN": "邮箱", en: "Email", ru: "Email", tr: "E-posta", es: "Correo electrónico",
+    ar: "البريد الإلكتروني", de: "E-Mail", fr: "E-mail", pl: "E-mail",
+  },
+  company: {
+    "zh-CN": "公司", en: "Company", ru: "Компания", tr: "Şirket", es: "Empresa",
+    ar: "الشركة", de: "Unternehmen", fr: "Société", pl: "Firma",
+  },
+  product: {
+    "zh-CN": "产品", en: "Product", ru: "Продукт", tr: "Ürün", es: "Producto",
+    ar: "المنتج", de: "Produkt", fr: "Produit", pl: "Produkt",
+  },
+  message: {
+    "zh-CN": "留言", en: "Message", ru: "Сообщение", tr: "Mesaj", es: "Mensaje",
+    ar: "الرسالة", de: "Nachricht", fr: "Message", pl: "Wiadomość",
+  },
+};
+
+/** 验证错误消息(9 种语言)。 */
+const ERRORS: Record<string, Record<Locale, string>> = {
+  name_required: {
+    "zh-CN": "请输入姓名", en: "Name is required", ru: "Введите имя", tr: "Ad girin",
+    es: "Introduzca el nombre", ar: "أدخل الاسم", de: "Name eingeben",
+    fr: "Saisissez le nom", pl: "Podaj imię",
+  },
+  name_short: {
+    "zh-CN": "姓名过短", en: "Name is too short", ru: "Имя слишком короткое", tr: "Ad çok kısa",
+    es: "El nombre es demasiado corto", ar: "الاسم قصير جداً", de: "Name zu kurz",
+    fr: "Le nom est trop court", pl: "Imię jest za krótkie",
+  },
+  phone_required: {
+    "zh-CN": "请输入电话", en: "Phone is required", ru: "Введите телефон", tr: "Telefon girin",
+    es: "Introduzca el teléfono", ar: "أدخل الهاتف", de: "Telefon eingeben",
+    fr: "Saisissez le téléphone", pl: "Podaj telefon",
+  },
+  phone_invalid: {
+    "zh-CN": "电话格式不正确", en: "Invalid phone", ru: "Некорректный телефон", tr: "Geçersiz telefon",
+    es: "Teléfono no válido", ar: "رقم هاتف غير صالح", de: "Ungültige Telefonnummer",
+    fr: "Numéro de téléphone invalide", pl: "Nieprawidłowy telefon",
+  },
+  email_invalid: {
+    "zh-CN": "邮箱格式不正确", en: "Invalid email", ru: "Некорректный email", tr: "Geçersiz e-posta",
+    es: "Correo electrónico no válido", ar: "بريد إلكتروني غير صالح", de: "Ungültige E-Mail",
+    fr: "E-mail invalide", pl: "Nieprawidłowy e-mail",
+  },
+  message_required: {
+    "zh-CN": "请输入留言", en: "Message is required", ru: "Введите сообщение", tr: "Mesaj girin",
+    es: "Escriba un mensaje", ar: "أدخل الرسالة", de: "Nachricht eingeben",
+    fr: "Saisissez un message", pl: "Podaj wiadomość",
+  },
+  message_short: {
+    "zh-CN": "留言过短", en: "Message is too short", ru: "Сообщение слишком короткое", tr: "Mesaj çok kısa",
+    es: "El mensaje es demasiado corto", ar: "الرسالة قصيرة جداً", de: "Nachricht zu kurz",
+    fr: "Le message est trop court", pl: "Wiadomość jest za krótka",
+  },
+};
+
+/** locale → toLocaleString 用的 BCP 47 区域标签。 */
+const DATE_LOCALE: Record<Locale, string> = {
+  "zh-CN": "zh-CN", en: "en-US", ru: "ru-RU", tr: "tr-TR", es: "es-ES",
+  ar: "ar-AE", de: "de-DE", fr: "fr-FR", pl: "pl-PL",
+};
 
 type Payload = {
   name?: unknown;
@@ -34,25 +122,25 @@ function buildInquiryEmailHtml(data: {
   company: string;
   product: string;
   message: string;
-  locale: "ru" | "en";
+  locale: Locale;
 }) {
   const row = (label: string, value: string) =>
     `<tr><td style="padding:8px 12px;border-bottom:1px solid #eee;font-family:-apple-system,'SF Pro Text',sans-serif;font-size:13px;color:#6b7280;width:160px;vertical-align:top">${label}</td><td style="padding:8px 12px;border-bottom:1px solid #eee;font-family:-apple-system,'SF Pro Text',sans-serif;font-size:14px;color:#111;vertical-align:top;white-space:pre-wrap;word-break:break-word">${value || "—"}</td></tr>`;
   return `
   <div style="max-width:640px;margin:0 auto;background:#fff;border:1px solid #eee;border-radius:12px;padding:24px">
     <div style="font-size:18px;font-weight:700;color:#0b1220;letter-spacing:-0.02em;margin-bottom:12px">${
-      data.locale === "ru" ? "Новый запрос с сайта" : "New Website Inquiry"
+      TITLES[data.locale]
     }</div>
     <div style="font-size:13px;color:#6b7280;margin-bottom:20px">${
-      new Date().toLocaleString(data.locale === "ru" ? "ru-RU" : "en-US")
+      new Date().toLocaleString(DATE_LOCALE[data.locale])
     }</div>
     <table style="width:100%;border-collapse:collapse">
-      ${row(data.locale === "ru" ? "Имя" : "Name", data.name)}
-      ${row(data.locale === "ru" ? "Телефон" : "Phone", data.phone)}
-      ${row(data.locale === "ru" ? "Email" : "Email", data.email)}
-      ${row(data.locale === "ru" ? "Компания" : "Company", data.company)}
-      ${row(data.locale === "ru" ? "Продукт" : "Product", data.product)}
-      ${row(data.locale === "ru" ? "Сообщение" : "Message", data.message)}
+      ${row(FIELD_NAMES.name[data.locale], data.name)}
+      ${row(FIELD_NAMES.phone[data.locale], data.phone)}
+      ${row(FIELD_NAMES.email[data.locale], data.email)}
+      ${row(FIELD_NAMES.company[data.locale], data.company)}
+      ${row(FIELD_NAMES.product[data.locale], data.product)}
+      ${row(FIELD_NAMES.message[data.locale], data.message)}
     </table>
   </div>`;
 }
@@ -64,20 +152,20 @@ function buildInquiryEmailText(data: {
   company: string;
   product: string;
   message: string;
-  locale: "ru" | "en";
+  locale: Locale;
 }) {
   const l = data.locale;
   return [
-    l === "ru" ? "Новый запрос с сайта" : "New Website Inquiry",
+    TITLES[l],
     new Date().toString(),
     "",
-    `${l === "ru" ? "Имя" : "Name"}: ${data.name}`,
-    `${l === "ru" ? "Телефон" : "Phone"}: ${data.phone}`,
-    data.email ? `${l === "ru" ? "Email" : "Email"}: ${data.email}` : null,
-    data.company ? `${l === "ru" ? "Компания" : "Company"}: ${data.company}` : null,
-    data.product ? `${l === "ru" ? "Продукт" : "Product"}: ${data.product}` : null,
+    `${FIELD_NAMES.name[l]}: ${data.name}`,
+    `${FIELD_NAMES.phone[l]}: ${data.phone}`,
+    data.email ? `${FIELD_NAMES.email[l]}: ${data.email}` : null,
+    data.company ? `${FIELD_NAMES.company[l]}: ${data.company}` : null,
+    data.product ? `${FIELD_NAMES.product[l]}: ${data.product}` : null,
     "",
-    `${l === "ru" ? "Сообщение" : "Message"}:`,
+    `${FIELD_NAMES.message[l]}:`,
     data.message,
   ]
     .filter((x): x is string => Boolean(x))
@@ -91,7 +179,7 @@ async function trySendEmail(data: {
   company: string;
   product: string;
   message: string;
-  locale: "ru" | "en";
+  locale: Locale;
 }): Promise<{ ok: boolean; reason?: string; info?: unknown }> {
   const host = process.env.SMTP_HOST;
   const port = process.env.SMTP_PORT ? Number(process.env.SMTP_PORT) : undefined;
@@ -114,10 +202,7 @@ async function trySendEmail(data: {
       socketTimeout: 15_000,
     };
     const transporter = nodemailer.createTransport(transportOpts);
-    const subject =
-      data.locale === "ru"
-        ? `Новый запрос с сайта — ${data.name} / ${data.phone}`
-        : `New Website Inquiry — ${data.name} / ${data.phone}`;
+    const subject = `${SUBJECTS[data.locale]} — ${data.name} / ${data.phone}`;
     const info = await transporter.sendMail({
       from: `"Website Inquiry" <${user}>`,
       replyTo: data.email || undefined,
@@ -146,24 +231,24 @@ export async function POST(req: NextRequest) {
   const company = typeof json.company === "string" ? json.company.trim() : "";
   const product = typeof json.product === "string" ? json.product.trim() : "";
   const message = typeof json.message === "string" ? json.message.trim() : "";
-  const locale: "ru" | "en" =
-    typeof json.locale === "string" && (json.locale === "ru" || json.locale === "en") ? json.locale : "en";
+  const locale: Locale =
+    typeof json.locale === "string" && isLocale(json.locale) ? json.locale : "en";
 
   // 服务端校验（必须与前端一致，防止绕过）
   const errors: Record<string, string> = {};
-  if (!name) errors.name = locale === "ru" ? "Введите имя" : "Name is required";
-  else if (name.length < 2) errors.name = locale === "ru" ? "Имя слишком короткое" : "Name is too short";
+  if (!name) errors.name = ERRORS.name_required[locale];
+  else if (name.length < 2) errors.name = ERRORS.name_short[locale];
 
-  if (!phone) errors.phone = locale === "ru" ? "Введите телефон" : "Phone is required";
+  if (!phone) errors.phone = ERRORS.phone_required[locale];
   else if (phone.replace(/\D/g, "").length < PHONE_MIN_DIGITS)
-    errors.phone = locale === "ru" ? "Некорректный телефон" : "Invalid phone";
+    errors.phone = ERRORS.phone_invalid[locale];
 
   if (email && !EMAIL_RE.test(email))
-    errors.email = locale === "ru" ? "Некорректный email" : "Invalid email";
+    errors.email = ERRORS.email_invalid[locale];
 
-  if (!message) errors.message = locale === "ru" ? "Введите сообщение" : "Message is required";
+  if (!message) errors.message = ERRORS.message_required[locale];
   else if (message.length < 10)
-    errors.message = locale === "ru" ? "Сообщение слишком короткое" : "Message is too short";
+    errors.message = ERRORS.message_short[locale];
 
   if (Object.keys(errors).length > 0) {
     return NextResponse.json({ ok: false, error: "validation", errors }, { status: 400 });

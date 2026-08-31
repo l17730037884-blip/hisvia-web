@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-19T09:33:19.938Z",
-  "language": "en",
+  "generatedAt": "2026-08-30T10:00:00Z",
+  "language": "de",
   "units": [
     {
-      "contentId": "EN-P01-H01",
+      "contentId": "DE-P01-H01",
       "sourceContentId": "CN-P01-H01",
       "sourceCn": "蚌埠市行星工程机械有限公司",
-      "translation": "Planetary Engineering Co., Ltd.",
+      "translation": "Planetary Engineering GmbH",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -15,7 +15,7 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P01-H02",
+      "contentId": "DE-P01-H02",
       "sourceContentId": "CN-P01-H02",
       "sourceCn": "蚌埠行星",
       "translation": "Planetary Engineering",
@@ -27,10 +27,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P01-H03",
+      "contentId": "DE-P01-H03",
       "sourceContentId": "CN-P01-H03",
       "sourceCn": "AGV精密减速机宣传册",
-      "translation": "AGV Precision Reducer Catalog",
+      "translation": "Katalog für AGV-Präzisionsgetriebe",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -39,30 +39,30 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P01-H04",
+      "contentId": "DE-P01-H04",
       "sourceContentId": "CN-P01-H04",
       "sourceCn": "AUTOMATED GUIDED REDUCER",
-      "translation": "AUTOMATED GUIDED REDUCER",
+      "translation": "AUTOMATISCH GEFÜHRTER REDUKTOR",
       "translationStatus": "TRANSLATED",
       "confidence": 1,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P01-S01",
+      "contentId": "DE-P01-S01",
       "sourceContentId": "CN-P01-S01",
       "sourceCn": "专业成就事业，细致体现关怀，诚信铸就辉煌",
-      "translation": "Precision builds trust. Care shapes partnerships. Integrity drives results.",
+      "translation": "Präzision schafft Vertrauen. Sorge prägt Partnerschaften. Integrität treibt Ergebnisse.",
       "translationStatus": "REWRITTEN_NATIVE",
       "confidence": 0.9,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P01-C01",
+      "contentId": "DE-P01-C01",
       "sourceContentId": "CN-P01-C01",
       "sourceCn": "安徽省蚌埠市国家级高新技术开发区大庆路1558号",
-      "translation": "No. 1558 Daqing Road, National High-tech Development Zone, Bengbu, Anhui Province, China",
+      "translation": "Nr. 1558, Daqing-Straße, Nationale Entwicklungszone für Hightech, Bengbu, Provinz Anhui, China",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -72,7 +72,7 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P01-C02",
+      "contentId": "DE-P01-C02",
       "sourceContentId": "CN-P01-C02",
       "sourceCn": "400-0552-863",
       "translation": "400-0552-863",
@@ -82,7 +82,7 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P01-C03",
+      "contentId": "DE-P01-C03",
       "sourceContentId": "CN-P01-C03",
       "sourceCn": "233000",
       "translation": "233000",
@@ -92,20 +92,20 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P01-N01",
+      "contentId": "DE-P01-N01",
       "sourceContentId": "CN-P01-N01",
       "sourceCn": "2023A版",
-      "translation": "Edition 2023A",
+      "translation": "Ausgabe 2023A",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P02-H01",
+      "contentId": "DE-P02-H01",
       "sourceContentId": "CN-P02-H01",
       "sourceCn": "AGV精密行星减速机",
-      "translation": "AGV Precision Planetary Reducer",
+      "translation": "AGV-Präzisionsplanetengetriebe",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -115,90 +115,90 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P02-H02",
+      "contentId": "DE-P02-H02",
       "sourceContentId": "CN-P02-H02",
       "sourceCn": "目录",
-      "translation": "Contents",
+      "translation": "Inhaltsverzeichnis",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P02-T01",
+      "contentId": "DE-P02-T01",
       "sourceContentId": "CN-P02-T01",
       "sourceCn": "企业简介",
-      "translation": "Company Profile",
+      "translation": "Unternehmensprofil",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P02-T02",
+      "contentId": "DE-P02-T02",
       "sourceContentId": "CN-P02-T02",
       "sourceCn": "产品介绍",
-      "translation": "Product Introduction",
+      "translation": "Produktvorstellung",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P02-T03",
+      "contentId": "DE-P02-T03",
       "sourceContentId": "CN-P02-T03",
       "sourceCn": "功能优点",
-      "translation": "Features and Advantages",
+      "translation": "Eigenschaften und Vorteile",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P02-T04",
+      "contentId": "DE-P02-T04",
       "sourceContentId": "CN-P02-T04",
       "sourceCn": "资质和荣誉",
-      "translation": "Qualifications and Honors",
+      "translation": "Qualifikationen und Auszeichnungen",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P02-T05",
+      "contentId": "DE-P02-T05",
       "sourceContentId": "CN-P02-T05",
       "sourceCn": "参数配置",
-      "translation": "Parameter Configuration",
+      "translation": "Parameterkonfiguration",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P02-T06",
+      "contentId": "DE-P02-T06",
       "sourceContentId": "CN-P02-T06",
       "sourceCn": "定制流程",
-      "translation": "Customization Process",
+      "translation": "Anpassungsprozess",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P03-H01",
+      "contentId": "DE-P03-H01",
       "sourceContentId": "CN-P03-H01",
       "sourceCn": "企业简介",
-      "translation": "Company Profile",
+      "translation": "Unternehmensprofil",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P03-B01",
+      "contentId": "DE-P03-B01",
       "sourceContentId": "CN-P03-B01",
       "sourceCn": "蚌埠市行星工程机械有限公司成立于2002年，坐落在千里淮河第一港蚌埠市的国家级高新技术产业开发区内。是从事机器人行走齿轮精密减速机的研发、制造和销售以及树形智能立体车库的研发与销售的实体企业。",
-      "translation": "Planetary Engineering Co., Ltd. was founded in 2002 and is based in Bengbu National High-tech Industrial Development Zone, Anhui Province. We design, manufacture and sell precision gear reducers for robotic drive wheels, and also develop tree-structured intelligent multi-story parking systems.",
+      "translation": "Planetary Engineering GmbH wurde 2002 gegründet und hat ihren Sitz in der Nationalen Entwicklungszone für Hightech-Industrie in Bengbu, Provinz Anhui. Wir entwickeln, fertigen und vertreiben Präzisions-Zahnradgetriebe für Antriebsräder von Robotern sowie baumstrukturierte intelligente Mehrgeschoss-Parksysteme.",
       "translationStatus": "REWRITTEN_NATIVE",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -211,10 +211,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P03-B02",
+      "contentId": "DE-P03-B02",
       "sourceContentId": "CN-P03-B02",
       "sourceCn": "公司占地面积40000多平方米，从事行星齿轮减速器研发制造30多年。产品涉及工业机器人、工程机械、风力发电、矿山机械等设备行星减速器的研发、生产、制造等。",
-      "translation": "Our facility spans more than 40,000 square meters, and we have focused on planetary gear reducer R&D and production for over 30 years. Our reducers are deployed in industrial robots, construction machinery, wind turbines, mining equipment and other heavy-duty applications.",
+      "translation": "Unser Werk umfasst mehr als 40.000 Quadratmeter; seit über 30 Jahren konzentrieren wir uns auf Forschung, Entwicklung und Fertigung von Planetenradgetrieben. Unser Produktportfolio umfasst die Entwicklung und Produktion von Planetengetrieben für Industrieroboter, Baumaschinen, Windkraftanlagen, Bergbaumaschinen und weitere einsatzharte Anwendungen.",
       "translationStatus": "REWRITTEN_NATIVE",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -227,10 +227,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P03-B03",
+      "contentId": "DE-P03-B03",
       "sourceContentId": "CN-P03-B03",
       "sourceCn": "为中国中铁，中国铁建重工、海螺集团等国内外知名厂家配套。产品远销国内外30几个国家及地区。",
-      "translation": "We supply components to major domestic and international manufacturers including China Railway, CRCC Heavy Industry and Conch Group, and ship our products to over 30 countries and regions worldwide.",
+      "translation": "Wir beliefern führende in- und ausländische Hersteller mit Komponenten, darunter China Railway, CRCC Heavy Industry und Conch Group, und liefern unsere Produkte in über 30 Länder und Regionen weltweit.",
       "translationStatus": "REWRITTEN_NATIVE",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -241,10 +241,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P03-B04",
+      "contentId": "DE-P03-B04",
       "sourceContentId": "CN-P03-B04",
       "sourceCn": "公司多项产品获得科技进步奖、名牌产品等荣誉称号。机器人行星精密减速机除了满足常规系列AGV机器人使用外，更在重载工业机器人领域有着独到的经验和实力。",
-      "translation": "Multiple product lines have earned the Provincial Science and Technology Progress Award and \"Famous Brand\" product titles. Our precision planetary reducers cover the full range of standard AGV platforms — and have a proven track record in heavy-duty industrial robotics applications where reliability under peak loads is critical.",
+      "translation": "Mehrere Produktlinien wurden mit dem Preis für Wissenschaftlichen und Technologischen Fortschritt sowie der Auszeichnung „Bekannte Marke“ gewürdigt. Unsere Präzisions-Planetengetriebe decken die gesamte Palette Standard-AGV-Plattformen ab und verfügen über einen bewährten Einsatznachweis in schweren industriellen Roboteranwendungen, bei denen es auf Zuverlässigkeit unter Spitzenlasten ankommt.",
       "translationStatus": "REWRITTEN_NATIVE",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -254,10 +254,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P03-B05",
+      "contentId": "DE-P03-B05",
       "sourceContentId": "CN-P03-B05",
       "sourceCn": "公司自成立以来，始终以“一流的产品质量、一流的工作效率、一流的企业形象”为企业宗旨，坚持用户第一、注重质量管理，不断自我超越。我们将继续发扬“不断改进是我们制胜的法宝”的光荣传统。与海内外广大客商共同创造智能机器人知名品牌。",
-      "translation": "Since its founding, the company has upheld the corporate philosophy of \"first-class product quality, first-class work efficiency and first-class corporate image\", putting customers first, emphasizing quality management and continuously surpassing itself. We will carry forward the fine tradition that \"continuous improvement is our winning formula\" and work together with customers at home and abroad to build a renowned intelligent robot brand.",
+      "translation": "Seit der Gründung verfolgt das Unternehmen die Leitlinie „erstklassige Produktqualität, erstklassige Arbeitseffizienz und erstklassiges Unternehmensimage“; der Kunde steht an erster Stelle, Qualitätsmanagement wird großgeschrieben und wir übertreffen uns kontinuierlich. Wir pflegen den bewährten Grundsatz „Ständige Verbesserung ist der Schlüssel zum Erfolg“ und entwickeln gemeinsam mit in- und ausländischen Kunden eine bekannte Marke für intelligente Roboter.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -266,10 +266,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P03-S01",
+      "contentId": "DE-P03-S01",
       "sourceContentId": "CN-P03-S01",
       "sourceCn": "行星传动 装备美好生活",
-      "translation": "Planetary drives power a better life",
+      "translation": "Planetengetriebe gestalten ein besseres Leben",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -278,20 +278,20 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P04-H01",
+      "contentId": "DE-P04-H01",
       "sourceContentId": "CN-P04-H01",
       "sourceCn": "产品介绍",
-      "translation": "Product Introduction",
+      "translation": "Produktvorstellung",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P04-B01",
+      "contentId": "DE-P04-B01",
       "sourceContentId": "CN-P04-B01",
       "sourceCn": "AGV是（Automated Guided Vehicle）的缩写，意即“自动导引运输车”，又名无人搬运车、自动导航车、激光导航车。其显著特点的是无人驾驶，AGV上装备有自动导向系统，可以保障系统在不需要人工引航的情况下就能够沿预定的路线自动行驶，将货物或物料自动从起始点运送到目的地。移动系统的关键传统部件即行星齿轮精密减速器。",
-      "translation": "AGV is the abbreviation of Automated Guided Vehicle, meaning an automatically guided transport vehicle, also known as a driverless transport vehicle, automatic navigation vehicle or laser-guided vehicle. Its outstanding feature is unmanned operation: the AGV is equipped with an automatic guidance system that allows it to travel along a preset route without manual navigation.",
+      "translation": "AGV ist die Abkürzung für Automated Guided Vehicle (automatisch geführtes Fahrzeug) und bedeutet „automatisch geführtes Transportfahrzeug“; es wird auch als fahrerloses Transportfahrzeug, automatisch navigierendes Fahrzeug oder lasernavigiertes Fahrzeug bezeichnet. Sein hervorstechendes Merkmal ist der fahrerlose Betrieb: Das AGV ist mit einem automatischen Führungssystem ausgestattet, das es ermöglicht, ohne manuelle Führung einer vorgegebenen Route zu folgen und Güter oder Material automatisch vom Start- zum Zielpunkt zu befördern. Die Schlüsselkomponente des Fahrsystems ist das Präzisions-Planetenradgetriebe.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -304,10 +304,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P04-B02",
+      "contentId": "DE-P04-B02",
       "sourceContentId": "CN-P04-B02",
       "sourceCn": "行星减速器是由精密齿轮按行星结构设计的，专业用于机器人扭矩传动的关键核心部件。行星减速器配备电机、控制器、转向盘等即组成转向舵轮。",
-      "translation": "A planetary gear reducer uses precision gears arranged in a sun-and-planet layout to deliver high torque density in a compact envelope. It is the core component for torque transmission in robotic platforms. Assembled with a drive motor, controller and steering plate, it forms a fully integrated steerable drive wheel.",
+      "translation": "Das Planetengetriebe wird mit Präzisionszahnrädern in einer Sonne-Planet-Anordnung ausgelegt und bietet ein hohes Drehmoment bei kompakter Baugröße. Es ist die Kernkomponente zur Drehmomentübertragung in Robotikplattformen. Zusammen mit einem Antriebsmotor, einem Controller und einem Lenkteller bildet es ein vollständig integriertes lenkbares Antriebsrad.",
       "translationStatus": "REWRITTEN_NATIVE",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -318,20 +318,20 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P04-H02",
+      "contentId": "DE-P04-H02",
       "sourceContentId": "CN-P04-H02",
       "sourceCn": "功能优点",
-      "translation": "Features and Advantages",
+      "translation": "Eigenschaften und Vorteile",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P04-B03",
+      "contentId": "DE-P04-B03",
       "sourceContentId": "CN-P04-B03",
       "sourceCn": "行星减速器作为AGV核心零部件的优点：结构紧凑、占用空间小、传动精度高，使机器人在工作中能够完成特别精密的工作指令。行星减速结构可以实现传动效率高，可以在较小的空间内使机器人动力传动损耗更少、速度可控、扭矩增大。使机器人运输能力大幅度增加。",
-      "translation": "As the heart of an AGV drivetrain, the planetary reducer packs three advantages. First, a compact footprint and high positioning accuracy — so the vehicle executes repeatable, micron-level moves in tight aisles. Second, high transmission efficiency with minimal power loss, even in constrained chassis layouts. Third, stable speed control with amplified torque output. The result: a measurable increase in payload capacity and cycle throughput per shift.",
+      "translation": "Als Herz des AGV-Antriebsstrangs bietet das Planetengetriebe drei Vorteile. Erstens eine kompakte Baugröße und hohe Positioniergenauigkeit, sodass das Fahrzeug in engen Gängen wiederholte Bewegungen im Mikronbereich ausführt. Zweitens eine hohe Übertragungseffizienz mit minimalen Leistungsverlusten, auch bei beengten Chassis-Auslegungen. Drittens eine stabile Drehzahlregelung mit verstärktem Drehmomentabtrieb. Ergebnis: ein spürbarer Zuwachs an Nutzlast und Taktleistung pro Schicht.",
       "translationStatus": "REWRITTEN_NATIVE",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -343,10 +343,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P04-B04",
+      "contentId": "DE-P04-B04",
       "sourceContentId": "CN-P04-B04",
       "sourceCn": "行星减速器采用行星结构设计，硬齿面齿轮加工，使机器寿命更长久更耐用。",
-      "translation": "Our planetary design uses case-hardened tooth profiles for extended service life and dependable performance under continuous load.",
+      "translation": "Unsere Planetenbauweise verwendet einsatzgehärtete Zahnflanken für eine längere Lebensdauer und zuverlässige Leistung unter Dauerlast.",
       "translationStatus": "REWRITTEN_NATIVE",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -357,10 +357,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P04-B05",
+      "contentId": "DE-P04-B05",
       "sourceContentId": "CN-P04-B05",
       "sourceCn": "针对AGV移动机器人特殊设计的精密行星轮毂行走减速器，能够更有效的应对客户所需。具有同体积传动效率更高、同工况运行精度更高、更精密、高强度。同扭矩运行寿命更长、应对特殊工况更强、配置丰富多样、配置重载圆锥滚子轴承在长期的实际工况使用中较RV系列、摆线针轮系列等减速器寿命更长、维护成本更低。",
-      "translation": "Our precision planetary wheel-hub travel reducer is purpose-built for AGV platforms, with specs tuned specifically to customer requirements. At equal size, it delivers higher efficiency and tighter positioning repeatability than competing designs. At equal torque rating, it offers longer service life with wider tolerance for shock loads, dust, moisture and temperature extremes. Heavy-duty tapered roller bearings come as standard — giving it a proven service-life and maintenance-cost advantage over RV-style and cycloidal reducers in long-term field deployments.",
+      "translation": "Unser Präzisions-Planeten-Radnaben-Laufgetriebe ist eigens für AGV-Plattformen ausgelegt und auf die Kundenanforderungen abgestimmt. Bei gleicher Baugröße bietet es höhere Effizienz und engere Positionierwiederholgenauigkeit als konkurrierende Auslegungen; bei gleichem Nenndrehmoment bietet es eine längere Lebensdauer und höhere Toleranz gegenüber Stoßlasten, Staub, Feuchtigkeit und Extremtemperaturen. Schwerlast-Kegelrollenlager gehören zur Serienausstattung, was im langfristigen Feldeinsatz einen bewährten Lebensdauer- und Wartungskostenvorteil gegenüber RV- und Zykloidgetrieben sichert.",
       "translationStatus": "REWRITTEN_NATIVE",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -373,20 +373,20 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P05-H01",
+      "contentId": "DE-P05-H01",
       "sourceContentId": "CN-P05-H01",
       "sourceCn": "资质和荣誉",
-      "translation": "Qualifications and Honors",
+      "translation": "Qualifikationen und Auszeichnungen",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P05-F01",
+      "contentId": "DE-P05-F01",
       "sourceContentId": "CN-P05-F01",
       "sourceCn": "我公司机器人精密减速器于2016年获得科技部科技成果鉴定",
-      "translation": "Our robot precision reducer received a scientific and technological achievement appraisal from the Ministry of Science and Technology in 2016.",
+      "translation": "Unser Präzisionsgetriebe für Roboter wurde 2016 vom Ministerium für Wissenschaft und Technologie als wissenschaftlich-technologische Leistung begutachtet.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -397,10 +397,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P05-F02",
+      "contentId": "DE-P05-F02",
       "sourceContentId": "CN-P05-F02",
       "sourceCn": "于2018年收录于安徽省科技报告共享服务系统（kibg.ahinfo.gov.cn）",
-      "translation": "In 2018 it was included in the Anhui Science and Technology Report Sharing Service System (kibg.ahinfo.gov.cn). Certificate No. AHSTR-2018-00104.",
+      "translation": "2018 wurde es in das Service-System der Provinz Anhui für gemeinsame Wissenschafts- und Technologieberichte (kibg.ahinfo.gov.cn) aufgenommen.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -411,10 +411,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P05-F03",
+      "contentId": "DE-P05-F03",
       "sourceContentId": "CN-P05-F03",
       "sourceCn": "于2018年收录于安徽省科技报告共享服务系统",
-      "translation": "The robot precision reducer received the Scientific and Technological Achievement Registration Certificate in 2018.",
+      "translation": "2018 wurde es im System der Provinz Anhui für den Austausch von Wissenschafts- und Technologieberichten registriert.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -424,10 +424,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P05-F04",
+      "contentId": "DE-P05-F04",
       "sourceContentId": "CN-P05-F04",
       "sourceCn": "机器人精密减速器2018年获得科技成果登记证书",
-      "translation": "Second Prize of the Anhui Provincial Science and Technology Award (winner: Planetary Engineering Co., Ltd.; registration authority: Department of Science and Technology of Anhui Province; project: R&D and industrialization of main drive reducers for tunnel boring machines).",
+      "translation": "Der Präzisionsgetriebe für Roboter erhielt 2018 das Registrierungszertifikat für wissenschaftlich-technologische Leistungen.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.65,
       "glossaryTermsUsed": [
@@ -441,10 +441,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P05-F05",
+      "contentId": "DE-P05-F05",
       "sourceContentId": "CN-P05-F05",
       "sourceCn": "蚌埠市第二批“3221”产业创新团队",
-      "translation": "The second batch of Bengbu \"3221\" Industrial Innovation Teams (2012).",
+      "translation": "Zweite Gruppe der „3221“-Innovationsteams der Stadt Bengbu (2012).",
       "translationStatus": "TRANSLATED",
       "confidence": 0.75,
       "glossaryTermsUsed": [
@@ -454,10 +454,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P05-F06",
+      "contentId": "DE-P05-F06",
       "sourceContentId": "CN-P05-F06",
       "sourceCn": "安徽省工业设计中心",
-      "translation": "Anhui Provincial Industrial Design Center",
+      "translation": "Provinziales Zentrum für Industriedesign Anhui",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -466,10 +466,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P05-F07",
+      "contentId": "DE-P05-F07",
       "sourceContentId": "CN-P05-F07",
       "sourceCn": "安徽省创新型试点企业",
-      "translation": "Anhui Provincial Innovative Pilot Enterprise",
+      "translation": "Innovatives Pilotunternehmen der Provinz Anhui",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -478,10 +478,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P05-F08",
+      "contentId": "DE-P05-F08",
       "sourceContentId": "CN-P05-F08",
       "sourceCn": "蚌埠市科学技术奖 一等奖（项目名称：盾构机主驱动减速机的国产化；奖状号：2015-1-3；日期2016年4月12日）",
-      "translation": "First Prize of the Bengbu Science and Technology Award (project: localization of main drive reducers for tunnel boring machines; certificate No. 2015-1-3; date: April 12, 2016).",
+      "translation": "Erster Preis des Bengbu-Preises für Wissenschaft und Technologie (Projekt: Lokalisierung der Hauptantriebsgetriebe für Tunnelbohrmaschinen; Zertifikat-Nr.: 2015-1-3; Datum: 12. April 2016).",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -496,110 +496,110 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P14-H01",
+      "contentId": "DE-P14-H01",
       "sourceContentId": "CN-P14-H01",
       "sourceCn": "定制流程",
-      "translation": "Customization Process",
+      "translation": "Anpassungsprozess",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P14-P01",
+      "contentId": "DE-P14-P01",
       "sourceContentId": "CN-P14-P01",
       "sourceCn": "客户提出定制需求",
-      "translation": "Share your requirements",
+      "translation": "Kunde teilt Anpassungsbedarf mit",
       "translationStatus": "REWRITTEN_NATIVE",
       "confidence": 0.9,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P14-P02",
+      "contentId": "DE-P14-P02",
       "sourceContentId": "CN-P14-P02",
       "sourceCn": "了解需求",
-      "translation": "Needs assessment",
+      "translation": "Bedarfsermittlung",
       "translationStatus": "REWRITTEN_NATIVE",
       "confidence": 0.9,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P14-P03",
+      "contentId": "DE-P14-P03",
       "sourceContentId": "CN-P14-P03",
       "sourceCn": "归纳总结",
-      "translation": "Feasibility summary",
+      "translation": "Machbarkeitszusammenfassung",
       "translationStatus": "REWRITTEN_NATIVE",
       "confidence": 0.9,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P14-P04",
+      "contentId": "DE-P14-P04",
       "sourceContentId": "CN-P14-P04",
       "sourceCn": "定制方案",
-      "translation": "Custom proposal",
+      "translation": "Maßgeschneidertes Angebot",
       "translationStatus": "REWRITTEN_NATIVE",
       "confidence": 0.9,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P14-P05",
+      "contentId": "DE-P14-P05",
       "sourceContentId": "CN-P14-P05",
       "sourceCn": "确定方案",
-      "translation": "Design lock",
+      "translation": "Designsicherung",
       "translationStatus": "REWRITTEN_NATIVE",
       "confidence": 0.9,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P14-P06",
+      "contentId": "DE-P14-P06",
       "sourceContentId": "CN-P14-P06",
       "sourceCn": "安排生产",
-      "translation": "Production scheduling",
+      "translation": "Produktionsplanung",
       "translationStatus": "REWRITTEN_NATIVE",
       "confidence": 0.9,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P14-P07",
+      "contentId": "DE-P14-P07",
       "sourceContentId": "CN-P14-P07",
       "sourceCn": "安装调试",
-      "translation": "On-site commissioning",
-      "translationStatus": "REWRITTEN_NATIVE",
+      "translation": "Montage und Inbetriebnahme",
+      "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P14-P08",
+      "contentId": "DE-P14-P08",
       "sourceContentId": "CN-P14-P08",
       "sourceCn": "售后服务",
-      "translation": "Ongoing service & support",
+      "translation": "Kundendienst und Unterstützung",
       "translationStatus": "REWRITTEN_NATIVE",
       "confidence": 0.9,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P14-B01",
+      "contentId": "DE-P14-B01",
       "sourceContentId": "CN-P14-B01",
       "sourceCn": "我们专注于：安全性——使您的设备长时间运行而没有后顾之忧；集成性——降低设备总成本，提高设备的性能和使用效率；多用性——响应客户要求，提供个性化定制，使您的设备适应更多工况；创新——我们不仅仅是制造，我们旨在提供智能创造。",
-      "translation": "We engineer every reducer around four real-world priorities. Safety — dependable long-running performance so your fleet keeps moving. Total cost of ownership — higher efficiency and lower maintenance to cut running costs over the product lifetime. Adaptability — custom mounting, ratio and torque options so the drive matches your exact application. Engineering innovation — we do not just \"make parts\"; we develop drive solutions that advance what your robots can do.",
+      "translation": "Jedes Getriebe wird um vier reale Prioritäten herum entwickelt. Sicherheit: zuverlässiger Dauerbetrieb, damit Ihre Flotte weiterläuft. Total Cost of Ownership: höhere Effizienz und weniger Wartung senken die Betriebskosten über die Lebensdauer. Anpassbarkeit: maßgeschneiderte Montage-, Übersetzungs- und Drehmomentoptionen, damit der Antrieb exakt zur Anwendung passt. Ingenieurtechnische Innovation: Wir „stellen nicht nur Teile her“; wir entwickeln Antriebslösungen, die das Potenzial Ihrer Roboter erweitern.",
       "translationStatus": "REWRITTEN_NATIVE",
       "confidence": 0.9,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P14-B02",
+      "contentId": "DE-P14-B02",
       "sourceContentId": "CN-P14-B02",
       "sourceCn": "我公司专注设计加工行星减速机30多年，有着先进的生产设备和完善的设计制造体系。随着工业机器人行业的迅速发展，为顺应市场需求，我公司研究开发了多种AGV精密减速机。具有体积小、重量轻、扭矩大、速比范围广、精度高、传动效率高、免维护等特点，被广泛用于各种工业智能化产品中。",
-      "translation": "With more than 30 years designing and manufacturing planetary reducers, we run an in-house production line equipped with modern CNC hobbing, grinding and test equipment, backed by a mature end-to-end quality system. As the industrial robotics market has scaled up, we have expanded our AGV-specific reducer lineup to cover a wider torque, ratio and footprint range. Our AGV reducers combine compact size, low weight, high torque density, wide reduction-ratio options, tight backlash specs, high transmission efficiency and long maintenance-free intervals — and are deployed across a broad spectrum of intelligent industrial automation systems.",
+      "translation": "Mit über 30 Jahren Erfahrung in Konstruktion und Fertigung von Planetengetrieben betreiben wir eine hauseigene Produktionslinie mit modernen CNC-Wälzfräs-, Schleif- und Prüfmaschinen, gestützt durch ein ausgereiftes durchgängiges Qualitätssystem. Mit dem Wachstum des Industrierobotermarktes haben wir unsere AGV-spezifische Getriebebaureihe um ein breiteres Drehmoment-, Übersetzungs- und Baugrößenspektrum erweitert. Unsere AGV-Getriebe verbinden kompakte Baugröße, geringes Gewicht, hohe Drehmomentdichte, breite Übersetzungsoptionen, enge Spielwerte, hohen Wirkungsgrad und lange wartungsfreie Intervalle; sie kommen in einem breiten Spektrum intelligenter industrieller Automatisierungssysteme zum Einsatz.",
       "translationStatus": "REWRITTEN_NATIVE",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -610,20 +610,20 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-P14-CTA01",
+      "contentId": "DE-P14-CTA01",
       "sourceContentId": "CN-P14-CTA01",
       "sourceCn": "立即询价",
-      "translation": "Request a Quote",
+      "translation": "Angebot anfordern",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [],
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P06-A-TITLE",
+      "contentId": "DE-PROD-P06-A-TITLE",
       "sourceContentId": "CN-P06-PROD-01",
       "sourceCn": "301-2-001040-00(带制动轴)",
-      "translation": "301-2-001040-00 (with brake shaft)",
+      "translation": "301-2-001040-00(mit Bremswelle)",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -634,10 +634,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-A-NOTE",
+      "contentId": "DE-PROD-P06-A-NOTE",
       "sourceContentId": "CN-P06-PROD-01-NOTE",
       "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
-      "translation": "Mounting dimensions and reduction ratios can be adjusted and customized to meet customer requirements.",
+      "translation": "Anbaumaße und Übersetzungsverhältnisse können an die Kundenanforderungen angepasst und kundenspezifisch konfiguriert werden.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -647,10 +647,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P06-A-APP",
+      "contentId": "DE-PROD-P06-A-APP",
       "sourceContentId": "CN-P06-PROD-01-APP",
       "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
-      "translation": "Precision planetary wheel-hub travel reducer for AGV mobile robots",
+      "translation": "Präzisions-Planeten-Radnaben-Laufgetriebe für mobile AGV-Roboter",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -663,10 +663,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-A-PARAM-55",
+      "contentId": "DE-PROD-P06-A-PARAM-55",
       "sourceContentId": "CN-P06-PROD-01-PARAM-额定功率",
       "sourceCn": "额定功率 = 3KW",
-      "translation": "Rated power = 3KW",
+      "translation": "Nennleistung = 3KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -677,10 +677,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-A-PARAM-56",
+      "contentId": "DE-PROD-P06-A-PARAM-56",
       "sourceContentId": "CN-P06-PROD-01-PARAM-额定输入转速",
       "sourceCn": "额定输入转速 = 3000r/min",
-      "translation": "Rated input speed = 3000r/min",
+      "translation": "Nenndrehzahl Eingang = 3000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -691,10 +691,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-A-PARAM-57",
+      "contentId": "DE-PROD-P06-A-PARAM-57",
       "sourceContentId": "CN-P06-PROD-01-PARAM-最大输入转速",
       "sourceCn": "最大输入转速 = 4500r/min",
-      "translation": "Max input speed = 4500r/min",
+      "translation": "Max. Drehzahl Eingang = 4500r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -705,10 +705,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-A-PARAM-58",
+      "contentId": "DE-PROD-P06-A-PARAM-58",
       "sourceContentId": "CN-P06-PROD-01-PARAM-减速比",
       "sourceCn": "减速比 = 40:1",
-      "translation": "Reduction ratio = 40:1",
+      "translation": "Übersetzungsverhältnis = 40:1",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -719,10 +719,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-A-PARAM-59",
+      "contentId": "DE-PROD-P06-A-PARAM-59",
       "sourceContentId": "CN-P06-PROD-01-PARAM-额定输出转矩",
       "sourceCn": "额定输出转矩 = 600NM",
-      "translation": "Rated output torque = 600NM",
+      "translation": "Nenndrehmoment Abtrieb = 600NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -733,10 +733,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-A-PARAM-60",
+      "contentId": "DE-PROD-P06-A-PARAM-60",
       "sourceContentId": "CN-P06-PROD-01-PARAM-最大输出转矩",
       "sourceCn": "最大输出转矩 = 1100NM",
-      "translation": "Max output torque = 1100NM",
+      "translation": "Max. Drehmoment Abtrieb = 1100NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -747,10 +747,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-A-PARAM-61",
+      "contentId": "DE-PROD-P06-A-PARAM-61",
       "sourceContentId": "CN-P06-PROD-01-PARAM-噪音",
       "sourceCn": "噪音 = ≤65dB",
-      "translation": "Noise = ≤65dB",
+      "translation": "Geräusch = ≤65dB",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -761,10 +761,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-A-PARAM-62",
+      "contentId": "DE-PROD-P06-A-PARAM-62",
       "sourceContentId": "CN-P06-PROD-01-PARAM-最大径向力",
       "sourceCn": "最大径向力 = 3000KG",
-      "translation": "Max radial load = 3000KG",
+      "translation": "Max. Radialkraft = 3000KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -775,10 +775,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-A-PARAM-63",
+      "contentId": "DE-PROD-P06-A-PARAM-63",
       "sourceContentId": "CN-P06-PROD-01-PARAM-回程间隙",
       "sourceCn": "回程间隙 = ≤30arcmin",
-      "translation": "Backlash = ≤30arcmin",
+      "translation": "Spiel = ≤30arcmin",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -789,10 +789,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-A-PARAM-64",
+      "contentId": "DE-PROD-P06-A-PARAM-64",
       "sourceContentId": "CN-P06-PROD-01-PARAM-满载效率",
       "sourceCn": "满载效率 = ≥90%",
-      "translation": "Full-load efficiency = ≥90%",
+      "translation": "Wirkungsgrad bei Volllast = ≥90%",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -803,10 +803,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-A-PARAM-65",
+      "contentId": "DE-PROD-P06-A-PARAM-65",
       "sourceContentId": "CN-P06-PROD-01-PARAM-使用寿命",
       "sourceCn": "使用寿命 = ≥20000h",
-      "translation": "Service life = ≥20000h",
+      "translation": "Lebensdauer = ≥20000h",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -817,10 +817,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-A-PARAM-66",
+      "contentId": "DE-PROD-P06-A-PARAM-66",
       "sourceContentId": "CN-P06-PROD-01-PARAM-润滑",
       "sourceCn": "润滑 = 免维护合成润滑脂",
-      "translation": "Lubrication = Maintenance-free synthetic grease",
+      "translation": "Schmierung = Wartungsfreies Synthetikfett",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -829,10 +829,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P06-A-PARAM-67",
+      "contentId": "DE-PROD-P06-A-PARAM-67",
       "sourceContentId": "CN-P06-PROD-01-PARAM-使用环境温度",
       "sourceCn": "使用环境温度 = -15°C~+90°C",
-      "translation": "Ambient operating temperature = -15°C~+90°C",
+      "translation": "Betriebsumgebungstemperatur = -15°C~+90°C",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -843,10 +843,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-A-PARAM-68",
+      "contentId": "DE-PROD-P06-A-PARAM-68",
       "sourceContentId": "CN-P06-PROD-01-PARAM-防护等级",
       "sourceCn": "防护等级 = IP54",
-      "translation": "Protection rating = IP54",
+      "translation": "Schutzart = IP54",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -857,10 +857,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-A-PARAM-69",
+      "contentId": "DE-PROD-P06-A-PARAM-69",
       "sourceContentId": "CN-P06-PROD-01-PARAM-推荐适配电机",
       "sourceCn": "推荐适配电机 = 1KW-3KW",
-      "translation": "Recommended matching motor = 1KW-3KW",
+      "translation": "Empfohlener Anpassungsmotor = 1KW-3KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -871,10 +871,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-A-PARAM-70",
+      "contentId": "DE-PROD-P06-A-PARAM-70",
       "sourceContentId": "CN-P06-PROD-01-PARAM-单轮驱动载荷",
       "sourceCn": "单轮驱动载荷 = 3000KG",
-      "translation": "Single-wheel drive load = 3000KG",
+      "translation": "Antriebslast pro Rad = 3000KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -885,10 +885,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-A-PARAM-71",
+      "contentId": "DE-PROD-P06-A-PARAM-71",
       "sourceContentId": "CN-P06-PROD-01-PARAM-行走速度",
       "sourceCn": "行走速度 = 0.94m/s-1.1m/s",
-      "translation": "Travel speed = 0.94m/s-1.1m/s",
+      "translation": "Fahrgeschwindigkeit = 0.94m/s-1.1m/s",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -899,10 +899,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-A-PARAM-72",
+      "contentId": "DE-PROD-P06-A-PARAM-72",
       "sourceContentId": "CN-P06-PROD-01-PARAM-适配轮径",
       "sourceCn": "适配轮径 = Φ240-Φ280/推荐Φ270",
-      "translation": "Matching wheel diameter = Φ240-Φ280/推荐Φ270",
+      "translation": "passender Raddurchmesser = Φ240-Φ280/empfohlen Φ270",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -913,10 +913,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-B-TITLE",
+      "contentId": "DE-PROD-P06-B-TITLE",
       "sourceContentId": "CN-P06-PROD-02",
       "sourceCn": "301-2-001016-00(带制动轴)",
-      "translation": "301-2-001016-00 (with brake shaft)",
+      "translation": "301-2-001016-00(mit Bremswelle)",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -927,10 +927,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-B-NOTE",
+      "contentId": "DE-PROD-P06-B-NOTE",
       "sourceContentId": "CN-P06-PROD-02-NOTE",
       "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
-      "translation": "Mounting dimensions and reduction ratios can be adjusted and customized to meet customer requirements.",
+      "translation": "Anbaumaße und Übersetzungsverhältnisse können an die Kundenanforderungen angepasst und kundenspezifisch konfiguriert werden.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -940,10 +940,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P06-B-APP",
+      "contentId": "DE-PROD-P06-B-APP",
       "sourceContentId": "CN-P06-PROD-02-APP",
       "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
-      "translation": "Precision planetary wheel-hub travel reducer for AGV mobile robots",
+      "translation": "Präzisions-Planeten-Radnaben-Laufgetriebe für mobile AGV-Roboter",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -956,10 +956,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-B-PARAM-76",
+      "contentId": "DE-PROD-P06-B-PARAM-76",
       "sourceContentId": "CN-P06-PROD-02-PARAM-额定功率",
       "sourceCn": "额定功率 = 3KW",
-      "translation": "Rated power = 3KW",
+      "translation": "Nennleistung = 3KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -970,10 +970,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-B-PARAM-77",
+      "contentId": "DE-PROD-P06-B-PARAM-77",
       "sourceContentId": "CN-P06-PROD-02-PARAM-额定输入转速",
       "sourceCn": "额定输入转速 = 3000r/min",
-      "translation": "Rated input speed = 3000r/min",
+      "translation": "Nenndrehzahl Eingang = 3000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -984,10 +984,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-B-PARAM-78",
+      "contentId": "DE-PROD-P06-B-PARAM-78",
       "sourceContentId": "CN-P06-PROD-02-PARAM-最大输入转速",
       "sourceCn": "最大输入转速 = 4500r/min",
-      "translation": "Max input speed = 4500r/min",
+      "translation": "Max. Drehzahl Eingang = 4500r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -998,10 +998,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-B-PARAM-79",
+      "contentId": "DE-PROD-P06-B-PARAM-79",
       "sourceContentId": "CN-P06-PROD-02-PARAM-减速比",
       "sourceCn": "减速比 = 16:1",
-      "translation": "Reduction ratio = 16:1",
+      "translation": "Übersetzungsverhältnis = 16:1",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1012,10 +1012,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-B-PARAM-80",
+      "contentId": "DE-PROD-P06-B-PARAM-80",
       "sourceContentId": "CN-P06-PROD-02-PARAM-额定输出转矩",
       "sourceCn": "额定输出转矩 = 300NM",
-      "translation": "Rated output torque = 300NM",
+      "translation": "Nenndrehmoment Abtrieb = 300NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1026,10 +1026,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-B-PARAM-81",
+      "contentId": "DE-PROD-P06-B-PARAM-81",
       "sourceContentId": "CN-P06-PROD-02-PARAM-最大输出转矩",
       "sourceCn": "最大输出转矩 = 500NM",
-      "translation": "Max output torque = 500NM",
+      "translation": "Max. Drehmoment Abtrieb = 500NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1040,10 +1040,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-B-PARAM-82",
+      "contentId": "DE-PROD-P06-B-PARAM-82",
       "sourceContentId": "CN-P06-PROD-02-PARAM-噪音",
       "sourceCn": "噪音 = ≤65dB",
-      "translation": "Noise = ≤65dB",
+      "translation": "Geräusch = ≤65dB",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1054,10 +1054,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-B-PARAM-83",
+      "contentId": "DE-PROD-P06-B-PARAM-83",
       "sourceContentId": "CN-P06-PROD-02-PARAM-最大径向力",
       "sourceCn": "最大径向力 = 3000KG",
-      "translation": "Max radial load = 3000KG",
+      "translation": "Max. Radialkraft = 3000KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1068,10 +1068,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-B-PARAM-84",
+      "contentId": "DE-PROD-P06-B-PARAM-84",
       "sourceContentId": "CN-P06-PROD-02-PARAM-回程间隙",
       "sourceCn": "回程间隙 = ≤30arcmin",
-      "translation": "Backlash = ≤30arcmin",
+      "translation": "Spiel = ≤30arcmin",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1082,10 +1082,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-B-PARAM-85",
+      "contentId": "DE-PROD-P06-B-PARAM-85",
       "sourceContentId": "CN-P06-PROD-02-PARAM-满载效率",
       "sourceCn": "满载效率 = ≥90%",
-      "translation": "Full-load efficiency = ≥90%",
+      "translation": "Wirkungsgrad bei Volllast = ≥90%",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1096,10 +1096,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-B-PARAM-86",
+      "contentId": "DE-PROD-P06-B-PARAM-86",
       "sourceContentId": "CN-P06-PROD-02-PARAM-使用寿命",
       "sourceCn": "使用寿命 = ≥20000h",
-      "translation": "Service life = ≥20000h",
+      "translation": "Lebensdauer = ≥20000h",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1110,10 +1110,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-B-PARAM-87",
+      "contentId": "DE-PROD-P06-B-PARAM-87",
       "sourceContentId": "CN-P06-PROD-02-PARAM-润滑",
       "sourceCn": "润滑 = 免维护合成润滑脂",
-      "translation": "Lubrication = Maintenance-free synthetic grease",
+      "translation": "Schmierung = Wartungsfreies Synthetikfett",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1122,10 +1122,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P06-B-PARAM-88",
+      "contentId": "DE-PROD-P06-B-PARAM-88",
       "sourceContentId": "CN-P06-PROD-02-PARAM-使用环境温度",
       "sourceCn": "使用环境温度 = -15°C~+90°C",
-      "translation": "Ambient operating temperature = -15°C~+90°C",
+      "translation": "Betriebsumgebungstemperatur = -15°C~+90°C",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1136,10 +1136,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-B-PARAM-89",
+      "contentId": "DE-PROD-P06-B-PARAM-89",
       "sourceContentId": "CN-P06-PROD-02-PARAM-防护等级",
       "sourceCn": "防护等级 = IP54",
-      "translation": "Protection rating = IP54",
+      "translation": "Schutzart = IP54",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1150,10 +1150,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-B-PARAM-90",
+      "contentId": "DE-PROD-P06-B-PARAM-90",
       "sourceContentId": "CN-P06-PROD-02-PARAM-推荐适配电机",
       "sourceCn": "推荐适配电机 = 1KW-3KW",
-      "translation": "Recommended matching motor = 1KW-3KW",
+      "translation": "Empfohlener Anpassungsmotor = 1KW-3KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.8,
       "glossaryTermsUsed": [
@@ -1164,10 +1164,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-B-PARAM-91",
+      "contentId": "DE-PROD-P06-B-PARAM-91",
       "sourceContentId": "CN-P06-PROD-02-PARAM-单轮驱动载荷",
       "sourceCn": "单轮驱动载荷 = 3000KG",
-      "translation": "Single-wheel drive load = 3000KG",
+      "translation": "Antriebslast pro Rad = 3000KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1178,10 +1178,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-B-PARAM-92",
+      "contentId": "DE-PROD-P06-B-PARAM-92",
       "sourceContentId": "CN-P06-PROD-02-PARAM-行走速度",
       "sourceCn": "行走速度 = 2.35m/s-2.75m/s",
-      "translation": "Travel speed = 2.35m/s-2.75m/s",
+      "translation": "Fahrgeschwindigkeit = 2.35m/s-2.75m/s",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1192,10 +1192,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P06-B-PARAM-93",
+      "contentId": "DE-PROD-P06-B-PARAM-93",
       "sourceContentId": "CN-P06-PROD-02-PARAM-适配轮径",
       "sourceCn": "适配轮径 = Φ240-Φ280/推荐Φ270",
-      "translation": "Matching wheel diameter = Φ240-Φ280/推荐Φ270",
+      "translation": "passender Raddurchmesser = Φ240-Φ280/empfohlen Φ270",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -1206,10 +1206,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-A-TITLE",
+      "contentId": "DE-PROD-P07-A-TITLE",
       "sourceContentId": "CN-P07-PROD-03",
       "sourceCn": "301-2-001040-00(单、双支撑)",
-      "translation": "301-2-001040-00 (single/double support)",
+      "translation": "301-2-001040-00(Einfach-/Doppellagerung)",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1220,10 +1220,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-A-NOTE",
+      "contentId": "DE-PROD-P07-A-NOTE",
       "sourceContentId": "CN-P07-PROD-03-NOTE",
       "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
-      "translation": "Mounting dimensions and reduction ratios can be adjusted and customized to meet customer requirements.",
+      "translation": "Anbaumaße und Übersetzungsverhältnisse können an die Kundenanforderungen angepasst und kundenspezifisch konfiguriert werden.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1233,10 +1233,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P07-A-APP",
+      "contentId": "DE-PROD-P07-A-APP",
       "sourceContentId": "CN-P07-PROD-03-APP",
       "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
-      "translation": "Precision planetary wheel-hub travel reducer for AGV mobile robots",
+      "translation": "Präzisions-Planeten-Radnaben-Laufgetriebe für mobile AGV-Roboter",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1249,10 +1249,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-A-PARAM-97",
+      "contentId": "DE-PROD-P07-A-PARAM-97",
       "sourceContentId": "CN-P07-PROD-03-PARAM-额定功率",
       "sourceCn": "额定功率 = 3KW",
-      "translation": "Rated power = 3KW",
+      "translation": "Nennleistung = 3KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1263,10 +1263,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-A-PARAM-98",
+      "contentId": "DE-PROD-P07-A-PARAM-98",
       "sourceContentId": "CN-P07-PROD-03-PARAM-额定输入转速",
       "sourceCn": "额定输入转速 = 3000r/min",
-      "translation": "Rated input speed = 3000r/min",
+      "translation": "Nenndrehzahl Eingang = 3000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1277,10 +1277,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-A-PARAM-99",
+      "contentId": "DE-PROD-P07-A-PARAM-99",
       "sourceContentId": "CN-P07-PROD-03-PARAM-最大输入转速",
       "sourceCn": "最大输入转速 = 4500r/min",
-      "translation": "Max input speed = 4500r/min",
+      "translation": "Max. Drehzahl Eingang = 4500r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1291,10 +1291,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-A-PARAM-100",
+      "contentId": "DE-PROD-P07-A-PARAM-100",
       "sourceContentId": "CN-P07-PROD-03-PARAM-减速比",
       "sourceCn": "减速比 = 40:1",
-      "translation": "Reduction ratio = 40:1",
+      "translation": "Übersetzungsverhältnis = 40:1",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1305,10 +1305,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-A-PARAM-101",
+      "contentId": "DE-PROD-P07-A-PARAM-101",
       "sourceContentId": "CN-P07-PROD-03-PARAM-额定输出转矩",
       "sourceCn": "额定输出转矩 = 600NM",
-      "translation": "Rated output torque = 600NM",
+      "translation": "Nenndrehmoment Abtrieb = 600NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1319,10 +1319,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-A-PARAM-102",
+      "contentId": "DE-PROD-P07-A-PARAM-102",
       "sourceContentId": "CN-P07-PROD-03-PARAM-最大输出转矩",
       "sourceCn": "最大输出转矩 = 1100NM",
-      "translation": "Max output torque = 1100NM",
+      "translation": "Max. Drehmoment Abtrieb = 1100NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1333,10 +1333,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-A-PARAM-103",
+      "contentId": "DE-PROD-P07-A-PARAM-103",
       "sourceContentId": "CN-P07-PROD-03-PARAM-噪音",
       "sourceCn": "噪音 = ≤65dB",
-      "translation": "Noise = ≤65dB",
+      "translation": "Geräusch = ≤65dB",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1347,10 +1347,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-A-PARAM-104",
+      "contentId": "DE-PROD-P07-A-PARAM-104",
       "sourceContentId": "CN-P07-PROD-03-PARAM-最大径向力",
       "sourceCn": "最大径向力 = 3000KG",
-      "translation": "Max radial load = 3000KG",
+      "translation": "Max. Radialkraft = 3000KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1361,10 +1361,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-A-PARAM-105",
+      "contentId": "DE-PROD-P07-A-PARAM-105",
       "sourceContentId": "CN-P07-PROD-03-PARAM-回程间隙",
       "sourceCn": "回程间隙 = ≤30arcmin",
-      "translation": "Backlash = ≤30arcmin",
+      "translation": "Spiel = ≤30arcmin",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1375,10 +1375,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-A-PARAM-106",
+      "contentId": "DE-PROD-P07-A-PARAM-106",
       "sourceContentId": "CN-P07-PROD-03-PARAM-满载效率",
       "sourceCn": "满载效率 = ≥90%",
-      "translation": "Full-load efficiency = ≥90%",
+      "translation": "Wirkungsgrad bei Volllast = ≥90%",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1389,10 +1389,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-A-PARAM-107",
+      "contentId": "DE-PROD-P07-A-PARAM-107",
       "sourceContentId": "CN-P07-PROD-03-PARAM-使用寿命",
       "sourceCn": "使用寿命 = ≥20000h",
-      "translation": "Service life = ≥20000h",
+      "translation": "Lebensdauer = ≥20000h",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1403,10 +1403,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-A-PARAM-108",
+      "contentId": "DE-PROD-P07-A-PARAM-108",
       "sourceContentId": "CN-P07-PROD-03-PARAM-润滑",
       "sourceCn": "润滑 = 免维护合成润滑脂",
-      "translation": "Lubrication = Maintenance-free synthetic grease",
+      "translation": "Schmierung = Wartungsfreies Synthetikfett",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1415,10 +1415,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P07-A-PARAM-109",
+      "contentId": "DE-PROD-P07-A-PARAM-109",
       "sourceContentId": "CN-P07-PROD-03-PARAM-使用环境温度",
       "sourceCn": "使用环境温度 = -15°C~+90°C",
-      "translation": "Ambient operating temperature = -15°C~+90°C",
+      "translation": "Betriebsumgebungstemperatur = -15°C~+90°C",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1429,10 +1429,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-A-PARAM-110",
+      "contentId": "DE-PROD-P07-A-PARAM-110",
       "sourceContentId": "CN-P07-PROD-03-PARAM-防护等级",
       "sourceCn": "防护等级 = IP54",
-      "translation": "Protection rating = IP54",
+      "translation": "Schutzart = IP54",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1443,10 +1443,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-A-PARAM-111",
+      "contentId": "DE-PROD-P07-A-PARAM-111",
       "sourceContentId": "CN-P07-PROD-03-PARAM-推荐适配电机",
       "sourceCn": "推荐适配电机 = 1KW-3KW",
-      "translation": "Recommended matching motor = 1KW-3KW",
+      "translation": "Empfohlener Anpassungsmotor = 1KW-3KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1457,10 +1457,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-A-PARAM-112",
+      "contentId": "DE-PROD-P07-A-PARAM-112",
       "sourceContentId": "CN-P07-PROD-03-PARAM-单轮驱动载荷",
       "sourceCn": "单轮驱动载荷 = 3000KG",
-      "translation": "Single-wheel drive load = 3000KG",
+      "translation": "Antriebslast pro Rad = 3000KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1471,10 +1471,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-A-PARAM-113",
+      "contentId": "DE-PROD-P07-A-PARAM-113",
       "sourceContentId": "CN-P07-PROD-03-PARAM-行走速度",
       "sourceCn": "行走速度 = 0.94m/s-1.1m/s",
-      "translation": "Travel speed = 0.94m/s-1.1m/s",
+      "translation": "Fahrgeschwindigkeit = 0.94m/s-1.1m/s",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1485,10 +1485,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-A-PARAM-114",
+      "contentId": "DE-PROD-P07-A-PARAM-114",
       "sourceContentId": "CN-P07-PROD-03-PARAM-适配轮径",
       "sourceCn": "适配轮径 = Φ240-Φ280/推荐Φ270",
-      "translation": "Matching wheel diameter = Φ240-Φ280/推荐Φ270",
+      "translation": "passender Raddurchmesser = Φ240-Φ280/empfohlen Φ270",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -1499,10 +1499,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-B-TITLE",
+      "contentId": "DE-PROD-P07-B-TITLE",
       "sourceContentId": "CN-P07-PROD-04",
       "sourceCn": "301-2-001060-00(单、双支撑)",
-      "translation": "301-2-001060-00 (single/double support)",
+      "translation": "301-2-001060-00(Einfach-/Doppellagerung)",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1513,10 +1513,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-B-NOTE",
+      "contentId": "DE-PROD-P07-B-NOTE",
       "sourceContentId": "CN-P07-PROD-04-NOTE",
       "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
-      "translation": "Mounting dimensions and reduction ratios can be adjusted and customized to meet customer requirements.",
+      "translation": "Anbaumaße und Übersetzungsverhältnisse können an die Kundenanforderungen angepasst und kundenspezifisch konfiguriert werden.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1526,10 +1526,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P07-B-APP",
+      "contentId": "DE-PROD-P07-B-APP",
       "sourceContentId": "CN-P07-PROD-04-APP",
       "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
-      "translation": "Precision planetary wheel-hub travel reducer for AGV mobile robots",
+      "translation": "Präzisions-Planeten-Radnaben-Laufgetriebe für mobile AGV-Roboter",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1542,10 +1542,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-B-PARAM-118",
+      "contentId": "DE-PROD-P07-B-PARAM-118",
       "sourceContentId": "CN-P07-PROD-04-PARAM-额定功率",
       "sourceCn": "额定功率 = 3KW",
-      "translation": "Rated power = 3KW",
+      "translation": "Nennleistung = 3KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1556,10 +1556,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-B-PARAM-119",
+      "contentId": "DE-PROD-P07-B-PARAM-119",
       "sourceContentId": "CN-P07-PROD-04-PARAM-额定输入转速",
       "sourceCn": "额定输入转速 = 3000r/min",
-      "translation": "Rated input speed = 3000r/min",
+      "translation": "Nenndrehzahl Eingang = 3000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1570,10 +1570,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-B-PARAM-120",
+      "contentId": "DE-PROD-P07-B-PARAM-120",
       "sourceContentId": "CN-P07-PROD-04-PARAM-最大输入转速",
       "sourceCn": "最大输入转速 = 4500r/min",
-      "translation": "Max input speed = 4500r/min",
+      "translation": "Max. Drehzahl Eingang = 4500r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1584,10 +1584,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-B-PARAM-121",
+      "contentId": "DE-PROD-P07-B-PARAM-121",
       "sourceContentId": "CN-P07-PROD-04-PARAM-减速比",
       "sourceCn": "减速比 = 16:1",
-      "translation": "Reduction ratio = 16:1",
+      "translation": "Übersetzungsverhältnis = 16:1",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1598,10 +1598,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-B-PARAM-122",
+      "contentId": "DE-PROD-P07-B-PARAM-122",
       "sourceContentId": "CN-P07-PROD-04-PARAM-额定输出转矩",
       "sourceCn": "额定输出转矩 = 300NM",
-      "translation": "Rated output torque = 300NM",
+      "translation": "Nenndrehmoment Abtrieb = 300NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1612,10 +1612,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-B-PARAM-123",
+      "contentId": "DE-PROD-P07-B-PARAM-123",
       "sourceContentId": "CN-P07-PROD-04-PARAM-最大输出转矩",
       "sourceCn": "最大输出转矩 = 500NM",
-      "translation": "Max output torque = 500NM",
+      "translation": "Max. Drehmoment Abtrieb = 500NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1626,10 +1626,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-B-PARAM-124",
+      "contentId": "DE-PROD-P07-B-PARAM-124",
       "sourceContentId": "CN-P07-PROD-04-PARAM-噪音",
       "sourceCn": "噪音 = ≤65dB",
-      "translation": "Noise = ≤65dB",
+      "translation": "Geräusch = ≤65dB",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1640,10 +1640,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-B-PARAM-125",
+      "contentId": "DE-PROD-P07-B-PARAM-125",
       "sourceContentId": "CN-P07-PROD-04-PARAM-最大径向力",
       "sourceCn": "最大径向力 = 3000KG",
-      "translation": "Max radial load = 3000KG",
+      "translation": "Max. Radialkraft = 3000KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1654,10 +1654,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-B-PARAM-126",
+      "contentId": "DE-PROD-P07-B-PARAM-126",
       "sourceContentId": "CN-P07-PROD-04-PARAM-回程间隙",
       "sourceCn": "回程间隙 = ≤30arcmin",
-      "translation": "Backlash = ≤30arcmin",
+      "translation": "Spiel = ≤30arcmin",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1668,10 +1668,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-B-PARAM-127",
+      "contentId": "DE-PROD-P07-B-PARAM-127",
       "sourceContentId": "CN-P07-PROD-04-PARAM-满载效率",
       "sourceCn": "满载效率 = ≥90%",
-      "translation": "Full-load efficiency = ≥90%",
+      "translation": "Wirkungsgrad bei Volllast = ≥90%",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1682,10 +1682,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-B-PARAM-128",
+      "contentId": "DE-PROD-P07-B-PARAM-128",
       "sourceContentId": "CN-P07-PROD-04-PARAM-使用寿命",
       "sourceCn": "使用寿命 = ≥20000h",
-      "translation": "Service life = ≥20000h",
+      "translation": "Lebensdauer = ≥20000h",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1696,10 +1696,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-B-PARAM-129",
+      "contentId": "DE-PROD-P07-B-PARAM-129",
       "sourceContentId": "CN-P07-PROD-04-PARAM-润滑",
       "sourceCn": "润滑 = 免维护合成润滑脂",
-      "translation": "Lubrication = Maintenance-free synthetic grease",
+      "translation": "Schmierung = Wartungsfreies Synthetikfett",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1708,10 +1708,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P07-B-PARAM-130",
+      "contentId": "DE-PROD-P07-B-PARAM-130",
       "sourceContentId": "CN-P07-PROD-04-PARAM-使用环境温度",
       "sourceCn": "使用环境温度 = -15°C~+90°C",
-      "translation": "Ambient operating temperature = -15°C~+90°C",
+      "translation": "Betriebsumgebungstemperatur = -15°C~+90°C",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1722,10 +1722,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-B-PARAM-131",
+      "contentId": "DE-PROD-P07-B-PARAM-131",
       "sourceContentId": "CN-P07-PROD-04-PARAM-防护等级",
       "sourceCn": "防护等级 = IP54",
-      "translation": "Protection rating = IP54",
+      "translation": "Schutzart = IP54",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1736,10 +1736,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-B-PARAM-132",
+      "contentId": "DE-PROD-P07-B-PARAM-132",
       "sourceContentId": "CN-P07-PROD-04-PARAM-推荐适配电机",
       "sourceCn": "推荐适配电机 = 1KW-3KW",
-      "translation": "Recommended matching motor = 1KW-3KW",
+      "translation": "Empfohlener Anpassungsmotor = 1KW-3KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -1750,10 +1750,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-B-PARAM-133",
+      "contentId": "DE-PROD-P07-B-PARAM-133",
       "sourceContentId": "CN-P07-PROD-04-PARAM-单轮驱动载荷",
       "sourceCn": "单轮驱动载荷 = 3000KG",
-      "translation": "Single-wheel drive load = 3000KG",
+      "translation": "Antriebslast pro Rad = 3000KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1764,10 +1764,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-B-PARAM-134",
+      "contentId": "DE-PROD-P07-B-PARAM-134",
       "sourceContentId": "CN-P07-PROD-04-PARAM-行走速度",
       "sourceCn": "行走速度 = 2.35m/s-2.75m/s",
-      "translation": "Travel speed = 2.35m/s-2.75m/s",
+      "translation": "Fahrgeschwindigkeit = 2.35m/s-2.75m/s",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1778,10 +1778,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P07-B-PARAM-135",
+      "contentId": "DE-PROD-P07-B-PARAM-135",
       "sourceContentId": "CN-P07-PROD-04-PARAM-适配轮径",
       "sourceCn": "适配轮径 = Φ240-Φ280/推荐Φ270",
-      "translation": "Matching wheel diameter = Φ240-Φ280/推荐Φ270",
+      "translation": "passender Raddurchmesser = Φ240-Φ280/empfohlen Φ270",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -1792,7 +1792,7 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-A-TITLE",
+      "contentId": "DE-PROD-P08-A-TITLE",
       "sourceContentId": "CN-P08-PROD-05",
       "sourceCn": "301-2-080021-00",
       "translation": "301-2-080021-00",
@@ -1806,10 +1806,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-A-NOTE",
+      "contentId": "DE-PROD-P08-A-NOTE",
       "sourceContentId": "CN-P08-PROD-05-NOTE",
       "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
-      "translation": "Mounting dimensions and reduction ratios can be adjusted and customized to meet customer requirements.",
+      "translation": "Anbaumaße und Übersetzungsverhältnisse können an die Kundenanforderungen angepasst und kundenspezifisch konfiguriert werden.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1819,10 +1819,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P08-A-APP",
+      "contentId": "DE-PROD-P08-A-APP",
       "sourceContentId": "CN-P08-PROD-05-APP",
       "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
-      "translation": "Precision planetary wheel-hub travel reducer for AGV mobile robots",
+      "translation": "Präzisions-Planeten-Radnaben-Laufgetriebe für mobile AGV-Roboter",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1835,10 +1835,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-A-PARAM-139",
+      "contentId": "DE-PROD-P08-A-PARAM-139",
       "sourceContentId": "CN-P08-PROD-05-PARAM-额定功率",
       "sourceCn": "额定功率 = 400W",
-      "translation": "Rated power = 400W",
+      "translation": "Nennleistung = 400W",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1849,10 +1849,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-A-PARAM-140",
+      "contentId": "DE-PROD-P08-A-PARAM-140",
       "sourceContentId": "CN-P08-PROD-05-PARAM-额定输入转速",
       "sourceCn": "额定输入转速 = 3000r/min",
-      "translation": "Rated input speed = 3000r/min",
+      "translation": "Nenndrehzahl Eingang = 3000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1863,10 +1863,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-A-PARAM-141",
+      "contentId": "DE-PROD-P08-A-PARAM-141",
       "sourceContentId": "CN-P08-PROD-05-PARAM-最大输入转速",
       "sourceCn": "最大输入转速 = 5000r/min",
-      "translation": "Max input speed = 5000r/min",
+      "translation": "Max. Drehzahl Eingang = 5000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1877,10 +1877,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-A-PARAM-142",
+      "contentId": "DE-PROD-P08-A-PARAM-142",
       "sourceContentId": "CN-P08-PROD-05-PARAM-减速比",
       "sourceCn": "减速比 = 21:1",
-      "translation": "Reduction ratio = 21:1",
+      "translation": "Übersetzungsverhältnis = 21:1",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1891,10 +1891,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-A-PARAM-143",
+      "contentId": "DE-PROD-P08-A-PARAM-143",
       "sourceContentId": "CN-P08-PROD-05-PARAM-额定输出转矩",
       "sourceCn": "额定输出转矩 = 80NM",
-      "translation": "Rated output torque = 80NM",
+      "translation": "Nenndrehmoment Abtrieb = 80NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1905,10 +1905,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-A-PARAM-144",
+      "contentId": "DE-PROD-P08-A-PARAM-144",
       "sourceContentId": "CN-P08-PROD-05-PARAM-最大输出转矩",
       "sourceCn": "最大输出转矩 = 160NM",
-      "translation": "Max output torque = 160NM",
+      "translation": "Max. Drehmoment Abtrieb = 160NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1919,10 +1919,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-A-PARAM-145",
+      "contentId": "DE-PROD-P08-A-PARAM-145",
       "sourceContentId": "CN-P08-PROD-05-PARAM-噪音",
       "sourceCn": "噪音 = ≤65dB",
-      "translation": "Noise = ≤65dB",
+      "translation": "Geräusch = ≤65dB",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1933,10 +1933,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-A-PARAM-146",
+      "contentId": "DE-PROD-P08-A-PARAM-146",
       "sourceContentId": "CN-P08-PROD-05-PARAM-最大径向力",
       "sourceCn": "最大径向力 = 600KG",
-      "translation": "Max radial load = 600KG",
+      "translation": "Max. Radialkraft = 600KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1947,10 +1947,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-A-PARAM-147",
+      "contentId": "DE-PROD-P08-A-PARAM-147",
       "sourceContentId": "CN-P08-PROD-05-PARAM-回程间隙",
       "sourceCn": "回程间隙 = ≤30arcmin",
-      "translation": "Backlash = ≤30arcmin",
+      "translation": "Spiel = ≤30arcmin",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1961,10 +1961,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-A-PARAM-148",
+      "contentId": "DE-PROD-P08-A-PARAM-148",
       "sourceContentId": "CN-P08-PROD-05-PARAM-满载效率",
       "sourceCn": "满载效率 = ≥90%",
-      "translation": "Full-load efficiency = ≥90%",
+      "translation": "Wirkungsgrad bei Volllast = ≥90%",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1975,10 +1975,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-A-PARAM-149",
+      "contentId": "DE-PROD-P08-A-PARAM-149",
       "sourceContentId": "CN-P08-PROD-05-PARAM-使用寿命",
       "sourceCn": "使用寿命 = ≥20000h",
-      "translation": "Service life = ≥20000h",
+      "translation": "Lebensdauer = ≥20000h",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -1989,10 +1989,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-A-PARAM-150",
+      "contentId": "DE-PROD-P08-A-PARAM-150",
       "sourceContentId": "CN-P08-PROD-05-PARAM-润滑",
       "sourceCn": "润滑 = 免维护合成润滑脂",
-      "translation": "Lubrication = Maintenance-free synthetic grease",
+      "translation": "Schmierung = Wartungsfreies Synthetikfett",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2001,10 +2001,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P08-A-PARAM-151",
+      "contentId": "DE-PROD-P08-A-PARAM-151",
       "sourceContentId": "CN-P08-PROD-05-PARAM-使用环境温度",
       "sourceCn": "使用环境温度 = -15°C~+90°C",
-      "translation": "Ambient operating temperature = -15°C~+90°C",
+      "translation": "Betriebsumgebungstemperatur = -15°C~+90°C",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -2015,10 +2015,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-A-PARAM-152",
+      "contentId": "DE-PROD-P08-A-PARAM-152",
       "sourceContentId": "CN-P08-PROD-05-PARAM-防护等级",
       "sourceCn": "防护等级 = IP54",
-      "translation": "Protection rating = IP54",
+      "translation": "Schutzart = IP54",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2029,10 +2029,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-A-PARAM-153",
+      "contentId": "DE-PROD-P08-A-PARAM-153",
       "sourceContentId": "CN-P08-PROD-05-PARAM-推荐适配电机",
       "sourceCn": "推荐适配电机 = 400W-1000W",
-      "translation": "Recommended matching motor = 400W-1000W",
+      "translation": "Empfohlener Anpassungsmotor = 400W-1000W",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2043,10 +2043,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-A-PARAM-154",
+      "contentId": "DE-PROD-P08-A-PARAM-154",
       "sourceContentId": "CN-P08-PROD-05-PARAM-单轮驱动载荷",
       "sourceCn": "单轮驱动载荷 = 600KG",
-      "translation": "Single-wheel drive load = 600KG",
+      "translation": "Antriebslast pro Rad = 600KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2057,10 +2057,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-A-PARAM-155",
+      "contentId": "DE-PROD-P08-A-PARAM-155",
       "sourceContentId": "CN-P08-PROD-05-PARAM-行走速度",
       "sourceCn": "行走速度 = 1.2m/s-1.5m/s",
-      "translation": "Travel speed = 1.2m/s-1.5m/s",
+      "translation": "Fahrgeschwindigkeit = 1.2m/s-1.5m/s",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2071,10 +2071,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-A-PARAM-156",
+      "contentId": "DE-PROD-P08-A-PARAM-156",
       "sourceContentId": "CN-P08-PROD-05-PARAM-适配轮径",
       "sourceCn": "适配轮径 = Φ160-Φ200/推荐Φ160",
-      "translation": "Matching wheel diameter = Φ160-Φ200/推荐Φ160",
+      "translation": "passender Raddurchmesser = Φ160-Φ200/empfohlen Φ160",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -2085,10 +2085,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-B-TITLE",
+      "contentId": "DE-PROD-P08-B-TITLE",
       "sourceContentId": "CN-P08-PROD-06",
       "sourceCn": "301-2-026082-00(大承载双支撑)",
-      "translation": "301-2-026082-00 (heavy-load double support)",
+      "translation": "301-2-026082-00(schwerlastfähige Doppellagerung)",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2099,10 +2099,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-B-NOTE",
+      "contentId": "DE-PROD-P08-B-NOTE",
       "sourceContentId": "CN-P08-PROD-06-NOTE",
       "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
-      "translation": "Mounting dimensions and reduction ratios can be adjusted and customized to meet customer requirements.",
+      "translation": "Anbaumaße und Übersetzungsverhältnisse können an die Kundenanforderungen angepasst und kundenspezifisch konfiguriert werden.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2112,10 +2112,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P08-B-APP",
+      "contentId": "DE-PROD-P08-B-APP",
       "sourceContentId": "CN-P08-PROD-06-APP",
       "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
-      "translation": "Precision planetary wheel-hub travel reducer for AGV mobile robots",
+      "translation": "Präzisions-Planeten-Radnaben-Laufgetriebe für mobile AGV-Roboter",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2128,10 +2128,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-B-PARAM-160",
+      "contentId": "DE-PROD-P08-B-PARAM-160",
       "sourceContentId": "CN-P08-PROD-06-PARAM-额定功率",
       "sourceCn": "额定功率 = 9KW",
-      "translation": "Rated power = 9KW",
+      "translation": "Nennleistung = 9KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2142,10 +2142,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-B-PARAM-161",
+      "contentId": "DE-PROD-P08-B-PARAM-161",
       "sourceContentId": "CN-P08-PROD-06-PARAM-额定输入转速",
       "sourceCn": "额定输入转速 = 2500r/min",
-      "translation": "Rated input speed = 2500r/min",
+      "translation": "Nenndrehzahl Eingang = 2500r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2156,10 +2156,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-B-PARAM-162",
+      "contentId": "DE-PROD-P08-B-PARAM-162",
       "sourceContentId": "CN-P08-PROD-06-PARAM-最大输入转速",
       "sourceCn": "最大输入转速 = 4000r/min",
-      "translation": "Max input speed = 4000r/min",
+      "translation": "Max. Drehzahl Eingang = 4000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2170,10 +2170,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-B-PARAM-163",
+      "contentId": "DE-PROD-P08-B-PARAM-163",
       "sourceContentId": "CN-P08-PROD-06-PARAM-减速比",
       "sourceCn": "减速比 = 82.27:1",
-      "translation": "Reduction ratio = 82.27:1",
+      "translation": "Übersetzungsverhältnis = 82.27:1",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2184,10 +2184,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-B-PARAM-164",
+      "contentId": "DE-PROD-P08-B-PARAM-164",
       "sourceContentId": "CN-P08-PROD-06-PARAM-额定输出转矩",
       "sourceCn": "额定输出转矩 = 4000NM",
-      "translation": "Rated output torque = 4000NM",
+      "translation": "Nenndrehmoment Abtrieb = 4000NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2198,10 +2198,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-B-PARAM-165",
+      "contentId": "DE-PROD-P08-B-PARAM-165",
       "sourceContentId": "CN-P08-PROD-06-PARAM-最大输出转矩",
       "sourceCn": "最大输出转矩 = 10000NM",
-      "translation": "Max output torque = 10000NM",
+      "translation": "Max. Drehmoment Abtrieb = 10000NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2212,10 +2212,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-B-PARAM-166",
+      "contentId": "DE-PROD-P08-B-PARAM-166",
       "sourceContentId": "CN-P08-PROD-06-PARAM-噪音",
       "sourceCn": "噪音 = ≤75dB",
-      "translation": "Noise = ≤75dB",
+      "translation": "Geräusch = ≤75dB",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2226,10 +2226,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-B-PARAM-167",
+      "contentId": "DE-PROD-P08-B-PARAM-167",
       "sourceContentId": "CN-P08-PROD-06-PARAM-最大径向力",
       "sourceCn": "最大径向力 = 20000KG",
-      "translation": "Max radial load = 20000KG",
+      "translation": "Max. Radialkraft = 20000KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2240,10 +2240,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-B-PARAM-168",
+      "contentId": "DE-PROD-P08-B-PARAM-168",
       "sourceContentId": "CN-P08-PROD-06-PARAM-回程间隙",
       "sourceCn": "回程间隙 = ≤60arcmin",
-      "translation": "Backlash = ≤60arcmin",
+      "translation": "Spiel = ≤60arcmin",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2254,10 +2254,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-B-PARAM-169",
+      "contentId": "DE-PROD-P08-B-PARAM-169",
       "sourceContentId": "CN-P08-PROD-06-PARAM-满载效率",
       "sourceCn": "满载效率 = ≥90%",
-      "translation": "Full-load efficiency = ≥90%",
+      "translation": "Wirkungsgrad bei Volllast = ≥90%",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2268,10 +2268,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-B-PARAM-170",
+      "contentId": "DE-PROD-P08-B-PARAM-170",
       "sourceContentId": "CN-P08-PROD-06-PARAM-使用寿命",
       "sourceCn": "使用寿命 = ≥20000h",
-      "translation": "Service life = ≥20000h",
+      "translation": "Lebensdauer = ≥20000h",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2282,10 +2282,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-B-PARAM-171",
+      "contentId": "DE-PROD-P08-B-PARAM-171",
       "sourceContentId": "CN-P08-PROD-06-PARAM-润滑",
       "sourceCn": "润滑 = 润滑油",
-      "translation": "Lubrication = Lubricating oil",
+      "translation": "Schmierung = Schmieröl",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2294,10 +2294,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P08-B-PARAM-172",
+      "contentId": "DE-PROD-P08-B-PARAM-172",
       "sourceContentId": "CN-P08-PROD-06-PARAM-使用环境温度",
       "sourceCn": "使用环境温度 = -15°C~+90°C",
-      "translation": "Ambient operating temperature = -15°C~+90°C",
+      "translation": "Betriebsumgebungstemperatur = -15°C~+90°C",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -2308,10 +2308,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-B-PARAM-173",
+      "contentId": "DE-PROD-P08-B-PARAM-173",
       "sourceContentId": "CN-P08-PROD-06-PARAM-防护等级",
       "sourceCn": "防护等级 = IP54",
-      "translation": "Protection rating = IP54",
+      "translation": "Schutzart = IP54",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2322,10 +2322,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-B-PARAM-174",
+      "contentId": "DE-PROD-P08-B-PARAM-174",
       "sourceContentId": "CN-P08-PROD-06-PARAM-推荐适配电机",
       "sourceCn": "推荐适配电机 = 7.5KW-11KW",
-      "translation": "Recommended matching motor = 7.5KW-11KW",
+      "translation": "Empfohlener Anpassungsmotor = 7.5KW-11KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2336,10 +2336,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-B-PARAM-175",
+      "contentId": "DE-PROD-P08-B-PARAM-175",
       "sourceContentId": "CN-P08-PROD-06-PARAM-单轮驱动载荷",
       "sourceCn": "单轮驱动载荷 = 20000KG",
-      "translation": "Single-wheel drive load = 20000KG",
+      "translation": "Antriebslast pro Rad = 20000KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -2350,10 +2350,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-B-PARAM-176",
+      "contentId": "DE-PROD-P08-B-PARAM-176",
       "sourceContentId": "CN-P08-PROD-06-PARAM-行走速度",
       "sourceCn": "行走速度 = 0.8m/s-0.95m/s",
-      "translation": "Travel speed = 0.8m/s-0.95m/s",
+      "translation": "Fahrgeschwindigkeit = 0.8m/s-0.95m/s",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -2364,10 +2364,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P08-B-PARAM-177",
+      "contentId": "DE-PROD-P08-B-PARAM-177",
       "sourceContentId": "CN-P08-PROD-06-PARAM-适配轮径",
       "sourceCn": "适配轮径 = Φ500-Φ600/推荐Φ600",
-      "translation": "Matching wheel diameter = Φ500-Φ600/推荐Φ600",
+      "translation": "passender Raddurchmesser = Φ500-Φ600/empfohlen Φ600",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -2378,10 +2378,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-A-TITLE",
+      "contentId": "DE-PROD-P09-A-TITLE",
       "sourceContentId": "CN-P09-PROD-07",
       "sourceCn": "301-2-005032-00(大承载双支撑)",
-      "translation": "301-2-005032-00 (heavy-load double support)",
+      "translation": "301-2-005032-00(schwerlastfähige Doppellagerung)",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2392,10 +2392,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-A-NOTE",
+      "contentId": "DE-PROD-P09-A-NOTE",
       "sourceContentId": "CN-P09-PROD-07-NOTE",
       "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
-      "translation": "Mounting dimensions and reduction ratios can be adjusted and customized to meet customer requirements.",
+      "translation": "Anbaumaße und Übersetzungsverhältnisse können an die Kundenanforderungen angepasst und kundenspezifisch konfiguriert werden.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2405,10 +2405,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P09-A-APP",
+      "contentId": "DE-PROD-P09-A-APP",
       "sourceContentId": "CN-P09-PROD-07-APP",
       "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
-      "translation": "Precision planetary wheel-hub travel reducer for AGV mobile robots",
+      "translation": "Präzisions-Planeten-Radnaben-Laufgetriebe für mobile AGV-Roboter",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2421,10 +2421,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-A-PARAM-181",
+      "contentId": "DE-PROD-P09-A-PARAM-181",
       "sourceContentId": "CN-P09-PROD-07-PARAM-额定功率",
       "sourceCn": "额定功率 = 10KW",
-      "translation": "Rated power = 10KW",
+      "translation": "Nennleistung = 10KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2435,10 +2435,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-A-PARAM-182",
+      "contentId": "DE-PROD-P09-A-PARAM-182",
       "sourceContentId": "CN-P09-PROD-07-PARAM-额定输入转速",
       "sourceCn": "额定输入转速 = 1315r/min",
-      "translation": "Rated input speed = 1315r/min",
+      "translation": "Nenndrehzahl Eingang = 1315r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -2449,10 +2449,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-A-PARAM-183",
+      "contentId": "DE-PROD-P09-A-PARAM-183",
       "sourceContentId": "CN-P09-PROD-07-PARAM-最大输入转速",
       "sourceCn": "最大输入转速 = 3026r/min",
-      "translation": "Max input speed = 3026r/min",
+      "translation": "Max. Drehzahl Eingang = 3026r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2463,10 +2463,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-A-PARAM-184",
+      "contentId": "DE-PROD-P09-A-PARAM-184",
       "sourceContentId": "CN-P09-PROD-07-PARAM-减速比",
       "sourceCn": "减速比 = 32:1",
-      "translation": "Reduction ratio = 32:1",
+      "translation": "Übersetzungsverhältnis = 32:1",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2477,10 +2477,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-A-PARAM-185",
+      "contentId": "DE-PROD-P09-A-PARAM-185",
       "sourceContentId": "CN-P09-PROD-07-PARAM-额定输出转矩",
       "sourceCn": "额定输出转矩 = 2700NM",
-      "translation": "Rated output torque = 2700NM",
+      "translation": "Nenndrehmoment Abtrieb = 2700NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2491,10 +2491,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-A-PARAM-186",
+      "contentId": "DE-PROD-P09-A-PARAM-186",
       "sourceContentId": "CN-P09-PROD-07-PARAM-最大输出转矩",
       "sourceCn": "最大输出转矩 = 4500NM",
-      "translation": "Max output torque = 4500NM",
+      "translation": "Max. Drehmoment Abtrieb = 4500NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2505,10 +2505,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-A-PARAM-187",
+      "contentId": "DE-PROD-P09-A-PARAM-187",
       "sourceContentId": "CN-P09-PROD-07-PARAM-噪音",
       "sourceCn": "噪音 = ≤75dB",
-      "translation": "Noise = ≤75dB",
+      "translation": "Geräusch = ≤75dB",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2519,10 +2519,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-A-PARAM-188",
+      "contentId": "DE-PROD-P09-A-PARAM-188",
       "sourceContentId": "CN-P09-PROD-07-PARAM-最大径向力",
       "sourceCn": "最大径向力 = 6000KG",
-      "translation": "Max radial load = 6000KG",
+      "translation": "Max. Radialkraft = 6000KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2533,10 +2533,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-A-PARAM-189",
+      "contentId": "DE-PROD-P09-A-PARAM-189",
       "sourceContentId": "CN-P09-PROD-07-PARAM-回程间隙",
       "sourceCn": "回程间隙 = ≤60arcmin",
-      "translation": "Backlash = ≤60arcmin",
+      "translation": "Spiel = ≤60arcmin",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2547,10 +2547,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-A-PARAM-190",
+      "contentId": "DE-PROD-P09-A-PARAM-190",
       "sourceContentId": "CN-P09-PROD-07-PARAM-满载效率",
       "sourceCn": "满载效率 = ≥90%",
-      "translation": "Full-load efficiency = ≥90%",
+      "translation": "Wirkungsgrad bei Volllast = ≥90%",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2561,10 +2561,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-A-PARAM-191",
+      "contentId": "DE-PROD-P09-A-PARAM-191",
       "sourceContentId": "CN-P09-PROD-07-PARAM-使用寿命",
       "sourceCn": "使用寿命 = ≥20000h",
-      "translation": "Service life = ≥20000h",
+      "translation": "Lebensdauer = ≥20000h",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2575,10 +2575,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-A-PARAM-192",
+      "contentId": "DE-PROD-P09-A-PARAM-192",
       "sourceContentId": "CN-P09-PROD-07-PARAM-润滑",
       "sourceCn": "润滑 = 润滑油",
-      "translation": "Lubrication = Lubricating oil",
+      "translation": "Schmierung = Schmieröl",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2587,10 +2587,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P09-A-PARAM-193",
+      "contentId": "DE-PROD-P09-A-PARAM-193",
       "sourceContentId": "CN-P09-PROD-07-PARAM-使用环境温度",
       "sourceCn": "使用环境温度 = -15°C~+90°C",
-      "translation": "Ambient operating temperature = -15°C~+90°C",
+      "translation": "Betriebsumgebungstemperatur = -15°C~+90°C",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2601,10 +2601,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-A-PARAM-194",
+      "contentId": "DE-PROD-P09-A-PARAM-194",
       "sourceContentId": "CN-P09-PROD-07-PARAM-防护等级",
       "sourceCn": "防护等级 = IP54",
-      "translation": "Protection rating = IP54",
+      "translation": "Schutzart = IP54",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2615,10 +2615,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-A-PARAM-195",
+      "contentId": "DE-PROD-P09-A-PARAM-195",
       "sourceContentId": "CN-P09-PROD-07-PARAM-推荐适配电机",
       "sourceCn": "推荐适配电机 = 5.5KW-10KW",
-      "translation": "Recommended matching motor = 5.5KW-10KW",
+      "translation": "Empfohlener Anpassungsmotor = 5.5KW-10KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -2629,10 +2629,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-A-PARAM-196",
+      "contentId": "DE-PROD-P09-A-PARAM-196",
       "sourceContentId": "CN-P09-PROD-07-PARAM-单轮驱动载荷",
       "sourceCn": "单轮驱动载荷 = 6000KG",
-      "translation": "Single-wheel drive load = 6000KG",
+      "translation": "Antriebslast pro Rad = 6000KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2643,10 +2643,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-A-PARAM-197",
+      "contentId": "DE-PROD-P09-A-PARAM-197",
       "sourceContentId": "CN-P09-PROD-07-PARAM-行走速度",
       "sourceCn": "行走速度 = 0.86m/s-1.07m/s",
-      "translation": "Travel speed = 0.86m/s-1.07m/s",
+      "translation": "Fahrgeschwindigkeit = 0.86m/s-1.07m/s",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -2657,10 +2657,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-A-PARAM-198",
+      "contentId": "DE-PROD-P09-A-PARAM-198",
       "sourceContentId": "CN-P09-PROD-07-PARAM-适配轮径",
       "sourceCn": "适配轮径 = Φ400-Φ500",
-      "translation": "Matching wheel diameter = Φ400-Φ500",
+      "translation": "passender Raddurchmesser = Φ400-Φ500",
       "translationStatus": "TRANSLATED",
       "confidence": 0.8,
       "glossaryTermsUsed": [
@@ -2671,10 +2671,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-B-TITLE",
+      "contentId": "DE-PROD-P09-B-TITLE",
       "sourceContentId": "CN-P09-PROD-08",
       "sourceCn": "301-2-004050-00(带制动轴)",
-      "translation": "301-2-004050-00 (with brake shaft)",
+      "translation": "301-2-004050-00(mit Bremswelle)",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2685,10 +2685,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-B-NOTE",
+      "contentId": "DE-PROD-P09-B-NOTE",
       "sourceContentId": "CN-P09-PROD-08-NOTE",
       "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
-      "translation": "Mounting dimensions and reduction ratios can be adjusted and customized to meet customer requirements.",
+      "translation": "Anbaumaße und Übersetzungsverhältnisse können an die Kundenanforderungen angepasst und kundenspezifisch konfiguriert werden.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2698,10 +2698,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P09-B-APP",
+      "contentId": "DE-PROD-P09-B-APP",
       "sourceContentId": "CN-P09-PROD-08-APP",
       "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
-      "translation": "Precision planetary wheel-hub travel reducer for AGV mobile robots",
+      "translation": "Präzisions-Planeten-Radnaben-Laufgetriebe für mobile AGV-Roboter",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2714,10 +2714,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-B-PARAM-202",
+      "contentId": "DE-PROD-P09-B-PARAM-202",
       "sourceContentId": "CN-P09-PROD-08-PARAM-额定功率",
       "sourceCn": "额定功率 = 7.5KW",
-      "translation": "Rated power = 7.5KW",
+      "translation": "Nennleistung = 7.5KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2728,10 +2728,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-B-PARAM-203",
+      "contentId": "DE-PROD-P09-B-PARAM-203",
       "sourceContentId": "CN-P09-PROD-08-PARAM-额定输入转速",
       "sourceCn": "额定输入转速 = 3000r/min",
-      "translation": "Rated input speed = 3000r/min",
+      "translation": "Nenndrehzahl Eingang = 3000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2742,10 +2742,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-B-PARAM-204",
+      "contentId": "DE-PROD-P09-B-PARAM-204",
       "sourceContentId": "CN-P09-PROD-08-PARAM-最大输入转速",
       "sourceCn": "最大输入转速 = 4500r/min",
-      "translation": "Max input speed = 4500r/min",
+      "translation": "Max. Drehzahl Eingang = 4500r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2756,10 +2756,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-B-PARAM-205",
+      "contentId": "DE-PROD-P09-B-PARAM-205",
       "sourceContentId": "CN-P09-PROD-08-PARAM-减速比",
       "sourceCn": "减速比 = 50:1",
-      "translation": "Reduction ratio = 50:1",
+      "translation": "Übersetzungsverhältnis = 50:1",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -2770,10 +2770,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-B-PARAM-206",
+      "contentId": "DE-PROD-P09-B-PARAM-206",
       "sourceContentId": "CN-P09-PROD-08-PARAM-额定输出转矩",
       "sourceCn": "额定输出转矩 = 1800NM",
-      "translation": "Rated output torque = 1800NM",
+      "translation": "Nenndrehmoment Abtrieb = 1800NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2784,10 +2784,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-B-PARAM-207",
+      "contentId": "DE-PROD-P09-B-PARAM-207",
       "sourceContentId": "CN-P09-PROD-08-PARAM-最大输出转矩",
       "sourceCn": "最大输出转矩 = 3600NM",
-      "translation": "Max output torque = 3600NM",
+      "translation": "Max. Drehmoment Abtrieb = 3600NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2798,10 +2798,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-B-PARAM-208",
+      "contentId": "DE-PROD-P09-B-PARAM-208",
       "sourceContentId": "CN-P09-PROD-08-PARAM-噪音",
       "sourceCn": "噪音 = ≤70dB",
-      "translation": "Noise = ≤70dB",
+      "translation": "Geräusch = ≤70dB",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2812,10 +2812,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-B-PARAM-209",
+      "contentId": "DE-PROD-P09-B-PARAM-209",
       "sourceContentId": "CN-P09-PROD-08-PARAM-最大径向力",
       "sourceCn": "最大径向力 = 5000KG",
-      "translation": "Max radial load = 5000KG",
+      "translation": "Max. Radialkraft = 5000KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2826,10 +2826,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-B-PARAM-210",
+      "contentId": "DE-PROD-P09-B-PARAM-210",
       "sourceContentId": "CN-P09-PROD-08-PARAM-回程间隙",
       "sourceCn": "回程间隙 = ≤30arcmin",
-      "translation": "Backlash = ≤30arcmin",
+      "translation": "Spiel = ≤30arcmin",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -2840,10 +2840,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-B-PARAM-211",
+      "contentId": "DE-PROD-P09-B-PARAM-211",
       "sourceContentId": "CN-P09-PROD-08-PARAM-满载效率",
       "sourceCn": "满载效率 = ≥90%",
-      "translation": "Full-load efficiency = ≥90%",
+      "translation": "Wirkungsgrad bei Volllast = ≥90%",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2854,10 +2854,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-B-PARAM-212",
+      "contentId": "DE-PROD-P09-B-PARAM-212",
       "sourceContentId": "CN-P09-PROD-08-PARAM-使用寿命",
       "sourceCn": "使用寿命 = ≥20000h",
-      "translation": "Service life = ≥20000h",
+      "translation": "Lebensdauer = ≥20000h",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2868,10 +2868,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-B-PARAM-213",
+      "contentId": "DE-PROD-P09-B-PARAM-213",
       "sourceContentId": "CN-P09-PROD-08-PARAM-润滑",
       "sourceCn": "润滑 = 免维护合成润滑脂",
-      "translation": "Lubrication = Maintenance-free synthetic grease",
+      "translation": "Schmierung = Wartungsfreies Synthetikfett",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2880,10 +2880,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P09-B-PARAM-214",
+      "contentId": "DE-PROD-P09-B-PARAM-214",
       "sourceContentId": "CN-P09-PROD-08-PARAM-使用环境温度",
       "sourceCn": "使用环境温度 = -15°C~+90°C",
-      "translation": "Ambient operating temperature = -15°C~+90°C",
+      "translation": "Betriebsumgebungstemperatur = -15°C~+90°C",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2894,10 +2894,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-B-PARAM-215",
+      "contentId": "DE-PROD-P09-B-PARAM-215",
       "sourceContentId": "CN-P09-PROD-08-PARAM-防护等级",
       "sourceCn": "防护等级 = IP54",
-      "translation": "Protection rating = IP54",
+      "translation": "Schutzart = IP54",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2908,10 +2908,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-B-PARAM-216",
+      "contentId": "DE-PROD-P09-B-PARAM-216",
       "sourceContentId": "CN-P09-PROD-08-PARAM-推荐适配电机",
       "sourceCn": "推荐适配电机 = 5.5KW-7.5KW",
-      "translation": "Recommended matching motor = 5.5KW-7.5KW",
+      "translation": "Empfohlener Anpassungsmotor = 5.5KW-7.5KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -2922,10 +2922,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-B-PARAM-217",
+      "contentId": "DE-PROD-P09-B-PARAM-217",
       "sourceContentId": "CN-P09-PROD-08-PARAM-单轮驱动载荷",
       "sourceCn": "单轮驱动载荷 = 5000KG",
-      "translation": "Single-wheel drive load = 5000KG",
+      "translation": "Antriebslast pro Rad = 5000KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2936,10 +2936,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-B-PARAM-218",
+      "contentId": "DE-PROD-P09-B-PARAM-218",
       "sourceContentId": "CN-P09-PROD-08-PARAM-行走速度",
       "sourceCn": "行走速度 = 1.1m/s-1.25m/s",
-      "translation": "Travel speed = 1.1m/s-1.25m/s",
+      "translation": "Fahrgeschwindigkeit = 1.1m/s-1.25m/s",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -2950,10 +2950,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P09-B-PARAM-219",
+      "contentId": "DE-PROD-P09-B-PARAM-219",
       "sourceContentId": "CN-P09-PROD-08-PARAM-适配轮径",
       "sourceCn": "适配轮径 = Φ350-Φ400",
-      "translation": "Matching wheel diameter = Φ350-Φ400",
+      "translation": "passender Raddurchmesser = Φ350-Φ400",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -2964,7 +2964,7 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-A-TITLE",
+      "contentId": "DE-PROD-P10-A-TITLE",
       "sourceContentId": "CN-P10-PROD-09",
       "sourceCn": "301-2-001020-00",
       "translation": "301-2-001020-00",
@@ -2978,10 +2978,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-A-NOTE",
+      "contentId": "DE-PROD-P10-A-NOTE",
       "sourceContentId": "CN-P10-PROD-09-NOTE",
       "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
-      "translation": "Mounting dimensions and reduction ratios can be adjusted and customized to meet customer requirements.",
+      "translation": "Anbaumaße und Übersetzungsverhältnisse können an die Kundenanforderungen angepasst und kundenspezifisch konfiguriert werden.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -2991,10 +2991,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P10-A-APP",
+      "contentId": "DE-PROD-P10-A-APP",
       "sourceContentId": "CN-P10-PROD-09-APP",
       "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
-      "translation": "Precision planetary wheel-hub travel reducer for AGV mobile robots",
+      "translation": "Präzisions-Planeten-Radnaben-Laufgetriebe für mobile AGV-Roboter",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3007,10 +3007,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-A-PARAM-223",
+      "contentId": "DE-PROD-P10-A-PARAM-223",
       "sourceContentId": "CN-P10-PROD-09-PARAM-额定功率",
       "sourceCn": "额定功率 = 1000W",
-      "translation": "Rated power = 1000W",
+      "translation": "Nennleistung = 1000W",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3021,10 +3021,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-A-PARAM-224",
+      "contentId": "DE-PROD-P10-A-PARAM-224",
       "sourceContentId": "CN-P10-PROD-09-PARAM-额定输入转速",
       "sourceCn": "额定输入转速 = 3000r/min",
-      "translation": "Rated input speed = 3000r/min",
+      "translation": "Nenndrehzahl Eingang = 3000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3035,10 +3035,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-A-PARAM-225",
+      "contentId": "DE-PROD-P10-A-PARAM-225",
       "sourceContentId": "CN-P10-PROD-09-PARAM-最大输入转速",
       "sourceCn": "最大输入转速 = 6000r/min",
-      "translation": "Max input speed = 6000r/min",
+      "translation": "Max. Drehzahl Eingang = 6000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3049,10 +3049,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-A-PARAM-226",
+      "contentId": "DE-PROD-P10-A-PARAM-226",
       "sourceContentId": "CN-P10-PROD-09-PARAM-减速比",
       "sourceCn": "减速比 = 20.5:1",
-      "translation": "Reduction ratio = 20.5:1",
+      "translation": "Übersetzungsverhältnis = 20.5:1",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3063,10 +3063,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-A-PARAM-227",
+      "contentId": "DE-PROD-P10-A-PARAM-227",
       "sourceContentId": "CN-P10-PROD-09-PARAM-额定输出转矩",
       "sourceCn": "额定输出转矩 = 164NM",
-      "translation": "Rated output torque = 164NM",
+      "translation": "Nenndrehmoment Abtrieb = 164NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3077,10 +3077,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-A-PARAM-228",
+      "contentId": "DE-PROD-P10-A-PARAM-228",
       "sourceContentId": "CN-P10-PROD-09-PARAM-最大输出转矩",
       "sourceCn": "最大输出转矩 = 295.2NM",
-      "translation": "Max output torque = 295.2NM",
+      "translation": "Max. Drehmoment Abtrieb = 295.2NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3091,10 +3091,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-A-PARAM-229",
+      "contentId": "DE-PROD-P10-A-PARAM-229",
       "sourceContentId": "CN-P10-PROD-09-PARAM-噪音",
       "sourceCn": "噪音 = ≤65dB",
-      "translation": "Noise = ≤65dB",
+      "translation": "Geräusch = ≤65dB",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3105,10 +3105,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-A-PARAM-230",
+      "contentId": "DE-PROD-P10-A-PARAM-230",
       "sourceContentId": "CN-P10-PROD-09-PARAM-最大径向力",
       "sourceCn": "最大径向力 = 280KG",
-      "translation": "Max radial load = 280KG",
+      "translation": "Max. Radialkraft = 280KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3119,10 +3119,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-A-PARAM-231",
+      "contentId": "DE-PROD-P10-A-PARAM-231",
       "sourceContentId": "CN-P10-PROD-09-PARAM-回程间隙",
       "sourceCn": "回程间隙 = ≤30arcmin",
-      "translation": "Backlash = ≤30arcmin",
+      "translation": "Spiel = ≤30arcmin",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3133,10 +3133,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-A-PARAM-232",
+      "contentId": "DE-PROD-P10-A-PARAM-232",
       "sourceContentId": "CN-P10-PROD-09-PARAM-满载效率",
       "sourceCn": "满载效率 = ≥90%",
-      "translation": "Full-load efficiency = ≥90%",
+      "translation": "Wirkungsgrad bei Volllast = ≥90%",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3147,10 +3147,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-A-PARAM-233",
+      "contentId": "DE-PROD-P10-A-PARAM-233",
       "sourceContentId": "CN-P10-PROD-09-PARAM-使用寿命",
       "sourceCn": "使用寿命 = ≥20000h",
-      "translation": "Service life = ≥20000h",
+      "translation": "Lebensdauer = ≥20000h",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3161,10 +3161,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-A-PARAM-234",
+      "contentId": "DE-PROD-P10-A-PARAM-234",
       "sourceContentId": "CN-P10-PROD-09-PARAM-润滑",
       "sourceCn": "润滑 = 免维护合成润滑脂",
-      "translation": "Lubrication = Maintenance-free synthetic grease",
+      "translation": "Schmierung = Wartungsfreies Synthetikfett",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3173,10 +3173,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P10-A-PARAM-235",
+      "contentId": "DE-PROD-P10-A-PARAM-235",
       "sourceContentId": "CN-P10-PROD-09-PARAM-使用环境温度",
       "sourceCn": "使用环境温度 = -15°C~+90°C",
-      "translation": "Ambient operating temperature = -15°C~+90°C",
+      "translation": "Betriebsumgebungstemperatur = -15°C~+90°C",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3187,10 +3187,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-A-PARAM-236",
+      "contentId": "DE-PROD-P10-A-PARAM-236",
       "sourceContentId": "CN-P10-PROD-09-PARAM-防护等级",
       "sourceCn": "防护等级 = IP54",
-      "translation": "Protection rating = IP54",
+      "translation": "Schutzart = IP54",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3201,10 +3201,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-A-PARAM-237",
+      "contentId": "DE-PROD-P10-A-PARAM-237",
       "sourceContentId": "CN-P10-PROD-09-PARAM-推荐适配电机",
       "sourceCn": "推荐适配电机 = 400W-1000W",
-      "translation": "Recommended matching motor = 400W-1000W",
+      "translation": "Empfohlener Anpassungsmotor = 400W-1000W",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3215,10 +3215,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-A-PARAM-238",
+      "contentId": "DE-PROD-P10-A-PARAM-238",
       "sourceContentId": "CN-P10-PROD-09-PARAM-单轮驱动载荷",
       "sourceCn": "单轮驱动载荷 = 280KG",
-      "translation": "Single-wheel drive load = 280KG",
+      "translation": "Antriebslast pro Rad = 280KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.7,
       "glossaryTermsUsed": [
@@ -3229,10 +3229,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-A-PARAM-239",
+      "contentId": "DE-PROD-P10-A-PARAM-239",
       "sourceContentId": "CN-P10-PROD-09-PARAM-行走速度",
       "sourceCn": "行走速度 = 1.22m/s-1.53m/s",
-      "translation": "Travel speed = 1.22m/s-1.53m/s",
+      "translation": "Fahrgeschwindigkeit = 1.22m/s-1.53m/s",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -3243,10 +3243,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-A-PARAM-240",
+      "contentId": "DE-PROD-P10-A-PARAM-240",
       "sourceContentId": "CN-P10-PROD-09-PARAM-适配轮径",
       "sourceCn": "适配轮径 = Φ160-Φ200/推荐Φ180",
-      "translation": "Matching wheel diameter = Φ160-Φ200/推荐Φ180",
+      "translation": "passender Raddurchmesser = Φ160-Φ200/empfohlen Φ180",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3257,10 +3257,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-B-TITLE",
+      "contentId": "DE-PROD-P10-B-TITLE",
       "sourceContentId": "CN-P10-PROD-10",
       "sourceCn": "301-2-160040-00(带制动轴)",
-      "translation": "301-2-160040-00 (with brake shaft)",
+      "translation": "301-2-160040-00(mit Bremswelle)",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3271,10 +3271,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-B-NOTE",
+      "contentId": "DE-PROD-P10-B-NOTE",
       "sourceContentId": "CN-P10-PROD-10-NOTE",
       "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
-      "translation": "Mounting dimensions and reduction ratios can be adjusted and customized to meet customer requirements.",
+      "translation": "Anbaumaße und Übersetzungsverhältnisse können an die Kundenanforderungen angepasst und kundenspezifisch konfiguriert werden.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3284,10 +3284,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P10-B-APP",
+      "contentId": "DE-PROD-P10-B-APP",
       "sourceContentId": "CN-P10-PROD-10-APP",
       "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
-      "translation": "Precision planetary wheel-hub travel reducer for AGV mobile robots",
+      "translation": "Präzisions-Planeten-Radnaben-Laufgetriebe für mobile AGV-Roboter",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3300,10 +3300,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-B-PARAM-244",
+      "contentId": "DE-PROD-P10-B-PARAM-244",
       "sourceContentId": "CN-P10-PROD-10-PARAM-额定功率",
       "sourceCn": "额定功率 = 3KW",
-      "translation": "Rated power = 3KW",
+      "translation": "Nennleistung = 3KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3314,10 +3314,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-B-PARAM-245",
+      "contentId": "DE-PROD-P10-B-PARAM-245",
       "sourceContentId": "CN-P10-PROD-10-PARAM-额定输入转速",
       "sourceCn": "额定输入转速 = 3000r/min",
-      "translation": "Rated input speed = 3000r/min",
+      "translation": "Nenndrehzahl Eingang = 3000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3328,10 +3328,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-B-PARAM-246",
+      "contentId": "DE-PROD-P10-B-PARAM-246",
       "sourceContentId": "CN-P10-PROD-10-PARAM-最大输入转速",
       "sourceCn": "最大输入转速 = 5000r/min",
-      "translation": "Max input speed = 5000r/min",
+      "translation": "Max. Drehzahl Eingang = 5000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3342,10 +3342,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-B-PARAM-247",
+      "contentId": "DE-PROD-P10-B-PARAM-247",
       "sourceContentId": "CN-P10-PROD-10-PARAM-减速比",
       "sourceCn": "减速比 = 40:1",
-      "translation": "Reduction ratio = 40:1",
+      "translation": "Übersetzungsverhältnis = 40:1",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3356,10 +3356,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-B-PARAM-248",
+      "contentId": "DE-PROD-P10-B-PARAM-248",
       "sourceContentId": "CN-P10-PROD-10-PARAM-额定输出转矩",
       "sourceCn": "额定输出转矩 = 440NM",
-      "translation": "Rated output torque = 440NM",
+      "translation": "Nenndrehmoment Abtrieb = 440NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3370,10 +3370,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-B-PARAM-249",
+      "contentId": "DE-PROD-P10-B-PARAM-249",
       "sourceContentId": "CN-P10-PROD-10-PARAM-最大输出转矩",
       "sourceCn": "最大输出转矩 = 700NM",
-      "translation": "Max output torque = 700NM",
+      "translation": "Max. Drehmoment Abtrieb = 700NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3384,10 +3384,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-B-PARAM-250",
+      "contentId": "DE-PROD-P10-B-PARAM-250",
       "sourceContentId": "CN-P10-PROD-10-PARAM-噪音",
       "sourceCn": "噪音 = ≤65dB",
-      "translation": "Noise = ≤65dB",
+      "translation": "Geräusch = ≤65dB",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3398,10 +3398,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-B-PARAM-251",
+      "contentId": "DE-PROD-P10-B-PARAM-251",
       "sourceContentId": "CN-P10-PROD-10-PARAM-最大径向力",
       "sourceCn": "最大径向力 = 1500KG",
-      "translation": "Max radial load = 1500KG",
+      "translation": "Max. Radialkraft = 1500KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3412,10 +3412,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-B-PARAM-252",
+      "contentId": "DE-PROD-P10-B-PARAM-252",
       "sourceContentId": "CN-P10-PROD-10-PARAM-回程间隙",
       "sourceCn": "回程间隙 = ≤30arcmin",
-      "translation": "Backlash = ≤30arcmin",
+      "translation": "Spiel = ≤30arcmin",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -3426,10 +3426,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-B-PARAM-253",
+      "contentId": "DE-PROD-P10-B-PARAM-253",
       "sourceContentId": "CN-P10-PROD-10-PARAM-满载效率",
       "sourceCn": "满载效率 = ≥90%",
-      "translation": "Full-load efficiency = ≥90%",
+      "translation": "Wirkungsgrad bei Volllast = ≥90%",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3440,10 +3440,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-B-PARAM-254",
+      "contentId": "DE-PROD-P10-B-PARAM-254",
       "sourceContentId": "CN-P10-PROD-10-PARAM-使用寿命",
       "sourceCn": "使用寿命 = ≥20000h",
-      "translation": "Service life = ≥20000h",
+      "translation": "Lebensdauer = ≥20000h",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3454,10 +3454,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-B-PARAM-255",
+      "contentId": "DE-PROD-P10-B-PARAM-255",
       "sourceContentId": "CN-P10-PROD-10-PARAM-润滑",
       "sourceCn": "润滑 = 免维护合成润滑脂",
-      "translation": "Lubrication = Maintenance-free synthetic grease",
+      "translation": "Schmierung = Wartungsfreies Synthetikfett",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3466,10 +3466,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P10-B-PARAM-256",
+      "contentId": "DE-PROD-P10-B-PARAM-256",
       "sourceContentId": "CN-P10-PROD-10-PARAM-使用环境温度",
       "sourceCn": "使用环境温度 = -15°C~+90°C",
-      "translation": "Ambient operating temperature = -15°C~+90°C",
+      "translation": "Betriebsumgebungstemperatur = -15°C~+90°C",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3480,10 +3480,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-B-PARAM-257",
+      "contentId": "DE-PROD-P10-B-PARAM-257",
       "sourceContentId": "CN-P10-PROD-10-PARAM-防护等级",
       "sourceCn": "防护等级 = IP54",
-      "translation": "Protection rating = IP54",
+      "translation": "Schutzart = IP54",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3494,10 +3494,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-B-PARAM-258",
+      "contentId": "DE-PROD-P10-B-PARAM-258",
       "sourceContentId": "CN-P10-PROD-10-PARAM-推荐适配电机",
       "sourceCn": "推荐适配电机 = 1.2KW-3KW",
-      "translation": "Recommended matching motor = 1.2KW-3KW",
+      "translation": "Empfohlener Anpassungsmotor = 1.2KW-3KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -3508,10 +3508,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-B-PARAM-259",
+      "contentId": "DE-PROD-P10-B-PARAM-259",
       "sourceContentId": "CN-P10-PROD-10-PARAM-单轮驱动载荷",
       "sourceCn": "单轮驱动载荷 = 1500KG",
-      "translation": "Single-wheel drive load = 1500KG",
+      "translation": "Antriebslast pro Rad = 1500KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -3522,10 +3522,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-B-PARAM-260",
+      "contentId": "DE-PROD-P10-B-PARAM-260",
       "sourceContentId": "CN-P10-PROD-10-PARAM-行走速度",
       "sourceCn": "行走速度 = 0.82m/s-0.98m/s",
-      "translation": "Travel speed = 0.82m/s-0.98m/s",
+      "translation": "Fahrgeschwindigkeit = 0.82m/s-0.98m/s",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3536,10 +3536,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P10-B-PARAM-261",
+      "contentId": "DE-PROD-P10-B-PARAM-261",
       "sourceContentId": "CN-P10-PROD-10-PARAM-适配轮径",
       "sourceCn": "适配轮径 = Φ210-Φ250",
-      "translation": "Matching wheel diameter = Φ210-Φ250",
+      "translation": "passender Raddurchmesser = Φ210-Φ250",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -3550,7 +3550,7 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-A-TITLE",
+      "contentId": "DE-PROD-P11-A-TITLE",
       "sourceContentId": "CN-P11-PROD-11",
       "sourceCn": "GOA91F-00C",
       "translation": "GOA91F-00C",
@@ -3564,10 +3564,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-A-NOTE",
+      "contentId": "DE-PROD-P11-A-NOTE",
       "sourceContentId": "CN-P11-PROD-11-NOTE",
       "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
-      "translation": "Mounting dimensions and reduction ratios can be adjusted and customized to meet customer requirements.",
+      "translation": "Anbaumaße und Übersetzungsverhältnisse können an die Kundenanforderungen angepasst und kundenspezifisch konfiguriert werden.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3577,10 +3577,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P11-A-APP",
+      "contentId": "DE-PROD-P11-A-APP",
       "sourceContentId": "CN-P11-PROD-11-APP",
       "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
-      "translation": "Precision planetary wheel-hub travel reducer for AGV mobile robots",
+      "translation": "Präzisions-Planeten-Radnaben-Laufgetriebe für mobile AGV-Roboter",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3593,10 +3593,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-A-PARAM-265",
+      "contentId": "DE-PROD-P11-A-PARAM-265",
       "sourceContentId": "CN-P11-PROD-11-PARAM-额定功率",
       "sourceCn": "额定功率 = 9KW",
-      "translation": "Rated power = 9KW",
+      "translation": "Nennleistung = 9KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3607,10 +3607,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-A-PARAM-266",
+      "contentId": "DE-PROD-P11-A-PARAM-266",
       "sourceContentId": "CN-P11-PROD-11-PARAM-额定输入转速",
       "sourceCn": "额定输入转速 = 2715r/min",
-      "translation": "Rated input speed = 2715r/min",
+      "translation": "Nenndrehzahl Eingang = 2715r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3621,10 +3621,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-A-PARAM-267",
+      "contentId": "DE-PROD-P11-A-PARAM-267",
       "sourceContentId": "CN-P11-PROD-11-PARAM-最大输入转速",
       "sourceCn": "最大输入转速 = 4000r/min",
-      "translation": "Max input speed = 4000r/min",
+      "translation": "Max. Drehzahl Eingang = 4000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3635,10 +3635,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-A-PARAM-268",
+      "contentId": "DE-PROD-P11-A-PARAM-268",
       "sourceContentId": "CN-P11-PROD-11-PARAM-减速比",
       "sourceCn": "减速比 = 127.54:1",
-      "translation": "Reduction ratio = 127.54:1",
+      "translation": "Übersetzungsverhältnis = 127.54:1",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3649,10 +3649,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-A-PARAM-269",
+      "contentId": "DE-PROD-P11-A-PARAM-269",
       "sourceContentId": "CN-P11-PROD-11-PARAM-额定输出转矩",
       "sourceCn": "额定输出转矩 = 10000NM",
-      "translation": "Rated output torque = 10000NM",
+      "translation": "Nenndrehmoment Abtrieb = 10000NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3663,10 +3663,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-A-PARAM-270",
+      "contentId": "DE-PROD-P11-A-PARAM-270",
       "sourceContentId": "CN-P11-PROD-11-PARAM-最大输出转矩",
       "sourceCn": "最大输出转矩 = 38568NM",
-      "translation": "Max output torque = 38568NM",
+      "translation": "Max. Drehmoment Abtrieb = 38568NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3677,10 +3677,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-A-PARAM-271",
+      "contentId": "DE-PROD-P11-A-PARAM-271",
       "sourceContentId": "CN-P11-PROD-11-PARAM-噪音",
       "sourceCn": "噪音 = ≤65dB",
-      "translation": "Noise = ≤65dB",
+      "translation": "Geräusch = ≤65dB",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3691,10 +3691,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-A-PARAM-272",
+      "contentId": "DE-PROD-P11-A-PARAM-272",
       "sourceContentId": "CN-P11-PROD-11-PARAM-最大径向力",
       "sourceCn": "最大径向力 = 20000KG",
-      "translation": "Max radial load = 20000KG",
+      "translation": "Max. Radialkraft = 20000KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3705,10 +3705,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-A-PARAM-273",
+      "contentId": "DE-PROD-P11-A-PARAM-273",
       "sourceContentId": "CN-P11-PROD-11-PARAM-回程间隙",
       "sourceCn": "回程间隙 = ≤30arcmin",
-      "translation": "Backlash = ≤30arcmin",
+      "translation": "Spiel = ≤30arcmin",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3719,10 +3719,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-A-PARAM-274",
+      "contentId": "DE-PROD-P11-A-PARAM-274",
       "sourceContentId": "CN-P11-PROD-11-PARAM-满载效率",
       "sourceCn": "满载效率 = ≥90%",
-      "translation": "Full-load efficiency = ≥90%",
+      "translation": "Wirkungsgrad bei Volllast = ≥90%",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3733,10 +3733,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-A-PARAM-275",
+      "contentId": "DE-PROD-P11-A-PARAM-275",
       "sourceContentId": "CN-P11-PROD-11-PARAM-使用寿命",
       "sourceCn": "使用寿命 = ≥20000h",
-      "translation": "Service life = ≥20000h",
+      "translation": "Lebensdauer = ≥20000h",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3747,10 +3747,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-A-PARAM-276",
+      "contentId": "DE-PROD-P11-A-PARAM-276",
       "sourceContentId": "CN-P11-PROD-11-PARAM-润滑",
       "sourceCn": "润滑 = 润滑油",
-      "translation": "Lubrication = Lubricating oil",
+      "translation": "Schmierung = Schmieröl",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3759,10 +3759,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P11-A-PARAM-277",
+      "contentId": "DE-PROD-P11-A-PARAM-277",
       "sourceContentId": "CN-P11-PROD-11-PARAM-使用环境温度",
       "sourceCn": "使用环境温度 = -15°C~+90°C",
-      "translation": "Ambient operating temperature = -15°C~+90°C",
+      "translation": "Betriebsumgebungstemperatur = -15°C~+90°C",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3773,10 +3773,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-A-PARAM-278",
+      "contentId": "DE-PROD-P11-A-PARAM-278",
       "sourceContentId": "CN-P11-PROD-11-PARAM-防护等级",
       "sourceCn": "防护等级 = IP54",
-      "translation": "Protection rating = IP54",
+      "translation": "Schutzart = IP54",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -3787,10 +3787,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-A-PARAM-279",
+      "contentId": "DE-PROD-P11-A-PARAM-279",
       "sourceContentId": "CN-P11-PROD-11-PARAM-推荐适配电机",
       "sourceCn": "推荐适配电机 = 7.5KW-11KW",
-      "translation": "Recommended matching motor = 7.5KW-11KW",
+      "translation": "Empfohlener Anpassungsmotor = 7.5KW-11KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3801,10 +3801,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-A-PARAM-280",
+      "contentId": "DE-PROD-P11-A-PARAM-280",
       "sourceContentId": "CN-P11-PROD-11-PARAM-单轮驱动载荷",
       "sourceCn": "单轮驱动载荷 = 20000KG",
-      "translation": "Single-wheel drive load = 20000KG",
+      "translation": "Antriebslast pro Rad = 20000KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3815,10 +3815,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-A-PARAM-281",
+      "contentId": "DE-PROD-P11-A-PARAM-281",
       "sourceContentId": "CN-P11-PROD-11-PARAM-行走速度",
       "sourceCn": "行走速度 = 0.56m/s-0.67m/s",
-      "translation": "Travel speed = 0.56m/s-0.67m/s",
+      "translation": "Fahrgeschwindigkeit = 0.56m/s-0.67m/s",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3829,10 +3829,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-A-PARAM-282",
+      "contentId": "DE-PROD-P11-A-PARAM-282",
       "sourceContentId": "CN-P11-PROD-11-PARAM-适配轮径",
       "sourceCn": "适配轮径 = Φ500-Φ600/推荐Φ600",
-      "translation": "Matching wheel diameter = Φ500-Φ600/推荐Φ600",
+      "translation": "passender Raddurchmesser = Φ500-Φ600/empfohlen Φ600",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -3843,7 +3843,7 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-B-TITLE",
+      "contentId": "DE-PROD-P11-B-TITLE",
       "sourceContentId": "CN-P11-PROD-12",
       "sourceCn": "AFR90-L2-C20",
       "translation": "AFR90-L2-C20",
@@ -3857,10 +3857,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-B-NOTE",
+      "contentId": "DE-PROD-P11-B-NOTE",
       "sourceContentId": "CN-P11-PROD-12-NOTE",
       "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
-      "translation": "Mounting dimensions and reduction ratios can be adjusted and customized to meet customer requirements.",
+      "translation": "Anbaumaße und Übersetzungsverhältnisse können an die Kundenanforderungen angepasst und kundenspezifisch konfiguriert werden.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3870,10 +3870,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P11-B-APP",
+      "contentId": "DE-PROD-P11-B-APP",
       "sourceContentId": "CN-P11-PROD-12-APP",
       "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
-      "translation": "Precision planetary wheel-hub travel reducer for AGV mobile robots",
+      "translation": "Präzisions-Planeten-Radnaben-Laufgetriebe für mobile AGV-Roboter",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3886,10 +3886,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-B-PARAM-286",
+      "contentId": "DE-PROD-P11-B-PARAM-286",
       "sourceContentId": "CN-P11-PROD-12-PARAM-额定功率",
       "sourceCn": "额定功率 = 1kW",
-      "translation": "Rated power = 1kW",
+      "translation": "Nennleistung = 1kW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3900,10 +3900,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-B-PARAM-287",
+      "contentId": "DE-PROD-P11-B-PARAM-287",
       "sourceContentId": "CN-P11-PROD-12-PARAM-额定输入转速",
       "sourceCn": "额定输入转速 = 3000r/min",
-      "translation": "Rated input speed = 3000r/min",
+      "translation": "Nenndrehzahl Eingang = 3000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3914,10 +3914,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-B-PARAM-288",
+      "contentId": "DE-PROD-P11-B-PARAM-288",
       "sourceContentId": "CN-P11-PROD-12-PARAM-最大输入转速",
       "sourceCn": "最大输入转速 = 6000r/min",
-      "translation": "Max input speed = 6000r/min",
+      "translation": "Max. Drehzahl Eingang = 6000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -3928,10 +3928,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-B-PARAM-289",
+      "contentId": "DE-PROD-P11-B-PARAM-289",
       "sourceContentId": "CN-P11-PROD-12-PARAM-减速比",
       "sourceCn": "减速比 = 12-100",
-      "translation": "Reduction ratio = 12-100",
+      "translation": "Übersetzungsverhältnis = 12-100",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3942,10 +3942,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-B-PARAM-290",
+      "contentId": "DE-PROD-P11-B-PARAM-290",
       "sourceContentId": "CN-P11-PROD-12-PARAM-额定输出转矩",
       "sourceCn": "额定输出转矩 = 60-108NM",
-      "translation": "Rated output torque = 60-108NM",
+      "translation": "Nenndrehmoment Abtrieb = 60-108NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3956,10 +3956,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-B-PARAM-291",
+      "contentId": "DE-PROD-P11-B-PARAM-291",
       "sourceContentId": "CN-P11-PROD-12-PARAM-最大输出转矩",
       "sourceCn": "最大输出转矩 = 120-200NM",
-      "translation": "Max output torque = 120-200NM",
+      "translation": "Max. Drehmoment Abtrieb = 120-200NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -3970,10 +3970,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-B-PARAM-292",
+      "contentId": "DE-PROD-P11-B-PARAM-292",
       "sourceContentId": "CN-P11-PROD-12-PARAM-噪音",
       "sourceCn": "噪音 = ≤65dB",
-      "translation": "Noise = ≤65dB",
+      "translation": "Geräusch = ≤65dB",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3984,10 +3984,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-B-PARAM-293",
+      "contentId": "DE-PROD-P11-B-PARAM-293",
       "sourceContentId": "CN-P11-PROD-12-PARAM-最大径向力",
       "sourceCn": "最大径向力 = 1200N",
-      "translation": "Max radial load = 1200N",
+      "translation": "Max. Radialkraft = 1200N",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3998,10 +3998,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-B-PARAM-294",
+      "contentId": "DE-PROD-P11-B-PARAM-294",
       "sourceContentId": "CN-P11-PROD-12-PARAM-回程间隙",
       "sourceCn": "回程间隙 = ≤30arcmin",
-      "translation": "Backlash = ≤30arcmin",
+      "translation": "Spiel = ≤30arcmin",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -4012,10 +4012,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-B-PARAM-295",
+      "contentId": "DE-PROD-P11-B-PARAM-295",
       "sourceContentId": "CN-P11-PROD-12-PARAM-满载效率",
       "sourceCn": "满载效率 = ≥90%",
-      "translation": "Full-load efficiency = ≥90%",
+      "translation": "Wirkungsgrad bei Volllast = ≥90%",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4026,10 +4026,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-B-PARAM-296",
+      "contentId": "DE-PROD-P11-B-PARAM-296",
       "sourceContentId": "CN-P11-PROD-12-PARAM-使用寿命",
       "sourceCn": "使用寿命 = ≥20000h",
-      "translation": "Service life = ≥20000h",
+      "translation": "Lebensdauer = ≥20000h",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4040,10 +4040,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-B-PARAM-297",
+      "contentId": "DE-PROD-P11-B-PARAM-297",
       "sourceContentId": "CN-P11-PROD-12-PARAM-润滑",
       "sourceCn": "润滑 = 免维护合成润滑脂",
-      "translation": "Lubrication = Maintenance-free synthetic grease",
+      "translation": "Schmierung = Wartungsfreies Synthetikfett",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4052,10 +4052,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P11-B-PARAM-298",
+      "contentId": "DE-PROD-P11-B-PARAM-298",
       "sourceContentId": "CN-P11-PROD-12-PARAM-使用环境温度",
       "sourceCn": "使用环境温度 = -15°C~+90°C",
-      "translation": "Ambient operating temperature = -15°C~+90°C",
+      "translation": "Betriebsumgebungstemperatur = -15°C~+90°C",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4066,10 +4066,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-B-PARAM-299",
+      "contentId": "DE-PROD-P11-B-PARAM-299",
       "sourceContentId": "CN-P11-PROD-12-PARAM-防护等级",
       "sourceCn": "防护等级 = IP54",
-      "translation": "Protection rating = IP54",
+      "translation": "Schutzart = IP54",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4080,10 +4080,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-B-PARAM-300",
+      "contentId": "DE-PROD-P11-B-PARAM-300",
       "sourceContentId": "CN-P11-PROD-12-PARAM-推荐适配电机",
       "sourceCn": "推荐适配电机 = 1kW 48V",
-      "translation": "Recommended matching motor = 1kW 48V",
+      "translation": "Empfohlener Anpassungsmotor = 1kW 48V",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4094,10 +4094,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-B-PARAM-301",
+      "contentId": "DE-PROD-P11-B-PARAM-301",
       "sourceContentId": "CN-P11-PROD-12-PARAM-额定电流",
       "sourceCn": "额定电流 = 27A",
-      "translation": "Rated current = 27A",
+      "translation": "Nennstrom = 27A",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4108,10 +4108,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P11-B-PARAM-302",
+      "contentId": "DE-PROD-P11-B-PARAM-302",
       "sourceContentId": "CN-P11-PROD-12-PARAM-设备载荷",
       "sourceCn": "设备载荷 = 1000KG",
-      "translation": "Equipment load capacity = 1000KG",
+      "translation": "Gerätelastkapazität = 1000KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4122,7 +4122,7 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-A-TITLE",
+      "contentId": "DE-PROD-P12-A-TITLE",
       "sourceContentId": "CN-P12-PROD-13",
       "sourceCn": "FE-155D-L2-S2-P2",
       "translation": "FE-155D-L2-S2-P2",
@@ -4136,10 +4136,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-A-NOTE",
+      "contentId": "DE-PROD-P12-A-NOTE",
       "sourceContentId": "CN-P12-PROD-13-NOTE",
       "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
-      "translation": "Mounting dimensions and reduction ratios can be adjusted and customized to meet customer requirements.",
+      "translation": "Anbaumaße und Übersetzungsverhältnisse können an die Kundenanforderungen angepasst und kundenspezifisch konfiguriert werden.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4149,10 +4149,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P12-A-APP",
+      "contentId": "DE-PROD-P12-A-APP",
       "sourceContentId": "CN-P12-PROD-13-APP",
       "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
-      "translation": "Precision planetary wheel-hub travel reducer for AGV mobile robots",
+      "translation": "Präzisions-Planeten-Radnaben-Laufgetriebe für mobile AGV-Roboter",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4165,10 +4165,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-A-PARAM-306",
+      "contentId": "DE-PROD-P12-A-PARAM-306",
       "sourceContentId": "CN-P12-PROD-13-PARAM-额定功率",
       "sourceCn": "额定功率 = 1.2KW-3KW",
-      "translation": "Rated power = 1.2KW-3KW",
+      "translation": "Nennleistung = 1.2KW-3KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4179,10 +4179,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-A-PARAM-307",
+      "contentId": "DE-PROD-P12-A-PARAM-307",
       "sourceContentId": "CN-P12-PROD-13-PARAM-额定输入转速",
       "sourceCn": "额定输入转速 = 3000r/min",
-      "translation": "Rated input speed = 3000r/min",
+      "translation": "Nenndrehzahl Eingang = 3000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4193,10 +4193,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-A-PARAM-308",
+      "contentId": "DE-PROD-P12-A-PARAM-308",
       "sourceContentId": "CN-P12-PROD-13-PARAM-最大输入转速",
       "sourceCn": "最大输入转速 = 6000r/min",
-      "translation": "Max input speed = 6000r/min",
+      "translation": "Max. Drehzahl Eingang = 6000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4207,10 +4207,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-A-PARAM-309",
+      "contentId": "DE-PROD-P12-A-PARAM-309",
       "sourceContentId": "CN-P12-PROD-13-PARAM-减速比",
       "sourceCn": "减速比 = 12-100",
-      "translation": "Reduction ratio = 12-100",
+      "translation": "Übersetzungsverhältnis = 12-100",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4221,10 +4221,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-A-PARAM-310",
+      "contentId": "DE-PROD-P12-A-PARAM-310",
       "sourceContentId": "CN-P12-PROD-13-PARAM-额定输出转矩",
       "sourceCn": "额定输出转矩 = 342-450NM",
-      "translation": "Rated output torque = 342-450NM",
+      "translation": "Nenndrehmoment Abtrieb = 342-450NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4235,10 +4235,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-A-PARAM-311",
+      "contentId": "DE-PROD-P12-A-PARAM-311",
       "sourceContentId": "CN-P12-PROD-13-PARAM-最大输出转矩",
       "sourceCn": "最大输出转矩 = 684-900NM",
-      "translation": "Max output torque = 684-900NM",
+      "translation": "Max. Drehmoment Abtrieb = 684-900NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4249,10 +4249,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-A-PARAM-312",
+      "contentId": "DE-PROD-P12-A-PARAM-312",
       "sourceContentId": "CN-P12-PROD-13-PARAM-噪音",
       "sourceCn": "噪音 = ≤65dB",
-      "translation": "Noise = ≤65dB",
+      "translation": "Geräusch = ≤65dB",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4263,10 +4263,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-A-PARAM-313",
+      "contentId": "DE-PROD-P12-A-PARAM-313",
       "sourceContentId": "CN-P12-PROD-13-PARAM-最大径向力",
       "sourceCn": "最大径向力 = 9400N",
-      "translation": "Max radial load = 9400N",
+      "translation": "Max. Radialkraft = 9400N",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -4277,10 +4277,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-A-PARAM-314",
+      "contentId": "DE-PROD-P12-A-PARAM-314",
       "sourceContentId": "CN-P12-PROD-13-PARAM-回程间隙",
       "sourceCn": "回程间隙 = ≤10arcmin",
-      "translation": "Backlash = ≤10arcmin",
+      "translation": "Spiel = ≤10arcmin",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -4291,10 +4291,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-A-PARAM-315",
+      "contentId": "DE-PROD-P12-A-PARAM-315",
       "sourceContentId": "CN-P12-PROD-13-PARAM-满载效率",
       "sourceCn": "满载效率 = ≥90%",
-      "translation": "Full-load efficiency = ≥90%",
+      "translation": "Wirkungsgrad bei Volllast = ≥90%",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4305,10 +4305,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-A-PARAM-316",
+      "contentId": "DE-PROD-P12-A-PARAM-316",
       "sourceContentId": "CN-P12-PROD-13-PARAM-使用寿命",
       "sourceCn": "使用寿命 = ≥20000h",
-      "translation": "Service life = ≥20000h",
+      "translation": "Lebensdauer = ≥20000h",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4319,10 +4319,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-A-PARAM-317",
+      "contentId": "DE-PROD-P12-A-PARAM-317",
       "sourceContentId": "CN-P12-PROD-13-PARAM-润滑",
       "sourceCn": "润滑 = 免维护合成润滑脂",
-      "translation": "Lubrication = Maintenance-free synthetic grease",
+      "translation": "Schmierung = Wartungsfreies Synthetikfett",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4331,10 +4331,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P12-A-PARAM-318",
+      "contentId": "DE-PROD-P12-A-PARAM-318",
       "sourceContentId": "CN-P12-PROD-13-PARAM-使用环境温度",
       "sourceCn": "使用环境温度 = -15°C~+90°C",
-      "translation": "Ambient operating temperature = -15°C~+90°C",
+      "translation": "Betriebsumgebungstemperatur = -15°C~+90°C",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4345,10 +4345,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-A-PARAM-319",
+      "contentId": "DE-PROD-P12-A-PARAM-319",
       "sourceContentId": "CN-P12-PROD-13-PARAM-防护等级",
       "sourceCn": "防护等级 = IP54",
-      "translation": "Protection rating = IP54",
+      "translation": "Schutzart = IP54",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4359,7 +4359,7 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-B-TITLE",
+      "contentId": "DE-PROD-P12-B-TITLE",
       "sourceContentId": "CN-P12-PROD-14",
       "sourceCn": "FE-160D-L2-S2-P2",
       "translation": "FE-160D-L2-S2-P2",
@@ -4373,10 +4373,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-B-NOTE",
+      "contentId": "DE-PROD-P12-B-NOTE",
       "sourceContentId": "CN-P12-PROD-14-NOTE",
       "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
-      "translation": "Mounting dimensions and reduction ratios can be adjusted and customized to meet customer requirements.",
+      "translation": "Anbaumaße und Übersetzungsverhältnisse können an die Kundenanforderungen angepasst und kundenspezifisch konfiguriert werden.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4386,10 +4386,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P12-B-APP",
+      "contentId": "DE-PROD-P12-B-APP",
       "sourceContentId": "CN-P12-PROD-14-APP",
       "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
-      "translation": "Precision planetary wheel-hub travel reducer for AGV mobile robots",
+      "translation": "Präzisions-Planeten-Radnaben-Laufgetriebe für mobile AGV-Roboter",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4402,10 +4402,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-B-PARAM-323",
+      "contentId": "DE-PROD-P12-B-PARAM-323",
       "sourceContentId": "CN-P12-PROD-14-PARAM-额定功率",
       "sourceCn": "额定功率 = 1.2KW-3KW",
-      "translation": "Rated power = 1.2KW-3KW",
+      "translation": "Nennleistung = 1.2KW-3KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4416,10 +4416,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-B-PARAM-324",
+      "contentId": "DE-PROD-P12-B-PARAM-324",
       "sourceContentId": "CN-P12-PROD-14-PARAM-额定输入转速",
       "sourceCn": "额定输入转速 = 3000r/min",
-      "translation": "Rated input speed = 3000r/min",
+      "translation": "Nenndrehzahl Eingang = 3000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4430,10 +4430,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-B-PARAM-325",
+      "contentId": "DE-PROD-P12-B-PARAM-325",
       "sourceContentId": "CN-P12-PROD-14-PARAM-最大输入转速",
       "sourceCn": "最大输入转速 = 6000r/min",
-      "translation": "Max input speed = 6000r/min",
+      "translation": "Max. Drehzahl Eingang = 6000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4444,10 +4444,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-B-PARAM-326",
+      "contentId": "DE-PROD-P12-B-PARAM-326",
       "sourceContentId": "CN-P12-PROD-14-PARAM-减速比",
       "sourceCn": "减速比 = 12-100",
-      "translation": "Reduction ratio = 12-100",
+      "translation": "Übersetzungsverhältnis = 12-100",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4458,10 +4458,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-B-PARAM-327",
+      "contentId": "DE-PROD-P12-B-PARAM-327",
       "sourceContentId": "CN-P12-PROD-14-PARAM-额定输出转矩",
       "sourceCn": "额定输出转矩 = 342-450NM",
-      "translation": "Rated output torque = 342-450NM",
+      "translation": "Nenndrehmoment Abtrieb = 342-450NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4472,10 +4472,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-B-PARAM-328",
+      "contentId": "DE-PROD-P12-B-PARAM-328",
       "sourceContentId": "CN-P12-PROD-14-PARAM-最大输出转矩",
       "sourceCn": "最大输出转矩 = 684-900NM",
-      "translation": "Max output torque = 684-900NM",
+      "translation": "Max. Drehmoment Abtrieb = 684-900NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -4486,10 +4486,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-B-PARAM-329",
+      "contentId": "DE-PROD-P12-B-PARAM-329",
       "sourceContentId": "CN-P12-PROD-14-PARAM-噪音",
       "sourceCn": "噪音 = ≤65dB",
-      "translation": "Noise = ≤65dB",
+      "translation": "Geräusch = ≤65dB",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4500,10 +4500,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-B-PARAM-330",
+      "contentId": "DE-PROD-P12-B-PARAM-330",
       "sourceContentId": "CN-P12-PROD-14-PARAM-最大径向力",
       "sourceCn": "最大径向力 = 9400N",
-      "translation": "Max radial load = 9400N",
+      "translation": "Max. Radialkraft = 9400N",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4514,10 +4514,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-B-PARAM-331",
+      "contentId": "DE-PROD-P12-B-PARAM-331",
       "sourceContentId": "CN-P12-PROD-14-PARAM-回程间隙",
       "sourceCn": "回程间隙 = ≤10arcmin",
-      "translation": "Backlash = ≤10arcmin",
+      "translation": "Spiel = ≤10arcmin",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4528,10 +4528,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-B-PARAM-332",
+      "contentId": "DE-PROD-P12-B-PARAM-332",
       "sourceContentId": "CN-P12-PROD-14-PARAM-满载效率",
       "sourceCn": "满载效率 = ≥90%",
-      "translation": "Full-load efficiency = ≥90%",
+      "translation": "Wirkungsgrad bei Volllast = ≥90%",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4542,10 +4542,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-B-PARAM-333",
+      "contentId": "DE-PROD-P12-B-PARAM-333",
       "sourceContentId": "CN-P12-PROD-14-PARAM-使用寿命",
       "sourceCn": "使用寿命 = ≥20000h",
-      "translation": "Service life = ≥20000h",
+      "translation": "Lebensdauer = ≥20000h",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4556,10 +4556,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-B-PARAM-334",
+      "contentId": "DE-PROD-P12-B-PARAM-334",
       "sourceContentId": "CN-P12-PROD-14-PARAM-润滑",
       "sourceCn": "润滑 = 免维护合成润滑脂",
-      "translation": "Lubrication = Maintenance-free synthetic grease",
+      "translation": "Schmierung = Wartungsfreies Synthetikfett",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4568,10 +4568,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P12-B-PARAM-335",
+      "contentId": "DE-PROD-P12-B-PARAM-335",
       "sourceContentId": "CN-P12-PROD-14-PARAM-使用环境温度",
       "sourceCn": "使用环境温度 = -15°C~+90°C",
-      "translation": "Ambient operating temperature = -15°C~+90°C",
+      "translation": "Betriebsumgebungstemperatur = -15°C~+90°C",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4582,10 +4582,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P12-B-PARAM-336",
+      "contentId": "DE-PROD-P12-B-PARAM-336",
       "sourceContentId": "CN-P12-PROD-14-PARAM-防护等级",
       "sourceCn": "防护等级 = IP54",
-      "translation": "Protection rating = IP54",
+      "translation": "Schutzart = IP54",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4596,10 +4596,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-A-TITLE",
+      "contentId": "DE-PROD-P13-A-TITLE",
       "sourceContentId": "CN-P13-PROD-15",
       "sourceCn": "FB-180D-L2-S2-P2(非标件)",
-      "translation": "FB-180D-L2-S2-P2 (non-standard product)",
+      "translation": "FB-180D-L2-S2-P2(Nicht-Normteil)",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4610,10 +4610,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-A-NOTE",
+      "contentId": "DE-PROD-P13-A-NOTE",
       "sourceContentId": "CN-P13-PROD-15-NOTE",
       "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
-      "translation": "Mounting dimensions and reduction ratios can be adjusted and customized to meet customer requirements.",
+      "translation": "Anbaumaße und Übersetzungsverhältnisse können an die Kundenanforderungen angepasst und kundenspezifisch konfiguriert werden.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4623,10 +4623,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P13-A-APP",
+      "contentId": "DE-PROD-P13-A-APP",
       "sourceContentId": "CN-P13-PROD-15-APP",
       "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
-      "translation": "Precision planetary wheel-hub travel reducer for AGV mobile robots",
+      "translation": "Präzisions-Planeten-Radnaben-Laufgetriebe für mobile AGV-Roboter",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4639,10 +4639,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-A-EXTRA",
+      "contentId": "DE-PROD-P13-A-EXTRA",
       "sourceContentId": "CN-P13-PROD-15-EXTRA",
       "sourceCn": "注明：此款为非标件，输入轴非标",
-      "translation": "Note: this model is a non-standard product; the input shaft is non-standard.",
+      "translation": "Hinweis: Dieses Modell ist ein Nicht-Normteil; die Eingangswelle ist nicht genormt.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4652,10 +4652,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P13-A-PARAM-341",
+      "contentId": "DE-PROD-P13-A-PARAM-341",
       "sourceContentId": "CN-P13-PROD-15-PARAM-额定功率",
       "sourceCn": "额定功率 = 4.5KW-7.5KW",
-      "translation": "Rated power = 4.5KW-7.5KW",
+      "translation": "Nennleistung = 4.5KW-7.5KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4666,10 +4666,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-A-PARAM-342",
+      "contentId": "DE-PROD-P13-A-PARAM-342",
       "sourceContentId": "CN-P13-PROD-15-PARAM-额定输入转速",
       "sourceCn": "额定输入转速 = 3000r/min",
-      "translation": "Rated input speed = 3000r/min",
+      "translation": "Nenndrehzahl Eingang = 3000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4680,10 +4680,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-A-PARAM-343",
+      "contentId": "DE-PROD-P13-A-PARAM-343",
       "sourceContentId": "CN-P13-PROD-15-PARAM-最大输入转速",
       "sourceCn": "最大输入转速 = 6000r/min",
-      "translation": "Max input speed = 6000r/min",
+      "translation": "Max. Drehzahl Eingang = 6000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4694,10 +4694,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-A-PARAM-344",
+      "contentId": "DE-PROD-P13-A-PARAM-344",
       "sourceContentId": "CN-P13-PROD-15-PARAM-减速比",
       "sourceCn": "减速比 = 12-100",
-      "translation": "Reduction ratio = 12-100",
+      "translation": "Übersetzungsverhältnis = 12-100",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4708,10 +4708,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-A-PARAM-345",
+      "contentId": "DE-PROD-P13-A-PARAM-345",
       "sourceContentId": "CN-P13-PROD-15-PARAM-额定输出转矩",
       "sourceCn": "额定输出转矩 = 588-900NM",
-      "translation": "Rated output torque = 588-900NM",
+      "translation": "Nenndrehmoment Abtrieb = 588-900NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4722,10 +4722,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-A-PARAM-346",
+      "contentId": "DE-PROD-P13-A-PARAM-346",
       "sourceContentId": "CN-P13-PROD-15-PARAM-最大输出转矩",
       "sourceCn": "最大输出转矩 = 1176-1800NM",
-      "translation": "Max output torque = 1176-1800NM",
+      "translation": "Max. Drehmoment Abtrieb = 1176-1800NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -4736,10 +4736,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-A-PARAM-347",
+      "contentId": "DE-PROD-P13-A-PARAM-347",
       "sourceContentId": "CN-P13-PROD-15-PARAM-噪音",
       "sourceCn": "噪音 = ≤67dB",
-      "translation": "Noise = ≤67dB",
+      "translation": "Geräusch = ≤67dB",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4750,10 +4750,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-A-PARAM-348",
+      "contentId": "DE-PROD-P13-A-PARAM-348",
       "sourceContentId": "CN-P13-PROD-15-PARAM-最大径向力",
       "sourceCn": "最大径向力 = 14500N",
-      "translation": "Max radial load = 14500N",
+      "translation": "Max. Radialkraft = 14500N",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4764,10 +4764,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-A-PARAM-349",
+      "contentId": "DE-PROD-P13-A-PARAM-349",
       "sourceContentId": "CN-P13-PROD-15-PARAM-回程间隙",
       "sourceCn": "回程间隙 = ≤10arcmin",
-      "translation": "Backlash = ≤10arcmin",
+      "translation": "Spiel = ≤10arcmin",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -4778,10 +4778,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-A-PARAM-350",
+      "contentId": "DE-PROD-P13-A-PARAM-350",
       "sourceContentId": "CN-P13-PROD-15-PARAM-满载效率",
       "sourceCn": "满载效率 = ≥90%",
-      "translation": "Full-load efficiency = ≥90%",
+      "translation": "Wirkungsgrad bei Volllast = ≥90%",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4792,10 +4792,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-A-PARAM-351",
+      "contentId": "DE-PROD-P13-A-PARAM-351",
       "sourceContentId": "CN-P13-PROD-15-PARAM-使用寿命",
       "sourceCn": "使用寿命 = ≥20000h",
-      "translation": "Service life = ≥20000h",
+      "translation": "Lebensdauer = ≥20000h",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4806,10 +4806,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-A-PARAM-352",
+      "contentId": "DE-PROD-P13-A-PARAM-352",
       "sourceContentId": "CN-P13-PROD-15-PARAM-润滑",
       "sourceCn": "润滑 = 免维护合成润滑脂",
-      "translation": "Lubrication = Maintenance-free synthetic grease",
+      "translation": "Schmierung = Wartungsfreies Synthetikfett",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4818,10 +4818,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P13-A-PARAM-353",
+      "contentId": "DE-PROD-P13-A-PARAM-353",
       "sourceContentId": "CN-P13-PROD-15-PARAM-使用环境温度",
       "sourceCn": "使用环境温度 = -15°C~+90°C",
-      "translation": "Ambient operating temperature = -15°C~+90°C",
+      "translation": "Betriebsumgebungstemperatur = -15°C~+90°C",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4832,10 +4832,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-A-PARAM-354",
+      "contentId": "DE-PROD-P13-A-PARAM-354",
       "sourceContentId": "CN-P13-PROD-15-PARAM-防护等级",
       "sourceCn": "防护等级 = IP54",
-      "translation": "Protection rating = IP54",
+      "translation": "Schutzart = IP54",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4846,10 +4846,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-B-TITLE",
+      "contentId": "DE-PROD-P13-B-TITLE",
       "sourceContentId": "CN-P13-PROD-16",
       "sourceCn": "301-2-003120-00(带制动轴)",
-      "translation": "301-2-003120-00 (with brake shaft)",
+      "translation": "301-2-003120-00(mit Bremswelle)",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4860,10 +4860,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-B-NOTE",
+      "contentId": "DE-PROD-P13-B-NOTE",
       "sourceContentId": "CN-P13-PROD-16-NOTE",
       "sourceCn": "产品连接尺寸和速比可以根据客户需求调整和定制。",
-      "translation": "Mounting dimensions and reduction ratios can be adjusted and customized to meet customer requirements.",
+      "translation": "Anbaumaße und Übersetzungsverhältnisse können an die Kundenanforderungen angepasst und kundenspezifisch konfiguriert werden.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4873,10 +4873,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P13-B-APP",
+      "contentId": "DE-PROD-P13-B-APP",
       "sourceContentId": "CN-P13-PROD-16-APP",
       "sourceCn": "AGV移动机器人专用精密行星轮毂行走减速器",
-      "translation": "Precision planetary wheel-hub travel reducer for AGV mobile robots",
+      "translation": "Präzisions-Planeten-Radnaben-Laufgetriebe für mobile AGV-Roboter",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4889,10 +4889,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-B-PARAM-358",
+      "contentId": "DE-PROD-P13-B-PARAM-358",
       "sourceContentId": "CN-P13-PROD-16-PARAM-额定功率",
       "sourceCn": "额定功率 = 9KW",
-      "translation": "Rated power = 9KW",
+      "translation": "Nennleistung = 9KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4903,10 +4903,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-B-PARAM-359",
+      "contentId": "DE-PROD-P13-B-PARAM-359",
       "sourceContentId": "CN-P13-PROD-16-PARAM-额定输入转速",
       "sourceCn": "额定输入转速 = 3000r/min",
-      "translation": "Rated input speed = 3000r/min",
+      "translation": "Nenndrehzahl Eingang = 3000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4917,10 +4917,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-B-PARAM-360",
+      "contentId": "DE-PROD-P13-B-PARAM-360",
       "sourceContentId": "CN-P13-PROD-16-PARAM-最大输入转速",
       "sourceCn": "最大输入转速 = 6000r/min",
-      "translation": "Max input speed = 6000r/min",
+      "translation": "Max. Drehzahl Eingang = 6000r/min",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4931,10 +4931,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-B-PARAM-361",
+      "contentId": "DE-PROD-P13-B-PARAM-361",
       "sourceContentId": "CN-P13-PROD-16-PARAM-减速比",
       "sourceCn": "减速比 = 120:1",
-      "translation": "Reduction ratio = 120:1",
+      "translation": "Übersetzungsverhältnis = 120:1",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4945,10 +4945,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-B-PARAM-362",
+      "contentId": "DE-PROD-P13-B-PARAM-362",
       "sourceContentId": "CN-P13-PROD-16-PARAM-额定输出转矩",
       "sourceCn": "额定输出转矩 = 3200NM",
-      "translation": "Rated output torque = 3200NM",
+      "translation": "Nenndrehmoment Abtrieb = 3200NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4959,10 +4959,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-B-PARAM-363",
+      "contentId": "DE-PROD-P13-B-PARAM-363",
       "sourceContentId": "CN-P13-PROD-16-PARAM-最大输出转矩",
       "sourceCn": "最大输出转矩 = 6400NM",
-      "translation": "Max output torque = 6400NM",
+      "translation": "Max. Drehmoment Abtrieb = 6400NM",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -4973,10 +4973,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-B-PARAM-364",
+      "contentId": "DE-PROD-P13-B-PARAM-364",
       "sourceContentId": "CN-P13-PROD-16-PARAM-噪音",
       "sourceCn": "噪音 = ≤70dB",
-      "translation": "Noise = ≤70dB",
+      "translation": "Geräusch = ≤70dB",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -4987,10 +4987,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-B-PARAM-365",
+      "contentId": "DE-PROD-P13-B-PARAM-365",
       "sourceContentId": "CN-P13-PROD-16-PARAM-最大径向力",
       "sourceCn": "最大径向力 = 12000KG",
-      "translation": "Max radial load = 12000KG",
+      "translation": "Max. Radialkraft = 12000KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -5001,10 +5001,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-B-PARAM-366",
+      "contentId": "DE-PROD-P13-B-PARAM-366",
       "sourceContentId": "CN-P13-PROD-16-PARAM-回程间隙",
       "sourceCn": "回程间隙 = ≤60arcmin",
-      "translation": "Backlash = ≤60arcmin",
+      "translation": "Spiel = ≤60arcmin",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -5015,10 +5015,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-B-PARAM-367",
+      "contentId": "DE-PROD-P13-B-PARAM-367",
       "sourceContentId": "CN-P13-PROD-16-PARAM-满载效率",
       "sourceCn": "满载效率 = ≥90%",
-      "translation": "Full-load efficiency = ≥90%",
+      "translation": "Wirkungsgrad bei Volllast = ≥90%",
       "translationStatus": "TRANSLATED",
       "confidence": 0.95,
       "glossaryTermsUsed": [
@@ -5029,10 +5029,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-B-PARAM-368",
+      "contentId": "DE-PROD-P13-B-PARAM-368",
       "sourceContentId": "CN-P13-PROD-16-PARAM-使用寿命",
       "sourceCn": "使用寿命 = ≥20000h",
-      "translation": "Service life = ≥20000h",
+      "translation": "Lebensdauer = ≥20000h",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -5043,10 +5043,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-B-PARAM-369",
+      "contentId": "DE-PROD-P13-B-PARAM-369",
       "sourceContentId": "CN-P13-PROD-16-PARAM-润滑",
       "sourceCn": "润滑 = 润滑油",
-      "translation": "Lubrication = Lubricating oil",
+      "translation": "Schmierung = Schmieröl",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -5055,10 +5055,10 @@
       "protectedTermsPreserved": []
     },
     {
-      "contentId": "EN-PROD-P13-B-PARAM-370",
+      "contentId": "DE-PROD-P13-B-PARAM-370",
       "sourceContentId": "CN-P13-PROD-16-PARAM-使用环境温度",
       "sourceCn": "使用环境温度 = -15°C~+90°C",
-      "translation": "Ambient operating temperature = -15°C~+90°C",
+      "translation": "Betriebsumgebungstemperatur = -15°C~+90°C",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -5069,10 +5069,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-B-PARAM-371",
+      "contentId": "DE-PROD-P13-B-PARAM-371",
       "sourceContentId": "CN-P13-PROD-16-PARAM-防护等级",
       "sourceCn": "防护等级 = IP54",
-      "translation": "Protection rating = IP54",
+      "translation": "Schutzart = IP54",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -5083,10 +5083,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-B-PARAM-372",
+      "contentId": "DE-PROD-P13-B-PARAM-372",
       "sourceContentId": "CN-P13-PROD-16-PARAM-推荐适配电机",
       "sourceCn": "推荐适配电机 = 7.5KW-11KW",
-      "translation": "Recommended matching motor = 7.5KW-11KW",
+      "translation": "Empfohlener Anpassungsmotor = 7.5KW-11KW",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -5097,10 +5097,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-B-PARAM-373",
+      "contentId": "DE-PROD-P13-B-PARAM-373",
       "sourceContentId": "CN-P13-PROD-16-PARAM-单轮驱动载荷",
       "sourceCn": "单轮驱动载荷 = 12000KG",
-      "translation": "Single-wheel drive load = 12000KG",
+      "translation": "Antriebslast pro Rad = 12000KG",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -5111,10 +5111,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-B-PARAM-374",
+      "contentId": "DE-PROD-P13-B-PARAM-374",
       "sourceContentId": "CN-P13-PROD-16-PARAM-行走速度",
       "sourceCn": "行走速度 = 0.65m/s-0.785m/s",
-      "translation": "Travel speed = 0.65m/s-0.785m/s",
+      "translation": "Fahrgeschwindigkeit = 0.65m/s-0.785m/s",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -5125,10 +5125,10 @@
       ]
     },
     {
-      "contentId": "EN-PROD-P13-B-PARAM-375",
+      "contentId": "DE-PROD-P13-B-PARAM-375",
       "sourceContentId": "CN-P13-PROD-16-PARAM-适配轮径",
       "sourceCn": "适配轮径 = Φ500-Φ600/推荐Φ600",
-      "translation": "Matching wheel diameter = Φ500-Φ600/推荐Φ600",
+      "translation": "passender Raddurchmesser = Φ500-Φ600/empfohlen Φ600",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [

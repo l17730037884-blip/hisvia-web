@@ -83,7 +83,7 @@ export function ProductCarousel({ items }: { items: ProductCarouselItem[] }) {
             onClick={() => goTo(index - 1)}
             className="flex h-9 w-9 items-center justify-center rounded-full border border-line bg-surface text-ink transition-colors duration-300 hover:bg-ink hover:text-white md:h-10 md:w-10"
           >
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden className="rtl:-scale-x-100">
               <path d="M10 3L5 8l5 5" stroke="currentColor" strokeWidth="1.5" />
             </svg>
           </button>
@@ -109,7 +109,7 @@ export function ProductCarousel({ items }: { items: ProductCarouselItem[] }) {
             onClick={() => goTo(index + 1)}
             className="flex h-9 w-9 items-center justify-center rounded-full border border-line bg-surface text-ink transition-colors duration-300 hover:bg-ink hover:text-white md:h-10 md:w-10"
           >
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden className="rtl:-scale-x-100">
               <path d="M6 3l5 5-5 5" stroke="currentColor" strokeWidth="1.5" />
             </svg>
           </button>

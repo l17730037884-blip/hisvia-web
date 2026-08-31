@@ -70,7 +70,7 @@ function ContactIcon() {
 
 function ArrowIcon() {
   return (
-    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden>
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden className="rtl:-scale-x-100">
       <path d="M3 8h9m-3-4 4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );
@@ -191,9 +191,9 @@ export function QuickLinks({ items }: { items: QuickLink[] }) {
                         item.description ? "mt-4 md:mt-5" : "mt-4"
                       )}
                     >
-                      <span>→</span>
+                      <span className="rtl:-scale-x-100">→</span>
                       <span className="relative h-px w-8 overflow-hidden">
-                        <span className="absolute inset-0 -translate-x-full bg-white transition-transform duration-500 group-hover:translate-x-0" />
+                        <span className="absolute inset-0 -translate-x-full rtl:translate-x-full bg-white transition-transform duration-500 group-hover:translate-x-0" />
                       </span>
                       <ArrowIcon />
                     </span>

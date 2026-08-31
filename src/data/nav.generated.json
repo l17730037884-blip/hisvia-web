@@ -1,274 +1,330 @@
 {
- "generatedAt": "2026-08-19T09:33:19.941Z",
- "nav": [
-  {
-   "key": "nav_home",
-   "cn": "首页",
-   "en": "Home",
-   "ru": "Главная"
-  },
-  {
-   "key": "nav_about",
-   "cn": "企业简介",
-   "en": "About",
-   "ru": "О компании"
-  },
-  {
-   "key": "nav_products",
-   "cn": "产品",
-   "en": "Products",
-   "ru": "Продукция"
-  },
-  {
-   "key": "nav_technology",
-   "cn": "技术/工程",
-   "en": "Technology",
-   "ru": "Технологии"
-  },
-  {
-   "key": "nav_certifications",
-   "cn": "资质",
-   "en": "Qualifications",
-   "ru": "Квалификации"
-  },
-  {
-   "key": "nav_applications",
-   "cn": "应用",
-   "en": "Applications",
-   "ru": "Применение"
-  },
-  {
-   "key": "nav_customization",
-   "cn": "定制流程",
-   "en": "Customization",
-   "ru": "Индивидуальные решения"
-  },
-  {
-   "key": "nav_contact",
-   "cn": "联系",
-   "en": "Contact",
-   "ru": "Контакты"
-  }
- ],
- "pages": [
-  {
-   "pageId": "PG-01",
-   "route": "/{lang}/",
-   "name": "Home",
-   "cnName": "首页",
-   "status": "PLANNED",
-   "sourceCoverage": "PARTIAL",
-   "sourceContent": [
-    "CN-P01-H01",
-    "CN-P01-H03",
-    "CN-P01-S01",
-    "CN-P01-H04"
-   ],
-   "sourcePages": [
-    1
-   ],
-   "assetIds": [
-    "ASSET-01"
-   ],
-   "note": "Hero用封面元素; 产品概览/资质摘要可引用, 但无更多首页专属内容"
-  },
-  {
-   "pageId": "PG-02",
-   "route": "/{lang}/about",
-   "name": "About",
-   "cnName": "企业简介",
-   "status": "PLANNED",
-   "sourceCoverage": "SUPPORTED",
-   "sourceContent": [
-    "CN-P03-H01",
-    "CN-P03-B01..B05"
-   ],
-   "sourcePages": [
-    3
-   ],
-   "assetIds": [
-    "ASSET-03"
-   ],
-   "note": "内容完整"
-  },
-  {
-   "pageId": "PG-03",
-   "route": "/{lang}/products",
-   "name": "Products",
-   "cnName": "产品",
-   "status": "PLANNED",
-   "sourceCoverage": "SUPPORTED",
-   "sourceContent": [
-    "CN-P06-PROD-*",
-    "CN-P07-PROD-*",
-    "CN-P08-PROD-*",
-    "CN-P09-PROD-*",
-    "CN-P10-PROD-*",
-    "CN-P11-PROD-*",
-    "CN-P12-PROD-*",
-    "CN-P13-PROD-*"
-   ],
-   "sourcePages": [
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13
-   ],
-   "assetIds": [
-    "ASSET-18",
-    "ASSET-19",
-    "ASSET-20",
-    "ASSET-21",
-    "ASSET-22",
-    "ASSET-23",
-    "ASSET-24",
-    "ASSET-25",
-    "ASSET-26",
-    "ASSET-27",
-    "ASSET-28",
-    "ASSET-29",
-    "ASSET-30",
-    "ASSET-31",
-    "ASSET-32",
-    "ASSET-33",
-    "ASSET-34",
-    "ASSET-35"
-   ],
-   "note": "16产品平铺列表; 无PDF分类, 不虚构分类"
-  },
-  {
-   "pageId": "PG-04",
-   "route": "/{lang}/products/{slug}",
-   "name": "Product Detail",
-   "cnName": "产品详情",
-   "status": "PLANNED",
-   "sourceCoverage": "SUPPORTED",
-   "sourceContent": [
-    "TBL-P06..P13-*-PARAM/ADAPT"
-   ],
-   "sourcePages": [
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13
-   ],
-   "assetIds": [
-    "按产品 productImageMappings"
-   ],
-   "note": "参数表+产品图+定制说明"
-  },
-  {
-   "pageId": "PG-05",
-   "route": "/{lang}/technology",
-   "name": "Technology / Engineering",
-   "cnName": "技术/工程能力",
-   "status": "PLANNED",
-   "sourceCoverage": "PARTIAL",
-   "sourceContent": [
-    "CN-P04-H02",
-    "CN-P04-B03..B05",
-    "CN-P14-B02"
-   ],
-   "sourcePages": [
-    4,
-    14
-   ],
-   "assetIds": [
-    "ASSET-05..09"
-   ],
-   "note": "功能优点=工程能力; 无独立研发流程页内容"
-  },
-  {
-   "pageId": "PG-06",
-   "route": "/{lang}/certifications",
-   "name": "Certifications",
-   "cnName": "资质和荣誉",
-   "status": "PLANNED",
-   "sourceCoverage": "SUPPORTED",
-   "sourceContent": [
-    "CN-P05-F01..F08"
-   ],
-   "sourcePages": [
-    5
-   ],
-   "assetIds": [
-    "ASSET-10",
-    "ASSET-11",
-    "ASSET-12",
-    "ASSET-13",
-    "ASSET-14",
-    "ASSET-15",
-    "ASSET-16",
-    "ASSET-17"
-   ],
-   "note": "8条事实; 证书图组归属"
-  },
-  {
-   "pageId": "PG-07",
-   "route": "/{lang}/applications",
-   "name": "Applications",
-   "cnName": "应用场景",
-   "status": "PLANNED",
-   "sourceCoverage": "PARTIAL",
-   "sourceContent": [
-    "CN-P03-B02",
-    "CN-P04-B01",
-    "CN-P04-B05"
-   ],
-   "sourcePages": [
-    3,
-    4
-   ],
-   "assetIds": [],
-   "note": "仅行业清单, 无案例"
-  },
-  {
-   "pageId": "PG-08",
-   "route": "/{lang}/contact",
-   "name": "Contact",
-   "cnName": "联系",
-   "status": "PLANNED",
-   "sourceCoverage": "PARTIAL",
-   "sourceContent": [
-    "CN-P01-C01",
-    "CN-P01-C02",
-    "CN-P01-C03"
-   ],
-   "sourcePages": [
-    1
-   ],
-   "assetIds": [],
-   "note": "仅地址/电话/邮编; 表单需施工时另议(不虚构)"
-  },
-  {
-   "pageId": "PG-09",
-   "route": "/{lang}/customization",
-   "name": "Customization Process",
-   "cnName": "定制流程",
-   "status": "PLANNED",
-   "sourceCoverage": "SUPPORTED",
-   "sourceContent": [
-    "CN-P14-H01",
-    "CN-P14-P01..P08",
-    "CN-P14-B01"
-   ],
-   "sourcePages": [
-    14
-   ],
-   "assetIds": [
-    "ASSET-36",
-    "ASSET-37",
-    "ASSET-38"
-   ],
-   "note": "8步流程+价值主张"
-  }
- ]
+  "generatedAt": "2026-08-19T09:33:19.941Z",
+  "nav": [
+    {
+      "key": "nav_home",
+      "cn": "首页",
+      "en": "Home",
+      "ru": "Главная",
+      "tr": "Anasayfa",
+      "es": "Inicio",
+      "ar": "الرئيسية",
+      "de": "Startseite",
+      "fr": "Accueil",
+      "pl": "Strona główna",
+      "zh-CN": "首页"
+    },
+    {
+      "key": "nav_about",
+      "cn": "企业简介",
+      "en": "About",
+      "ru": "О компании",
+      "tr": "Hakkımızda",
+      "es": "Nosotros",
+      "ar": "من نحن",
+      "de": "Über uns",
+      "fr": "À propos",
+      "pl": "O nas",
+      "zh-CN": "关于我们"
+    },
+    {
+      "key": "nav_products",
+      "cn": "产品",
+      "en": "Products",
+      "ru": "Продукция",
+      "tr": "Ürünler",
+      "es": "Productos",
+      "ar": "المنتجات",
+      "de": "Produkte",
+      "fr": "Produits",
+      "pl": "Produkty",
+      "zh-CN": "产品"
+    },
+    {
+      "key": "nav_technology",
+      "cn": "技术/工程",
+      "en": "Technology",
+      "ru": "Технологии",
+      "tr": "Teknoloji",
+      "es": "Tecnología",
+      "ar": "التقنية",
+      "de": "Technologie",
+      "fr": "Technologie",
+      "pl": "Technologia",
+      "zh-CN": "技术"
+    },
+    {
+      "key": "nav_certifications",
+      "cn": "资质",
+      "en": "Qualifications",
+      "ru": "Квалификации",
+      "tr": "Belgeler",
+      "es": "Certificaciones",
+      "ar": "الشهادات",
+      "de": "Zertifikate",
+      "fr": "Certifications",
+      "pl": "Certyfikaty",
+      "zh-CN": "资质"
+    },
+    {
+      "key": "nav_applications",
+      "cn": "应用",
+      "en": "Applications",
+      "ru": "Применение",
+      "tr": "Uygulamalar",
+      "es": "Aplicaciones",
+      "ar": "التطبيقات",
+      "de": "Anwendungen",
+      "fr": "Applications",
+      "pl": "Zastosowania",
+      "zh-CN": "应用"
+    },
+    {
+      "key": "nav_customization",
+      "cn": "定制流程",
+      "en": "Customization",
+      "ru": "Индивидуальные решения",
+      "tr": "Özelleştirme",
+      "es": "Personalización",
+      "ar": "التخصيص",
+      "de": "Anpassung",
+      "fr": "Personnalisation",
+      "pl": "Dostosowanie",
+      "zh-CN": "定制"
+    },
+    {
+      "key": "nav_contact",
+      "cn": "联系",
+      "en": "Contact",
+      "ru": "Контакты",
+      "tr": "İletişim",
+      "es": "Contacto",
+      "ar": "اتصل بنا",
+      "de": "Kontakt",
+      "fr": "Contact",
+      "pl": "Kontakt",
+      "zh-CN": "联系"
+    }
+  ],
+  "pages": [
+    {
+      "pageId": "PG-01",
+      "route": "/{lang}/",
+      "name": "Home",
+      "cnName": "首页",
+      "status": "PLANNED",
+      "sourceCoverage": "PARTIAL",
+      "sourceContent": [
+        "CN-P01-H01",
+        "CN-P01-H03",
+        "CN-P01-S01",
+        "CN-P01-H04"
+      ],
+      "sourcePages": [
+        1
+      ],
+      "assetIds": [
+        "ASSET-01"
+      ],
+      "note": "Hero用封面元素; 产品概览/资质摘要可引用, 但无更多首页专属内容"
+    },
+    {
+      "pageId": "PG-02",
+      "route": "/{lang}/about",
+      "name": "About",
+      "cnName": "企业简介",
+      "status": "PLANNED",
+      "sourceCoverage": "SUPPORTED",
+      "sourceContent": [
+        "CN-P03-H01",
+        "CN-P03-B01..B05"
+      ],
+      "sourcePages": [
+        3
+      ],
+      "assetIds": [
+        "ASSET-03"
+      ],
+      "note": "内容完整"
+    },
+    {
+      "pageId": "PG-03",
+      "route": "/{lang}/products",
+      "name": "Products",
+      "cnName": "产品",
+      "status": "PLANNED",
+      "sourceCoverage": "SUPPORTED",
+      "sourceContent": [
+        "CN-P06-PROD-*",
+        "CN-P07-PROD-*",
+        "CN-P08-PROD-*",
+        "CN-P09-PROD-*",
+        "CN-P10-PROD-*",
+        "CN-P11-PROD-*",
+        "CN-P12-PROD-*",
+        "CN-P13-PROD-*"
+      ],
+      "sourcePages": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "assetIds": [
+        "ASSET-18",
+        "ASSET-19",
+        "ASSET-20",
+        "ASSET-21",
+        "ASSET-22",
+        "ASSET-23",
+        "ASSET-24",
+        "ASSET-25",
+        "ASSET-26",
+        "ASSET-27",
+        "ASSET-28",
+        "ASSET-29",
+        "ASSET-30",
+        "ASSET-31",
+        "ASSET-32",
+        "ASSET-33",
+        "ASSET-34",
+        "ASSET-35"
+      ],
+      "note": "16产品平铺列表; 无PDF分类, 不虚构分类"
+    },
+    {
+      "pageId": "PG-04",
+      "route": "/{lang}/products/{slug}",
+      "name": "Product Detail",
+      "cnName": "产品详情",
+      "status": "PLANNED",
+      "sourceCoverage": "SUPPORTED",
+      "sourceContent": [
+        "TBL-P06..P13-*-PARAM/ADAPT"
+      ],
+      "sourcePages": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "assetIds": [
+        "按产品 productImageMappings"
+      ],
+      "note": "参数表+产品图+定制说明"
+    },
+    {
+      "pageId": "PG-05",
+      "route": "/{lang}/technology",
+      "name": "Technology / Engineering",
+      "cnName": "技术/工程能力",
+      "status": "PLANNED",
+      "sourceCoverage": "PARTIAL",
+      "sourceContent": [
+        "CN-P04-H02",
+        "CN-P04-B03..B05",
+        "CN-P14-B02"
+      ],
+      "sourcePages": [
+        4,
+        14
+      ],
+      "assetIds": [
+        "ASSET-05..09"
+      ],
+      "note": "功能优点=工程能力; 无独立研发流程页内容"
+    },
+    {
+      "pageId": "PG-06",
+      "route": "/{lang}/certifications",
+      "name": "Certifications",
+      "cnName": "资质和荣誉",
+      "status": "PLANNED",
+      "sourceCoverage": "SUPPORTED",
+      "sourceContent": [
+        "CN-P05-F01..F08"
+      ],
+      "sourcePages": [
+        5
+      ],
+      "assetIds": [
+        "ASSET-10",
+        "ASSET-11",
+        "ASSET-12",
+        "ASSET-13",
+        "ASSET-14",
+        "ASSET-15",
+        "ASSET-16",
+        "ASSET-17"
+      ],
+      "note": "8条事实; 证书图组归属"
+    },
+    {
+      "pageId": "PG-07",
+      "route": "/{lang}/applications",
+      "name": "Applications",
+      "cnName": "应用场景",
+      "status": "PLANNED",
+      "sourceCoverage": "PARTIAL",
+      "sourceContent": [
+        "CN-P03-B02",
+        "CN-P04-B01",
+        "CN-P04-B05"
+      ],
+      "sourcePages": [
+        3,
+        4
+      ],
+      "assetIds": [],
+      "note": "仅行业清单, 无案例"
+    },
+    {
+      "pageId": "PG-08",
+      "route": "/{lang}/contact",
+      "name": "Contact",
+      "cnName": "联系",
+      "status": "PLANNED",
+      "sourceCoverage": "PARTIAL",
+      "sourceContent": [
+        "CN-P01-C01",
+        "CN-P01-C02",
+        "CN-P01-C03"
+      ],
+      "sourcePages": [
+        1
+      ],
+      "assetIds": [],
+      "note": "仅地址/电话/邮编; 表单需施工时另议(不虚构)"
+    },
+    {
+      "pageId": "PG-09",
+      "route": "/{lang}/customization",
+      "name": "Customization Process",
+      "cnName": "定制流程",
+      "status": "PLANNED",
+      "sourceCoverage": "SUPPORTED",
+      "sourceContent": [
+        "CN-P14-H01",
+        "CN-P14-P01..P08",
+        "CN-P14-B01"
+      ],
+      "sourcePages": [
+        14
+      ],
+      "assetIds": [
+        "ASSET-36",
+        "ASSET-37",
+        "ASSET-38"
+      ],
+      "note": "8步流程+价值主张"
+    }
+  ]
 }

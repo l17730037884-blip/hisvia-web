@@ -1,0 +1,477 @@
+{
+  "generatedAt": "2026-08-30T10:00:00Z",
+  "source": "mirror-reverse-engineering-2026-08-22",
+  "tip": {
+    "ru": "Все продукты доступны для OEM/ODM-кастомизации — обратитесь для расчёта.",
+    "en": "All products available for OEM/ODM customization — contact us for a quote."
+  },
+  "tabLabels": {
+    "all": {
+      "label": {
+        "ru": "Все",
+        "en": "All"
+      },
+      "count": 42
+    },
+    "categories": [
+      {
+        "id": "agv",
+        "label": {
+          "ru": "Серия AGV",
+          "en": "AGV Series"
+        },
+        "count": 5
+      },
+      {
+        "id": "hydraulic",
+        "label": {
+          "ru": "Гидроцилиндры",
+          "en": "Hydraulic Cylinders"
+        },
+        "count": 10
+      },
+      {
+        "id": "planetary",
+        "label": {
+          "ru": "Планетарные редукторы",
+          "en": "Planetary Reducers"
+        },
+        "count": 18
+      },
+      {
+        "id": "slewing",
+        "label": {
+          "ru": "Поворотные редукторы",
+          "en": "Slewing Reducers"
+        },
+        "count": 7
+      },
+      {
+        "id": "winch",
+        "label": {
+          "ru": "Лебёдочные редукторы",
+          "en": "Winch Gearboxes"
+        },
+        "count": 2
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "agv",
+      "title": {
+        "ru": "Серия AGV",
+        "en": "AGV Series"
+      },
+      "count": 5,
+      "countUnit": {
+        "ru": "мод.",
+        "en": "items"
+      },
+      "cards": [
+        {
+          "img": "/assets/cutout/ASSET-05.png",
+          "href": "/products/planetary-reducer#p06-b",
+          "alt": {
+            "ru": "AGV с тяжёлой грузоподъёмностью",
+            "en": "Heavy-Load Lift AGV"
+          }
+        },
+        {
+          "img": "/assets/cutout/ASSET-07.png",
+          "href": "/products/planetary-reducer#p07-b",
+          "alt": {
+            "ru": "Низкопрофильный AGV",
+            "en": "Low-Profile AGV"
+          }
+        },
+        {
+          "img": "/assets/cutout/ASSET-22.png",
+          "href": "/products/planetary-reducer#p08-a",
+          "alt": {
+            "ru": "AGV с интегрированным ведущим колесом",
+            "en": "AGV Integrated Drive Wheel"
+          }
+        },
+        {
+          "img": "/assets/cutout/ASSET-08.png",
+          "href": "/products/planetary-reducer#p08-b",
+          "alt": {
+            "ru": "Компактное рулевое AGV",
+            "en": "Compact Steer Wheel AGV"
+          }
+        },
+        {
+          "img": "/assets/cutout/ASSET-26.png",
+          "href": "/products/planetary-reducer#p10-a",
+          "alt": {
+            "ru": "AGV с интегрированным ведущим колесом",
+            "en": "AGV Integrated Drive Wheel"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hydraulic",
+      "title": {
+        "ru": "Гидроцилиндры",
+        "en": "Hydraulic Cylinders"
+      },
+      "count": 10,
+      "countUnit": {
+        "ru": "мод.",
+        "en": "items"
+      },
+      "cards": [
+        {
+          "img": "/assets/cutout/ASSET-45.png",
+          "href": null,
+          "alt": {
+            "ru": "Гидроцилиндр",
+            "en": "Hydraulic Cylinder"
+          }
+        },
+        {
+          "img": "/assets/cutout/ASSET-46.png",
+          "href": null,
+          "alt": {
+            "ru": "Гидроцилиндр",
+            "en": "Hydraulic Cylinder"
+          }
+        },
+        {
+          "img": "/assets/cutout/ASSET-47.png",
+          "href": null,
+          "alt": {
+            "ru": "Гидроцилиндр",
+            "en": "Hydraulic Cylinder"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p16.png",
+          "href": null,
+          "alt": {
+            "ru": "Рычажный гидроцилиндр",
+            "en": "Bucket Cylinder"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p17.png",
+          "href": null,
+          "alt": {
+            "ru": "Гидроцилиндр",
+            "en": "Hydraulic Cylinder"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p18.png",
+          "href": null,
+          "alt": {
+            "ru": "Гидроцилиндр",
+            "en": "Hydraulic Cylinder"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p10.png",
+          "href": null,
+          "alt": {
+            "ru": "Шатун",
+            "en": "Connecting Rod"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p23.png",
+          "href": null,
+          "alt": {
+            "ru": "Толкающий гидроцилиндр",
+            "en": "Thrust Cylinder"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p24.png",
+          "href": null,
+          "alt": {
+            "ru": "Толкающий гидроцилиндр",
+            "en": "Thrust Cylinder"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p25.png",
+          "href": null,
+          "alt": {
+            "ru": "Шарнирный гидроцилиндр",
+            "en": "Articulated Cylinder"
+          }
+        }
+      ]
+    },
+    {
+      "id": "planetary",
+      "title": {
+        "ru": "Планетарные редукторы",
+        "en": "Planetary Reducers"
+      },
+      "count": 18,
+      "countUnit": {
+        "ru": "мод.",
+        "en": "items"
+      },
+      "cards": [
+        {
+          "img": "/assets/cutout/ASSET-24.png",
+          "href": "/products/planetary-reducer#p09-a",
+          "alt": {
+            "ru": "301-2-005032-00",
+            "en": "301-2-005032-00"
+          }
+        },
+        {
+          "img": "/assets/cutout/ASSET-23.png",
+          "href": "/products/planetary-reducer#p09-b",
+          "alt": {
+            "ru": "301-2-004050-00",
+            "en": "301-2-004050-00"
+          }
+        },
+        {
+          "img": "/assets/cutout/ASSET-25.png",
+          "href": "/products/planetary-reducer#p10-b",
+          "alt": {
+            "ru": "301-2-160040-00",
+            "en": "301-2-160040-00"
+          }
+        },
+        {
+          "img": "/assets/cutout/ASSET-27.png",
+          "href": "/products/planetary-reducer#p11-a",
+          "alt": {
+            "ru": "GOA91F-00C",
+            "en": "GOA91F-00C"
+          }
+        },
+        {
+          "img": "/assets/cutout/ASSET-33.png",
+          "href": "/products/planetary-reducer#p12-a",
+          "alt": {
+            "ru": "FE-155D-L2-S2-P2",
+            "en": "FE-155D-L2-S2-P2"
+          }
+        },
+        {
+          "img": "/assets/cutout/ASSET-32.png",
+          "href": "/products/planetary-reducer#p12-b",
+          "alt": {
+            "ru": "FE-160D-L2-S2-P2",
+            "en": "FE-160D-L2-S2-P2"
+          }
+        },
+        {
+          "img": "/assets/cutout/ASSET-34.png",
+          "href": "/products/planetary-reducer#p13-a",
+          "alt": {
+            "ru": "FB-180D-L2-S2-P2",
+            "en": "FB-180D-L2-S2-P2"
+          }
+        },
+        {
+          "img": "/assets/cutout/ASSET-35.png",
+          "href": "/products/planetary-reducer#p13-b",
+          "alt": {
+            "ru": "301-2-003120-00",
+            "en": "301-2-003120-00"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p01.png",
+          "href": null,
+          "alt": {
+            "ru": "Ходовой редуктор",
+            "en": "Travel Drive Reducer"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p02.png",
+          "href": null,
+          "alt": {
+            "ru": "Ходовой редуктор",
+            "en": "Travel Drive Reducer"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p03.png",
+          "href": null,
+          "alt": {
+            "ru": "Ходовой редуктор",
+            "en": "Travel Drive Reducer"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p05.png",
+          "href": null,
+          "alt": {
+            "ru": "Ходовой редуктор",
+            "en": "Travel Drive Reducer"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p06.png",
+          "href": null,
+          "alt": {
+            "ru": "Ходовой редуктор",
+            "en": "Travel Drive Reducer"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p09.png",
+          "href": null,
+          "alt": {
+            "ru": "Ходовой редуктор",
+            "en": "Travel Drive Reducer"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p13.png",
+          "href": null,
+          "alt": {
+            "ru": "Ходовой редуктор",
+            "en": "Travel Drive Reducer"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p14.png",
+          "href": null,
+          "alt": {
+            "ru": "Ходовой редуктор",
+            "en": "Travel Drive Reducer"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p19.png",
+          "href": null,
+          "alt": {
+            "ru": "Ходовой редуктор",
+            "en": "Travel Drive Reducer"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p21.png",
+          "href": null,
+          "alt": {
+            "ru": "Ходовой редуктор",
+            "en": "Travel Drive Reducer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "slewing",
+      "title": {
+        "ru": "Поворотные редукторы",
+        "en": "Slewing Reducers"
+      },
+      "count": 7,
+      "countUnit": {
+        "ru": "мод.",
+        "en": "items"
+      },
+      "cards": [
+        {
+          "img": "/assets/cutout/ASSET-18.png",
+          "href": "/products/planetary-reducer#p06-a",
+          "alt": {
+            "ru": "301-2-001040-00",
+            "en": "301-2-001040-00"
+          }
+        },
+        {
+          "img": "/assets/cutout/ASSET-20.png",
+          "href": "/products/planetary-reducer#p07-a",
+          "alt": {
+            "ru": "301-2-001150-00",
+            "en": "301-2-001150-00"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p04.png",
+          "href": null,
+          "alt": {
+            "ru": "Поворотный редуктор",
+            "en": "Slewing Reducer"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p07.png",
+          "href": null,
+          "alt": {
+            "ru": "Поворотный редуктор",
+            "en": "Slewing Reducer"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p08.png",
+          "href": null,
+          "alt": {
+            "ru": "Поворотный редуктор",
+            "en": "Slewing Reducer"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p15.png",
+          "href": null,
+          "alt": {
+            "ru": "Поворотный редуктор",
+            "en": "Slewing Reducer"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p22.png",
+          "href": null,
+          "alt": {
+            "ru": "Поворотный редуктор",
+            "en": "Slewing Reducer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "winch",
+      "title": {
+        "ru": "Лебёдочные редукторы",
+        "en": "Winch Gearboxes"
+      },
+      "count": 2,
+      "countUnit": {
+        "ru": "мод.",
+        "en": "items"
+      },
+      "cards": [
+        {
+          "img": "/assets/cutout/page8/p12.png",
+          "href": null,
+          "alt": {
+            "ru": "Лебёдочный редуктор",
+            "en": "Hoisting Winch Gearbox"
+          }
+        },
+        {
+          "img": "/assets/cutout/page8/p20.png",
+          "href": null,
+          "alt": {
+            "ru": "Лебёдочный редуктор",
+            "en": "Hoisting Winch Gearbox"
+          }
+        }
+      ]
+    }
+  ],
+  "hero": {
+    "title": {
+      "ru": "Продукция",
+      "en": "Products"
+    },
+    "lead": {
+      "ru": "AGV, гидроцилиндры, планетарные и поворотные редукторы, лебёдочные передачи",
+      "en": "AGV, hydraulic cylinders, planetary and slewing reducers, winch drives"
+    }
+  }
+}

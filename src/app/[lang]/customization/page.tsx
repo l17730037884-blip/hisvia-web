@@ -10,11 +10,142 @@ import { AutoCollapse } from "@/components/ui/auto-collapse";
 import { getNavItems } from "@/lib/nav";
 import { resolveAsset } from "@/lib/assets";
 import { localized, sanitizeProductModelName } from "@/lib/content";
-import { getFamilies, type ProductFamily } from "@/lib/families";
+import { getFamilies, familyName as familyDisplayName, type ProductFamily } from "@/lib/families";
 import { getProductByProductId, productTitle, productAnchorHref } from "@/lib/products";
 import { pageTitle, pageDescription, languageAlternates, canonicalUrl } from "@/lib/seo";
-import { resolveLocale, type Locale } from "@/lib/locale";
+import { resolveLocale, ogLocale, type Locale } from "@/lib/locale";
 import { BRAND, SITE_URL } from "@/lib/site";
+
+/** 定制页本地化文案(9 种语言,工业 B2B 语境)。 */
+const CUSTOM_NAME: Record<Locale, string> = {
+  "zh-CN": "定制流程", en: "Customization Process", ru: "Индивидуальный заказ",
+  tr: "Özelleştirme Süreci", es: "Proceso de personalización", ar: "عملية التخصيص",
+  de: "Anpassungsprozess", fr: "Processus de personnalisation", pl: "Proces personalizacji",
+};
+const SCOPE_KICKER: Record<Locale, string> = {
+  "zh-CN": "定制范围", en: "Customization scope", ru: "Возможности кастомизации",
+  tr: "Özelleştirme kapsamı", es: "Alcance de personalización", ar: "نطاق التخصيص",
+  de: "Anpassungsumfang", fr: "Portée de la personnalisation", pl: "Zakres personalizacji",
+};
+const SCOPE_TITLE: Record<Locale, string> = {
+  "zh-CN": "任意型号 — 任意参数。全部可按您的订单定制。",
+  en: "Every model. Every spec. 100% custom-built to your requirements.",
+  ru: "Любая модель — любые параметры. Всё можно изготовить под ваш заказ.",
+  tr: "Her model. Her spesifikasyon. İhtiyaçlarınıza %100 özel üretim.",
+  es: "Cada modelo. Cada especificación. 100% fabricado a su medida.",
+  ar: "كل طراز. كل مواصفة. تصنيع بالكامل حسب متطلباتك.",
+  de: "Jedes Modell. Jede Spezifikation. 100% nach Ihren Anforderungen gefertigt.",
+  fr: "Chaque modèle. Chaque spécification. 100% fabriqué selon vos exigences.",
+  pl: "Każdy model. Każda specyfikacja. W 100% wykonane na zamówienie.",
+};
+const SCOPE_BODY: Record<Locale, string> = {
+  "zh-CN": "无论您需要标准款行星减速器、按图纸焊接的液压油缸,还是非标尺寸的 AGV 驱动单元——我们目录中的每一款产品都能按您的规格制造。从安装尺寸、传动比到表面处理与铭牌标识,每一项都可协商定制。",
+  en: "Whether you need a standard planetary reducer variant, a welded hydraulic cylinder from your drawing, or a custom-sized AGV drive unit — every product in our catalogue can be manufactured to your specification. From mounting dimensions and gear ratios to surface treatments and nameplate branding — every detail is configurable.",
+  ru: "Не имеет значения, нужна ли вам стандартная модификация планетарного редуктора, сварной гидроцилиндр по чертежу или AGV-привод под нестандартные габариты — мы производим любые позиции нашего каталога под требования заказчика. От крепёжных размеров и передаточных чисел до покрытий и маркировки — всё согласуется индивидуально.",
+  tr: "Standart bir planetary redüktör varyantı, resminize göre kaynaklı bir hidrolik silindir veya özel boyutlu bir AGV tahrik ünitesi gerektirse de — kataloğumuzdaki her ürün spesifikasyonunuza göre üretilebilir. Montaj boyutları ve dişli oranlarından yüzey işlemlerine ve etiket markalamaya kadar her ayrıntı yapılandırılabilir.",
+  es: "Ya necesite una variante estándar de reductor planetario, un cilindro hidráulico soldado a partir de su plano o una unidad de accionamiento AGV con dimensiones personalizadas — todos los productos de nuestro catálogo pueden fabricarse según sus especificaciones. Desde dimensiones de montaje y relaciones de transmisión hasta tratamientos superficiales y marcaje de placas — cada detalle es configurable.",
+  ar: "سواء احتجت إلى نسخة قياسية من المخفض الكوكبي، أو أسطوانة هيدروليكية ملحومة حسب رسمك، أو وحدة قيادة AGV بأبعاد مخصصة — يمكن تصنيع كل منتج في كتالوجنا وفق مواصفاتك. من أبعاد التركيب ونسب التروس إلى المعالجات السطحية وسَم المنتجات — كل تفصيل قابل للتهيئة.",
+  de: "Ob Sie eine Standardvariante eines Planetengetriebes, einen geschweißten Hydraulikzylinder nach Ihrer Zeichnung oder eine AGV-Antriebseinheit in Sondergrößen benötigen — jedes Produkt in unserem Katalog kann nach Ihren Spezifikationen gefertigt werden. Von Befestigungsmaßen und Übersetzungsverhältnissen bis hin zu Oberflächenbehandlungen und Namensschild-Branding — jedes Detail ist konfigurierbar.",
+  fr: "Que vous ayez besoin d'une variante standard de réducteur planétaire, d'un vérin hydraulique soudé à partir de votre plan, ou d'une unité d'entraînement AGV sur mesure — chaque produit de notre catalogue peut être fabriqué selon vos spécifications. Des dimensions de montage et des rapports de réduction aux traitements de surface et au marquage des plaques — chaque détail est configurable.",
+  pl: "Niezależnie od tego, czy potrzebujesz standardowego wariantu przekładni planetarnej, spawanego siłownika hydraulicznego według Twojego rysunku czy napędu AGV o niestandardowych wymiarach — każdy produkt w naszym katalogu może być wykonany zgodnie z Twoimi specyfikacjami. Od wymiarów montażowych i przełożeń po obróbkę powierzchniową i oznaczanie tabliczek — każdy szczegół można skonfigurować.",
+};
+const SCOPE_ITEMS: Record<Locale, string[]> = {
+  "zh-CN": [
+    "标准与非标传动比",
+    "按图纸的安装尺寸与接口",
+    "液压油缸:行程、缸径、杆径、安装方式",
+    "AGV 减速器:带/不带制动轴",
+    "个性化铭牌、表面处理与出口包装",
+  ],
+  en: [
+    "Standard & custom gear ratios",
+    "Mounting dimensions and interfaces per your drawing",
+    "Hydraulic cylinders: stroke, bore, rod, mounting style",
+    "AGV reducers — with or without brake shaft",
+    "Custom nameplates, finishes and export packaging",
+  ],
+  ru: [
+    "Стандартные и нестандартные передаточные числа",
+    "Размеры и схемы креплений по чертежу",
+    "Гидроцилиндры: ход, диаметр, тип крепления",
+    "AGV-редукторы с тормозным валом / без",
+    "Индивидуальная маркировка и упаковка",
+  ],
+  tr: [
+    "Standart ve özel dişli oranları",
+    "Montaj boyutları ve arayüzler resminize göre",
+    "Hidrolik silindirler: strok, çap, mil, montaj tipi",
+    "AGV redüktörler — fren mili ile / olmadan",
+    "Özel etiketler, yüzey işlemleri ve ihracat ambalajı",
+  ],
+  es: [
+    "Relaciones de transmisión estándar y personalizadas",
+    "Dimensiones e interfaces de montaje según su plano",
+    "Cilindros hidráulicos: carrera, diámetro, vástago, tipo de montaje",
+    "Reductores AGV — con o sin eje de freno",
+    "Placas personalizadas, acabados y embalaje de exportación",
+  ],
+  ar: [
+    "نسب تروس قياسية ومخصصة",
+    "أبعاد وواجهات التركيب حسب رسمك",
+    "الأسطوانات الهيدروليكية: الشوط، القطر، العمود، نوع التركيب",
+    "مخفضات AGV — بعمود كبح أو بدونه",
+    "لوحات اسمية مخصصة، تشطيبات وتغليف تصدير",
+  ],
+  de: [
+    "Standard- und Sonder-Übersetzungsverhältnisse",
+    "Befestigungsmaße und Schnittstellen nach Ihrer Zeichnung",
+    "Hydraulikzylinder: Hub, Bohrung, Stange, Montageart",
+    "AGV-Getriebe — mit oder ohne Bremswelle",
+    "Individuelle Namensschilder, Oberflächen und Exportverpackung",
+  ],
+  fr: [
+    "Rapports de réduction standard et personnalisés",
+    "Dimensions et interfaces de montage selon votre plan",
+    "Vérins hydrauliques : course, alésage, tige, type de montage",
+    "Réducteurs AGV — avec ou sans arbre de frein",
+    "Plaques personnalisées, finitions et emballage d'exportation",
+  ],
+  pl: [
+    "Standardowe i niestandardowe przełożenia",
+    "Wymiary i interfejsy montażowe według rysunku",
+    "Siłowniki hydrauliczne: skok, średnica, tłok, typ montażu",
+    "Przekładnie AGV — z wałem hamulcowym lub bez",
+    "Indywidualne tabliczki, wykończenia i opakowanie eksportowe",
+  ],
+};
+const SEND_SPECS: Record<Locale, string> = {
+  "zh-CN": "提交规格获取报价", en: "Send your specs for a quote", ru: "Отправить ТЗ на расчёт",
+  tr: "Teklif için spesifikasyonlarınızı gönderin", es: "Envíe sus especificaciones para una oferta",
+  ar: "أرسل مواصفاتك للحصول على عرض سعر", de: "Senden Sie Ihre Spezifikationen für ein Angebot",
+  fr: "Envoyez vos spécifications pour un devis", pl: "Wyślij specyfikację, aby otrzymać wycenę",
+};
+const INQUIRY_KICKER: Record<Locale, string> = {
+  "zh-CN": "定制生产询盘", en: "Custom manufacturing inquiry", ru: "Запрос на производство",
+  tr: "Özel üretim talebi", es: "Consulta de fabricación personalizada", ar: "استفسار التصنيع المخصص",
+  de: "Anfrage zur Sonderanfertigung", fr: "Demande de fabrication sur mesure", pl: "Zapytanie o produkcję na zamówienie",
+};
+const INQUIRY_TITLE: Record<Locale, string> = {
+  "zh-CN": "描述您的订单 — 我们将为您准备报价方案",
+  en: "Tell us about your project — we'll prepare a custom quote",
+  ru: "Опишите ваш заказ — мы подготовим коммерческое предложение",
+  tr: "Projenizi anlatın — size özel teklif hazırlayalım",
+  es: "Cuéntenos su proyecto — le prepararemos una oferta personalizada",
+  ar: "أخبرنا عن مشروعك — سنجهز لك عرض سعر مخصص",
+  de: "Erzählen Sie uns von Ihrem Projekt — wir erstellen ein individuelles Angebot",
+  fr: "Parlez-nous de votre projet — nous préparerons un devis personnalisé",
+  pl: "Opowiedz nam o swoim projekcie — przygotujemy indywidualną wycenę",
+};
+const HYDRAULIC_LABEL: Record<Locale, string> = {
+  "zh-CN": "液压油缸", en: "Hydraulic cylinders", ru: "Гидроцилиндры", tr: "Hidrolik silindirler",
+  es: "Cilindros hidráulicos", ar: "الأسطوانات الهيدروليكية", de: "Hydraulikzylinder",
+  fr: "Vérins hydrauliques", pl: "Siłowniki hydrauliczne",
+};
+const OTHER_LABEL: Record<Locale, string> = {
+  "zh-CN": "其他 / 按图纸", en: "Other / drawing-based", ru: "Другое / по чертежу",
+  tr: "Diğer / resim bazlı", es: "Otro / según plano", ar: "أخرى / حسب رسم",
+  de: "Sonstiges / nach Zeichnung", fr: "Autre / sur plan", pl: "Inne / według rysunku",
+};
 
 const STEP_IDS = ["P01", "P02", "P03", "P04", "P05", "P06", "P07", "P08"];
 
@@ -27,7 +158,7 @@ export async function generateMetadata({
   params,
 }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const locale = await getLocale(params);
-  const name = locale === "ru" ? "Индивидуальный заказ" : "Customization Process";
+  const name = CUSTOM_NAME[locale];
   return {
     title: pageTitle(locale, name),
     description: pageDescription(locale, "Customization Process"),
@@ -35,7 +166,7 @@ export async function generateMetadata({
     openGraph: {
       title: pageTitle(locale, name),
       description: pageDescription(locale, "Customization Process"),
-      locale: locale === "ru" ? "ru_RU" : "en_US",
+      locale: ogLocale(locale),
       type: "website",
     },
   };
@@ -236,36 +367,17 @@ export default async function CustomizationPage({
 
             {/* 右：引导文案 + CTA */}
             <div className="min-w-0">
-              <Kicker>{locale === "ru" ? "Возможности кастомизации" : "Customization scope"}</Kicker>
+              <Kicker>{SCOPE_KICKER[locale]}</Kicker>
               <H2 className="mt-3 !tracking-[-0.03em]">
-                {locale === "ru"
-                  ? "Любая модель — любые параметры. Всё можно изготовить под ваш заказ."
-                  : "Every model. Every spec. 100% custom-built to your requirements."}
+                {SCOPE_TITLE[locale]}
               </H2>
               <Body className="mt-5 max-w-[62ch] text-ink-muted">
-                {locale === "ru"
-                  ? "Не имеет значения, нужна ли вам стандартная модификация планетарного редуктора, сварной гидроцилиндр по чертежу или AGV-привод под нестандартные габариты — мы производим любые позиции нашего каталога под требования заказчика. От крепёжных размеров и передаточных чисел до покрытий и маркировки — всё согласуется индивидуально."
-                  : "Whether you need a standard planetary reducer variant, a welded hydraulic cylinder from your drawing, or a custom-sized AGV drive unit — every product in our catalogue can be manufactured to your specification. From mounting dimensions and gear ratios to surface treatments and nameplate branding — every detail is configurable."}
+                {SCOPE_BODY[locale]}
               </Body>
 
               {/* 清单：5 项勾选项，强感知"全部都能" */}
               <ul className="mt-7 space-y-3">
-                {(locale === "ru"
-                  ? [
-                      "Стандартные и нестандартные передаточные числа",
-                      "Размеры и схемы креплений по чертежу",
-                      "Гидроцилиндры: ход, диаметр, тип крепления",
-                      "AGV-редукторы с тормозным валом / без",
-                      "Индивидуальная маркировка и упаковка",
-                    ]
-                  : [
-                      "Standard & custom gear ratios",
-                      "Mounting dimensions and interfaces per your drawing",
-                      "Hydraulic cylinders: stroke, bore, rod, mounting style",
-                      "AGV reducers — with or without brake shaft",
-                      "Custom nameplates, finishes and export packaging",
-                    ]
-                ).map((s) => (
+                {SCOPE_ITEMS[locale].map((s) => (
                   <li key={s} className="flex items-start gap-3">
                     <span
                       aria-hidden
@@ -282,7 +394,7 @@ export default async function CustomizationPage({
 
               <div className="mt-8 flex flex-wrap gap-3">
                 <CTA href={`${navHref("nav_contact")}?from=customization-scope`} size="lg">
-                  {locale === "ru" ? "Отправить ТЗ на расчёт" : "Send your specs for a quote"}
+                  {SEND_SPECS[locale]}
                 </CTA>
                 <CTA href={telHref} variant="secondary" size="lg">
                   {phone}
@@ -297,9 +409,9 @@ export default async function CustomizationPage({
       <section id="inquiry-form" className="bg-canvas py-[clamp(3rem,6vw,5rem)] scroll-mt-24">
         <Container className="max-w-5xl mx-auto">
           <div className="mb-6 md:mb-8 text-center">
-            <Kicker>{locale === "ru" ? "Запрос на производство" : "Custom manufacturing inquiry"}</Kicker>
+            <Kicker>{INQUIRY_KICKER[locale]}</Kicker>
             <H2 className="mt-3">
-              {locale === "ru" ? "Опишите ваш заказ — мы подготовим коммерческое предложение" : "Tell us about your project — we'll prepare a custom quote"}
+              {INQUIRY_TITLE[locale]}
             </H2>
           </div>
           <InquiryForm
@@ -308,10 +420,10 @@ export default async function CustomizationPage({
             productOptions={[
               ...getFamilies().map((f: ProductFamily) => ({
                 value: f.slug,
-                label: (locale === "ru" ? f.nameRu : f.nameEn) ?? f.slug,
+                label: familyDisplayName(locale, f) || f.slug,
               })),
-              { value: "hydraulic", label: locale === "ru" ? "Гидроцилиндры" : "Hydraulic cylinders" },
-              { value: "other", label: locale === "ru" ? "Другое / по чертежу" : "Other / drawing-based" },
+              { value: "hydraulic", label: HYDRAULIC_LABEL[locale] },
+              { value: "other", label: OTHER_LABEL[locale] },
             ]}
           />
         </Container>

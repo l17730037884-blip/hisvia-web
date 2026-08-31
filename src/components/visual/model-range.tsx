@@ -41,7 +41,7 @@ export function ModelRange({ items }: { items: ModelRangeItem[] }) {
       {/* Anchor targets sit at the top of the module so #p06-a..#p13-b resolve to a visible position. */}
       <div aria-hidden className="relative h-0">
         {items.map((item) => (
-          <span key={item.id} id={item.id} className="absolute left-0 top-0 h-0 w-0 scroll-mt-32" />
+          <span key={item.id} id={item.id} className="absolute start-0 top-0 h-0 w-0 scroll-mt-32" />
         ))}
       </div>
 
@@ -107,7 +107,7 @@ export function ModelRange({ items }: { items: ModelRangeItem[] }) {
                  空 parameters 不渲染 table 外壳，避免留白占位 */}
             {active.parameters.length > 0 ? (
               <div className="mt-5 md:mt-6">
-                <table className="w-full border-collapse text-left">
+                <table className="w-full border-collapse text-start">
                   <tbody>
                     {active.parameters.map((param) => (
                       <tr
@@ -116,7 +116,7 @@ export function ModelRange({ items }: { items: ModelRangeItem[] }) {
                       >
                         <th
                           scope="row"
-                          className="w-[40%] sm:w-[44%] md:w-[46%] py-1.5 pr-3 sm:py-2 sm:pr-4 align-top text-[0.78125rem] sm:text-[0.8125rem] font-medium leading-snug text-ink-muted"
+                          className="w-[40%] sm:w-[44%] md:w-[46%] py-1.5 pe-3 sm:py-2 sm:pe-4 align-top text-[0.78125rem] sm:text-[0.8125rem] font-medium leading-snug text-ink-muted"
                         >
                           <span className="break-words">{param.label}</span>
                         </th>

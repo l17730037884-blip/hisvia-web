@@ -11,8 +11,32 @@ import { resolveAsset } from "@/lib/assets";
 import { localized, sanitizeProductModelName } from "@/lib/content";
 import { getAllProducts, resolveProductImage } from "@/lib/products";
 import { pageTitle, pageDescription, languageAlternates } from "@/lib/seo";
-import { resolveLocale, type Locale } from "@/lib/locale";
+import { resolveLocale, ogLocale, type Locale } from "@/lib/locale";
 import { BRAND } from "@/lib/site";
+
+/** 关于页本地化文案(9 种语言)。 */
+const ABOUT_NAME: Record<Locale, string> = {
+  "zh-CN": "关于我们", en: "About", ru: "О компании", tr: "Hakkımızda", es: "Acerca de",
+  ar: "عن الشركة", de: "Über uns", fr: "À propos", pl: "O firmie",
+};
+const PROFILE_TEXT: Record<Locale, string> = {
+  "zh-CN": "公司简介", en: "Profile", ru: "Профиль", tr: "Profil", es: "Perfil",
+  ar: "الملف", de: "Profil", fr: "Profil", pl: "Profil",
+};
+const PLANETARY_TEXT: Record<Locale, string> = {
+  "zh-CN": "行星减速器", en: "Planetary reducers", ru: "Планетарные редукторы",
+  tr: "Planet redüktörler", es: "Reductores planetarios", ar: "المخفضات الكوكبية",
+  de: "Planetengetriebe", fr: "Réducteurs planétaires", pl: "Przekładnie planetarne",
+};
+const VIEW_ALL_TEXT: Record<Locale, string> = {
+  "zh-CN": "全部产品", en: "View all products", ru: "Вся продукция", tr: "Tüm ürünler",
+  es: "Ver todos los productos", ar: "عرض جميع المنتجات", de: "Alle Produkte",
+  fr: "Voir tous les produits", pl: "Zobacz wszystkie produkty",
+};
+const CONTACT_KICKER: Record<Locale, string> = {
+  "zh-CN": "联系", en: "Contact", ru: "Контакт", tr: "İletişim", es: "Contacto",
+  ar: "اتصال", de: "Kontakt", fr: "Contact", pl: "Kontakt",
+};
 
 const CERT_ASSET_IDS = ["ASSET-10", "ASSET-12", "ASSET-15", "ASSET-16", "ASSET-11", "ASSET-13", "ASSET-17"];
 const HERO_PHOTO_IDS = ["ASSET-02", "ASSET-03"];
@@ -26,7 +50,7 @@ export async function generateMetadata({
   params,
 }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const locale = await getLocale(params);
-  const name = locale === "ru" ? "О компании" : "About";
+  const name = ABOUT_NAME[locale];
   return {
     title: pageTitle(locale, name),
     description: pageDescription(locale, "About"),
@@ -34,7 +58,7 @@ export async function generateMetadata({
     openGraph: {
       title: pageTitle(locale, name),
       description: pageDescription(locale, "About"),
-      locale: locale === "ru" ? "ru_RU" : "en_US",
+      locale: ogLocale(locale),
       type: "website",
     },
   };
@@ -112,7 +136,7 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
           <div className="editorial-grid-5-7">
               <div className="flex flex-col">
                 <span className="font-mono text-[0.6875rem] uppercase tracking-[0.18em] text-ink-muted">
-                  {locale === "ru" ? "Профиль" : "Profile"}
+                  {PROFILE_TEXT[locale]}
                 </span>
                 <div className="mt-4">
                   <CTA href={navHref("nav_products")}>{navLabel("nav_products")}</CTA>
@@ -140,13 +164,13 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
       <section className="bg-canvas py-12 md:py-16">
         <Container className="max-w-6xl">
           <div className="mb-5 md:mb-6">
-            <Kicker className="mb-2">{locale === "ru" ? "Планетарные редукторы" : "Planetary reducers"}</Kicker>
+            <Kicker className="mb-2">{PLANETARY_TEXT[locale]}</Kicker>
             <H2>{navLabel("nav_products")}</H2>
           </div>
           <ProductCarousel items={productItems} />
           <div className="mt-8 flex justify-center md:mt-10">
             <CTA href={navHref("nav_products")} variant="secondary">
-              {locale === "ru" ? "Вся продукция" : "View all products"}
+              {VIEW_ALL_TEXT[locale]}
             </CTA>
           </div>
         </Container>
@@ -203,7 +227,7 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
         <Container className="max-w-6xl flex flex-col items-start justify-between gap-6 py-12 md:flex-row md:items-center md:py-16">
           <div className="max-w-xl">
             <span className="font-mono text-[0.6875rem] uppercase tracking-[0.18em] text-dark-muted">
-              {locale === "ru" ? "Контакт" : "Contact"}
+              {CONTACT_KICKER[locale]}
             </span>
             <H2 className="!mt-3 !text-dark-text">{navLabel("nav_contact")}</H2>
             <p className="mt-3 text-dark-muted">{localized(locale, "P01-C01")}</p>

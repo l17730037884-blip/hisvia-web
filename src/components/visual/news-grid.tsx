@@ -28,7 +28,7 @@ export function NewsGrid({ items }: { items: NewsCard[] }) {
                 fit="contain"
               />
             </Link>
-            <div className="absolute bottom-0 left-0 z-20 bg-accent px-2.5 py-1.5 text-[0.6875rem] font-medium leading-[1.5] tracking-[-0.01em] text-white">
+            <div className="absolute bottom-0 start-0 z-20 bg-accent px-2.5 py-1.5 text-[0.6875rem] font-medium leading-[1.5] tracking-[-0.01em] text-white">
               <span>{item.badge}</span>
             </div>
           </div>

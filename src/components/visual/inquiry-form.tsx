@@ -2,15 +2,63 @@
 
 import { useState } from "react";
 import { cn } from "@/lib/cn";
+import type { Locale } from "@/lib/locale";
 
 type InquiryFormProps = {
-  locale: "ru" | "en";
+  locale: Locale;
   phone: string;
   email?: string;
   productOptions?: { value: string; label: string }[];
 };
 
-const STRINGS = {
+type StringShape = {
+  title: string;
+  subtitle: string;
+  name: string;
+  namePlaceholder: string;
+  phone: string;
+  phonePlaceholder: string;
+  email: string;
+  emailPlaceholder: string;
+  company: string;
+  companyPlaceholder: string;
+  product: string;
+  message: string;
+  messagePlaceholder: string;
+  submit: string;
+  submitting: string;
+  success: string;
+  successSubmitted: string;
+  successMailto: string;
+  successHint: string;
+  required: string;
+  callInstead: string;
+};
+
+const STRINGS: Record<Locale, StringShape> = {
+  "zh-CN": {
+    title: "发送询盘",
+    subtitle: "填写表单,我们将在 1 个工作日内回复您。",
+    name: "您的姓名",
+    namePlaceholder: "张三",
+    phone: "电话",
+    phonePlaceholder: "+86 138 0000 0000",
+    email: "邮箱(选填)",
+    emailPlaceholder: "you@company.com",
+    company: "公司(选填)",
+    companyPlaceholder: "公司名称",
+    product: "感兴趣的产品(选填)",
+    message: "留言",
+    messagePlaceholder: "请描述您的需求、数量、交期...",
+    submit: "发送询盘",
+    submitting: "发送中...",
+    success: "感谢!您的询盘已收到。",
+    successSubmitted: "感谢!您的询盘已收到。",
+    successMailto: "询盘已在您的邮箱客户端打开。",
+    successHint: "如有问题,请直接电话联系我们。",
+    required: "必填",
+    callInstead: "更希望电话联系?",
+  },
   en: {
     title: "Send an inquiry",
     subtitle: "Fill out the form and we'll get back to you within 1 business day.",
@@ -57,7 +105,251 @@ const STRINGS = {
     required: "Обязательно",
     callInstead: "Предпочитаете позвонить?",
   },
-} as const;
+  tr: {
+    title: "Teklif gönderin",
+    subtitle: "Formu doldurun, 1 iş günü içinde size geri dönelim.",
+    name: "Adınız",
+    namePlaceholder: "Ahmet Yılmaz",
+    phone: "Telefon",
+    phonePlaceholder: "+90 532 123 45 67",
+    email: "E-posta (opsiyonel)",
+    emailPlaceholder: "you@company.com",
+    company: "Şirket (opsiyonel)",
+    companyPlaceholder: "Şirket adı",
+    product: "İlgilendiğiniz ürün (opsiyonel)",
+    message: "Mesaj",
+    messagePlaceholder: "İhtiyaçlarınızı, miktarı, teslim süresini belirtin...",
+    submit: "Teklif gönderin",
+    submitting: "Gönderiliyor...",
+    success: "Teşekkürler! Talebiniz alındı.",
+    successSubmitted: "Teşekkürler! Talebiniz alındı.",
+    successMailto: "Talebiniz e-posta istemcinizde açıldı.",
+    successHint: "Bir sorun olursa, lütfen bizi doğrudan arayın.",
+    required: "Zorunlu",
+    callInstead: "Telefonla görüşmeyi mi tercih edersiniz?",
+  },
+  es: {
+    title: "Enviar consulta",
+    subtitle: "Rellene el formulario y le responderemos en 1 día laborable.",
+    name: "Su nombre",
+    namePlaceholder: "Juan García",
+    phone: "Teléfono",
+    phonePlaceholder: "+34 600 123 456",
+    email: "Correo electrónico (opcional)",
+    emailPlaceholder: "you@company.com",
+    company: "Empresa (opcional)",
+    companyPlaceholder: "Nombre de la empresa",
+    product: "Producto de interés (opcional)",
+    message: "Mensaje",
+    messagePlaceholder: "Describa sus necesidades, cantidades, plazos de entrega...",
+    submit: "Enviar consulta",
+    submitting: "Enviando...",
+    success: "¡Gracias! Su consulta se ha recibido.",
+    successSubmitted: "¡Gracias! Su consulta se ha recibido.",
+    successMailto: "Su consulta se ha abierto en su cliente de correo.",
+    successHint: "Si surge algún problema, llámenos directamente.",
+    required: "Obligatorio",
+    callInstead: "¿Prefiere llamar?",
+  },
+  ar: {
+    title: "إرسال استفسار",
+    subtitle: "املأ النموذج وسنرد عليك خلال يوم عمل واحد.",
+    name: "الاسم",
+    namePlaceholder: "محمد العلي",
+    phone: "الهاتف",
+    phonePlaceholder: "+971 50 123 4567",
+    email: "البريد الإلكتروني (اختياري)",
+    emailPlaceholder: "you@company.com",
+    company: "الشركة (اختياري)",
+    companyPlaceholder: "اسم الشركة",
+    product: "المنتج المرغوب (اختياري)",
+    message: "الرسالة",
+    messagePlaceholder: "يرجى وصف احتياجاتكم والكميات ومواعيد التسليم...",
+    submit: "إرسال استفسار",
+    submitting: "جارٍ الإرسال...",
+    success: "شكراً! تم استلام استفساركم.",
+    successSubmitted: "شكراً! تم استلام استفساركم.",
+    successMailto: "تم فتح استفساركم في برنامج البريد الإلكتروني لديك.",
+    successHint: "في حال وجود أي مشكلة، يرجى الاتصال بنا مباشرة.",
+    required: "مطلوب",
+    callInstead: "تفضل الاتصال هاتفياً؟",
+  },
+  de: {
+    title: "Anfrage senden",
+    subtitle: "Füllen Sie das Formular aus – wir melden uns innerhalb eines Werktages.",
+    name: "Ihr Name",
+    namePlaceholder: "Max Mustermann",
+    phone: "Telefon",
+    phonePlaceholder: "+49 30 1234 5678",
+    email: "E-Mail (optional)",
+    emailPlaceholder: "you@company.com",
+    company: "Firma (optional)",
+    companyPlaceholder: "Firmenname",
+    product: "Interessierendes Produkt (optional)",
+    message: "Nachricht",
+    messagePlaceholder: "Beschreiben Sie Ihre Anforderungen, Mengen, Lieferzeiten...",
+    submit: "Anfrage senden",
+    submitting: "Senden...",
+    success: "Danke! Ihre Anfrage ist eingegangen.",
+    successSubmitted: "Danke! Ihre Anfrage ist eingegangen.",
+    successMailto: "Ihre Anfrage wurde in Ihrem E-Mail-Programm geöffnet.",
+    successHint: "Sollte etwas nicht klappen, rufen Sie uns direkt an.",
+    required: "Pflichtfeld",
+    callInstead: "Lieber anrufen?",
+  },
+  fr: {
+    title: "Envoyer une demande",
+    subtitle: "Remplissez le formulaire et nous vous répondrons sous 1 jour ouvré.",
+    name: "Votre nom",
+    namePlaceholder: "Jean Dupont",
+    phone: "Téléphone",
+    phonePlaceholder: "+33 1 23 45 67 89",
+    email: "E-mail (facultatif)",
+    emailPlaceholder: "you@company.com",
+    company: "Société (facultatif)",
+    companyPlaceholder: "Nom de la société",
+    product: "Produit d'intérêt (facultatif)",
+    message: "Message",
+    messagePlaceholder: "Décrivez vos besoins, quantités, délais de livraison...",
+    submit: "Envoyer la demande",
+    submitting: "Envoi...",
+    success: "Merci ! Votre demande a bien été reçue.",
+    successSubmitted: "Merci ! Votre demande a bien été reçue.",
+    successMailto: "Votre demande a été ouverte dans votre client de messagerie.",
+    successHint: "En cas de problème, appelez-nous directement.",
+    required: "Requis",
+    callInstead: "Préférez-vous appeler ?",
+  },
+  pl: {
+    title: "Wyślij zapytanie",
+    subtitle: "Wypełnij formularz, a my odpowiemy w ciągu 1 dnia roboczego.",
+    name: "Twoje imię",
+    namePlaceholder: "Jan Kowalski",
+    phone: "Telefon",
+    phonePlaceholder: "+48 22 123 45 67",
+    email: "E-mail (opcjonalnie)",
+    emailPlaceholder: "you@company.com",
+    company: "Firma (opcjonalnie)",
+    companyPlaceholder: "Nazwa firmy",
+    product: "Interesujący produkt (opcjonalnie)",
+    message: "Wiadomość",
+    messagePlaceholder: "Opisz swoje potrzeby, ilości, terminy dostawy...",
+    submit: "Wyślij zapytanie",
+    submitting: "Wysyłanie...",
+    success: "Dziękujemy! Twoje zapytanie zostało przyjęte.",
+    successSubmitted: "Dziękujemy! Twoje zapytanie zostało przyjęte.",
+    successMailto: "Twoje zapytanie zostało otwarte w programie pocztowym.",
+    successHint: "W razie problemów, zadzwoń do nas bezpośrednio.",
+    required: "Wymagane",
+    callInstead: "Wolisz zadzwonić?",
+  },
+};
+
+type ErrorsShape = {
+  nameRequired: string;
+  nameShort: string;
+  phoneRequired: string;
+  phoneInvalid: string;
+  emailInvalid: string;
+  messageRequired: string;
+  messageShort: string;
+};
+
+const ERRORS: Record<Locale, ErrorsShape> = {
+  "zh-CN": {
+    nameRequired: "请输入您的姓名",
+    nameShort: "姓名过短",
+    phoneRequired: "请输入电话号码",
+    phoneInvalid: "电话号码无效",
+    emailInvalid: "邮箱无效",
+    messageRequired: "请输入留言",
+    messageShort: "留言过短",
+  },
+  en: {
+    nameRequired: "Please enter your name",
+    nameShort: "Name is too short",
+    phoneRequired: "Please enter a phone number",
+    phoneInvalid: "Please enter a valid phone",
+    emailInvalid: "Please enter a valid email",
+    messageRequired: "Please enter a message",
+    messageShort: "Message is too short",
+  },
+  ru: {
+    nameRequired: "Введите ваше имя",
+    nameShort: "Слишком короткое имя",
+    phoneRequired: "Введите номер телефона",
+    phoneInvalid: "Некорректный номер телефона",
+    emailInvalid: "Некорректный email",
+    messageRequired: "Введите сообщение",
+    messageShort: "Сообщение слишком короткое",
+  },
+  tr: {
+    nameRequired: "Lütfen adınızı girin",
+    nameShort: "İsim çok kısa",
+    phoneRequired: "Lütfen bir telefon numarası girin",
+    phoneInvalid: "Lütfen geçerli bir telefon numarası girin",
+    emailInvalid: "Lütfen geçerli bir e-posta adresi girin",
+    messageRequired: "Lütfen bir mesaj girin",
+    messageShort: "Mesaj çok kısa",
+  },
+  es: {
+    nameRequired: "Por favor, introduzca su nombre",
+    nameShort: "El nombre es demasiado corto",
+    phoneRequired: "Por favor, introduzca un número de teléfono",
+    phoneInvalid: "Por favor, introduzca un teléfono válido",
+    emailInvalid: "Por favor, introduzca un correo electrónico válido",
+    messageRequired: "Por favor, introduzca un mensaje",
+    messageShort: "El mensaje es demasiado corto",
+  },
+  ar: {
+    nameRequired: "يرجى إدخال اسمك",
+    nameShort: "الاسم قصير جداً",
+    phoneRequired: "يرجى إدخال رقم الهاتف",
+    phoneInvalid: "يرجى إدخال رقم هاتف صالح",
+    emailInvalid: "يرجى إدخال بريد إلكتروني صالح",
+    messageRequired: "يرجى إدخال رسالة",
+    messageShort: "الرسالة قصيرة جداً",
+  },
+  de: {
+    nameRequired: "Bitte geben Sie Ihren Namen ein",
+    nameShort: "Der Name ist zu kurz",
+    phoneRequired: "Bitte geben Sie eine Telefonnummer ein",
+    phoneInvalid: "Bitte geben Sie eine gültige Telefonnummer ein",
+    emailInvalid: "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    messageRequired: "Bitte geben Sie eine Nachricht ein",
+    messageShort: "Die Nachricht ist zu kurz",
+  },
+  fr: {
+    nameRequired: "Veuillez saisir votre nom",
+    nameShort: "Le nom est trop court",
+    phoneRequired: "Veuillez saisir un numéro de téléphone",
+    phoneInvalid: "Veuillez saisir un numéro de téléphone valide",
+    emailInvalid: "Veuillez saisir une adresse e-mail valide",
+    messageRequired: "Veuillez saisir un message",
+    messageShort: "Le message est trop court",
+  },
+  pl: {
+    nameRequired: "Proszę podać imię",
+    nameShort: "Imię jest za krótkie",
+    phoneRequired: "Proszę podać numer telefonu",
+    phoneInvalid: "Proszę podać prawidłowy numer telefonu",
+    emailInvalid: "Proszę podać prawidłowy adres e-mail",
+    messageRequired: "Proszę wpisać wiadomość",
+    messageShort: "Wiadomość jest za krótka",
+  },
+};
+
+const SUBJECTS: Record<Locale, string> = {
+  "zh-CN": "网站询盘",
+  en: "Website inquiry",
+  ru: "Запрос с сайта",
+  tr: "Web sitesi talebi",
+  es: "Consulta del sitio web",
+  ar: "استفسار من الموقع",
+  de: "Website-Anfrage",
+  fr: "Demande du site web",
+  pl: "Zapytanie ze strony",
+};
 
 type Errors = Partial<Record<"name" | "phone" | "email" | "message", string>>;
 
@@ -86,31 +378,32 @@ export function InquiryForm({ locale, phone, email, productOptions = [] }: Inqui
     }
   };
 
-  const validate = (values: typeof form, l: "ru" | "en"): Errors => {
+  const validate = (values: typeof form, l: Locale): Errors => {
+    const e = ERRORS[l];
     const next: Errors = {};
     if (!values.name.trim()) {
-      next.name = l === "ru" ? "Введите ваше имя" : "Please enter your name";
+      next.name = e.nameRequired;
     } else if (values.name.trim().length < 2) {
-      next.name = l === "ru" ? "Слишком короткое имя" : "Name is too short";
+      next.name = e.nameShort;
     }
     if (!values.phone.trim()) {
-      next.phone = l === "ru" ? "Введите номер телефона" : "Please enter a phone number";
+      next.phone = e.phoneRequired;
     } else if (values.phone.replace(/\D/g, "").length < phoneMinLen) {
-      next.phone = l === "ru" ? "Некорректный номер телефона" : "Please enter a valid phone";
+      next.phone = e.phoneInvalid;
     }
     if (values.email && !emailRe.test(values.email.trim())) {
-      next.email = l === "ru" ? "Некорректный email" : "Please enter a valid email";
+      next.email = e.emailInvalid;
     }
     if (!values.message.trim()) {
-      next.message = l === "ru" ? "Введите сообщение" : "Please enter a message";
+      next.message = e.messageRequired;
     } else if (values.message.trim().length < 10) {
-      next.message = l === "ru" ? "Сообщение слишком короткое" : "Message is too short";
+      next.message = e.messageShort;
     }
     return next;
   };
 
   const buildMailto = (): string => {
-    const subject = locale === "ru" ? "Запрос с сайта" : "Website inquiry";
+    const subject = SUBJECTS[locale];
     const lines = [
       `${t.name}: ${form.name}`,
       `${t.phone}: ${form.phone}`,

@@ -24,14 +24,14 @@ export function MoreMenu({ items, label }: { items: Item[]; label: string }) {
         )}
       >
         {label}
-        <span aria-hidden className="ml-1 text-[0.75rem]">
+        <span aria-hidden className="ms-1 text-[0.75rem]">
           ▾
         </span>
       </button>
       {open && (
         <div
           role="menu"
-          className="absolute right-0 top-full z-50 mt-2 w-56 rounded-card border border-line bg-surface py-2 shadow-sm"
+          className="absolute end-0 top-full z-50 mt-2 w-56 rounded-card border border-line bg-surface py-2 shadow-sm"
         >
           {items.map((item) => (
             <Link

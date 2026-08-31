@@ -2,22 +2,34 @@ import type { Metadata } from "next";
 import { Container } from "@/components/ui/container";
 import { CTA } from "@/components/ui/cta";
 import { Kicker, H1, H2, Body } from "@/components/ui/typography";
-import { AutoCollapse } from "@/components/ui/auto-collapse";
 import { Breadcrumb } from "@/components/layout/breadcrumb";
 import { Section } from "@/components/visual/section";
-import { SectionHeader } from "@/components/visual/section-header";
-import { MediaText } from "@/components/visual/media-text";
 import { DarkCta } from "@/components/visual/dark-cta";
-import { ProductCarousel, type ProductCarouselItem } from "@/components/visual/product-carousel";
+import { ProductCategories, type ProductCategoriesData } from "@/components/visual/product-categories";
 import { getNavItems } from "@/lib/nav";
 import { resolveAsset } from "@/lib/assets";
-import { localized, sanitizeProductModelName } from "@/lib/content";
-import { getFamilies } from "@/lib/families";
-import { getAllProducts, resolveProductImage, productAnchorHref } from "@/lib/products";
+import { localized } from "@/lib/content";
 import { pageTitle, pageDescription, languageAlternates, canonicalUrl } from "@/lib/seo";
-import { resolveLocale, type Locale } from "@/lib/locale";
+import { resolveLocale, ogLocale, type Locale } from "@/lib/locale";
 import { BRAND, SITE_URL } from "@/lib/site";
-import { cn } from "@/lib/cn";
+import categoriesData from "@/data/product-categories.generated.json";
+
+/** 产品页本地化文案(9 种语言)。 */
+const PRODUCTS_NAME: Record<Locale, string> = {
+  "zh-CN": "产品", en: "Products", ru: "Продукция", tr: "Ürünler", es: "Productos",
+  ar: "المنتجات", de: "Produkte", fr: "Produits", pl: "Produkty",
+};
+const HERO_LEAD: Record<Locale, string> = {
+  "zh-CN": "AGV、液压油缸、行星与回转减速器、绞车传动",
+  en: "AGV, hydraulic cylinders, planetary and slewing reducers, winch drives",
+  ru: "AGV, гидроцилиндры, планетарные и поворотные редукторы, лебёдочные передачи",
+  tr: "AGV, hidrolik silindirler, planetary ve döner redüktörler, vinç tahrikleri",
+  es: "AGV, cilindros hidráulicos, reductores planetarios y orientables, transmisiones de malacate",
+  ar: "AGV، الأسطوانات الهيدروليكية، المخفضات الكوكبية والدوارة، نقالات الونش",
+  de: "AGV, Hydraulikzylinder, Planeten- und Drehgetriebe, Seilwinden-Antriebe",
+  fr: "AGV, vérins hydrauliques, réducteurs planétaires et orientables, treuils",
+  pl: "AGV, siłowniki hydrauliczne, przekładnie planetarne i obrotowe, napędy wciągarek",
+};
 
 async function getLocale(params: Promise<{ lang: string }>): Promise<Locale> {
   const { lang } = await params;
@@ -28,7 +40,7 @@ export async function generateMetadata({
   params,
 }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const locale = await getLocale(params);
-  const name = locale === "ru" ? "Продукция" : "Products";
+  const name = PRODUCTS_NAME[locale];
   return {
     title: pageTitle(locale, name),
     description: pageDescription(locale, "Products"),
@@ -36,7 +48,7 @@ export async function generateMetadata({
     openGraph: {
       title: pageTitle(locale, name),
       description: pageDescription(locale, "Products"),
-      locale: locale === "ru" ? "ru_RU" : "en_US",
+      locale: ogLocale(locale),
       type: "website",
     },
   };
@@ -49,30 +61,13 @@ export default async function ProductsPage({ params }: { params: Promise<{ lang:
   const navLabel = (key: string) => nav.find((n) => n.key === key)?.label ?? "";
   const phone = localized(locale, "P01-C02");
   const telHref = `tel:${phone.replace(/[^0-9+]/g, "")}`;
-  const families = getFamilies();
-  const products = getAllProducts();
-  // 产品展平：每个型号独立展示（AGV P06/P07/P08/P09 等不再被合并），仅去掉缺图
-  // model 中文括号/中文词全部过滤（sanitizeProductModelName 统一处理 4 类括号残留）
-  const ZOOM_25_ASSETS = new Set(["ASSET-05", "ASSET-07", "ASSET-08"]);
-  const carouselItems: ProductCarouselItem[] = products
-    .filter((p) => resolveProductImage(p))
-    .map((p) => ({
-      image: resolveProductImage(p)!,
-      model: sanitizeProductModelName(p.model),
-      href: productAnchorHref(locale, p),
-      zoom25: ZOOM_25_ASSETS.has(p.imageAssetIds?.[0] ?? ""),
-    }));
-  // 液压油缸产品图：末尾追加（无独立型号详情页 → 链接到本页 hydraulic 锚点 + 询盘 CTA）
-  const hydraulicLabel = locale === "ru" ? "Гидроцилиндр" : "Hydraulic Cylinder";
-  const hydraulicAnchor = `/${locale}/products#hydraulic-cylinders`;
-  const hydraulicAssets = ["ASSET-45", "ASSET-46", "ASSET-47"];
-  for (const id of hydraulicAssets) {
-    const img = resolveAsset(id);
-    if (img) carouselItems.push({ image: img, model: hydraulicLabel, href: hydraulicAnchor });
-  }
-  // 「查看更多」目标：跳转到行星减速器详情页
-  const viewMoreHref = `/${locale}/products/planetary-reducer`;
-  const viewMoreLabel = locale === "ru" ? "Смотреть все" : "View more";
+  // hero 副标题（"AGV, гидроцилиндры, ..." 等汇总文案）
+  const heroLead = HERO_LEAD[locale];
+  const heroTitle = PRODUCTS_NAME[locale];
+
+  // 把数据 cast 成类型化对象
+  const data = categoriesData as unknown as ProductCategoriesData;
+
   const organization = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -95,196 +90,43 @@ export default async function ProductsPage({ params }: { params: Promise<{ lang:
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organization) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbList) }} />
 
-      <section className="border-b border-line bg-surface">
-        <Container className="py-12 md:py-16">
+      {/* ── Hero · 黑色渐变(对齐线上 8/22) ── */}
+      <section
+        className="relative overflow-hidden border-b border-white/10"
+        style={{ background: "linear-gradient(180deg,#0b141f 0%,#08080d 50%,#060609 100%)" }}
+      >
+        {/* 装饰性橙色光晕 */}
+        <span
+          aria-hidden="true"
+          className="pointer-events-none absolute -top-10 -start-10 h-40 w-48 rounded-full bg-accent/15 blur-3xl"
+        />
+        <Container className="relative py-8 md:py-10">
           <Breadcrumb
+            dark
             items={[
               { label: navLabel("nav_home"), href: `/${locale}/` },
               { label: navLabel("nav_products") },
             ]}
           />
-          <Kicker className="mt-6">{localized(locale, "P01-H01")}</Kicker>
-          <H1 className="mt-3">{navLabel("nav_products")}</H1>
+          <div className="mt-4 flex flex-col gap-2 md:flex-row md:items-end md:justify-between md:gap-6">
+            <h1 className="font-display text-[clamp(1.75rem,2.8vw,2.5rem)] font-bold leading-[1.1] tracking-[-0.03em] text-white">
+              {heroTitle}
+            </h1>
+            <p className="text-xs text-dark-muted md:text-sm md:max-w-md md:text-end">
+              {heroLead}
+            </p>
+          </div>
         </Container>
       </section>
 
-      <Section tone="canvas">
-        <Container className="max-w-6xl">
-          <div
-            className={cn(
-              "grid gap-10 lg:gap-16",
-              families.length > 1 ? "lg:grid-cols-2" : "lg:grid-cols-1"
-            )}
-          >
-            {families.map((family) => {
-              const name = locale === "ru" ? family.nameRu : family.nameEn;
-              const image = family.imageAssetIds.map(resolveAsset).find(Boolean);
-              const intro = localized(locale, family.introContentId);
-              return (
-                <div key={family.familyId} className="contents">
-                  <MediaText
-                    image={image ?? ""}
-                    imageAlt={name ?? ""}
-                    fit="natural"
-                    className="gap-8"
-                  >
-                    <div className="min-w-0">
-                      <Kicker>{navLabel("nav_products")}</Kicker>
-                      <H2 className="mt-3">{name}</H2>
-                      <AutoCollapse lines={4}>
-                        <Body className="drop-cap mt-5 max-w-[66ch] text-ink-muted">{intro}</Body>
-                      </AutoCollapse>
-                      <div className="mt-8">
-                        <CTA href={`/${locale}/products/${family.slug}`} size="lg">
-                          {navLabel("nav_products")}
-                        </CTA>
-                      </div>
-                    </div>
-                  </MediaText>
-                </div>
-              );
-            })}
-          </div>
-        </Container>
-      </Section>
-
-      {/* ── Hydraulic Cylinders · 液压油缸画报式产品区 ── */}
-      <Section id="hydraulic-cylinders" tone="surface" className="border-y border-line">
-        <Container className="max-w-6xl">
-          <MediaText
-            image={resolveAsset("ASSET-45") ?? ""}
-            imageAlt={locale === "ru" ? "Гидроцилиндр" : "Hydraulic Cylinder"}
-            fit="natural"
-            flip
-            className="gap-8 lg:gap-12"
-          >
-            <div className="min-w-0">
-              <Kicker>{locale === "ru" ? "Новая линейка" : "Product Line"}</Kicker>
-              <H2 className="mt-3">
-                {locale === "ru" ? "Гидроцилиндры" : "Hydraulic Cylinders"}
-              </H2>
-              <AutoCollapse lines={4}>
-                <Body className="drop-cap mt-5 max-w-[66ch] text-ink-muted">
-                  {locale === "ru"
-                    ? "Высоконадежные сварные и штанговые гидроцилиндры для тяжелой промышленности, строительной и дорожной техники. Точная хонинговка трубок, хромированные штоки, индивидуальные варианты крепления под задачи заказчика."
-                    : "High-performance welded and tie-rod hydraulic cylinders engineered for heavy-duty industrial, construction and mobile machinery. Precision honed tubes, chrome-plated rods and custom mounting options to match your equipment specifications."}
-                </Body>
-              </AutoCollapse>
-              <div className="mt-8 flex flex-wrap gap-3">
-                <CTA href={`${navHref("nav_customization")}?line=hydraulic`} size="lg">
-                  {locale === "ru" ? "Запросить расчет" : "Request a Quote"}
-                </CTA>
-                <CTA
-                  href={telHref}
-                  variant="secondary"
-                  size="lg"
-                >
-                  {phone}
-                </CTA>
-              </div>
-            </div>
-          </MediaText>
-
-          {/* — 2 张副图：并排画廊画报感（透明PNG油缸 → 统一白底，图片撑满容器不露边）
-                 · 2 列 grid 的 gap 必须与上方 MediaText 完全一致，才能让
-                   主图的左侧（图文块的右列左边） 与 画廊右卡（ASSET-47）的左侧严格垂直对齐 — */}
-          <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 md:mt-12 lg:gap-12">
-            {[
-              { id: "ASSET-46", tag: locale === "ru" ? "Серия HSG" : "HSG Series" },
-              { id: "ASSET-47", tag: locale === "ru" ? "Серия MOB" : "MOB Series" },
-            ].map((g) => {
-              const img = resolveAsset(g.id);
-              if (!img) return null;
-              return (
-                <figure
-                  key={g.id}
-                  className="group relative overflow-hidden rounded-card border border-line bg-white transition-all duration-500 ease-out hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_16px_40px_-18px_rgba(0,0,0,0.12)]"
-                >
-                  <div className="relative aspect-[4/3] w-full overflow-hidden bg-white">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={img}
-                      alt={g.tag}
-                      className="h-full w-full scale-[1.04] object-contain object-center transition-transform duration-700 ease-out group-hover:scale-[1.12]"
-                    />
-                  </div>
-                  <figcaption className="border-t border-line bg-white px-4 py-3">
-                    <p className="text-sm font-semibold tracking-tight text-ink group-hover:text-accent">
-                      {g.tag}
-                    </p>
-                    <p className="mt-1 text-xs text-ink-muted">
-                      {locale === "ru"
-                        ? "Стандартные и нестандартные исполнения"
-                        : "Standard and custom configurations"}
-                    </p>
-                  </figcaption>
-                </figure>
-              );
-            })}
-          </div>
-        </Container>
-      </Section>
-
-      {/* ── 第8页 · 24个产品抠图网格 ── */}
-      <Section id="page8-products" tone="surface" className="border-y border-line">
+      {/* ── Product Categories · 5 大分类网格 + sticky tab ── */}
+      <Section id="product-categories" tone="canvas" className="border-b border-line">
         <Container className="max-w-7xl">
-          <SectionHeader
-            kicker={locale === "ru" ? "Каталог · Стр. 8" : "Catalog · Page 8"}
-            title={locale === "ru" ? "Гидроцилиндры — Модельный ряд" : "Hydraulic Cylinders — Model Range"}
-            lead={locale === "ru" ? "24 типоразмера, прозрачный фон, AI-апскейл 4×" : "24 models, transparent background, AI upscaled 4×"}
-          />
-          <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 md:gap-5 lg:grid-cols-5">
-            {[
-              "p01","p02","p03","p04","p05",
-              "p06","p07","p08","p09","p10",
-              "p12","p13","p14","p15","p16",
-              "p17","p18","p19","p20","p21",
-              "p22","p23","p24","p25",
-            ].map((id, idx) => (
-              <figure
-                key={id}
-                className="group relative overflow-hidden rounded-card border border-line bg-white transition-all duration-500 ease-out hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_16px_40px_-18px_rgba(0,0,0,0.12)]"
-              >
-                <div className="relative aspect-square w-full overflow-hidden bg-white">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={`/assets/cutout/page8/${id}.png`}
-                    alt={`${locale === "ru" ? "Гидроцилиндр" : "Hydraulic Cylinder"} ${id}`}
-                    className="h-full w-full object-contain object-center p-3 transition-transform duration-700 ease-out group-hover:scale-110"
-                  />
-                </div>
-                <figcaption className="border-t border-line bg-white px-3 py-2">
-                  <p className="text-xs font-semibold tracking-tight text-ink group-hover:text-accent">
-                    {locale === "ru" ? "Модель" : "Model"} {id.toUpperCase()}
-                  </p>
-                  <p className="mt-0.5 text-[10px] text-ink-muted">
-                    № {idx + 1}/24
-                  </p>
-                </figcaption>
-              </figure>
-            ))}
-          </div>
+          <ProductCategories locale={locale} data={data} />
         </Container>
       </Section>
 
-      <Section tone="canvas" className="!pt-6 md:!pt-10">
-        <Container className="max-w-6xl">
-          <SectionHeader
-            kicker={localized(locale, "P01-H01")}
-            title={navLabel("nav_products")}
-            lead={localized(locale, "P04-B01")}
-          />
-          <div className="mt-5 md:mt-8">
-            <ProductCarousel items={carouselItems} />
-          </div>
-          <div className="mt-6 flex justify-center md:mt-8">
-            <CTA href={viewMoreHref} size="lg">
-              {viewMoreLabel}
-            </CTA>
-          </div>
-        </Container>
-      </Section>
-
+      {/* ── Dark CTA · 定制流程 ── */}
       <DarkCta image={resolveAsset("ASSET-36") ?? null} imageAlt="">
         <div className="grid gap-10 lg:grid-cols-[1fr_auto] lg:items-end">
           <div className="max-w-2xl">

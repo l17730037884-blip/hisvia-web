@@ -1,6 +1,20 @@
 import navJson from "@/data/nav.generated.json";
 import type { Locale } from "@/lib/locale";
 
+type RawNavItem = {
+  key: string;
+  cn: string; // 老字段(中文原文,等同 zh-CN)
+  en: string;
+  ru: string;
+  "zh-CN"?: string;
+  tr?: string;
+  es?: string;
+  ar?: string;
+  de?: string;
+  fr?: string;
+  pl?: string;
+};
+
 export type NavItem = { key: string; cn: string; en: string; ru: string };
 export type NavPage = {
   pageId: string;
@@ -10,7 +24,7 @@ export type NavPage = {
   assetIds: string[];
 };
 
-type NavFile = { nav: NavItem[]; pages: NavPage[] };
+type NavFile = { nav: RawNavItem[]; pages: NavPage[] };
 
 const NAV = (navJson as NavFile).nav;
 const PAGES = (navJson as NavFile).pages;
@@ -27,10 +41,21 @@ const ROUTES: Record<string, string> = {
   nav_contact: "/contact",
 };
 
+/** 按 locale 查找 nav 项 label:
+ *  优先显式 locale 字段(如 item.tr / item.es);
+ *  zh-CN fallback 到老 cn 字段;
+ *  最终 fallback 到 en(永不空)。 */
+function labelOf(item: RawNavItem, locale: Locale): string {
+  const direct = (item as Record<string, string | undefined>)[locale];
+  if (direct) return direct;
+  if (locale === "zh-CN") return item.cn || item.en;
+  return item.en;
+}
+
 export function getNavItems(locale: Locale): { key: string; label: string; href: string }[] {
   return NAV.map((item) => ({
     key: item.key,
-    label: locale === "ru" ? item.ru : item.en,
+    label: labelOf(item, locale),
     href: `/${locale}${ROUTES[item.key] ?? ""}`,
   }));
 }

@@ -5,6 +5,44 @@ import { localized } from "@/lib/content";
 import type { Locale } from "@/lib/locale";
 import { QuoteCTA } from "./quote-cta";
 
+/** 社媒二维码 tooltip(9 语言)。tap... → 点击查看二维码 */
+const QR_TIP: Record<Locale, (label: string) => string> = {
+  "zh-CN": (l) => `${l}（点击查看二维码）`,
+  en: (l) => `${l} (tap to view QR code)`,
+  ru: (l) => `${l} (нажмите, чтобы посмотреть QR-код)`,
+  tr: (l) => `${l} (QR kodu görmek için dokunun)`,
+  es: (l) => `${l} (toque para ver el código QR)`,
+  ar: (l) => `${l} (انقر لعرض رمز QR)`,
+  de: (l) => `${l} (tippen, um QR-Code anzuzeigen)`,
+  fr: (l) => `${l} (touchez pour voir le code QR)`,
+  pl: (l) => `${l} (dotknij, aby zobaczyć kod QR)`,
+};
+
+/** 隐私政策 / 服务条款 链接文案(9 语言)。 */
+const PRIVACY_TEXT: Record<Locale, string> = {
+  "zh-CN": "隐私政策",
+  en: "Privacy Policy",
+  ru: "Политика конфиденциальности",
+  tr: "Gizlilik Politikası",
+  es: "Política de privacidad",
+  ar: "سياسة الخصوصية",
+  de: "Datenschutzerklärung",
+  fr: "Politique de confidentialité",
+  pl: "Polityka prywatności",
+};
+
+const TERMS_TEXT: Record<Locale, string> = {
+  "zh-CN": "服务条款",
+  en: "Terms of Service",
+  ru: "Условия использования",
+  tr: "Hizmet Şartları",
+  es: "Términos del servicio",
+  ar: "شروط الخدمة",
+  de: "Nutzungsbedingungen",
+  fr: "Conditions d'utilisation",
+  pl: "Regulamin",
+};
+
 export default function Footer({ locale }: { locale: Locale }) {
   const items = getNavItems(locale);
   const company = localized(locale, "P01-H01");
@@ -13,10 +51,9 @@ export default function Footer({ locale }: { locale: Locale }) {
   const postal = localized(locale, "P01-C03");
   const contactLabel = items.find((i) => i.key === "nav_contact")?.label ?? "";
   const year = new Date().getFullYear();
-  // 社媒二维码 tooltip 国际化（全中文移除，用户反复反馈残留中文）
-  const tgQrTip = locale === "ru" ? "Telegram (нажмите, чтобы посмотреть QR-код)" : "Telegram (tap to view QR code)";
-  const waQrTip = locale === "ru" ? "WhatsApp (нажмите, чтобы посмотреть QR-код)" : "WhatsApp (tap to view QR code)";
-  const igQrTip = locale === "ru" ? "Instagram (нажмите, чтобы посмотреть QR-код)" : "Instagram (tap to view QR code)";
+  const tgQrTip = QR_TIP[locale]("Telegram");
+  const waQrTip = QR_TIP[locale]("WhatsApp");
+  const igQrTip = QR_TIP[locale]("Instagram");
 
   return (
     <footer
@@ -34,12 +71,12 @@ export default function Footer({ locale }: { locale: Locale }) {
       {/* 左聚光灯：左下 accent 蓝发光（点亮联系区/公司区） */}
       <span
         aria-hidden
-        className="pointer-events-none absolute -bottom-40 -left-32 h-[420px] w-[560px] rounded-full bg-accent/30 blur-[120px]"
+        className="pointer-events-none absolute -bottom-40 -start-32 h-[420px] w-[560px] rounded-full bg-accent/30 blur-[120px]"
       />
       {/* 右聚光灯：右下 accent 淡蓝（左右对称亮感） */}
       <span
         aria-hidden
-        className="pointer-events-none absolute -bottom-32 -right-28 h-[360px] w-[440px] rounded-full bg-accent/20 blur-[110px]"
+        className="pointer-events-none absolute -bottom-32 -end-28 h-[360px] w-[440px] rounded-full bg-accent/20 blur-[110px]"
       />
       {/* 中心顶部白微天光（logo 区上方提亮，极弱） */}
       <span
@@ -55,7 +92,7 @@ export default function Footer({ locale }: { locale: Locale }) {
       <Container className="relative">
         <div className="grid gap-8 py-8 md:grid-cols-[3fr_2fr_1fr] md:gap-10 md:py-10 lg:gap-12">
           {/* ① 公司信息：手机端居中，桌面端左对齐 */}
-          <div className="text-center text-[0.8125rem] font-medium leading-[1.6] tracking-[-0.02em] md:text-left md:text-[0.875rem]">
+          <div className="text-center text-[0.8125rem] font-medium leading-[1.6] tracking-[-0.02em] md:text-start md:text-[0.875rem]">
             <p className="text-dark-text">{company}</p>
             <p className="mt-3 text-dark-muted">{address}</p>
             <p className="mt-2">
@@ -68,8 +105,8 @@ export default function Footer({ locale }: { locale: Locale }) {
           </div>
 
           {/* ② 导航链接：手机端居中，桌面端左对齐 */}
-          <nav aria-label="Footer" className="text-center md:text-left">
-            <ul className="grid grid-cols-2 gap-x-5 gap-y-2 justify-items-center text-center sm:grid-cols-3 sm:gap-x-6 md:grid-cols-2 md:justify-items-start md:text-left">
+          <nav aria-label="Footer" className="text-center md:text-start">
+            <ul className="grid grid-cols-2 gap-x-5 gap-y-2 justify-items-center text-center sm:grid-cols-3 sm:gap-x-6 md:grid-cols-2 md:justify-items-start md:text-start">
               {items.map((item) => (
                 <li key={item.key}>
                   <Link
@@ -84,7 +121,7 @@ export default function Footer({ locale }: { locale: Locale }) {
           </nav>
 
           {/* ③ 联系区 + 社媒图标：手机端居中，桌面端左对齐 */}
-          <div className="text-center text-[0.8125rem] font-medium leading-[1.6] tracking-[-0.02em] md:text-left md:text-[0.875rem]">
+          <div className="text-center text-[0.8125rem] font-medium leading-[1.6] tracking-[-0.02em] md:text-start md:text-[0.875rem]">
             <p className="text-dark-text">{contactLabel}</p>
             <p className="mt-3 text-dark-muted">{phone}</p>
 
@@ -170,7 +207,7 @@ export default function Footer({ locale }: { locale: Locale }) {
         </div>
 
         <div
-          className="flex flex-col items-center gap-3 border-t py-6 text-center text-[0.8125rem] font-medium leading-[1.6] tracking-[-0.02em] md:flex-row md:items-center md:justify-between md:text-left md:gap-10 md:py-8 md:text-[0.875rem]"
+          className="flex flex-col items-center gap-3 border-t py-6 text-center text-[0.8125rem] font-medium leading-[1.6] tracking-[-0.02em] md:flex-row md:items-center md:justify-between md:text-start md:gap-10 md:py-8 md:text-[0.875rem]"
           style={{ borderColor: "rgba(255,255,255,0.12)", color: "rgba(220,220,230,0.62)" }}
         >
           <div className="flex flex-col items-center gap-3 md:flex-row md:items-center md:gap-10">
@@ -184,10 +221,10 @@ export default function Footer({ locale }: { locale: Locale }) {
               {items.find((i) => i.key === "nav_contact")?.label}
             </Link>
             <Link href={`/${locale}/privacy`} className="transition-colors hover:text-accent">
-              {locale === "ru" ? "Политика конфиденциальности" : "Privacy Policy"}
+              {PRIVACY_TEXT[locale]}
             </Link>
             <Link href={`/${locale}/terms`} className="transition-colors hover:text-accent">
-              {locale === "ru" ? "Условия использования" : "Terms of Service"}
+              {TERMS_TEXT[locale]}
             </Link>
           </div>
           {/* 底框始终保持询盘表单入口（用户要求"底框始终有表单入口"）：

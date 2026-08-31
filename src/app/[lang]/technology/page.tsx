@@ -10,9 +10,15 @@ import { getNavItems } from "@/lib/nav";
 import { resolveAssets } from "@/lib/assets";
 import { localized } from "@/lib/content";
 import { pageTitle, pageDescription, languageAlternates, canonicalUrl } from "@/lib/seo";
-import { resolveLocale, type Locale } from "@/lib/locale";
+import { resolveLocale, ogLocale, type Locale } from "@/lib/locale";
 import { SITE_URL } from "@/lib/site";
 import { cn } from "@/lib/cn";
+
+/** 技术页本地化文案(9 种语言)。 */
+const TECH_NAME: Record<Locale, string> = {
+  "zh-CN": "技术", en: "Technology", ru: "Технологии", tr: "Teknoloji", es: "Tecnología",
+  ar: "التقنية", de: "Technologie", fr: "Technologie", pl: "Technologia",
+};
 
 const FEATURE_IDS = ["P04-B03", "P04-B04"];
 
@@ -25,7 +31,7 @@ export async function generateMetadata({
   params,
 }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const locale = await getLocale(params);
-  const name = locale === "ru" ? "Технологии" : "Technology";
+  const name = TECH_NAME[locale];
   return {
     title: pageTitle(locale, name),
     description: pageDescription(locale, "Technology"),
@@ -33,7 +39,7 @@ export async function generateMetadata({
     openGraph: {
       title: pageTitle(locale, name),
       description: pageDescription(locale, "Technology"),
-      locale: locale === "ru" ? "ru_RU" : "en_US",
+      locale: ogLocale(locale),
       type: "website",
     },
   };

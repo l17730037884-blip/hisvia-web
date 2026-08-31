@@ -5,11 +5,38 @@ import { Kicker, H1, H2, Body } from "@/components/ui/typography";
 import { Breadcrumb } from "@/components/layout/breadcrumb";
 import { InquiryForm } from "@/components/visual/inquiry-form";
 import { getNavItems } from "@/lib/nav";
-import { getFamilies } from "@/lib/families";
+import { getFamilies, familyName as familyDisplayName } from "@/lib/families";
 import { localized } from "@/lib/content";
 import { pageTitle, pageDescription, languageAlternates, canonicalUrl } from "@/lib/seo";
-import { resolveLocale, type Locale } from "@/lib/locale";
+import { resolveLocale, ogLocale, type Locale } from "@/lib/locale";
 import { BRAND, SITE_URL } from "@/lib/site";
+
+/** 联系页本地化文案(9 种语言)。 */
+const CONTACT_NAME: Record<Locale, string> = {
+  "zh-CN": "联系我们", en: "Contact", ru: "Контакты", tr: "İletişim", es: "Contacto",
+  ar: "اتصل بنا", de: "Kontakt", fr: "Contact", pl: "Kontakt",
+};
+const CONTACT_INFO_TEXT: Record<Locale, string> = {
+  "zh-CN": "联系信息", en: "Contact information", ru: "Контактная информация",
+  tr: "İletişim bilgileri", es: "Información de contacto", ar: "معلومات الاتصال",
+  de: "Kontaktinformationen", fr: "Coordonnées", pl: "Informacje kontaktowe",
+};
+const COMPANY_TEXT: Record<Locale, string> = {
+  "zh-CN": "公司", en: "Company", ru: "Компания", tr: "Şirket", es: "Empresa",
+  ar: "الشركة", de: "Unternehmen", fr: "Société", pl: "Firma",
+};
+const ADDRESS_TEXT: Record<Locale, string> = {
+  "zh-CN": "地址", en: "Address", ru: "Адрес", tr: "Adres", es: "Dirección",
+  ar: "العنوان", de: "Adresse", fr: "Adresse", pl: "Adres",
+};
+const PHONE_TEXT: Record<Locale, string> = {
+  "zh-CN": "电话", en: "Phone", ru: "Телефон", tr: "Telefon", es: "Teléfono",
+  ar: "الهاتف", de: "Telefon", fr: "Téléphone", pl: "Telefon",
+};
+const POSTAL_TEXT: Record<Locale, string> = {
+  "zh-CN": "邮编", en: "Postal code", ru: "Почтовый индекс", tr: "Posta kodu",
+  es: "Código postal", ar: "الرمز البريدي", de: "Postleitzahl", fr: "Code postal", pl: "Kod pocztowy",
+};
 
 async function getLocale(params: Promise<{ lang: string }>): Promise<Locale> {
   const { lang } = await params;
@@ -20,7 +47,7 @@ export async function generateMetadata({
   params,
 }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const locale = await getLocale(params);
-  const name = locale === "ru" ? "Контакты" : "Contact";
+  const name = CONTACT_NAME[locale];
   return {
     title: pageTitle(locale, name),
     description: pageDescription(locale, "Contact"),
@@ -28,7 +55,7 @@ export async function generateMetadata({
     openGraph: {
       title: pageTitle(locale, name),
       description: pageDescription(locale, "Contact"),
-      locale: locale === "ru" ? "ru_RU" : "en_US",
+      locale: ogLocale(locale),
       type: "website",
     },
   };
@@ -105,25 +132,25 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
             {/* 左: 联系信息 */}
             <div>
               <H2 className="!text-[clamp(1.25rem,2vw,1.5rem)] !font-semibold">
-                {locale === "ru" ? "Контактная информация" : "Contact information"}
+                {CONTACT_INFO_TEXT[locale]}
               </H2>
               <address className="not-italic">
                 <ul className="mt-5 divide-y divide-line rounded-card border border-line bg-surface">
                   <li className="p-5">
                     <p className="font-mono text-[0.6875rem] uppercase tracking-[0.14em] text-ink-muted">
-                      {locale === "ru" ? "Компания" : "Company"}
+                      {COMPANY_TEXT[locale]}
                     </p>
                     <p className="mt-1 font-display text-[1.0625rem] font-semibold text-ink">{company}</p>
                   </li>
                   <li className="p-5">
                     <p className="font-mono text-[0.6875rem] uppercase tracking-[0.14em] text-ink-muted">
-                      {locale === "ru" ? "Адрес" : "Address"}
+                      {ADDRESS_TEXT[locale]}
                     </p>
                     <Body className="mt-1 !text-[0.9375rem] !leading-[1.55] text-ink">{address}</Body>
                   </li>
                   <li className="p-5">
                     <p className="font-mono text-[0.6875rem] uppercase tracking-[0.14em] text-ink-muted">
-                      {locale === "ru" ? "Телефон" : "Phone"}
+                      {PHONE_TEXT[locale]}
                     </p>
                     <a
                       href={telHref}
@@ -134,7 +161,7 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
                   </li>
                   <li className="p-5">
                     <p className="font-mono text-[0.6875rem] uppercase tracking-[0.14em] text-ink-muted">
-                      {locale === "ru" ? "Почтовый индекс" : "Postal code"}
+                      {POSTAL_TEXT[locale]}
                     </p>
                     <p className="mt-1 font-mono text-[0.9375rem] tabular-nums text-ink-muted">{postal}</p>
                   </li>
@@ -162,7 +189,7 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
               phone={phone}
               productOptions={getFamilies().map((f) => ({
                 value: f.slug,
-                label: (locale === "ru" ? f.nameRu : f.nameEn) ?? f.slug,
+                label: familyDisplayName(locale, f) || f.slug,
               }))}
             />
           </div>

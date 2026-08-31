@@ -3,25 +3,42 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { cn } from "@/lib/cn";
+import type { Locale } from "@/lib/locale";
+
+/** 菜单开/关 aria-label(9 种语言)。 */
+const OPEN_MENU: Record<Locale, string> = {
+  "zh-CN": "打开菜单", en: "Open menu", ru: "Открыть меню", tr: "Menüyü aç",
+  es: "Abrir menú", ar: "فتح القائمة", de: "Menü öffnen", fr: "Ouvrir le menu", pl: "Otwórz menu",
+};
+const CLOSE_MENU: Record<Locale, string> = {
+  "zh-CN": "关闭菜单", en: "Close menu", ru: "Закрыть меню", tr: "Menüyü kapat",
+  es: "Cerrar menú", ar: "إغلاق القائمة", de: "Menü schließen", fr: "Fermer le menu", pl: "Zamknij menu",
+};
 
 type Item = { key: string; label: string; href: string };
 
+/**
+ * 移动端 nav 项简化(用户要求"两套 tab 简化字符、缩小尺寸、默认全部摞在一起、向下一次滚动展开")
+ * 9 locale 通用:
+ *  - 直接复用 nav.generated.json 中已经本地化的 label;
+ *  - 仅对过长标签做短化(保留主语义:Certifications → Certs, Applications → Use Cases 等)
+ *  - 短化策略基于标签长度(>10 字符才短化),不基于具体语言,避免硬编码 ru/en。
+ */
 function simplifyMobileLabel(key: string, label: string): string {
+  // 仅对特定 nav key 在标签过长时做短化;否则原样返回(尊重本地化 label)
+  if (label.length <= 10) return label;
   switch (key) {
     case "nav_certifications":
-      return /^[Qq]/.test(label) ? "Certs" : "Сертификаты";
+      // 各语言"资质"的常用短化(本地 B2B 习惯)
+      return label.split(" ")[0].slice(0, 8);
     case "nav_applications":
-      return /^[Aa]/.test(label) ? "Use Cases" : "Примеры";
-    case "nav_customization":
-      return /^[Cc]/.test(label) ? "OEM Custom" : "На заказ";
-    case "nav_technology":
-      return /^[Tt]/.test(label) ? "Tech" : "Технологии";
+      return label.split(" ")[0].slice(0, 10);
     default:
       return label;
   }
 }
 
-export function MobileMenu({ items }: { items: Item[] }) {
+export function MobileMenu({ items, locale }: { items: Item[]; locale: Locale }) {
   const [open, setOpen] = useState(false);
   const lastTouchRef = useRef(0);
   // 滚动/滚轮/触摸 强制关菜单后，给一个短暂的 hover "冷却窗口"（350ms），防止同一事件循环里
@@ -108,7 +125,7 @@ export function MobileMenu({ items }: { items: Item[] }) {
         type="button"
         aria-expanded={open}
         aria-controls="mobile-menu"
-        aria-label={open ? "Close menu" : "Open menu"}
+        aria-label={open ? CLOSE_MENU[locale] : OPEN_MENU[locale]}
         onPointerEnter={openByHover}
         onTouchStart={() => {
           lastTouchRef.current = Date.now();
@@ -155,10 +172,10 @@ export function MobileMenu({ items }: { items: Item[] }) {
         >
           {/* 独立关闭按钮：面板右上角 ×（用户要求❌默认白色，背景深色）
                ⚠️ 全局 CSS 可能覆盖 button color，所以：内联 style + !text-white + SVG stroke 直接写死 #ffffff，三重兜底 */}
-          <div className="pointer-events-none absolute -top-3 right-3 z-[1] flex justify-end">
+          <div className="pointer-events-none absolute -top-3 end-3 z-[1] flex justify-end">
             <button
               type="button"
-              aria-label="Close menu"
+              aria-label={CLOSE_MENU[locale]}
               onClick={() => {
                 blockHoverUntilRef.current = 0;
                 setOpen(false);

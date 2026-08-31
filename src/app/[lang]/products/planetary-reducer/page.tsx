@@ -10,10 +10,10 @@ import { DarkCta } from "@/components/visual/dark-cta";
 import { getNavItems } from "@/lib/nav";
 import { resolveAsset } from "@/lib/assets";
 import { localized, paramTranslation, sanitizeProductModelName, paramValueTranslation } from "@/lib/content";
-import { getFamilyBySlug } from "@/lib/families";
+import { getFamilyBySlug, familyName as familyDisplayName } from "@/lib/families";
 import { getAllProducts, productTitle, resolveProductImage } from "@/lib/products";
 import { pageTitle, pageDescription, languageAlternates, canonicalUrl } from "@/lib/seo";
-import { resolveLocale, type Locale } from "@/lib/locale";
+import { resolveLocale, ogLocale, type Locale } from "@/lib/locale";
 import { BRAND, SITE_URL } from "@/lib/site";
 
 async function getLocale(params: Promise<{ lang: string }>): Promise<Locale> {
@@ -26,7 +26,7 @@ export async function generateMetadata({
 }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const locale = await getLocale(params);
   const family = getFamilyBySlug("planetary-reducer");
-  const name = family ? (locale === "ru" ? family.nameRu : family.nameEn) ?? "" : "";
+  const name = familyDisplayName(locale, family);
   return {
     title: pageTitle(locale, name),
     description: pageDescription(locale, name),
@@ -34,7 +34,7 @@ export async function generateMetadata({
     openGraph: {
       title: pageTitle(locale, name),
       description: pageDescription(locale, name),
-      locale: locale === "ru" ? "ru_RU" : "en_US",
+      locale: ogLocale(locale),
       type: "website",
     },
   };
@@ -50,7 +50,7 @@ export default async function PlanetaryReducerPage({
   const phone = localized(locale, "P01-C02");
   const telHref = `tel:${phone.replace(/[^0-9+]/g, "")}`;
   const family = getFamilyBySlug("planetary-reducer");
-  const familyName = family ? (locale === "ru" ? family.nameRu : family.nameEn) ?? "" : "";
+  const familyName = familyDisplayName(locale, family);
   const familyIntro = family ? localized(locale, family.introContentId) : "";
   const products = getAllProducts();
   const ZOOM_25_ASSETS = new Set(["ASSET-05", "ASSET-07", "ASSET-08"]);

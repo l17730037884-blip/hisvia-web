@@ -67,45 +67,48 @@ export default function Header({ locale }: { locale: Locale }) {
     >
       {/* 【与 Footer 统一深色主题】：整段深黑渐变 + 顶白高光 + 左右聚光灯 + 径向舞台黑晕 */}
       <div
-        className="relative overflow-hidden border-b border-white/10"
+        className="relative border-b border-white/10"
         style={{
           background:
             "linear-gradient(180deg,#0b141f 0%,#08080d 45%,#060609 100%)",
         }}
       >
-        {/* 顶部 1px 白高光描边（与 Footer 完全对称） */}
-        <span
-          aria-hidden
-          className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/38 to-transparent"
-        />
-        {/* 左聚光灯：左上 accent 蓝发光（点亮 Logo/品牌名区） */}
-        <span
-          aria-hidden
-          className="pointer-events-none absolute -top-28 -left-32 h-[420px] w-[560px] rounded-full bg-accent/30 blur-[120px]"
-        />
-        {/* 右聚光灯：右上 accent 淡蓝（点亮电话/语言切换/联系按钮区） */}
-        <span
-          aria-hidden
-          className="pointer-events-none absolute -top-20 -right-28 h-[360px] w-[440px] rounded-full bg-accent/20 blur-[110px]"
-        />
-        {/* 中心顶部白微天光（中间导航区上方极弱提亮） */}
-        <span
-          aria-hidden
-          className="pointer-events-none absolute left-1/2 top-[-60px] h-48 w-[720px] -translate-x-1/2 rounded-full bg-white/5 blur-[70px]"
-        />
-        {/* 中心→外圈 压黑渐晕：中心导航区保留亮感，四角落压黑做舞台（与 Footer 对称） */}
-        <span
-          aria-hidden
-          className="pointer-events-none absolute inset-0"
-          style={{
-            background:
-              "radial-gradient(ellipse at 50% 20%,rgba(18,18,26,0)_0%,rgba(10,10,15,0.30)_55%,rgba(6,6,10,0.78)_82%,rgba(5,5,8,0.92)_100%)",
-          }}
-        />
+        {/* 聚光灯裁剪容器:overflow-hidden 只作用于光晕,不影响内容层(语言列表等 absolute 元素) */}
+        <div className="pointer-events-none absolute inset-0 overflow-hidden">
+          {/* 顶部 1px 白高光描边（与 Footer 完全对称） */}
+          <span
+            aria-hidden
+            className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/38 to-transparent"
+          />
+          {/* 左聚光灯：左上 accent 蓝发光（点亮 Logo/品牌名区） */}
+          <span
+            aria-hidden
+            className="absolute -top-28 -start-32 h-[420px] w-[560px] rounded-full bg-accent/30 blur-[120px]"
+          />
+          {/* 右聚光灯：右上 accent 淡蓝（点亮电话/语言切换/联系按钮区） */}
+          <span
+            aria-hidden
+            className="absolute -top-20 -end-28 h-[360px] w-[440px] rounded-full bg-accent/20 blur-[110px]"
+          />
+          {/* 中心顶部白微天光（中间导航区上方极弱提亮） */}
+          <span
+            aria-hidden
+            className="absolute left-1/2 top-[-60px] h-48 w-[720px] -translate-x-1/2 rounded-full bg-white/5 blur-[70px]"
+          />
+          {/* 中心→外圈 压黑渐晕：中心导航区保留亮感，四角落压黑做舞台（与 Footer 对称） */}
+          <span
+            aria-hidden
+            className="absolute inset-0"
+            style={{
+              background:
+                "radial-gradient(ellipse at 50% 20%,rgba(18,18,26,0)_0%,rgba(10,10,15,0.30)_55%,rgba(6,6,10,0.78)_82%,rgba(5,5,8,0.92)_100%)",
+            }}
+          />
+        </div>
 
         {/* 顶部 utility 条：滚动折叠时整行随 header 一起 -translate（被挪到视口外）
             移动端高度砍到 h-8(32px) + 小字体 0.75rem，降低整体导航高度 */}
-        <div className="relative flex h-8 items-center justify-between px-3 text-[0.75rem] font-medium tracking-[-0.02em] text-dark-text md:h-[52px] md:px-6 md:text-[0.8125rem] lg:px-8 min-[1441px]:px-12 min-[1921px]:px-[50px]">
+        <div className="relative flex h-8 items-center justify-between px-3 rtl:flex-row-reverse text-[0.75rem] font-medium tracking-[-0.02em] text-dark-text md:h-[52px] md:px-6 md:text-[0.8125rem] lg:px-8 min-[1441px]:px-12 min-[1921px]:px-[50px]">
           <nav aria-label="Utility" className="flex min-w-0 items-center gap-3 md:gap-6 lg:gap-7">
             <Link href={`/${locale}/`} className="truncate whitespace-nowrap transition-colors hover:text-accent">
               {brand}
@@ -134,7 +137,7 @@ export default function Header({ locale }: { locale: Locale }) {
               OEM 按钮再瘦一圈、label truncate，保证窄屏不溢出/不被裁
             - 左右侧"视觉居中"：保持两端对齐但两侧留白对称，所有元素 min-w-0 / shrink 处理 */}
         <div className="relative">
-          <Container className="flex h-12 items-center justify-between gap-2 px-4 md:h-[72px] min-[1441px]:h-[80px] md:gap-4 md:px-6 min-[1441px]:px-8 min-[1921px]:px-[50px]">
+          <Container className="flex h-12 items-center justify-between gap-2 px-4 rtl:flex-row-reverse md:h-[72px] min-[1441px]:h-[80px] md:gap-4 md:px-6 min-[1441px]:px-8 min-[1921px]:px-[50px]">
           <Link href={`/${locale}/`} className="flex min-w-0 shrink items-center gap-2">
             {logo ? (
               // eslint-disable-next-line @next/next/no-img-element
@@ -176,18 +179,21 @@ export default function Header({ locale }: { locale: Locale }) {
             })}
           </nav>
 
-          <div className="flex min-w-0 shrink-0 items-center gap-1.5 md:gap-2.5">
-            {/* 手机端语言切换：直接放在主导航条右侧（永远保留，不会因折叠 utility 条被顶走） */}
-            <div className="shrink-0 lg:hidden">
-              <LanguageSwitcher locale={locale} />
-            </div>
+          <div className="flex min-w-0 shrink-0 items-center gap-1.5 rtl:flex-row-reverse md:gap-2.5">
+            {/* 手机端语言切换已移至操作区最右(MobileMenu 之后),位置固定不受 OEM 按钮宽度变化影响 */}
             {/* 手机端（lg以下）：在汉堡按钮左边默认显示 OEM 定制入口，不用点开菜单就能看到
                 再瘦一圈 + label 强制 truncate 一行，避免长俄语/英语 label 把按钮撑爆 */}
             {(() => {
               const custom = items.find((i) => i.key === "nav_customization");
+              // label 过长(>12 字符)时,按 locale 用本地 B2B 短词兜底
+              // (避免硬编码 ru/en,9 locale 都有合适的"OEM/定制"短化)
+              const SHORT_LABEL: Record<Locale, string> = {
+                "zh-CN": "定制", en: "OEM", ru: "Заказ", tr: "Özel",
+                es: "OEM", ar: "مخصص", de: "OEM", fr: "OEM", pl: "OEM",
+              };
               const customLabel = custom
                 ? (custom.label.length > 12
-                    ? (/^[Cc]/.test(custom.label) ? "OEM" : "Заказ")
+                    ? SHORT_LABEL[locale]
                     : custom.label)
                 : "";
               return custom ? (
@@ -211,7 +217,11 @@ export default function Header({ locale }: { locale: Locale }) {
                 {contact.label}
               </Link>
             ) : null}
-            <MobileMenu items={items} />
+            <MobileMenu items={items} locale={locale} />
+            {/* 手机端语言切换:放操作区最右,位置固定不受 OEM 按钮宽度变化影响 */}
+            <div className="shrink-0 lg:hidden">
+              <LanguageSwitcher locale={locale} />
+            </div>
           </div>
         </Container>
         </div> {/* 主导航条 relative 结束 */}

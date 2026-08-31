@@ -8,8 +8,14 @@ import { getNavItems } from "@/lib/nav";
 import { resolveAsset } from "@/lib/assets";
 import { localized } from "@/lib/content";
 import { pageTitle, pageDescription, languageAlternates, canonicalUrl } from "@/lib/seo";
-import { resolveLocale, type Locale } from "@/lib/locale";
+import { resolveLocale, ogLocale, type Locale } from "@/lib/locale";
 import { BRAND, SITE_URL } from "@/lib/site";
+
+/** 资质页本地化文案(9 种语言)。 */
+const CERT_NAME: Record<Locale, string> = {
+  "zh-CN": "资质认证", en: "Certifications", ru: "Сертификаты", tr: "Sertifikalar",
+  es: "Certificaciones", ar: "الشهادات", de: "Zertifikate", fr: "Certifications", pl: "Certyfikaty",
+};
 
 const CERT_FACT_IDS = ["F01", "F02", "F03", "F05", "F06", "F07", "F08"];
 const CERT_ORDER = ["ASSET-10", "ASSET-12", "ASSET-15", "ASSET-16", "ASSET-11", "ASSET-13", "ASSET-17"];
@@ -23,7 +29,7 @@ export async function generateMetadata({
   params,
 }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const locale = await getLocale(params);
-  const name = locale === "ru" ? "Сертификаты" : "Certifications";
+  const name = CERT_NAME[locale];
   return {
     title: pageTitle(locale, name),
     description: pageDescription(locale, "Certifications"),
@@ -31,7 +37,7 @@ export async function generateMetadata({
     openGraph: {
       title: pageTitle(locale, name),
       description: pageDescription(locale, "Certifications"),
-      locale: locale === "ru" ? "ru_RU" : "en_US",
+      locale: ogLocale(locale),
       type: "website",
     },
   };

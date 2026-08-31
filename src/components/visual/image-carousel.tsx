@@ -79,14 +79,14 @@ export function ImageCarousel({
 
       {/* 左右翻页（玻璃按钮） */}
       {slides.length > 1 ? (
-        <div className="absolute bottom-3 right-3 z-20 flex gap-2 md:bottom-4 md:right-4">
+        <div className="absolute bottom-3 end-3 z-20 flex gap-2 md:bottom-4 md:end-4">
           <button
             type="button"
             aria-label="Previous"
             onClick={() => goTo(index - 1)}
             className="glass flex h-7 w-7 items-center justify-center rounded-full text-ink transition-colors hover:bg-ink hover:text-white md:h-9 md:w-9"
           >
-            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden>
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden className="rtl:-scale-x-100">
               <path d="M10 3L5 8l5 5" stroke="currentColor" strokeWidth="1.5" />
             </svg>
           </button>
@@ -96,7 +96,7 @@ export function ImageCarousel({
             onClick={() => goTo(index + 1)}
             className="glass flex h-7 w-7 items-center justify-center rounded-full text-ink transition-colors hover:bg-ink hover:text-white md:h-9 md:w-9"
           >
-            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden>
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden className="rtl:-scale-x-100">
               <path d="M6 3l5 5-5 5" stroke="currentColor" strokeWidth="1.5" />
             </svg>
           </button>

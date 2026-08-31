@@ -610,6 +610,16 @@
       "protectedTermsPreserved": []
     },
     {
+      "contentId": "RU-P14-CTA01",
+      "sourceContentId": "CN-P14-CTA01",
+      "sourceCn": "立即询价",
+      "translation": "Запросить расчёт",
+      "translationStatus": "TRANSLATED",
+      "confidence": 0.9,
+      "glossaryTermsUsed": [],
+      "protectedTermsPreserved": []
+    },
+    {
       "contentId": "RU-PROD-P06-A-TITLE",
       "sourceContentId": "CN-P06-PROD-01",
       "sourceCn": "301-2-001040-00(带制动轴)",
@@ -892,7 +902,7 @@
       "contentId": "RU-PROD-P06-A-PARAM-72",
       "sourceContentId": "CN-P06-PROD-01-PARAM-适配轮径",
       "sourceCn": "适配轮径 = Φ240-Φ280/推荐Φ270",
-      "translation": "Диаметр подходящего колеса = Φ240-Φ280/推荐Φ270",
+      "translation": "Диаметр подходящего колеса = Φ240-Φ280/рек.Φ270",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -1185,7 +1195,7 @@
       "contentId": "RU-PROD-P06-B-PARAM-93",
       "sourceContentId": "CN-P06-PROD-02-PARAM-适配轮径",
       "sourceCn": "适配轮径 = Φ240-Φ280/推荐Φ270",
-      "translation": "Диаметр подходящего колеса = Φ240-Φ280/推荐Φ270",
+      "translation": "Диаметр подходящего колеса = Φ240-Φ280/рек.Φ270",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -1478,7 +1488,7 @@
       "contentId": "RU-PROD-P07-A-PARAM-114",
       "sourceContentId": "CN-P07-PROD-03-PARAM-适配轮径",
       "sourceCn": "适配轮径 = Φ240-Φ280/推荐Φ270",
-      "translation": "Диаметр подходящего колеса = Φ240-Φ280/推荐Φ270",
+      "translation": "Диаметр подходящего колеса = Φ240-Φ280/рек.Φ270",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -1771,7 +1781,7 @@
       "contentId": "RU-PROD-P07-B-PARAM-135",
       "sourceContentId": "CN-P07-PROD-04-PARAM-适配轮径",
       "sourceCn": "适配轮径 = Φ240-Φ280/推荐Φ270",
-      "translation": "Диаметр подходящего колеса = Φ240-Φ280/推荐Φ270",
+      "translation": "Диаметр подходящего колеса = Φ240-Φ280/рек.Φ270",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -2064,7 +2074,7 @@
       "contentId": "RU-PROD-P08-A-PARAM-156",
       "sourceContentId": "CN-P08-PROD-05-PARAM-适配轮径",
       "sourceCn": "适配轮径 = Φ160-Φ200/推荐Φ160",
-      "translation": "Диаметр подходящего колеса = Φ160-Φ200/推荐Φ160",
+      "translation": "Диаметр подходящего колеса = Φ160-Φ200/рек.Φ160",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -2357,7 +2367,7 @@
       "contentId": "RU-PROD-P08-B-PARAM-177",
       "sourceContentId": "CN-P08-PROD-06-PARAM-适配轮径",
       "sourceCn": "适配轮径 = Φ500-Φ600/推荐Φ600",
-      "translation": "Диаметр подходящего колеса = Φ500-Φ600/推荐Φ600",
+      "translation": "Диаметр подходящего колеса = Φ500-Φ600/рек.Φ600",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -3236,7 +3246,7 @@
       "contentId": "RU-PROD-P10-A-PARAM-240",
       "sourceContentId": "CN-P10-PROD-09-PARAM-适配轮径",
       "sourceCn": "适配轮径 = Φ160-Φ200/推荐Φ180",
-      "translation": "Диаметр подходящего колеса = Φ160-Φ200/推荐Φ180",
+      "translation": "Диаметр подходящего колеса = Φ160-Φ200/рек.Φ180",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
@@ -3822,7 +3832,7 @@
       "contentId": "RU-PROD-P11-A-PARAM-282",
       "sourceContentId": "CN-P11-PROD-11-PARAM-适配轮径",
       "sourceCn": "适配轮径 = Φ500-Φ600/推荐Φ600",
-      "translation": "Диаметр подходящего колеса = Φ500-Φ600/推荐Φ600",
+      "translation": "Диаметр подходящего колеса = Φ500-Φ600/рек.Φ600",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
@@ -5118,7 +5128,7 @@
       "contentId": "RU-PROD-P13-B-PARAM-375",
       "sourceContentId": "CN-P13-PROD-16-PARAM-适配轮径",
       "sourceCn": "适配轮径 = Φ500-Φ600/推荐Φ600",
-      "translation": "Диаметр подходящего колеса = Φ500-Φ600/推荐Φ600",
+      "translation": "Диаметр подходящего колеса = Φ500-Φ600/рек.Φ600",
       "translationStatus": "TRANSLATED",
       "confidence": 0.85,
       "glossaryTermsUsed": [
