@@ -5,8 +5,8 @@ import Footer from "@/components/layout/footer";
 import { FloatingQuoteBar } from "@/components/layout/floating-quote-bar";
 import { LangSync } from "@/components/layout/lang-sync";
 import { resolveLocale, LOCALES, htmlDir, type Locale } from "@/lib/locale";
-import { BRAND } from "@/lib/site";
-import { pageDescription } from "@/lib/seo";
+import { BRAND, SITE_URL } from "@/lib/site";
+import { pageDescription, languageAlternates } from "@/lib/seo";
 import { localized } from "@/lib/content";
 
 /** 阿拉伯语专用字体 Cairo:现代无衬线,笔画清晰,适合 B2B 工业站点。 */
@@ -50,8 +50,10 @@ export async function generateMetadata({
   const locale = resolveLocale(lang);
   const homeName = localized(locale, "P01-H03") || HOME_FALLBACK[locale];
   return {
+    metadataBase: new URL(SITE_URL),
     title: BRAND[locale],
     description: pageDescription(locale, homeName),
+    alternates: languageAlternates(locale, "/"),
   };
 }
 
