@@ -57,12 +57,12 @@ export function Intro({ slides }: { slides: IntroSlide[] }) {
         {/* ① 左侧边缘收暗（从 0.42 → 0.22，弱一档，不然浅底上显脏） */}
         <span
           aria-hidden
-          className="pointer-events-none absolute inset-y-0 start-0 w-[30%] rtl:-scale-x-100 bg-[linear-gradient(90deg,rgba(180,200,222,0.22)_0%,rgba(200,218,236,0.10)_45%,rgba(232,242,250,0)_100%)]"
+          className="pointer-events-none absolute inset-y-0 start-0 w-[30%] bg-[linear-gradient(90deg,rgba(180,200,222,0.22)_0%,rgba(200,218,236,0.10)_45%,rgba(232,242,250,0)_100%)]"
         />
         {/* ② 右侧边缘收暗（同弱度对称） */}
         <span
           aria-hidden
-          className="pointer-events-none absolute inset-y-0 end-0 w-[30%] rtl:-scale-x-100 bg-[linear-gradient(270deg,rgba(180,200,222,0.22)_0%,rgba(200,218,236,0.10)_45%,rgba(232,242,250,0)_100%)]"
+          className="pointer-events-none absolute inset-y-0 end-0 w-[30%] bg-[linear-gradient(270deg,rgba(180,200,222,0.22)_0%,rgba(200,218,236,0.10)_45%,rgba(232,242,250,0)_100%)]"
         />
         {/* ③ 统一径向渐晕（外围 0.54 → 0.28，浅底上不要压太黑） */}
         <span
@@ -470,20 +470,22 @@ export function Intro({ slides }: { slides: IntroSlide[] }) {
             aria-hidden
             className="pointer-events-none absolute inset-y-0 start-0 hidden w-px bg-gradient-to-b from-transparent via-ink/18 to-transparent lg:block"
           />
-          {/* 左下 极浅蓝主聚光灯（25→11%，浅底上只亮不蓝） */}
+          {/* 左下 极浅蓝主聚光灯（25→11%，浅底上只亮不蓝）
+              用物理方向 left/right(非 start/end),让 ar/en 光晕位置一致,
+              避免 RTL 镜像导致 ar 底色右深左亮与其他语言不一致 */}
           <span
             aria-hidden
-            className="pointer-events-none absolute -bottom-28 -start-24 h-96 w-96 rounded-full bg-sky-400/11 blur-[140px]"
+            className="pointer-events-none absolute -bottom-28 -left-24 h-96 w-96 rounded-full bg-sky-400/11 blur-[140px]"
           />
           {/* 右上 极浅蓝补光（16→07%） */}
           <span
             aria-hidden
-            className="pointer-events-none absolute -end-20 -top-20 h-64 w-64 rounded-full bg-sky-300/7 blur-[130px]"
+            className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full bg-sky-300/7 blur-[130px]"
           />
           {/* 左上白微高光（22→30%，浅底上更自然的亮斑） */}
           <span
             aria-hidden
-            className="pointer-events-none absolute start-[8%] top-[6%] h-48 w-48 rounded-full bg-white/30 blur-[90px]"
+            className="pointer-events-none absolute left-[8%] top-[6%] h-48 w-48 rounded-full bg-white/30 blur-[90px]"
           />
           <div key={index} className="animate-fade-in-up">
             <h2 className="font-display mb-2 text-[1.125rem] font-semibold leading-[1.15] tracking-[-0.03em] text-ink sm:text-[1.375rem] md:mb-3 md:text-[1.75rem] lg:mb-4 lg:text-[2rem]">
