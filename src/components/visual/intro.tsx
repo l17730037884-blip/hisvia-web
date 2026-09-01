@@ -484,7 +484,7 @@ export function Intro({ slides }: { slides: IntroSlide[] }) {
 
         {/* 右：文案区（lg 双栏时 h-full 跟随左图比例锁死；移动端单列自然高度 — 移除 flex justify-center + overflow-hidden，保证小屏上一定完整展开，不被裁） */}
         <div
-          className="relative border-t border-ink/16 bg-transparent p-5 text-ink sm:p-7 md:p-9 lg:h-full lg:border-s lg:border-t-0 lg:flex lg:flex-col lg:justify-center lg:overflow-hidden"
+          className="hero-text relative border-t border-ink/16 bg-transparent p-5 text-ink sm:p-7 md:p-9 lg:h-full lg:border-s lg:border-t-0 lg:flex lg:flex-col lg:justify-center lg:overflow-hidden"
         >
           {/* 桌面左侧（lg 有 border-l）中性灰竖分隔线——与左图 border-r 同为 via-ink/18，合一条不显色差 */}
           <span

@@ -131,6 +131,15 @@
     word-break: keep-all;
   }
 
+  /* ── RTL Hero 布局:ar 首页 hero 保持「左图右文」和其他语言一致,
+       不让 grid 因 dir=rtl 自动反转;文字容器内部仍 RTL ── */
+  [dir="rtl"] .hero-grid-rtl-reverse {
+    direction: ltr;
+  }
+  [dir="rtl"] .hero-grid-rtl-reverse .hero-text {
+    direction: rtl;
+  }
+
   /* ── 玻璃渐变 (Glassmorphism) ── */
 
   /* 基础玻璃：半透 + 模糊 + 细边 */
