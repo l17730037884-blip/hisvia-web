@@ -76,65 +76,85 @@ export function LanguageSwitcher({ locale }: { locale: Locale }) {
     return () => document.removeEventListener("pointerdown", onDown);
   }, [open]);
 
-  return (
-    <div
-      ref={wrapRef}
-      className="relative inline-flex"
-      onMouseEnter={() => setOpen(true)}
-      onMouseLeave={() => setOpen(false)}
-    >
-      {/* 主按钮:globe 图标 */}
-      <button
-        type="button"
-        onClick={() => setOpen((v) => !v)}
-        aria-label={ARIA[locale]}
-        aria-expanded={open}
-        aria-haspopup="listbox"
-        className={cn(
-          "flex items-center justify-center rounded-full transition-colors",
-          "h-7 w-7 md:h-8 md:w-8",
-          "text-dark-muted hover:text-dark-text",
-          open && "text-dark-text",
-        )}
-      >
-        <GlobeIcon className="h-[18px] w-[18px] md:h-5 md:w-5" />
-      </button>
+  // 国旗按钮的公共样式
+  const flagBtn = (l: Locale, active: boolean) =>
+    cn(
+      "flex items-center justify-center rounded-full transition-all",
+      "h-7 w-7 md:h-8 md:w-8 text-base leading-none",
+      active
+        ? "bg-accent/25 ring-1 ring-accent/50"
+        : "hover:bg-white/10 opacity-70 hover:opacity-100",
+    );
 
-      {/* 展开的语言列表:紧贴按钮底部(top-full),上方用 pt-1 padding 代替 gap,
-          避免鼠标从按钮移到列表时穿过空隙触发 mouseleave */}
-      {open && (
-        <div
-          role="listbox"
-          aria-label="Language"
+  return (
+    <>
+      {/* ===== 桌面端:默认全显示 9 个国旗(无折叠) ===== */}
+      <nav
+        aria-label="Language"
+        className="hidden md:flex items-center gap-0.5"
+      >
+        {ORDER.map((l) => {
+          const active = l === locale;
+          return (
+            <Link
+              key={l}
+              href={to(l)}
+              aria-label={ARIA[l]}
+              aria-current={active ? "true" : undefined}
+              className={flagBtn(l, active)}
+            >
+              <span className="select-none">{FLAGS[l]}</span>
+            </Link>
+          );
+        })}
+      </nav>
+
+      {/* ===== 移动端:globe 折叠按钮(<md) ===== */}
+      <div
+        ref={wrapRef}
+        className="relative inline-flex md:hidden"
+      >
+        <button
+          type="button"
+          onClick={() => setOpen((v) => !v)}
+          aria-label={ARIA[locale]}
+          aria-expanded={open}
+          aria-haspopup="listbox"
           className={cn(
-            // 统一从右侧向左展开(因 RTL 用 flex-row-reverse,globe 已在右侧)
-            "absolute right-0 top-full z-50 pt-1",
+            "flex items-center justify-center rounded-full transition-colors",
+            "h-7 w-7",
+            "text-dark-muted hover:text-dark-text",
+            open && "text-dark-text",
           )}
         >
-          <div className="flex items-center gap-0.5 rounded-full border border-white/15 bg-[#0b141f]/95 p-1 backdrop-blur-md shadow-[0_8px_24px_rgba(0,0,0,0.4)]">
-            {ORDER.map((l) => {
-              const active = l === locale;
-              return (
-                <Link
-                  key={l}
-                  href={to(l)}
-                  aria-label={ARIA[l]}
-                  aria-current={active ? "true" : undefined}
-                  className={cn(
-                    "flex items-center justify-center rounded-full transition-all",
-                    "h-7 w-7 md:h-8 md:w-8 text-base leading-none",
-                    active
-                      ? "bg-accent/25 ring-1 ring-accent/50"
-                      : "hover:bg-white/10 opacity-70 hover:opacity-100",
-                  )}
-                >
-                  <span className="select-none">{FLAGS[l]}</span>
-                </Link>
-              );
-            })}
+          <GlobeIcon className="h-[18px] w-[18px]" />
+        </button>
+
+        {open && (
+          <div
+            role="listbox"
+            aria-label="Language"
+            className="absolute right-0 top-full z-50 pt-1"
+          >
+            <div className="flex items-center gap-0.5 rounded-full border border-white/15 bg-[#0b141f]/95 p-1 backdrop-blur-md shadow-[0_8px_24px_rgba(0,0,0,0.4)]">
+              {ORDER.map((l) => {
+                const active = l === locale;
+                return (
+                  <Link
+                    key={l}
+                    href={to(l)}
+                    aria-label={ARIA[l]}
+                    aria-current={active ? "true" : undefined}
+                    className={flagBtn(l, active)}
+                  >
+                    <span className="select-none">{FLAGS[l]}</span>
+                  </Link>
+                );
+              })}
+            </div>
           </div>
-        </div>
-      )}
-    </div>
+        )}
+      </div>
+    </>
   );
 }
