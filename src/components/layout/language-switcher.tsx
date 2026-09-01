@@ -35,26 +35,6 @@ const ARIA: Record<Locale, string> = {
   pl: "Polski",
 };
 
-/** Globe 图标(SVG,24×24,stroke)。 */
-function GlobeIcon({ className }: { className?: string }) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.6"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      className={className}
-      aria-hidden
-    >
-      <circle cx="12" cy="12" r="9.5" />
-      <path d="M3 12h18" />
-      <path d="M12 2.5a14 14 0 0 1 0 19M12 2.5a14 14 0 0 0 0 19" />
-    </svg>
-  );
-}
-
 export function LanguageSwitcher({ locale }: { locale: Locale }) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
@@ -109,7 +89,7 @@ export function LanguageSwitcher({ locale }: { locale: Locale }) {
         })}
       </nav>
 
-      {/* ===== 移动端:globe 折叠按钮(<md) ===== */}
+      {/* ===== 移动端:国旗折叠按钮(<md,显示当前语言旗帜) ===== */}
       <div
         ref={wrapRef}
         className="relative inline-flex md:hidden"
@@ -121,13 +101,14 @@ export function LanguageSwitcher({ locale }: { locale: Locale }) {
           aria-expanded={open}
           aria-haspopup="listbox"
           className={cn(
-            "flex items-center justify-center rounded-full transition-colors",
-            "h-7 w-7",
-            "text-dark-muted hover:text-dark-text",
-            open && "text-dark-text",
+            "flex items-center justify-center rounded-full transition-all",
+            "h-7 w-7 text-base leading-none",
+            open
+              ? "bg-accent/25 ring-1 ring-accent/50"
+              : "hover:bg-white/10 opacity-70 hover:opacity-100",
           )}
         >
-          <GlobeIcon className="h-[18px] w-[18px]" />
+          <span className="select-none">{FLAGS[locale]}</span>
         </button>
 
         {open && (
