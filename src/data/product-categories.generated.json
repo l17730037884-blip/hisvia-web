@@ -18,7 +18,14 @@
         "id": "agv",
         "label": {
           "ru": "Серия AGV",
-          "en": "AGV Series"
+          "en": "AGV Series",
+          "zh-CN": "AGV系列",
+          "tr": "AGV Serisi",
+          "es": "Serie AGV",
+          "ar": "سلسلة AGV",
+          "de": "AGV-Serie",
+          "fr": "Série AGV",
+          "pl": "Seria AGV"
         },
         "count": 5
       },
@@ -26,7 +33,14 @@
         "id": "hydraulic",
         "label": {
           "ru": "Гидроцилиндры",
-          "en": "Hydraulic Cylinders"
+          "en": "Hydraulic Cylinders",
+          "zh-CN": "液压油缸",
+          "tr": "Hidrolik Silindirler",
+          "es": "Cilindros Hidráulicos",
+          "ar": "أسطوانات هيدروليكية",
+          "de": "Hydraulikzylinder",
+          "fr": "Vérins Hydrauliques",
+          "pl": "Siłowniki Hydrauliczne"
         },
         "count": 10
       },
@@ -34,7 +48,14 @@
         "id": "planetary",
         "label": {
           "ru": "Планетарные редукторы",
-          "en": "Planetary Reducers"
+          "en": "Planetary Reducers",
+          "zh-CN": "行星减速器",
+          "tr": "Planet Redüktörler",
+          "es": "Reductores Planetarios",
+          "ar": "مخفضات كوكبية",
+          "de": "Planetengetriebe",
+          "fr": "Réducteurs Planétaires",
+          "pl": "Przekładnie Planetarne"
         },
         "count": 18
       },
@@ -42,7 +63,14 @@
         "id": "slewing",
         "label": {
           "ru": "Поворотные редукторы",
-          "en": "Slewing Reducers"
+          "en": "Slewing Reducers",
+          "zh-CN": "回转减速器",
+          "tr": "Döner Redüktörler",
+          "es": "Reductores Orientables",
+          "ar": "مخفضات دوارة",
+          "de": "Drehgetriebe",
+          "fr": "Réducteurs Orientables",
+          "pl": "Przekładnie Obrotowe"
         },
         "count": 7
       },
@@ -50,7 +78,14 @@
         "id": "winch",
         "label": {
           "ru": "Лебёдочные редукторы",
-          "en": "Winch Gearboxes"
+          "en": "Winch Gearboxes",
+          "zh-CN": "绞车减速器",
+          "tr": "Vinç Redüktörleri",
+          "es": "Reductores de Malacate",
+          "ar": "مخفضات الونش",
+          "de": "Seilwindengetriebe",
+          "fr": "Réducteurs de Treuil",
+          "pl": "Przekładnie Wciągarek"
         },
         "count": 2
       }

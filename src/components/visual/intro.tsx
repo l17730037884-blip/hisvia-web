@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { cn } from "@/lib/cn";
 
 export type IntroSlide = {
@@ -13,6 +13,41 @@ export type IntroSlide = {
 
 export function Intro({ slides }: { slides: IntroSlide[] }) {
   const [index, setIndex] = useState(0);
+  // 客户端 viewport + RTL 检测:用 ref 直接修改 DOM style,避免 setState in effect 的 lint 错误
+  // 在 lg+ 视口 + RTL 模式下,把 hero grid 反转(图片在右,文字在左)
+  // 绕过 Tailwind v4 的 rtl:lg: 变体编译问题
+  const heroGridRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    const grid = heroGridRef.current;
+    if (!grid) return;
+
+    const update = () => {
+      const isLg = window.matchMedia("(min-width: 1024px)").matches;
+      const isRtl = document.documentElement.dir === "rtl";
+      // lg + RTL:反转 grid 列宽(图片在右窄列,文字在左宽列)
+      if (isLg && isRtl) {
+        grid.style.gridTemplateColumns = "1fr 1.4fr";
+      } else {
+        grid.style.gridTemplateColumns = "";
+      }
+    };
+
+    update();
+
+    const mq = window.matchMedia("(min-width: 1024px)");
+    mq.addEventListener("change", update);
+
+    const doc = document.documentElement;
+    const observer = new MutationObserver(update);
+    observer.observe(doc, { attributes: true, attributeFilter: ["dir"] });
+
+    return () => {
+      mq.removeEventListener("change", update);
+      observer.disconnect();
+    };
+  }, []);
+
   const slide = slides[index] ?? slides[0];
 
   const goTo = useCallback(
@@ -33,7 +68,8 @@ export function Intro({ slides }: { slides: IntroSlide[] }) {
     <div className="overflow-hidden">
       {/* 左图右文宽屏 Hero：容器比例 = 图片真实比例 2.025:1（405/200）锁定；不再写死像素高度 */}
       <div
-        className="relative grid lg:grid-cols-[1.4fr_1fr] lg:items-stretch"
+        ref={heroGridRef}
+        className="hero-grid-rtl-reverse relative grid lg:grid-cols-[1.4fr_1fr] rtl:lg:grid-cols-[1fr_1.4fr] lg:items-stretch"
         style={{
           // 非常浅的蓝：RGB 几乎白，只带 6~9% 的蓝色，肉眼是"带一丝凉意的白"
           background:

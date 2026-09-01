@@ -6,12 +6,24 @@ import { Container } from "@/components/ui/container";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
 import { MobileMenu } from "@/components/layout/mobile-menu";
 import { NavLink } from "@/components/layout/nav-link";
+import { NavDropdown } from "@/components/layout/nav-dropdown";
 import { getNavItems } from "@/lib/nav";
 import { resolveAsset } from "@/lib/assets";
 import { localized } from "@/lib/content";
 import type { Locale } from "@/lib/locale";
+import categoriesData from "@/data/product-categories.generated.json";
 
 const ACTIVE_KEYS = ["nav_about", "nav_products", "nav_technology", "nav_certifications", "nav_customization", "nav_contact"];
+
+/** 产品子分类 5 项的多语言 label 兜底(数据文件已有 9 语言,这里仅 fallback)。 */
+function getProductsSubItems(locale: Locale) {
+  const cats = (categoriesData as { tabLabels: { categories: { id: string; label: Record<string, string> }[] } }).tabLabels.categories;
+  return cats.map((c) => ({
+    id: c.id,
+    label: c.label[locale] ?? c.label.en ?? c.label.ru ?? c.id,
+    href: `/${locale}/products#cat-${c.id}`,
+  }));
+}
 
 export default function Header({ locale }: { locale: Locale }) {
   const items = getNavItems(locale).filter((item) => ACTIVE_KEYS.includes(item.key));
@@ -164,6 +176,18 @@ export default function Header({ locale }: { locale: Locale }) {
                     </svg>
                     {item.label}
                   </Link>
+                );
+              }
+              // Products 项使用 NavDropdown 显示 5 大子分类
+              if (item.key === "nav_products") {
+                return (
+                  <NavDropdown
+                    key={item.key}
+                    href={item.href}
+                    label={item.label}
+                    subItems={getProductsSubItems(locale)}
+                    className="whitespace-nowrap text-[0.8125rem] font-medium tracking-[-0.02em] md:text-[0.875rem]"
+                  />
                 );
               }
               return (
