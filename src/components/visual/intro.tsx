@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useEffect, useCallback } from "react";
+import { usePathname } from "next/navigation";
 import { cn } from "@/lib/cn";
 
 export type IntroSlide = {
@@ -13,40 +14,12 @@ export type IntroSlide = {
 
 export function Intro({ slides }: { slides: IntroSlide[] }) {
   const [index, setIndex] = useState(0);
-  // 客户端 viewport + RTL 检测:用 ref 直接修改 DOM style,避免 setState in effect 的 lint 错误
-  // 在 lg+ 视口 + RTL 模式下,把 hero grid 反转(图片在右,文字在左)
-  // 绕过 Tailwind v4 的 rtl:lg: 变体编译问题
-  const heroGridRef = useRef<HTMLDivElement | null>(null);
-
-  useEffect(() => {
-    const grid = heroGridRef.current;
-    if (!grid) return;
-
-    const update = () => {
-      const isLg = window.matchMedia("(min-width: 1024px)").matches;
-      const isRtl = document.documentElement.dir === "rtl";
-      // lg + RTL:反转 grid 列宽(图片在右窄列,文字在左宽列)
-      if (isLg && isRtl) {
-        grid.style.gridTemplateColumns = "1fr 1.4fr";
-      } else {
-        grid.style.gridTemplateColumns = "";
-      }
-    };
-
-    update();
-
-    const mq = window.matchMedia("(min-width: 1024px)");
-    mq.addEventListener("change", update);
-
-    const doc = document.documentElement;
-    const observer = new MutationObserver(update);
-    observer.observe(doc, { attributes: true, attributeFilter: ["dir"] });
-
-    return () => {
-      mq.removeEventListener("change", update);
-      observer.disconnect();
-    };
-  }, []);
+  // RTL 检测:ar 路径需要强制 hero 容器 LTR(图片在左、文字在右,与其他语言一致),
+  // 同时让文字容器内部保持 RTL 阅读方向。
+  // 用 inline style 直接控制,绕过 Lightning CSS 编译时剥离 [dir="rtl"] 前缀的 bug
+  // (globals.css 里写 [dir="rtl"] .hero-grid-rtl-reverse 会被压成 .hero-grid-rtl-reverse 全局生效)
+  const pathname = usePathname();
+  const isRtl = pathname?.startsWith("/ar") ?? false;
 
   const slide = slides[index] ?? slides[0];
 
@@ -73,6 +46,9 @@ export function Intro({ slides }: { slides: IntroSlide[] }) {
           // 非常浅的蓝：RGB 几乎白，只带 6~9% 的蓝色，肉眼是"带一丝凉意的白"
           background:
             "linear-gradient(135deg,#f6fafd 0%,#eff6fb 30%,#eaf4fb 75%,#f0f6fb 100%)",
+          // ar(RTL)强制容器 LTR 排列:图片在左、文字在右(与其他语言一致);
+          // 非 RTL 语言保持默认(undefined),不影响
+          direction: isRtl ? "ltr" : undefined,
         }}
       >
         {/* ===========================================================
@@ -485,6 +461,9 @@ export function Intro({ slides }: { slides: IntroSlide[] }) {
         {/* 右：文案区（lg 双栏时 h-full 跟随左图比例锁死；移动端单列自然高度 — 移除 flex justify-center + overflow-hidden，保证小屏上一定完整展开，不被裁） */}
         <div
           className="hero-text relative border-t border-ink/16 bg-transparent p-5 text-ink sm:p-7 md:p-9 lg:h-full lg:border-s lg:border-t-0 lg:flex lg:flex-col lg:justify-center lg:overflow-hidden"
+          // ar:容器外层 LTR 后,文字容器内部要恢复 RTL 阅读方向(阿语字符正确流式);
+          // 非 RTL 语言保持默认
+          style={{ direction: isRtl ? "rtl" : undefined }}
         >
           {/* 桌面左侧（lg 有 border-l）中性灰竖分隔线——与左图 border-r 同为 via-ink/18，合一条不显色差 */}
           <span

@@ -131,14 +131,10 @@
     word-break: keep-all;
   }
 
-  /* ── RTL Hero 布局:ar 首页 hero 保持「左图右文」和其他语言一致,
-       不让 grid 因 dir=rtl 自动反转;文字容器内部仍 RTL ── */
-  [dir="rtl"] .hero-grid-rtl-reverse {
-    direction: ltr;
-  }
-  [dir="rtl"] .hero-grid-rtl-reverse .hero-text {
-    direction: rtl;
-  }
+  /* ── RTL Hero 布局修正已移到 intro.tsx 用 inline style 处理 ──
+     原因:Lightning CSS 编译时会把 [dir="rtl"] .hero-grid-rtl-reverse
+     压成 .hero-grid-rtl-reverse 全局生效,污染所有语言的 .hero-text
+     方向(变成 RTL),所以改用 React usePathname 检测 + inline style 控制 */
 
   /* ── 玻璃渐变 (Glassmorphism) ── */
 

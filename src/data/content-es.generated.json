@@ -291,7 +291,7 @@
       "contentId": "ES-P04-B01",
       "sourceContentId": "CN-P04-B01",
       "sourceCn": "AGV是（Automated Guided Vehicle）的缩写，意即“自动导引运输车”，又名无人搬运车、自动导航车、激光导航车。其显著特点的是无人驾驶，AGV上装备有自动导向系统，可以保障系统在不需要人工引航的情况下就能够沿预定的路线自动行驶，将货物或物料自动从起始点运送到目的地。移动系统的关键传统部件即行星齿轮精密减速器。",
-      "translation": "AGV es la abreviatura de Automated Guided Vehicle (Vehículo Guiado Automatizado), es decir, «vehículo de transporte guiado automáticamente», también denominado vehículo de transporte sin conductor, vehículo de navegación automática o vehículo de navegación láser. Su característica más destacada es la conducción sin conductor: el AGV está equipado con un sistema de guiado automático que le permite recorrer una ruta predefinida sin pilotaje manual, transportando mercancías o materiales automáticamente desde el punto de origen hasta el destino. El componente clave del sistema de desplazamiento es el reductor planetario de engranajes de precisión.",
+      "translation": "AGV es la abreviatura de «Vehículo Guiado Automatizado», es decir, «vehículo de transporte guiado automáticamente», también denominado vehículo de transporte sin conductor, vehículo de navegación automática o vehículo de navegación láser. Su característica más destacada es la conducción sin conductor: el AGV está equipado con un sistema de guiado automático que le permite recorrer una ruta predefinida sin pilotaje manual, transportando mercancías o materiales automáticamente desde el punto de origen hasta el destino. El componente clave del sistema de desplazamiento es el reductor planetario de engranajes de precisión.",
       "translationStatus": "TRANSLATED",
       "confidence": 0.9,
       "glossaryTermsUsed": [
