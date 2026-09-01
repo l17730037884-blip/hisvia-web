@@ -68,8 +68,7 @@ export function Intro({ slides }: { slides: IntroSlide[] }) {
     <div className="overflow-hidden">
       {/* 左图右文宽屏 Hero：容器比例 = 图片真实比例 2.025:1（405/200）锁定；不再写死像素高度 */}
       <div
-        ref={heroGridRef}
-        className="hero-grid-rtl-reverse relative grid lg:grid-cols-[1.4fr_1fr] rtl:lg:grid-cols-[1fr_1.4fr] lg:items-stretch"
+        className="hero-grid-rtl-reverse relative grid lg:grid-cols-[1.4fr_1fr] lg:items-stretch"
         style={{
           // 非常浅的蓝：RGB 几乎白，只带 6~9% 的蓝色，肉眼是"带一丝凉意的白"
           background:

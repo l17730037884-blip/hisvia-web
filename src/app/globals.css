@@ -131,14 +131,6 @@
     word-break: keep-all;
   }
 
-  /* ── RTL Hero Grid 兜底:Tailwind v4 没把 rtl:lg:grid-cols-[1fr_1.4fr] 编译出来,
-       用纯 CSS 兜底,确保 ar 首页 hero 在 lg+ 视口下图文反转 ── */
-  @media (min-width: 1024px) {
-    [dir="rtl"] .hero-grid-rtl-reverse {
-      grid-template-columns: 1fr 1.4fr !important;
-    }
-  }
-
   /* ── 玻璃渐变 (Glassmorphism) ── */
 
   /* 基础玻璃：半透 + 模糊 + 细边 */
