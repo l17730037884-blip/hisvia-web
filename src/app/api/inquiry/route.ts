@@ -5,10 +5,14 @@ import { type Locale, isLocale } from "@/lib/locale";
 
 /** 询盘表单后台接口。
  *  · POST：校验必填（name/phone/message）、email 格式；
- *  · 校验通过后，通过 nodemailer SMTP 发送真实邮件到收件箱 `info@hisvia.com`
- *    — SMTP 凭据通过环境变量配置：SMTP_HOST / SMTP_PORT / SMTP_SECURE / SMTP_USER / SMTP_PASS
- *    — 若环境变量未配齐：跳过发送（不阻塞提交），前端仍显示"提交成功"；
- *      服务器日志会有提醒，便于上线前补配置。
+ *  · 校验通过后，做两件事(均失败不阻塞提交):
+ *    1) 通过 nodemailer SMTP 发送真实邮件到收件箱 `info@hisvia.com`
+ *       — SMTP 凭据通过环境变量配置：SMTP_HOST / SMTP_PORT / SMTP_SECURE / SMTP_USER / SMTP_PASS
+ *       — 若环境变量未配齐：跳过发送，前端仍显示"提交成功"；服务器日志会有提醒。
+ *    2) 转发到 CRM 后端 POST {CRM_API_URL}/api/v1/inquiries
+ *       — CRM_API_URL 通过环境变量配置(本地开发 http://localhost:8000,生产公网可达 URL)
+ *       — 失败只在服务端日志记录,不影响前端体验。
+ *       — CRM 后台可从此处统一管理所有询盘。
  *  · 前端行为：任何服务端 4xx/5xx 或网络异常，前端都会 fallback 到 mailto: 链接兜底。
  */
 export const runtime = "nodejs";
@@ -217,6 +221,59 @@ async function trySendEmail(data: {
   }
 }
 
+/** 转发询盘到 CRM 后端 POST /api/v1/inquiries。
+ *  CRM_API_URL 环境变量配置后端地址(本地: http://localhost:8000)。
+ *  失败只在服务端日志记录,不阻塞询盘提交。
+ */
+async function forwardToCRM(
+  data: {
+    name: string;
+    phone: string;
+    email: string;
+    company: string;
+    product: string;
+    message: string;
+    locale: Locale;
+  },
+  ctx: { sourceUrl?: string | null; userAgent?: string | null },
+): Promise<{ ok: boolean; reason?: string; info?: unknown }> {
+  const crmApiUrl = process.env.CRM_API_URL;
+  if (!crmApiUrl) {
+    return { ok: false, reason: "crm_api_url_missing" };
+  }
+
+  try {
+    const res = await fetch(`${crmApiUrl.replace(/\/$/, "")}/api/v1/inquiries`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name: data.name,
+        phone: data.phone,
+        email: data.email || null,
+        company: data.company || null,
+        product: data.product || null,
+        message: data.message,
+        locale: data.locale,
+        source: "website",
+        sourceUrl: ctx.sourceUrl ?? null,
+        userAgent: (ctx.userAgent ?? "").slice(0, 500) || null,
+      }),
+    });
+    if (!res.ok) {
+      const text = await res.text().catch(() => "");
+      return { ok: false, reason: `crm_http_${res.status}`, info: text.slice(0, 500) };
+    }
+    const json = (await res.json()) as { id?: string };
+    return { ok: true, info: { id: json.id } };
+  } catch (err) {
+    return {
+      ok: false,
+      reason: "crm_network_error",
+      info: err instanceof Error ? err.message : String(err),
+    };
+  }
+}
+
 export async function POST(req: NextRequest) {
   let json: Payload;
   try {
@@ -280,7 +337,30 @@ export async function POST(req: NextRequest) {
     console.info(`[api/inquiry] 邮件已成功发送到 ${INQUIRY_TO}`, mailResult.info ?? "");
   }
 
-  return NextResponse.json({ ok: true, sent: mailResult.ok, to: INQUIRY_TO });
+  // 转发到 CRM 后端 → 失败不阻塞提交(只在服务端日志记录)
+  // 取来源页面 URL(referer) + 浏览器 UA,供 CRM 后台追溯。
+  const ctx = {
+    sourceUrl: req.headers.get("referer"),
+    userAgent: req.headers.get("user-agent"),
+  };
+  const crmResult = await forwardToCRM(entry, ctx);
+  if (!crmResult.ok) {
+    console.warn(
+      `[api/inquiry] CRM 转发失败（原因：${crmResult.reason}）。` +
+        `请配置 .env.local 的 CRM_API_URL (本地 http://localhost:8000,生产公网 URL),` +
+        `询盘将同步到 CRM 后台统一管理。`,
+      crmResult.info ?? ""
+    );
+  } else {
+    console.info("[api/inquiry] 已同步到 CRM 后台", crmResult.info ?? "");
+  }
+
+  return NextResponse.json({
+    ok: true,
+    sent: mailResult.ok,
+    crmSynced: crmResult.ok,
+    to: INQUIRY_TO,
+  });
 }
 
 export function GET() {
